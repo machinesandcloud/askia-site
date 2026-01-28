@@ -64,6 +64,8 @@
         const message = wrapper.querySelector("[data-assessment-message]");
         const recommendation = wrapper.querySelector("[data-assessment-recommendation]");
         const cta = wrapper.querySelector("[data-assessment-cta]");
+        const scoreEl = wrapper.querySelector("[data-assessment-score]");
+        const bookBtn = wrapper.querySelector("[data-assessment-book]");
 
         const questions = [
           {
@@ -228,17 +230,19 @@
           prevBtn.disabled = index === 0;
           nextBtn.textContent = index === questions.length - 1 ? "See Results" : "Next";
           nextBtn.disabled = answers[index] === null;
-          result.hidden = true;
+          resetResult();
         };
 
-        const renderResult = (bucket) => {
+        const renderResult = (bucket, score) => {
           result.hidden = false;
           result.classList.remove("green", "yellow", "red");
           result.classList.add(bucket);
+          scoreEl.textContent = `Career Readiness Score: ${score} / 48`;
           title.textContent = outcomes[bucket].title;
           message.textContent = outcomes[bucket].message;
           recommendation.innerHTML = outcomes[bucket].recs.map((item) => `<li>${item}</li>`).join("");
           cta.textContent = outcomes[bucket].cta;
+          bookBtn.style.display = bucket === "green" ? "none" : "inline-flex";
         };
 
         prevBtn.addEventListener("click", () => {
@@ -258,15 +262,26 @@
 
           const score = answers.reduce((sum, value) => sum + Number(value || 0), 0);
           if (score >= 40) {
-            renderResult("green");
+            renderResult("green", score);
           } else if (score >= 28) {
-            renderResult("yellow");
+            renderResult("yellow", score);
           } else {
-            renderResult("red");
+            renderResult("red", score);
           }
         });
 
+        const resetResult = () => {
+          result.hidden = true;
+          title.textContent = "";
+          message.textContent = "";
+          recommendation.innerHTML = "";
+          cta.textContent = "";
+          scoreEl.textContent = "";
+          bookBtn.style.display = "none";
+        };
+
         renderQuestion();
+        resetResult();
       });
     </script>
   </body>

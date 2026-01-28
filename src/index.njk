@@ -102,10 +102,12 @@ description: "Askia helps top talent secure high-paying tech roles."
         <span class="assessment-hint">Maximum score: 48 · Minimum score: 1</span>
       </div>
       <div class="assessment-result" data-assessment-result hidden>
+        <div class="assessment-orb"></div>
+        <p class="assessment-score" data-assessment-score></p>
         <h3 data-assessment-title></h3>
         <p data-assessment-message></p>
         <ul data-assessment-recommendation></ul>
-        <a class="btn btn-ghost" href="{{ site.cta.link }}">Book a Strategy Call</a>
+        <a class="btn btn-ghost" href="{{ site.cta.link }}" data-assessment-book>Book a Strategy Call</a>
         <p class="assessment-cta" data-assessment-cta></p>
         <p class="assessment-footnote">“The Career Readiness Index™ is based on real hiring patterns across senior tech, leadership, and platform roles — not generic career advice.”</p>
       </div>
