@@ -62,6 +62,49 @@
       { "name": "Shopify", "logo": "/assets/logos/shopify.svg", "accent": "rgba(149,191,71,0.3)" }
     ]
   },
+  "success": {
+    "title": "They didn’t just land offers — they leveled up",
+    "subtitle": "Real people. Real momentum. Real confidence.",
+    "body": "These are the moments we build toward. Clarity, confidence, and the kind of offers that change your trajectory.",
+    "items": [
+      {
+        "name": "Alyssa",
+        "role": "Product Designer",
+        "company": "Fintech",
+        "image": "/assets/success/happy-1.jpg"
+      },
+      {
+        "name": "Derrick",
+        "role": "Senior Engineer",
+        "company": "Big Tech",
+        "image": "/assets/success/happy-2.jpg"
+      },
+      {
+        "name": "Priya",
+        "role": "Data Scientist",
+        "company": "AI Startup",
+        "image": "/assets/success/happy-3.jpg"
+      },
+      {
+        "name": "Marco",
+        "role": "Engineering Manager",
+        "company": "Enterprise",
+        "image": "/assets/success/happy-4.jpg"
+      },
+      {
+        "name": "Leila",
+        "role": "Product Manager",
+        "company": "Growth",
+        "image": "/assets/success/happy-5.jpg"
+      },
+      {
+        "name": "Noah",
+        "role": "Platform Engineer",
+        "company": "Cloud",
+        "image": "/assets/success/happy-6.jpg"
+      }
+    ]
+  },
   "about": {
     "title": "About Askia",
     "subtitle": "Helping top talent secure high-paying tech roles.",

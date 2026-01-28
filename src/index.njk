@@ -118,10 +118,31 @@ description: "Askia helps top talent secure high-paying tech roles."
 </section>
 
 <section class="section">
-  <div class="container about-panel">
-    <h2 class="section-title">{{ home.about.title }}</h2>
-    <p class="section-subtitle">{{ home.about.subtitle }}</p>
-    <p>{{ home.about.body }}</p>
+  <div class="container success-wrap">
+    <div class="success-copy">
+      <p class="hero-eyebrow">Success Carousel</p>
+      <h2 class="section-title">{{ home.success.title }}</h2>
+      <p class="section-subtitle">{{ home.success.subtitle }}</p>
+      <p>{{ home.success.body }}</p>
+    </div>
+    <div class="success-carousel" data-success-carousel>
+      <div class="success-viewport">
+        {% for item in home.success.items %}
+          <div class="success-slide{% if loop.first %} is-active{% endif %}">
+            <img src="{{ item.image }}" alt="{{ item.name }} - {{ item.role }}" />
+            <div class="success-caption">
+              <strong>{{ item.name }}</strong>
+              <span>{{ item.role }} · {{ item.company }}</span>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="success-dots">
+        {% for item in home.success.items %}
+          <span{% if loop.first %} class="is-active"{% endif %}></span>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </section>
 

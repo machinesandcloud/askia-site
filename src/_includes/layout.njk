@@ -46,6 +46,29 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", () => {
+        const carousel = document.querySelector("[data-success-carousel]");
+        if (carousel) {
+          const slides = Array.from(carousel.querySelectorAll(".success-slide"));
+          const dots = Array.from(carousel.querySelectorAll(".success-dots span"));
+          let index = 0;
+          const showSlide = (next) => {
+            slides[index].classList.remove("is-active");
+            dots[index].classList.remove("is-active");
+            index = next;
+            slides[index].classList.add("is-active");
+            dots[index].classList.add("is-active");
+          };
+          const next = () => showSlide((index + 1) % slides.length);
+          let timer = setInterval(next, 4200);
+          carousel.addEventListener("mouseenter", () => clearInterval(timer));
+          carousel.addEventListener("mouseleave", () => {
+            timer = setInterval(next, 4200);
+          });
+          dots.forEach((dot, idx) => {
+            dot.addEventListener("click", () => showSlide(idx));
+          });
+        }
+
         const wrapper = document.querySelector("[data-assessment]");
         if (!wrapper) return;
 
