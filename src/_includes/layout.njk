@@ -51,22 +51,52 @@
           const cards = Array.from(serviceCarousel.querySelectorAll(".carousel-card"));
           const prev = document.querySelector("[data-carousel-prev]");
           const next = document.querySelector("[data-carousel-next]");
-          const cardWidth = () => cards[0].getBoundingClientRect().width + 18;
+          const dotsWrapper = document.querySelector("[data-carousel-dots]");
+          const carouselGap = () => {
+            const styles = getComputedStyle(serviceCarousel);
+            return parseFloat(styles.columnGap || styles.gap) || 0;
+          };
+          const cardWidth = () => cards[0].getBoundingClientRect().width + carouselGap();
+          const scrollToCard = (card, behavior = "smooth") => {
+            const offset = card.offsetLeft - (serviceCarousel.clientWidth - card.clientWidth) / 2;
+            serviceCarousel.scrollTo({ left: offset, behavior });
+          };
+          let dots = [];
+          if (dotsWrapper) {
+            dotsWrapper.innerHTML = "";
+            dots = cards.map((card) => {
+              const dot = document.createElement("button");
+              const title = card.querySelector("h3")?.textContent?.trim() || "service";
+              dot.type = "button";
+              dot.setAttribute("aria-label", `Go to ${title}`);
+              dot.addEventListener("click", () => scrollToCard(card));
+              dotsWrapper.appendChild(dot);
+              return dot;
+            });
+          }
           const snapToCenter = () => {
-            const center = serviceCarousel.scrollLeft + serviceCarousel.clientWidth / 2;
+            const carouselBox = serviceCarousel.getBoundingClientRect();
+            const carouselCenter = carouselBox.left + carouselBox.width / 2;
             let closest = null;
             let closestDist = Infinity;
             cards.forEach((card) => {
               const box = card.getBoundingClientRect();
               const cardCenter = box.left + box.width / 2;
-              const dist = Math.abs(cardCenter - window.innerWidth / 2);
+              const dist = Math.abs(cardCenter - carouselCenter);
               if (dist < closestDist) {
                 closestDist = dist;
                 closest = card;
               }
             });
             cards.forEach((card) => card.classList.remove("is-active"));
-            if (closest) closest.classList.add("is-active");
+            if (closest) {
+              closest.classList.add("is-active");
+              if (dots.length) {
+                const idx = cards.indexOf(closest);
+                dots.forEach((dot) => dot.classList.remove("is-active"));
+                if (dots[idx]) dots[idx].classList.add("is-active");
+              }
+            }
           };
           const scrollByCard = (dir) => {
             serviceCarousel.scrollBy({ left: cardWidth() * dir, behavior: "smooth" });
@@ -82,6 +112,10 @@
           });
           prev.addEventListener("click", () => scrollByCard(-1));
           next.addEventListener("click", () => scrollByCard(1));
+          const featured = serviceCarousel.querySelector(".carousel-card.is-featured");
+          if (featured) {
+            scrollToCard(featured, "auto");
+          }
           snapToCenter();
         }
         const carousel = document.querySelector("[data-success-carousel]");
