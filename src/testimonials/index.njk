@@ -3,35 +3,96 @@ layout: layout.njk
 title: Testimonials
 description: "Askia client success stories."
 ---
-<section class="hero">
+<section class="hero testimonial-hero">
   <div class="container hero-grid">
     <div>
-      <h1>{{ testimonials.hero.title }}</h1>
-      <p>{{ testimonials.hero.subtitle }}</p>
-      <a class="btn btn-primary" href="{{ testimonials.hero.ctaLink }}">{{ testimonials.hero.ctaLabel }}</a>
+      <p class="hero-eyebrow">Success Stories</p>
+      <h1 class="hero-title section-title-glow">{{ testimonials.hero.title }}</h1>
+      <p class="hero-subtitle">{{ testimonials.hero.subtitle }}</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ testimonials.hero.ctaLink }}">{{ testimonials.hero.ctaLabel }}</a>
+        <span class="hero-proof">Built on real outcomes, not empty hype.</span>
+      </div>
+      <div class="testimonial-proof">
+        <span>Offer-ready positioning</span>
+        <span>Interview momentum</span>
+        <span>Negotiation confidence</span>
+      </div>
     </div>
-    <div class="card">
+    <div class="testimonial-hero-panel">
+      <div class="panel-glow"></div>
       <strong>What clients say</strong>
-      <p>Real outcomes from professionals who used the Askia system to land top offers.</p>
+      <p>Short, specific wins from professionals who used Askia to land serious offers.</p>
       <div class="rating">★★★★★</div>
+      <div class="panel-stats">
+        <div>
+          <span class="stat-label">Outcomes</span>
+          <span class="stat-value">$100K–$350K roles</span>
+        </div>
+        <div>
+          <span class="stat-label">Focus</span>
+          <span class="stat-value">Clarity → interviews → offers</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section">
+<section class="section testimonial-spotlight">
+  <div class="container spotlight-grid">
+    {% set spotlight = testimonials.items[0] %}
+    <div class="spotlight-card">
+      <div class="spotlight-top">
+        <span class="spotlight-eyebrow">Featured Story</span>
+        <div class="rating">{{ "★" | repeat(spotlight.rating) }}</div>
+      </div>
+      <h2>{{ spotlight.quote }}</h2>
+      <div class="spotlight-meta">
+        <img class="avatar" src="{{ spotlight.photo }}" alt="{{ spotlight.name }}" />
+        <div>
+          <strong>{{ spotlight.name }}</strong>
+          <div class="section-subtitle">{{ spotlight.role }} · {{ spotlight.company }}</div>
+        </div>
+      </div>
+      <div class="spotlight-tags">
+        <span>Positioning</span>
+        <span>Interview strategy</span>
+        <span>Offer clarity</span>
+      </div>
+    </div>
+    <div class="spotlight-side">
+      <div class="side-card">
+        <strong>Why these stories matter</strong>
+        <p>We focus on clarity, confidence, and execution — the three levers that consistently move offers forward.</p>
+      </div>
+      <div class="side-card">
+        <strong>Common wins</strong>
+        <ul>
+          <li>Sharper narrative that recruiters understand</li>
+          <li>Faster interview momentum with targeted outreach</li>
+          <li>Stronger offer strategy and negotiation posture</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section testimonial-stage">
   <div class="container testimonial-grid">
     {% for item in testimonials.items %}
-      <div class="testimonial-card">
-        <div class="testimonial-header">
-          <img class="avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
-          <div>
-            <strong>{{ item.name }}</strong>
-            <div class="section-subtitle">{{ item.role }} · {{ item.company }}</div>
+      {% if loop.index0 > 0 %}
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img class="avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
+            <div>
+              <strong>{{ item.name }}</strong>
+              <div class="section-subtitle">{{ item.role }} · {{ item.company }}</div>
+            </div>
           </div>
+          <div class="rating">{{ "★" | repeat(item.rating) }}</div>
+          <p>{{ item.quote }}</p>
         </div>
-        <div class="rating">{{ "★" | repeat(item.rating) }}</div>
-        <p>{{ item.quote }}</p>
-      </div>
+      {% endif %}
     {% endfor %}
   </div>
 </section>
