@@ -52,28 +52,38 @@
           const prev = document.querySelector("[data-carousel-prev]");
           const next = document.querySelector("[data-carousel-next]");
           const dotsWrapper = document.querySelector("[data-carousel-dots]");
-          const carouselGap = () => {
+          const cardsPerView = () => {
             const styles = getComputedStyle(serviceCarousel);
-            return parseFloat(styles.columnGap || styles.gap) || 0;
+            return parseInt(styles.getPropertyValue("--carousel-cards"), 10) || 1;
           };
-          const cardWidth = () => cards[0].getBoundingClientRect().width + carouselGap();
           const scrollToCard = (card, behavior = "smooth") => {
             const offset = card.offsetLeft - (serviceCarousel.clientWidth - card.clientWidth) / 2;
             serviceCarousel.scrollTo({ left: offset, behavior });
           };
+          const centerIndexForPage = (page) => {
+            const perView = cardsPerView();
+            const start = page * perView;
+            const end = Math.min(start + perView - 1, cards.length - 1);
+            return Math.floor((start + end) / 2);
+          };
+          const totalPages = () => Math.max(1, Math.ceil(cards.length / cardsPerView()));
+          const pageForIndex = (index) => Math.floor(index / cardsPerView());
           let dots = [];
-          if (dotsWrapper) {
+          const buildDots = () => {
+            if (!dotsWrapper) return;
             dotsWrapper.innerHTML = "";
-            dots = cards.map((card) => {
+            dots = Array.from({ length: totalPages() }, (_, page) => {
               const dot = document.createElement("button");
-              const title = card.querySelector("h3")?.textContent?.trim() || "service";
+              const centerIndex = centerIndexForPage(page);
+              const title = cards[centerIndex]?.querySelector("h3")?.textContent?.trim() || "service";
               dot.type = "button";
               dot.setAttribute("aria-label", `Go to ${title}`);
-              dot.addEventListener("click", () => scrollToCard(card));
+              dot.addEventListener("click", () => scrollToCard(cards[centerIndex]));
               dotsWrapper.appendChild(dot);
               return dot;
             });
-          }
+          };
+          buildDots();
           const snapToCenter = () => {
             const carouselBox = serviceCarousel.getBoundingClientRect();
             const carouselCenter = carouselBox.left + carouselBox.width / 2;
@@ -93,30 +103,38 @@
               closest.classList.add("is-active");
               if (dots.length) {
                 const idx = cards.indexOf(closest);
+                const page = pageForIndex(idx);
                 dots.forEach((dot) => dot.classList.remove("is-active"));
-                if (dots[idx]) dots[idx].classList.add("is-active");
+                if (dots[page]) dots[page].classList.add("is-active");
               }
             }
           };
-          const scrollByCard = (dir) => {
-            serviceCarousel.scrollBy({ left: cardWidth() * dir, behavior: "smooth" });
+          const scrollByPage = (dir) => {
+            const active = serviceCarousel.querySelector(".carousel-card.is-active") || cards[0];
+            const current = pageForIndex(cards.indexOf(active));
+            const target = (current + dir + totalPages()) % totalPages();
+            scrollToCard(cards[centerIndexForPage(target)]);
           };
-          let interval = setInterval(() => scrollByCard(1), 4200);
+          let interval = setInterval(() => scrollByPage(1), 5200);
           serviceCarousel.addEventListener("scroll", () => {
             clearTimeout(serviceCarousel._snapTimer);
             serviceCarousel._snapTimer = setTimeout(snapToCenter, 120);
           });
           serviceCarousel.addEventListener("mouseenter", () => clearInterval(interval));
           serviceCarousel.addEventListener("mouseleave", () => {
-            interval = setInterval(() => scrollByCard(1), 4200);
+            interval = setInterval(() => scrollByPage(1), 5200);
           });
-          prev.addEventListener("click", () => scrollByCard(-1));
-          next.addEventListener("click", () => scrollByCard(1));
+          if (prev) prev.addEventListener("click", () => scrollByPage(-1));
+          if (next) next.addEventListener("click", () => scrollByPage(1));
           const featured = serviceCarousel.querySelector(".carousel-card.is-featured");
           if (featured) {
             scrollToCard(featured, "auto");
           }
           snapToCenter();
+          window.addEventListener("resize", () => {
+            buildDots();
+            snapToCenter();
+          });
         }
         const carousel = document.querySelector("[data-success-carousel]");
         if (carousel) {
