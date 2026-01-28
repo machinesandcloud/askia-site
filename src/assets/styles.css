@@ -478,6 +478,29 @@ a {
   gap: 18px;
 }
 
+.assessment-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: rgba(244, 247, 251, 0.7);
+  font-size: 0.9rem;
+}
+
+.assessment-bar {
+  flex: 1;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.assessment-bar div {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, rgba(114, 214, 255, 0.9), rgba(114, 214, 255, 0.4));
+  transition: width 0.3s ease;
+}
+
 .assessment-panel {
   border-radius: 18px;
   padding: 12px 18px 18px;
@@ -486,16 +509,21 @@ a {
   backdrop-filter: blur(10px);
 }
 
-.assessment-panel summary {
-  cursor: pointer;
-  font-family: "Sora", "Segoe UI", system-ui, sans-serif;
-  font-weight: 600;
-  padding: 10px 0;
-  list-style: none;
+.assessment-section {
+  color: rgba(114, 214, 255, 0.75);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.7rem;
 }
 
-.assessment-panel summary::-webkit-details-marker {
-  display: none;
+.assessment-question-title {
+  margin: 8px 0;
+  font-family: "Sora", "Segoe UI", system-ui, sans-serif;
+}
+
+.assessment-question-sub {
+  color: var(--muted);
+  margin: 0 0 12px;
 }
 
 .assessment-question {
@@ -559,6 +587,10 @@ a {
   flex-wrap: wrap;
   align-items: center;
   gap: 16px;
+}
+
+.assessment-actions .btn-ghost {
+  min-width: 120px;
 }
 
 .assessment-hint {

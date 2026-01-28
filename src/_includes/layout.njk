@@ -46,15 +46,131 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", () => {
-        const form = document.querySelector("[data-assessment]");
-        if (!form) return;
+        const wrapper = document.querySelector("[data-assessment]");
+        if (!wrapper) return;
 
-        const button = form.querySelector("[data-assessment-submit]");
-        const result = form.querySelector("[data-assessment-result]");
-        const title = form.querySelector("[data-assessment-title]");
-        const message = form.querySelector("[data-assessment-message]");
-        const recommendation = form.querySelector("[data-assessment-recommendation]");
-        const cta = form.querySelector("[data-assessment-cta]");
+        const stepEl = wrapper.querySelector("[data-assessment-step]");
+        const totalEl = wrapper.querySelector("[data-assessment-total]");
+        const barEl = wrapper.querySelector("[data-assessment-bar]");
+        const sectionEl = wrapper.querySelector("[data-assessment-section]");
+        const questionEl = wrapper.querySelector("[data-assessment-question]");
+        const subEl = wrapper.querySelector("[data-assessment-sub]");
+        const optionsEl = wrapper.querySelector("[data-assessment-options]");
+        const noteEl = wrapper.querySelector("[data-assessment-note]");
+        const prevBtn = wrapper.querySelector("[data-assessment-prev]");
+        const nextBtn = wrapper.querySelector("[data-assessment-next]");
+        const result = wrapper.querySelector("[data-assessment-result]");
+        const title = wrapper.querySelector("[data-assessment-title]");
+        const message = wrapper.querySelector("[data-assessment-message]");
+        const recommendation = wrapper.querySelector("[data-assessment-recommendation]");
+        const cta = wrapper.querySelector("[data-assessment-cta]");
+
+        const questions = [
+          {
+            section: "Section 1 — Current Positioning (Foundation)",
+            question: "Q1. Which best describes your current role?",
+            sub: "(Choose one)",
+            options: [
+              { label: "Mid-level IC (Engineer, Analyst, Designer, etc.)", value: 1 },
+              { label: "Senior IC", value: 2 },
+              { label: "Tech Lead / Staff / Principal", value: 3 },
+              { label: "Engineering Manager / Manager+", value: 4 },
+              { label: "Director / Head+", value: 5 }
+            ]
+          },
+          {
+            section: "Section 1 — Current Positioning (Foundation)",
+            question: "Q2. How long have you been at your current level?",
+            options: [
+              { label: "Less than 1 year", value: 4 },
+              { label: "1–2 years", value: 3 },
+              { label: "3–4 years", value: 2 },
+              { label: "5+ years", value: 0 }
+            ],
+            note: "⚠️ Long time at the same level quietly lowers readiness."
+          },
+          {
+            section: "Section 2 — Market Signal (The Truth Serum)",
+            question: "Q3. In the last 90 days, how many interviews have you landed?",
+            options: [
+              { label: "0", value: 0 },
+              { label: "1–2", value: 2 },
+              { label: "3–5", value: 4 },
+              { label: "6+", value: 5 }
+            ]
+          },
+          {
+            section: "Section 2 — Market Signal (The Truth Serum)",
+            question: "Q4. When recruiters reach out, they usually contact you about:",
+            options: [
+              { label: "Roles below my level", value: 0 },
+              { label: "Lateral roles", value: 2 },
+              { label: "Exactly what I want", value: 4 },
+              { label: "Roles above my current scope", value: 5 }
+            ]
+          },
+          {
+            section: "Section 2 — Market Signal (The Truth Serum)",
+            question: "Q5. Which best describes your resume today?",
+            options: [
+              { label: "Task-based (“responsible for…”)", value: 0 },
+              { label: "Mixed (some impact, some tasks)", value: 2 },
+              { label: "Impact-driven (metrics, outcomes, scope)", value: 4 },
+              { label: "Clearly signals seniority / leadership", value: 5 }
+            ]
+          },
+          {
+            section: "Section 3 — Strategy & Execution",
+            question: "Q6. How clear are you on the exact role you’re targeting next?",
+            options: [
+              { label: "Not clear at all", value: 0 },
+              { label: "Somewhat clear", value: 2 },
+              { label: "Very clear", value: 4 },
+              { label: "Extremely clear — I could explain it in one sentence", value: 5 }
+            ]
+          },
+          {
+            section: "Section 3 — Strategy & Execution",
+            question: "Q7. How are you currently approaching your job search?",
+            options: [
+              { label: "Passive / waiting for inbound", value: 0 },
+              { label: "Applying occasionally", value: 2 },
+              { label: "Applying strategically", value: 4 },
+              { label: "Targeted networking + tailored positioning", value: 5 }
+            ]
+          },
+          {
+            section: "Section 3 — Strategy & Execution",
+            question: "Q8. If you were interviewed tomorrow, could you clearly articulate:",
+            options: [
+              { label: "My responsibilities, mostly", value: 1 },
+              { label: "My impact and contributions", value: 2 },
+              { label: "My scope, ownership, and business impact", value: 4 },
+              { label: "My leadership, trade-offs, and decision-making", value: 5 }
+            ]
+          },
+          {
+            section: "Section 4 — Friction & Risk (Subconscious Triggers)",
+            question: "Q9. What’s your biggest career frustration right now?",
+            options: [
+              { label: "“I know I’m capable of more”", value: 2 },
+              { label: "“I keep getting passed over”", value: 1 },
+              { label: "“I don’t know what role I should target”", value: 0 },
+              { label: "“I’m paid well but feel boxed in”", value: 3 },
+              { label: "“I’m burned out and drifting”", value: 0 }
+            ]
+          },
+          {
+            section: "Section 4 — Friction & Risk (Subconscious Triggers)",
+            question: "Q10. If nothing changes, where do you realistically see yourself in 12 months?",
+            options: [
+              { label: "Same role, same scope", value: 0 },
+              { label: "Slight improvement, but unclear growth", value: 1 },
+              { label: "Strong chance of a better role", value: 3 },
+              { label: "Already preparing for a major step up", value: 5 }
+            ]
+          }
+        ];
 
         const outcomes = {
           green: {
@@ -80,7 +196,42 @@
           }
         };
 
-        const render = (bucket) => {
+        let index = 0;
+        const answers = new Array(questions.length).fill(null);
+
+        totalEl.textContent = questions.length;
+
+        const renderQuestion = () => {
+          const current = questions[index];
+          stepEl.textContent = String(index + 1);
+          barEl.style.width = `${((index + 1) / questions.length) * 100}%`;
+          sectionEl.textContent = current.section;
+          questionEl.textContent = current.question;
+          subEl.textContent = current.sub || "";
+          noteEl.textContent = current.note || "";
+          optionsEl.innerHTML = "";
+
+          current.options.forEach((option, optionIndex) => {
+            const id = `q${index}-o${optionIndex}`;
+            const label = document.createElement("label");
+            label.innerHTML = `<input type="radio" name="q${index}" value="${option.value}" ${answers[index] === option.value ? "checked" : ""}/> ${option.label}`;
+            label.setAttribute("for", id);
+            const input = label.querySelector("input");
+            input.id = id;
+            input.addEventListener("change", () => {
+              answers[index] = Number(input.value);
+              nextBtn.disabled = false;
+            });
+            optionsEl.appendChild(label);
+          });
+
+          prevBtn.disabled = index === 0;
+          nextBtn.textContent = index === questions.length - 1 ? "See Results" : "Next";
+          nextBtn.disabled = answers[index] === null;
+          result.hidden = true;
+        };
+
+        const renderResult = (bucket) => {
           result.hidden = false;
           result.classList.remove("green", "yellow", "red");
           result.classList.add(bucket);
@@ -90,30 +241,32 @@
           cta.textContent = outcomes[bucket].cta;
         };
 
-        button.addEventListener("click", () => {
-          const fields = Array.from(form.querySelectorAll("input[type='radio']"));
-          const names = Array.from(new Set(fields.map((field) => field.name)));
-          const selections = names.map((name) => form.querySelector(`input[name='${name}']:checked`));
+        prevBtn.addEventListener("click", () => {
+          if (index > 0) {
+            index -= 1;
+            renderQuestion();
+          }
+        });
 
-          if (selections.some((selection) => !selection)) {
-            result.hidden = false;
-            result.classList.remove("green", "yellow", "red");
-            title.textContent = "Complete all questions to see your score";
-            message.textContent = "Answer each question to generate your Career Readiness Index™ result.";
-            recommendation.innerHTML = "";
-            cta.textContent = "Once all questions are complete, click Calculate My Score.";
+        nextBtn.addEventListener("click", () => {
+          if (answers[index] === null) return;
+          if (index < questions.length - 1) {
+            index += 1;
+            renderQuestion();
             return;
           }
 
-          const score = selections.reduce((sum, input) => sum + Number(input.value), 0);
+          const score = answers.reduce((sum, value) => sum + Number(value || 0), 0);
           if (score >= 40) {
-            render("green");
+            renderResult("green");
           } else if (score >= 28) {
-            render("yellow");
+            renderResult("yellow");
           } else {
-            render("red");
+            renderResult("red");
           }
         });
+
+        renderQuestion();
       });
     </script>
   </body>
