@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "eleventy --serve",
-    "build": "eleventy",
-    "serve": "eleventy --serve"
+    "dev": "eleventy --serve --config=.eleventy.js",
+    "build": "eleventy --config=.eleventy.js",
+    "serve": "eleventy --serve --config=.eleventy.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
