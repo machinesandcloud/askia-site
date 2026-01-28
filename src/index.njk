@@ -8,8 +8,10 @@ description: "Askia helps top talent secure high-paying tech roles."
     <div>
       <p class="hero-eyebrow">{{ home.hero.eyebrow }}</p>
       <h1 class="hero-title">
-        {{ home.hero.titlePrimary }}
-        <span>{{ home.hero.titleAccent }}</span>
+        <span class="hero-title-lead">{{ home.hero.titleLead }}</span>
+        <span class="hero-title-emphasis">{{ home.hero.titleEmphasis }}</span>
+        <span class="hero-title-tail">{{ home.hero.titleTail }}</span>
+        <span class="hero-title-accent">{{ home.hero.titleAccent }}</span>
       </h1>
       <p class="hero-subtitle">{{ home.hero.subtitle }}</p>
       <p class="hero-supporting">{{ home.hero.supporting }}</p>
@@ -36,12 +38,20 @@ description: "Askia helps top talent secure high-paying tech roles."
       <div class="logo-track">
         {% for company in home.logos.companies %}
           <div class="logo-item" style="--logo-accent: {{ company.accent }};">
-            <img src="{{ company.logo }}" alt="{{ company.name }}" />
+            {% if company.logo %}
+              <img src="{{ company.logo }}" alt="{{ company.name }}" />
+            {% else %}
+              <span class="logo-text">{{ company.label }}</span>
+            {% endif %}
           </div>
         {% endfor %}
         {% for company in home.logos.companies %}
           <div class="logo-item" style="--logo-accent: {{ company.accent }};">
-            <img src="{{ company.logo }}" alt="" />
+            {% if company.logo %}
+              <img src="{{ company.logo }}" alt="" />
+            {% else %}
+              <span class="logo-text">{{ company.label }}</span>
+            {% endif %}
           </div>
         {% endfor %}
       </div>

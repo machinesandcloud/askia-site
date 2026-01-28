@@ -1,7 +1,9 @@
 {
   "hero": {
     "eyebrow": "Land your next $100K–$350K role in Tech",
-    "titlePrimary": "Land a $100K–$350K role",
+    "titleLead": "Land a",
+    "titleEmphasis": "$100K–$350K",
+    "titleTail": "role",
     "titleAccent": "faster",
     "subtitle": "Private coaching for ambitious tech professionals.",
     "supporting": "We help you define the right roles, present a standout brand, and close interviews with leverage — so you can land the offer that fits your goals.",
@@ -48,16 +50,16 @@
   "logos": {
     "title": "Top companies love hiring our candidates",
     "companies": [
-      { "name": "Google", "logo": "/assets/logos/google.svg", "accent": "rgba(66,133,244,0.35)" },
-      { "name": "Amazon", "logo": "/assets/logos/amazon.svg", "accent": "rgba(255,153,0,0.35)" },
-      { "name": "Meta", "logo": "/assets/logos/meta.svg", "accent": "rgba(31,112,255,0.35)" },
-      { "name": "Microsoft", "logo": "/assets/logos/microsoft.svg", "accent": "rgba(0,164,239,0.35)" },
-      { "name": "Apple", "logo": "/assets/logos/apple.svg", "accent": "rgba(215,221,230,0.25)" },
-      { "name": "Netflix", "logo": "/assets/logos/netflix.svg", "accent": "rgba(229,9,20,0.3)" },
-      { "name": "Uber", "logo": "/assets/logos/uber.svg", "accent": "rgba(255,255,255,0.2)" },
-      { "name": "Airbnb", "logo": "/assets/logos/airbnb.svg", "accent": "rgba(255,90,95,0.3)" },
-      { "name": "Stripe", "logo": "/assets/logos/stripe.svg", "accent": "rgba(99,91,255,0.3)" },
-      { "name": "Shopify", "logo": "/assets/logos/shopify.svg", "accent": "rgba(149,191,71,0.3)" }
+      { "name": "Google", "logo": "/assets/logos/google.svg", "label": "Google", "accent": "rgba(66,133,244,0.35)" },
+      { "name": "Amazon", "logo": "/assets/logos/amazon.svg", "label": "Amazon", "accent": "rgba(255,153,0,0.35)" },
+      { "name": "Meta", "label": "Meta", "accent": "rgba(31,112,255,0.35)" },
+      { "name": "Microsoft", "logo": "/assets/logos/microsoft.svg", "label": "Microsoft", "accent": "rgba(0,164,239,0.35)" },
+      { "name": "Apple", "label": "Apple", "accent": "rgba(215,221,230,0.25)" },
+      { "name": "Netflix", "label": "Netflix", "accent": "rgba(229,9,20,0.3)" },
+      { "name": "Uber", "label": "Uber", "accent": "rgba(255,255,255,0.2)" },
+      { "name": "Airbnb", "label": "Airbnb", "accent": "rgba(255,90,95,0.3)" },
+      { "name": "Stripe", "label": "Stripe", "accent": "rgba(99,91,255,0.3)" },
+      { "name": "Shopify", "label": "Shopify", "accent": "rgba(149,191,71,0.3)" }
     ]
   },
   "about": {
