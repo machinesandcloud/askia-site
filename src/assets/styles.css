@@ -474,6 +474,7 @@ a {
   position: relative;
   overflow: hidden;
   transition: transform 0.35s ease, box-shadow 0.35s ease;
+  --pillar-offset: 0px;
   transform: translateY(var(--pillar-offset, 0));
 }
 
@@ -794,10 +795,46 @@ a {
   gap: 6px;
 }
 
-.tier-grid {
+.service-hero-card {
+  padding: 26px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, rgba(16, 24, 36, 0.9), rgba(8, 12, 18, 0.45));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 35px 90px rgba(7, 10, 15, 0.6);
+}
+
+.service-hero-card strong {
+  font-family: "Sora", "Segoe UI", system-ui, sans-serif;
+  font-size: 1.2rem;
+}
+
+.service-hero-card p {
+  color: var(--muted);
+}
+
+.service-hero-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.service-hero-list span {
+  padding: 10px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.tier-bento {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 22px;
+}
+
+.tier-meta {
+  margin: 8px 0 0;
+  color: rgba(244, 247, 251, 0.6);
+  font-size: 0.9rem;
 }
 
 .tier-card {
@@ -808,6 +845,12 @@ a {
   box-shadow: 0 28px 70px rgba(7, 10, 15, 0.45);
   position: relative;
   overflow: hidden;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.tier-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 36px 90px rgba(7, 10, 15, 0.6);
 }
 
 .tier-featured {
@@ -863,6 +906,40 @@ a {
   gap: 6px;
 }
 
+.service-journey {
+  display: grid;
+  gap: 20px;
+}
+
+.journey-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.journey-step {
+  padding: 18px 20px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(18, 26, 38, 0.75), rgba(8, 12, 18, 0.35));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.journey-step span {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  color: rgba(114, 214, 255, 0.8);
+  font-family: "Sora", "Segoe UI", system-ui, sans-serif;
+}
+
+.journey-step h4 {
+  margin: 8px 0 6px;
+  font-family: "Sora", "Segoe UI", system-ui, sans-serif;
+}
+
+.journey-step p {
+  margin: 0;
+  color: var(--muted);
+}
 .faq-grid {
   display: grid;
   gap: 14px;

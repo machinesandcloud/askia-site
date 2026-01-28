@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "Services that move you faster",
-    "subtitle": "Choose the level of support that matches your goals and timeline. Every package is built to increase interviews and offer quality.",
+    "title": "Choose the support level that fits your goals",
+    "subtitle": "From fast brand upgrades to executive positioning, every package is built to increase interviews, strengthen your signal, and help you land the right offer.",
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation"
   },
@@ -9,9 +9,11 @@
     {
       "tag": "Essentials",
       "title": "Resume Rebuild",
-      "body": "A high‑impact resume rewrite that positions you for the roles you want.",
+      "body": "A sharp, impact‑driven resume that signals seniority and gets recruiter replies.",
+      "ideal": "Best for: quick upgrade + clearer positioning",
+      "turnaround": "Turnaround: 7–10 days",
       "bullets": [
-        "Role targeting guidance",
+        "Target role alignment",
         "Impact‑driven bullets",
         "ATS‑ready formatting",
         "One revision round"
@@ -20,18 +22,22 @@
     {
       "tag": "Most Popular",
       "title": "Resume + LinkedIn + Cover Letter",
-      "body": "A full brand refresh so recruiters see your story clearly across every touchpoint.",
+      "body": "A complete brand refresh across every recruiter touchpoint.",
+      "ideal": "Best for: full visibility + conversion",
+      "turnaround": "Turnaround: 10–14 days",
       "bullets": [
         "Resume rebuild",
         "LinkedIn optimization",
-        "Tailored cover letter",
+        "Targeted cover letter",
         "Two revision rounds"
       ]
     },
     {
       "tag": "Clarity",
       "title": "Brand + Career Clarity + Interview Practice",
-      "body": "Everything above plus coaching to sharpen your narrative and interview performance.",
+      "body": "Everything above plus coaching to refine your narrative and interview performance.",
+      "ideal": "Best for: clarity + confidence + execution",
+      "turnaround": "Turnaround: 2–3 weeks",
       "bullets": [
         "Resume + LinkedIn + Cover Letter",
         "Career clarity coaching call",
@@ -41,8 +47,10 @@
     },
     {
       "tag": "Coaching",
-      "title": "Momentum Coaching (3 sessions)",
-      "body": "Three high‑leverage sessions to build strategy, confidence, and execution.",
+      "title": "Momentum Coaching (3 Sessions)",
+      "body": "Three high‑leverage sessions to build strategy, momentum, and offer‑level confidence.",
+      "ideal": "Best for: focused, guided execution",
+      "turnaround": "Timeline: 2–4 weeks",
       "bullets": [
         "Role positioning session",
         "Search strategy + networking plan",
@@ -52,7 +60,9 @@
     {
       "tag": "Executive",
       "title": "Executive Advisory",
-      "body": "Senior‑level narrative refinement, leadership positioning, and offer strategy.",
+      "body": "Senior‑level positioning, leadership narrative, and offer strategy for managers and execs.",
+      "ideal": "Best for: Staff/Principal → Director+",
+      "turnaround": "Timeline: custom",
       "bullets": [
         "Executive resume + LinkedIn",
         "Leadership story architecture",
@@ -65,23 +75,31 @@
     "items": [
       {
         "question": "Which service is right for me?",
-        "answer": "If you need a fast resume upgrade, start with Resume Rebuild. If you want to attract stronger recruiters and roles, go with the full Brand refresh. If you need clarity and execution support, choose the Brand + Clarity package."
+        "answer": "If you need a fast resume upgrade, start with Resume Rebuild. If you want higher recruiter response rates across all channels, choose the full Brand refresh. If you need clarity + interview confidence, pick the Brand + Clarity package."
       },
       {
-        "question": "Do you work with senior or executive candidates?",
-        "answer": "Yes. Executive Advisory is built for senior ICs, leaders, and managers who need higher‑level positioning and negotiation strategy."
+        "question": "Do you work with senior and executive candidates?",
+        "answer": "Yes. Executive Advisory is built for senior ICs, managers, and leaders who need a stronger leadership narrative, executive‑level positioning, and offer strategy."
       },
       {
         "question": "How long does the process take?",
-        "answer": "Most packages move from kickoff to delivery in 7–14 days. Coaching timelines depend on your availability, but most clients see momentum within 2–6 weeks."
+        "answer": "Most deliverables are completed within 7–14 days depending on package scope. Coaching timelines depend on availability, but most clients see momentum in 2–6 weeks."
       },
       {
-        "question": "Do you help with interviews?",
-        "answer": "Yes. The Brand + Clarity package includes interview practice, and Momentum Coaching focuses heavily on interview performance and offer strategy."
+        "question": "Do you help with interviews and negotiation?",
+        "answer": "Yes. Interview practice and negotiation strategy are included in the Brand + Clarity package and Momentum Coaching."
       },
       {
-        "question": "Will you tailor for my target roles?",
-        "answer": "Yes. Every package begins with role targeting to ensure your materials and story align with the positions you want next."
+        "question": "Will you tailor everything to my target roles?",
+        "answer": "Yes. Every engagement begins with role targeting so your resume, LinkedIn, and narrative reflect the level and type of role you want next."
+      },
+      {
+        "question": "Do you guarantee results?",
+        "answer": "We don’t promise outcomes we can’t control, but we do guarantee a clear, strategic plan and materials aligned to the market you’re targeting."
+      },
+      {
+        "question": "Can I combine services?",
+        "answer": "Absolutely. Many clients start with Brand refresh and then add coaching when interviews begin. We can build a custom path."
       }
     ]
   },

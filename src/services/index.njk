@@ -7,26 +7,29 @@ description: "Askia coaching services to land top tech roles."
   <div class="container hero-grid">
     <div>
       <p class="hero-eyebrow">Services</p>
-      <h1 class="hero-title">
+      <h1 class="hero-title section-title-glow">
         <span class="hero-title-lead">{{ services.hero.title }}</span>
       </h1>
       <p class="hero-subtitle">{{ services.hero.subtitle }}</p>
-      <a class="btn btn-primary" href="{{ services.hero.ctaLink }}">{{ services.hero.ctaLabel }}</a>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ services.hero.ctaLink }}">{{ services.hero.ctaLabel }}</a>
+        <span class="hero-proof">⏱ Typical turnaround 7–14 days · Coaching timelines 2–6 weeks</span>
+      </div>
     </div>
-    <div class="card">
+    <div class="service-hero-card">
       <strong>What you get</strong>
-      <p>Every package is designed to elevate your market signal and help you land better offers — faster.</p>
-      <ul class="highlight-list">
-        <li>Role targeting and positioning</li>
-        <li>Story + brand alignment</li>
-        <li>Interview and offer strategy</li>
-      </ul>
+      <p>Every package is designed to elevate your market signal, create clarity, and unlock better offers.</p>
+      <div class="service-hero-list">
+        <span>Positioning & role clarity</span>
+        <span>Story + brand alignment</span>
+        <span>Interview & offer strategy</span>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="section">
-  <div class="container tier-grid">
+  <div class="container tier-bento">
     {% for tier in services.tiers %}
       <div class="tier-card{% if tier.tag == 'Most Popular' %} tier-featured{% endif %}">
         <div class="tier-header">
@@ -34,6 +37,8 @@ description: "Askia coaching services to land top tech roles."
           <h3>{{ tier.title }}</h3>
         </div>
         <p>{{ tier.body }}</p>
+        <p class="tier-meta">{{ tier.ideal }}</p>
+        <p class="tier-meta">{{ tier.turnaround }}</p>
         <ul>
           {% for bullet in tier.bullets %}
             <li>{{ bullet }}</li>
@@ -41,6 +46,32 @@ description: "Askia coaching services to land top tech roles."
         </ul>
       </div>
     {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container service-journey">
+    <div>
+      <h2 class="section-title section-title-glow">How we move you from "maybe" to offers</h2>
+      <p class="section-subtitle">A clear, repeatable journey that turns experience into market‑ready positioning.</p>
+    </div>
+    <div class="journey-steps">
+      <div class="journey-step">
+        <span>01</span>
+        <h4>Signal</h4>
+        <p>Build a brand story recruiters instantly recognize.</p>
+      </div>
+      <div class="journey-step">
+        <span>02</span>
+        <h4>Momentum</h4>
+        <p>Turn strategy into interviews with targeted outreach.</p>
+      </div>
+      <div class="journey-step">
+        <span>03</span>
+        <h4>Conversion</h4>
+        <p>Interview execution + negotiation to secure top offers.</p>
+      </div>
+    </div>
   </div>
 </section>
 
