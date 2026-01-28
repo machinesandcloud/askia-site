@@ -36,26 +36,28 @@ description: "Askia coaching services to land top tech roles."
       <button class="carousel-btn" type="button" data-carousel-prev>Prev</button>
       <button class="carousel-btn" type="button" data-carousel-next>Next</button>
     </div>
-    <div class="carousel-track" data-service-carousel>
-      {% for tier in services.tiers %}
-        <article class="carousel-card{% if tier.tag == 'Most Popular' %} is-featured{% endif %}">
-          <div class="card-graphic"></div>
-          <div class="spectrum-top">
-            <span class="spectrum-tag">{{ tier.tag }}</span>
-            <h3>{{ tier.title }}</h3>
-            <p>{{ tier.body }}</p>
-          </div>
-          <div class="spectrum-meta">
-            <span>{{ tier.ideal }}</span>
-            <span>{{ tier.turnaround }}</span>
-          </div>
-          <ul>
-            {% for bullet in tier.bullets %}
-              <li>{{ bullet }}</li>
-            {% endfor %}
-          </ul>
-        </article>
-      {% endfor %}
+    <div class="carousel-viewport" data-service-carousel>
+      <div class="carousel-track" data-service-track>
+        {% for tier in services.tiers %}
+          <article class="carousel-card{% if tier.tag == 'Most Popular' %} is-featured{% endif %}">
+            <div class="card-graphic"></div>
+            <div class="spectrum-top">
+              <span class="spectrum-tag">{{ tier.tag }}</span>
+              <h3>{{ tier.title }}</h3>
+              <p>{{ tier.body }}</p>
+            </div>
+            <div class="spectrum-meta">
+              <span>{{ tier.ideal }}</span>
+              <span>{{ tier.turnaround }}</span>
+            </div>
+            <ul>
+              {% for bullet in tier.bullets %}
+                <li>{{ bullet }}</li>
+              {% endfor %}
+            </ul>
+          </article>
+        {% endfor %}
+      </div>
     </div>
     <div class="carousel-dots" data-carousel-dots></div>
   </div>
