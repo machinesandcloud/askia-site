@@ -1,36 +1,62 @@
 {
   "hero": {
-    "title": "Coaching Services",
-    "subtitle": "High-touch, tactical coaching designed to move you into top-paying tech roles.",
+    "title": "Services that move you faster",
+    "subtitle": "Choose the level of support that matches your goals and timeline. Every package is built to increase interviews and offer quality.",
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation"
   },
-  "services": [
+  "tiers": [
     {
-      "title": "Career Coaching",
-      "body": "One-on-one guidance to define your target roles, polish your brand, and execute a focused job search strategy.",
+      "tag": "Essentials",
+      "title": "Resume Rebuild",
+      "body": "A high‑impact resume rewrite that positions you for the roles you want.",
       "bullets": [
-        "Target role positioning & market mapping",
-        "Resume and LinkedIn optimization",
-        "Interview prep with real-time feedback"
+        "Role targeting guidance",
+        "Impact‑driven bullets",
+        "ATS‑ready formatting",
+        "One revision round"
       ]
     },
     {
-      "title": "Accelerated Leadership Program",
-      "body": "For experienced professionals preparing for senior or leadership roles.",
+      "tag": "Most Popular",
+      "title": "Resume + LinkedIn + Cover Letter",
+      "body": "A full brand refresh so recruiters see your story clearly across every touchpoint.",
       "bullets": [
-        "Executive-level storytelling",
-        "Leadership interview coaching",
-        "Offer strategy and negotiation"
+        "Resume rebuild",
+        "LinkedIn optimization",
+        "Tailored cover letter",
+        "Two revision rounds"
       ]
     },
     {
-      "title": "The $100K+ Tech Career Blueprint",
-      "body": "A structured, step-by-step system to move fast and win offers.",
+      "tag": "Clarity",
+      "title": "Brand + Career Clarity + Interview Practice",
+      "body": "Everything above plus coaching to sharpen your narrative and interview performance.",
       "bullets": [
-        "Role targeting and outreach playbook",
-        "Recruiter-ready positioning",
-        "Offer comparison and decision support"
+        "Resume + LinkedIn + Cover Letter",
+        "Career clarity coaching call",
+        "Interview practice session",
+        "Personalized action plan"
+      ]
+    },
+    {
+      "tag": "Coaching",
+      "title": "Momentum Coaching (3 sessions)",
+      "body": "Three high‑leverage sessions to build strategy, confidence, and execution.",
+      "bullets": [
+        "Role positioning session",
+        "Search strategy + networking plan",
+        "Interview + negotiation prep"
+      ]
+    },
+    {
+      "tag": "Executive",
+      "title": "Executive Advisory",
+      "body": "Senior‑level narrative refinement, leadership positioning, and offer strategy.",
+      "bullets": [
+        "Executive resume + LinkedIn",
+        "Leadership story architecture",
+        "Offer strategy & negotiation"
       ]
     }
   ],
@@ -38,22 +64,30 @@
     "title": "Common Questions",
     "items": [
       {
-        "question": "How long does the program take?",
-        "answer": "Most clients see momentum within 2–6 weeks, depending on role and market."
+        "question": "Which service is right for me?",
+        "answer": "If you need a fast resume upgrade, start with Resume Rebuild. If you want to attract stronger recruiters and roles, go with the full Brand refresh. If you need clarity and execution support, choose the Brand + Clarity package."
       },
       {
-        "question": "Do you help with salary negotiation?",
-        "answer": "Yes. You’ll get a negotiation strategy and scripts tailored to your offer."
+        "question": "Do you work with senior or executive candidates?",
+        "answer": "Yes. Executive Advisory is built for senior ICs, leaders, and managers who need higher‑level positioning and negotiation strategy."
       },
       {
-        "question": "Is this for entry-level or experienced candidates?",
-        "answer": "We work with professionals across levels, with a focus on experienced and mid-to-senior talent."
+        "question": "How long does the process take?",
+        "answer": "Most packages move from kickoff to delivery in 7–14 days. Coaching timelines depend on your availability, but most clients see momentum within 2–6 weeks."
+      },
+      {
+        "question": "Do you help with interviews?",
+        "answer": "Yes. The Brand + Clarity package includes interview practice, and Momentum Coaching focuses heavily on interview performance and offer strategy."
+      },
+      {
+        "question": "Will you tailor for my target roles?",
+        "answer": "Yes. Every package begins with role targeting to ensure your materials and story align with the positions you want next."
       }
     ]
   },
   "cta": {
-    "title": "Ready to get started?",
-    "body": "Let’s map out your next move and build a plan to land your next offer fast.",
+    "title": "Not sure which path fits?",
+    "body": "Book a quick call and we’ll help you choose the best option for your goals.",
     "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation"
   }

@@ -6,30 +6,36 @@ description: "Askia coaching services to land top tech roles."
 <section class="hero">
   <div class="container hero-grid">
     <div>
-      <h1>{{ services.hero.title }}</h1>
-      <p>{{ services.hero.subtitle }}</p>
+      <p class="hero-eyebrow">Services</p>
+      <h1 class="hero-title">
+        <span class="hero-title-lead">{{ services.hero.title }}</span>
+      </h1>
+      <p class="hero-subtitle">{{ services.hero.subtitle }}</p>
       <a class="btn btn-primary" href="{{ services.hero.ctaLink }}">{{ services.hero.ctaLabel }}</a>
     </div>
     <div class="card">
-      <strong>What you'll get</strong>
-      <p>Focused, high-touch coaching that makes your next move clear and achievable.</p>
+      <strong>What you get</strong>
+      <p>Every package is designed to elevate your market signal and help you land better offers — faster.</p>
       <ul class="highlight-list">
-        <li>Role targeting and market positioning</li>
-        <li>Resume + LinkedIn optimization</li>
-        <li>Interview prep and negotiation</li>
+        <li>Role targeting and positioning</li>
+        <li>Story + brand alignment</li>
+        <li>Interview and offer strategy</li>
       </ul>
     </div>
   </div>
 </section>
 
 <section class="section">
-  <div class="container grid-2">
-    {% for item in services.services %}
-      <div class="card">
-        <h3 class="section-title">{{ item.title }}</h3>
-        <p>{{ item.body }}</p>
-        <ul class="highlight-list">
-          {% for bullet in item.bullets %}
+  <div class="container tier-grid">
+    {% for tier in services.tiers %}
+      <div class="tier-card{% if tier.tag == 'Most Popular' %} tier-featured{% endif %}">
+        <div class="tier-header">
+          <span class="tier-tag">{{ tier.tag }}</span>
+          <h3>{{ tier.title }}</h3>
+        </div>
+        <p>{{ tier.body }}</p>
+        <ul>
+          {% for bullet in tier.bullets %}
             <li>{{ bullet }}</li>
           {% endfor %}
         </ul>
@@ -40,22 +46,24 @@ description: "Askia coaching services to land top tech roles."
 
 <section class="section">
   <div class="container">
-    <h2 class="section-title">{{ services.faq.title }}</h2>
-    <div class="faq">
+    <h2 class="section-title section-title-glow">{{ services.faq.title }}</h2>
+    <div class="faq-grid">
       {% for item in services.faq.items %}
-        <div class="faq-item">
-          <strong>{{ item.question }}</strong>
+        <details class="faq-card">
+          <summary>{{ item.question }}</summary>
           <p>{{ item.answer }}</p>
-        </div>
+        </details>
       {% endfor %}
     </div>
   </div>
 </section>
 
 <section class="section">
-  <div class="container card">
-    <h2 class="section-title">{{ services.cta.title }}</h2>
-    <p class="section-subtitle">{{ services.cta.body }}</p>
+  <div class="container cta-band">
+    <div>
+      <h2 class="section-title">{{ services.cta.title }}</h2>
+      <p class="section-subtitle">{{ services.cta.body }}</p>
+    </div>
     <a class="btn btn-primary" href="{{ services.cta.ctaLink }}">{{ services.cta.ctaLabel }}</a>
   </div>
 </section>
