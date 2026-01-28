@@ -43,5 +43,78 @@
         <p class="footer-note">{{ site.footer.note }}</p>
       </div>
     </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const form = document.querySelector("[data-assessment]");
+        if (!form) return;
+
+        const button = form.querySelector("[data-assessment-submit]");
+        const result = form.querySelector("[data-assessment-result]");
+        const title = form.querySelector("[data-assessment-title]");
+        const message = form.querySelector("[data-assessment-message]");
+        const recommendation = form.querySelector("[data-assessment-recommendation]");
+        const cta = form.querySelector("[data-assessment-cta]");
+
+        const outcomes = {
+          green: {
+            title: "🟢 Market-Ready",
+            message:
+              "Your career fundamentals are strong. You’re not blocked by skill or clarity — your main lever is execution and timing.",
+            recs: ["Stay consistent", "Reassess if momentum stalls", "Coaching optional, not required"],
+            cta: "Want a second opinion on positioning? Book a one-time review."
+          },
+          yellow: {
+            title: "🟡 Under-Positioned (High ROI Zone)",
+            message:
+              "You’re closer than you think — but your experience isn’t translating cleanly to the market. This is a positioning problem, not a talent issue.",
+            recs: ["Tighten role targeting", "Rewrite narrative around scope + impact", "Align resume and LinkedIn with senior signal"],
+            cta: "This is where focused coaching delivers outsized results. Book a strategy call to pressure-test your path."
+          },
+          red: {
+            title: "🔴 Misaligned / At Risk",
+            message:
+              "Your career isn’t stalled — it’s drifting. Continuing without clarity will quietly cost you time, confidence, and leverage.",
+            recs: ["Reset role definition", "Clarify IC vs leadership trajectory", "Build a deliberate 6-month plan"],
+            cta: "Structured coaching is designed for exactly this moment. Book a call to reset your direction with intention."
+          }
+        };
+
+        const render = (bucket) => {
+          result.hidden = false;
+          result.classList.remove("green", "yellow", "red");
+          result.classList.add(bucket);
+          title.textContent = outcomes[bucket].title;
+          message.textContent = outcomes[bucket].message;
+          recommendation.innerHTML = outcomes[bucket].recs.map((item) => `<li>${item}</li>`).join("");
+          cta.textContent = outcomes[bucket].cta;
+        };
+
+        button.addEventListener("click", () => {
+          const fields = Array.from(form.querySelectorAll("input[type='radio']"));
+          const names = Array.from(new Set(fields.map((field) => field.name)));
+          const selections = names.map((name) => form.querySelector(`input[name='${name}']:checked`));
+
+          if (selections.some((selection) => !selection)) {
+            result.hidden = false;
+            result.classList.remove("green", "yellow", "red");
+            title.textContent = "Complete all questions to see your score";
+            message.textContent = "Answer each question to generate your Career Readiness Index™ result.";
+            recommendation.innerHTML = "";
+            cta.textContent = "Once all questions are complete, click Calculate My Score.";
+            return;
+          }
+
+          const score = selections.reduce((sum, input) => sum + Number(input.value), 0);
+          if (score >= 40) {
+            render("green");
+          } else if (score >= 28) {
+            render("yellow");
+          } else {
+            render("red");
+          }
+        });
+      });
+    </script>
   </body>
 </html>
