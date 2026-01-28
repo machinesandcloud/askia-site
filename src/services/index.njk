@@ -26,20 +26,21 @@ description: "Askia coaching services to land top tech roles."
 </section>
 
 <section class="section">
-  <div class="container service-gallery">
-    <div class="service-gallery-header">
-      <h2 class="section-title section-title-glow">The Askia Service Gallery</h2>
-      <p class="section-subtitle">Think of this as a menu of power‑ups. Choose a single upgrade or stack them into a full transformation.</p>
+  <div class="container service-spectrum">
+    <div class="spectrum-header">
+      <p class="hero-eyebrow">Service Spectrum</p>
+      <h2 class="section-title section-title-glow">Pick your lane. Stack your advantage.</h2>
+      <p class="section-subtitle">Each offer is designed as a module. Start with precision, then layer coaching when momentum hits.</p>
     </div>
-    <div class="gallery-grid">
+    <div class="spectrum-grid">
       {% for tier in services.tiers %}
-        <article class="gallery-card{% if tier.tag == 'Most Popular' %} is-featured{% endif %}">
-          <div class="gallery-top">
-            <span class="gallery-tag">{{ tier.tag }}</span>
+        <article class="spectrum-card{% if tier.tag == 'Most Popular' %} is-featured{% endif %}">
+          <div class="spectrum-top">
+            <span class="spectrum-tag">{{ tier.tag }}</span>
             <h3>{{ tier.title }}</h3>
             <p>{{ tier.body }}</p>
           </div>
-          <div class="gallery-meta">
+          <div class="spectrum-meta">
             <span>{{ tier.ideal }}</span>
             <span>{{ tier.turnaround }}</span>
           </div>
@@ -100,8 +101,11 @@ description: "Askia coaching services to land top tech roles."
 </section>
 
 <section class="section">
-  <div class="container">
-    <h2 class="section-title section-title-glow">{{ services.faq.title }}</h2>
+  <div class="container faq-stage">
+    <div class="faq-header">
+      <h2 class="section-title section-title-glow">{{ services.faq.title }}</h2>
+      <p class="section-subtitle">Short, clear answers to the questions we hear most before someone books.</p>
+    </div>
     <div class="faq-grid">
       {% for item in services.faq.items %}
         <details class="faq-card">
