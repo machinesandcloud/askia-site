@@ -45,10 +45,10 @@
   "logos": {
     "title": "Top companies love hiring our candidates",
     "companies": [
-      { "name": "Google", "logo": "/assets/logos/google.svg" },
-      { "name": "Amazon", "logo": "/assets/logos/amazon.svg" },
-      { "name": "Meta", "logo": "/assets/logos/meta.svg" },
-      { "name": "Microsoft", "logo": "/assets/logos/microsoft.svg" }
+      { "name": "Google", "logo": "/assets/logos/google.svg", "accent": "rgba(66,133,244,0.35)" },
+      { "name": "Amazon", "logo": "/assets/logos/amazon.svg", "accent": "rgba(255,153,0,0.35)" },
+      { "name": "Meta", "logo": "/assets/logos/meta.svg", "accent": "rgba(31,112,255,0.35)" },
+      { "name": "Microsoft", "logo": "/assets/logos/microsoft.svg", "accent": "rgba(0,164,239,0.35)" }
     ]
   },
   "about": {

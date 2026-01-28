@@ -14,9 +14,11 @@
     <div class="bg-layer"></div>
     <header class="site-header">
       <div class="container nav">
-        <a class="brand" href="/">
-          <img src="/assets/logo-mark.png" alt="Askia" class="brand-mark" />
-          <span class="brand-name">{{ site.name }}</span>
+        <a class="brand" href="/" aria-label="Askia">
+          <span class="brand-badge">
+            <img src="/assets/logo-mark.svg" alt="" class="brand-mark" />
+          </span>
+          <img src="/assets/logo-wordmark.png" alt="Askia" class="brand-wordmark" />
         </a>
         <nav class="nav-links">
           {% for item in site.nav %}
@@ -34,8 +36,10 @@
     <footer class="site-footer">
       <div class="container footer-inner">
         <div class="brand">
-          <img src="/assets/logo-mark.png" alt="Askia" class="brand-mark" />
-          <span class="brand-name">{{ site.name }}</span>
+          <span class="brand-badge">
+            <img src="/assets/logo-mark.svg" alt="" class="brand-mark" />
+          </span>
+          <img src="/assets/logo-wordmark.png" alt="Askia" class="brand-wordmark" />
         </div>
         <div class="footer-contact">
           <span>{{ site.contact.address }}</span>

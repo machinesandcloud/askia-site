@@ -99,12 +99,19 @@ description: "Askia helps top talent secure high-paying tech roles."
 <section class="section">
   <div class="container">
     <h3 class="section-title">{{ home.logos.title }}</h3>
-    <div class="logo-row">
-      {% for company in home.logos.companies %}
-        <div class="logo-item">
-          <img src="{{ company.logo }}" alt="{{ company.name }}" />
-        </div>
-      {% endfor %}
+    <div class="logo-carousel">
+      <div class="logo-track">
+        {% for company in home.logos.companies %}
+          <div class="logo-item" style="--logo-accent: {{ company.accent }};">
+            <img src="{{ company.logo }}" alt="{{ company.name }}" />
+          </div>
+        {% endfor %}
+        {% for company in home.logos.companies %}
+          <div class="logo-item" style="--logo-accent: {{ company.accent }};">
+            <img src="{{ company.logo }}" alt="" />
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>
