@@ -64,15 +64,17 @@ description: "Askia helps top talent secure high-paying tech roles."
 
 <section class="section">
   <div class="container pillar-wrap">
-    <div>
-      <h2 class="section-title">{{ home.pillars.title }}</h2>
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Askia System</p>
+      <h2 class="section-title section-title-glow">{{ home.pillars.title }}</h2>
       <p class="section-subtitle">{{ home.pillars.subtitle }}</p>
     </div>
     <div class="pillar-grid">
       {% for item in home.pillars.items %}
-        <div class="pillar-item">
-          <h3>{{ item.title }}</h3>
-          <p>{{ item.body }}</p>
+        <div class="pillar-card">
+          <div class="pillar-tag">0{{ loop.index }}</div>
+          <h3 class="pillar-title">{{ item.title }}</h3>
+          <p class="pillar-body">{{ item.body }}</p>
         </div>
       {% endfor %}
     </div>
@@ -81,11 +83,14 @@ description: "Askia helps top talent secure high-paying tech roles."
 
 <section class="section section-soft">
   <div class="container">
-    <h2 class="section-title section-title-accent">{{ home.proof.title }}</h2>
-    <div class="proof-grid">
+    <div class="outcome-header">
+      <h2 class="section-title section-title-accent section-title-glow">{{ home.proof.title }}</h2>
+      <p class="section-subtitle">Measured wins across compensation, momentum, and leadership signal.</p>
+    </div>
+    <div class="outcome-grid">
       {% for item in home.proof.items %}
-        <div class="proof-card">
-          <h3>{{ item.title }}</h3>
+        <div class="outcome-card">
+          <span class="outcome-number">{{ item.title }}</span>
           <p>{{ item.body }}</p>
         </div>
       {% endfor %}
@@ -167,14 +172,17 @@ description: "Askia helps top talent secure high-paying tech roles."
   <div class="container services-preview">
     <div class="services-copy">
       <p class="hero-eyebrow">Services</p>
-      <h2 class="section-title">Choose the support level that fits your goals</h2>
+      <h2 class="section-title section-title-glow">Choose the support level that fits your goals</h2>
       <p class="section-subtitle">From focused strategy to full transformation, each pathway is built to get you hired faster.</p>
       <a class="btn btn-ghost" href="/services/">See all services</a>
     </div>
-    <div class="services-grid">
+    <div class="service-stack">
       {% for item in services.services %}
-        <div class="service-card">
-          <h3>{{ item.title }}</h3>
+        <div class="service-tile">
+          <div class="service-header">
+            <h3>{{ item.title }}</h3>
+            <span class="service-tag">Premium</span>
+          </div>
           <p>{{ item.body }}</p>
           <ul>
             {% for bullet in item.bullets %}
