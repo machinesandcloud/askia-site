@@ -51,7 +51,7 @@ description: "Askia helps top talent secure high-paying tech roles."
   </div>
 </section>
 
-<section class="section">
+<section class="section section-soft">
   <div class="container stats-grid">
     {% for stat in home.stats %}
       <div class="stat-card">
@@ -62,9 +62,9 @@ description: "Askia helps top talent secure high-paying tech roles."
   </div>
 </section>
 
-<section class="section">
+<section class="section section-soft">
   <div class="container">
-    <h2 class="section-title">{{ home.proof.title }}</h2>
+    <h2 class="section-title section-title-accent">{{ home.proof.title }}</h2>
     <div class="proof-grid">
       {% for item in home.proof.items %}
         <div class="proof-card">
@@ -77,7 +77,7 @@ description: "Askia helps top talent secure high-paying tech roles."
 </section>
 
 <section class="section">
-  <div class="container card">
+  <div class="container about-panel">
     <h2 class="section-title">{{ home.about.title }}</h2>
     <p class="section-subtitle">{{ home.about.subtitle }}</p>
     <p>{{ home.about.body }}</p>
