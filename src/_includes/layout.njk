@@ -57,6 +57,7 @@
         const subEl = wrapper.querySelector("[data-assessment-sub]");
         const optionsEl = wrapper.querySelector("[data-assessment-options]");
         const noteEl = wrapper.querySelector("[data-assessment-note]");
+        const panel = wrapper.querySelector(".assessment-panel");
         const prevBtn = wrapper.querySelector("[data-assessment-prev]");
         const nextBtn = wrapper.querySelector("[data-assessment-next]");
         const result = wrapper.querySelector("[data-assessment-result]");
@@ -66,6 +67,7 @@
         const cta = wrapper.querySelector("[data-assessment-cta]");
         const scoreEl = wrapper.querySelector("[data-assessment-score]");
         const bookBtn = wrapper.querySelector("[data-assessment-book]");
+        const dotEl = wrapper.querySelector("[data-assessment-dot]");
 
         const questions = [
           {
@@ -204,6 +206,10 @@
         totalEl.textContent = questions.length;
 
         const renderQuestion = () => {
+          panel.classList.remove("slide-in");
+          panel.classList.remove("slide-out");
+          void panel.offsetWidth;
+          panel.classList.add("slide-in");
           const current = questions[index];
           stepEl.textContent = String(index + 1);
           barEl.style.width = `${((index + 1) / questions.length) * 100}%`;
@@ -243,20 +249,26 @@
           recommendation.innerHTML = outcomes[bucket].recs.map((item) => `<li>${item}</li>`).join("");
           cta.textContent = outcomes[bucket].cta;
           bookBtn.style.display = bucket === "green" ? "none" : "inline-flex";
+          const ratio = Math.min(score / 48, 1);
+          dotEl.style.transform = `translateX(${ratio * 100}%)`;
         };
 
         prevBtn.addEventListener("click", () => {
           if (index > 0) {
+            panel.classList.remove("slide-in");
+            panel.classList.add("slide-out");
             index -= 1;
-            renderQuestion();
+            setTimeout(renderQuestion, 120);
           }
         });
 
         nextBtn.addEventListener("click", () => {
           if (answers[index] === null) return;
           if (index < questions.length - 1) {
+            panel.classList.remove("slide-in");
+            panel.classList.add("slide-out");
             index += 1;
-            renderQuestion();
+            setTimeout(renderQuestion, 120);
             return;
           }
 
@@ -278,6 +290,7 @@
           cta.textContent = "";
           scoreEl.textContent = "";
           bookBtn.style.display = "none";
+          dotEl.style.transform = "translateX(0)";
         };
 
         renderQuestion();
