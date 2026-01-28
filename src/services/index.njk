@@ -7,45 +7,69 @@ description: "Askia coaching services to land top tech roles."
   <div class="container hero-grid">
     <div>
       <p class="hero-eyebrow">Services</p>
-      <h1 class="hero-title section-title-glow">
-        <span class="hero-title-lead">{{ services.hero.title }}</span>
-      </h1>
+      <h1 class="hero-title section-title-glow">{{ services.hero.title }}</h1>
       <p class="hero-subtitle">{{ services.hero.subtitle }}</p>
       <div class="hero-cta">
         <a class="btn btn-primary" href="{{ services.hero.ctaLink }}">{{ services.hero.ctaLabel }}</a>
         <span class="hero-proof">⏱ Typical turnaround 7–14 days · Coaching timelines 2–6 weeks</span>
       </div>
     </div>
-    <div class="service-hero-card">
-      <strong>What you get</strong>
-      <p>Every package is designed to elevate your market signal, create clarity, and unlock better offers.</p>
-      <div class="service-hero-list">
-        <span>Positioning & role clarity</span>
-        <span>Story + brand alignment</span>
-        <span>Interview & offer strategy</span>
+    <div class="service-hero-orbit">
+      <div class="orbit-card">
+        <strong>Outcomes you can feel</strong>
+        <p>Clear positioning, real interview momentum, and an offer strategy you can execute.</p>
       </div>
+      <div class="orbit-ring"></div>
+      <div class="orbit-dot"></div>
     </div>
   </div>
 </section>
 
 <section class="section">
-  <div class="container tier-bento">
-    {% for tier in services.tiers %}
-      <div class="tier-card{% if tier.tag == 'Most Popular' %} tier-featured{% endif %}">
-        <div class="tier-header">
-          <span class="tier-tag">{{ tier.tag }}</span>
-          <h3>{{ tier.title }}</h3>
-        </div>
-        <p>{{ tier.body }}</p>
-        <p class="tier-meta">{{ tier.ideal }}</p>
-        <p class="tier-meta">{{ tier.turnaround }}</p>
-        <ul>
-          {% for bullet in tier.bullets %}
-            <li>{{ bullet }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endfor %}
+  <div class="container service-gallery">
+    <div class="service-gallery-header">
+      <h2 class="section-title section-title-glow">The Askia Service Gallery</h2>
+      <p class="section-subtitle">Think of this as a menu of power‑ups. Choose a single upgrade or stack them into a full transformation.</p>
+    </div>
+    <div class="gallery-grid">
+      {% for tier in services.tiers %}
+        <article class="gallery-card{% if tier.tag == 'Most Popular' %} is-featured{% endif %}">
+          <div class="gallery-top">
+            <span class="gallery-tag">{{ tier.tag }}</span>
+            <h3>{{ tier.title }}</h3>
+            <p>{{ tier.body }}</p>
+          </div>
+          <div class="gallery-meta">
+            <span>{{ tier.ideal }}</span>
+            <span>{{ tier.turnaround }}</span>
+          </div>
+          <ul>
+            {% for bullet in tier.bullets %}
+              <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container service-composer">
+    <div class="composer-copy">
+      <p class="hero-eyebrow">Build Your Stack</p>
+      <h2 class="section-title section-title-glow">Mix. Match. Move faster.</h2>
+      <p class="section-subtitle">Most clients start with Brand refresh, then layer coaching once interviews hit. We’ll help you choose the fastest path.</p>
+      <a class="btn btn-ghost" href="{{ services.cta.ctaLink }}">Get a recommendation</a>
+    </div>
+    <div class="composer-tiles">
+      <div class="composer-tile">Resume Upgrade</div>
+      <div class="composer-tile">LinkedIn Signal</div>
+      <div class="composer-tile">Cover Letter</div>
+      <div class="composer-tile">Clarity Coaching</div>
+      <div class="composer-tile">Interview Practice</div>
+      <div class="composer-tile">Negotiation</div>
+    </div>
   </div>
 </section>
 
