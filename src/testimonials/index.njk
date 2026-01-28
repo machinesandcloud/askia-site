@@ -38,16 +38,18 @@ description: "Askia client success stories."
   </div>
 </section>
 
-<section class="section testimonial-spotlight">
-  <div class="container spotlight-grid">
+<section class="section testimonial-feature">
+  <div class="container feature-grid">
     {% set spotlight = testimonials.items[0] %}
-    <div class="spotlight-card">
-      <div class="spotlight-top">
-        <span class="spotlight-eyebrow">Featured Story</span>
+    {% set runnerUp = testimonials.items[1] %}
+    {% set runnerUpTwo = testimonials.items[2] %}
+    <article class="feature-story">
+      <div class="feature-top">
+        <span class="feature-eyebrow">Featured Story</span>
         <div class="rating">{{ "★" | repeat(spotlight.rating) }}</div>
       </div>
       <h2>{{ spotlight.quote }}</h2>
-      <div class="spotlight-meta">
+      <div class="feature-meta">
         <img class="avatar" src="{{ spotlight.photo }}" alt="{{ spotlight.name }}" />
         <div>
           <strong>{{ spotlight.name }}</strong>
@@ -57,26 +59,34 @@ description: "Askia client success stories."
           </div>
         </div>
       </div>
-      <div class="spotlight-tags">
-        <span>Positioning</span>
-        <span>Interview strategy</span>
-        <span>Offer clarity</span>
+      <div class="feature-tags">
+        <span>Clarity reset</span>
+        <span>Interview momentum</span>
+        <span>Offer strategy</span>
       </div>
-    </div>
-    <div class="spotlight-side">
-      <div class="side-card">
-        <strong>Why these stories matter</strong>
-        <p>We focus on clarity, confidence, and execution — the three levers that consistently move offers forward.</p>
+    </article>
+    <aside class="feature-rail">
+      <div class="rail-card">
+        <strong>What these wins share</strong>
+        <p>Clear positioning, repeatable interview prep, and negotiation plans built around leverage.</p>
       </div>
-      <div class="side-card">
-        <strong>Common wins</strong>
-        <ul>
-          <li>Sharper narrative that recruiters understand</li>
-          <li>Faster interview momentum with targeted outreach</li>
-          <li>Stronger offer strategy and negotiation posture</li>
-        </ul>
+      <div class="rail-story">
+        <div class="rating">{{ "★" | repeat(runnerUp.rating) }}</div>
+        <p>{{ runnerUp.quote }}</p>
+        <div class="rail-meta">
+          <img class="avatar" src="{{ runnerUp.photo }}" alt="{{ runnerUp.name }}" />
+          <span>{{ runnerUp.name }} · {{ runnerUp.company }}</span>
+        </div>
       </div>
-    </div>
+      <div class="rail-story">
+        <div class="rating">{{ "★" | repeat(runnerUpTwo.rating) }}</div>
+        <p>{{ runnerUpTwo.quote }}</p>
+        <div class="rail-meta">
+          <img class="avatar" src="{{ runnerUpTwo.photo }}" alt="{{ runnerUpTwo.name }}" />
+          <span>{{ runnerUpTwo.name }} · {{ runnerUpTwo.company }}</span>
+        </div>
+      </div>
+    </aside>
   </div>
 </section>
 
@@ -84,14 +94,14 @@ description: "Askia client success stories."
   <div class="container testimonial-wall-header">
     <div>
       <p class="hero-eyebrow">Success Wall</p>
-      <h2 class="section-title section-title-glow">20 outcomes. Real trajectories changed.</h2>
-      <p class="section-subtitle">Different paths and personalities — the same breakthrough: clarity, momentum, and offers that stick.</p>
+      <h2 class="section-title section-title-glow">30 stories, one result: real career momentum.</h2>
+      <p class="section-subtitle">Real voices, real outcomes — read the arcs, not just the headlines.</p>
     </div>
   </div>
   <div class="container testimonial-grid">
     {% for item in testimonials.items %}
-      {% if loop.index0 > 0 %}
-        <div class="testimonial-card{% if loop.index0 % 5 == 0 %} testimonial-card--wide{% endif %}{% if loop.index0 % 7 == 0 %} testimonial-card--tall{% endif %}">
+      {% if loop.index0 > 2 %}
+        <div class="testimonial-card">
           <div class="testimonial-header">
             <img class="avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
             <div>
