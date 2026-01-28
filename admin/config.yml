@@ -10,7 +10,7 @@ collections:
     files:
       - name: "site"
         label: "Global"
-        file: "src/_data/site.yml"
+        file: "src/_data/site.json"
         fields:
           - { label: "Site Name", name: "name", widget: "string" }
           - { label: "Brand Line", name: "brandLine", widget: "string" }
@@ -32,7 +32,7 @@ collections:
     files:
       - name: "home"
         label: "Home"
-        file: "src/_data/home.yml"
+        file: "src/_data/home.json"
         fields:
           - label: "Hero"
             name: "hero"
@@ -95,7 +95,7 @@ collections:
     files:
       - name: "services"
         label: "Services"
-        file: "src/_data/services.yml"
+        file: "src/_data/services.json"
         fields:
           - label: "Hero"
             name: "hero"
@@ -139,7 +139,7 @@ collections:
     files:
       - name: "testimonials"
         label: "Testimonials"
-        file: "src/_data/testimonials.yml"
+        file: "src/_data/testimonials.json"
         fields:
           - label: "Hero"
             name: "hero"

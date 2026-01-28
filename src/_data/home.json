@@ -1,0 +1,117 @@
+{
+  "hero": {
+    "title": "Land a $100K–$350K role — faster",
+    "subtitle": "Personalized career coaching for ambitious tech professionals.",
+    "supporting": "Our proven systems, insider hiring insights, and 1:1 coaching help you build a standout brand, win interviews, and negotiate offers with confidence.",
+    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLink": "https://bookings.askia.tech/#/consultation",
+    "highlight": [
+      "Role targeting and compensation positioning",
+      "Resume + LinkedIn that get recruiter replies",
+      "Interview prep and negotiation support"
+    ]
+  },
+  "stats": [
+    {
+      "title": "8 seconds",
+      "body": "Is how long recruiters spend scanning a resume. We make yours count."
+    },
+    {
+      "title": "75% of roles",
+      "body": "Are filled via referrals. We show you how to tap hidden opportunities."
+    },
+    {
+      "title": "1 in 4 offers",
+      "body": "Are negotiated. We help you maximize your total package."
+    }
+  ],
+  "proof": {
+    "title": "Outcomes that compound",
+    "items": [
+      {
+        "title": "$100K–$350K",
+        "body": "Offer ranges achieved by Askia clients across tech roles."
+      },
+      {
+        "title": "2–6 weeks",
+        "body": "Typical time to start seeing interview momentum."
+      },
+      {
+        "title": "Hiring‑insider coaching",
+        "body": "Guidance from a former engineering leader who hired talent."
+      }
+    ]
+  },
+  "logos": {
+    "title": "Top companies love hiring our candidates",
+    "companies": [
+      { "name": "Google", "logo": "/assets/logos/google.svg" },
+      { "name": "Amazon", "logo": "/assets/logos/amazon.svg" },
+      { "name": "Meta", "logo": "/assets/logos/meta.svg" },
+      { "name": "Microsoft", "logo": "/assets/logos/microsoft.svg" }
+    ]
+  },
+  "about": {
+    "title": "About Askia",
+    "subtitle": "Helping top talent secure high-paying tech roles.",
+    "body": "At Askia, we unlock your potential and guide you to $100K–$350K offers. With insights from the hiring table, we position you as the standout candidate without wasting months applying to countless jobs."
+  },
+  "coach": {
+    "title": "Meet Steve, Your Career Coach",
+    "credential": "Former engineering leader turned top tech career strategist",
+    "body": "Steve brings real-world hiring experience and a practical, tactical approach to career transitions. Clients work directly with him to build clarity, confidence, and a repeatable interview system.",
+    "bullets": [
+      "10+ years leading engineering teams",
+      "Hundreds of successful career transitions",
+      "Millions in negotiated salary increases"
+    ]
+  },
+  "program": {
+    "title": "The Askia Method",
+    "steps": [
+      {
+        "title": "Find the Roles That Pay What You’re Worth",
+        "body": "Define your target roles and compensation band with data-backed positioning."
+      },
+      {
+        "title": "Build a Resume & LinkedIn That Get Noticed",
+        "body": "Craft a concise, high-impact narrative recruiters respond to."
+      },
+      {
+        "title": "Land Interviews Faster With Smart Search",
+        "body": "Replace scattershot applying with a focused outreach and referral system."
+      },
+      {
+        "title": "Ace the Interviews & Negotiate Top Offers",
+        "body": "Master behavioral + technical interviews and negotiate with confidence."
+      }
+    ]
+  },
+  "timeline": {
+    "title": "How the program works",
+    "steps": [
+      {
+        "title": "Week 1 · Strategy",
+        "body": "Clarify target roles, compensation, and a focused search plan."
+      },
+      {
+        "title": "Week 2 · Positioning",
+        "body": "Ship a standout resume, LinkedIn profile, and outreach assets."
+      },
+      {
+        "title": "Weeks 3–4 · Interviews",
+        "body": "Practice interviews, refine stories, and build confidence."
+      },
+      {
+        "title": "Weeks 4–6 · Offers",
+        "body": "Negotiate, compare offers, and close strong."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Get Ready to Rewrite Your Story",
+    "body": "If you’re ready to move from vague goals to a clear plan and real offers, we’ll help you get there.",
+    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLink": "https://bookings.askia.tech/#/consultation"
+  }
+}
