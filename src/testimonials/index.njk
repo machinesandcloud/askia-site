@@ -84,14 +84,14 @@ description: "Askia client success stories."
   <div class="container testimonial-wall-header">
     <div>
       <p class="hero-eyebrow">Success Wall</p>
-      <h2 class="section-title section-title-glow">20 stories. 20 signals that it works.</h2>
-      <p class="section-subtitle">Different backgrounds. Same result: sharper positioning, faster interviews, stronger offers.</p>
+      <h2 class="section-title section-title-glow">20 outcomes. Real trajectories changed.</h2>
+      <p class="section-subtitle">Different paths and personalities — the same breakthrough: clarity, momentum, and offers that stick.</p>
     </div>
   </div>
   <div class="container testimonial-grid">
     {% for item in testimonials.items %}
       {% if loop.index0 > 0 %}
-        <div class="testimonial-card">
+        <div class="testimonial-card{% if loop.index0 % 5 == 0 %} testimonial-card--wide{% endif %}{% if loop.index0 % 7 == 0 %} testimonial-card--tall{% endif %}">
           <div class="testimonial-header">
             <img class="avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
             <div>

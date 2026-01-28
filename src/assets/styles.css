@@ -1819,6 +1819,7 @@ a {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 22px;
+  grid-auto-rows: minmax(120px, auto);
 }
 
 .testimonial-card {
@@ -1831,6 +1832,7 @@ a {
   overflow: hidden;
   grid-column: span 4;
   box-shadow: 0 24px 60px rgba(7, 10, 15, 0.45);
+  transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
 }
 
 .testimonial-header {
@@ -1858,6 +1860,19 @@ a {
   display: grid;
   gap: 10px;
   margin-bottom: 22px;
+  position: relative;
+  padding: 10px 0 6px;
+}
+
+.testimonial-wall-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 140px;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(114, 214, 255, 0.85), rgba(114, 214, 255, 0));
 }
 
 .testimonial-card::before {
@@ -1869,8 +1884,35 @@ a {
   pointer-events: none;
 }
 
-.testimonial-card:nth-child(5n) {
+.testimonial-card::after {
+  content: "“";
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  font-size: 2.6rem;
+  color: rgba(114, 214, 255, 0.18);
+  font-family: "Sora", "Segoe UI", system-ui, sans-serif;
+  pointer-events: none;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(114, 214, 255, 0.22);
+  box-shadow: 0 30px 70px rgba(7, 10, 15, 0.55);
+}
+
+.testimonial-card p {
+  margin: 10px 0 0;
+  color: rgba(244, 247, 251, 0.92);
+  line-height: 1.6;
+}
+
+.testimonial-card--wide {
   grid-column: span 6;
+}
+
+.testimonial-card--tall {
+  grid-row: span 2;
 }
 
 .testimonial-card:nth-child(6n) {
@@ -1883,8 +1925,8 @@ a {
   height: 18px;
   margin-right: 8px;
   vertical-align: -3px;
-  filter: invert(1) brightness(1.2);
-  opacity: 0.85;
+  filter: invert(1) brightness(1.1) saturate(1.1);
+  opacity: 0.9;
 }
 
 .testimonial-hero .hero-subtitle {
@@ -2064,6 +2106,11 @@ a {
   .testimonial-card {
     grid-column: span 6;
   }
+  .testimonial-card--wide,
+  .testimonial-card--tall {
+    grid-column: span 6;
+    grid-row: auto;
+  }
 }
 
 @media (max-width: 680px) {
@@ -2071,6 +2118,10 @@ a {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
   .testimonial-card {
+    grid-column: span 1;
+  }
+  .testimonial-card--wide,
+  .testimonial-card--tall {
     grid-column: span 1;
   }
 }
