@@ -10,25 +10,181 @@
       "name": "Raymond B.",
       "role": "Senior Software Engineer",
       "company": "Google",
-      "photo": "/assets/testimonials/placeholder.svg",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/google.svg",
+      "photo": "https://ui-avatars.com/api/?name=Raymond+B&background=random&color=fff&size=160",
       "rating": 5,
       "quote": "Since working with Askia, I landed a $350K offer and finally felt confident in my interviews."
     },
     {
-      "name": "CreativeEngineer",
+      "name": "Sasha L.",
       "role": "Product Engineer",
-      "company": "Manoosh",
-      "photo": "/assets/testimonials/placeholder.svg",
+      "company": "Meta",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/meta.svg",
+      "photo": "https://ui-avatars.com/api/?name=Sasha+L&background=random&color=fff&size=160",
       "rating": 5,
-      "quote": "The coaching helped me craft a narrative that got me interviews within weeks."
+      "quote": "The narrative rebuild made my resume click. Interviews started within two weeks."
     },
     {
       "name": "Neil R.",
       "role": "Software Engineer",
-      "company": "Meta",
-      "photo": "/assets/testimonials/placeholder.svg",
+      "company": "Amazon",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/amazon.svg",
+      "photo": "https://ui-avatars.com/api/?name=Neil+R&background=random&color=fff&size=160",
       "rating": 5,
       "quote": "I landed a life-changing offer and learned how to negotiate with confidence."
+    },
+    {
+      "name": "Alina K.",
+      "role": "Senior Product Manager",
+      "company": "Microsoft",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/microsoft.svg",
+      "photo": "https://ui-avatars.com/api/?name=Alina+K&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "Askia helped me reframe my experience into a leadership story that resonated."
+    },
+    {
+      "name": "Jordan T.",
+      "role": "Data Scientist",
+      "company": "Netflix",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/netflix.svg",
+      "photo": "https://ui-avatars.com/api/?name=Jordan+T&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "Clarity coaching turned scattered experience into a focused, high-impact pitch."
+    },
+    {
+      "name": "Priya S.",
+      "role": "Product Designer",
+      "company": "Apple",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/apple.svg",
+      "photo": "https://ui-avatars.com/api/?name=Priya+S&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "The portfolio strategy and interview prep made every conversation feel controlled."
+    },
+    {
+      "name": "Miguel A.",
+      "role": "Staff Engineer",
+      "company": "Stripe",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/stripe.svg",
+      "photo": "https://ui-avatars.com/api/?name=Miguel+A&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "I stopped cold applying and started targeted outreach that actually converted."
+    },
+    {
+      "name": "Tara J.",
+      "role": "Growth PM",
+      "company": "Airbnb",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/airbnb.svg",
+      "photo": "https://ui-avatars.com/api/?name=Tara+J&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "My story finally matched the roles I wanted. The response rate doubled."
+    },
+    {
+      "name": "Kevin D.",
+      "role": "Frontend Engineer",
+      "company": "Shopify",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/shopify.svg",
+      "photo": "https://ui-avatars.com/api/?name=Kevin+D&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "Resume + LinkedIn overhaul made recruiters reach out instead of silence."
+    },
+    {
+      "name": "Rina M.",
+      "role": "Solutions Architect",
+      "company": "Salesforce",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/salesforce.svg",
+      "photo": "https://ui-avatars.com/api/?name=Rina+M&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "The positioning work helped me shift from technical doer to trusted lead."
+    },
+    {
+      "name": "Evan P.",
+      "role": "Design Manager",
+      "company": "Adobe",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/adobe.svg",
+      "photo": "https://ui-avatars.com/api/?name=Evan+P&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "Interview prep turned rambling answers into sharp, confident stories."
+    },
+    {
+      "name": "Camila V.",
+      "role": "Product Analyst",
+      "company": "Uber",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/uber.svg",
+      "photo": "https://ui-avatars.com/api/?name=Camila+V&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "I negotiated a higher level and comp because I finally knew my value."
+    },
+    {
+      "name": "Omar H.",
+      "role": "Platform Engineer",
+      "company": "Spotify",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/spotify.svg",
+      "photo": "https://ui-avatars.com/api/?name=Omar+H&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "The outreach plan unlocked warm intros I didn’t know how to get before."
+    },
+    {
+      "name": "Lena Q.",
+      "role": "Product Designer",
+      "company": "Figma",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/figma.svg",
+      "photo": "https://ui-avatars.com/api/?name=Lena+Q&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "Portfolio narrative + mock interviews took my confidence to a new level."
+    },
+    {
+      "name": "Miles S.",
+      "role": "Backend Engineer",
+      "company": "Notion",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/notion.svg",
+      "photo": "https://ui-avatars.com/api/?name=Miles+S&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "Tightened story, tighter process. I finally felt in control of my search."
+    },
+    {
+      "name": "Isabelle C.",
+      "role": "Engineering Manager",
+      "company": "Atlassian",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/atlassian.svg",
+      "photo": "https://ui-avatars.com/api/?name=Isabelle+C&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "Leadership narrative unlocked senior-level conversations I couldn’t reach before."
+    },
+    {
+      "name": "Noah G.",
+      "role": "Developer Advocate",
+      "company": "GitHub",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/github.svg",
+      "photo": "https://ui-avatars.com/api/?name=Noah+G&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "The interview framework helped me keep answers crisp and memorable."
+    },
+    {
+      "name": "Hannah W.",
+      "role": "Customer Success Lead",
+      "company": "Slack",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/slack.svg",
+      "photo": "https://ui-avatars.com/api/?name=Hannah+W&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "I went from scattered interviews to a focused strategy that closed."
+    },
+    {
+      "name": "Diego R.",
+      "role": "Security Engineer",
+      "company": "Zoom",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/zoom.svg",
+      "photo": "https://ui-avatars.com/api/?name=Diego+R&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "Offer strategy coaching paid off immediately in final rounds."
+    },
+    {
+      "name": "Maya N.",
+      "role": "Technical Program Manager",
+      "company": "Oracle",
+      "logo": "https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/oracle.svg",
+      "photo": "https://ui-avatars.com/api/?name=Maya+N&background=random&color=fff&size=160",
+      "rating": 5,
+      "quote": "The resume rebuild and negotiation prep were the turning point."
     }
   ],
   "cta": {

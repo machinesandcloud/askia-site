@@ -51,7 +51,10 @@ description: "Askia client success stories."
         <img class="avatar" src="{{ spotlight.photo }}" alt="{{ spotlight.name }}" />
         <div>
           <strong>{{ spotlight.name }}</strong>
-          <div class="section-subtitle">{{ spotlight.role }} · {{ spotlight.company }}</div>
+          <div class="section-subtitle">
+            <img class="company-logo" src="{{ spotlight.logo }}" alt="{{ spotlight.company }} logo" loading="lazy" />
+            {{ spotlight.role }} · {{ spotlight.company }}
+          </div>
         </div>
       </div>
       <div class="spotlight-tags">
@@ -78,6 +81,13 @@ description: "Askia client success stories."
 </section>
 
 <section class="section testimonial-stage">
+  <div class="container testimonial-wall-header">
+    <div>
+      <p class="hero-eyebrow">Success Wall</p>
+      <h2 class="section-title section-title-glow">20 stories. 20 signals that it works.</h2>
+      <p class="section-subtitle">Different backgrounds. Same result: sharper positioning, faster interviews, stronger offers.</p>
+    </div>
+  </div>
   <div class="container testimonial-grid">
     {% for item in testimonials.items %}
       {% if loop.index0 > 0 %}
@@ -86,7 +96,10 @@ description: "Askia client success stories."
             <img class="avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
             <div>
               <strong>{{ item.name }}</strong>
-              <div class="section-subtitle">{{ item.role }} · {{ item.company }}</div>
+              <div class="section-subtitle">
+                <img class="company-logo" src="{{ item.logo }}" alt="{{ item.company }} logo" loading="lazy" />
+                {{ item.role }} · {{ item.company }}
+              </div>
             </div>
           </div>
           <div class="rating">{{ "★" | repeat(item.rating) }}</div>
