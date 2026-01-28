@@ -1,6 +1,8 @@
 {
   "hero": {
-    "title": "Land a $100K–$350K role — faster",
+    "eyebrow": "Land your next $100K–$350K role in Tech",
+    "titlePrimary": "Land a $100K–$350K role",
+    "titleAccent": "faster",
     "subtitle": "Personalized career coaching for ambitious tech professionals.",
     "supporting": "Our proven systems, insider hiring insights, and 1:1 coaching help you build a standout brand, win interviews, and negotiate offers with confidence.",
     "ctaLabel": "Book Your Free Strategy Call",
@@ -48,7 +50,13 @@
       { "name": "Google", "logo": "/assets/logos/google.svg", "accent": "rgba(66,133,244,0.35)" },
       { "name": "Amazon", "logo": "/assets/logos/amazon.svg", "accent": "rgba(255,153,0,0.35)" },
       { "name": "Meta", "logo": "/assets/logos/meta.svg", "accent": "rgba(31,112,255,0.35)" },
-      { "name": "Microsoft", "logo": "/assets/logos/microsoft.svg", "accent": "rgba(0,164,239,0.35)" }
+      { "name": "Microsoft", "logo": "/assets/logos/microsoft.svg", "accent": "rgba(0,164,239,0.35)" },
+      { "name": "Apple", "logo": "/assets/logos/apple.svg", "accent": "rgba(215,221,230,0.25)" },
+      { "name": "Netflix", "logo": "/assets/logos/netflix.svg", "accent": "rgba(229,9,20,0.3)" },
+      { "name": "Uber", "logo": "/assets/logos/uber.svg", "accent": "rgba(255,255,255,0.2)" },
+      { "name": "Airbnb", "logo": "/assets/logos/airbnb.svg", "accent": "rgba(255,90,95,0.3)" },
+      { "name": "Stripe", "logo": "/assets/logos/stripe.svg", "accent": "rgba(99,91,255,0.3)" },
+      { "name": "Shopify", "logo": "/assets/logos/shopify.svg", "accent": "rgba(149,191,71,0.3)" }
     ]
   },
   "about": {

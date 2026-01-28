@@ -86,26 +86,10 @@ a {
   letter-spacing: 0.4px;
 }
 
-.brand-badge {
-  display: grid;
-  place-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, rgba(114, 214, 255, 0.18), rgba(13, 24, 36, 0.4));
-  border: 1px solid rgba(114, 214, 255, 0.2);
-  box-shadow: 0 12px 24px rgba(7, 10, 15, 0.5);
-}
-
-.brand-mark {
-  width: 28px;
-  height: 28px;
-}
-
 .brand-wordmark {
-  height: 20px;
-  filter: drop-shadow(0 6px 16px rgba(114, 214, 255, 0.2));
-  opacity: 0.9;
+  height: 22px;
+  filter: drop-shadow(0 10px 22px rgba(114, 214, 255, 0.25));
+  opacity: 0.95;
 }
 
 .nav-links {
@@ -186,14 +170,30 @@ a {
 
 .hero h1 {
   font-family: "Sora", "Segoe UI", system-ui, sans-serif;
-  font-size: clamp(2.4rem, 4vw, 3.4rem);
-  margin: 0 0 16px;
+  font-size: clamp(2.5rem, 4.2vw, 3.6rem);
+  margin: 0 0 18px;
+  line-height: 1.08;
 }
 
 .hero p {
   color: var(--muted);
   font-size: 1.05rem;
   line-height: 1.7;
+}
+
+.hero-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  color: rgba(114, 214, 255, 0.7);
+  margin-bottom: 14px;
+}
+
+.hero-title span {
+  display: inline-block;
+  padding-left: 6px;
+  color: var(--accent);
+  text-shadow: 0 10px 30px rgba(114, 214, 255, 0.35);
 }
 
 .hero .highlight-list {
@@ -261,6 +261,11 @@ a {
 
 .section {
   padding: 70px 0;
+}
+
+.section-tight {
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .section-title {
@@ -406,7 +411,7 @@ a {
   gap: 18px;
   overflow: hidden;
   padding: 10px 0;
-  margin-top: 26px;
+  margin-top: 18px;
 }
 
 .logo-carousel::before,
@@ -434,7 +439,7 @@ a {
   display: flex;
   gap: 20px;
   align-items: center;
-  animation: logoScroll 26s linear infinite;
+  animation: logoScroll 32s linear infinite;
   width: max-content;
 }
 
@@ -453,8 +458,8 @@ a {
 }
 
 .logo-item img {
-  max-height: 28px;
-  max-width: 140px;
+  max-height: 26px;
+  max-width: 150px;
   opacity: 0.95;
   filter: none;
 }

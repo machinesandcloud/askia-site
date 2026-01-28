@@ -6,8 +6,11 @@ description: "Askia helps top talent secure high-paying tech roles."
 <section class="hero">
   <div class="container hero-grid">
     <div>
-      <p class="section-subtitle">{{ site.brandLine }}</p>
-      <h1>{{ home.hero.title }}</h1>
+      <p class="hero-eyebrow">{{ home.hero.eyebrow }}</p>
+      <h1 class="hero-title">
+        {{ home.hero.titlePrimary }}
+        <span>{{ home.hero.titleAccent }}</span>
+      </h1>
       <p>{{ home.hero.subtitle }}</p>
       <p>{{ home.hero.supporting }}</p>
       <ul class="highlight-list">
@@ -19,6 +22,26 @@ description: "Askia helps top talent secure high-paying tech roles."
     </div>
     <div class="hero-photo">
       <img src="/assets/steve-headshot.jpg" alt="Steve, Askia Career Coach" />
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container">
+    <h3 class="section-title">{{ home.logos.title }}</h3>
+    <div class="logo-carousel">
+      <div class="logo-track">
+        {% for company in home.logos.companies %}
+          <div class="logo-item" style="--logo-accent: {{ company.accent }};">
+            <img src="{{ company.logo }}" alt="{{ company.name }}" />
+          </div>
+        {% endfor %}
+        {% for company in home.logos.companies %}
+          <div class="logo-item" style="--logo-accent: {{ company.accent }};">
+            <img src="{{ company.logo }}" alt="" />
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>
@@ -96,25 +119,6 @@ description: "Askia helps top talent secure high-paying tech roles."
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <h3 class="section-title">{{ home.logos.title }}</h3>
-    <div class="logo-carousel">
-      <div class="logo-track">
-        {% for company in home.logos.companies %}
-          <div class="logo-item" style="--logo-accent: {{ company.accent }};">
-            <img src="{{ company.logo }}" alt="{{ company.name }}" />
-          </div>
-        {% endfor %}
-        {% for company in home.logos.companies %}
-          <div class="logo-item" style="--logo-accent: {{ company.accent }};">
-            <img src="{{ company.logo }}" alt="" />
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="section">
   <div class="container card">
