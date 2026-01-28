@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ title or site.name }} | Askia</title>
+    <meta name="description" content="{{ description or site.brandLine }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <div class="bg-layer"></div>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="/">
+          <img src="/assets/logo-mark.png" alt="Askia" class="brand-mark" />
+          <span class="brand-name">{{ site.name }}</span>
+        </a>
+        <nav class="nav-links">
+          {% for item in site.nav %}
+            <a href="{{ item.url }}">{{ item.label }}</a>
+          {% endfor %}
+        </nav>
+        <a class="btn btn-ghost" href="{{ site.cta.link }}">{{ site.cta.label }}</a>
+      </div>
+    </header>
+
+    <main>
+      {{ content | safe }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="brand">
+          <img src="/assets/logo-mark.png" alt="Askia" class="brand-mark" />
+          <span class="brand-name">{{ site.name }}</span>
+        </div>
+        <div class="footer-contact">
+          <span>{{ site.contact.address }}</span>
+          <span>{{ site.contact.phone }}</span>
+          <span>{{ site.contact.email }}</span>
+        </div>
+        <p class="footer-note">{{ site.footer.note }}</p>
+      </div>
+    </footer>
+  </body>
+</html>

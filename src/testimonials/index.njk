@@ -1,0 +1,45 @@
+---
+layout: layout.njk
+title: Testimonials
+description: "Askia client success stories."
+---
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h1>{{ testimonials.hero.title }}</h1>
+      <p>{{ testimonials.hero.subtitle }}</p>
+      <a class="btn btn-primary" href="{{ testimonials.hero.ctaLink }}">{{ testimonials.hero.ctaLabel }}</a>
+    </div>
+    <div class="card">
+      <strong>What clients say</strong>
+      <p>Real outcomes from professionals who used the Askia system to land top offers.</p>
+      <div class="rating">★★★★★</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container testimonial-grid">
+    {% for item in testimonials.items %}
+      <div class="testimonial-card">
+        <div class="testimonial-header">
+          <img class="avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
+          <div>
+            <strong>{{ item.name }}</strong>
+            <div class="section-subtitle">{{ item.role }} · {{ item.company }}</div>
+          </div>
+        </div>
+        <div class="rating">{{ "★" | repeat(item.rating) }}</div>
+        <p>{{ item.quote }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container card">
+    <h2 class="section-title">{{ testimonials.cta.title }}</h2>
+    <p class="section-subtitle">{{ testimonials.cta.body }}</p>
+    <a class="btn btn-primary" href="{{ testimonials.cta.ctaLink }}">{{ testimonials.cta.ctaLabel }}</a>
+  </div>
+</section>

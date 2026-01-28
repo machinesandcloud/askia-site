@@ -1,0 +1,118 @@
+---
+layout: layout.njk
+title: Home
+description: "Askia helps top talent secure high-paying tech roles."
+---
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="section-subtitle">{{ site.brandLine }}</p>
+      <h1>{{ home.hero.title }}</h1>
+      <p>{{ home.hero.subtitle }}</p>
+      <p>{{ home.hero.supporting }}</p>
+      <ul class="highlight-list">
+        {% for item in home.hero.highlight %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      <a class="btn btn-primary" href="{{ home.hero.ctaLink }}">{{ home.hero.ctaLabel }}</a>
+    </div>
+    <div class="hero-photo">
+      <img src="/assets/steve-headshot.jpg" alt="Steve, Askia Career Coach" />
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container stats-grid">
+    {% for stat in home.stats %}
+      <div class="stat-card">
+        <h3>{{ stat.title }}</h3>
+        <p>{{ stat.body }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">{{ home.proof.title }}</h2>
+    <div class="proof-grid">
+      {% for item in home.proof.items %}
+        <div class="proof-card">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.body }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container card">
+    <h2 class="section-title">{{ home.about.title }}</h2>
+    <p class="section-subtitle">{{ home.about.subtitle }}</p>
+    <p>{{ home.about.body }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid-2">
+    <div class="card">
+      <h3 class="section-title">{{ home.coach.title }}</h3>
+      <p class="section-subtitle">{{ home.coach.credential }}</p>
+      <p>{{ home.coach.body }}</p>
+      <ul class="highlight-list">
+        {% for item in home.coach.bullets %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="card">
+      <h3 class="section-title">{{ home.program.title }}</h3>
+      <div class="steps">
+        {% for step in home.program.steps %}
+          <div class="step">
+            <h4>{{ step.title }}</h4>
+            <p>{{ step.body }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container card timeline-card">
+    <h2 class="section-title">{{ home.timeline.title }}</h2>
+    <div class="timeline-grid">
+      {% for step in home.timeline.steps %}
+        <div class="timeline-step">
+          <strong>{{ step.title }}</strong>
+          <p>{{ step.body }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h3 class="section-title">{{ home.logos.title }}</h3>
+    <div class="logo-row">
+      {% for company in home.logos.companies %}
+        <div class="logo-item">
+          <img src="{{ company.logo }}" alt="{{ company.name }}" />
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container card">
+    <h2 class="section-title">{{ home.cta.title }}</h2>
+    <p class="section-subtitle">{{ home.cta.body }}</p>
+    <a class="btn btn-primary" href="{{ home.cta.ctaLink }}">{{ home.cta.ctaLabel }}</a>
+  </div>
+</section>

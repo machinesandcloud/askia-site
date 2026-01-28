@@ -1,0 +1,38 @@
+hero:
+  title: "Coaching Services"
+  subtitle: "High-touch, tactical coaching designed to move you into top-paying tech roles."
+  ctaLabel: "Book a Call"
+  ctaLink: "https://bookings.askia.tech/#/consultation"
+services:
+  - title: "Career Coaching"
+    body: "One-on-one guidance to define your target roles, polish your brand, and execute a focused job search strategy."
+    bullets:
+      - "Target role positioning & market mapping"
+      - "Resume and LinkedIn optimization"
+      - "Interview prep with real-time feedback"
+  - title: "Accelerated Leadership Program"
+    body: "For experienced professionals preparing for senior or leadership roles."
+    bullets:
+      - "Executive-level storytelling"
+      - "Leadership interview coaching"
+      - "Offer strategy and negotiation"
+  - title: "The $100K+ Tech Career Blueprint"
+    body: "A structured, step-by-step system to move fast and win offers."
+    bullets:
+      - "Role targeting and outreach playbook"
+      - "Recruiter-ready positioning"
+      - "Offer comparison and decision support"
+faq:
+  title: "Common Questions"
+  items:
+    - question: "How long does the program take?"
+      answer: "Most clients see momentum within 2–6 weeks, depending on role and market."
+    - question: "Do you help with salary negotiation?"
+      answer: "Yes. You’ll get a negotiation strategy and scripts tailored to your offer."
+    - question: "Is this for entry-level or experienced candidates?"
+      answer: "We work with professionals across levels, with a focus on experienced and mid-to-senior talent."
+cta:
+  title: "Ready to get started?"
+  body: "Let’s map out your next move and build a plan to land your next offer fast."
+  ctaLabel: "Book Your Free Strategy Call"
+  ctaLink: "https://bookings.askia.tech/#/consultation"

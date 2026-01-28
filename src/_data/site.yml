@@ -1,0 +1,18 @@
+name: Askia
+brandLine: "Land your next $100K–$350K role in Tech"
+cta:
+  label: "Book a Call"
+  link: "https://bookings.askia.tech/#/consultation"
+nav:
+  - label: Home
+    url: "/"
+  - label: Services
+    url: "/services/"
+  - label: Testimonials
+    url: "/testimonials/"
+contact:
+  address: "5718 Westheimer Rd Suite 1000, Houston, TX 77057"
+  phone: "(346) 229-1245"
+  email: "support@askia.tech"
+footer:
+  note: "© 2026 Askia. All rights reserved."
