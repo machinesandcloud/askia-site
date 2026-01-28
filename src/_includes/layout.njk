@@ -60,6 +60,7 @@
         const panel = wrapper.querySelector(".assessment-panel");
         const prevBtn = wrapper.querySelector("[data-assessment-prev]");
         const nextBtn = wrapper.querySelector("[data-assessment-next]");
+        const overlay = wrapper.querySelector("[data-assessment-overlay]");
         const result = wrapper.querySelector("[data-assessment-result]");
         const title = wrapper.querySelector("[data-assessment-title]");
         const message = wrapper.querySelector("[data-assessment-message]");
@@ -239,7 +240,9 @@
         };
 
         const renderResult = (bucket, score) => {
+          overlay.hidden = false;
           result.hidden = false;
+          document.body.classList.add("assessment-focus");
           result.classList.remove("green", "yellow", "red");
           result.classList.add(bucket);
           scoreEl.textContent = `Career Readiness Score: ${score} / 48`;
@@ -280,7 +283,9 @@
         });
 
         const resetResult = () => {
+          overlay.hidden = true;
           result.hidden = true;
+          document.body.classList.remove("assessment-focus");
           title.textContent = "";
           message.textContent = "";
           recommendation.innerHTML = "";
@@ -291,6 +296,15 @@
 
         renderQuestion();
         resetResult();
+
+        wrapper.querySelector("[data-assessment-close]").addEventListener("click", () => {
+          resetResult();
+        });
+        overlay.addEventListener("click", (event) => {
+          if (event.target === overlay) {
+            resetResult();
+          }
+        });
       });
     </script>
   </body>

@@ -19,15 +19,15 @@
   "stats": [
     {
       "title": "8 seconds",
-      "body": "Is how long recruiters spend scanning a resume. We make yours count."
+      "body": "The average time a recruiter spends scanning a resume. We make every second count."
     },
     {
       "title": "75% of roles",
-      "body": "Are filled via referrals. We show you how to tap hidden opportunities."
+      "body": "Are filled through referrals and warm networks. We show you how to access the hidden market."
     },
     {
       "title": "1 in 4 offers",
-      "body": "Are negotiated. We help you maximize your total package."
+      "body": "Are negotiated. We help you secure the compensation you actually deserve."
     }
   ],
   "proof": {
@@ -35,15 +35,15 @@
     "items": [
       {
         "title": "$100K–$350K",
-        "body": "Offer ranges achieved by Askia clients across tech roles."
+        "body": "Offer ranges achieved by Askia clients across high‑impact tech roles."
       },
       {
         "title": "2–6 weeks",
-        "body": "Typical time to start seeing interview momentum."
+        "body": "Typical time to see interview momentum when your positioning is right."
       },
       {
         "title": "Hiring‑insider coaching",
-        "body": "Guidance from a former engineering leader who hired talent."
+        "body": "Guidance from a former engineering leader who built and hired top teams."
       }
     ]
   },
@@ -65,12 +65,12 @@
   "about": {
     "title": "About Askia",
     "subtitle": "Helping top talent secure high-paying tech roles.",
-    "body": "This program is about more than just landing a job. It’s about unlocking your potential, telling your story with confidence, and creating a career that excites you and pays what you’re worth. With insights from the hiring table, we position you as the standout candidate without wasting months applying to countless jobs."
+    "body": "This program is about more than just landing a job. It’s about unlocking your potential, telling your story with confidence, and building a career that excites you and pays what you’re worth. With insights from the hiring table, we position you as the standout candidate without wasting months on cold applications."
   },
   "coach": {
     "title": "Meet Steve, Your Career Coach",
     "credential": "Former engineering leader turned top tech career strategist",
-    "body": "Steve brings real-world hiring experience and a practical, tactical approach to career transitions. Clients work directly with him to build clarity, confidence, and a repeatable interview system.",
+    "body": "Steve brings real-world hiring experience and a tactical, human approach to career transitions. You’ll work directly with him to build clarity, confidence, and a repeatable system that lands interviews.",
     "bullets": [
       "10+ years leading engineering teams",
       "Hundreds of successful career transitions",
@@ -82,19 +82,19 @@
     "steps": [
       {
         "title": "Find the Roles That Pay What You’re Worth",
-        "body": "Define your target roles and compensation band with data-backed positioning."
+        "body": "Define your target roles and compensation band with data‑backed positioning."
       },
       {
         "title": "Build a Resume & LinkedIn That Get Noticed",
-        "body": "Craft a concise, high-impact narrative recruiters respond to."
+        "body": "Craft a concise, high‑impact narrative recruiters actually respond to."
       },
       {
         "title": "Land Interviews Faster With Smart Search",
-        "body": "Replace scattershot applying with a focused outreach and referral system."
+        "body": "Replace scattershot applying with focused outreach and referral strategy."
       },
       {
         "title": "Ace the Interviews & Negotiate Top Offers",
-        "body": "Master behavioral + technical interviews and negotiate with confidence."
+        "body": "Master behavioral + technical interviews, then negotiate with confidence."
       }
     ]
   },

@@ -101,15 +101,18 @@ description: "Askia helps top talent secure high-paying tech roles."
         <button type="button" class="btn btn-primary" data-assessment-next>Next</button>
         <span class="assessment-hint">Maximum score: 48 · Minimum score: 1</span>
       </div>
-      <div class="assessment-result" data-assessment-result hidden>
-        <p class="assessment-score" data-assessment-score></p>
-        <h3 data-assessment-title></h3>
-        <p data-assessment-message></p>
-        <ul data-assessment-recommendation></ul>
-        <a class="btn btn-ghost" href="{{ site.cta.link }}" data-assessment-book>Book a Strategy Call</a>
-        <p class="assessment-cta" data-assessment-cta></p>
-      </div>
       <p class="assessment-footnote">“The Career Readiness Index™ is based on real hiring patterns across senior tech, leadership, and platform roles — not generic career advice.”</p>
+      <div class="assessment-overlay" data-assessment-overlay hidden>
+        <div class="assessment-result" data-assessment-result>
+          <button class="assessment-close" type="button" data-assessment-close>Close</button>
+          <p class="assessment-score" data-assessment-score></p>
+          <h3 data-assessment-title></h3>
+          <p data-assessment-message></p>
+          <ul data-assessment-recommendation></ul>
+          <a class="btn btn-ghost" href="{{ site.cta.link }}" data-assessment-book>Book a Strategy Call</a>
+          <p class="assessment-cta" data-assessment-cta></p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -123,8 +126,8 @@ description: "Askia helps top talent secure high-paying tech roles."
 </section>
 
 <section class="section">
-  <div class="container grid-2">
-    <div class="card">
+  <div class="container feature-split">
+    <div class="feature-copy">
       <h3 class="section-title">{{ home.coach.title }}</h3>
       <p class="section-subtitle">{{ home.coach.credential }}</p>
       <p>{{ home.coach.body }}</p>
@@ -134,13 +137,16 @@ description: "Askia helps top talent secure high-paying tech roles."
         {% endfor %}
       </ul>
     </div>
-    <div class="card">
+    <div class="feature-flow">
       <h3 class="section-title">{{ home.program.title }}</h3>
-      <div class="steps">
+      <div class="flow-list">
         {% for step in home.program.steps %}
-          <div class="step">
-            <h4>{{ step.title }}</h4>
-            <p>{{ step.body }}</p>
+          <div class="flow-item">
+            <span class="flow-index">0{{ loop.index }}</span>
+            <div>
+              <h4>{{ step.title }}</h4>
+              <p>{{ step.body }}</p>
+            </div>
           </div>
         {% endfor %}
       </div>
@@ -149,11 +155,11 @@ description: "Askia helps top talent secure high-paying tech roles."
 </section>
 
 <section class="section">
-  <div class="container card timeline-card">
+  <div class="container timeline-track">
     <h2 class="section-title">{{ home.timeline.title }}</h2>
-    <div class="timeline-grid">
+    <div class="timeline-rail">
       {% for step in home.timeline.steps %}
-        <div class="timeline-step">
+        <div class="timeline-node">
           <strong>{{ step.title }}</strong>
           <p>{{ step.body }}</p>
         </div>
@@ -164,9 +170,11 @@ description: "Askia helps top talent secure high-paying tech roles."
 
 
 <section class="section">
-  <div class="container card">
-    <h2 class="section-title">{{ home.cta.title }}</h2>
-    <p class="section-subtitle">{{ home.cta.body }}</p>
+  <div class="container cta-band">
+    <div>
+      <h2 class="section-title">{{ home.cta.title }}</h2>
+      <p class="section-subtitle">{{ home.cta.body }}</p>
+    </div>
     <a class="btn btn-primary" href="{{ home.cta.ctaLink }}">{{ home.cta.ctaLabel }}</a>
   </div>
 </section>
