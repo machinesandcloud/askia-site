@@ -1,4 +1,4 @@
-export default function (eleventyConfig) {
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "admin": "admin" });
 
@@ -14,4 +14,4 @@ export default function (eleventyConfig) {
       data: "_data"
     }
   };
-}
+};
