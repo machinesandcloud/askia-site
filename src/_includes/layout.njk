@@ -67,7 +67,6 @@
         const cta = wrapper.querySelector("[data-assessment-cta]");
         const scoreEl = wrapper.querySelector("[data-assessment-score]");
         const bookBtn = wrapper.querySelector("[data-assessment-book]");
-        const dotEl = wrapper.querySelector("[data-assessment-dot]");
 
         const questions = [
           {
@@ -249,8 +248,6 @@
           recommendation.innerHTML = outcomes[bucket].recs.map((item) => `<li>${item}</li>`).join("");
           cta.textContent = outcomes[bucket].cta;
           bookBtn.style.display = bucket === "green" ? "none" : "inline-flex";
-          const ratio = Math.min(score / 48, 1);
-          dotEl.style.transform = `translateX(${ratio * 100}%)`;
         };
 
         prevBtn.addEventListener("click", () => {
@@ -290,7 +287,6 @@
           cta.textContent = "";
           scoreEl.textContent = "";
           bookBtn.style.display = "none";
-          dotEl.style.transform = "translateX(0)";
         };
 
         renderQuestion();
