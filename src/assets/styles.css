@@ -928,7 +928,7 @@ a {
 .carousel-viewport {
   overflow-x: hidden;
   overflow-y: visible;
-  padding: 22px 0 26px;
+  padding: 38px 0 44px;
   --carousel-gap: 28px;
   --carousel-cards: 3;
   position: relative;
@@ -938,10 +938,10 @@ a {
   content: "";
   position: absolute;
   inset: -60px -40px 40px;
-  background: radial-gradient(circle at 12% 15%, rgba(114, 214, 255, 0.28), transparent 55%),
-    radial-gradient(circle at 85% 25%, rgba(41, 180, 255, 0.22), transparent 52%),
-    radial-gradient(circle at 60% 80%, rgba(140, 195, 255, 0.16), transparent 60%);
-  opacity: 0.95;
+  background: radial-gradient(circle at 12% 15%, rgba(114, 214, 255, 0.18), transparent 58%),
+    radial-gradient(circle at 85% 25%, rgba(41, 180, 255, 0.14), transparent 55%),
+    radial-gradient(circle at 60% 80%, rgba(140, 195, 255, 0.12), transparent 62%);
+  opacity: 0.7;
   z-index: 0;
   pointer-events: none;
 }
@@ -951,7 +951,7 @@ a {
   position: absolute;
   inset: auto -40px -80px;
   height: 260px;
-  background: linear-gradient(180deg, rgba(7, 11, 18, 0), rgba(6, 10, 16, 0.92));
+  background: linear-gradient(180deg, rgba(7, 11, 18, 0), rgba(6, 10, 16, 0.82));
   z-index: 0;
   pointer-events: none;
 }
@@ -960,9 +960,9 @@ a {
   content: "";
   position: absolute;
   inset: -40px;
-  background: radial-gradient(circle at 50% 0%, rgba(114, 214, 255, 0.25), transparent 65%);
-  filter: blur(24px);
-  opacity: 0.6;
+  background: radial-gradient(circle at 50% 0%, rgba(114, 214, 255, 0.18), transparent 68%);
+  filter: blur(26px);
+  opacity: 0.5;
   z-index: 0;
   pointer-events: none;
 }
@@ -981,12 +981,12 @@ a {
   padding: 34px;
   border-radius: 32px;
   background: linear-gradient(145deg, rgba(15, 24, 38, 0.98), rgba(7, 11, 18, 0.38));
-  border: 1px solid rgba(120, 160, 205, 0.22);
-  box-shadow: 0 36px 90px rgba(7, 10, 15, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(120, 160, 205, 0.18);
+  box-shadow: 0 34px 86px rgba(7, 10, 15, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.06);
   position: relative;
   overflow: hidden;
   transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.6s ease, border-color 0.6s ease, filter 0.6s ease, opacity 0.6s ease, background 0.6s ease;
-  min-height: 500px;
+  min-height: 510px;
   opacity: 0.82;
   filter: saturate(0.88) brightness(0.9);
   transform: scale(0.97);
@@ -999,8 +999,8 @@ a {
   inset: 0;
   padding: 1px;
   border-radius: inherit;
-  background: linear-gradient(120deg, rgba(255, 255, 255, 0.35), rgba(114, 214, 255, 0.2), rgba(120, 180, 255, 0.1), rgba(255, 255, 255, 0.2));
-  opacity: 0.28;
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.28), rgba(114, 214, 255, 0.18), rgba(120, 180, 255, 0.08), rgba(255, 255, 255, 0.16));
+  opacity: 0.22;
   pointer-events: none;
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor;
@@ -1008,8 +1008,8 @@ a {
 }
 
 .carousel-card.is-featured {
-  border-color: rgba(114, 214, 255, 0.85);
-  box-shadow: 0 70px 180px rgba(7, 10, 15, 0.98), 0 0 60px rgba(114, 214, 255, 0.25);
+  border-color: rgba(114, 214, 255, 0.78);
+  box-shadow: 0 70px 180px rgba(7, 10, 15, 0.98), 0 0 70px rgba(114, 214, 255, 0.22);
   background: radial-gradient(circle at 20% 0%, rgba(114, 214, 255, 0.18), transparent 55%),
     linear-gradient(145deg, rgba(16, 26, 40, 0.98), rgba(7, 11, 18, 0.45));
 }
@@ -1022,8 +1022,8 @@ a {
 }
 
 .carousel-card.is-featured.is-active {
-  transform: scale(1.11);
-  box-shadow: 0 85px 220px rgba(7, 10, 15, 1), 0 0 70px rgba(114, 214, 255, 0.35);
+  transform: scale(1.09);
+  box-shadow: 0 85px 220px rgba(7, 10, 15, 1), 0 0 80px rgba(114, 214, 255, 0.32);
 }
 
 .card-graphic {
@@ -1054,7 +1054,7 @@ a {
   position: absolute;
   inset: 0;
   background: linear-gradient(120deg, transparent 30%, rgba(255, 255, 255, 0.55) 48%, transparent 62%);
-  opacity: 0.22;
+  opacity: 0.2;
   pointer-events: none;
   mix-blend-mode: screen;
   transform: translateX(-55%);
@@ -1092,9 +1092,9 @@ a {
   position: absolute;
   left: -4%;
   right: -8%;
-  height: 14px;
-  bottom: 0.2em;
-  background: linear-gradient(90deg, rgba(114, 214, 255, 0.12), rgba(114, 214, 255, 0.4), rgba(114, 214, 255, 0.12));
+  height: 12px;
+  bottom: 0.15em;
+  background: linear-gradient(90deg, rgba(114, 214, 255, 0.08), rgba(114, 214, 255, 0.28), rgba(114, 214, 255, 0.08));
   border-radius: 999px;
   z-index: -1;
 }
