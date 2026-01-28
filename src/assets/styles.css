@@ -899,6 +899,21 @@ a {
   max-width: 620px;
 }
 
+.carousel-controls {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.carousel-btn {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
 .carousel-track {
   display: grid;
   grid-auto-flow: column;
@@ -907,6 +922,7 @@ a {
   overflow-x: auto;
   padding-bottom: 12px;
   scroll-snap-type: x mandatory;
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
 }
 
 .carousel-card {
@@ -932,6 +948,11 @@ a {
   box-shadow: 0 45px 120px rgba(7, 10, 15, 0.85);
 }
 
+.carousel-card.is-active {
+  transform: translateY(-10px) scale(1.04);
+  box-shadow: 0 50px 140px rgba(7, 10, 15, 0.9);
+}
+
 .card-graphic {
   position: absolute;
   top: -40%;
@@ -939,10 +960,19 @@ a {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(114, 214, 255, 0.3), transparent 70%);
-  opacity: 0.7;
+  background: radial-gradient(circle, rgba(114, 214, 255, 0.35), transparent 70%);
+  opacity: 0.8;
   pointer-events: none;
 }
+
+.card-graphic::after {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  background: conic-gradient(from 90deg, rgba(114, 214, 255, 0.35), transparent, rgba(114, 214, 255, 0.2));
+  animation: spin 12s linear infinite;
+}
+
 
 .carousel-card.is-featured .card-graphic {
   background: radial-gradient(circle, rgba(114, 214, 255, 0.5), transparent 70%);

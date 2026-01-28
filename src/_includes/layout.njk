@@ -48,19 +48,41 @@
       document.addEventListener("DOMContentLoaded", () => {
         const serviceCarousel = document.querySelector("[data-service-carousel]");
         if (serviceCarousel) {
-          let scrollPos = 0;
-          const step = () => {
-            scrollPos += 1;
-            serviceCarousel.scrollTo({ left: scrollPos, behavior: "smooth" });
-            if (scrollPos >= serviceCarousel.scrollWidth - serviceCarousel.clientWidth) {
-              scrollPos = 0;
-            }
+          const cards = Array.from(serviceCarousel.querySelectorAll(".carousel-card"));
+          const prev = document.querySelector("[data-carousel-prev]");
+          const next = document.querySelector("[data-carousel-next]");
+          const cardWidth = () => cards[0].getBoundingClientRect().width + 18;
+          const snapToCenter = () => {
+            const center = serviceCarousel.scrollLeft + serviceCarousel.clientWidth / 2;
+            let closest = null;
+            let closestDist = Infinity;
+            cards.forEach((card) => {
+              const box = card.getBoundingClientRect();
+              const cardCenter = box.left + box.width / 2;
+              const dist = Math.abs(cardCenter - window.innerWidth / 2);
+              if (dist < closestDist) {
+                closestDist = dist;
+                closest = card;
+              }
+            });
+            cards.forEach((card) => card.classList.remove("is-active"));
+            if (closest) closest.classList.add("is-active");
           };
-          let interval = setInterval(step, 3200);
+          const scrollByCard = (dir) => {
+            serviceCarousel.scrollBy({ left: cardWidth() * dir, behavior: "smooth" });
+          };
+          let interval = setInterval(() => scrollByCard(1), 4200);
+          serviceCarousel.addEventListener("scroll", () => {
+            clearTimeout(serviceCarousel._snapTimer);
+            serviceCarousel._snapTimer = setTimeout(snapToCenter, 120);
+          });
           serviceCarousel.addEventListener("mouseenter", () => clearInterval(interval));
           serviceCarousel.addEventListener("mouseleave", () => {
-            interval = setInterval(step, 3200);
+            interval = setInterval(() => scrollByCard(1), 4200);
           });
+          prev.addEventListener("click", () => scrollByCard(-1));
+          next.addEventListener("click", () => scrollByCard(1));
+          snapToCenter();
         }
         const carousel = document.querySelector("[data-success-carousel]");
         if (carousel) {
