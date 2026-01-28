@@ -46,6 +46,22 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", () => {
+        const serviceCarousel = document.querySelector("[data-service-carousel]");
+        if (serviceCarousel) {
+          let scrollPos = 0;
+          const step = () => {
+            scrollPos += 1;
+            serviceCarousel.scrollTo({ left: scrollPos, behavior: "smooth" });
+            if (scrollPos >= serviceCarousel.scrollWidth - serviceCarousel.clientWidth) {
+              scrollPos = 0;
+            }
+          };
+          let interval = setInterval(step, 3200);
+          serviceCarousel.addEventListener("mouseenter", () => clearInterval(interval));
+          serviceCarousel.addEventListener("mouseleave", () => {
+            interval = setInterval(step, 3200);
+          });
+        }
         const carousel = document.querySelector("[data-success-carousel]");
         if (carousel) {
           const slides = Array.from(carousel.querySelectorAll(".success-slide"));

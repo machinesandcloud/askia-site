@@ -26,15 +26,16 @@ description: "Askia coaching services to land top tech roles."
 </section>
 
 <section class="section">
-  <div class="container service-spectrum">
-    <div class="spectrum-header">
+  <div class="container service-carousel">
+    <div class="carousel-header">
       <p class="hero-eyebrow">Service Spectrum</p>
       <h2 class="section-title section-title-glow">Pick your lane. Stack your advantage.</h2>
-      <p class="section-subtitle">Each offer is designed as a module. Start with precision, then layer coaching when momentum hits.</p>
+      <p class="section-subtitle">A horizontal, living gallery of packages. Most popular floats front‑and‑center.</p>
     </div>
-    <div class="spectrum-grid">
+    <div class="carousel-track" data-service-carousel>
       {% for tier in services.tiers %}
-        <article class="spectrum-card{% if tier.tag == 'Most Popular' %} is-featured{% endif %}">
+        <article class="carousel-card{% if tier.tag == 'Most Popular' %} is-featured{% endif %}">
+          <div class="card-graphic"></div>
           <div class="spectrum-top">
             <span class="spectrum-tag">{{ tier.tag }}</span>
             <h3>{{ tier.title }}</h3>
