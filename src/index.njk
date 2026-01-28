@@ -62,6 +62,23 @@ description: "Askia helps top talent secure high-paying tech roles."
   </div>
 </section>
 
+<section class="section">
+  <div class="container pillar-wrap">
+    <div>
+      <h2 class="section-title">{{ home.pillars.title }}</h2>
+      <p class="section-subtitle">{{ home.pillars.subtitle }}</p>
+    </div>
+    <div class="pillar-grid">
+      {% for item in home.pillars.items %}
+        <div class="pillar-item">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.body }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <section class="section section-soft">
   <div class="container">
     <h2 class="section-title section-title-accent">{{ home.proof.title }}</h2>
@@ -142,6 +159,30 @@ description: "Askia helps top talent secure high-paying tech roles."
           <span{% if loop.first %} class="is-active"{% endif %}></span>
         {% endfor %}
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container services-preview">
+    <div class="services-copy">
+      <p class="hero-eyebrow">Services</p>
+      <h2 class="section-title">Choose the support level that fits your goals</h2>
+      <p class="section-subtitle">From focused strategy to full transformation, each pathway is built to get you hired faster.</p>
+      <a class="btn btn-ghost" href="/services/">See all services</a>
+    </div>
+    <div class="services-grid">
+      {% for item in services.services %}
+        <div class="service-card">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.body }}</p>
+          <ul>
+            {% for bullet in item.bullets %}
+              <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </section>
