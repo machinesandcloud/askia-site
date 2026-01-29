@@ -833,7 +833,7 @@ a {
 }
 
 .about-orbit .orbit-card {
-  transform: translateY(0);
+  transform: translate(-8px, -6px);
 }
 
 .about-orbit {
@@ -843,15 +843,15 @@ a {
 }
 
 .about-orbit .orbit-ring {
-  left: 58%;
-  top: 60%;
+  left: 60%;
+  top: 64%;
   margin-left: -140px;
   margin-top: -140px;
 }
 
 .about-orbit .orbit-dot {
-  left: 58%;
-  top: 60%;
+  left: 60%;
+  top: 64%;
   margin-left: -9px;
   margin-top: -9px;
 }
@@ -876,7 +876,7 @@ a {
   transform: translateY(12px);
   pointer-events: none;
   transition: opacity 0.4s ease, transform 0.4s ease;
-  z-index: 200;
+  z-index: 9999;
   max-width: 320px;
 }
 

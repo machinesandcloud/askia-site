@@ -202,6 +202,7 @@
           const textEl = nudgeToast.querySelector(".nudge-text");
           const labelEl = nudgeToast.querySelector(".nudge-label");
           const closeBtn = nudgeToast.querySelector(".nudge-close");
+          if (!textEl || !labelEl || !closeBtn) return;
           const times = ["Just now", "2 min ago", "5 min ago", "8 min ago", "12 min ago"];
           let active = true;
 
@@ -225,7 +226,7 @@
             clearTimeout(nudgeToast._timer);
           });
 
-          cycle();
+          setTimeout(cycle, 600);
         }
 
         const wrapper = document.querySelector("[data-assessment]");
