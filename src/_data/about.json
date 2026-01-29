@@ -36,9 +36,24 @@
     "body": "Steve is a former engineering leader who built Askia to solve a simple problem: top talent shouldn’t be invisible. His approach blends real hiring‑table insight with crisp positioning and execution‑focused coaching."
   },
   "team": [
-    { "name": "Maya Lopez", "role": "Interview Coach", "photo": "/assets/team/maya.jpg" },
-    { "name": "Derek Tran", "role": "Resume Strategist", "photo": "/assets/team/derek.jpg" },
-    { "name": "Sophia Reed", "role": "Career Operations", "photo": "/assets/team/sophia.jpg" }
+    {
+      "name": "Maya Lopez",
+      "role": "Interview Coach",
+      "photo": "/assets/team/sophia.jpg",
+      "bio": "Former hiring manager turned interview strategist. Maya is known for turning scattered answers into crisp, memorable stories."
+    },
+    {
+      "name": "Derek Tran",
+      "role": "Resume Strategist",
+      "photo": "/assets/team/derek.jpg",
+      "bio": "Ex‑recruiter who obsesses over signal. Derek rebuilds resumes and LinkedIn profiles so they read like a decision‑maker wrote them."
+    },
+    {
+      "name": "Sophia Reed",
+      "role": "Career Operations",
+      "photo": "/assets/team/maya.jpg",
+      "bio": "Process architect behind the scenes. Sophia keeps every engagement fast, clear, and on track from day one."
+    }
   ],
   "cta": {
     "title": "Ready to build your momentum?",

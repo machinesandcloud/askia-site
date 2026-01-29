@@ -856,6 +856,12 @@ a {
   margin-top: -9px;
 }
 
+.about-orbit {
+  min-height: 360px;
+  align-items: start;
+  padding-top: 10px;
+}
+
 .about-orbit .orbit-card {
   z-index: 2;
 }
@@ -2424,6 +2430,13 @@ a {
 .team-card span {
   color: var(--muted);
   font-size: 0.85rem;
+}
+
+.team-card p {
+  margin: 10px 0 0;
+  color: rgba(244, 247, 251, 0.7);
+  font-size: 0.85rem;
+  line-height: 1.4;
 }
 
 @media (max-width: 980px) {
