@@ -838,18 +838,20 @@ a {
 
 .about-orbit {
   min-height: 320px;
+  display: grid;
+  place-items: center;
 }
 
 .about-orbit .orbit-ring {
   left: 50%;
-  top: 72%;
+  top: 50%;
   margin-left: -140px;
   margin-top: -140px;
 }
 
 .about-orbit .orbit-dot {
   left: 50%;
-  top: 72%;
+  top: 50%;
   margin-left: -9px;
   margin-top: -9px;
 }
