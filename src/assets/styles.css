@@ -846,15 +846,15 @@ a {
 }
 
 .about-orbit .orbit-ring {
-  left: 68%;
-  top: 64%;
+  left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
 }
 
 .about-orbit .orbit-dot {
-  left: 68%;
-  top: 64%;
+  left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
 }
