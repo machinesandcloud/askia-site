@@ -833,7 +833,7 @@ a {
 }
 
 .about-orbit .orbit-card {
-  transform: translateY(-16px);
+  transform: translateY(0);
 }
 
 .about-orbit {
@@ -844,14 +844,14 @@ a {
 
 .about-orbit .orbit-ring {
   left: 50%;
-  top: 50%;
+  top: 58%;
   margin-left: -140px;
   margin-top: -140px;
 }
 
 .about-orbit .orbit-dot {
   left: 50%;
-  top: 50%;
+  top: 58%;
   margin-left: -9px;
   margin-top: -9px;
 }
