@@ -8,7 +8,8 @@
   "nav": [
     { "label": "Home", "url": "/" },
     { "label": "Services", "url": "/services/" },
-    { "label": "Testimonials", "url": "/testimonials/" }
+    { "label": "Testimonials", "url": "/testimonials/" },
+    { "label": "About", "url": "/about/" }
   ],
   "contact": {
     "address": "5718 Westheimer Rd Suite 1000, Houston, TX 77057",

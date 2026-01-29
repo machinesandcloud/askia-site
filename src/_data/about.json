@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "title": "About Askia",
+    "subtitle": "We turn high‑potential careers into high‑signal stories — with clarity, strategy, and execution that lands real offers.",
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/consultation",
+    "proof": "Built for ambitious talent targeting $100K–$350K roles."
+  },
+  "stats": [
+    { "label": "Clients coached", "value": "300+" },
+    { "label": "Offer strategies shipped", "value": "1,200+" },
+    { "label": "Avg. timeline", "value": "2–6 weeks" }
+  ],
+  "values": [
+    {
+      "title": "Signal over noise",
+      "body": "We remove the fluff and build a narrative that recruiters and hiring managers can feel immediately."
+    },
+    {
+      "title": "Momentum is engineered",
+      "body": "We don’t leave outcomes to chance. Every step is designed to convert to interviews and offers."
+    },
+    {
+      "title": "Confidence is a system",
+      "body": "Interview performance isn’t a vibe — it’s a repeatable framework you can trust under pressure."
+    }
+  ],
+  "story": {
+    "title": "Why Askia exists",
+    "body": "Most talented people aren’t losing because they lack skill — they’re losing because they lack signal. Askia exists to change that. We help you translate your experience into a compelling narrative, build a smart search strategy, and execute interviews with calm, confident precision."
+  },
+  "founder": {
+    "name": "Steve J. Ngoumnai",
+    "role": "Founder · Career Strategist",
+    "photo": "/assets/team/placeholder.svg",
+    "body": "Steve is a former engineering leader who built Askia to solve a simple problem: top talent shouldn’t be invisible. His approach blends real hiring‑table insight with crisp positioning and execution‑focused coaching."
+  },
+  "team": [
+    { "name": "Maya Lopez", "role": "Interview Coach", "photo": "/assets/team/placeholder.svg" },
+    { "name": "Derek Tran", "role": "Resume Strategist", "photo": "/assets/team/placeholder.svg" },
+    { "name": "Sophia Reed", "role": "Career Operations", "photo": "/assets/team/placeholder.svg" }
+  ],
+  "cta": {
+    "title": "Ready to build your momentum?",
+    "body": "Let’s map the fastest path to interviews and offers that match your value.",
+    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLink": "https://bookings.askia.tech/#/consultation"
+  }
+}

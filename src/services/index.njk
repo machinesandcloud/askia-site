@@ -41,11 +41,12 @@ description: "Askia coaching services to land top tech roles."
         {% for tier in services.tiers %}
           <article class="carousel-card{% if tier.tag == 'Most Popular' %} is-featured{% endif %}">
             <div class="card-graphic"></div>
-            <div class="spectrum-top">
-              <span class="spectrum-tag">{{ tier.tag }}</span>
-              <h3>{{ tier.title }}</h3>
-              <p>{{ tier.body }}</p>
-            </div>
+          <div class="spectrum-top">
+            <span class="spectrum-tag">{{ tier.tag }}</span>
+            <h3>{{ tier.title }}</h3>
+            <p class="spectrum-price">{{ tier.price }}</p>
+            <p>{{ tier.body }}</p>
+          </div>
             <div class="spectrum-meta">
               <span>{{ tier.ideal }}</span>
               <span>{{ tier.turnaround }}</span>

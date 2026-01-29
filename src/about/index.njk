@@ -1,0 +1,98 @@
+---
+layout: layout.njk
+title: About
+description: "Meet the team and the method behind Askia."
+---
+<section class="hero about-hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="hero-eyebrow">About Askia</p>
+      <h1 class="hero-title section-title-glow">{{ about.hero.title }}</h1>
+      <p class="hero-subtitle">{{ about.hero.subtitle }}</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ about.hero.ctaLink }}">{{ about.hero.ctaLabel }}</a>
+        <span class="hero-proof">{{ about.hero.proof }}</span>
+      </div>
+      <div class="about-stats">
+        {% for stat in about.stats %}
+          <div class="about-stat">
+            <strong>{{ stat.value }}</strong>
+            <span>{{ stat.label }}</span>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="about-orbit">
+      <div class="orbit-card about-card">
+        <strong>Signal you can feel</strong>
+        <p>Clarity, momentum, and a hiring story that lands.</p>
+      </div>
+      <div class="orbit-ring"></div>
+      <div class="orbit-dot"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section about-story">
+  <div class="container about-story-grid">
+    <div>
+      <p class="hero-eyebrow">Why we exist</p>
+      <h2 class="section-title section-title-glow">{{ about.story.title }}</h2>
+      <p class="section-subtitle">{{ about.story.body }}</p>
+    </div>
+    <div class="about-values">
+      {% for value in about.values %}
+        <div class="value-card">
+          <h3>{{ value.title }}</h3>
+          <p>{{ value.body }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section about-founder">
+  <div class="container founder-grid">
+    <div class="founder-photo">
+      <img src="{{ about.founder.photo }}" alt="{{ about.founder.name }}" />
+    </div>
+    <div class="founder-copy">
+      <p class="hero-eyebrow">Founder</p>
+      <h2 class="section-title section-title-glow">{{ about.founder.name }}</h2>
+      <p class="section-subtitle">{{ about.founder.role }}</p>
+      <p>{{ about.founder.body }}</p>
+      <div class="founder-badges">
+        <span>Hiring‑table insight</span>
+        <span>Offer strategy</span>
+        <span>Execution coaching</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section about-team">
+  <div class="container">
+    <div class="team-header">
+      <p class="hero-eyebrow">Team</p>
+      <h2 class="section-title section-title-glow">The people behind the outcomes</h2>
+      <p class="section-subtitle">A lean team of specialists focused on signal, strategy, and execution.</p>
+    </div>
+    <div class="team-grid">
+      {% for person in about.team %}
+        <div class="team-card">
+          <img src="{{ person.photo }}" alt="{{ person.name }}" />
+          <strong>{{ person.name }}</strong>
+          <span>{{ person.role }}</span>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container card">
+    <h2 class="section-title">{{ about.cta.title }}</h2>
+    <p class="section-subtitle">{{ about.cta.body }}</p>
+    <a class="btn btn-primary" href="{{ about.cta.ctaLink }}">{{ about.cta.ctaLabel }}</a>
+  </div>
+</section>

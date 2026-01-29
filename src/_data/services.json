@@ -9,6 +9,7 @@
     {
       "tag": "Essentials",
       "title": "Resume Rebuild",
+      "price": "$300",
       "body": "A sharp, impact‑driven resume that signals seniority and gets recruiter replies.",
       "ideal": "Best for: quick upgrade + clearer positioning",
       "turnaround": "Turnaround: 7–10 days",
@@ -22,6 +23,7 @@
     {
       "tag": "Most Popular",
       "title": "Resume + LinkedIn + Cover Letter",
+      "price": "$550",
       "body": "A complete brand refresh across every recruiter touchpoint.",
       "ideal": "Best for: full visibility + conversion",
       "turnaround": "Turnaround: 10–14 days",
@@ -35,6 +37,7 @@
     {
       "tag": "Clarity",
       "title": "Brand + Career Clarity + Interview Practice",
+      "price": "$1000",
       "body": "Everything above plus coaching to refine your narrative and interview performance.",
       "ideal": "Best for: clarity + confidence + execution",
       "turnaround": "Turnaround: 2–3 weeks",
@@ -48,6 +51,7 @@
     {
       "tag": "Coaching",
       "title": "Momentum Coaching (3 Sessions)",
+      "price": "$1000",
       "body": "Three high‑leverage sessions to build strategy, momentum, and offer‑level confidence.",
       "ideal": "Best for: focused, guided execution",
       "turnaround": "Timeline: 2–4 weeks",
@@ -60,6 +64,7 @@
     {
       "tag": "Executive",
       "title": "Executive Advisory",
+      "price": "$2000",
       "body": "Senior‑level positioning, leadership narrative, and offer strategy for managers and execs.",
       "ideal": "Best for: Staff/Principal → Director+",
       "turnaround": "Timeline: custom",
