@@ -1818,6 +1818,7 @@ a {
 .testimonial-grid {
   column-count: 3;
   column-gap: 24px;
+  position: relative;
 }
 
 .testimonial-card {
@@ -1912,12 +1913,14 @@ a {
 }
 
 .company-logo {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   margin-right: 8px;
-  vertical-align: -3px;
-  filter: invert(1) brightness(1.1) saturate(1.1);
-  opacity: 0.9;
+  vertical-align: -4px;
+  border-radius: 6px;
+  padding: 2px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15);
 }
 
 .testimonial-hero .hero-subtitle {
@@ -2094,6 +2097,67 @@ a {
   pointer-events: none;
 }
 
+.testimonial-wall-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 26px;
+}
+
+.metric-card {
+  padding: 18px 20px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(16, 24, 36, 0.7), rgba(8, 12, 18, 0.3));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 24px 60px rgba(7, 10, 15, 0.4);
+}
+
+.metric-label {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(114, 214, 255, 0.75);
+  margin-bottom: 8px;
+}
+
+.testimonial-breakout {
+  break-inside: avoid;
+  column-span: all;
+  padding: 26px 28px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, rgba(18, 30, 46, 0.8), rgba(8, 12, 18, 0.35));
+  border: 1px solid rgba(114, 214, 255, 0.2);
+  box-shadow: 0 30px 70px rgba(7, 10, 15, 0.55);
+  margin: 6px 0 28px;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonial-breakout::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, transparent 25%, rgba(255, 255, 255, 0.35) 48%, transparent 70%);
+  opacity: 0.18;
+  mix-blend-mode: screen;
+}
+
+.testimonial-breakout h3 {
+  margin: 6px 0 8px;
+  font-size: clamp(1.2rem, 2.4vw, 1.7rem);
+}
+
+.testimonial-breakout p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.testimonial-breakout.accent {
+  border-color: rgba(114, 214, 255, 0.35);
+  box-shadow: 0 34px 80px rgba(7, 10, 15, 0.6), 0 0 28px rgba(114, 214, 255, 0.2);
+}
+
 @media (max-width: 980px) {
   .feature-grid {
     grid-template-columns: 1fr;
@@ -2101,11 +2165,17 @@ a {
   .testimonial-grid {
     column-count: 2;
   }
+  .testimonial-breakout {
+    column-span: all;
+  }
 }
 
 @media (max-width: 680px) {
   .testimonial-grid {
     column-count: 1;
+  }
+  .testimonial-breakout {
+    column-span: all;
   }
 }
 

@@ -98,9 +98,44 @@ description: "Askia client success stories."
       <p class="section-subtitle">Real voices, real outcomes — read the arcs, not just the headlines.</p>
     </div>
   </div>
+  <div class="container testimonial-wall-metrics">
+    <div class="metric-card">
+      <span class="metric-label">Outcome Focus</span>
+      <strong>Clarity → Interviews → Offers</strong>
+    </div>
+    <div class="metric-card">
+      <span class="metric-label">Momentum</span>
+      <strong>Weeks, not months</strong>
+    </div>
+    <div class="metric-card">
+      <span class="metric-label">Confidence</span>
+      <strong>Negotiation-ready</strong>
+    </div>
+  </div>
   <div class="container testimonial-grid">
     {% for item in testimonials.items %}
       {% if loop.index0 > 2 %}
+        {% if loop.index0 == 6 %}
+          <div class="testimonial-breakout">
+            <span class="hero-eyebrow">Pattern Shift</span>
+            <h3>When the story clicks, everything accelerates.</h3>
+            <p>These wins share the same turning point: clearer positioning + stronger execution.</p>
+          </div>
+        {% endif %}
+        {% if loop.index0 == 14 %}
+          <div class="testimonial-breakout accent">
+            <span class="hero-eyebrow">Offer Moments</span>
+            <h3>Negotiation isn’t luck. It’s prep + leverage.</h3>
+            <p>These clients walked into offer calls with a plan, not a hope.</p>
+          </div>
+        {% endif %}
+        {% if loop.index0 == 22 %}
+          <div class="testimonial-breakout">
+            <span class="hero-eyebrow">Interview Velocity</span>
+            <h3>Momentum compounds once the narrative is tight.</h3>
+            <p>Sharper stories create faster loops and more confident interviews.</p>
+          </div>
+        {% endif %}
         <div class="testimonial-card">
           <div class="testimonial-header">
             <img class="avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
