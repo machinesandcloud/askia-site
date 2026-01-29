@@ -2,6 +2,11 @@
 layout: layout.njk
 title: Home
 description: "Askia helps top talent secure high-paying tech roles."
+metaTitle: "Career Coaching for Tech Professionals | $100K–$350K Roles (Askia)"
+metaDescription: "Resume, LinkedIn, interview prep, and negotiation for tech professionals targeting $100K–$350K roles. Book a strategy call."
+breadcrumbs:
+  - name: "Home"
+    url: "/"
 ---
 <section class="hero">
   <div class="container hero-grid">
@@ -22,6 +27,7 @@ description: "Askia helps top talent secure high-paying tech roles."
       </ul>
       <div class="hero-cta">
         <a class="btn btn-primary" href="{{ home.hero.ctaLink }}">{{ home.hero.ctaLabel }}</a>
+        <a class="btn btn-ghost" href="/career-readiness-index/">Take the Career Readiness Index™</a>
         <span class="hero-proof">{{ home.hero.proof }}</span>
       </div>
     </div>
@@ -131,6 +137,25 @@ description: "Askia helps top talent secure high-paying tech roles."
           <h3 data-assessment-title></h3>
           <p data-assessment-message></p>
           <ul data-assessment-recommendation></ul>
+          <div class="assessment-email">
+            <p class="assessment-email-title">Want your score + action plan emailed?</p>
+            <form name="career-readiness" method="POST" data-netlify="true" class="assessment-email-form">
+              <input type="hidden" name="form-name" value="career-readiness" />
+              <label>
+                <span>Full name</span>
+                <input type="text" name="name" placeholder="Your name" />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" placeholder="you@company.com" required />
+              </label>
+              <label>
+                <span>Target role</span>
+                <input type="text" name="role" placeholder="Senior SWE, EM, DevOps, PM..." />
+              </label>
+              <button class="btn btn-primary" type="submit">Email my results</button>
+            </form>
+          </div>
           <a class="btn btn-ghost" href="{{ site.cta.link }}" data-assessment-book>Book a Strategy Call</a>
           <p class="assessment-cta" data-assessment-cta></p>
         </div>

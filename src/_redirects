@@ -1,0 +1,33 @@
+# Core service pages (old WP slugs → new structure)
+/coaching-services /services/ 301
+/coaching-services-old /services/ 301
+/why-coaching /land-your-next-role/ 301
+/for-job-seekers /land-your-next-role/ 301
+/askia-vs-others /land-your-next-role/ 301
+
+/resume-writing /resume-writing/ 301
+/linkedin-optimization /linkedin-optimization/ 301
+/interview-prep /interview-prep/ 301
+/salary-negotiation /salary-negotiation/ 301
+/executive-coaching /executive-coaching/ 301
+
+# Legacy WordPress structures
+/blog/* /resources/ 301
+*/category/* /resources/ 301
+*/tag/* /resources/ 410
+*/author/* / 410
+
+# Old WP system endpoints
+/wp-admin/* / 410
+/wp-content/* / 410
+/wp-includes/* / 410
+/feed/ / 410
+/comments/feed/ / 410
+
+# Trailing slash normalization for common top-level pages
+/services /services/ 301
+/testimonials /testimonials/ 301
+/about /about/ 301
+/land-your-next-role /land-your-next-role/ 301
+/career-readiness-index /career-readiness-index/ 301
+/resources /resources/ 301

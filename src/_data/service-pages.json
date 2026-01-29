@@ -1,0 +1,796 @@
+{
+  "resumeWriting": {
+    "eyebrow": "Resume writing for tech professionals",
+    "h1": "Resume Writing for $100K–$350K Tech Roles",
+    "subtitle": "A senior‑signal resume built for recruiters, hiring managers, and ATS.",
+    "supporting": "We turn your experience into impact language that clearly signals level, scope, and results.",
+    "highlights": [
+      "Role‑aligned positioning and scope",
+      "Impact‑driven bullet rewrites",
+      "ATS‑clean format and structure"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/consultation",
+    "ctaProof": "Best for software, DevOps, data, product, and engineering leadership roles.",
+    "secondaryCtaLabel": "Take the Career Readiness Index™",
+    "secondaryCtaLink": "/career-readiness-index/",
+    "heroCard": {
+      "title": "Resume Rebuild deliverables",
+      "body": "A resume that positions you at the level you’re targeting, not the level you’re leaving.",
+      "bullets": [
+        "Role targeting alignment",
+        "Impact + metrics framing",
+        "Senior‑level narrative"
+      ]
+    },
+    "proof": {
+      "title": "Why this works",
+      "subtitle": "We build resumes that trigger interviews, not confusion.",
+      "items": [
+        { "title": "ATS‑ready", "body": "Clean structure that passes filters without losing signal." },
+        { "title": "Recruiter‑clear", "body": "Immediate level cues tied to scope and impact." },
+        { "title": "Interview‑ready", "body": "Bullets written for STAR and behavioral proof." }
+      ]
+    },
+    "steps": {
+      "title": "How the resume rebuild works",
+      "subtitle": "Fast, focused, and scoped to your target role.",
+      "items": [
+        { "title": "Target", "body": "Define your next role and compensation band." },
+        { "title": "Rewrite", "body": "Translate your work into impact and leadership signal." },
+        { "title": "Refine", "body": "Finalize with ATS‑clean formatting and revisions." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Tech professionals who need a resume that reflects their true level.",
+      "items": [
+        "Senior ICs and leaders ready to level up",
+        "Those with solid experience but weak interview response",
+        "Candidates targeting $100K–$350K roles"
+      ]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You’re looking for generic templates or basic formatting.",
+      "items": [
+        "You want a one‑size‑fits‑all resume",
+        "You’re early‑career and need skill development",
+        "You don’t want strategic positioning"
+      ]
+    },
+    "deliverables": {
+      "title": "What you receive",
+      "subtitle": "Structured, recruiter‑clear, and aligned to senior expectations.",
+      "items": [
+        {
+          "title": "Positioning brief",
+          "tag": "Strategy",
+          "body": "Role targeting, comp band, and narrative framing.",
+          "bullets": ["Role alignment", "Scope mapping", "Core strengths"]
+        },
+        {
+          "title": "Rewritten resume",
+          "tag": "Signal",
+          "body": "Impact‑first bullets with senior‑level structure.",
+          "bullets": ["Impact framing", "Metrics guidance", "ATS‑clean format"]
+        },
+        {
+          "title": "Revision round",
+          "tag": "Polish",
+          "body": "One revision round to lock the final version.",
+          "bullets": ["Feedback loop", "Final edits", "Delivery"]
+        }
+      ]
+    },
+    "roleLinks": {
+      "eyebrow": "Role pathways",
+      "title": "Popular role tracks for resume upgrades",
+      "subtitle": "Choose a track and match your resume to the right level.",
+      "items": [
+        {
+          "title": "Software Engineer Coaching",
+          "tag": "SWE",
+          "body": "Position for Senior → Staff roles.",
+          "url": "/software-engineer-career-coaching/"
+        },
+        {
+          "title": "DevOps & SRE Coaching",
+          "tag": "DevOps",
+          "body": "Show reliability impact and infra scope.",
+          "url": "/devops-career-coaching/"
+        },
+        {
+          "title": "Data Career Coaching",
+          "tag": "Data",
+          "body": "Translate data impact into outcomes.",
+          "url": "/data-career-coaching/"
+        }
+      ]
+    },
+    "related": {
+      "title": "Next step",
+      "body": "Pair your resume with a LinkedIn upgrade.",
+      "primaryLabel": "Land Your Next Role",
+      "primaryLink": "/land-your-next-role/",
+      "secondaryLabel": "LinkedIn Optimization",
+      "secondaryLink": "/linkedin-optimization/"
+    },
+    "faq": {
+      "title": "Resume writing FAQs",
+      "subtitle": "Questions we hear before clients start.",
+      "items": [
+        {
+          "question": "Is this resume writing or coaching?",
+          "answer": "It’s both — we align the resume to your target role and comp, then write for signal and impact."
+        },
+        {
+          "question": "Do you work with senior ICs and managers?",
+          "answer": "Yes. The resume is built to signal seniority and leadership scope."
+        },
+        {
+          "question": "How long does it take?",
+          "answer": "Most resume rebuilds are delivered in 7–10 days, depending on complexity."
+        },
+        {
+          "question": "Will this help with ATS?",
+          "answer": "Yes. We use clean formatting and keyword alignment without sacrificing readability."
+        },
+        {
+          "question": "Do you rewrite LinkedIn too?",
+          "answer": "LinkedIn is available as a separate service or part of brand packages."
+        },
+        {
+          "question": "Can you work with my current resume?",
+          "answer": "Yes. We use your existing resume and elevate it to your target level."
+        },
+        {
+          "question": "Do you guarantee interviews?",
+          "answer": "No guarantees, but we build the strongest possible signal for your target roles."
+        },
+        {
+          "question": "What if I don’t know my target role?",
+          "answer": "We’ll clarify role targeting before writing the resume."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready for a resume that signals seniority?",
+      "body": "Book a call and we’ll map the fastest path.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/consultation"
+    }
+  },
+  "linkedinOptimization": {
+    "eyebrow": "LinkedIn optimization for tech",
+    "h1": "LinkedIn Optimization for $100K–$350K Tech Roles",
+    "subtitle": "Turn your profile into a recruiter‑ready narrative and inbound engine.",
+    "supporting": "We build a profile that mirrors your seniority, makes your impact obvious, and drives the right outreach.",
+    "highlights": [
+      "Headline + About rewrite for senior signal",
+      "Experience narrative aligned to target roles",
+      "Recruiter search optimization"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/consultation",
+    "ctaProof": "Ideal for software, DevOps, data, product, and engineering leadership roles.",
+    "secondaryCtaLabel": "Take the Career Readiness Index™",
+    "secondaryCtaLink": "/career-readiness-index/",
+    "heroCard": {
+      "title": "LinkedIn signal upgrade",
+      "body": "Position your profile so recruiters see level, scope, and outcomes in seconds.",
+      "bullets": ["Headline + About rewrite", "Impact‑first experience", "Search visibility"]
+    },
+    "proof": {
+      "title": "LinkedIn that converts",
+      "subtitle": "Built for inbound, not vanity.",
+      "items": [
+        { "title": "Recruiter‑clear", "body": "Immediate role fit signals in the first 3 lines." },
+        { "title": "Search‑ready", "body": "Keywords aligned to your target role family." },
+        { "title": "Story‑driven", "body": "Impact narrative that supports interviews." }
+      ]
+    },
+    "steps": {
+      "title": "How LinkedIn optimization works",
+      "subtitle": "A precise rewrite built around target roles.",
+      "items": [
+        { "title": "Target", "body": "Define your role family and level." },
+        { "title": "Rewrite", "body": "Build headline, about, and experience signal." },
+        { "title": "Align", "body": "Sync with resume and interview narrative." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Tech professionals who want more inbound and clearer recruiter fit.",
+      "items": [
+        "Senior ICs and leaders with low inbound",
+        "Candidates shifting roles or industries",
+        "Those targeting $100K–$350K roles"
+      ]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You want growth hacks without positioning changes.",
+      "items": [
+        "You only want a keyword dump",
+        "You’re early‑career with no experience base",
+        "You want a generic template"
+      ]
+    },
+    "deliverables": {
+      "title": "What you receive",
+      "subtitle": "High‑signal sections that match your target level.",
+      "items": [
+        {
+          "title": "Headline + About",
+          "tag": "Signal",
+          "body": "A narrative that communicates scope and outcomes.",
+          "bullets": ["Level cues", "Role alignment", "Value proposition"]
+        },
+        {
+          "title": "Experience rewrite",
+          "tag": "Impact",
+          "body": "Impact‑driven bullets aligned to your target role family.",
+          "bullets": ["Metrics framing", "Outcome story", "Keyword alignment"]
+        },
+        {
+          "title": "Profile strategy",
+          "tag": "Inbound",
+          "body": "A simple plan to keep signal consistent across channels.",
+          "bullets": ["Profile consistency", "Recruiter search tips", "Outreach alignment"]
+        }
+      ]
+    },
+    "roleLinks": {
+      "eyebrow": "Role pathways",
+      "title": "Popular role tracks for LinkedIn upgrades",
+      "subtitle": "Align your profile with the role you actually want.",
+      "items": [
+        {
+          "title": "Product Manager Coaching",
+          "tag": "Product",
+          "body": "Show strategy and execution impact.",
+          "url": "/product-manager-career-coaching/"
+        },
+        {
+          "title": "Data Career Coaching",
+          "tag": "Data",
+          "body": "Translate data outcomes into business impact.",
+          "url": "/data-career-coaching/"
+        },
+        {
+          "title": "Engineering Manager Coaching",
+          "tag": "Leadership",
+          "body": "Demonstrate leadership scope and outcomes.",
+          "url": "/engineering-manager-coaching/"
+        }
+      ]
+    },
+    "related": {
+      "title": "Next step",
+      "body": "Pair LinkedIn with a resume rebuild.",
+      "primaryLabel": "Land Your Next Role",
+      "primaryLink": "/land-your-next-role/",
+      "secondaryLabel": "Resume Writing",
+      "secondaryLink": "/resume-writing/"
+    },
+    "faq": {
+      "title": "LinkedIn optimization FAQs",
+      "subtitle": "Short answers before you book.",
+      "items": [
+        {
+          "question": "Will this increase recruiter outreach?",
+          "answer": "Yes, by improving role fit and search visibility — not by gaming the system."
+        },
+        {
+          "question": "Do you write the About section?",
+          "answer": "Yes. We write headline, about, and experience sections."
+        },
+        {
+          "question": "Do you optimize for specific roles?",
+          "answer": "Yes. We align keywords and narrative to your exact target role family."
+        },
+        {
+          "question": "How long does it take?",
+          "answer": "Typically 7–10 days, depending on scope."
+        },
+        {
+          "question": "Do you update my resume too?",
+          "answer": "LinkedIn can be bundled with resume writing or brand packages."
+        },
+        {
+          "question": "Will this help with interview prep?",
+          "answer": "Yes. A consistent narrative makes interview stories clearer."
+        },
+        {
+          "question": "Do you guarantee interviews?",
+          "answer": "No guarantees, but we build a stronger signal that drives better outcomes."
+        },
+        {
+          "question": "Can you work with leadership roles?",
+          "answer": "Yes. We build leadership narrative and scope signal."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Upgrade your LinkedIn signal",
+      "body": "Book a call and we’ll align your profile to your target level.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/consultation"
+    }
+  },
+  "interviewPrep": {
+    "eyebrow": "Interview prep for tech roles",
+    "h1": "Interview Prep for $100K–$350K Tech Roles",
+    "subtitle": "Structured practice that turns experience into confident, repeatable answers.",
+    "supporting": "We build your story bank, run focused mocks, and sharpen technical + behavioral signal.",
+    "highlights": [
+      "Story bank built around impact",
+      "Mock interview practice",
+      "Role‑specific question strategy"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/consultation",
+    "ctaProof": "Built for software, DevOps, data, product, and engineering leadership interviews.",
+    "secondaryCtaLabel": "Take the Career Readiness Index™",
+    "secondaryCtaLink": "/career-readiness-index/",
+    "heroCard": {
+      "title": "Interview performance upgrade",
+      "body": "We turn your experience into compelling, senior‑level stories recruiters remember.",
+      "bullets": ["Behavioral + technical prep", "Story structure", "Confidence under pressure"]
+    },
+    "proof": {
+      "title": "Interview signal that wins",
+      "subtitle": "Clarity → confidence → offers.",
+      "items": [
+        { "title": "Story‑ready", "body": "Clear STAR stories tied to impact and scope." },
+        { "title": "Role‑aligned", "body": "Prep matched to the level and role family you’re targeting." },
+        { "title": "Offer‑ready", "body": "Negotiation prep included as you advance." }
+      ]
+    },
+    "steps": {
+      "title": "How interview prep works",
+      "subtitle": "Focused practice, not generic advice.",
+      "items": [
+        { "title": "Map", "body": "Define the interview loop and expectations." },
+        { "title": "Build", "body": "Create a story bank tied to impact and leadership." },
+        { "title": "Drill", "body": "Practice with real‑world questions and feedback." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Tech professionals who want sharper interview performance at higher levels.",
+      "items": [
+        "Senior ICs and managers moving up",
+        "Candidates getting interviews but not offers",
+        "Professionals targeting $100K–$350K roles"
+      ]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You want generic prep without role alignment.",
+      "items": [
+        "You’re not ready for active interviewing",
+        "You want a one‑size‑fits‑all script",
+        "You’re early‑career and need core skill building"
+      ]
+    },
+    "deliverables": {
+      "title": "What you receive",
+      "subtitle": "Structured prep that converts.",
+      "items": [
+        {
+          "title": "Story bank",
+          "tag": "Core",
+          "body": "A set of impact stories mapped to interview signals.",
+          "bullets": ["Behavioral narratives", "Leadership scope", "Trade‑off decisions"]
+        },
+        {
+          "title": "Mock interview",
+          "tag": "Practice",
+          "body": "Live practice with feedback and iteration.",
+          "bullets": ["Role‑specific questions", "Feedback notes", "Iteration plan"]
+        },
+        {
+          "title": "Negotiation readiness",
+          "tag": "Close",
+          "body": "A plan for comp conversations once you reach offer stage.",
+          "bullets": ["Offer framing", "Leverage points", "Negotiation script"]
+        }
+      ]
+    },
+    "roleLinks": {
+      "eyebrow": "Role pathways",
+      "title": "Popular interview prep tracks",
+      "subtitle": "Choose a role track to focus your prep.",
+      "items": [
+        {
+          "title": "Software Engineer Coaching",
+          "tag": "SWE",
+          "body": "System design and impact narrative.",
+          "url": "/software-engineer-career-coaching/"
+        },
+        {
+          "title": "Engineering Manager Coaching",
+          "tag": "Leadership",
+          "body": "Leadership and org‑impact interviews.",
+          "url": "/engineering-manager-coaching/"
+        },
+        {
+          "title": "DevOps & SRE Coaching",
+          "tag": "DevOps",
+          "body": "Scenario‑based reliability interviews.",
+          "url": "/devops-career-coaching/"
+        }
+      ]
+    },
+    "related": {
+      "title": "Next step",
+      "body": "Pair interview prep with negotiation support.",
+      "primaryLabel": "Land Your Next Role",
+      "primaryLink": "/land-your-next-role/",
+      "secondaryLabel": "Salary Negotiation",
+      "secondaryLink": "/salary-negotiation/"
+    },
+    "faq": {
+      "title": "Interview prep FAQs",
+      "subtitle": "Clear answers before you book.",
+      "items": [
+        {
+          "question": "Is this behavioral or technical prep?",
+          "answer": "Both. We cover behavioral, system design, and role‑specific interview formats."
+        },
+        {
+          "question": "How many sessions do I need?",
+          "answer": "Most clients start with 1–3 sessions depending on interview volume."
+        },
+        {
+          "question": "Can you help with leadership interviews?",
+          "answer": "Yes. We focus on scope, decision‑making, and leadership narrative."
+        },
+        {
+          "question": "Do you provide feedback after mocks?",
+          "answer": "Yes. You’ll receive specific feedback and a plan to improve."
+        },
+        {
+          "question": "Will this help with onsite loops?",
+          "answer": "Yes. We prep for multi‑round loops and expectation setting."
+        },
+        {
+          "question": "Do you guarantee offers?",
+          "answer": "No guarantees, but we sharpen execution and confidence."
+        },
+        {
+          "question": "Can we include negotiation prep?",
+          "answer": "Yes. Negotiation planning is included as you approach offers."
+        },
+        {
+          "question": "When should I start prep?",
+          "answer": "Ideally before interview loops begin, or as soon as you have a screen."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Get interview‑ready faster",
+      "body": "Book a call and we’ll tailor the prep to your target level.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/consultation"
+    }
+  },
+  "salaryNegotiation": {
+    "eyebrow": "Salary negotiation for tech",
+    "h1": "Salary Negotiation for $100K–$350K Tech Roles",
+    "subtitle": "Negotiate with confidence and a clear compensation strategy.",
+    "supporting": "We build leverage and a negotiation plan tied to your role, level, and market range.",
+    "highlights": [
+      "Comp band strategy",
+      "Negotiation scripts + timing",
+      "Offer evaluation support"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/consultation",
+    "ctaProof": "Built for senior ICs, managers, and leaders.",
+    "secondaryCtaLabel": "Take the Career Readiness Index™",
+    "secondaryCtaLink": "/career-readiness-index/",
+    "heroCard": {
+      "title": "Negotiation strategy",
+      "body": "Walk into offer conversations with leverage, not guesswork.",
+      "bullets": ["Comp band clarity", "Offer trade‑offs", "Decision framework"]
+    },
+    "proof": {
+      "title": "Why negotiation works",
+      "subtitle": "Most comp outcomes are decided in a few conversations.",
+      "items": [
+        { "title": "Leverage mapped", "body": "Identify your strongest negotiation points." },
+        { "title": "Timing strategy", "body": "Know when to push and when to pause." },
+        { "title": "Total comp focus", "body": "Base, equity, bonus, and sign‑on considered together." }
+      ]
+    },
+    "steps": {
+      "title": "How negotiation support works",
+      "subtitle": "A concise strategy you can execute fast.",
+      "items": [
+        { "title": "Benchmark", "body": "Define comp band and role level range." },
+        { "title": "Plan", "body": "Build your negotiation path and scripts." },
+        { "title": "Execute", "body": "Guide the offer conversation and close." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Candidates with interviews or offers who want higher comp outcomes.",
+      "items": [
+        "Senior ICs and managers approaching offers",
+        "Professionals changing companies or levels",
+        "Candidates targeting $100K–$350K comp"
+      ]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You’re not yet in interview or offer stages.",
+      "items": [
+        "You don’t have a clear target role",
+        "You want salary advice without strategy",
+        "You’re early‑career and not yet negotiating"
+      ]
+    },
+    "deliverables": {
+      "title": "What you receive",
+      "subtitle": "A negotiation plan you can use immediately.",
+      "items": [
+        {
+          "title": "Comp strategy",
+          "tag": "Core",
+          "body": "Role‑specific comp band and leverage points.",
+          "bullets": ["Benchmarking", "Leverage inventory", "Target range"]
+        },
+        {
+          "title": "Negotiation scripts",
+          "tag": "Execution",
+          "body": "Email and call language for each offer stage.",
+          "bullets": ["Offer response", "Counter framing", "Close language"]
+        },
+        {
+          "title": "Offer evaluation",
+          "tag": "Decision",
+          "body": "A framework for comparing offers and trade‑offs.",
+          "bullets": ["Total comp view", "Risk factors", "Decision matrix"]
+        }
+      ]
+    },
+    "roleLinks": {
+      "eyebrow": "Role pathways",
+      "title": "Popular negotiation tracks",
+      "subtitle": "Choose a role track to tailor your comp strategy.",
+      "items": [
+        {
+          "title": "Engineering Manager Coaching",
+          "tag": "Leadership",
+          "body": "Comp strategy for leadership roles.",
+          "url": "/engineering-manager-coaching/"
+        },
+        {
+          "title": "Software Engineer Coaching",
+          "tag": "SWE",
+          "body": "Negotiation for senior IC offers.",
+          "url": "/software-engineer-career-coaching/"
+        },
+        {
+          "title": "Product Manager Coaching",
+          "tag": "Product",
+          "body": "Total comp and equity strategy.",
+          "url": "/product-manager-career-coaching/"
+        }
+      ]
+    },
+    "related": {
+      "title": "Next step",
+      "body": "Pair negotiation with interview prep.",
+      "primaryLabel": "Land Your Next Role",
+      "primaryLink": "/land-your-next-role/",
+      "secondaryLabel": "Interview Prep",
+      "secondaryLink": "/interview-prep/"
+    },
+    "faq": {
+      "title": "Negotiation FAQs",
+      "subtitle": "What clients ask most.",
+      "items": [
+        {
+          "question": "When should I start negotiation prep?",
+          "answer": "Ideally before you receive an offer so you can align expectations early."
+        },
+        {
+          "question": "Can you help with equity and RSUs?",
+          "answer": "Yes. We consider total comp including equity, bonuses, and sign‑on."
+        },
+        {
+          "question": "Do you negotiate on my behalf?",
+          "answer": "No. We provide strategy and scripts so you can negotiate confidently."
+        },
+        {
+          "question": "Can you review multiple offers?",
+          "answer": "Yes. We can help compare and decide."
+        },
+        {
+          "question": "What if I’m nervous about negotiating?",
+          "answer": "That’s common. We give you a clear plan and language to use."
+        },
+        {
+          "question": "Do you guarantee more pay?",
+          "answer": "No guarantees, but we improve your leverage and execution."
+        },
+        {
+          "question": "Can this be bundled with interview prep?",
+          "answer": "Yes. Many clients combine both as they approach offers."
+        },
+        {
+          "question": "What roles does this cover?",
+          "answer": "Senior IC, manager, and leadership roles across tech disciplines."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to negotiate with leverage?",
+      "body": "Book a call and we’ll map your comp strategy.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/consultation"
+    }
+  },
+  "executiveCoaching": {
+    "eyebrow": "Executive coaching for engineering leaders",
+    "h1": "Executive Coaching for $150K–$350K Engineering Leaders",
+    "subtitle": "Positioning and leadership narrative for managers, directors, and exec‑track leaders.",
+    "supporting": "We build leadership signal, executive narrative, and offer strategy aligned to senior scope.",
+    "highlights": [
+      "Leadership narrative architecture",
+      "Executive resume + LinkedIn",
+      "Offer and negotiation strategy"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/consultation",
+    "ctaProof": "Built for engineering managers, directors, and exec‑track leaders.",
+    "secondaryCtaLabel": "Take the Career Readiness Index™",
+    "secondaryCtaLink": "/career-readiness-index/",
+    "heroCard": {
+      "title": "Executive signal upgrade",
+      "body": "Clarify your leadership story, scope, and outcomes for executive‑level roles.",
+      "bullets": ["Leadership positioning", "Org impact framing", "Offer strategy"]
+    },
+    "proof": {
+      "title": "Leadership‑level outcomes",
+      "subtitle": "Built for scope, systems thinking, and org impact.",
+      "items": [
+        { "title": "Executive narrative", "body": "Leadership signal that resonates with VP+ stakeholders." },
+        { "title": "Scope clarity", "body": "Demonstrate org‑wide outcomes and decision‑making." },
+        { "title": "Offer leverage", "body": "Strategy tied to comp, equity, and leadership path." }
+      ]
+    },
+    "steps": {
+      "title": "How executive coaching works",
+      "subtitle": "Focused on narrative, scope, and outcomes.",
+      "items": [
+        { "title": "Define", "body": "Target leadership roles and scope expectations." },
+        { "title": "Position", "body": "Build leadership narrative and executive materials." },
+        { "title": "Close", "body": "Prepare for interviews and negotiation at the exec level." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Leaders moving into manager, director, or exec‑track roles.",
+      "items": [
+        "Engineering managers and senior ICs moving up",
+        "Leaders seeking stronger executive positioning",
+        "Professionals targeting $150K–$350K roles"
+      ]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You want entry‑level guidance or generic templates.",
+      "items": [
+        "You’re early‑career and building fundamentals",
+        "You want fast fixes without leadership narrative",
+        "You prefer generic resume writing"
+      ]
+    },
+    "deliverables": {
+      "title": "What you receive",
+      "subtitle": "Executive‑level positioning and strategy.",
+      "items": [
+        {
+          "title": "Leadership narrative",
+          "tag": "Core",
+          "body": "A narrative aligned to org outcomes and leadership scope.",
+          "bullets": ["Org impact framing", "Strategic decisions", "Leadership signal"]
+        },
+        {
+          "title": "Executive assets",
+          "tag": "Signal",
+          "body": "Resume + LinkedIn built for leadership roles.",
+          "bullets": ["Executive resume", "LinkedIn narrative", "Board‑level language"]
+        },
+        {
+          "title": "Offer strategy",
+          "tag": "Close",
+          "body": "A negotiation plan tailored to leadership offers.",
+          "bullets": ["Total comp analysis", "Equity strategy", "Decision framework"]
+        }
+      ]
+    },
+    "roleLinks": {
+      "eyebrow": "Role pathways",
+      "title": "Leadership role tracks",
+      "subtitle": "Position for leadership roles across tech.",
+      "items": [
+        {
+          "title": "Engineering Manager Coaching",
+          "tag": "EM",
+          "body": "Position for larger scope roles.",
+          "url": "/engineering-manager-coaching/"
+        },
+        {
+          "title": "Software Engineer Coaching",
+          "tag": "SWE",
+          "body": "Staff/Principal to management transitions.",
+          "url": "/software-engineer-career-coaching/"
+        },
+        {
+          "title": "Product Manager Coaching",
+          "tag": "Product",
+          "body": "Leadership positioning for product orgs.",
+          "url": "/product-manager-career-coaching/"
+        }
+      ]
+    },
+    "related": {
+      "title": "Next step",
+      "body": "Pair executive positioning with interview prep.",
+      "primaryLabel": "Land Your Next Role",
+      "primaryLink": "/land-your-next-role/",
+      "secondaryLabel": "Interview Prep",
+      "secondaryLink": "/interview-prep/"
+    },
+    "faq": {
+      "title": "Executive coaching FAQs",
+      "subtitle": "Answers for leadership candidates.",
+      "items": [
+        {
+          "question": "Is this only for directors and VPs?",
+          "answer": "No. We work with senior ICs and managers preparing for leadership roles."
+        },
+        {
+          "question": "Do you build executive resumes?",
+          "answer": "Yes. We craft leadership‑level resumes and LinkedIn profiles."
+        },
+        {
+          "question": "How long does executive positioning take?",
+          "answer": "Most engagements are 2–4 weeks depending on scope."
+        },
+        {
+          "question": "Do you help with leadership interviews?",
+          "answer": "Yes. We prep for leadership, strategy, and org‑scale questions."
+        },
+        {
+          "question": "Can you help with compensation strategy?",
+          "answer": "Yes. We build a plan around total comp and equity."
+        },
+        {
+          "question": "Do you guarantee offers?",
+          "answer": "No guarantees, but we improve positioning and execution."
+        },
+        {
+          "question": "What if I’m switching industries?",
+          "answer": "We translate leadership scope to the new industry’s expectations."
+        },
+        {
+          "question": "How do I start?",
+          "answer": "Book a call to scope your leadership goals."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Lead at the level you’ve earned",
+      "body": "Book a strategy call and we’ll map your leadership path.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/consultation"
+    }
+  }
+}

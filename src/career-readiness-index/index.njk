@@ -1,0 +1,110 @@
+---
+layout: layout.njk
+title: Career Readiness Index
+metaTitle: "Career Readiness Index™ for Tech Professionals | Askia"
+metaDescription: "A 3–4 minute assessment for tech professionals targeting $100K–$350K roles. Get your score, diagnosis, and next steps."
+schemaType: "Service"
+schemaName: "Career Readiness Index assessment"
+schemaDescription: "A 3–4 minute assessment for tech professionals targeting $100K–$350K roles."
+schemaServiceType: "Career readiness assessment"
+breadcrumbs:
+  - name: "Home"
+    url: "/"
+  - name: "Career Readiness Index"
+    url: "/career-readiness-index/"
+---
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="hero-eyebrow">Career Readiness Index™</p>
+      <h1 class="hero-title section-title-glow">Career Readiness Index™ for Tech Professionals</h1>
+      <p class="hero-subtitle">A 3–4 minute assessment that shows how ready you are for $100K–$350K roles.</p>
+      <p class="hero-supporting">Get a score, a short diagnosis, and the next actions to move from “maybe” to offer‑ready.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#assessment">Start the Assessment</a>
+        <span class="hero-proof">No email required until results · Built from real hiring patterns</span>
+      </div>
+    </div>
+    <div class="service-hero-orbit">
+      <div class="service-hero-card">
+        <strong>What you’ll get</strong>
+        <p>Score + diagnosis + recommended actions tailored to your role level.</p>
+        <div class="service-hero-list">
+          <span>Score (0–48)</span>
+          <span>Role‑readiness diagnosis</span>
+          <span>Next‑step plan</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft" id="assessment">
+  <div class="container assessment">
+    <div class="assessment-header">
+      <p class="hero-eyebrow">Career Readiness Index™</p>
+      <h2 class="section-title">For Tech Professionals & Leaders</h2>
+      <p class="section-subtitle">“This assessment measures how ready your career is for the role you actually want — not the one you’re settling for.”</p>
+      <p class="assessment-meta">⏱ 3–4 minutes · No email required until results</p>
+    </div>
+    <div class="assessment-form" data-assessment>
+      <div class="assessment-progress">
+        <span data-assessment-step>1</span> / <span data-assessment-total>10</span>
+        <div class="assessment-bar"><div data-assessment-bar></div></div>
+      </div>
+      <div class="assessment-panel">
+        <p class="assessment-section" data-assessment-section></p>
+        <h3 class="assessment-question-title" data-assessment-question></h3>
+        <p class="assessment-question-sub" data-assessment-sub></p>
+        <div class="assessment-options" data-assessment-options></div>
+        <p class="assessment-note" data-assessment-note></p>
+      </div>
+      <div class="assessment-actions">
+        <button type="button" class="btn btn-ghost" data-assessment-prev>Back</button>
+        <button type="button" class="btn btn-primary" data-assessment-next>Next</button>
+        <span class="assessment-hint">Maximum score: 48 · Minimum score: 1</span>
+      </div>
+      <p class="assessment-footnote">“The Career Readiness Index™ is based on real hiring patterns across senior tech, leadership, and platform roles — not generic career advice.”</p>
+      <div class="assessment-overlay" data-assessment-overlay hidden>
+        <div class="assessment-result" data-assessment-result>
+          <button class="assessment-close" type="button" data-assessment-close>Close</button>
+          <p class="assessment-score" data-assessment-score></p>
+          <h3 data-assessment-title></h3>
+          <p data-assessment-message></p>
+          <ul data-assessment-recommendation></ul>
+          <div class="assessment-email">
+            <p class="assessment-email-title">Want your score + action plan emailed?</p>
+            <form name="career-readiness" method="POST" data-netlify="true" class="assessment-email-form">
+              <input type="hidden" name="form-name" value="career-readiness" />
+              <label>
+                <span>Full name</span>
+                <input type="text" name="name" placeholder="Your name" />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" placeholder="you@company.com" required />
+              </label>
+              <label>
+                <span>Target role</span>
+                <input type="text" name="role" placeholder="Senior SWE, EM, DevOps, PM..." />
+              </label>
+              <button class="btn btn-primary" type="submit">Email my results</button>
+            </form>
+          </div>
+          <a class="btn btn-ghost" href="{{ site.cta.link }}" data-assessment-book>Book a Strategy Call</a>
+          <p class="assessment-cta" data-assessment-cta></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container cta-band">
+    <div>
+      <h2 class="section-title">Prefer a 1:1 strategy?</h2>
+      <p class="section-subtitle">Book a call and we’ll map your path to a $100K–$350K role.</p>
+    </div>
+    <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+  </div>
+</section>

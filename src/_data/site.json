@@ -1,5 +1,6 @@
 {
   "name": "Askia",
+  "url": "https://askia.tech",
   "brandLine": "Land your next $100K–$350K role in Tech",
   "cta": {
     "label": "Book a Call",
@@ -7,6 +8,7 @@
   },
   "nav": [
     { "label": "Home", "url": "/" },
+    { "label": "Land Your Next Role", "url": "/land-your-next-role/" },
     { "label": "Services", "url": "/services/" },
     { "label": "Testimonials", "url": "/testimonials/" },
     { "label": "About", "url": "/about/" }

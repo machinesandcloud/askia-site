@@ -736,6 +736,7 @@ a {
 }
 
 .service-tile {
+  display: block;
   padding: 20px 22px;
   border-radius: 18px;
   background: linear-gradient(135deg, rgba(18, 26, 38, 0.8), rgba(8, 12, 18, 0.4));
@@ -1753,6 +1754,43 @@ a {
   margin: 0;
   padding-left: 18px;
   color: var(--muted);
+}
+
+.assessment-email {
+  margin: 18px 0 8px;
+  padding: 16px;
+  border-radius: 16px;
+  background: rgba(12, 18, 28, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.assessment-email-title {
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+
+.assessment-email-form {
+  display: grid;
+  gap: 12px;
+}
+
+.assessment-email-form label {
+  display: grid;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.assessment-email-form input {
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(9, 14, 21, 0.6);
+  color: var(--text);
+}
+
+.assessment-email-form input::placeholder {
+  color: rgba(244, 247, 251, 0.4);
 }
 
 .assessment-cta {
