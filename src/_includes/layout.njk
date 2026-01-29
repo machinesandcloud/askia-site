@@ -196,7 +196,21 @@
             "Mila P. started Resume Rebuild.",
             "Theo S. reserved Executive Advisory.",
             "Kim J. picked Momentum Coaching.",
-            "Andre A. booked the Brand package."
+            "Andre A. booked the Brand package.",
+            "Jules E. booked Resume + LinkedIn + Cover Letter.",
+            "Renee F. locked in Career Clarity.",
+            "Iman S. grabbed an interview prep slot.",
+            "Victor H. upgraded to Executive Advisory.",
+            "Nora P. started Momentum Coaching.",
+            "Elijah W. booked a strategy call.",
+            "Sofia L. reserved Resume Rebuild.",
+            "Kai T. joined the Brand refresh.",
+            "Maya Q. scheduled Interview Practice.",
+            "Liam D. booked Executive Advisory.",
+            "Tessa R. started Momentum Coaching.",
+            "Ari V. secured Resume + LinkedIn + Cover Letter.",
+            "Caleb M. booked a clarity session.",
+            "Sana K. grabbed a negotiation prep slot."
           ];
           let index = 0;
           const textEl = nudgeToast.querySelector(".nudge-text");
@@ -217,7 +231,7 @@
 
           const cycle = () => {
             showToast();
-            if (active) nudgeToast._timer = setTimeout(cycle, 3000);
+            if (active) nudgeToast._timer = setTimeout(cycle, 3000 + Math.random() * 4000);
           };
 
           closeBtn.addEventListener("click", () => {
@@ -226,7 +240,7 @@
             clearTimeout(nudgeToast._timer);
           });
 
-          setTimeout(cycle, 600);
+          setTimeout(cycle, 5000 + Math.random() * 4000);
         }
 
         const wrapper = document.querySelector("[data-assessment]");
