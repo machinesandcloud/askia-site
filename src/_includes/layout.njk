@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{ metaTitle or (title ? title + " | Askia" : site.name + " | Askia") }}</title>
+    <title>{% if metaTitle %}{{ metaTitle }}{% elseif title %}{{ title }} | Askia{% else %}{{ site.name }} | Askia{% endif %}</title>
     <meta name="description" content="{{ metaDescription or description or site.brandLine }}" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

@@ -2548,9 +2548,18 @@ a {
   .cta-band .btn {
     width: 100%;
   }
+
+  .service-tile:nth-child(2),
+  .service-tile:nth-child(3) {
+    transform: none;
+  }
 }
 
 @media (max-width: 680px) {
+  .btn {
+    min-height: 44px;
+  }
+
   .assessment-overlay {
     padding: 12px;
   }
@@ -2564,6 +2573,16 @@ a {
   .assessment-close {
     top: 10px;
     right: 10px;
+  }
+
+  .success-viewport {
+    height: 320px;
+  }
+
+  .nudge-toast {
+    left: 12px;
+    right: 12px;
+    max-width: none;
   }
 }
 
