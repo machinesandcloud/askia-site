@@ -833,16 +833,15 @@ a {
 }
 
 .about-orbit {
-  min-height: 360px;
+  min-height: 320px;
   position: relative;
   display: grid;
-  align-items: start;
-  padding-top: 10px;
+  place-items: center;
 }
 
 .about-orbit .orbit-card {
   z-index: 2;
-  transform: translateY(-4px);
+  transform: none;
 }
 
 .about-orbit .orbit-ring {
@@ -855,7 +854,6 @@ a {
 .about-orbit .orbit-dot {
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
   margin: 0;
 }
 
