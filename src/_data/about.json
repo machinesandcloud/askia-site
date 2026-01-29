@@ -32,13 +32,13 @@
   "founder": {
     "name": "Steve J. Ngoumnai",
     "role": "Founder · Career Strategist",
-    "photo": "/assets/team/placeholder.svg",
+    "photo": "/assets/team/steve.jpg",
     "body": "Steve is a former engineering leader who built Askia to solve a simple problem: top talent shouldn’t be invisible. His approach blends real hiring‑table insight with crisp positioning and execution‑focused coaching."
   },
   "team": [
-    { "name": "Maya Lopez", "role": "Interview Coach", "photo": "/assets/team/placeholder.svg" },
-    { "name": "Derek Tran", "role": "Resume Strategist", "photo": "/assets/team/placeholder.svg" },
-    { "name": "Sophia Reed", "role": "Career Operations", "photo": "/assets/team/placeholder.svg" }
+    { "name": "Maya Lopez", "role": "Interview Coach", "photo": "/assets/team/maya.jpg" },
+    { "name": "Derek Tran", "role": "Resume Strategist", "photo": "/assets/team/derek.jpg" },
+    { "name": "Sophia Reed", "role": "Career Operations", "photo": "/assets/team/sophia.jpg" }
   ],
   "cta": {
     "title": "Ready to build your momentum?",

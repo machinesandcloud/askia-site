@@ -832,6 +832,15 @@ a {
   place-items: center;
 }
 
+.about-orbit .orbit-card {
+  transform: translateY(-16px);
+}
+
+.about-orbit .orbit-ring,
+.about-orbit .orbit-dot {
+  top: 22px;
+}
+
 .orbit-card {
   padding: 22px 24px;
   border-radius: 20px;
