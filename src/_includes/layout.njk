@@ -164,6 +164,70 @@
           });
         }
 
+        const nudgeToast = document.querySelector("[data-service-nudge]");
+        if (nudgeToast) {
+          const messages = [
+            "Ava M. booked a Resume Rebuild.",
+            "Marcus P. started Momentum Coaching.",
+            "Priya K. reserved an Executive Advisory slot.",
+            "Jamie L. upgraded to Resume + LinkedIn + Cover Letter.",
+            "Noah D. scheduled Brand + Career Clarity.",
+            "Lena S. just booked a strategy call.",
+            "Arjun R. secured a resume refresh spot.",
+            "Sophia T. started Interview Practice.",
+            "Ethan G. began Momentum Coaching.",
+            "Nia W. chose Executive Advisory.",
+            "Chris H. upgraded to the Brand package.",
+            "Fatima Z. booked Resume Rebuild.",
+            "Daniel V. reserved Resume + LinkedIn + Cover Letter.",
+            "Iris Q. kicked off Career Clarity.",
+            "Omar B. locked in Momentum Coaching.",
+            "Grace P. booked a strategy call.",
+            "Kevin M. grabbed an Executive Advisory consult.",
+            "Hannah J. joined the Brand + Clarity track.",
+            "Ravi K. scheduled Interview Practice.",
+            "Tanya R. booked Resume Rebuild.",
+            "Maya L. upgraded to the Brand refresh.",
+            "Seth Y. secured a Momentum Coaching spot.",
+            "Daisy N. booked Executive Advisory.",
+            "Julian C. joined Resume + LinkedIn + Cover Letter.",
+            "Zara H. booked a clarity session.",
+            "Leo F. grabbed an interview prep slot.",
+            "Mila P. started Resume Rebuild.",
+            "Theo S. reserved Executive Advisory.",
+            "Kim J. picked Momentum Coaching.",
+            "Andre A. booked the Brand package."
+          ];
+          let index = 0;
+          const textEl = nudgeToast.querySelector(".nudge-text");
+          const labelEl = nudgeToast.querySelector(".nudge-label");
+          const closeBtn = nudgeToast.querySelector(".nudge-close");
+          const times = ["Just now", "2 min ago", "5 min ago", "8 min ago", "12 min ago"];
+          let active = true;
+
+          const showToast = () => {
+            if (!active) return;
+            textEl.textContent = messages[index % messages.length];
+            labelEl.textContent = times[index % times.length];
+            nudgeToast.classList.add("is-visible");
+            index += 1;
+            setTimeout(() => nudgeToast.classList.remove("is-visible"), 2400);
+          };
+
+          const cycle = () => {
+            showToast();
+            if (active) nudgeToast._timer = setTimeout(cycle, 3000);
+          };
+
+          closeBtn.addEventListener("click", () => {
+            active = false;
+            nudgeToast.classList.remove("is-visible");
+            clearTimeout(nudgeToast._timer);
+          });
+
+          cycle();
+        }
+
         const wrapper = document.querySelector("[data-assessment]");
         if (!wrapper) return;
 
