@@ -832,38 +832,31 @@ a {
   place-items: center;
 }
 
-.about-orbit .orbit-card {
-  transform: translate(-8px, -6px);
-}
-
-.about-orbit {
-  min-height: 320px;
-  display: grid;
-  place-items: center;
-}
-
-.about-orbit .orbit-ring {
-  left: 60%;
-  top: 64%;
-  margin-left: -140px;
-  margin-top: -140px;
-}
-
-.about-orbit .orbit-dot {
-  left: 60%;
-  top: 64%;
-  margin-left: -9px;
-  margin-top: -9px;
-}
-
 .about-orbit {
   min-height: 360px;
+  position: relative;
+  display: grid;
   align-items: start;
   padding-top: 10px;
 }
 
 .about-orbit .orbit-card {
   z-index: 2;
+  transform: translateY(-4px);
+}
+
+.about-orbit .orbit-ring {
+  left: 68%;
+  top: 64%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+.about-orbit .orbit-dot {
+  left: 68%;
+  top: 64%;
+  transform: translate(-50%, -50%);
+  margin: 0;
 }
 
 .nudge-toast {
@@ -2419,8 +2412,12 @@ a {
   height: 72px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: 50% 25%;
   margin-bottom: 12px;
   border: 1px solid rgba(255, 255, 255, 0.12);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-card strong {
