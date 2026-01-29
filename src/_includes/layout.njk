@@ -321,6 +321,11 @@
         const cta = wrapper.querySelector("[data-assessment-cta]");
         const scoreEl = wrapper.querySelector("[data-assessment-score]");
         const bookBtn = wrapper.querySelector("[data-assessment-book]");
+        const form = wrapper.querySelector("[data-assessment-form]");
+        const scoreField = wrapper.querySelector("[data-assessment-score-field]");
+        const bucketField = wrapper.querySelector("[data-assessment-bucket-field]");
+        const sourceField = wrapper.querySelector("[data-assessment-source-field]");
+        const submitMessage = wrapper.querySelector("[data-assessment-submit-message]");
 
         const questions = [
           {
@@ -504,6 +509,10 @@
           recommendation.innerHTML = outcomes[bucket].recs.map((item) => `<li>${item}</li>`).join("");
           cta.textContent = outcomes[bucket].cta;
           bookBtn.style.display = bucket === "green" ? "none" : "inline-flex";
+          if (scoreField) scoreField.value = score;
+          if (bucketField) bucketField.value = bucket;
+          if (sourceField) sourceField.value = window.location.pathname || "/";
+          if (submitMessage) submitMessage.textContent = "";
         };
 
         prevBtn.addEventListener("click", () => {
@@ -545,10 +554,31 @@
           cta.textContent = "";
           scoreEl.textContent = "";
           bookBtn.style.display = "none";
+          if (submitMessage) submitMessage.textContent = "";
         };
 
         renderQuestion();
         resetResult();
+
+        if (form) {
+          form.addEventListener("submit", (event) => {
+            event.preventDefault();
+            if (submitMessage) submitMessage.textContent = "Sending...";
+            const formData = new FormData(form);
+            fetch("/", {
+              method: "POST",
+              headers: { "Content-Type": "application/x-www-form-urlencoded" },
+              body: new URLSearchParams(formData).toString()
+            })
+              .then(() => {
+                if (submitMessage) submitMessage.textContent = "Success! Check your inbox.";
+                form.reset();
+              })
+              .catch(() => {
+                if (submitMessage) submitMessage.textContent = "Something went wrong. Please try again.";
+              });
+          });
+        }
 
         wrapper.querySelector("[data-assessment-close]").addEventListener("click", () => {
           resetResult();

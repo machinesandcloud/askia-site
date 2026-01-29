@@ -139,8 +139,11 @@ breadcrumbs:
           <ul data-assessment-recommendation></ul>
           <div class="assessment-email">
             <p class="assessment-email-title">Want your score + action plan emailed?</p>
-            <form name="career-readiness" method="POST" data-netlify="true" class="assessment-email-form">
+            <form name="career-readiness" method="POST" action="/career-readiness-index/" data-netlify="true" class="assessment-email-form" data-assessment-form>
               <input type="hidden" name="form-name" value="career-readiness" />
+              <input type="hidden" name="score" value="" data-assessment-score-field />
+              <input type="hidden" name="bucket" value="" data-assessment-bucket-field />
+              <input type="hidden" name="source" value="" data-assessment-source-field />
               <label>
                 <span>Full name</span>
                 <input type="text" name="name" placeholder="Your name" />
@@ -154,6 +157,7 @@ breadcrumbs:
                 <input type="text" name="role" placeholder="Senior SWE, EM, DevOps, PM..." />
               </label>
               <button class="btn btn-primary" type="submit">Email my results</button>
+              <p class="assessment-submit-message" data-assessment-submit-message></p>
             </form>
           </div>
           <a class="btn btn-ghost" href="{{ site.cta.link }}" data-assessment-book>Book a Strategy Call</a>
