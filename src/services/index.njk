@@ -51,14 +51,15 @@ description: "Askia coaching services to land top tech roles."
               <span>{{ tier.ideal }}</span>
               <span>{{ tier.turnaround }}</span>
             </div>
-            <ul>
-              {% for bullet in tier.bullets %}
-                <li>{{ bullet }}</li>
-              {% endfor %}
-            </ul>
-          </article>
-        {% endfor %}
-      </div>
+          <ul>
+            {% for bullet in tier.bullets %}
+              <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+          <a class="btn btn-primary btn-buy" href="{{ tier.buyLink }}">Buy now</a>
+        </article>
+      {% endfor %}
+    </div>
     </div>
     <div class="carousel-dots" data-carousel-dots></div>
   </div>

@@ -1278,6 +1278,16 @@ a {
   margin: 12px 0;
 }
 
+.btn-buy {
+  margin-top: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 0.95rem;
+}
+
 @media (max-width: 1100px) {
   .carousel-viewport { --carousel-cards: 2; }
 }
