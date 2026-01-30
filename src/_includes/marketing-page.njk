@@ -12,6 +12,13 @@
         {% endfor %}
       </ul>
       {% endif %}
+      {% if page.heroPills and page.heroPills.length %}
+      <div class="testimonial-proof">
+        {% for item in page.heroPills %}
+          <span>{{ item }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
       <div class="hero-cta">
         <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
         {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
@@ -57,6 +64,58 @@
   </div>
 </section>
 
+{% if page.testimonials %}
+<section class="section">
+  <div class="container">
+    <div class="testimonial-wall-header">
+      <h2 class="section-title section-title-glow">{{ page.testimonials.title }}</h2>
+      {% if page.testimonials.subtitle %}<p class="section-subtitle">{{ page.testimonials.subtitle }}</p>{% endif %}
+    </div>
+    <div class="testimonial-grid">
+      {% for index in page.testimonials.indexes %}
+        {% set item = testimonials.items[index] %}
+        {% if item %}
+        <article class="testimonial-card">
+          <div class="testimonial-header">
+            <img class="avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
+            <div>
+              <strong>{{ item.name }}</strong>
+              <span class="section-subtitle">{{ item.role }}{% if item.company %} · {{ item.company }}{% endif %}</span>
+              {% if item.rating %}<div class="rating">{{ item.rating }}/5</div>{% endif %}
+            </div>
+          </div>
+          <p>{{ item.quote }}</p>
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.coach %}
+<section class="section">
+  <div class="container founder-grid">
+    <div class="founder-photo">
+      <img src="{{ page.coach.photo }}" alt="{{ page.coach.name }}" />
+    </div>
+    <div class="founder-copy">
+      {% if page.coach.eyebrow %}<p class="hero-eyebrow">{{ page.coach.eyebrow }}</p>{% endif %}
+      <h2 class="section-title section-title-glow">{{ page.coach.name }}</h2>
+      {% if page.coach.role %}<p class="section-subtitle">{{ page.coach.role }}</p>{% endif %}
+      <p>{{ page.coach.bio }}</p>
+      {% if page.coach.bullets and page.coach.bullets.length %}
+      <div class="founder-badges">
+        {% for item in page.coach.bullets %}
+          <span>{{ item }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
 {% if page.focus %}
 <section class="section">
   <div class="container">
@@ -95,6 +154,27 @@
     </div>
   </div>
 </section>
+
+{% if page.call %}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header">
+      {% if page.call.eyebrow %}<p class="hero-eyebrow">{{ page.call.eyebrow }}</p>{% endif %}
+      <h2 class="section-title section-title-glow">{{ page.call.title }}</h2>
+      {% if page.call.subtitle %}<p class="section-subtitle">{{ page.call.subtitle }}</p>{% endif %}
+    </div>
+    <div class="steps">
+      {% for step in page.call.steps %}
+        <div class="step">
+          <h4>{{ step.title }}</h4>
+          <p>{{ step.body }}</p>
+        </div>
+      {% endfor %}
+    </div>
+    {% if page.call.note %}<p class="assessment-footnote">{{ page.call.note }}</p>{% endif %}
+  </div>
+</section>
+{% endif %}
 
 <section class="section">
   <div class="container services-preview">
@@ -150,6 +230,67 @@
     </div>
   </div>
 </section>
+
+{% if page.samples %}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">{{ page.samples.eyebrow }}</p>
+      <h2 class="section-title section-title-glow">{{ page.samples.title }}</h2>
+      {% if page.samples.subtitle %}<p class="section-subtitle">{{ page.samples.subtitle }}</p>{% endif %}
+    </div>
+    <div class="service-stack">
+      {% for item in page.samples.items %}
+        <div class="service-tile">
+          <div class="service-header">
+            <h3>{{ item.title }}</h3>
+            {% if item.tag %}<span class="service-tag">{{ item.tag }}</span>{% endif %}
+          </div>
+          <p>{{ item.body }}</p>
+          {% if item.bullets and item.bullets.length %}
+          <ul>
+            {% for bullet in item.bullets %}
+              <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if page.investment %}
+<section class="section">
+  <div class="container services-preview">
+    <div class="card card-soft">
+      <strong>{{ page.investment.title }}</strong>
+      <p>{{ page.investment.subtitle }}</p>
+      {% if page.investment.items and page.investment.items.length %}
+      <ul class="highlight-list">
+        {% for item in page.investment.items %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    {% if page.risk %}
+    <div class="card">
+      <strong>{{ page.risk.title }}</strong>
+      <p>{{ page.risk.body }}</p>
+      {% if page.risk.items and page.risk.items.length %}
+      <ul class="highlight-list">
+        {% for item in page.risk.items %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
 
 {% if page.roleLinks %}
 <section class="section">
