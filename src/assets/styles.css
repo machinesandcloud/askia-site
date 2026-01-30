@@ -919,10 +919,7 @@ a {
   min-height: 320px;
   border-radius: 28px;
   padding: 24px;
-  background:
-    radial-gradient(circle at 15% 20%, rgba(114, 214, 255, 0.18), transparent 55%),
-    radial-gradient(circle at 85% 10%, rgba(87, 207, 196, 0.16), transparent 50%),
-    linear-gradient(160deg, rgba(10, 16, 24, 0.95), rgba(8, 12, 18, 0.55));
+  background: linear-gradient(160deg, rgba(10, 16, 24, 0.95), rgba(8, 12, 18, 0.55));
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 40px 100px rgba(7, 10, 15, 0.6);
   overflow: hidden;
@@ -930,130 +927,52 @@ a {
   --visual-accent-2: rgba(114, 214, 255, 0.35);
 }
 
-.hero-visual-montage {
-  display: grid;
-  align-items: end;
+.hero-visual-photo {
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: 0 40px 120px rgba(7, 10, 15, 0.65);
 }
 
-.montage-grid {
-  position: relative;
-  z-index: 1;
-  height: 100%;
-  min-height: 360px;
-}
-
-.montage-card {
-  position: absolute;
-  border-radius: 24px;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 34px 90px rgba(7, 10, 15, 0.6);
-  background: rgba(8, 12, 18, 0.35);
-  backdrop-filter: blur(8px);
-}
-
-.montage-card img {
+.hero-photo {
   width: 100%;
   height: 100%;
+  min-height: 360px;
   object-fit: cover;
-  object-position: 50% 22%;
   display: block;
-  filter: saturate(1.1) contrast(1.08) brightness(0.98);
+  border-radius: 28px;
+  filter: saturate(1.05) contrast(1.05);
 }
 
-.montage-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  background: linear-gradient(140deg, rgba(114, 214, 255, 0.35), rgba(255, 255, 255, 0.1), rgba(114, 214, 255, 0.18));
-  opacity: 0.22;
-  mix-blend-mode: screen;
-  pointer-events: none;
+.hero-summary {
+  margin-top: 18px;
+  display: grid;
+  gap: 10px;
 }
 
-.montage-card::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(165deg, rgba(10, 16, 24, 0.12), rgba(10, 16, 24, 0.6));
-  opacity: 0.32;
-  pointer-events: none;
+.hero-summary strong {
+  font-family: "Sora", "Segoe UI", system-ui, sans-serif;
+  font-size: 1rem;
 }
 
-.montage-card-1 {
-  left: 0;
-  top: 0;
-  width: 58%;
-  height: 58%;
-  transform: rotate(-1.2deg);
+.hero-summary p {
+  margin: 0;
+  color: var(--muted);
 }
 
-.montage-card-2 {
-  right: 0;
-  top: 6%;
-  width: 40%;
-  height: 36%;
-  transform: rotate(1.6deg);
+.hero-summary-list {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  color: rgba(244, 247, 251, 0.85);
 }
 
-.montage-card-3 {
-  right: 4%;
-  bottom: 0;
-  width: 54%;
-  height: 44%;
-  transform: rotate(-0.8deg);
-}
-
-.montage-card-4 {
-  left: 12%;
-  bottom: 6%;
-  width: 36%;
-  height: 30%;
-  transform: rotate(1.4deg);
-  z-index: 2;
-}
-
- 
-
-.hero-visual-montage::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at 20% 20%, rgba(114, 214, 255, 0.25), transparent 60%),
-    radial-gradient(circle at 80% 70%, rgba(87, 207, 196, 0.18), transparent 55%);
-  opacity: 0.8;
-  pointer-events: none;
-  z-index: 0;
-}
-
-.hero-visual-montage::after {
-  content: "";
-  position: absolute;
-  inset: 12px;
-  border-radius: 22px;
-  border: 1px solid rgba(114, 214, 255, 0.15);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
-  pointer-events: none;
-  z-index: 0;
-}
-
-.hero-visual-montage .visual-badge {
-  position: absolute;
-  left: 20px;
-  bottom: 72px;
-  z-index: 2;
-  background: linear-gradient(150deg, rgba(12, 18, 28, 0.9), rgba(8, 12, 18, 0.55));
-  backdrop-filter: blur(14px);
-  box-shadow: 0 26px 60px rgba(7, 10, 15, 0.55);
-}
-
-.hero-visual-montage .visual-tags {
-  position: absolute;
-  right: 20px;
-  bottom: 18px;
-  z-index: 2;
+.hero-summary-list li::before {
+  content: "•";
+  margin-right: 10px;
+  color: rgba(114, 214, 255, 0.9);
 }
 
 .hero-visual .visual-core {
@@ -2948,24 +2867,8 @@ a {
     margin-top: 18px;
   }
 
-  .montage-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-template-rows: repeat(2, minmax(0, 140px));
-    gap: 12px;
-    min-height: 0;
-  }
-
-  .hero-visual-montage .visual-badge {
-    position: static;
-    margin-top: 18px;
-  }
-
-  .montage-card {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform: none;
+  .hero-photo {
+    min-height: 260px;
   }
 
   .cta-band {
