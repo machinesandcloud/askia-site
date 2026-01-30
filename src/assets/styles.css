@@ -1028,26 +1028,40 @@ a {
 
 .montage-overlay {
   position: absolute;
-  inset: 0;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  height: 44%;
   z-index: 2;
   pointer-events: none;
 }
 
+.montage-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(6, 10, 16, 0) 0%, rgba(6, 10, 16, 0.55) 45%, rgba(6, 10, 16, 0.9) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  z-index: 0;
+}
+
 .hero-visual .visual-badge {
   position: absolute;
-  left: 20px;
-  bottom: 20px;
-  max-width: 360px;
-  background: rgba(8, 12, 18, 0.92);
-  padding: 22px 24px 20px;
-  border-radius: 24px 28px 18px 24px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  z-index: 1;
+  left: 22px;
+  bottom: 22px;
+  max-width: 420px;
+  background: rgba(8, 12, 18, 0.94);
+  padding: 22px 24px 18px;
+  border-radius: 24px 30px 18px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
   box-shadow:
     0 24px 52px rgba(6, 10, 16, 0.6),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  clip-path: polygon(0 0, 88% 0, 100% 16%, 100% 100%, 0 100%);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  clip-path: polygon(0 0, 86% 0, 100% 18%, 100% 100%, 0 100%);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
 }
 
 .hero-visual .visual-badge::after {
@@ -1060,24 +1074,19 @@ a {
 }
 
 .hero-visual .visual-tags {
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  display: grid;
-  gap: 12px;
-  width: 44%;
-  max-width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
 }
 
 .hero-visual .visual-tags span {
-  padding: 10px 16px;
-  border-radius: 16px;
-  background: rgba(8, 12, 18, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  font-size: 0.85rem;
-  box-shadow: 0 14px 30px rgba(6, 10, 16, 0.45);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  font-size: 0.82rem;
+  color: rgba(244, 247, 251, 0.88);
 }
 
 @media (hover: hover) {
@@ -2984,11 +2993,6 @@ a {
     min-height: 260px;
   }
 
-  .hero-visual .visual-tags {
-    position: static;
-    margin-top: 18px;
-  }
-
   .montage-stage {
     padding: 16px;
     border-radius: 24px;
@@ -2996,7 +3000,12 @@ a {
 
   .montage-overlay {
     position: static;
+    height: auto;
     padding: 14px 4px 0;
+  }
+
+  .montage-overlay::before {
+    display: none;
   }
 
   .hero-visual .visual-badge {
@@ -3007,6 +3016,7 @@ a {
 
   .hero-visual .visual-tags {
     position: static;
+    margin-top: 12px;
     width: auto;
     max-width: none;
   }

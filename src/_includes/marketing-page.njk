@@ -37,14 +37,14 @@
           <div class="visual-badge">
             <strong>{{ page.heroCard.title }}</strong>
             {% if page.heroCard.body %}<p>{{ page.heroCard.body }}</p>{% endif %}
+            {% if page.heroCard.bullets and page.heroCard.bullets.length %}
+            <div class="visual-tags">
+              {% for item in page.heroCard.bullets %}
+                <span>{{ item }}</span>
+              {% endfor %}
+            </div>
+            {% endif %}
           </div>
-          {% if page.heroCard.bullets and page.heroCard.bullets.length %}
-          <div class="visual-tags">
-            {% for item in page.heroCard.bullets %}
-              <span>{{ item }}</span>
-            {% endfor %}
-          </div>
-          {% endif %}
         </div>
         {% endif %}
       </div>
