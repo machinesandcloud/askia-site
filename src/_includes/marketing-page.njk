@@ -14,19 +14,6 @@
         {% endfor %}
       </ul>
       {% endif %}
-      {% if page.heroCard %}
-      <div class="hero-summary">
-        <strong>{{ page.heroCard.title }}</strong>
-        {% if page.heroCard.body %}<p>{{ page.heroCard.body }}</p>{% endif %}
-        {% if page.heroCard.bullets and page.heroCard.bullets.length %}
-        <ul class="hero-summary-list">
-          {% for item in page.heroCard.bullets %}
-            <li>{{ item }}</li>
-          {% endfor %}
-        </ul>
-        {% endif %}
-      </div>
-      {% endif %}
       <div class="hero-cta">
         <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
         {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
@@ -35,10 +22,27 @@
         <p class="section-subtitle"><a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a></p>
       {% endif %}
     </div>
-    {% set heroImage = page.heroImage or site.heroImage %}
-    <div class="hero-visual hero-visual-photo"{% if page.visual %} style="--visual-accent: {{ page.visual.accent }}; --visual-accent-2: {{ page.visual.accent2 }};"{% endif %}>
-      {% if heroImage %}
-        <img class="hero-photo" src="{{ heroImage.src }}" alt="{{ heroImage.alt }}" loading="lazy" />
+    {% set heroImages = page.heroImages or site.heroImages %}
+    <div class="hero-visual hero-visual-montage"{% if page.visual %} style="--visual-accent: {{ page.visual.accent }}; --visual-accent-2: {{ page.visual.accent2 }};"{% endif %}>
+      <div class="montage-grid">
+        {% for item in heroImages %}
+          <div class="montage-card montage-card-{{ loop.index }}">
+            <img src="{{ item.src }}" alt="{{ item.alt }}" loading="lazy" />
+          </div>
+        {% endfor %}
+      </div>
+      {% if page.heroCard %}
+      <div class="visual-badge">
+        <strong>{{ page.heroCard.title }}</strong>
+        <p>{{ page.heroCard.body }}</p>
+      </div>
+      {% endif %}
+      {% if page.heroCard and page.heroCard.bullets and page.heroCard.bullets.length %}
+      <div class="visual-tags">
+        {% for item in page.heroCard.bullets %}
+          <span>{{ item }}</span>
+        {% endfor %}
+      </div>
       {% endif %}
     </div>
   </div>
