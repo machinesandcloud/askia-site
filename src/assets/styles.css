@@ -919,12 +919,98 @@ a {
   min-height: 320px;
   border-radius: 28px;
   padding: 24px;
-  background: linear-gradient(145deg, rgba(12, 20, 30, 0.9), rgba(8, 12, 18, 0.45));
+  background: linear-gradient(145deg, rgba(10, 16, 24, 0.92), rgba(8, 12, 18, 0.5));
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 40px 100px rgba(7, 10, 15, 0.6);
   overflow: hidden;
   --visual-accent: rgba(114, 214, 255, 0.7);
   --visual-accent-2: rgba(114, 214, 255, 0.35);
+}
+
+.hero-visual-montage {
+  display: grid;
+  align-items: end;
+}
+
+.montage-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-rows: repeat(6, minmax(0, 58px));
+  gap: 12px;
+  height: 100%;
+}
+
+.montage-card {
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 24px 60px rgba(7, 10, 15, 0.45);
+  position: relative;
+}
+
+.montage-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 22%;
+  display: block;
+}
+
+.montage-card-1 {
+  grid-area: a;
+}
+
+.montage-card-2 {
+  grid-area: b;
+  transform: translateY(6px);
+}
+
+.montage-card-3 {
+  grid-area: c;
+  transform: translateY(-6px);
+}
+
+.montage-card-4 {
+  grid-area: d;
+  transform: translateY(8px);
+}
+
+.montage-grid {
+  grid-template-areas:
+    "a a a b b b"
+    "a a a b b b"
+    "a a a c c c"
+    "d d d c c c"
+    "d d d c c c"
+    "d d d c c c";
+}
+
+.hero-visual-montage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 20%, rgba(114, 214, 255, 0.18), transparent 55%);
+  opacity: 0.7;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-visual-montage .visual-badge {
+  position: absolute;
+  left: 20px;
+  bottom: 72px;
+  z-index: 2;
+  background: rgba(10, 16, 24, 0.8);
+  backdrop-filter: blur(12px);
+}
+
+.hero-visual-montage .visual-tags {
+  position: absolute;
+  right: 20px;
+  bottom: 18px;
+  z-index: 2;
 }
 
 .hero-visual .visual-core {
@@ -2805,6 +2891,23 @@ a {
   }
 
   .hero-visual .visual-tags {
+    position: static;
+    margin-top: 18px;
+  }
+
+  .montage-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(6, minmax(0, 46px));
+    grid-template-areas:
+      "a a b b"
+      "a a b b"
+      "a a c c"
+      "d d c c"
+      "d d c c"
+      "d d c c";
+  }
+
+  .hero-visual-montage .visual-badge {
     position: static;
     margin-top: 18px;
   }

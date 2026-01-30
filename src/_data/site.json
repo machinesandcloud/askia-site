@@ -2,6 +2,24 @@
   "name": "Askia",
   "url": "https://askia.tech",
   "brandLine": "Land your next $100K–$350K role in Tech",
+  "heroImages": [
+    {
+      "src": "/assets/hero/askia-hero-1.jpg",
+      "alt": "Tech professional smiling in a modern workspace"
+    },
+    {
+      "src": "/assets/hero/askia-hero-2.jpg",
+      "alt": "Professional portrait of a tech leader"
+    },
+    {
+      "src": "/assets/hero/askia-hero-3.jpg",
+      "alt": "Senior professional in a studio headshot"
+    },
+    {
+      "src": "/assets/hero/askia-hero-4.jpg",
+      "alt": "Tech professional with confident posture"
+    }
+  ],
   "cta": {
     "label": "Book a Call",
     "link": "https://bookings.askia.tech/#/consultation"

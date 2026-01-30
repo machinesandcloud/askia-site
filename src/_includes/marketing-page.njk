@@ -1,7 +1,9 @@
 <section class="hero hero-themed{% if page.visual and page.visual.style %} hero-{{ page.visual.style }}{% endif %}">
   <div class="container hero-grid">
     <div>
-      {% if page.eyebrow %}<p class="hero-eyebrow">{{ page.eyebrow }}</p>{% endif %}
+      {% if page.eyebrow and (page.eyebrow | lower) != (page.h1 | lower) and (page.eyebrow | length) < 36 %}
+        <p class="hero-eyebrow">{{ page.eyebrow }}</p>
+      {% endif %}
       <h1 class="hero-title section-title-glow">{{ page.h1 }}</h1>
       {% if page.subtitle %}<p class="hero-subtitle">{{ page.subtitle }}</p>{% endif %}
       {% if page.supporting %}<p class="hero-supporting">{{ page.supporting }}</p>{% endif %}
@@ -12,13 +14,6 @@
         {% endfor %}
       </ul>
       {% endif %}
-      {% if page.heroPills and page.heroPills.length %}
-      <div class="testimonial-proof">
-        {% for item in page.heroPills %}
-          <span>{{ item }}</span>
-        {% endfor %}
-      </div>
-      {% endif %}
       <div class="hero-cta">
         <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
         {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
@@ -27,16 +22,22 @@
         <p class="section-subtitle"><a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a></p>
       {% endif %}
     </div>
-    <div class="hero-visual"{% if page.visual %} style="--visual-accent: {{ page.visual.accent }}; --visual-accent-2: {{ page.visual.accent2 }};"{% endif %}>
-      <div class="visual-core"></div>
-      <div class="visual-ring"></div>
-      <div class="visual-grid"></div>
-      <div class="visual-spark"></div>
+    {% set heroImages = page.heroImages or site.heroImages %}
+    <div class="hero-visual hero-visual-montage"{% if page.visual %} style="--visual-accent: {{ page.visual.accent }}; --visual-accent-2: {{ page.visual.accent2 }};"{% endif %}>
+      <div class="montage-grid">
+        {% for item in heroImages %}
+          <div class="montage-card montage-card-{{ loop.index }}">
+            <img src="{{ item.src }}" alt="{{ item.alt }}" loading="lazy" />
+          </div>
+        {% endfor %}
+      </div>
+      {% if page.heroCard %}
       <div class="visual-badge">
         <strong>{{ page.heroCard.title }}</strong>
         <p>{{ page.heroCard.body }}</p>
       </div>
-      {% if page.heroCard.bullets and page.heroCard.bullets.length %}
+      {% endif %}
+      {% if page.heroCard and page.heroCard.bullets and page.heroCard.bullets.length %}
       <div class="visual-tags">
         {% for item in page.heroCard.bullets %}
           <span>{{ item }}</span>

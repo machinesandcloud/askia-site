@@ -1,22 +1,17 @@
 {
   "landNextRole": {
-    "eyebrow": "Land your next $100K–$350K tech role",
-    "h1": "Land Your Next $100K–$350K Tech Role",
-    "subtitle": "Outcome-first coaching for senior tech professionals who want better roles, faster.",
-    "supporting": "We build the positioning, signal, and interview execution that turns experience into offers — without months of scattershot applying.",
+    "eyebrow": "Career coaching",
+    "h1": "Land a $100K–$350K Tech Role",
+    "subtitle": "Positioning + interview execution to get hired faster.",
+    "supporting": "We build your narrative, market signal, and offer strategy so the right roles convert.",
     "highlights": [
       "Role + compensation targeting tied to your strengths",
       "Resume + LinkedIn that generate recruiter response",
       "Interview and negotiation strategy that closes"
     ],
-    "heroPills": [
-      "Former engineering leader + hiring‑table insight",
-      "Built for senior ICs and leaders",
-      "Strategy + execution, not generic advice"
-    ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
-    "ctaProof": "Built for tech ICs and leaders targeting $100K–$350K offers.",
+    "ctaProof": "Built for senior tech roles.",
     "secondaryCtaLabel": "Take the Career Readiness Index™",
     "secondaryCtaLink": "/career-readiness-index/",
     "visual": {
