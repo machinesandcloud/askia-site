@@ -37,12 +37,14 @@
     </div>
     {% set heroImages = page.heroImages or site.heroImages %}
     <div class="hero-visual hero-visual-montage"{% if page.visual %} style="--visual-accent: {{ page.visual.accent }}; --visual-accent-2: {{ page.visual.accent2 }};"{% endif %}>
-      <div class="montage-grid">
-        {% for item in heroImages %}
-          <div class="montage-card montage-card-{{ loop.index }}">
-            <img src="{{ item.src }}" alt="{{ item.alt }}" loading="lazy" />
-          </div>
-        {% endfor %}
+      <div class="montage-stage">
+        <div class="montage-grid">
+          {% for item in heroImages %}
+            <div class="montage-card montage-card-{{ loop.index }}">
+              <img src="{{ item.src }}" alt="{{ item.alt }}" loading="lazy" />
+            </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
