@@ -5,19 +5,19 @@
   "heroImages": [
     {
       "src": "/assets/hero/askia-hero-1.jpg",
-      "alt": "Professionals meeting in a modern office hallway"
+      "alt": "Career coach reviewing notes with a professional client"
     },
     {
       "src": "/assets/hero/askia-hero-2.jpg",
-      "alt": "Team in a modern office with a whiteboard and laptops"
+      "alt": "Two professionals in a focused coaching conversation"
     },
     {
       "src": "/assets/hero/askia-hero-3.jpg",
-      "alt": "Professional working on a laptop with a focused expression"
+      "alt": "Small group coaching session in a modern office"
     },
     {
       "src": "/assets/hero/askia-hero-4.jpg",
-      "alt": "Team collaborating around a laptop in a bright workspace"
+      "alt": "Professionals collaborating around a laptop"
     }
   ],
   "cta": {
