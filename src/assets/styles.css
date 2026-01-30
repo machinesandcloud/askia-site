@@ -966,9 +966,9 @@ a {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  grid-template-rows: repeat(9, minmax(0, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+  gap: 16px;
   min-height: 430px;
 }
 
@@ -1004,34 +1004,67 @@ a {
 }
 
 .montage-card-1 {
-  grid-column: 1 / 7;
-  grid-row: 1 / 10;
-  border-radius: 30px 30px 44px 28px;
+  border-radius: 30px 30px 18px 30px;
 }
 
 .montage-card-2 {
   --montage-shift: -8px;
   --montage-tilt: -0.6deg;
-  grid-column: 7 / 13;
-  grid-row: 1 / 4;
   border-radius: 28px 28px 18px 48px;
   clip-path: polygon(0 0, 94% 0, 100% 14%, 100% 100%, 0 100%);
 }
 
 .montage-card-3 {
   --montage-shift: 0px;
-  grid-column: 8 / 13;
-  grid-row: 4 / 7;
-  border-radius: 22px 42px 24px 24px;
+  border-radius: 22px 38px 22px 22px;
 }
 
 .montage-card-4 {
   --montage-shift: 6px;
   --montage-tilt: 0.6deg;
-  grid-column: 6 / 12;
-  grid-row: 7 / 10;
   border-radius: 20px 20px 46px 22px;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 18% 100%, 0 82%);
+}
+
+.montage-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: end;
+  gap: 16px;
+  padding: 20px;
+  pointer-events: none;
+}
+
+.hero-visual .visual-badge {
+  position: relative;
+  max-width: 320px;
+  background: rgba(10, 16, 24, 0.78);
+  padding: 18px 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 18px 40px rgba(7, 10, 16, 0.45);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.hero-visual .visual-tags {
+  position: static;
+  display: grid;
+  justify-content: end;
+  gap: 10px;
+}
+
+.hero-visual .visual-tags span {
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 0.82rem;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 @media (hover: hover) {
@@ -1085,16 +1118,6 @@ a {
   animation: orbit 10s linear infinite;
 }
 
-.hero-visual .visual-badge {
-  position: relative;
-  z-index: 2;
-  max-width: 280px;
-  background: rgba(10, 16, 24, 0.72);
-  padding: 18px 20px;
-  border-radius: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
 .hero-visual .visual-badge strong {
   font-family: "Sora", "Segoe UI", system-ui, sans-serif;
   font-size: 1.05rem;
@@ -1103,23 +1126,6 @@ a {
 .hero-visual .visual-badge p {
   color: var(--muted);
   margin: 8px 0 0;
-}
-
-.hero-visual .visual-tags {
-  position: absolute;
-  bottom: 18px;
-  right: 18px;
-  display: grid;
-  gap: 8px;
-  z-index: 2;
-}
-
-.hero-visual .visual-tags span {
-  padding: 8px 12px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  font-size: 0.8rem;
 }
 
 .hero-summary {
@@ -2971,6 +2977,20 @@ a {
   .montage-stage {
     padding: 16px;
     border-radius: 24px;
+  }
+
+  .montage-overlay {
+    position: static;
+    grid-template-columns: 1fr;
+    padding: 14px 4px 0;
+  }
+
+  .hero-visual .visual-badge {
+    max-width: none;
+  }
+
+  .hero-visual .visual-tags {
+    justify-content: start;
   }
 
   .montage-grid {
