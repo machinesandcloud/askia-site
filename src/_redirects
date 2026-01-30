@@ -11,11 +11,37 @@
 /growth-lab /resources/ 301
 /growth-lab/ /resources/ 301
 
+# Canonical domain + protocol
+http://askia.tech/* https://askia.tech/:splat 301!
+http://www.askia.tech/* https://askia.tech/:splat 301!
+https://www.askia.tech/* https://askia.tech/:splat 301!
+
 /resume-writing /resume-writing/ 301
 /linkedin-optimization /linkedin-optimization/ 301
 /interview-prep /interview-prep/ 301
 /salary-negotiation /salary-negotiation/ 301
 /executive-coaching /executive-coaching/ 301
+
+# Old blog/article slugs (map to current resources or closest service)
+/career-coaching-for-women-in-tech-unlocking-leadership-confidence-and-growth/ /resources/ 301
+/exploring-alternative-career-paths-in-tech-opportunities-beyond-coding/ /resources/ 301
+/tech-industry-trends/ /resources/ 301
+/mastering-continuous-learning-in-tech-stay-ahead-in-a-fast-paced-industry/ /resources/ 301
+/tips-for-crafting-a-stellar-developer-portfolio/ /resume-writing/ 301
+/career-guidance/ /resources/ 301
+/career-transformation/ /resources/ 301
+/industry-insights/ /resources/ 301
+/interview-tips/ /interview-prep/ 301
+/profiles/ /about/ 301
+/developers/ /software-engineer-career-coaching/ 301
+/beyond-resume-key-traits-interview-success/ /interview-prep/ 301
+/resume-red-flags-undermining-seniority/ /resume-writing/ 301
+/strategic-guide-leaving-toxic-workplace-professional-roadmap/ /resources/ 301
+/modern-salary-negotiation-guide/ /salary-negotiation/ 301
+/stop-interview-rambling-technical-guide/ /interview-prep/ 301
+/career-transitioning/ /resources/ 301
+/rebuilding-professional-identity-unemployment-guide/ /resources/ 301
+/work-life-balance-boundaries-framework/ /resources/ 301
 
 # Legacy WordPress structures
 /blog/* /resources/ 301
@@ -27,8 +53,14 @@
 /wp-admin/* / 410
 /wp-content/* / 410
 /wp-includes/* / 410
+/wp-json/* / 410
+/*.php / 410
 /feed/ / 410
 /comments/feed/ / 410
+
+# Retired enterprise subdomain → main site
+http://enterprise.askia.tech/* https://askia.tech/ 301!
+https://enterprise.askia.tech/* https://askia.tech/ 301!
 
 # Trailing slash normalization for common top-level pages
 /services /services/ 301
