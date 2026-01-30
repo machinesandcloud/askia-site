@@ -8,46 +8,66 @@
   },
   "nav": [
     { "label": "Home", "url": "/" },
-    { "label": "Land Your Next Role", "url": "/land-your-next-role/" },
     {
-      "label": "Roles",
+      "label": "Paths",
       "url": "/land-your-next-role/",
-      "children": [
-        { "label": "Software Engineer", "url": "/software-engineer-career-coaching/" },
-        { "label": "DevOps & SRE", "url": "/devops-career-coaching/" },
-        { "label": "Data (DE/DS/Analytics)", "url": "/data-career-coaching/" },
-        { "label": "Product Manager", "url": "/product-manager-career-coaching/" },
-        { "label": "Engineering Manager", "url": "/engineering-manager-coaching/" },
-        { "label": "Cybersecurity", "url": "/cybersecurity-career-coaching/" },
-        { "label": "QA / Test Automation", "url": "/qa-career-coaching/" },
-        { "label": "UX / Product Design", "url": "/product-design-career-coaching/" },
-        { "label": "Solutions Architect", "url": "/solutions-architect-career-coaching/" },
-        { "label": "Technical Program Manager", "url": "/technical-program-manager-coaching/" },
-        { "label": "Sales Engineer", "url": "/sales-engineer-career-coaching/" },
-        { "label": "Customer Success", "url": "/customer-success-career-coaching/" },
-        { "label": "Product Operations", "url": "/product-ops-career-coaching/" },
-        { "label": "Project / Program Manager", "url": "/project-program-management-coaching/" },
-        { "label": "AI / ML Engineer", "url": "/ai-ml-career-coaching/" }
+      "groups": [
+        {
+          "label": "Start Here",
+          "items": [
+            { "label": "Land Your Next Role", "url": "/land-your-next-role/" },
+            { "label": "Career Readiness Index", "url": "/career-readiness-index/" },
+            { "label": "Resources", "url": "/resources/" }
+          ]
+        },
+        {
+          "label": "Role Tracks",
+          "items": [
+            { "label": "Software Engineer", "url": "/software-engineer-career-coaching/" },
+            { "label": "DevOps & SRE", "url": "/devops-career-coaching/" },
+            { "label": "Data (DE/DS/Analytics)", "url": "/data-career-coaching/" },
+            { "label": "Product Manager", "url": "/product-manager-career-coaching/" },
+            { "label": "Engineering Manager", "url": "/engineering-manager-coaching/" },
+            { "label": "Cybersecurity", "url": "/cybersecurity-career-coaching/" },
+            { "label": "QA / Test Automation", "url": "/qa-career-coaching/" },
+            { "label": "Product Design", "url": "/product-design-career-coaching/" },
+            { "label": "Solutions Architect", "url": "/solutions-architect-career-coaching/" },
+            { "label": "Technical Program Manager", "url": "/technical-program-manager-coaching/" },
+            { "label": "Sales Engineer", "url": "/sales-engineer-career-coaching/" },
+            { "label": "Customer Success", "url": "/customer-success-career-coaching/" },
+            { "label": "Product Operations", "url": "/product-ops-career-coaching/" },
+            { "label": "Project / Program Manager", "url": "/project-program-management-coaching/" },
+            { "label": "AI / ML Engineer", "url": "/ai-ml-career-coaching/" }
+          ]
+        }
       ]
     },
     {
       "label": "Services",
       "url": "/services/",
-      "children": [
-        { "label": "Resume Writing", "url": "/resume-writing/" },
-        { "label": "LinkedIn Optimization", "url": "/linkedin-optimization/" },
-        { "label": "Interview Prep", "url": "/interview-prep/" },
-        { "label": "Salary Negotiation", "url": "/salary-negotiation/" },
-        { "label": "Executive Coaching", "url": "/executive-coaching/" },
-        { "label": "Cover Letter Writing", "url": "/cover-letter-writing/" },
-        { "label": "Mock Interviews", "url": "/mock-interviews/" },
-        { "label": "Career Clarity", "url": "/career-clarity/" },
-        { "label": "Offer Strategy", "url": "/offer-strategy/" },
-        { "label": "ATS Audit", "url": "/ats-audit/" }
+      "groups": [
+        {
+          "label": "Core Services",
+          "items": [
+            { "label": "Resume Writing", "url": "/resume-writing/" },
+            { "label": "LinkedIn Optimization", "url": "/linkedin-optimization/" },
+            { "label": "Interview Prep", "url": "/interview-prep/" },
+            { "label": "Salary Negotiation", "url": "/salary-negotiation/" },
+            { "label": "Executive Coaching", "url": "/executive-coaching/" }
+          ]
+        },
+        {
+          "label": "Specialized",
+          "items": [
+            { "label": "Cover Letter Writing", "url": "/cover-letter-writing/" },
+            { "label": "Mock Interviews", "url": "/mock-interviews/" },
+            { "label": "Career Clarity", "url": "/career-clarity/" },
+            { "label": "Offer Strategy", "url": "/offer-strategy/" },
+            { "label": "ATS Audit", "url": "/ats-audit/" }
+          ]
+        }
       ]
     },
-    { "label": "Career Readiness Index", "url": "/career-readiness-index/" },
-    { "label": "Resources", "url": "/resources/" },
     { "label": "Testimonials", "url": "/testimonials/" },
     { "label": "About", "url": "/about/" }
   ],

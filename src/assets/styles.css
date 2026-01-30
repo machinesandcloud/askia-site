@@ -163,6 +163,24 @@ a {
   color: #fff;
 }
 
+.nav-dropdown-grouped {
+  min-width: 360px;
+  gap: 16px;
+}
+
+.nav-group {
+  display: grid;
+  gap: 8px;
+  padding: 6px 8px;
+}
+
+.nav-group-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(114, 214, 255, 0.8);
+}
+
 .nav-item:hover .nav-dropdown,
 .nav-item:focus-within .nav-dropdown {
   opacity: 1;
@@ -2748,6 +2766,10 @@ a {
     box-shadow: none;
     padding: 0;
     grid-template-columns: 1fr;
+  }
+
+  .nav-dropdown-grouped {
+    min-width: 0;
   }
 
   .hero {
