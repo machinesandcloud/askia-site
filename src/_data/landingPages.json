@@ -14,6 +14,11 @@
     "ctaProof": "Built for tech ICs and leaders targeting $100K–$350K offers.",
     "secondaryCtaLabel": "Take the Career Readiness Index™",
     "secondaryCtaLink": "/career-readiness-index/",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(114, 214, 255, 0.75)",
+      "accent2": "rgba(87, 207, 196, 0.35)"
+    },
     "heroCard": {
       "title": "What you get in 2–6 weeks",
       "body": "A focused system that upgrades your narrative, market signal, and execution — so you can land the right level.",
@@ -30,6 +35,16 @@
         { "title": "$100K–$350K", "body": "Offer ranges achieved by clients across tech roles." },
         { "title": "2–6 weeks", "body": "Typical window to see interview momentum with the right signal." },
         { "title": "Hiring-table insight", "body": "Built from real hiring decisions across engineering and product teams." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Salvation moment",
+      "title": "From stalled to offer‑ready",
+      "subtitle": "We turn uncertainty into a plan you can feel.",
+      "items": [
+        { "tag": "Clarity", "title": "Stop guessing", "body": "Define the role, level, and comp target that fits your strengths." },
+        { "tag": "Signal", "title": "Be seen", "body": "Turn your experience into recruiter‑ready narrative and assets." },
+        { "tag": "Momentum", "title": "Move fast", "body": "Interview execution + negotiation strategy built to close." }
       ]
     },
     "steps": {

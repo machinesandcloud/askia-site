@@ -1,4 +1,4 @@
-<section class="hero">
+<section class="hero hero-themed{% if page.visual and page.visual.style %} hero-{{ page.visual.style }}{% endif %}">
   <div class="container hero-grid">
     <div>
       {% if page.eyebrow %}<p class="hero-eyebrow">{{ page.eyebrow }}</p>{% endif %}
@@ -20,18 +20,22 @@
         <p class="section-subtitle"><a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a></p>
       {% endif %}
     </div>
-    <div class="service-hero-orbit">
-      <div class="service-hero-card">
+    <div class="hero-visual"{% if page.visual %} style="--visual-accent: {{ page.visual.accent }}; --visual-accent-2: {{ page.visual.accent2 }};"{% endif %}>
+      <div class="visual-core"></div>
+      <div class="visual-ring"></div>
+      <div class="visual-grid"></div>
+      <div class="visual-spark"></div>
+      <div class="visual-badge">
         <strong>{{ page.heroCard.title }}</strong>
         <p>{{ page.heroCard.body }}</p>
-        {% if page.heroCard.bullets and page.heroCard.bullets.length %}
-        <div class="service-hero-list">
-          {% for item in page.heroCard.bullets %}
-            <span>{{ item }}</span>
-          {% endfor %}
-        </div>
-        {% endif %}
       </div>
+      {% if page.heroCard.bullets and page.heroCard.bullets.length %}
+      <div class="visual-tags">
+        {% for item in page.heroCard.bullets %}
+          <span>{{ item }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
   </div>
 </section>
@@ -52,6 +56,27 @@
     </div>
   </div>
 </section>
+
+{% if page.focus %}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">{{ page.focus.eyebrow }}</p>
+      <h2 class="section-title section-title-glow">{{ page.focus.title }}</h2>
+      {% if page.focus.subtitle %}<p class="section-subtitle">{{ page.focus.subtitle }}</p>{% endif %}
+    </div>
+    <div class="focus-grid">
+      {% for item in page.focus.items %}
+        <article class="focus-card">
+          <span class="focus-tag">{{ item.tag }}</span>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.body }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
 
 <section class="section">
   <div class="container service-journey">

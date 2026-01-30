@@ -14,6 +14,11 @@
     "ctaProof": "Best for software, DevOps, data, product, and engineering leadership roles.",
     "secondaryCtaLabel": "Take the Career Readiness Index™",
     "secondaryCtaLink": "/career-readiness-index/",
+    "visual": {
+      "style": "blueprint",
+      "accent": "rgba(114, 214, 255, 0.75)",
+      "accent2": "rgba(114, 214, 255, 0.25)"
+    },
     "heroCard": {
       "title": "Resume Rebuild deliverables",
       "body": "A resume that positions you at the level you’re targeting, not the level you’re leaving.",
@@ -30,6 +35,16 @@
         { "title": "ATS‑ready", "body": "Clean structure that passes filters without losing signal." },
         { "title": "Recruiter‑clear", "body": "Immediate level cues tied to scope and impact." },
         { "title": "Interview‑ready", "body": "Bullets written for STAR and behavioral proof." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Resume signal",
+      "title": "Make your experience obvious in 8 seconds",
+      "subtitle": "Recruiters scan fast. We make every line count.",
+      "items": [
+        { "tag": "Positioning", "title": "Role‑aligned narrative", "body": "Define level and scope before we write a word." },
+        { "tag": "Impact", "title": "Outcomes, not tasks", "body": "Bullets built around results and scope." },
+        { "tag": "Clarity", "title": "ATS + human readable", "body": "Structured for filters and hiring managers." }
       ]
     },
     "steps": {
@@ -176,6 +191,11 @@
     "ctaProof": "Ideal for software, DevOps, data, product, and engineering leadership roles.",
     "secondaryCtaLabel": "Take the Career Readiness Index™",
     "secondaryCtaLink": "/career-readiness-index/",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(87, 207, 196, 0.75)",
+      "accent2": "rgba(89, 140, 255, 0.28)"
+    },
     "heroCard": {
       "title": "LinkedIn signal upgrade",
       "body": "Position your profile so recruiters see level, scope, and outcomes in seconds.",
@@ -188,6 +208,16 @@
         { "title": "Recruiter‑clear", "body": "Immediate role fit signals in the first 3 lines." },
         { "title": "Search‑ready", "body": "Keywords aligned to your target role family." },
         { "title": "Story‑driven", "body": "Impact narrative that supports interviews." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Inbound leverage",
+      "title": "Turn your profile into a recruiter magnet",
+      "subtitle": "We align the message, the signal, and the search intent.",
+      "items": [
+        { "tag": "Headline", "title": "Instant level cue", "body": "Clear role + scope signal in your headline." },
+        { "tag": "Narrative", "title": "Impact story", "body": "A cohesive story that makes you memorable." },
+        { "tag": "Search", "title": "Keyword alignment", "body": "Optimize for how recruiters actually search." }
       ]
     },
     "steps": {
@@ -334,6 +364,11 @@
     "ctaProof": "Built for software, DevOps, data, product, and engineering leadership interviews.",
     "secondaryCtaLabel": "Take the Career Readiness Index™",
     "secondaryCtaLink": "/career-readiness-index/",
+    "visual": {
+      "style": "radar",
+      "accent": "rgba(255, 214, 102, 0.65)",
+      "accent2": "rgba(114, 214, 255, 0.25)"
+    },
     "heroCard": {
       "title": "Interview performance upgrade",
       "body": "We turn your experience into compelling, senior‑level stories recruiters remember.",
@@ -346,6 +381,16 @@
         { "title": "Story‑ready", "body": "Clear STAR stories tied to impact and scope." },
         { "title": "Role‑aligned", "body": "Prep matched to the level and role family you’re targeting." },
         { "title": "Offer‑ready", "body": "Negotiation prep included as you advance." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Interview clarity",
+      "title": "Answer with control, not chaos",
+      "subtitle": "We build a story system you can rely on under pressure.",
+      "items": [
+        { "tag": "Structure", "title": "Story bank", "body": "A repeatable framework for behavioral and leadership questions." },
+        { "tag": "Signal", "title": "Level cues", "body": "Position scope and decision‑making clearly." },
+        { "tag": "Confidence", "title": "Mock drills", "body": "Live practice with feedback and iteration." }
       ]
     },
     "steps": {
@@ -492,6 +537,11 @@
     "ctaProof": "Built for senior ICs, managers, and leaders.",
     "secondaryCtaLabel": "Take the Career Readiness Index™",
     "secondaryCtaLink": "/career-readiness-index/",
+    "visual": {
+      "style": "ledger",
+      "accent": "rgba(114, 214, 255, 0.75)",
+      "accent2": "rgba(255, 214, 102, 0.3)"
+    },
     "heroCard": {
       "title": "Negotiation strategy",
       "body": "Walk into offer conversations with leverage, not guesswork.",
@@ -504,6 +554,16 @@
         { "title": "Leverage mapped", "body": "Identify your strongest negotiation points." },
         { "title": "Timing strategy", "body": "Know when to push and when to pause." },
         { "title": "Total comp focus", "body": "Base, equity, bonus, and sign‑on considered together." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Offer leverage",
+      "title": "Negotiate from a position of strength",
+      "subtitle": "Know your range, your leverage, and your next move.",
+      "items": [
+        { "tag": "Range", "title": "Comp band clarity", "body": "Know what your level commands in the market." },
+        { "tag": "Script", "title": "Words that work", "body": "Use language that protects leverage." },
+        { "tag": "Decision", "title": "Offer comparison", "body": "Evaluate offers with a structured framework." }
       ]
     },
     "steps": {
@@ -650,6 +710,11 @@
     "ctaProof": "Built for engineering managers, directors, and exec‑track leaders.",
     "secondaryCtaLabel": "Take the Career Readiness Index™",
     "secondaryCtaLink": "/career-readiness-index/",
+    "visual": {
+      "style": "executive",
+      "accent": "rgba(255, 214, 102, 0.6)",
+      "accent2": "rgba(114, 214, 255, 0.25)"
+    },
     "heroCard": {
       "title": "Executive signal upgrade",
       "body": "Clarify your leadership story, scope, and outcomes for executive‑level roles.",
@@ -662,6 +727,16 @@
         { "title": "Executive narrative", "body": "Leadership signal that resonates with VP+ stakeholders." },
         { "title": "Scope clarity", "body": "Demonstrate org‑wide outcomes and decision‑making." },
         { "title": "Offer leverage", "body": "Strategy tied to comp, equity, and leadership path." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Leadership signal",
+      "title": "Show the scope behind your decisions",
+      "subtitle": "We translate execution into executive‑level narrative.",
+      "items": [
+        { "tag": "Scope", "title": "Org‑level impact", "body": "Frame decisions and outcomes at scale." },
+        { "tag": "Signal", "title": "Executive presence", "body": "Language that positions you as a leader." },
+        { "tag": "Leverage", "title": "Offer strategy", "body": "Negotiate from authority and clarity." }
       ]
     },
     "steps": {
@@ -789,6 +864,465 @@
     "cta": {
       "title": "Lead at the level you’ve earned",
       "body": "Book a strategy call and we’ll map your leadership path.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/consultation"
+    }
+  },
+  "coverLetterWriting": {
+    "eyebrow": "Cover letter writing for tech",
+    "h1": "Cover Letter Writing for $100K–$350K Tech Roles",
+    "subtitle": "A targeted cover letter that earns the read and opens the loop.",
+    "supporting": "We craft role‑specific messaging that makes your story clear in under 30 seconds.",
+    "highlights": [
+      "Role‑specific positioning",
+      "Impact‑first narrative",
+      "Hiring manager clarity"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/consultation",
+    "ctaProof": "Best for competitive or leadership‑track roles.",
+    "secondaryCtaLabel": "Take the Career Readiness Index™",
+    "secondaryCtaLink": "/career-readiness-index/",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(114, 214, 255, 0.75)",
+      "accent2": "rgba(255, 214, 102, 0.3)"
+    },
+    "heroCard": {
+      "title": "Cover letter signal",
+      "body": "A concise narrative that shows why you fit the role and level.",
+      "bullets": ["Role fit", "Impact story", "Hiring manager clarity"]
+    },
+    "proof": {
+      "title": "Why it works",
+      "subtitle": "Built for clarity and relevance.",
+      "items": [
+        { "title": "Targeted", "body": "Role‑specific messaging with no fluff." },
+        { "title": "Concise", "body": "Readable in under a minute." },
+        { "title": "Aligned", "body": "Matches your resume + LinkedIn narrative." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Role fit",
+      "title": "Open the door faster",
+      "subtitle": "Clarity + relevance wins attention.",
+      "items": [
+        { "tag": "Positioning", "title": "Role alignment", "body": "Speak directly to the level and scope." },
+        { "tag": "Signal", "title": "Impact proof", "body": "Concrete outcomes, not vague claims." },
+        { "tag": "Speed", "title": "Quick read", "body": "Clean structure for hiring managers." }
+      ]
+    },
+    "steps": {
+      "title": "How it works",
+      "subtitle": "A fast, role‑specific rewrite.",
+      "items": [
+        { "title": "Target", "body": "Clarify role and company focus." },
+        { "title": "Draft", "body": "Write the story around impact." },
+        { "title": "Refine", "body": "Tighten language and polish." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Candidates who need to stand out in competitive roles.",
+      "items": ["Leadership‑track roles", "Competitive teams", "New domain transitions"]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You want a generic template.",
+      "items": ["One‑size‑fits‑all letters", "No role targeting", "Bulk applications"]
+    },
+    "deliverables": {
+      "title": "What you receive",
+      "subtitle": "A clean, focused cover letter.",
+      "items": [
+        { "title": "Role‑specific letter", "tag": "Core", "body": "A tailored narrative for your target role.", "bullets": ["Impact framing", "Role fit", "Clarity"] }
+      ]
+    },
+    "related": {
+      "title": "Pair with resume writing",
+      "body": "Cover letter + resume work best together.",
+      "primaryLabel": "Resume Writing",
+      "primaryLink": "/resume-writing/",
+      "secondaryLabel": "LinkedIn Optimization",
+      "secondaryLink": "/linkedin-optimization/"
+    },
+    "faq": {
+      "title": "Cover letter FAQs",
+      "subtitle": "Short answers before you book.",
+      "items": [
+        { "question": "Do I still need a cover letter?", "answer": "For competitive roles and leadership paths, it can be a differentiator." },
+        { "question": "How long is it?", "answer": "Typically 3–5 short paragraphs." },
+        { "question": "Is it customized?", "answer": "Yes. We align it to the role and company." },
+        { "question": "Can you bundle it?", "answer": "Yes, with resume + LinkedIn." }
+      ]
+    },
+    "cta": {
+      "title": "Ready for a cover letter that converts?",
+      "body": "Book a call and we’ll scope it.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/consultation"
+    }
+  },
+  "mockInterviews": {
+    "eyebrow": "Mock interviews for tech roles",
+    "h1": "Mock Interviews for $100K–$350K Tech Roles",
+    "subtitle": "Practice that turns anxiety into execution.",
+    "supporting": "We simulate real interviews and give you feedback you can act on.",
+    "highlights": ["Live practice", "Role‑specific questions", "Clear feedback"],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/consultation",
+    "ctaProof": "Ideal before onsite loops or final rounds.",
+    "secondaryCtaLabel": "Take the Career Readiness Index™",
+    "secondaryCtaLink": "/career-readiness-index/",
+    "visual": {
+      "style": "radar",
+      "accent": "rgba(255, 214, 102, 0.65)",
+      "accent2": "rgba(114, 214, 255, 0.3)"
+    },
+    "heroCard": {
+      "title": "Mock interview lab",
+      "body": "A safe space to sharpen answers and build confidence.",
+      "bullets": ["Real questions", "Tight feedback", "Action plan"]
+    },
+    "proof": {
+      "title": "Why it works",
+      "subtitle": "Practice transforms performance.",
+      "items": [
+        { "title": "Realism", "body": "Interview‑like timing and pressure." },
+        { "title": "Signal", "body": "Clear level cues in your answers." },
+        { "title": "Iteration", "body": "Immediate feedback and improvement." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Interview execution",
+      "title": "Turn nervous into ready",
+      "subtitle": "We shape answers that land.",
+      "items": [
+        { "tag": "Clarity", "title": "Cleaner stories", "body": "Tighten answers for impact." },
+        { "tag": "Signal", "title": "Level cues", "body": "Show scope and decision‑making." },
+        { "tag": "Confidence", "title": "Practice reps", "body": "Feel calm under pressure." }
+      ]
+    },
+    "steps": {
+      "title": "How mock interviews work",
+      "subtitle": "Prep → practice → feedback.",
+      "items": [
+        { "title": "Map", "body": "Define the interview format." },
+        { "title": "Run", "body": "Simulate the interview." },
+        { "title": "Refine", "body": "Improve with targeted feedback." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Candidates already in interview loops.",
+      "items": ["Onsite loops", "Final rounds", "Leadership interviews"]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You aren’t interviewing soon.",
+      "items": ["No interviews scheduled", "No target role defined"]
+    },
+    "deliverables": {
+      "title": "What you receive",
+      "subtitle": "Actionable interview feedback.",
+      "items": [
+        { "title": "Mock session", "tag": "Core", "body": "Live interview simulation.", "bullets": ["Real questions", "Timing", "Feedback notes"] }
+      ]
+    },
+    "related": {
+      "title": "Pair with interview prep",
+      "body": "Mock interviews work best with a story bank.",
+      "primaryLabel": "Interview Prep",
+      "primaryLink": "/interview-prep/",
+      "secondaryLabel": "Land Your Next Role",
+      "secondaryLink": "/land-your-next-role/"
+    },
+    "faq": {
+      "title": "Mock interview FAQs",
+      "subtitle": "Quick answers.",
+      "items": [
+        { "question": "How many sessions?", "answer": "Most clients start with 1–3 sessions." },
+        { "question": "Do you cover technical interviews?", "answer": "Yes, tailored to your role." },
+        { "question": "Will I get feedback?", "answer": "Yes, with next‑step actions." },
+        { "question": "Is it live?", "answer": "Yes, live practice sessions." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to practice?",
+      "body": "Book a call and we’ll schedule your mock session.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/consultation"
+    }
+  },
+  "careerClarity": {
+    "eyebrow": "Career clarity coaching",
+    "h1": "Career Clarity for $100K–$350K Tech Roles",
+    "subtitle": "Define the right role, level, and path — fast.",
+    "supporting": "We turn confusion into a concrete target and plan.",
+    "highlights": ["Role targeting", "Level clarity", "Search strategy"],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/consultation",
+    "ctaProof": "Best for stalled or uncertain job searches.",
+    "secondaryCtaLabel": "Take the Career Readiness Index™",
+    "secondaryCtaLink": "/career-readiness-index/",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(87, 207, 196, 0.75)",
+      "accent2": "rgba(114, 214, 255, 0.3)"
+    },
+    "heroCard": {
+      "title": "Clarity session",
+      "body": "A focused session to define the right role and path.",
+      "bullets": ["Role clarity", "Comp target", "Execution plan"]
+    },
+    "proof": {
+      "title": "Why clarity matters",
+      "subtitle": "Confusion kills momentum.",
+      "items": [
+        { "title": "Targeted", "body": "A clear role and level focus." },
+        { "title": "Aligned", "body": "Strategy tied to your strengths." },
+        { "title": "Fast", "body": "A plan you can execute immediately." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Direction",
+      "title": "Stop drifting",
+      "subtitle": "Define the next move with certainty.",
+      "items": [
+        { "tag": "Role", "title": "Target clarity", "body": "Know exactly what to pursue." },
+        { "tag": "Level", "title": "Comp fit", "body": "Set a realistic comp band." },
+        { "tag": "Plan", "title": "Search strategy", "body": "Build the next‑step plan." }
+      ]
+    },
+    "steps": {
+      "title": "How clarity sessions work",
+      "subtitle": "One focused session, clear outcomes.",
+      "items": [
+        { "title": "Assess", "body": "Review goals and experience." },
+        { "title": "Define", "body": "Set role + level target." },
+        { "title": "Plan", "body": "Build the execution roadmap." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Professionals unsure of their next role.",
+      "items": ["Stalled searches", "Career transitions", "Level‑up planning"]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You already have a clear target and plan.",
+      "items": ["Clear role + plan", "Already interviewing"]
+    },
+    "deliverables": {
+      "title": "What you receive",
+      "subtitle": "A concrete plan.",
+      "items": [
+        { "title": "Clarity roadmap", "tag": "Core", "body": "Role target + plan.", "bullets": ["Role family", "Comp target", "Execution steps"] }
+      ]
+    },
+    "related": {
+      "title": "Pair with resume writing",
+      "body": "Clarity powers the rest of the system.",
+      "primaryLabel": "Resume Writing",
+      "primaryLink": "/resume-writing/",
+      "secondaryLabel": "LinkedIn Optimization",
+      "secondaryLink": "/linkedin-optimization/"
+    },
+    "faq": {
+      "title": "Career clarity FAQs",
+      "subtitle": "Quick answers.",
+      "items": [
+        { "question": "Is this a single session?", "answer": "Yes, typically one deep session." },
+        { "question": "Do I get a plan?", "answer": "Yes, a focused roadmap." },
+        { "question": "Can this be bundled?", "answer": "Yes, with resume or coaching." },
+        { "question": "What if I’m pivoting?", "answer": "We’ll map the best pivot path." }
+      ]
+    },
+    "cta": {
+      "title": "Get clear on your next role",
+      "body": "Book a call and we’ll define the path.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/consultation"
+    }
+  },
+  "offerStrategy": {
+    "eyebrow": "Offer strategy for tech roles",
+    "h1": "Offer Strategy for $100K–$350K Tech Roles",
+    "subtitle": "Get the structure and leverage to close the right offer.",
+    "supporting": "We help you manage timelines, leverage, and total comp decisions.",
+    "highlights": ["Offer strategy", "Leverage mapping", "Decision framework"],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/consultation",
+    "ctaProof": "Best for multiple offers or senior roles.",
+    "secondaryCtaLabel": "Take the Career Readiness Index™",
+    "secondaryCtaLink": "/career-readiness-index/",
+    "visual": {
+      "style": "ledger",
+      "accent": "rgba(114, 214, 255, 0.7)",
+      "accent2": "rgba(255, 214, 102, 0.25)"
+    },
+    "heroCard": {
+      "title": "Offer control",
+      "body": "A plan for timing, leverage, and decision‑making.",
+      "bullets": ["Timeline", "Leverage", "Decision matrix"]
+    },
+    "proof": {
+      "title": "Why it works",
+      "subtitle": "Offers are won in the details.",
+      "items": [
+        { "title": "Leverage", "body": "Use timing and alternatives wisely." },
+        { "title": "Clarity", "body": "Evaluate total comp, not just base." },
+        { "title": "Confidence", "body": "Know what to say and when." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Offer strategy",
+      "title": "Close the right deal",
+      "subtitle": "We align timing, leverage, and outcomes.",
+      "items": [
+        { "tag": "Timing", "title": "Control the timeline", "body": "Extend and align offers." },
+        { "tag": "Leverage", "title": "Strengthen your ask", "body": "Use competing offers wisely." },
+        { "tag": "Decision", "title": "Make the call", "body": "Compare offers with a framework." }
+      ]
+    },
+    "steps": {
+      "title": "How offer strategy works",
+      "subtitle": "Plan → leverage → close.",
+      "items": [
+        { "title": "Assess", "body": "Map offer details and timing." },
+        { "title": "Plan", "body": "Set leverage strategy." },
+        { "title": "Close", "body": "Finalize the best offer." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Candidates with strong offer potential.",
+      "items": ["Multiple offers", "Senior roles", "Negotiation‑ready"]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You’re not near offers yet.",
+      "items": ["No interviews", "No offers expected soon"]
+    },
+    "deliverables": {
+      "title": "What you receive",
+      "subtitle": "A decision framework.",
+      "items": [
+        { "title": "Offer plan", "tag": "Core", "body": "A plan for timing and leverage.", "bullets": ["Timeline map", "Leverage points", "Decision matrix"] }
+      ]
+    },
+    "related": {
+      "title": "Pair with negotiation",
+      "body": "Offer strategy + negotiation go together.",
+      "primaryLabel": "Salary Negotiation",
+      "primaryLink": "/salary-negotiation/",
+      "secondaryLabel": "Interview Prep",
+      "secondaryLink": "/interview-prep/"
+    },
+    "faq": {
+      "title": "Offer strategy FAQs",
+      "subtitle": "Quick answers.",
+      "items": [
+        { "question": "Do you negotiate for me?", "answer": "No, but we give you strategy and scripts." },
+        { "question": "Can you help with multiple offers?", "answer": "Yes, we help compare and decide." },
+        { "question": "How fast can we do this?", "answer": "Often within days." },
+        { "question": "Do you cover equity?", "answer": "Yes, total comp analysis included." }
+      ]
+    },
+    "cta": {
+      "title": "Close the right offer",
+      "body": "Book a call and we’ll map your offer strategy.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/consultation"
+    }
+  },
+  "atsAudit": {
+    "eyebrow": "ATS audit for tech resumes",
+    "h1": "ATS Audit for $100K–$350K Tech Roles",
+    "subtitle": "Find the exact blockers in your resume and fix them fast.",
+    "supporting": "We identify ATS issues and signal gaps that stall interviews.",
+    "highlights": ["ATS diagnostics", "Signal gaps", "Fix plan"],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/consultation",
+    "ctaProof": "Best for low response rates.",
+    "secondaryCtaLabel": "Take the Career Readiness Index™",
+    "secondaryCtaLink": "/career-readiness-index/",
+    "visual": {
+      "style": "blueprint",
+      "accent": "rgba(114, 214, 255, 0.75)",
+      "accent2": "rgba(87, 207, 196, 0.3)"
+    },
+    "heroCard": {
+      "title": "ATS + signal audit",
+      "body": "A diagnostic that shows what’s blocking interviews.",
+      "bullets": ["ATS scan", "Signal gaps", "Fix roadmap"]
+    },
+    "proof": {
+      "title": "Why it works",
+      "subtitle": "Diagnose before you rewrite.",
+      "items": [
+        { "title": "Fast", "body": "Quick scan and feedback." },
+        { "title": "Clear", "body": "Exact blockers identified." },
+        { "title": "Actionable", "body": "Fix plan you can implement." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Signal diagnosis",
+      "title": "Find the hidden blockers",
+      "subtitle": "ATS issues are silent until fixed.",
+      "items": [
+        { "tag": "ATS", "title": "Format + keywords", "body": "Ensure parsable, relevant language." },
+        { "tag": "Signal", "title": "Level clarity", "body": "Surface scope and impact." },
+        { "tag": "Action", "title": "Fix plan", "body": "Know what to change and why." }
+      ]
+    },
+    "steps": {
+      "title": "How ATS audits work",
+      "subtitle": "Scan → diagnose → fix.",
+      "items": [
+        { "title": "Scan", "body": "ATS parsing + keyword check." },
+        { "title": "Diagnose", "body": "Identify signal gaps." },
+        { "title": "Fix", "body": "Implement changes." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Candidates with low interview response.",
+      "items": ["Low inbound", "Stalled search", "Resume uncertainty"]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You want a full rewrite immediately.",
+      "items": ["Full rewrite first", "No diagnostics"]
+    },
+    "deliverables": {
+      "title": "What you receive",
+      "subtitle": "A clear ATS diagnosis.",
+      "items": [
+        { "title": "Audit report", "tag": "Core", "body": "ATS + signal feedback.", "bullets": ["Parsing review", "Keyword gaps", "Fix plan"] }
+      ]
+    },
+    "related": {
+      "title": "Pair with resume writing",
+      "body": "Audit + rebuild yields the strongest signal.",
+      "primaryLabel": "Resume Writing",
+      "primaryLink": "/resume-writing/",
+      "secondaryLabel": "LinkedIn Optimization",
+      "secondaryLink": "/linkedin-optimization/"
+    },
+    "faq": {
+      "title": "ATS audit FAQs",
+      "subtitle": "Quick answers.",
+      "items": [
+        { "question": "Is this a full rewrite?", "answer": "No, it’s a diagnostic and fix plan." },
+        { "question": "Do you provide keywords?", "answer": "Yes, aligned to target roles." },
+        { "question": "How fast is it?", "answer": "Typically within a few days." },
+        { "question": "Can I bundle it?", "answer": "Yes, with resume writing." }
+      ]
+    },
+    "cta": {
+      "title": "Find the blockers fast",
+      "body": "Book a call and we’ll run your audit.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
     }
