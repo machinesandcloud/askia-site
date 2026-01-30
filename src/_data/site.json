@@ -5,19 +5,19 @@
   "heroImages": [
     {
       "src": "/assets/hero/askia-hero-1.jpg",
-      "alt": "Tech professional smiling in a modern workspace"
+      "alt": "Team collaborating around a laptop in a modern office"
     },
     {
       "src": "/assets/hero/askia-hero-2.jpg",
-      "alt": "Professional portrait of a tech leader"
+      "alt": "Colleagues in a meeting reviewing notes together"
     },
     {
       "src": "/assets/hero/askia-hero-3.jpg",
-      "alt": "Senior professional in a studio headshot"
+      "alt": "Product team collaborating with laptops in a bright workspace"
     },
     {
       "src": "/assets/hero/askia-hero-4.jpg",
-      "alt": "Tech professional with confident posture"
+      "alt": "Engineers working together at a standing desk"
     }
   ],
   "cta": {

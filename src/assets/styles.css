@@ -948,6 +948,7 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.14);
   box-shadow: 0 24px 60px rgba(7, 10, 15, 0.45);
   position: relative;
+  background: rgba(8, 12, 18, 0.4);
 }
 
 .montage-card img {
@@ -958,23 +959,33 @@ a {
   display: block;
 }
 
+.montage-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(145deg, rgba(10, 16, 24, 0.12), rgba(10, 16, 24, 0.45));
+  opacity: 0.35;
+  pointer-events: none;
+}
+
 .montage-card-1 {
   grid-area: a;
+  transform: rotate(-1deg);
 }
 
 .montage-card-2 {
   grid-area: b;
-  transform: translateY(6px);
+  transform: translateY(10px) rotate(1deg);
 }
 
 .montage-card-3 {
   grid-area: c;
-  transform: translateY(-6px);
+  transform: translateY(-8px) rotate(-0.6deg);
 }
 
 .montage-card-4 {
   grid-area: d;
-  transform: translateY(8px);
+  transform: translateY(12px) rotate(0.8deg);
 }
 
 .montage-grid {
@@ -2325,6 +2336,17 @@ a {
   font-size: 0.85rem;
 }
 
+.company-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 6px;
+}
+
+.company-sep {
+  color: rgba(244, 247, 251, 0.45);
+}
+
 .testimonial-wall-header {
   display: grid;
   gap: 10px;
@@ -2384,8 +2406,7 @@ a {
 .company-logo {
   width: 20px;
   height: 20px;
-  margin-right: 8px;
-  vertical-align: -4px;
+  vertical-align: -3px;
   border-radius: 6px;
   padding: 2px;
   background: rgba(255, 255, 255, 0.1);

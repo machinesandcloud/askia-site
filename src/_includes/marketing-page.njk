@@ -81,8 +81,15 @@
             <img class="avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
             <div>
               <strong>{{ item.name }}</strong>
-              <span class="section-subtitle">{{ item.role }}{% if item.company %} · {{ item.company }}{% endif %}</span>
-              {% if item.rating %}<div class="rating">{{ item.rating }}/5</div>{% endif %}
+              <span class="section-subtitle">
+                {{ item.role }}
+                {% if item.company and item.logo %}
+                  <span class="company-line"><span class="company-sep">·</span><img class="company-logo" src="{{ item.logo }}" alt="{{ item.company }} logo" />{{ item.company }}</span>
+                {% elseif item.company %}
+                  · {{ item.company }}
+                {% endif %}
+              </span>
+              {% if item.rating %}<div class="rating">{{ "★" | repeat(item.rating) }}</div>{% endif %}
             </div>
           </div>
           <p>{{ item.quote }}</p>
