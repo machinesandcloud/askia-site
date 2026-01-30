@@ -1030,41 +1030,52 @@ a {
   position: absolute;
   inset: 0;
   z-index: 2;
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  align-items: end;
-  gap: 18px;
-  padding: 20px;
   pointer-events: none;
 }
 
 .hero-visual .visual-badge {
-  position: relative;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
   max-width: 360px;
-  background: rgba(8, 12, 18, 0.9);
-  padding: 20px 22px;
-  border-radius: 22px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(8, 12, 18, 0.92);
+  padding: 22px 24px 20px;
+  border-radius: 24px 28px 18px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow:
-    0 20px 45px rgba(6, 10, 16, 0.55),
-    inset 0 1px 0 rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+    0 24px 52px rgba(6, 10, 16, 0.6),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  clip-path: polygon(0 0, 88% 0, 100% 16%, 100% 100%, 0 100%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.hero-visual .visual-badge::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0));
+  pointer-events: none;
 }
 
 .hero-visual .visual-tags {
-  position: static;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
   display: grid;
-  justify-content: end;
   gap: 12px;
+  width: 44%;
+  max-width: 320px;
 }
 
 .hero-visual .visual-tags span {
   padding: 10px 16px;
-  border-radius: 14px;
-  background: rgba(8, 12, 18, 0.82);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  font-size: 0.84rem;
+  border-radius: 16px;
+  background: rgba(8, 12, 18, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  font-size: 0.85rem;
+  box-shadow: 0 14px 30px rgba(6, 10, 16, 0.45);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
@@ -1123,11 +1134,13 @@ a {
 .hero-visual .visual-badge strong {
   font-family: "Sora", "Segoe UI", system-ui, sans-serif;
   font-size: 1.05rem;
+  text-shadow: 0 8px 18px rgba(6, 10, 16, 0.6);
 }
 
 .hero-visual .visual-badge p {
   color: var(--muted);
   margin: 8px 0 0;
+  text-shadow: 0 6px 16px rgba(6, 10, 16, 0.6);
 }
 
 .hero-summary {
@@ -2983,16 +2996,19 @@ a {
 
   .montage-overlay {
     position: static;
-    grid-template-columns: 1fr;
     padding: 14px 4px 0;
   }
 
   .hero-visual .visual-badge {
+    position: static;
     max-width: none;
+    clip-path: none;
   }
 
   .hero-visual .visual-tags {
-    justify-content: start;
+    position: static;
+    width: auto;
+    max-width: none;
   }
 
   .montage-grid {
