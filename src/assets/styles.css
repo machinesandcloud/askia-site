@@ -919,7 +919,10 @@ a {
   min-height: 320px;
   border-radius: 28px;
   padding: 24px;
-  background: linear-gradient(145deg, rgba(10, 16, 24, 0.92), rgba(8, 12, 18, 0.5));
+  background:
+    radial-gradient(circle at 15% 20%, rgba(114, 214, 255, 0.18), transparent 55%),
+    radial-gradient(circle at 85% 10%, rgba(87, 207, 196, 0.16), transparent 50%),
+    linear-gradient(160deg, rgba(10, 16, 24, 0.95), rgba(8, 12, 18, 0.55));
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 40px 100px rgba(7, 10, 15, 0.6);
   overflow: hidden;
@@ -940,13 +943,14 @@ a {
   grid-template-rows: repeat(6, minmax(0, 58px));
   gap: 12px;
   height: 100%;
+  transform: rotate(-1deg);
 }
 
 .montage-card {
   border-radius: 20px;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  box-shadow: 0 24px 60px rgba(7, 10, 15, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 30px 80px rgba(7, 10, 15, 0.55);
   position: relative;
   background: rgba(8, 12, 18, 0.4);
 }
@@ -957,35 +961,47 @@ a {
   object-fit: cover;
   object-position: 50% 22%;
   display: block;
+  filter: saturate(1.15) contrast(1.05);
+}
+
+.montage-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(140deg, rgba(114, 214, 255, 0.35), rgba(255, 255, 255, 0.1), rgba(114, 214, 255, 0.18));
+  opacity: 0.22;
+  mix-blend-mode: screen;
+  pointer-events: none;
 }
 
 .montage-card::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(145deg, rgba(10, 16, 24, 0.12), rgba(10, 16, 24, 0.45));
-  opacity: 0.35;
+  background: linear-gradient(165deg, rgba(10, 16, 24, 0.12), rgba(10, 16, 24, 0.6));
+  opacity: 0.32;
   pointer-events: none;
 }
 
 .montage-card-1 {
   grid-area: a;
-  transform: rotate(-1deg);
+  transform: translateY(-6px) rotate(-1.4deg);
 }
 
 .montage-card-2 {
   grid-area: b;
-  transform: translateY(10px) rotate(1deg);
+  transform: translateY(14px) rotate(1.6deg);
 }
 
 .montage-card-3 {
   grid-area: c;
-  transform: translateY(-8px) rotate(-0.6deg);
+  transform: translateY(-14px) rotate(-0.9deg);
 }
 
 .montage-card-4 {
   grid-area: d;
-  transform: translateY(12px) rotate(0.8deg);
+  transform: translateY(16px) rotate(1.2deg);
 }
 
 .montage-grid {
@@ -1002,8 +1018,21 @@ a {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 20% 20%, rgba(114, 214, 255, 0.18), transparent 55%);
-  opacity: 0.7;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(114, 214, 255, 0.25), transparent 60%),
+    radial-gradient(circle at 80% 70%, rgba(87, 207, 196, 0.18), transparent 55%);
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hero-visual-montage::after {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border-radius: 22px;
+  border: 1px solid rgba(114, 214, 255, 0.15);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
   pointer-events: none;
   z-index: 0;
 }
@@ -1013,8 +1042,9 @@ a {
   left: 20px;
   bottom: 72px;
   z-index: 2;
-  background: rgba(10, 16, 24, 0.8);
-  backdrop-filter: blur(12px);
+  background: linear-gradient(150deg, rgba(12, 18, 28, 0.9), rgba(8, 12, 18, 0.55));
+  backdrop-filter: blur(14px);
+  box-shadow: 0 26px 60px rgba(7, 10, 15, 0.55);
 }
 
 .hero-visual-montage .visual-tags {
@@ -2926,6 +2956,7 @@ a {
       "d d c c"
       "d d c c"
       "d d c c";
+    transform: none;
   }
 
   .hero-visual-montage .visual-badge {

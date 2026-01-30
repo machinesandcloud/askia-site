@@ -5,19 +5,19 @@
   "heroImages": [
     {
       "src": "/assets/hero/askia-hero-1.jpg",
-      "alt": "Team collaborating around a laptop in a modern office"
+      "alt": "Engineering team collaborating around multiple screens"
     },
     {
       "src": "/assets/hero/askia-hero-2.jpg",
-      "alt": "Colleagues in a meeting reviewing notes together"
+      "alt": "Developer workspace with code on screen"
     },
     {
       "src": "/assets/hero/askia-hero-3.jpg",
-      "alt": "Product team collaborating with laptops in a bright workspace"
+      "alt": "Hiring conversation in a modern office"
     },
     {
       "src": "/assets/hero/askia-hero-4.jpg",
-      "alt": "Engineers working together at a standing desk"
+      "alt": "Team discussion around laptops in a bright workspace"
     }
   ],
   "cta": {
