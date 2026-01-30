@@ -938,21 +938,18 @@ a {
 .montage-grid {
   position: relative;
   z-index: 1;
-  display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  grid-template-rows: repeat(6, minmax(0, 58px));
-  gap: 12px;
   height: 100%;
-  transform: rotate(-1deg);
+  min-height: 360px;
 }
 
 .montage-card {
-  border-radius: 20px;
+  position: absolute;
+  border-radius: 24px;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  box-shadow: 0 30px 80px rgba(7, 10, 15, 0.55);
-  position: relative;
-  background: rgba(8, 12, 18, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 34px 90px rgba(7, 10, 15, 0.6);
+  background: rgba(8, 12, 18, 0.35);
+  backdrop-filter: blur(8px);
 }
 
 .montage-card img {
@@ -961,7 +958,7 @@ a {
   object-fit: cover;
   object-position: 50% 22%;
   display: block;
-  filter: saturate(1.15) contrast(1.05);
+  filter: saturate(1.1) contrast(1.08) brightness(0.98);
 }
 
 .montage-card::before {
@@ -985,34 +982,39 @@ a {
 }
 
 .montage-card-1 {
-  grid-area: a;
-  transform: translateY(-6px) rotate(-1.4deg);
+  left: 0;
+  top: 0;
+  width: 58%;
+  height: 58%;
+  transform: rotate(-1.2deg);
 }
 
 .montage-card-2 {
-  grid-area: b;
-  transform: translateY(14px) rotate(1.6deg);
+  right: 0;
+  top: 6%;
+  width: 40%;
+  height: 36%;
+  transform: rotate(1.6deg);
 }
 
 .montage-card-3 {
-  grid-area: c;
-  transform: translateY(-14px) rotate(-0.9deg);
+  right: 4%;
+  bottom: 0;
+  width: 54%;
+  height: 44%;
+  transform: rotate(-0.8deg);
 }
 
 .montage-card-4 {
-  grid-area: d;
-  transform: translateY(16px) rotate(1.2deg);
+  left: 12%;
+  bottom: 6%;
+  width: 36%;
+  height: 30%;
+  transform: rotate(1.4deg);
+  z-index: 2;
 }
 
-.montage-grid {
-  grid-template-areas:
-    "a a a b b b"
-    "a a a b b b"
-    "a a a c c c"
-    "d d d c c c"
-    "d d d c c c"
-    "d d d c c c";
-}
+ 
 
 .hero-visual-montage::before {
   content: "";
@@ -2947,21 +2949,23 @@ a {
   }
 
   .montage-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    grid-template-rows: repeat(6, minmax(0, 46px));
-    grid-template-areas:
-      "a a b b"
-      "a a b b"
-      "a a c c"
-      "d d c c"
-      "d d c c"
-      "d d c c";
-    transform: none;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 140px));
+    gap: 12px;
+    min-height: 0;
   }
 
   .hero-visual-montage .visual-badge {
     position: static;
     margin-top: 18px;
+  }
+
+  .montage-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: none;
   }
 
   .cta-band {
