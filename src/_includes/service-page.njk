@@ -79,6 +79,20 @@
   {% endif %}
 {% endmacro %}
 
+{% macro miniIcon(name) %}
+  {% if name == "resume" %}{{ heroGraphic("resume") }}
+  {% elif name == "linkedin" %}{{ heroGraphic("linkedin") }}
+  {% elif name == "interview" %}{{ heroGraphic("interview") }}
+  {% elif name == "mock" %}{{ heroGraphic("mock") }}
+  {% elif name == "cover" %}{{ heroGraphic("cover") }}
+  {% elif name == "executive" %}{{ heroGraphic("executive") }}
+  {% elif name == "salary" %}{{ heroGraphic("salary") }}
+  {% elif name == "ats" %}{{ heroGraphic("ats") }}
+  {% elif name == "clarity" %}{{ heroGraphic("clarity") }}
+  {% elif name == "offer" %}{{ heroGraphic("offer") }}
+  {% endif %}
+{% endmacro %}
+
 <section class="service-hero service-theme-{{ page.theme }}" style="--theme-accent: {{ page.visual.accent }}; --theme-accent-2: {{ page.visual.accent2 }};">
   <div class="container service-hero-grid">
     <div class="service-hero-copy">
@@ -163,6 +177,43 @@
   </section>
   {% endif %}
 
+  {% if key == "signalMap" and (page.signalMap or page.highlights) %}
+  <section class="section service-signal-map">
+    <div class="container">
+      <div class="pillar-header">
+        <p class="hero-eyebrow">{{ page.signalMap.eyebrow if page.signalMap else "Signal map" }}</p>
+        <h2 class="section-title section-title-glow">{{ page.signalMap.title if page.signalMap else "How this service creates signal" }}</h2>
+        {% if page.signalMap and page.signalMap.subtitle %}<p class="section-subtitle">{{ page.signalMap.subtitle }}</p>{% elif not page.signalMap %}<p class="section-subtitle">The three levers we tune to move you faster.</p>{% endif %}
+      </div>
+      <div class="signal-map-grid">
+        {% for item in (page.signalMap.items if page.signalMap else page.highlights) %}
+          <article class="signal-map-card">
+            <div class="signal-icon">
+              {% if page.signalMap and item.icon %}
+                {{ miniIcon(item.icon) }}
+              {% else %}
+                {{ miniIcon(page.heroGraphic) }}
+              {% endif %}
+            </div>
+            <div>
+              {% if page.signalMap %}
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.body }}</p>
+                {% if item.meta %}<span>{{ item.meta }}</span>{% endif %}
+              {% else %}
+                {% set focusItem = page.focus.items[loop.index0] if page.focus and page.focus.items and page.focus.items.length > loop.index0 else null %}
+                <h3>{{ item }}</h3>
+                <p>{{ focusItem.body if focusItem else page.supporting }}</p>
+                {% if focusItem and focusItem.tag %}<span>{{ focusItem.tag }}</span>{% endif %}
+              {% endif %}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
   {% if key == "proof" and page.proof %}
   <section class="section section-soft">
     <div class="container">
@@ -196,6 +247,36 @@
             <span class="focus-tag">{{ item.tag }}</span>
             <h3>{{ item.title }}</h3>
             <p>{{ item.body }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if key == "artifacts" and page.artifacts %}
+  <section class="section service-artifacts">
+    <div class="container">
+      <div class="pillar-header">
+        <p class="hero-eyebrow">{{ page.artifacts.eyebrow }}</p>
+        <h2 class="section-title section-title-glow">{{ page.artifacts.title }}</h2>
+        {% if page.artifacts.subtitle %}<p class="section-subtitle">{{ page.artifacts.subtitle }}</p>{% endif %}
+      </div>
+      <div class="artifact-grid">
+        {% for item in page.artifacts.items %}
+          <article class="artifact-card">
+            <div class="artifact-top">
+              <strong>{{ item.title }}</strong>
+              {% if item.tag %}<span>{{ item.tag }}</span>{% endif %}
+            </div>
+            <p>{{ item.body }}</p>
+            {% if item.bullets and item.bullets.length %}
+            <ul>
+              {% for bullet in item.bullets %}
+                <li>{{ bullet }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %}
           </article>
         {% endfor %}
       </div>
@@ -355,6 +436,26 @@
   </section>
   {% endif %}
 
+  {% if key == "midCta" and (page.midCta or page.cta) %}
+  <section class="section">
+    <div class="container mid-cta">
+      <div>
+        {% if page.midCta and page.midCta.eyebrow %}<p class="hero-eyebrow">{{ page.midCta.eyebrow }}</p>{% endif %}
+        <h2 class="section-title">{{ page.midCta.title if page.midCta else "Ready to move faster?" }}</h2>
+        {% if page.midCta and page.midCta.subtitle %}<p class="section-subtitle">{{ page.midCta.subtitle }}</p>{% elif not page.midCta %}<p class="section-subtitle">Let’s map the shortest path to the outcome you want.</p>{% endif %}
+      </div>
+      <div class="mid-cta-actions">
+        <a class="btn btn-primary" href="{{ page.midCta.primaryLink if page.midCta else (page.cta.link or page.ctaLink or site.cta.link) }}">{{ page.midCta.primaryLabel if page.midCta else (page.cta.label or page.ctaLabel or site.cta.label) }}</a>
+        {% if page.midCta and page.midCta.secondaryLabel %}
+          <a class="btn btn-ghost" href="{{ page.midCta.secondaryLink }}">{{ page.midCta.secondaryLabel }}</a>
+        {% elif page.secondaryCtaLabel %}
+          <a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
   {% if key == "faq" and page.faq %}
   <section class="section">
     <div class="container faq-stage">
@@ -401,16 +502,23 @@
 {% endmacro %}
 
 {% if page.sectionOrder and page.sectionOrder.length %}
+  {% set orderString = page.sectionOrder | join(',') %}
   {% for key in page.sectionOrder %}
     {{ renderSection(key) }}
   {% endfor %}
+  {% if (page.signalMap or page.highlights) and ("signalMap" not in orderString) %}{{ renderSection("signalMap") }}{% endif %}
+  {% if page.artifacts and ("artifacts" not in orderString) %}{{ renderSection("artifacts") }}{% endif %}
+  {% if (page.midCta or page.cta) and ("midCta" not in orderString) %}{{ renderSection("midCta") }}{% endif %}
 {% else %}
   {{ renderSection("snapshot") }}
+  {{ renderSection("signalMap") }}
   {{ renderSection("proof") }}
   {{ renderSection("focus") }}
   {{ renderSection("mistakes") }}
   {{ renderSection("steps") }}
   {{ renderSection("deliverables") }}
+  {{ renderSection("artifacts") }}
+  {{ renderSection("midCta") }}
   {{ renderSection("for") }}
   {{ renderSection("faq") }}
   {{ renderSection("cta") }}
