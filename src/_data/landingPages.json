@@ -15,10 +15,21 @@
     "secondaryCtaLabel": "Take the Career Readiness Index™",
     "secondaryCtaLink": "/career-readiness-index/",
     "visual": {
-      "style": "signal-min",
-      "accent": "rgba(114, 214, 255, 0.75)",
-      "accent2": "rgba(87, 207, 196, 0.35)"
+      "style": "next-role",
+      "accent": "rgba(88, 221, 178, 0.95)",
+      "accent2": "rgba(255, 198, 124, 0.9)"
     },
+    "heroTag": "Signal-led coaching",
+    "heroStats": [
+      { "value": "$100K–$350K", "label": "Offer ranges across tech roles" },
+      { "value": "2–6 weeks", "label": "Typical time to interview momentum" },
+      { "value": "Senior signal", "label": "Positioning that reads at level" }
+    ],
+    "heroTimeline": [
+      { "tag": "Week 1", "body": "Target role + comp band with precision." },
+      { "tag": "Week 2–3", "body": "Rewrite narrative, resume, and LinkedIn." },
+      { "tag": "Week 4–6", "body": "Interview execution + offer strategy." }
+    ],
     "heroImages": [
       {
         "src": "/assets/hero/askia-hero-1.jpg",

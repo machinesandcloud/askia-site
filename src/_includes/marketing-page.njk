@@ -1,3 +1,75 @@
+{% if page.visual and page.visual.style == 'next-role' %}
+<section class="hero hero-themed hero-next-role" style="--hero-next-accent: {{ page.visual.accent }}; --hero-next-accent-2: {{ page.visual.accent2 }};">
+  <div class="container hero-next-grid">
+    <div class="hero-next-copy">
+      {% if page.eyebrow and (page.eyebrow | lower) != (page.h1 | lower) and (page.eyebrow | length) < 36 %}
+        <p class="hero-eyebrow">{{ page.eyebrow }}</p>
+      {% endif %}
+      <h1 class="hero-next-title">{{ page.h1 }}</h1>
+      {% if page.subtitle %}<p class="hero-next-subtitle">{{ page.subtitle }}</p>{% endif %}
+      {% if page.supporting %}<p class="hero-next-supporting">{{ page.supporting }}</p>{% endif %}
+      {% if page.highlights and page.highlights.length %}
+      <div class="hero-next-chips">
+        {% for item in page.highlights %}
+          <span>{{ item }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+      <div class="hero-next-cta">
+        <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
+        {% if page.secondaryCtaLabel %}
+          <a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a>
+        {% endif %}
+      </div>
+      {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
+    </div>
+    {% set heroImages = page.heroImages or site.heroImages %}
+    <div class="hero-next-visual">
+      <div class="hero-next-panel">
+        <div class="hero-next-image">
+          {% if heroImages[0] %}
+            <img src="{{ heroImages[0].src }}" alt="{{ heroImages[0].alt }}" loading="lazy" />
+          {% endif %}
+          {% if page.heroTag %}<span class="hero-next-tag">{{ page.heroTag }}</span>{% endif %}
+        </div>
+        {% if page.heroCard %}
+        <div class="hero-next-card">
+          <span class="hero-next-badge">{{ page.heroCard.title }}</span>
+          {% if page.heroCard.body %}<p>{{ page.heroCard.body }}</p>{% endif %}
+          {% if page.heroCard.bullets and page.heroCard.bullets.length %}
+          <ul class="hero-next-list">
+            {% for item in page.heroCard.bullets %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+      {% if page.heroStats and page.heroStats.length %}
+      <div class="hero-next-metrics">
+        {% for item in page.heroStats %}
+          <div class="hero-next-metric">
+            <strong>{{ item.value }}</strong>
+            <span>{{ item.label }}</span>
+          </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+      {% if page.heroTimeline and page.heroTimeline.length %}
+      <div class="hero-next-timeline">
+        {% for item in page.heroTimeline %}
+          <div class="hero-next-step">
+            <span>{{ item.tag }}</span>
+            <p>{{ item.body }}</p>
+          </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% else %}
 <section class="hero hero-themed{% if page.visual and page.visual.style %} hero-{{ page.visual.style }}{% endif %}">
   <div class="container hero-grid">
     <div>
@@ -98,6 +170,7 @@
     </div>
   </div>
 </section>
+{% endif %}
 
 <section class="section section-soft">
   <div class="container">
