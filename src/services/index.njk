@@ -76,7 +76,7 @@ breadcrumbs:
       <h2 class="section-title section-title-glow">Choose the path that fits your stage</h2>
       <p class="section-subtitle">Start lean or go all‑in with a full brand rebuild.</p>
     </div>
-    <div class="services-grid-cards">
+    <div class="services-grid-cards" data-services-carousel>
       {% for tier in services.tiers %}
         <article class="services-card{% if tier.tag == 'Most Popular' %} is-featured{% endif %}">
           <span class="services-tag">{{ tier.tag }}</span>
