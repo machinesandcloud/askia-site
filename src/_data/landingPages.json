@@ -15,10 +15,16 @@
     "secondaryCtaLabel": "Take the Career Readiness Index™",
     "secondaryCtaLink": "/career-readiness-index/",
     "visual": {
-      "style": "signal",
+      "style": "signal-min",
       "accent": "rgba(114, 214, 255, 0.75)",
       "accent2": "rgba(87, 207, 196, 0.35)"
     },
+    "heroImages": [
+      {
+        "src": "/assets/hero/askia-hero-1.jpg",
+        "alt": "A coaching conversation focused on career positioning."
+      }
+    ],
     "heroCard": {
       "title": "What you get in 2–6 weeks",
       "body": "A focused system that upgrades your narrative, market signal, and execution — so you can land the right level.",

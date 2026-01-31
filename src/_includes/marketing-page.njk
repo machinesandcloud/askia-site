@@ -23,31 +23,78 @@
       {% endif %}
     </div>
     {% set heroImages = page.heroImages or site.heroImages %}
-    <div class="hero-visual hero-visual-montage"{% if page.visual %} style="--visual-accent: {{ page.visual.accent }}; --visual-accent-2: {{ page.visual.accent2 }};"{% endif %}>
-      <div class="montage-stage">
-        <div class="montage-grid">
-          {% for item in heroImages %}
-            <div class="montage-card montage-card-{{ loop.index }}">
-              <img src="{{ item.src }}" alt="{{ item.alt }}" loading="lazy" />
+    <div class="hero-visual{% if page.visual and page.visual.style == 'signal-focus' %} hero-visual-focus{% elif page.visual and page.visual.style == 'signal-min' %} hero-visual-min{% else %} hero-visual-montage{% endif %}"{% if page.visual %} style="--visual-accent: {{ page.visual.accent }}; --visual-accent-2: {{ page.visual.accent2 }};"{% endif %}>
+      {% if page.visual and page.visual.style == 'signal-focus' %}
+        <div class="focus-main">
+          {% if heroImages[0] %}
+            <img src="{{ heroImages[0].src }}" alt="{{ heroImages[0].alt }}" loading="lazy" />
+          {% endif %}
+        </div>
+        <div class="focus-stack">
+          {% if heroImages[1] %}
+            <div class="focus-thumb">
+              <img src="{{ heroImages[1].src }}" alt="{{ heroImages[1].alt }}" loading="lazy" />
             </div>
-          {% endfor %}
+          {% endif %}
+          {% if page.heroCard %}
+            <div class="focus-card">
+              <strong>{{ page.heroCard.title }}</strong>
+              {% if page.heroCard.body %}<p>{{ page.heroCard.body }}</p>{% endif %}
+              {% if page.heroCard.bullets and page.heroCard.bullets.length %}
+              <div class="focus-tags">
+                {% for item in page.heroCard.bullets %}
+                  <span>{{ item }}</span>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+      {% elif page.visual and page.visual.style == 'signal-min' %}
+        <div class="min-image">
+          {% if heroImages[0] %}
+            <img src="{{ heroImages[0].src }}" alt="{{ heroImages[0].alt }}" loading="lazy" />
+          {% endif %}
         </div>
         {% if page.heroCard %}
-        <div class="montage-overlay">
-          <div class="visual-badge">
+          <div class="min-panel">
             <strong>{{ page.heroCard.title }}</strong>
             {% if page.heroCard.body %}<p>{{ page.heroCard.body }}</p>{% endif %}
             {% if page.heroCard.bullets and page.heroCard.bullets.length %}
-            <div class="visual-tags">
-              {% for item in page.heroCard.bullets %}
-                <span>{{ item }}</span>
-              {% endfor %}
-            </div>
+              <div class="min-tags">
+                {% for item in page.heroCard.bullets %}
+                  <span>{{ item }}</span>
+                {% endfor %}
+              </div>
             {% endif %}
           </div>
-        </div>
         {% endif %}
-      </div>
+      {% else %}
+        <div class="montage-stage">
+          <div class="montage-grid">
+            {% for item in heroImages %}
+              <div class="montage-card montage-card-{{ loop.index }}">
+                <img src="{{ item.src }}" alt="{{ item.alt }}" loading="lazy" />
+              </div>
+            {% endfor %}
+          </div>
+          {% if page.heroCard %}
+          <div class="montage-overlay">
+            <div class="visual-badge">
+              <strong>{{ page.heroCard.title }}</strong>
+              {% if page.heroCard.body %}<p>{{ page.heroCard.body }}</p>{% endif %}
+              {% if page.heroCard.bullets and page.heroCard.bullets.length %}
+              <div class="visual-tags">
+                {% for item in page.heroCard.bullets %}
+                  <span>{{ item }}</span>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+          {% endif %}
+        </div>
+      {% endif %}
     </div>
   </div>
 </section>
