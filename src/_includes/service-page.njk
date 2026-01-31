@@ -1,0 +1,417 @@
+{% macro heroGraphic(name) %}
+  {% if name == "resume" %}
+  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+    <rect x="34" y="26" width="120" height="150" rx="16" />
+    <rect x="54" y="54" width="80" height="10" rx="5" />
+    <rect x="54" y="78" width="60" height="8" rx="4" />
+    <rect x="54" y="98" width="86" height="8" rx="4" />
+    <rect x="54" y="118" width="70" height="8" rx="4" />
+    <circle cx="148" cy="148" r="18" />
+  </svg>
+  {% elif name == "linkedin" %}
+  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+    <rect x="30" y="30" width="140" height="140" rx="28" />
+    <circle cx="70" cy="78" r="12" />
+    <rect x="92" y="70" width="58" height="16" rx="8" />
+    <rect x="58" y="102" width="92" height="10" rx="5" />
+    <rect x="58" y="122" width="72" height="10" rx="5" />
+  </svg>
+  {% elif name == "interview" %}
+  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+    <rect x="24" y="40" width="152" height="96" rx="22" />
+    <circle cx="70" cy="86" r="16" />
+    <circle cx="130" cy="86" r="16" />
+    <rect x="56" y="120" width="88" height="10" rx="5" />
+    <rect x="88" y="136" width="24" height="16" rx="6" />
+  </svg>
+  {% elif name == "mock" %}
+  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+    <rect x="26" y="36" width="148" height="108" rx="22" />
+    <rect x="52" y="62" width="72" height="12" rx="6" />
+    <rect x="52" y="84" width="96" height="10" rx="5" />
+    <rect x="52" y="104" width="84" height="10" rx="5" />
+    <circle cx="150" cy="130" r="12" />
+  </svg>
+  {% elif name == "cover" %}
+  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+    <path d="M40 60h120v92a18 18 0 0 1-18 18H58a18 18 0 0 1-18-18V60z" />
+    <path d="M40 60l60 36 60-36" />
+    <rect x="60" y="112" width="80" height="10" rx="5" />
+    <rect x="60" y="130" width="60" height="8" rx="4" />
+  </svg>
+  {% elif name == "executive" %}
+  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+    <path d="M36 150l44-66 34 42 30-26 46 50" />
+    <circle cx="80" cy="74" r="10" />
+    <circle cx="114" cy="96" r="10" />
+    <circle cx="144" cy="74" r="10" />
+  </svg>
+  {% elif name == "salary" %}
+  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+    <rect x="44" y="40" width="112" height="52" rx="14" />
+    <rect x="36" y="90" width="128" height="56" rx="16" />
+    <circle cx="100" cy="118" r="14" />
+    <path d="M100 110v16" />
+  </svg>
+  {% elif name == "ats" %}
+  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+    <rect x="34" y="30" width="132" height="140" rx="20" />
+    <rect x="56" y="60" width="88" height="10" rx="5" />
+    <rect x="56" y="82" width="64" height="8" rx="4" />
+    <rect x="56" y="102" width="88" height="8" rx="4" />
+    <circle cx="146" cy="138" r="16" />
+    <path d="M156 150l18 18" />
+  </svg>
+  {% elif name == "clarity" %}
+  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+    <circle cx="100" cy="96" r="54" />
+    <circle cx="100" cy="96" r="8" />
+    <path d="M100 42v24M100 126v24M46 96h24M130 96h24" />
+  </svg>
+  {% elif name == "offer" %}
+  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+    <rect x="30" y="46" width="140" height="100" rx="18" />
+    <rect x="52" y="70" width="96" height="12" rx="6" />
+    <rect x="52" y="94" width="78" height="10" rx="5" />
+    <rect x="52" y="114" width="60" height="10" rx="5" />
+    <circle cx="150" cy="128" r="10" />
+  </svg>
+  {% endif %}
+{% endmacro %}
+
+<section class="service-hero service-theme-{{ page.theme }}" style="--theme-accent: {{ page.visual.accent }}; --theme-accent-2: {{ page.visual.accent2 }};">
+  <div class="container service-hero-grid">
+    <div class="service-hero-copy">
+      {% if page.eyebrow %}<p class="hero-eyebrow">{{ page.eyebrow }}</p>{% endif %}
+      <h1 class="service-hero-title">{{ page.h1 }}</h1>
+      {% if page.subtitle %}<p class="service-hero-subtitle">{{ page.subtitle }}</p>{% endif %}
+      {% if page.supporting %}<p class="service-hero-supporting">{{ page.supporting }}</p>{% endif %}
+      {% if page.highlights and page.highlights.length %}
+      <div class="service-hero-chips">
+        {% for item in page.highlights %}
+          <span>{{ item }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+      <div class="service-hero-cta">
+        <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
+        {% if page.secondaryCtaLabel %}
+          <a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a>
+        {% endif %}
+      </div>
+      {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
+      {% if page.heroTrustLogos and page.heroTrustLogos.length %}
+      <div class="service-hero-trust">
+        <span>{{ page.heroTrustLabel or "Trusted by candidates from" }}</span>
+        <div class="service-hero-logos">
+          {% for item in page.heroTrustLogos %}
+            <img src="{{ item.src }}" alt="{{ item.alt }}" loading="lazy" />
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+    <div class="service-hero-canvas">
+      <div class="service-hero-graphic">
+        {{ heroGraphic(page.heroGraphic) }}
+        {% if page.heroGraphicLabel %}<span>{{ page.heroGraphicLabel }}</span>{% endif %}
+      </div>
+      {% if page.heroModules and page.heroModules.length %}
+      <div class="service-hero-stack">
+        {% for module in page.heroModules %}
+          <div class="service-hero-module">
+            <strong>{{ module.title }}</strong>
+            <p>{{ module.body }}</p>
+            {% if module.meta %}<span>{{ module.meta }}</span>{% endif %}
+          </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+      {% if page.heroStats and page.heroStats.length %}
+      <div class="service-hero-stats">
+        {% for stat in page.heroStats %}
+          <div class="service-hero-stat">
+            <strong>{{ stat.value }}</strong>
+            <span>{{ stat.label }}</span>
+          </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% macro renderSection(key) %}
+  {% if key == "snapshot" and page.snapshot %}
+  <section class="section service-snapshot">
+    <div class="container">
+      <div class="pillar-header">
+        <p class="hero-eyebrow">{{ page.snapshot.eyebrow }}</p>
+        <h2 class="section-title section-title-glow">{{ page.snapshot.title }}</h2>
+        {% if page.snapshot.subtitle %}<p class="section-subtitle">{{ page.snapshot.subtitle }}</p>{% endif %}
+      </div>
+      <div class="snapshot-grid">
+        {% for item in page.snapshot.items %}
+          <article class="snapshot-card">
+            {% if item.tag %}<span class="snapshot-tag">{{ item.tag }}</span>{% endif %}
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.body }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if key == "proof" and page.proof %}
+  <section class="section section-soft">
+    <div class="container">
+      <div class="outcome-header">
+        <h2 class="section-title section-title-accent section-title-glow">{{ page.proof.title }}</h2>
+        {% if page.proof.subtitle %}<p class="section-subtitle">{{ page.proof.subtitle }}</p>{% endif %}
+      </div>
+      <div class="outcome-grid">
+        {% for item in page.proof.items %}
+          <div class="outcome-card">
+            <span class="outcome-number">{{ item.title }}</span>
+            <p>{{ item.body }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if key == "focus" and page.focus %}
+  <section class="section service-focus">
+    <div class="container">
+      <div class="pillar-header">
+        <p class="hero-eyebrow">{{ page.focus.eyebrow }}</p>
+        <h2 class="section-title section-title-glow">{{ page.focus.title }}</h2>
+        {% if page.focus.subtitle %}<p class="section-subtitle">{{ page.focus.subtitle }}</p>{% endif %}
+      </div>
+      <div class="focus-grid">
+        {% for item in page.focus.items %}
+          <article class="focus-card">
+            <span class="focus-tag">{{ item.tag }}</span>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.body }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if key == "mistakes" and page.mistakes %}
+  <section class="section service-mistakes">
+    <div class="container">
+      <div class="pillar-header">
+        <p class="hero-eyebrow">{{ page.mistakes.eyebrow }}</p>
+        <h2 class="section-title section-title-glow">{{ page.mistakes.title }}</h2>
+        {% if page.mistakes.subtitle %}<p class="section-subtitle">{{ page.mistakes.subtitle }}</p>{% endif %}
+      </div>
+      <div class="mistakes-grid">
+        {% for item in page.mistakes.items %}
+          <article class="mistake-card">
+            <span>{{ item.title }}</span>
+            <p>{{ item.body }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if key == "steps" and page.steps %}
+  <section class="section service-process">
+    <div class="container service-journey">
+      <div>
+        <h2 class="section-title section-title-glow">{{ page.steps.title }}</h2>
+        {% if page.steps.subtitle %}<p class="section-subtitle">{{ page.steps.subtitle }}</p>{% endif %}
+      </div>
+      <div class="journey-steps">
+        {% for step in page.steps.items %}
+          <div class="journey-step">
+            <span>0{{ loop.index }}</span>
+            <h4>{{ step.title }}</h4>
+            <p>{{ step.body }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if key == "deliverables" and page.deliverables %}
+  <section class="section">
+    <div class="container">
+      <div class="pillar-header">
+        <p class="hero-eyebrow">Deliverables</p>
+        <h2 class="section-title section-title-glow">{{ page.deliverables.title }}</h2>
+        {% if page.deliverables.subtitle %}<p class="section-subtitle">{{ page.deliverables.subtitle }}</p>{% endif %}
+      </div>
+      <div class="service-stack">
+        {% for item in page.deliverables.items %}
+          <div class="service-tile">
+            <div class="service-header">
+              <h3>{{ item.title }}</h3>
+              {% if item.tag %}<span class="service-tag">{{ item.tag }}</span>{% endif %}
+            </div>
+            <p>{{ item.body }}</p>
+            {% if item.bullets and item.bullets.length %}
+            <ul>
+              {% for bullet in item.bullets %}
+                <li>{{ bullet }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if key == "roleLinks" and page.roleLinks %}
+  <section class="section">
+    <div class="container">
+      <div class="pillar-header">
+        <p class="hero-eyebrow">{{ page.roleLinks.eyebrow }}</p>
+        <h2 class="section-title section-title-glow">{{ page.roleLinks.title }}</h2>
+        {% if page.roleLinks.subtitle %}<p class="section-subtitle">{{ page.roleLinks.subtitle }}</p>{% endif %}
+      </div>
+      <div class="service-stack">
+        {% for item in page.roleLinks.items %}
+          <a class="service-tile" href="{{ item.url }}">
+            <div class="service-header">
+              <h3>{{ item.title }}</h3>
+              {% if item.tag %}<span class="service-tag">{{ item.tag }}</span>{% endif %}
+            </div>
+            <p>{{ item.body }}</p>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if key == "samples" and page.samples %}
+  <section class="section">
+    <div class="container">
+      <div class="pillar-header">
+        <p class="hero-eyebrow">{{ page.samples.eyebrow }}</p>
+        <h2 class="section-title section-title-glow">{{ page.samples.title }}</h2>
+        {% if page.samples.subtitle %}<p class="section-subtitle">{{ page.samples.subtitle }}</p>{% endif %}
+      </div>
+      <div class="service-stack">
+        {% for item in page.samples.items %}
+          <div class="service-tile">
+            <div class="service-header">
+              <h3>{{ item.title }}</h3>
+              {% if item.tag %}<span class="service-tag">{{ item.tag }}</span>{% endif %}
+            </div>
+            <p>{{ item.body }}</p>
+            {% if item.bullets and item.bullets.length %}
+            <ul>
+              {% for bullet in item.bullets %}
+                <li>{{ bullet }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if key == "for" and page.for and page.notFor %}
+  <section class="section">
+    <div class="container services-preview">
+      <div class="card card-soft">
+        <strong>{{ page.for.title }}</strong>
+        <p>{{ page.for.body }}</p>
+        {% if page.for.items and page.for.items.length %}
+        <ul class="highlight-list">
+          {% for item in page.for.items %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      <div class="card">
+        <strong>{{ page.notFor.title }}</strong>
+        <p>{{ page.notFor.body }}</p>
+        {% if page.notFor.items and page.notFor.items.length %}
+        <ul class="highlight-list">
+          {% for item in page.notFor.items %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if key == "faq" and page.faq %}
+  <section class="section">
+    <div class="container faq-stage">
+      <div class="faq-header">
+        <h2 class="section-title section-title-glow">{{ page.faq.title }}</h2>
+        {% if page.faq.subtitle %}<p class="section-subtitle">{{ page.faq.subtitle }}</p>{% endif %}
+      </div>
+      <div class="faq-grid">
+        {% for item in page.faq.items %}
+          <details class="faq-card">
+            <summary>{{ item.question }}</summary>
+            <p>{{ item.answer }}</p>
+          </details>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if key == "related" and page.related %}
+  <section class="section">
+    <div class="container card">
+      <h2 class="section-title">{{ page.related.title }}</h2>
+      <p class="section-subtitle">{{ page.related.body }}</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ page.related.primaryLink }}">{{ page.related.primaryLabel }}</a>
+        <a class="btn btn-ghost" href="{{ page.related.secondaryLink }}">{{ page.related.secondaryLabel }}</a>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if key == "cta" and page.cta %}
+  <section class="section">
+    <div class="container cta-band">
+      <div>
+        <h2 class="section-title">{{ page.cta.title }}</h2>
+        <p class="section-subtitle">{{ page.cta.body }}</p>
+      </div>
+      <a class="btn btn-primary" href="{{ page.cta.link or site.cta.link }}">{{ page.cta.label or site.cta.label }}</a>
+    </div>
+  </section>
+  {% endif %}
+{% endmacro %}
+
+{% if page.sectionOrder and page.sectionOrder.length %}
+  {% for key in page.sectionOrder %}
+    {{ renderSection(key) }}
+  {% endfor %}
+{% else %}
+  {{ renderSection("snapshot") }}
+  {{ renderSection("proof") }}
+  {{ renderSection("focus") }}
+  {{ renderSection("mistakes") }}
+  {{ renderSection("steps") }}
+  {{ renderSection("deliverables") }}
+  {{ renderSection("for") }}
+  {{ renderSection("faq") }}
+  {{ renderSection("cta") }}
+{% endif %}

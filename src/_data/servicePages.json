@@ -19,6 +19,47 @@
       "accent": "rgba(114, 214, 255, 0.75)",
       "accent2": "rgba(114, 214, 255, 0.25)"
     },
+    "theme": "resume",
+    "heroGraphic": "resume",
+    "heroGraphicLabel": "Resume signal",
+    "heroModules": [
+      { "title": "Role targeting", "body": "Define level, scope, and comp band before writing.", "meta": "Strategy" },
+      { "title": "Impact rewrite", "body": "Translate work into metrics and outcomes.", "meta": "Signal" },
+      { "title": "ATS clean", "body": "Formatting that survives filters and scans fast.", "meta": "Delivery" }
+    ],
+    "heroStats": [
+      { "value": "7–10 days", "label": "Typical turnaround" },
+      { "value": "1 revision", "label": "Included polish pass" },
+      { "value": "Senior signal", "label": "Level-aligned positioning" }
+    ],
+    "heroTrustLabel": "Trusted by candidates from",
+    "heroTrustLogos": [
+      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
+      { "src": "/assets/logos/testimonials/microsoft.svg", "alt": "Microsoft logo" },
+      { "src": "/assets/logos/testimonials/figma.svg", "alt": "Figma logo" },
+      { "src": "/assets/logos/testimonials/shopify.svg", "alt": "Shopify logo" }
+    ],
+    "snapshot": {
+      "eyebrow": "Resume audit",
+      "title": "What changes after a resume rebuild",
+      "subtitle": "We make your level, scope, and impact undeniable.",
+      "items": [
+        { "tag": "Signal", "title": "Clarity in 8 seconds", "body": "Recruiters see level, scope, and impact at a glance." },
+        { "tag": "Structure", "title": "ATS + human readable", "body": "Clean architecture that passes filters and reads fast." },
+        { "tag": "Story", "title": "Leadership narrative", "body": "Your work reframed as outcomes, not tasks." }
+      ]
+    },
+    "mistakes": {
+      "eyebrow": "Common misses",
+      "title": "Why strong resumes still get ignored",
+      "subtitle": "We fix the hidden friction points that kill response rates.",
+      "items": [
+        { "title": "Task lists", "body": "Bullets describe duties instead of outcomes and scope." },
+        { "title": "Level ambiguity", "body": "No clear signal of seniority, leverage, or ownership." },
+        { "title": "ATS clutter", "body": "Design-heavy layouts that break scanning and parsing." }
+      ]
+    },
+    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "roleLinks", "steps", "for", "related", "faq", "cta"],
     "heroCard": {
       "title": "Resume Rebuild deliverables",
       "body": "A resume that positions you at the level you’re targeting, not the level you’re leaving.",
@@ -196,6 +237,47 @@
       "accent": "rgba(87, 207, 196, 0.75)",
       "accent2": "rgba(89, 140, 255, 0.28)"
     },
+    "theme": "linkedin",
+    "heroGraphic": "linkedin",
+    "heroGraphicLabel": "Profile signal",
+    "heroModules": [
+      { "title": "Headline + About", "body": "Rewrite the top 3 lines to signal role, scope, and impact.", "meta": "Above the fold" },
+      { "title": "Experience story", "body": "Convert experience into outcomes recruiters recognize.", "meta": "Credibility" },
+      { "title": "Search visibility", "body": "Align keywords to how recruiters actually search.", "meta": "Inbound" }
+    ],
+    "heroStats": [
+      { "value": "7–10 days", "label": "Typical turnaround" },
+      { "value": "3 core sections", "label": "Headline, About, Experience" },
+      { "value": "Inbound focus", "label": "Search + narrative alignment" }
+    ],
+    "heroTrustLabel": "Trusted by candidates from",
+    "heroTrustLogos": [
+      { "src": "/assets/logos/testimonials/linkedin.svg", "alt": "LinkedIn logo" },
+      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
+      { "src": "/assets/logos/testimonials/spotify.svg", "alt": "Spotify logo" },
+      { "src": "/assets/logos/testimonials/adobe.svg", "alt": "Adobe logo" }
+    ],
+    "snapshot": {
+      "eyebrow": "Profile snapshot",
+      "title": "What changes after LinkedIn optimization",
+      "subtitle": "Clarity, credibility, and the right inbound.",
+      "items": [
+        { "tag": "Above the fold", "title": "Instant role fit", "body": "Headline + About communicate scope and seniority fast." },
+        { "tag": "Signal", "title": "Impact story", "body": "Experience sections read like outcomes, not tasks." },
+        { "tag": "Search", "title": "Recruiter visibility", "body": "Keywords mapped to target role families." }
+      ]
+    },
+    "mistakes": {
+      "eyebrow": "Common misses",
+      "title": "Why good profiles still don’t convert",
+      "subtitle": "We eliminate friction in how recruiters scan and decide.",
+      "items": [
+        { "title": "Generic headline", "body": "Title-only headlines don’t signal level or specialization." },
+        { "title": "Story gaps", "body": "Experience reads like tasks, not measurable outcomes." },
+        { "title": "Search mismatch", "body": "Keywords don’t match how recruiters filter." }
+      ]
+    },
+    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "deliverables", "roleLinks", "steps", "for", "related", "faq", "cta"],
     "heroCard": {
       "title": "LinkedIn signal upgrade",
       "body": "Position your profile so recruiters see level, scope, and outcomes in seconds.",
@@ -369,6 +451,47 @@
       "accent": "rgba(255, 214, 102, 0.65)",
       "accent2": "rgba(114, 214, 255, 0.25)"
     },
+    "theme": "interview",
+    "heroGraphic": "interview",
+    "heroGraphicLabel": "Interview loop",
+    "heroModules": [
+      { "title": "Story bank", "body": "Build STAR stories tied to impact and scope.", "meta": "Clarity" },
+      { "title": "Live mock", "body": "Practice with feedback and iteration.", "meta": "Execution" },
+      { "title": "Signal calibration", "body": "Align answers to the level you want.", "meta": "Leveling" }
+    ],
+    "heroStats": [
+      { "value": "2–3 sessions", "label": "Typical prep cycle" },
+      { "value": "Story system", "label": "Reusable answers" },
+      { "value": "Offer-ready", "label": "Confidence under pressure" }
+    ],
+    "heroTrustLabel": "Trusted by candidates from",
+    "heroTrustLogos": [
+      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
+      { "src": "/assets/logos/testimonials/uber.svg", "alt": "Uber logo" },
+      { "src": "/assets/logos/testimonials/paypal.svg", "alt": "PayPal logo" },
+      { "src": "/assets/logos/testimonials/snowflake.svg", "alt": "Snowflake logo" }
+    ],
+    "snapshot": {
+      "eyebrow": "Interview snapshot",
+      "title": "What changes after interview prep",
+      "subtitle": "You answer with structure, confidence, and signal.",
+      "items": [
+        { "tag": "Clarity", "title": "Structured answers", "body": "Responses that map to role requirements and level." },
+        { "tag": "Confidence", "title": "Controlled delivery", "body": "No rambling. No guessing. Clear outcomes." },
+        { "tag": "Signal", "title": "Senior presence", "body": "Decision-making and scope become obvious." }
+      ]
+    },
+    "mistakes": {
+      "eyebrow": "Common misses",
+      "title": "Why interviews stall at higher levels",
+      "subtitle": "We fix the patterns that keep strong candidates from closing.",
+      "items": [
+        { "title": "Unstructured stories", "body": "Great work gets lost in long, unclear answers." },
+        { "title": "Scope mismatch", "body": "Examples don’t match the level you’re targeting." },
+        { "title": "Weak trade-offs", "body": "No clear decision-making or stakeholder framing." }
+      ]
+    },
+    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "steps", "deliverables", "roleLinks", "for", "related", "faq", "cta"],
     "heroCard": {
       "title": "Interview performance upgrade",
       "body": "We turn your experience into compelling, senior‑level stories recruiters remember.",
@@ -542,6 +665,47 @@
       "accent": "rgba(114, 214, 255, 0.75)",
       "accent2": "rgba(255, 214, 102, 0.3)"
     },
+    "theme": "salary",
+    "heroGraphic": "salary",
+    "heroGraphicLabel": "Offer strategy",
+    "heroModules": [
+      { "title": "Comp band", "body": "Know the real range for your level and role.", "meta": "Benchmark" },
+      { "title": "Leverage map", "body": "Identify what you can credibly negotiate.", "meta": "Strategy" },
+      { "title": "Negotiation scripts", "body": "Language that protects leverage and closes.", "meta": "Execution" }
+    ],
+    "heroStats": [
+      { "value": "1–2 calls", "label": "Typical strategy time" },
+      { "value": "Total comp", "label": "Base + equity + bonus" },
+      { "value": "Offer-ready", "label": "Decision framework" }
+    ],
+    "heroTrustLabel": "Trusted by candidates from",
+    "heroTrustLogos": [
+      { "src": "/assets/logos/testimonials/coinbase.svg", "alt": "Coinbase logo" },
+      { "src": "/assets/logos/testimonials/uber.svg", "alt": "Uber logo" },
+      { "src": "/assets/logos/testimonials/paypal.svg", "alt": "PayPal logo" },
+      { "src": "/assets/logos/testimonials/salesforce.svg", "alt": "Salesforce logo" }
+    ],
+    "snapshot": {
+      "eyebrow": "Offer snapshot",
+      "title": "What changes with negotiation support",
+      "subtitle": "Clarity, leverage, and a plan you can execute.",
+      "items": [
+        { "tag": "Range", "title": "Comp clarity", "body": "A realistic range tied to role and level." },
+        { "tag": "Leverage", "title": "Negotiation angle", "body": "Know which points matter and when to use them." },
+        { "tag": "Decision", "title": "Offer comparison", "body": "Structured trade-offs across base, equity, bonus." }
+      ]
+    },
+    "mistakes": {
+      "eyebrow": "Common misses",
+      "title": "Why candidates leave money on the table",
+      "subtitle": "We prevent the common negotiation errors.",
+      "items": [
+        { "title": "No leverage plan", "body": "Pushing without strategy weakens your position." },
+        { "title": "Base-only focus", "body": "Equity, bonus, and scope are ignored." },
+        { "title": "Timing errors", "body": "Asking too early or too late kills momentum." }
+      ]
+    },
+    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "steps", "deliverables", "roleLinks", "for", "related", "faq", "cta"],
     "heroCard": {
       "title": "Negotiation strategy",
       "body": "Walk into offer conversations with leverage, not guesswork.",
@@ -715,6 +879,47 @@
       "accent": "rgba(255, 214, 102, 0.6)",
       "accent2": "rgba(114, 214, 255, 0.25)"
     },
+    "theme": "executive",
+    "heroGraphic": "executive",
+    "heroGraphicLabel": "Leadership signal",
+    "heroModules": [
+      { "title": "Leadership narrative", "body": "Position your decisions as org-level outcomes.", "meta": "Executive story" },
+      { "title": "Scope mapping", "body": "Clarify level, span of control, and impact.", "meta": "Leveling" },
+      { "title": "Offer leverage", "body": "Strategy for comp, equity, and scope.", "meta": "Negotiation" }
+    ],
+    "heroStats": [
+      { "value": "Director+", "label": "Scope-aligned positioning" },
+      { "value": "Exec-ready", "label": "Narrative + assets" },
+      { "value": "Offer strategy", "label": "Comp + equity framing" }
+    ],
+    "heroTrustLabel": "Trusted by candidates from",
+    "heroTrustLogos": [
+      { "src": "/assets/logos/testimonials/microsoft.svg", "alt": "Microsoft logo" },
+      { "src": "/assets/logos/testimonials/oracle.svg", "alt": "Oracle logo" },
+      { "src": "/assets/logos/testimonials/salesforce.svg", "alt": "Salesforce logo" },
+      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" }
+    ],
+    "snapshot": {
+      "eyebrow": "Leadership snapshot",
+      "title": "What changes with executive coaching",
+      "subtitle": "Your story reads at the scope you’re targeting.",
+      "items": [
+        { "tag": "Scope", "title": "Org-level impact", "body": "Decisions framed around business outcomes." },
+        { "tag": "Signal", "title": "Executive presence", "body": "Language and assets calibrated for VP+ audiences." },
+        { "tag": "Leverage", "title": "Offer authority", "body": "A negotiation plan tied to scope and comp." }
+      ]
+    },
+    "mistakes": {
+      "eyebrow": "Common misses",
+      "title": "Why senior leaders still get down-leveled",
+      "subtitle": "We eliminate the gaps that shrink perceived scope.",
+      "items": [
+        { "title": "Execution-only framing", "body": "No evidence of strategic or org-level impact." },
+        { "title": "Span ambiguity", "body": "Unclear team scope, budget, or leadership scale." },
+        { "title": "Offer misalignment", "body": "Negotiation isn’t tied to leadership path." }
+      ]
+    },
+    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "roleLinks", "steps", "for", "related", "faq", "cta"],
     "heroCard": {
       "title": "Executive signal upgrade",
       "body": "Clarify your leadership story, scope, and outcomes for executive‑level roles.",
@@ -888,6 +1093,47 @@
       "accent": "rgba(114, 214, 255, 0.75)",
       "accent2": "rgba(255, 214, 102, 0.3)"
     },
+    "theme": "cover",
+    "heroGraphic": "cover",
+    "heroGraphicLabel": "Cover letter",
+    "heroModules": [
+      { "title": "Role narrative", "body": "A crisp story that connects your experience to the role.", "meta": "Relevance" },
+      { "title": "Impact proof", "body": "Concrete outcomes that validate your fit.", "meta": "Credibility" },
+      { "title": "Hiring manager clarity", "body": "Structured to be read in under a minute.", "meta": "Speed" }
+    ],
+    "heroStats": [
+      { "value": "30 sec read", "label": "Designed for skim" },
+      { "value": "Role-specific", "label": "Tailored to target" },
+      { "value": "1 letter", "label": "Focus on conversion" }
+    ],
+    "heroTrustLabel": "Trusted by candidates from",
+    "heroTrustLogos": [
+      { "src": "/assets/logos/testimonials/adobe.svg", "alt": "Adobe logo" },
+      { "src": "/assets/logos/testimonials/airbnb.svg", "alt": "Airbnb logo" },
+      { "src": "/assets/logos/testimonials/notion.svg", "alt": "Notion logo" },
+      { "src": "/assets/logos/testimonials/spotify.svg", "alt": "Spotify logo" }
+    ],
+    "snapshot": {
+      "eyebrow": "Cover snapshot",
+      "title": "What a high‑signal cover letter does",
+      "subtitle": "It opens doors where resumes alone stall.",
+      "items": [
+        { "tag": "Relevance", "title": "Immediate role fit", "body": "Links your strengths to the role requirements." },
+        { "tag": "Signal", "title": "Impact evidence", "body": "Proves scope and outcomes without fluff." },
+        { "tag": "Clarity", "title": "Fast scan", "body": "Structured for busy hiring managers." }
+      ]
+    },
+    "mistakes": {
+      "eyebrow": "Common misses",
+      "title": "Why most cover letters get ignored",
+      "subtitle": "We eliminate the noise and focus on signal.",
+      "items": [
+        { "title": "Generic intros", "body": "No role-specific connection or value." },
+        { "title": "Vague claims", "body": "No proof of outcomes or scope." },
+        { "title": "Wall of text", "body": "Hard to scan, easy to skip." }
+      ]
+    },
+    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "deliverables", "steps", "for", "related", "faq", "cta"],
     "heroCard": {
       "title": "Cover letter signal",
       "body": "A concise narrative that shows why you fit the role and level.",
@@ -979,6 +1225,47 @@
       "accent": "rgba(255, 214, 102, 0.65)",
       "accent2": "rgba(114, 214, 255, 0.3)"
     },
+    "theme": "mock",
+    "heroGraphic": "mock",
+    "heroGraphicLabel": "Mock lab",
+    "heroModules": [
+      { "title": "Live simulation", "body": "A real interview format with time pressure.", "meta": "Execution" },
+      { "title": "Signal audit", "body": "We score scope, clarity, and decision-making.", "meta": "Leveling" },
+      { "title": "Action plan", "body": "Concrete fixes you can apply immediately.", "meta": "Iteration" }
+    ],
+    "heroStats": [
+      { "value": "60–75 min", "label": "Live mock session" },
+      { "value": "Same-day", "label": "Feedback summary" },
+      { "value": "1–2 mocks", "label": "Most common package" }
+    ],
+    "heroTrustLabel": "Trusted by candidates from",
+    "heroTrustLogos": [
+      { "src": "/assets/logos/testimonials/spotify.svg", "alt": "Spotify logo" },
+      { "src": "/assets/logos/testimonials/doordash.svg", "alt": "DoorDash logo" },
+      { "src": "/assets/logos/testimonials/coinbase.svg", "alt": "Coinbase logo" },
+      { "src": "/assets/logos/testimonials/github.svg", "alt": "GitHub logo" }
+    ],
+    "snapshot": {
+      "eyebrow": "Mock snapshot",
+      "title": "What you get from a mock interview",
+      "subtitle": "Clarity on what lands and what blocks offers.",
+      "items": [
+        { "tag": "Performance", "title": "Live reps", "body": "Practice with realistic timing and prompts." },
+        { "tag": "Signal", "title": "Level cues", "body": "See exactly where your signal drops." },
+        { "tag": "Fixes", "title": "Actionable feedback", "body": "Specific changes you can apply in the next round." }
+      ]
+    },
+    "mistakes": {
+      "eyebrow": "Common misses",
+      "title": "Why strong candidates still stumble",
+      "subtitle": "We correct the gaps that show up under pressure.",
+      "items": [
+        { "title": "Overexplaining", "body": "Long answers without clear outcomes or decisions." },
+        { "title": "Weak scope", "body": "Examples don’t show ownership or scale." },
+        { "title": "No trade-offs", "body": "Decision-making isn’t visible to interviewers." }
+      ]
+    },
+    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "steps", "deliverables", "for", "related", "faq", "cta"],
     "heroCard": {
       "title": "Mock interview lab",
       "body": "A safe space to sharpen answers and build confidence.",
@@ -1070,6 +1357,47 @@
       "accent": "rgba(87, 207, 196, 0.75)",
       "accent2": "rgba(114, 214, 255, 0.3)"
     },
+    "theme": "clarity",
+    "heroGraphic": "clarity",
+    "heroGraphicLabel": "Role compass",
+    "heroModules": [
+      { "title": "Role targeting", "body": "Define the exact role family and level.", "meta": "Clarity" },
+      { "title": "Comp band", "body": "Set a realistic range tied to market.", "meta": "Benchmark" },
+      { "title": "Execution plan", "body": "A step-by-step path to interviews.", "meta": "Momentum" }
+    ],
+    "heroStats": [
+      { "value": "1 session", "label": "Focused clarity call" },
+      { "value": "Role target", "label": "Clear role + level" },
+      { "value": "Execution plan", "label": "Actionable roadmap" }
+    ],
+    "heroTrustLabel": "Trusted by candidates from",
+    "heroTrustLogos": [
+      { "src": "/assets/logos/testimonials/airbnb.svg", "alt": "Airbnb logo" },
+      { "src": "/assets/logos/testimonials/figma.svg", "alt": "Figma logo" },
+      { "src": "/assets/logos/testimonials/notion.svg", "alt": "Notion logo" },
+      { "src": "/assets/logos/testimonials/shopify.svg", "alt": "Shopify logo" }
+    ],
+    "snapshot": {
+      "eyebrow": "Clarity snapshot",
+      "title": "What changes after a clarity session",
+      "subtitle": "You stop guessing and move with precision.",
+      "items": [
+        { "tag": "Direction", "title": "Clear role target", "body": "No more scattered applications." },
+        { "tag": "Leveling", "title": "Comp + level fit", "body": "A realistic band for your profile." },
+        { "tag": "Plan", "title": "Execution roadmap", "body": "A simple path to follow next." }
+      ]
+    },
+    "mistakes": {
+      "eyebrow": "Common misses",
+      "title": "Why searches stall without clarity",
+      "subtitle": "We remove the uncertainty that slows momentum.",
+      "items": [
+        { "title": "Too many targets", "body": "Applying to every role weakens your signal." },
+        { "title": "Level drift", "body": "No clear level makes interviews inconsistent." },
+        { "title": "No plan", "body": "Tactics without strategy don’t convert." }
+      ]
+    },
+    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "steps", "deliverables", "for", "related", "faq", "cta"],
     "heroCard": {
       "title": "Clarity session",
       "body": "A focused session to define the right role and path.",
@@ -1161,6 +1489,47 @@
       "accent": "rgba(114, 214, 255, 0.7)",
       "accent2": "rgba(255, 214, 102, 0.25)"
     },
+    "theme": "offer",
+    "heroGraphic": "offer",
+    "heroGraphicLabel": "Offer control",
+    "heroModules": [
+      { "title": "Timeline control", "body": "Align and extend offers to protect leverage.", "meta": "Timing" },
+      { "title": "Leverage map", "body": "Use competing offers and priorities smartly.", "meta": "Strategy" },
+      { "title": "Decision matrix", "body": "Compare total comp and role fit in one view.", "meta": "Decision" }
+    ],
+    "heroStats": [
+      { "value": "2–5 days", "label": "Typical turnaround" },
+      { "value": "Total comp", "label": "Base + equity + bonus" },
+      { "value": "Multi-offer", "label": "Decision support" }
+    ],
+    "heroTrustLabel": "Trusted by candidates from",
+    "heroTrustLogos": [
+      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
+      { "src": "/assets/logos/testimonials/uber.svg", "alt": "Uber logo" },
+      { "src": "/assets/logos/testimonials/salesforce.svg", "alt": "Salesforce logo" },
+      { "src": "/assets/logos/testimonials/shopify.svg", "alt": "Shopify logo" }
+    ],
+    "snapshot": {
+      "eyebrow": "Offer snapshot",
+      "title": "What changes with offer strategy",
+      "subtitle": "You control timing, leverage, and the final decision.",
+      "items": [
+        { "tag": "Timing", "title": "Control the clock", "body": "Align offers to maximize leverage." },
+        { "tag": "Leverage", "title": "Negotiate smart", "body": "Use alternatives without risk." },
+        { "tag": "Decision", "title": "Choose with confidence", "body": "Total comp and role fit in one view." }
+      ]
+    },
+    "mistakes": {
+      "eyebrow": "Common misses",
+      "title": "Why offers go sideways",
+      "subtitle": "We prevent costly mistakes in the final steps.",
+      "items": [
+        { "title": "Rushed timelines", "body": "Accepting before all offers are aligned." },
+        { "title": "Unclear leverage", "body": "Negotiating without a plan or backup." },
+        { "title": "Base-only focus", "body": "Ignoring equity, scope, and growth path." }
+      ]
+    },
+    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "steps", "deliverables", "for", "related", "faq", "cta"],
     "heroCard": {
       "title": "Offer control",
       "body": "A plan for timing, leverage, and decision‑making.",
@@ -1252,6 +1621,47 @@
       "accent": "rgba(114, 214, 255, 0.75)",
       "accent2": "rgba(87, 207, 196, 0.3)"
     },
+    "theme": "ats",
+    "heroGraphic": "ats",
+    "heroGraphicLabel": "ATS scan",
+    "heroModules": [
+      { "title": "ATS scan", "body": "Check parsing, structure, and keyword alignment.", "meta": "Diagnostics" },
+      { "title": "Signal gaps", "body": "Find where scope and impact are unclear.", "meta": "Leveling" },
+      { "title": "Fix roadmap", "body": "Actionable changes to lift response.", "meta": "Execution" }
+    ],
+    "heroStats": [
+      { "value": "2–3 days", "label": "Typical turnaround" },
+      { "value": "Keyword map", "label": "Role-aligned terms" },
+      { "value": "Fix plan", "label": "Prioritized changes" }
+    ],
+    "heroTrustLabel": "Trusted by candidates from",
+    "heroTrustLogos": [
+      { "src": "/assets/logos/testimonials/linkedin.svg", "alt": "LinkedIn logo" },
+      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
+      { "src": "/assets/logos/testimonials/microsoft.svg", "alt": "Microsoft logo" },
+      { "src": "/assets/logos/testimonials/github.svg", "alt": "GitHub logo" }
+    ],
+    "snapshot": {
+      "eyebrow": "Audit snapshot",
+      "title": "What the ATS audit delivers",
+      "subtitle": "Clear blockers, clear fixes.",
+      "items": [
+        { "tag": "Parsing", "title": "ATS clarity", "body": "Structure and keywords that parse correctly." },
+        { "tag": "Signal", "title": "Level cues", "body": "Spot missing scope and impact indicators." },
+        { "tag": "Fixes", "title": "Action plan", "body": "A prioritized roadmap of changes." }
+      ]
+    },
+    "mistakes": {
+      "eyebrow": "Common misses",
+      "title": "Why resumes fail ATS screens",
+      "subtitle": "We surface the silent blockers.",
+      "items": [
+        { "title": "Formatting errors", "body": "Tables, columns, or headers that break parsing." },
+        { "title": "Keyword drift", "body": "Missing role-family language recruiters filter for." },
+        { "title": "Weak scope", "body": "Impact and level aren’t obvious to humans." }
+      ]
+    },
+    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "steps", "deliverables", "for", "related", "faq", "cta"],
     "heroCard": {
       "title": "ATS + signal audit",
       "body": "A diagnostic that shows what’s blocking interviews.",
