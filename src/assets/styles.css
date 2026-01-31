@@ -335,7 +335,7 @@ a {
 .hero-next-role {
   position: relative;
   overflow: hidden;
-  padding: 120px 0 92px;
+  padding: 96px 0 76px;
   background:
     radial-gradient(circle at 12% 12%, rgba(114, 214, 255, 0.18), transparent 50%),
     radial-gradient(circle at 88% 18%, rgba(60, 162, 216, 0.16), transparent 45%),
@@ -371,7 +371,7 @@ a {
   z-index: 1;
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
-  gap: 56px;
+  gap: 46px;
   align-items: center;
 }
 
@@ -388,14 +388,14 @@ a {
 
 .hero-next-title {
   font-family: "Sora", "Segoe UI", system-ui, sans-serif;
-  font-size: clamp(2.7rem, 4.6vw, 4.1rem);
+  font-size: clamp(2.5rem, 4.2vw, 3.9rem);
   line-height: 1.05;
   margin: 0;
   color: #f6f9ff;
 }
 
 .hero-next-subtitle {
-  font-size: 1.15rem;
+  font-size: 1.08rem;
   font-weight: 500;
   color: rgba(240, 246, 255, 0.86);
   margin: 0;
@@ -403,6 +403,7 @@ a {
 
 .hero-next-supporting {
   color: rgba(214, 225, 240, 0.82);
+  font-size: 0.98rem;
   margin: 0;
 }
 
@@ -464,23 +465,39 @@ a {
 }
 
 .hero-next-visual {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 14px;
   animation: fadeUp 0.8s ease both;
   animation-delay: 0.15s;
 }
 
+.hero-next-visual::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 16px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(114, 214, 255, 0.35), rgba(114, 214, 255, 0));
+  animation: heroPulse 6s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
 .hero-next-panel {
   position: relative;
-  padding: 18px;
+  padding: 16px;
   border-radius: 28px;
   background: rgba(10, 16, 24, 0.72);
   border: 1px solid rgba(255, 255, 255, 0.08);
   display: grid;
-  gap: 16px;
+  gap: 12px;
   box-shadow: 0 32px 80px rgba(5, 8, 14, 0.55);
   backdrop-filter: blur(18px);
+  z-index: 1;
 }
 
 .hero-next-panel::before {
@@ -500,7 +517,18 @@ a {
   position: relative;
   border-radius: 22px;
   overflow: hidden;
-  min-height: 220px;
+  min-height: 190px;
+}
+
+.hero-next-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 35%, rgba(114, 214, 255, 0.18), transparent 65%);
+  opacity: 0.6;
+  transform: translateX(-60%);
+  animation: heroSweep 7s ease-in-out infinite;
+  pointer-events: none;
 }
 
 .hero-next-image img {
@@ -527,7 +555,7 @@ a {
 
 .hero-next-card {
   border-radius: 20px;
-  padding: 18px 18px 16px;
+  padding: 14px 16px 14px;
   background: linear-gradient(150deg, rgba(21, 28, 40, 0.9), rgba(10, 16, 24, 0.85));
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -546,9 +574,9 @@ a {
 }
 
 .hero-next-card p {
-  margin: 12px 0 12px;
+  margin: 8px 0 10px;
   color: rgba(220, 232, 248, 0.86);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 .hero-next-list {
@@ -563,7 +591,7 @@ a {
   display: flex;
   gap: 10px;
   color: rgba(220, 232, 248, 0.82);
-  font-size: 0.9rem;
+  font-size: 0.86rem;
 }
 
 .hero-next-list li::before {
@@ -575,12 +603,12 @@ a {
 .hero-next-metrics {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
+  gap: 10px;
 }
 
 .hero-next-metric {
   border-radius: 16px;
-  padding: 14px 12px;
+  padding: 10px 12px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: rgba(10, 15, 22, 0.6);
   text-align: left;
@@ -589,21 +617,21 @@ a {
 .hero-next-metric strong {
   display: block;
   color: #f5f9ff;
-  font-size: 1.05rem;
+  font-size: 0.98rem;
   margin-bottom: 4px;
 }
 
 .hero-next-metric span {
   color: rgba(204, 214, 228, 0.8);
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
 .hero-next-timeline {
   display: grid;
-  gap: 10px;
-  padding: 16px;
+  gap: 8px;
+  padding: 10px 12px;
   border-radius: 18px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: rgba(8, 12, 18, 0.7);
@@ -613,6 +641,16 @@ a {
   display: flex;
   align-items: baseline;
   gap: 12px;
+}
+
+.hero-next-step::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(114, 214, 255, 0.85);
+  box-shadow: 0 0 10px rgba(114, 214, 255, 0.4);
+  margin-top: 6px;
 }
 
 .hero-next-step span {
@@ -626,7 +664,20 @@ a {
 .hero-next-step p {
   margin: 0;
   color: rgba(214, 226, 243, 0.82);
-  font-size: 0.9rem;
+  font-size: 0.86rem;
+}
+
+@keyframes heroPulse {
+  0% { transform: translateY(0) scale(1); opacity: 0.55; }
+  50% { transform: translateY(6px) scale(1.08); opacity: 0.35; }
+  100% { transform: translateY(0) scale(1); opacity: 0.55; }
+}
+
+@keyframes heroSweep {
+  0% { transform: translateX(-60%); opacity: 0; }
+  20% { opacity: 0.5; }
+  60% { opacity: 0.65; }
+  100% { transform: translateX(60%); opacity: 0; }
 }
 
 @media (max-width: 980px) {
@@ -643,7 +694,7 @@ a {
   }
 
   .hero-next-title {
-    font-size: clamp(2.4rem, 7vw, 3.4rem);
+    font-size: clamp(2.3rem, 7vw, 3.3rem);
   }
 
   .hero-next-logos img {
@@ -666,6 +717,16 @@ a {
 
   .hero-next-logos {
     gap: 14px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .hero-next-role {
+    padding: 92px 0 70px;
+  }
+
+  .hero-next-image {
+    min-height: 180px;
   }
 }
 
