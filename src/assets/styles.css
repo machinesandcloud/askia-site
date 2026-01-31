@@ -336,9 +336,10 @@ a {
   position: relative;
   overflow: hidden;
   padding: 120px 0 92px;
-  background: radial-gradient(circle at 8% 12%, rgba(88, 221, 178, 0.18), transparent 50%),
-    radial-gradient(circle at 88% 10%, rgba(255, 198, 124, 0.16), transparent 45%),
-    linear-gradient(140deg, #0b111a 0%, #0f1824 45%, #0b131c 100%);
+  background:
+    radial-gradient(circle at 12% 12%, rgba(114, 214, 255, 0.18), transparent 50%),
+    radial-gradient(circle at 88% 18%, rgba(60, 162, 216, 0.16), transparent 45%),
+    linear-gradient(135deg, #0c121a 0%, #111a24 50%, #0b1118 100%);
 }
 
 .hero-next-role::before,
@@ -354,13 +355,13 @@ a {
 }
 
 .hero-next-role::before {
-  background: rgba(88, 221, 178, 0.4);
+  background: rgba(114, 214, 255, 0.35);
   top: -220px;
   right: -120px;
 }
 
 .hero-next-role::after {
-  background: rgba(255, 198, 124, 0.35);
+  background: rgba(60, 162, 216, 0.28);
   bottom: -260px;
   left: -180px;
 }
@@ -379,6 +380,10 @@ a {
   flex-direction: column;
   gap: 14px;
   animation: fadeUp 0.8s ease both;
+}
+
+.hero-next-role .hero-eyebrow {
+  color: rgba(114, 214, 255, 0.7);
 }
 
 .hero-next-title {
@@ -428,11 +433,34 @@ a {
 .hero-next-role .btn-primary {
   background: linear-gradient(125deg, var(--hero-next-accent), var(--hero-next-accent-2));
   color: #071219;
-  box-shadow: 0 16px 38px rgba(88, 221, 178, 0.25);
+  box-shadow: 0 16px 38px rgba(114, 214, 255, 0.28);
 }
 
 .hero-next-role .btn-ghost {
   border-color: rgba(255, 255, 255, 0.18);
+}
+
+.hero-next-trust {
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: rgba(214, 226, 243, 0.75);
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+}
+
+.hero-next-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: center;
+}
+
+.hero-next-logos img {
+  height: 20px;
+  opacity: 0.7;
+  filter: grayscale(1) brightness(1.4);
 }
 
 .hero-next-visual {
@@ -444,6 +472,7 @@ a {
 }
 
 .hero-next-panel {
+  position: relative;
   padding: 18px;
   border-radius: 28px;
   background: rgba(10, 16, 24, 0.72);
@@ -452,6 +481,19 @@ a {
   gap: 16px;
   box-shadow: 0 32px 80px rgba(5, 8, 14, 0.55);
   backdrop-filter: blur(18px);
+}
+
+.hero-next-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 28px;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(114, 214, 255, 0.35), rgba(60, 162, 216, 0.12), transparent 60%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
 }
 
 .hero-next-image {
@@ -496,8 +538,8 @@ a {
   gap: 8px;
   padding: 6px 12px;
   border-radius: 999px;
-  background: rgba(88, 221, 178, 0.15);
-  color: rgba(204, 255, 237, 0.9);
+  background: rgba(114, 214, 255, 0.15);
+  color: rgba(210, 236, 255, 0.9);
   font-size: 0.72rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -603,6 +645,10 @@ a {
   .hero-next-title {
     font-size: clamp(2.4rem, 7vw, 3.4rem);
   }
+
+  .hero-next-logos img {
+    height: 18px;
+  }
 }
 
 @media (max-width: 680px) {
@@ -616,6 +662,10 @@ a {
 
   .hero-next-step span {
     min-width: 58px;
+  }
+
+  .hero-next-logos {
+    gap: 14px;
   }
 }
 

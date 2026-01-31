@@ -21,6 +21,16 @@
           <a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a>
         {% endif %}
       </div>
+      {% if page.heroTrustLogos and page.heroTrustLogos.length %}
+      <div class="hero-next-trust">
+        <span>{{ page.heroTrustLabel or "Trusted by candidates from" }}</span>
+        <div class="hero-next-logos">
+          {% for item in page.heroTrustLogos %}
+            <img src="{{ item.src }}" alt="{{ item.alt }}" loading="lazy" />
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
       {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
     </div>
     {% set heroImages = page.heroImages or site.heroImages %}

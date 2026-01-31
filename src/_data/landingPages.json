@@ -11,15 +11,23 @@
     ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
-    "ctaProof": "",
+    "ctaProof": "15‑min fit check · No pressure · Clear next steps",
     "secondaryCtaLabel": "Take the Career Readiness Index™",
     "secondaryCtaLink": "/career-readiness-index/",
     "visual": {
       "style": "next-role",
-      "accent": "rgba(88, 221, 178, 0.95)",
-      "accent2": "rgba(255, 198, 124, 0.9)"
+      "accent": "rgba(114, 214, 255, 0.95)",
+      "accent2": "rgba(60, 162, 216, 0.9)"
     },
     "heroTag": "Signal-led coaching",
+    "heroTrustLabel": "Trusted by candidates from",
+    "heroTrustLogos": [
+      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
+      { "src": "/assets/logos/testimonials/microsoft.svg", "alt": "Microsoft logo" },
+      { "src": "/assets/logos/testimonials/figma.svg", "alt": "Figma logo" },
+      { "src": "/assets/logos/testimonials/shopify.svg", "alt": "Shopify logo" },
+      { "src": "/assets/logos/testimonials/uber.svg", "alt": "Uber logo" }
+    ],
     "heroStats": [
       { "value": "$100K–$350K", "label": "Offer ranges across tech roles" },
       { "value": "2–6 weeks", "label": "Typical time to interview momentum" },
