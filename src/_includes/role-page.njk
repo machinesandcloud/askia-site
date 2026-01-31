@@ -151,6 +151,7 @@
   { "title": "Interview story map", "body": "Reusable stories mapped to signals.", "chips": ["STAR", "Trade-offs", "Outcomes"] },
   { "title": "Offer decision view", "body": "A simple way to compare offers.", "chips": ["Total comp", "Role fit", "Growth"] }
 ] %}
+{% set roleBadges = roleHomeBullets %}
 {% set roleScoreTitle = "Role signal scorecard" %}
 {% set roleScore = [
   { "label": "Scope + ownership", "value": "Primary signal" },
@@ -594,7 +595,8 @@
   ] %}
 {% endif %}
 
-<section class="role-hero role-theme-{{ roleKey }}" style="--role-accent: {{ page.visual.accent }}; --role-accent-2: {{ page.visual.accent2 }};">
+<div class="role-page" style="--role-accent: {{ page.visual.accent }}; --role-accent-2: {{ page.visual.accent2 }};">
+<section class="role-hero role-theme-{{ roleKey }}">
   <div class="container role-hero-grid">
     <div class="role-hero-copy">
       {% if page.eyebrow %}<p class="hero-eyebrow">{{ page.eyebrow }}</p>{% endif %}
@@ -631,6 +633,13 @@
               <li>{{ item }}</li>
             {% endfor %}
           </ul>
+        {% endif %}
+        {% if roleBadges %}
+        <div class="role-hero-badges">
+          {% for item in roleBadges %}
+            <span>{{ item }}</span>
+          {% endfor %}
+        </div>
         {% endif %}
       </div>
       {% endif %}
@@ -928,3 +937,4 @@
     <a class="btn btn-primary" href="{{ page.cta.link or site.cta.link }}">{{ page.cta.label or site.cta.label }}</a>
   </div>
 </section>
+</div>

@@ -1040,7 +1040,7 @@ a {
 
 .artifact-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   gap: 10px;
   margin-bottom: 10px;
@@ -1062,8 +1062,16 @@ a {
   fill: none;
   stroke: var(--role-accent);
   stroke-width: 3;
+  display: block;
 }
 
+.artifact-top strong {
+  flex: 1;
+}
+
+.artifact-top span {
+  margin-left: auto;
+}
 .artifact-top span {
   padding: 6px 12px;
   border-radius: 999px;
@@ -1288,6 +1296,24 @@ a {
   gap: 6px;
 }
 
+.role-hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.role-hero-badges span {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(114, 214, 255, 0.16);
+  color: rgba(210, 236, 255, 0.9);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  animation: badgePulse 6s ease-in-out infinite;
+}
+
 .role-hero-stats {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1427,6 +1453,7 @@ a {
   fill: none;
   stroke: var(--role-accent);
   stroke-width: 3;
+  display: block;
 }
 
 .role-score .role-score-grid {
@@ -1474,6 +1501,27 @@ a {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+}
+
+.artifact-card,
+.role-preview-card,
+.role-score-card,
+.role-metric-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.artifact-card:hover,
+.role-preview-card:hover,
+.role-score-card:hover,
+.role-metric-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 36px rgba(5, 8, 14, 0.35);
+}
+
+@keyframes badgePulse {
+  0% { opacity: 0.85; transform: translateY(0); }
+  50% { opacity: 1; transform: translateY(-2px); }
+  100% { opacity: 0.85; transform: translateY(0); }
 }
 .role-loop-item {
   padding: 10px 12px;
@@ -1543,6 +1591,7 @@ a {
   fill: none;
   stroke: var(--role-accent);
   stroke-width: 3;
+  display: block;
 }
 
 .role-preview-card p {
