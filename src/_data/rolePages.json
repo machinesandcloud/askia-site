@@ -1,7 +1,7 @@
 {
   "softwareEngineer": {
     "eyebrow": "Software engineer career coaching",
-    "h1": "Career Coaching for Software Engineers Targeting $100K–$350K Roles",
+    "h1": "Software Engineer Coaching for Senior, Staff, and Principal Roles",
     "subtitle": "Positioning, interview prep, and offer strategy built for software engineering roles.",
     "supporting": "We clarify your level, refine your narrative, and build the interview signal that wins senior SWE offers.",
     "highlights": [
@@ -297,7 +297,7 @@
   },
   "data": {
     "eyebrow": "Data career coaching",
-    "h1": "Career Coaching for Data Professionals Targeting $100K–$300K Roles",
+    "h1": "Data Career Coaching for Analytics, Engineering, and Science",
     "subtitle": "Positioning for data engineering, analytics, and data science roles.",
     "supporting": "We help you translate data impact into clear business outcomes and senior‑level signal.",
     "highlights": [
@@ -445,7 +445,7 @@
   },
   "productManager": {
     "eyebrow": "Product manager career coaching",
-    "h1": "Career Coaching for Product Managers Targeting $120K–$300K Roles",
+    "h1": "Product Manager Coaching for Strategy and Execution",
     "subtitle": "Positioning, storytelling, and offer strategy for product roles.",
     "supporting": "We clarify your product impact and turn it into a narrative that wins PM interviews.",
     "highlights": [
@@ -593,7 +593,7 @@
   },
   "engineeringManager": {
     "eyebrow": "Engineering manager coaching",
-    "h1": "Career Coaching for Engineering Managers Targeting $150K–$350K Roles",
+    "h1": "Engineering Manager Coaching for Leadership and Scale",
     "subtitle": "Leadership positioning and interview strategy for engineering managers.",
     "supporting": "We help you communicate org impact, leadership scope, and decision‑making that wins EM offers.",
     "highlights": [
@@ -741,7 +741,7 @@
   },
   "cybersecurity": {
     "eyebrow": "Cybersecurity career coaching",
-    "h1": "Career Coaching for Cybersecurity Professionals Targeting $120K–$300K Roles",
+    "h1": "Cybersecurity Coaching for Risk and Defense Roles",
     "subtitle": "Positioning, interview prep, and offer strategy for security roles.",
     "supporting": "We translate security work into business‑critical impact and leadership signal.",
     "highlights": ["Security narrative", "Risk + impact framing", "Interview readiness"],
@@ -923,7 +923,7 @@
   },
   "productDesign": {
     "eyebrow": "Product design career coaching",
-    "h1": "Career Coaching for Product Designers Targeting $100K–$250K Roles",
+    "h1": "Product Design Coaching for Product Impact",
     "subtitle": "Portfolio story, interview prep, and offer strategy for design roles.",
     "supporting": "We turn design work into leadership signal and clear impact.",
     "highlights": ["Portfolio narrative", "Design impact", "Interview readiness"],
@@ -1196,7 +1196,7 @@
   },
   "salesEngineer": {
     "eyebrow": "Sales engineer coaching",
-    "h1": "Career Coaching for Sales Engineers Targeting $120K–$300K Roles",
+    "h1": "Sales Engineer Coaching for Pre-Sales Impact",
     "subtitle": "Positioning, interview prep, and offer strategy for technical sales.",
     "supporting": "We align technical depth with revenue impact narratives.",
     "highlights": ["Technical + sales signal", "Customer impact", "Interview readiness"],
@@ -1287,7 +1287,7 @@
   },
   "customerSuccess": {
     "eyebrow": "Customer success coaching",
-    "h1": "Career Coaching for Customer Success Professionals Targeting $90K–$200K Roles",
+    "h1": "Customer Success Coaching for Retention and Growth",
     "subtitle": "Positioning and interview prep for CS and client success roles.",
     "supporting": "We translate retention and expansion impact into leadership signal.",
     "highlights": ["Retention impact", "Account growth", "Interview readiness"],

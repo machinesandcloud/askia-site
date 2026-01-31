@@ -1,7 +1,7 @@
 {
   "resumeWriting": {
     "eyebrow": "Resume writing for tech professionals",
-    "h1": "Resume Writing for $100K–$350K Tech Roles",
+    "h1": "Resume Writing for Senior Tech Roles",
     "subtitle": "A senior‑signal resume built for recruiters, hiring managers, and ATS.",
     "supporting": "We turn your experience into impact language that clearly signals level, scope, and results.",
     "highlights": [
@@ -219,7 +219,7 @@
   },
   "linkedinOptimization": {
     "eyebrow": "LinkedIn optimization for tech",
-    "h1": "LinkedIn Optimization for $100K–$350K Tech Roles",
+    "h1": "LinkedIn Optimization for High-Signal Profiles",
     "subtitle": "Turn your profile into a recruiter‑ready narrative and inbound engine.",
     "supporting": "We build a profile that mirrors your seniority, makes your impact obvious, and drives the right outreach.",
     "highlights": [
@@ -433,7 +433,7 @@
   },
   "interviewPrep": {
     "eyebrow": "Interview prep for tech roles",
-    "h1": "Interview Prep for $100K–$350K Tech Roles",
+    "h1": "Interview Prep for High-Stakes Tech Loops",
     "subtitle": "Structured practice that turns experience into confident, repeatable answers.",
     "supporting": "We build your story bank, run focused mocks, and sharpen technical + behavioral signal.",
     "highlights": [
@@ -647,7 +647,7 @@
   },
   "salaryNegotiation": {
     "eyebrow": "Salary negotiation for tech",
-    "h1": "Salary Negotiation for $100K–$350K Tech Roles",
+    "h1": "Salary Negotiation Strategy for Tech Offers",
     "subtitle": "Negotiate with confidence and a clear compensation strategy.",
     "supporting": "We build leverage and a negotiation plan tied to your role, level, and market range.",
     "highlights": [
@@ -861,7 +861,7 @@
   },
   "executiveCoaching": {
     "eyebrow": "Executive coaching for engineering leaders",
-    "h1": "Executive Coaching for $150K–$350K Engineering Leaders",
+    "h1": "Executive Coaching for Engineering Leaders",
     "subtitle": "Positioning and leadership narrative for managers, directors, and exec‑track leaders.",
     "supporting": "We build leadership signal, executive narrative, and offer strategy aligned to senior scope.",
     "highlights": [
@@ -1075,7 +1075,7 @@
   },
   "coverLetterWriting": {
     "eyebrow": "Cover letter writing for tech",
-    "h1": "Cover Letter Writing for $100K–$350K Tech Roles",
+    "h1": "Cover Letter Writing That Gets Read",
     "subtitle": "A targeted cover letter that earns the read and opens the loop.",
     "supporting": "We craft role‑specific messaging that makes your story clear in under 30 seconds.",
     "highlights": [
@@ -1211,7 +1211,7 @@
   },
   "mockInterviews": {
     "eyebrow": "Mock interviews for tech roles",
-    "h1": "Mock Interviews for $100K–$350K Tech Roles",
+    "h1": "Mock Interviews for Confident Performance",
     "subtitle": "Practice that turns anxiety into execution.",
     "supporting": "We simulate real interviews and give you feedback you can act on.",
     "highlights": ["Live practice", "Role‑specific questions", "Clear feedback"],
@@ -1343,7 +1343,7 @@
   },
   "careerClarity": {
     "eyebrow": "Career clarity coaching",
-    "h1": "Career Clarity for $100K–$350K Tech Roles",
+    "h1": "Career Clarity Coaching for Your Next Role",
     "subtitle": "Define the right role, level, and path — fast.",
     "supporting": "We turn confusion into a concrete target and plan.",
     "highlights": ["Role targeting", "Level clarity", "Search strategy"],
@@ -1475,7 +1475,7 @@
   },
   "offerStrategy": {
     "eyebrow": "Offer strategy for tech roles",
-    "h1": "Offer Strategy for $100K–$350K Tech Roles",
+    "h1": "Offer Strategy for Closing the Right Role",
     "subtitle": "Get the structure and leverage to close the right offer.",
     "supporting": "We help you manage timelines, leverage, and total comp decisions.",
     "highlights": ["Offer strategy", "Leverage mapping", "Decision framework"],
@@ -1607,7 +1607,7 @@
   },
   "atsAudit": {
     "eyebrow": "ATS audit for tech resumes",
-    "h1": "ATS Audit for $100K–$350K Tech Roles",
+    "h1": "ATS Audit for Resume Signal Gaps",
     "subtitle": "Find the exact blockers in your resume and fix them fast.",
     "supporting": "We identify ATS issues and signal gaps that stall interviews.",
     "highlights": ["ATS diagnostics", "Signal gaps", "Fix plan"],
