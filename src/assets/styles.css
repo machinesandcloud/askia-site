@@ -104,6 +104,41 @@ a {
   align-items: center;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.nav-toggle {
+  display: none;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(10, 16, 26, 0.7);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 16px 30px rgba(6, 10, 16, 0.35);
+}
+
+.nav-toggle-bar {
+  width: 20px;
+  height: 2px;
+  border-radius: 999px;
+  background: rgba(244, 247, 251, 0.95);
+}
+
 .nav-link {
   position: relative;
   padding-bottom: 4px;
@@ -1007,6 +1042,12 @@ a {
   stroke-width: 3;
 }
 
+.signal-icon svg * {
+  fill: none;
+  stroke: var(--theme-accent);
+  stroke-width: 3;
+}
+
 .signal-map-card h3 {
   margin: 0 0 6px;
   font-size: 1.05rem;
@@ -1063,6 +1104,12 @@ a {
   stroke: var(--role-accent);
   stroke-width: 3;
   display: block;
+}
+
+.artifact-icon svg * {
+  fill: none;
+  stroke: var(--role-accent);
+  stroke-width: 3;
 }
 
 .artifact-top strong {
@@ -1373,6 +1420,12 @@ a {
   stroke-width: 3;
 }
 
+.role-signal-icon svg * {
+  fill: none;
+  stroke: var(--role-accent);
+  stroke-width: 3;
+}
+
 .role-signal-card span {
   color: rgba(114, 214, 255, 0.8);
   font-size: 0.72rem;
@@ -1456,6 +1509,12 @@ a {
   display: block;
 }
 
+.chip-icon svg * {
+  fill: none;
+  stroke: var(--role-accent);
+  stroke-width: 3;
+}
+
 .role-score .role-score-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -1486,6 +1545,12 @@ a {
 .role-score-icon svg {
   width: 22px;
   height: 22px;
+  fill: none;
+  stroke: var(--role-accent);
+  stroke-width: 3;
+}
+
+.role-score-icon svg * {
   fill: none;
   stroke: var(--role-accent);
   stroke-width: 3;
@@ -1592,6 +1657,12 @@ a {
   stroke: var(--role-accent);
   stroke-width: 3;
   display: block;
+}
+
+.preview-icon svg * {
+  fill: none;
+  stroke: var(--role-accent);
+  stroke-width: 3;
 }
 
 .role-preview-card p {
@@ -3741,6 +3812,20 @@ a {
   isolation: isolate;
 }
 
+.service-carousel-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 24px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+}
+
+.service-carousel-top .pillar-header {
+  max-width: 640px;
+}
+
 .carousel-header {
   max-width: 620px;
 }
@@ -3835,6 +3920,11 @@ a {
   filter: saturate(0.88) brightness(0.9);
   transform: scale(0.97);
   backdrop-filter: blur(16px);
+}
+
+.service-carousel .services-card {
+  display: flex;
+  flex-direction: column;
 }
 
 .carousel-card::before {
@@ -5285,17 +5375,24 @@ a {
 
 @media (max-width: 760px) {
   .nav {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
   .nav-links {
+    display: none;
     width: 100%;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    order: 3;
+    padding: 12px 0 6px;
+    gap: 10px;
   }
 
   .nav .btn-ghost {
+    display: none;
     width: 100%;
+    order: 4;
   }
 
   .nav-item {
@@ -5303,6 +5400,24 @@ a {
     flex-direction: column;
     align-items: stretch;
     gap: 8px;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+    margin-left: auto;
+    order: 2;
+  }
+
+  .nav-open .nav {
+    flex-wrap: wrap;
+  }
+
+  .nav-open .nav-links {
+    display: flex;
+  }
+
+  .nav-open .nav .btn-ghost {
+    display: inline-flex;
   }
 
   .nav-dropdown {

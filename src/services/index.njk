@@ -71,30 +71,42 @@ breadcrumbs:
 
 <section class="section services-grid">
   <div class="container">
-    <div class="pillar-header">
-      <p class="hero-eyebrow">Core services</p>
-      <h2 class="section-title section-title-glow">Choose the path that fits your stage</h2>
-      <p class="section-subtitle">Start lean or go all‑in with a full brand rebuild.</p>
-    </div>
-    <div class="services-grid-cards" data-services-carousel>
-      {% for tier in services.tiers %}
-        <article class="services-card{% if tier.tag == 'Most Popular' %} is-featured{% endif %}">
-          <span class="services-tag">{{ tier.tag }}</span>
-          <h3>{{ tier.title }}</h3>
-          <p class="services-price">{{ tier.price }}</p>
-          <p>{{ tier.body }}</p>
-          <ul>
-            {% for bullet in tier.bullets %}
-              <li>{{ bullet }}</li>
-            {% endfor %}
-          </ul>
-          <div class="services-meta">
-            <span>{{ tier.ideal }}</span>
-            <span>{{ tier.turnaround }}</span>
-          </div>
-          <a class="btn btn-primary btn-buy" href="{{ tier.buyLink }}">Buy now</a>
-        </article>
-      {% endfor %}
+    <div class="service-carousel">
+      <div class="service-carousel-top">
+        <div class="pillar-header">
+          <p class="hero-eyebrow">Core services</p>
+          <h2 class="section-title section-title-glow">Choose the path that fits your stage</h2>
+          <p class="section-subtitle">Start lean or go all‑in with a full brand rebuild.</p>
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-btn" type="button" data-carousel-prev>Prev</button>
+          <button class="carousel-btn" type="button" data-carousel-next>Next</button>
+        </div>
+      </div>
+      <div class="carousel-viewport" data-service-carousel>
+        <div class="carousel-track" data-service-track>
+          {% for tier in services.tiers %}
+            <article class="carousel-card services-card{% if tier.tag == 'Most Popular' %} is-featured{% endif %}">
+              <span class="services-tag">{{ tier.tag }}</span>
+              <span class="card-graphic" aria-hidden="true"></span>
+              <h3>{{ tier.title }}</h3>
+              <p class="services-price">{{ tier.price }}</p>
+              <p>{{ tier.body }}</p>
+              <ul>
+                {% for bullet in tier.bullets %}
+                  <li>{{ bullet }}</li>
+                {% endfor %}
+              </ul>
+              <div class="services-meta">
+                <span>{{ tier.ideal }}</span>
+                <span>{{ tier.turnaround }}</span>
+              </div>
+              <a class="btn btn-primary btn-buy" href="{{ tier.buyLink }}">Buy now</a>
+            </article>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="carousel-dots" data-carousel-dots></div>
     </div>
   </div>
 </section>

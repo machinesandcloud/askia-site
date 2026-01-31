@@ -21,7 +21,13 @@
         <a class="brand" href="/" aria-label="Askia">
           <img src="/assets/logo-wordmark.png" alt="Askia" class="brand-wordmark" />
         </a>
-        <nav class="nav-links" aria-label="Primary">
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <nav class="nav-links" id="primary-navigation" aria-label="Primary">
           {% for item in site.nav %}
             {% if item.groups %}
               <div class="nav-item">
@@ -118,6 +124,26 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", () => {
+        const navToggle = document.querySelector(".nav-toggle");
+        if (navToggle) {
+          const closeNav = () => {
+            document.body.classList.remove("nav-open");
+            navToggle.setAttribute("aria-expanded", "false");
+          };
+          navToggle.addEventListener("click", () => {
+            const isOpen = document.body.classList.toggle("nav-open");
+            navToggle.setAttribute("aria-expanded", String(isOpen));
+          });
+          document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape") closeNav();
+          });
+          document.querySelectorAll(".nav-links a").forEach((link) => {
+            link.addEventListener("click", closeNav);
+          });
+          window.addEventListener("resize", () => {
+            if (window.innerWidth > 760) closeNav();
+          });
+        }
         const serviceCarousel = document.querySelector("[data-service-carousel]");
         if (serviceCarousel) {
           const track = serviceCarousel.querySelector("[data-service-track]");
