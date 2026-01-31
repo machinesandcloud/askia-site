@@ -705,7 +705,7 @@
         { "title": "Timing errors", "body": "Asking too early or too late kills momentum." }
       ]
     },
-    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "steps", "deliverables", "roleLinks", "for", "related", "faq", "cta"],
+    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "steps", "deliverables", "for", "related", "faq", "cta"],
     "heroCard": {
       "title": "Negotiation strategy",
       "body": "Walk into offer conversations with leverage, not guesswork.",
@@ -919,7 +919,7 @@
         { "title": "Offer misalignment", "body": "Negotiation isn’t tied to leadership path." }
       ]
     },
-    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "roleLinks", "steps", "for", "related", "faq", "cta"],
+    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "steps", "for", "related", "faq", "cta"],
     "heroCard": {
       "title": "Executive signal upgrade",
       "body": "Clarify your leadership story, scope, and outcomes for executive‑level roles.",
