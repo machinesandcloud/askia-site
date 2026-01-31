@@ -10,17 +10,26 @@ breadcrumbs:
   - name: "About"
     url: "/about/"
 ---
-<section class="hero about-hero">
-  <div class="container hero-grid">
-    <div>
+<section class="about-hero-new">
+  <div class="container about-hero-grid">
+    <div class="about-hero-copy">
       <p class="hero-eyebrow">About Askia</p>
-      <h1 class="hero-title section-title-glow">{{ about.hero.title }}</h1>
-      <p class="hero-subtitle">{{ about.hero.subtitle }}</p>
+      <h1 class="about-hero-title">{{ about.hero.title }}</h1>
+      <p class="about-hero-subtitle">{{ about.hero.subtitle }}</p>
+      <p class="about-hero-supporting">{{ about.story.body }}</p>
       <div class="hero-cta">
         <a class="btn btn-primary" href="{{ about.hero.ctaLink }}">{{ about.hero.ctaLabel }}</a>
-        <span class="hero-proof">{{ about.hero.proof }}</span>
+        <a class="btn btn-ghost" href="/services/">Explore services</a>
       </div>
-      <div class="about-stats">
+      <span class="hero-proof">{{ about.hero.proof }}</span>
+      <div class="about-hero-badges">
+        <span>Signal clarity</span>
+        <span>Interview execution</span>
+        <span>Offer strategy</span>
+      </div>
+    </div>
+    <div class="about-hero-panel">
+      <div class="about-hero-stats">
         {% for stat in about.stats %}
           <div class="about-stat">
             <strong>{{ stat.value }}</strong>
@@ -28,19 +37,19 @@ breadcrumbs:
           </div>
         {% endfor %}
       </div>
-    </div>
-    <div class="about-orbit">
-      <div class="orbit-card about-card">
-        <strong>Signal you can feel</strong>
-        <p>Clarity, momentum, and a hiring story that lands.</p>
+      <div class="about-hero-system">
+        <strong>The Askia system</strong>
+        <div class="about-hero-steps">
+          <div><span>Signal</span><p>Define role + level signal with clarity.</p></div>
+          <div><span>Momentum</span><p>Build assets that generate interviews.</p></div>
+          <div><span>Conversion</span><p>Execute interviews and offers with leverage.</p></div>
+        </div>
       </div>
-      <div class="orbit-ring"></div>
-      <div class="orbit-dot"></div>
     </div>
   </div>
 </section>
 
-<section class="section about-story">
+<section class="section about-story-new">
   <div class="container about-story-grid">
     <div>
       <p class="hero-eyebrow">Why we exist</p>
@@ -54,6 +63,33 @@ breadcrumbs:
           <p>{{ value.body }}</p>
         </div>
       {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section about-method">
+  <div class="container about-method-grid">
+    <div>
+      <p class="hero-eyebrow">How we work</p>
+      <h2 class="section-title section-title-glow">A repeatable path to momentum</h2>
+      <p class="section-subtitle">Every engagement is built around the same three moves.</p>
+    </div>
+    <div class="about-method-cards">
+      <div class="method-card">
+        <span>01</span>
+        <strong>Signal</strong>
+        <p>Clarify role, level, and positioning so your story reads senior.</p>
+      </div>
+      <div class="method-card">
+        <span>02</span>
+        <strong>Momentum</strong>
+        <p>Create assets and outreach that generate interviews fast.</p>
+      </div>
+      <div class="method-card">
+        <span>03</span>
+        <strong>Conversion</strong>
+        <p>Interview and offer strategy that closes with leverage.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -73,6 +109,23 @@ breadcrumbs:
         <span>Offer strategy</span>
         <span>Execution coaching</span>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section about-credibility">
+  <div class="container">
+    <div class="team-header">
+      <p class="hero-eyebrow">Trust</p>
+      <h2 class="section-title section-title-glow">Built with real hiring‑table context</h2>
+      <p class="section-subtitle">We’ve helped candidates across top tech orgs.</p>
+    </div>
+    <div class="about-logo-row">
+      <img src="/assets/logos/testimonials/google.svg" alt="Google logo" />
+      <img src="/assets/logos/testimonials/microsoft.svg" alt="Microsoft logo" />
+      <img src="/assets/logos/testimonials/figma.svg" alt="Figma logo" />
+      <img src="/assets/logos/testimonials/shopify.svg" alt="Shopify logo" />
+      <img src="/assets/logos/testimonials/uber.svg" alt="Uber logo" />
     </div>
   </div>
 </section>
@@ -98,10 +151,11 @@ breadcrumbs:
 </section>
 
 <section class="section">
-  <div class="container card">
-    <h2 class="section-title">{{ about.cta.title }}</h2>
-    <p class="section-subtitle">{{ about.cta.body }}</p>
+  <div class="container cta-band">
+    <div>
+      <h2 class="section-title">{{ about.cta.title }}</h2>
+      <p class="section-subtitle">{{ about.cta.body }}</p>
+    </div>
     <a class="btn btn-primary" href="{{ about.cta.ctaLink }}">{{ about.cta.ctaLabel }}</a>
-    <a class="btn btn-ghost" href="/services/">Explore services</a>
   </div>
 </section>
