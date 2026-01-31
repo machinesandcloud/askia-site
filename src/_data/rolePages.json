@@ -149,7 +149,7 @@
   },
   "devops": {
     "eyebrow": "DevOps & SRE career coaching",
-    "h1": "Career Coaching for DevOps & SREs Targeting $120K–$300K Roles",
+    "h1": "DevOps & SRE Coaching for Reliability and Scale",
     "subtitle": "Positioning and interview prep for DevOps, SRE, and platform engineering roles.",
     "supporting": "We translate your operational impact into leadership signal that wins senior DevOps offers.",
     "highlights": [
@@ -832,7 +832,7 @@
   },
   "qa": {
     "eyebrow": "QA & test automation coaching",
-    "h1": "Career Coaching for QA & Test Automation Targeting $100K–$220K Roles",
+    "h1": "QA & Test Automation Coaching for Quality Signal",
     "subtitle": "Positioning, interview prep, and offer strategy for QA and automation roles.",
     "supporting": "We turn quality impact into leadership‑level signal.",
     "highlights": ["Automation impact", "Quality signal", "Interview readiness"],
@@ -1014,7 +1014,7 @@
   },
   "solutionsArchitect": {
     "eyebrow": "Solutions architect coaching",
-    "h1": "Career Coaching for Solutions Architects Targeting $130K–$300K Roles",
+    "h1": "Solutions Architect Coaching for System Design and Scale",
     "subtitle": "Positioning and interview prep for architecture and pre‑sales roles.",
     "supporting": "We turn technical depth into business impact narratives.",
     "highlights": ["Architecture signal", "Customer impact", "Interview readiness"],
@@ -1105,7 +1105,7 @@
   },
   "technicalProgramManager": {
     "eyebrow": "Technical program manager coaching",
-    "h1": "Career Coaching for Technical Program Managers Targeting $120K–$250K Roles",
+    "h1": "Technical Program Manager Coaching for Delivery at Scale",
     "subtitle": "Positioning and interview prep for TPM and program roles.",
     "supporting": "We translate complex programs into leadership‑level impact.",
     "highlights": ["Program impact", "Stakeholder signal", "Interview readiness"],
@@ -1378,7 +1378,7 @@
   },
   "productOps": {
     "eyebrow": "Product operations coaching",
-    "h1": "Career Coaching for Product Operations Targeting $100K–$200K Roles",
+    "h1": "Product Operations Coaching for Enablement",
     "subtitle": "Positioning and interview prep for product ops roles.",
     "supporting": "We frame operational impact into leadership‑level signal.",
     "highlights": ["Process impact", "Cross‑org signal", "Interview readiness"],
@@ -1469,7 +1469,7 @@
   },
   "projectProgramManagement": {
     "eyebrow": "Project & program management coaching",
-    "h1": "Career Coaching for Project & Program Managers Targeting $100K–$200K Roles",
+    "h1": "Program & Project Management Coaching for Cross-Org Delivery",
     "subtitle": "Positioning and interview prep for project and program roles.",
     "supporting": "We translate delivery leadership into executive‑ready signal.",
     "highlights": ["Delivery impact", "Stakeholder signal", "Interview readiness"],
@@ -1560,7 +1560,7 @@
   },
   "aiMl": {
     "eyebrow": "AI / ML career coaching",
-    "h1": "Career Coaching for AI & ML Engineers Targeting $140K–$350K Roles",
+    "h1": "AI & ML Coaching for Applied Impact",
     "subtitle": "Positioning, interview prep, and offer strategy for AI/ML roles.",
     "supporting": "We translate model work into business impact and leadership signal.",
     "highlights": ["Model impact", "System signal", "Interview readiness"],

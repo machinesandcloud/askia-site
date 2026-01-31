@@ -133,6 +133,24 @@
 {% set roleStack = ["Impact framing", "Role keywords", "Hiring signal"] %}
 {% set roleLoopTitle = "Typical interview loop" %}
 {% set roleLoopItems = ["Role targeting + scope map", "Signal assets + story bank", "Interview + offer execution"] %}
+{% set roleArtifactsTitle = "Artifacts for this track" %}
+{% set roleArtifacts = [
+  { "title": "Role signal map", "tag": "Signal", "body": "A clear map of role scope and outcomes.", "bullets": ["Scope cues", "Impact framing", "Level signals"] },
+  { "title": "Story system", "tag": "Narrative", "body": "Stories aligned to what interviewers look for.", "bullets": ["Trade-offs", "Outcomes", "Leadership"] },
+  { "title": "Decision-ready assets", "tag": "Conversion", "body": "Materials that convert interviews to offers.", "bullets": ["Resume signal", "LinkedIn clarity", "Negotiation prep"] }
+] %}
+{% set roleMetricsTitle = "Typical wins in this track" %}
+{% set roleMetrics = [
+  { "value": "Higher signal", "label": "Role + level clarity" },
+  { "value": "Faster loops", "label": "Interview momentum" },
+  { "value": "Stronger offers", "label": "Negotiation leverage" }
+] %}
+{% set rolePreviewsTitle = "Preview what you’ll build" %}
+{% set rolePreviews = [
+  { "title": "Role scope map", "body": "A one‑page scope summary tailored to your track.", "chips": ["Scope", "Impact", "Level"] },
+  { "title": "Interview story map", "body": "Reusable stories mapped to signals.", "chips": ["STAR", "Trade-offs", "Outcomes"] },
+  { "title": "Offer decision view", "body": "A simple way to compare offers.", "chips": ["Total comp", "Role fit", "Growth"] }
+] %}
 
 {% if roleKey == "swe" %}
   {% set roleHomeTitle = "Built for Senior, Staff, and Principal SWE tracks" %}
@@ -147,6 +165,18 @@
     { "title": "Impact metrics sheet", "tag": "Signal", "body": "Quantify outcomes that read senior.", "bullets": ["Latency", "Reliability", "Cost"] },
     { "title": "Scope ladder", "tag": "Leveling", "body": "Senior → Staff → Principal signal cues.", "bullets": ["Ownership", "Influence", "Complexity"] }
   ] %}
+  {% set roleMetricsTitle = "SWE outcomes we target" %}
+  {% set roleMetrics = [
+    { "value": "Senior → Staff", "label": "Level-up readiness" },
+    { "value": "System design", "label": "Clear architecture signal" },
+    { "value": "Offer leverage", "label": "Comp + scope strategy" }
+  ] %}
+  {% set rolePreviewsTitle = "SWE preview kit" %}
+  {% set rolePreviews = [
+    { "title": "System design brief", "body": "A structured design narrative for interviews.", "chips": ["Constraints", "Trade-offs", "Scale"] },
+    { "title": "Impact metric bank", "body": "Metrics that prove scope and ownership.", "chips": ["Latency", "Cost", "Reliability"] },
+    { "title": "Scope ladder", "body": "Senior/Staff/Principal signal checklist.", "chips": ["Ownership", "Influence", "Complexity"] }
+  ] %}
 {% elif roleKey == "devops" %}
   {% set roleHomeTitle = "DevOps/SRE signal that reads at scale" %}
   {% set roleHomeBody = "We position reliability, infrastructure ownership, and incident leadership the way top teams expect." %}
@@ -159,6 +189,18 @@
     { "title": "Reliability scorecard", "tag": "SLOs", "body": "SLO/SLA impact and uptime story.", "bullets": ["SLO targets", "Incident impact", "Recovery time"] },
     { "title": "Incident narrative", "tag": "Leadership", "body": "Postmortem story that shows ownership.", "bullets": ["Root cause", "Mitigation", "Prevention"] },
     { "title": "Infra scope map", "tag": "Scale", "body": "Systems and services you own.", "bullets": ["Stack", "Blast radius", "Automation"] }
+  ] %}
+  {% set roleMetricsTitle = "DevOps/SRE outcomes we target" %}
+  {% set roleMetrics = [
+    { "value": "Reliability signal", "label": "SLO + incident clarity" },
+    { "value": "Infra scope", "label": "Ownership at scale" },
+    { "value": "On-call leadership", "label": "Decision-making under pressure" }
+  ] %}
+  {% set rolePreviewsTitle = "DevOps/SRE preview kit" %}
+  {% set rolePreviews = [
+    { "title": "Incident narrative", "body": "Postmortem story that shows leadership.", "chips": ["Root cause", "Mitigation", "Prevention"] },
+    { "title": "SLO impact sheet", "body": "Reliability outcomes mapped to business impact.", "chips": ["SLOs", "Downtime", "Cost"] },
+    { "title": "Infra scope map", "body": "Your ownership across systems.", "chips": ["Kubernetes", "CI/CD", "Observability"] }
   ] %}
 {% elif roleKey == "data" %}
   {% set roleHomeTitle = "Data roles with real business signal" %}
@@ -173,6 +215,18 @@
     { "title": "Pipeline impact map", "tag": "Systems", "body": "Show scale, reliability, and ownership.", "bullets": ["Volume", "Latency", "Cost"] },
     { "title": "Metrics strategy doc", "tag": "Clarity", "body": "Define north-star and guardrails.", "bullets": ["KPIs", "Trade-offs", "Monitoring"] }
   ] %}
+  {% set roleMetricsTitle = "Data outcomes we target" %}
+  {% set roleMetrics = [
+    { "value": "Decision impact", "label": "Metrics tied to outcomes" },
+    { "value": "Pipeline scope", "label": "Ownership and scale" },
+    { "value": "Stakeholder signal", "label": "Business alignment" }
+  ] %}
+  {% set rolePreviewsTitle = "Data preview kit" %}
+  {% set rolePreviews = [
+    { "title": "Impact narrative", "body": "Decision stories with measurable impact.", "chips": ["Outcome", "Decision", "KPIs"] },
+    { "title": "Pipeline scope map", "body": "Scale and reliability signal.", "chips": ["Volume", "Latency", "Cost"] },
+    { "title": "Metrics map", "body": "North-star + guardrails.", "chips": ["KPIs", "Inputs", "Trade-offs"] }
+  ] %}
 {% elif roleKey == "pm" %}
   {% set roleHomeTitle = "PM positioning for strategy and execution" %}
   {% set roleHomeBody = "We highlight product judgment, roadmap ownership, and cross-functional impact." %}
@@ -185,6 +239,18 @@
     { "title": "Product narrative", "tag": "Strategy", "body": "Story that connects vision to impact.", "bullets": ["Problem", "Solution", "Outcome"] },
     { "title": "Metrics map", "tag": "KPIs", "body": "Tie roadmap to measurable results.", "bullets": ["North-star", "Inputs", "Guardrails"] },
     { "title": "Exec summary", "tag": "Leadership", "body": "One-page update that reads senior.", "bullets": ["Decision", "Trade-off", "Next steps"] }
+  ] %}
+  {% set roleMetricsTitle = "PM outcomes we target" %}
+  {% set roleMetrics = [
+    { "value": "Product signal", "label": "Strategy + execution clarity" },
+    { "value": "Metrics focus", "label": "Business impact framing" },
+    { "value": "Stakeholder trust", "label": "Cross-functional alignment" }
+  ] %}
+  {% set rolePreviewsTitle = "PM preview kit" %}
+  {% set rolePreviews = [
+    { "title": "Product narrative", "body": "Story that ties vision to outcomes.", "chips": ["Problem", "Solution", "Impact"] },
+    { "title": "Metrics map", "body": "KPIs and guardrails for the roadmap.", "chips": ["North-star", "Inputs", "Trade-offs"] },
+    { "title": "Exec update", "body": "Concise leadership communication.", "chips": ["Decision", "Risk", "Next steps"] }
   ] %}
 {% elif roleKey == "design" %}
   {% set roleHomeTitle = "Product design signal that feels senior" %}
@@ -199,6 +265,18 @@
     { "title": "Case study template", "tag": "Structure", "body": "Consistent, recruiter-friendly format.", "bullets": ["Goal", "Trade-offs", "Results"] },
     { "title": "Impact metrics", "tag": "Signal", "body": "Quantify the product outcomes.", "bullets": ["Conversion", "Retention", "Efficiency"] }
   ] %}
+  {% set roleMetricsTitle = "Design outcomes we target" %}
+  {% set roleMetrics = [
+    { "value": "Portfolio clarity", "label": "Case studies that read senior" },
+    { "value": "Product impact", "label": "Metrics tied to outcomes" },
+    { "value": "Collaboration signal", "label": "Cross-functional influence" }
+  ] %}
+  {% set rolePreviewsTitle = "Design preview kit" %}
+  {% set rolePreviews = [
+    { "title": "Portfolio arc", "body": "Narrative flow across case studies.", "chips": ["Problem", "Process", "Impact"] },
+    { "title": "Case study template", "body": "Consistent structure for hiring teams.", "chips": ["Goal", "Trade-offs", "Results"] },
+    { "title": "Impact metrics", "body": "Measured outcomes tied to design work.", "chips": ["Conversion", "Retention", "Efficiency"] }
+  ] %}
 {% elif roleKey == "em" %}
   {% set roleHomeTitle = "Engineering manager signal at the right scope" %}
   {% set roleHomeBody = "We position team leadership, delivery systems, and org impact." %}
@@ -211,6 +289,18 @@
     { "title": "Leadership scope map", "tag": "Scope", "body": "Span, impact, and org outcomes.", "bullets": ["Team size", "Roadmap", "Impact"] },
     { "title": "Operating system", "tag": "Execution", "body": "Cadence, rituals, and delivery signal.", "bullets": ["Planning", "Metrics", "Retros"] },
     { "title": "Org impact narrative", "tag": "Leadership", "body": "Decisions that moved the org.", "bullets": ["Trade-offs", "Results", "Influence"] }
+  ] %}
+  {% set roleMetricsTitle = "EM outcomes we target" %}
+  {% set roleMetrics = [
+    { "value": "Leadership scope", "label": "Team + org impact" },
+    { "value": "Delivery signal", "label": "Execution cadence clarity" },
+    { "value": "Hiring signal", "label": "Org design readiness" }
+  ] %}
+  {% set rolePreviewsTitle = "EM preview kit" %}
+  {% set rolePreviews = [
+    { "title": "Leadership scope map", "body": "Span, outcomes, and impact.", "chips": ["Team size", "Roadmap", "Impact"] },
+    { "title": "Operating system", "body": "Cadence that shows scale.", "chips": ["Planning", "Metrics", "Retros"] },
+    { "title": "Org impact story", "body": "Decisions tied to outcomes.", "chips": ["Trade-offs", "Results", "Influence"] }
   ] %}
 {% elif roleKey == "security" %}
   {% set roleHomeTitle = "Security roles with clear risk signal" %}
@@ -225,6 +315,18 @@
     { "title": "Incident response story", "tag": "IR", "body": "Lead incident narrative with outcomes.", "bullets": ["Detection", "Response", "Recovery"] },
     { "title": "Control impact map", "tag": "Signal", "body": "How controls changed posture.", "bullets": ["Coverage", "Gaps", "Results"] }
   ] %}
+  {% set roleMetricsTitle = "Security outcomes we target" %}
+  {% set roleMetrics = [
+    { "value": "Risk signal", "label": "Business risk framing" },
+    { "value": "Incident leadership", "label": "Response + recovery clarity" },
+    { "value": "Control impact", "label": "Posture improvements" }
+  ] %}
+  {% set rolePreviewsTitle = "Security preview kit" %}
+  {% set rolePreviews = [
+    { "title": "Risk narrative", "body": "Risk → control → outcome story.", "chips": ["Threats", "Controls", "Impact"] },
+    { "title": "IR story map", "body": "Incident response leadership.", "chips": ["Detection", "Response", "Recovery"] },
+    { "title": "Control impact map", "body": "Security posture changes.", "chips": ["Coverage", "Gaps", "Results"] }
+  ] %}
 {% elif roleKey == "ai" %}
   {% set roleHomeTitle = "AI/ML roles with applied impact" %}
   {% set roleHomeBody = "We frame models and pipelines in terms of business outcomes and deployment scope." %}
@@ -237,6 +339,18 @@
     { "title": "Model impact brief", "tag": "Impact", "body": "Tie model performance to business outcomes.", "bullets": ["KPIs", "Lift", "Trade-offs"] },
     { "title": "MLOps readiness", "tag": "Production", "body": "Show deployment and monitoring scope.", "bullets": ["Pipelines", "Monitoring", "Retraining"] },
     { "title": "Applied vs research map", "tag": "Positioning", "body": "Clarify your target track.", "bullets": ["Scope", "Depth", "Outcomes"] }
+  ] %}
+  {% set roleMetricsTitle = "AI/ML outcomes we target" %}
+  {% set roleMetrics = [
+    { "value": "Model impact", "label": "Business outcomes" },
+    { "value": "Production signal", "label": "MLOps readiness" },
+    { "value": "Data scope", "label": "Pipeline ownership" }
+  ] %}
+  {% set rolePreviewsTitle = "AI/ML preview kit" %}
+  {% set rolePreviews = [
+    { "title": "Model impact brief", "body": "Performance tied to outcomes.", "chips": ["Lift", "KPIs", "Trade-offs"] },
+    { "title": "MLOps scope map", "body": "Deployment and monitoring signal.", "chips": ["Pipelines", "Monitoring", "Retraining"] },
+    { "title": "Track positioning", "body": "Applied vs research clarity.", "chips": ["Scope", "Depth", "Impact"] }
   ] %}
 {% elif roleKey == "qa" %}
   {% set roleHomeTitle = "QA roles with automation and quality signal" %}
@@ -251,6 +365,18 @@
     { "title": "Quality strategy brief", "tag": "Strategy", "body": "How quality is managed at scale.", "bullets": ["Gates", "Metrics", "Risk"] },
     { "title": "Defect impact story", "tag": "Impact", "body": "Reliability and business outcomes.", "bullets": ["Severity", "Cost", "Prevention"] }
   ] %}
+  {% set roleMetricsTitle = "QA outcomes we target" %}
+  {% set roleMetrics = [
+    { "value": "Automation signal", "label": "Coverage at scale" },
+    { "value": "Quality strategy", "label": "Gates + metrics clarity" },
+    { "value": "Reliability impact", "label": "Defect prevention" }
+  ] %}
+  {% set rolePreviewsTitle = "QA preview kit" %}
+  {% set rolePreviews = [
+    { "title": "Coverage map", "body": "Automation scope and gaps.", "chips": ["E2E", "Integration", "Unit"] },
+    { "title": "Quality strategy", "body": "Process signal at scale.", "chips": ["Gates", "Metrics", "Risk"] },
+    { "title": "Defect impact", "body": "Business outcomes from quality work.", "chips": ["Severity", "Cost", "Prevention"] }
+  ] %}
 {% elif roleKey == "tp" or roleKey == "ppm" %}
   {% set roleHomeTitle = "Program leadership that reads at scale" %}
   {% set roleHomeBody = "We highlight planning, execution cadence, and cross-org influence." %}
@@ -263,6 +389,18 @@
     { "title": "Program charter", "tag": "Scope", "body": "Clear goals, owners, and milestones.", "bullets": ["Objectives", "Timeline", "Owners"] },
     { "title": "Risk narrative", "tag": "RAID", "body": "Risk and dependency management story.", "bullets": ["Risks", "Mitigations", "Status"] },
     { "title": "Exec update", "tag": "Leadership", "body": "Concise status and decisions.", "bullets": ["Progress", "Blockers", "Next steps"] }
+  ] %}
+  {% set roleMetricsTitle = "Program outcomes we target" %}
+  {% set roleMetrics = [
+    { "value": "Delivery signal", "label": "Milestones + cadence" },
+    { "value": "Risk control", "label": "RAID clarity" },
+    { "value": "Executive trust", "label": "Stakeholder alignment" }
+  ] %}
+  {% set rolePreviewsTitle = "Program preview kit" %}
+  {% set rolePreviews = [
+    { "title": "Program charter", "body": "Scope and objectives at a glance.", "chips": ["Objectives", "Timeline", "Owners"] },
+    { "title": "Risk narrative", "body": "RAID and mitigation story.", "chips": ["Risks", "Mitigations", "Status"] },
+    { "title": "Exec update", "body": "Concise leadership report.", "chips": ["Progress", "Blockers", "Decisions"] }
   ] %}
 {% elif roleKey == "cs" %}
   {% set roleHomeTitle = "Customer success with retention signal" %}
@@ -277,6 +415,18 @@
     { "title": "QBR narrative", "tag": "Story", "body": "Account story tied to outcomes.", "bullets": ["Goals", "Results", "Next steps"] },
     { "title": "Customer health plan", "tag": "Signal", "body": "Metrics and interventions.", "bullets": ["Health score", "Triggers", "Actions"] }
   ] %}
+  {% set roleMetricsTitle = "CS outcomes we target" %}
+  {% set roleMetrics = [
+    { "value": "Retention signal", "label": "Renewal clarity" },
+    { "value": "Expansion impact", "label": "Growth narrative" },
+    { "value": "Customer health", "label": "Risk management" }
+  ] %}
+  {% set rolePreviewsTitle = "CS preview kit" %}
+  {% set rolePreviews = [
+    { "title": "Renewal map", "body": "Retention and expansion wins.", "chips": ["Renewal", "Expansion", "Churn risk"] },
+    { "title": "QBR narrative", "body": "Account story tied to outcomes.", "chips": ["Goals", "Results", "Next steps"] },
+    { "title": "Health plan", "body": "Metrics + interventions.", "chips": ["Scores", "Triggers", "Actions"] }
+  ] %}
 {% elif roleKey == "se" %}
   {% set roleHomeTitle = "Sales engineering that converts" %}
   {% set roleHomeBody = "We position technical depth, deal influence, and customer problem solving." %}
@@ -289,6 +439,18 @@
     { "title": "Demo narrative", "tag": "Pre‑sales", "body": "A story that connects value to product.", "bullets": ["Discovery", "Value", "Objections"] },
     { "title": "ROI framing sheet", "tag": "Value", "body": "Quantify outcomes for buyers.", "bullets": ["Cost", "Savings", "Impact"] },
     { "title": "Stakeholder map", "tag": "Influence", "body": "Who matters and why.", "bullets": ["Champion", "Economic buyer", "Risk"] }
+  ] %}
+  {% set roleMetricsTitle = "SE outcomes we target" %}
+  {% set roleMetrics = [
+    { "value": "Deal influence", "label": "Pre‑sales impact" },
+    { "value": "Technical signal", "label": "Depth + clarity" },
+    { "value": "ROI framing", "label": "Value storytelling" }
+  ] %}
+  {% set rolePreviewsTitle = "SE preview kit" %}
+  {% set rolePreviews = [
+    { "title": "Demo narrative", "body": "Story that connects value to product.", "chips": ["Discovery", "Value", "Objections"] },
+    { "title": "ROI sheet", "body": "Quantified value framing.", "chips": ["Savings", "Impact", "Cost"] },
+    { "title": "Stakeholder map", "body": "Decision-makers and risks.", "chips": ["Champion", "Buyer", "Risk"] }
   ] %}
 {% elif roleKey == "sa" %}
   {% set roleHomeTitle = "Solutions architecture with system impact" %}
@@ -303,6 +465,18 @@
     { "title": "Migration plan", "tag": "Strategy", "body": "Scope and sequencing for migration.", "bullets": ["Phases", "Risks", "Mitigations"] },
     { "title": "System trade-off map", "tag": "Signal", "body": "Show judgment and scale.", "bullets": ["Performance", "Cost", "Security"] }
   ] %}
+  {% set roleMetricsTitle = "SA outcomes we target" %}
+  {% set roleMetrics = [
+    { "value": "Architecture signal", "label": "Trade-off clarity" },
+    { "value": "Scale impact", "label": "System scope" },
+    { "value": "Stakeholder trust", "label": "Business alignment" }
+  ] %}
+  {% set rolePreviewsTitle = "SA preview kit" %}
+  {% set rolePreviews = [
+    { "title": "ADR summary", "body": "Trade-offs and rationale.", "chips": ["Constraints", "Decision", "Impact"] },
+    { "title": "Migration plan", "body": "Phases and risk controls.", "chips": ["Phases", "Risks", "Mitigations"] },
+    { "title": "Trade-off map", "body": "Scale and security decisions.", "chips": ["Performance", "Cost", "Security"] }
+  ] %}
 {% elif roleKey == "pops" %}
   {% set roleHomeTitle = "Product ops that accelerates teams" %}
   {% set roleHomeBody = "We highlight systems thinking, process design, and product enablement." %}
@@ -315,6 +489,18 @@
     { "title": "Process enablement map", "tag": "Ops", "body": "How you remove friction for teams.", "bullets": ["Workflows", "Tooling", "Metrics"] },
     { "title": "Metrics cadence", "tag": "Signal", "body": "Operating rhythm and reporting.", "bullets": ["KPIs", "Cadence", "Insights"] },
     { "title": "Enablement plan", "tag": "Impact", "body": "Roadmap support and outcomes.", "bullets": ["Alignment", "Execution", "Results"] }
+  ] %}
+  {% set roleMetricsTitle = "Product ops outcomes we target" %}
+  {% set roleMetrics = [
+    { "value": "Enablement signal", "label": "Process leverage" },
+    { "value": "Ops clarity", "label": "Metrics + tooling" },
+    { "value": "Team velocity", "label": "Execution impact" }
+  ] %}
+  {% set rolePreviewsTitle = "Product ops preview kit" %}
+  {% set rolePreviews = [
+    { "title": "Process map", "body": "Workflows that remove friction.", "chips": ["Workflow", "Tooling", "Metrics"] },
+    { "title": "Metrics cadence", "body": "Operating rhythm and insights.", "chips": ["KPIs", "Cadence", "Insights"] },
+    { "title": "Enablement plan", "body": "Support that accelerates teams.", "chips": ["Alignment", "Execution", "Results"] }
   ] %}
 {% endif %}
 
@@ -453,6 +639,33 @@
 </section>
 {% endif %}
 
+{% if rolePreviews %}
+<section class="section role-previews">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Preview</p>
+      <h2 class="section-title section-title-glow">{{ rolePreviewsTitle }}</h2>
+      <p class="section-subtitle">What the artifacts look like in practice.</p>
+    </div>
+    <div class="role-preview-grid">
+      {% for item in rolePreviews %}
+        <article class="role-preview-card">
+          <div class="preview-head">
+            <strong>{{ item.title }}</strong>
+          </div>
+          <p>{{ item.body }}</p>
+          <div class="preview-chips">
+            {% for chip in item.chips %}
+              <span>{{ chip }}</span>
+            {% endfor %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
 <section class="section section-soft">
   <div class="container">
     <div class="outcome-header">
@@ -469,6 +682,26 @@
     </div>
   </div>
 </section>
+
+{% if roleMetrics %}
+<section class="section role-metrics">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Outcomes</p>
+      <h2 class="section-title section-title-glow">{{ roleMetricsTitle }}</h2>
+      <p class="section-subtitle">Signals that show up in recruiter response and interviews.</p>
+    </div>
+    <div class="role-metric-grid">
+      {% for item in roleMetrics %}
+        <div class="role-metric-card">
+          <strong>{{ item.value }}</strong>
+          <span>{{ item.label }}</span>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
 
 <section class="section">
   <div class="container role-journey">
