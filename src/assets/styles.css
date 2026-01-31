@@ -1348,6 +1348,64 @@ a {
   gap: 16px;
 }
 
+.role-home-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 32px;
+  align-items: start;
+}
+
+.role-home-copy .highlight-list {
+  margin-top: 18px;
+}
+
+.role-home-panels {
+  display: grid;
+  gap: 16px;
+}
+
+.role-stack,
+.role-loop {
+  padding: 18px 20px;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(150deg, rgba(21, 28, 40, 0.9), rgba(10, 16, 24, 0.85));
+}
+
+.role-stack strong,
+.role-loop strong {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.role-stack-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.role-stack-chips span {
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(12, 18, 28, 0.6);
+  color: rgba(230, 238, 249, 0.9);
+  font-size: 0.82rem;
+}
+
+.role-loop-item {
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(10, 16, 24, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  color: rgba(214, 226, 243, 0.82);
+  margin-bottom: 10px;
+}
+
+.role-loop-item:last-child {
+  margin-bottom: 0;
+}
+
 .role-theme-swe {
   background:
     radial-gradient(circle at 18% 12%, rgba(114, 214, 255, 0.2), transparent 50%),
@@ -1400,6 +1458,10 @@ a {
   }
 
   .role-journey {
+    grid-template-columns: 1fr;
+  }
+
+  .role-home-grid {
     grid-template-columns: 1fr;
   }
 }

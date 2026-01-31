@@ -123,6 +123,115 @@
 {% elif "Sales Engineer" in page.h1 %}{% set roleKey = "se" %}
 {% elif "Solutions Architect" in page.h1 %}{% set roleKey = "sa" %}
 {% elif "Product Ops" in page.h1 %}{% set roleKey = "pops" %}
+{% elif "Project Program" in page.h1 %}{% set roleKey = "ppm" %}
+{% endif %}
+
+{% set roleHomeTitle = "Feel at home in this track" %}
+{% set roleHomeBody = "We tailor positioning to your role scope, tools, and hiring signals." %}
+{% set roleHomeBullets = ["Role-specific narrative", "Level and scope clarity", "Interview-ready signal"] %}
+{% set roleStackTitle = "Role stack" %}
+{% set roleStack = ["Impact framing", "Role keywords", "Hiring signal"] %}
+{% set roleLoopTitle = "Typical interview loop" %}
+{% set roleLoopItems = ["Role targeting + scope map", "Signal assets + story bank", "Interview + offer execution"] %}
+
+{% if roleKey == "swe" %}
+  {% set roleHomeTitle = "Built for Senior, Staff, and Principal SWE tracks" %}
+  {% set roleHomeBody = "We translate systems work, ownership, and technical leadership into clear level signal." %}
+  {% set roleHomeBullets = ["System design narrative", "Scope and ownership framing", "Impact metrics that read senior"] %}
+  {% set roleStackTitle = "SWE stack" %}
+  {% set roleStack = ["Distributed systems", "APIs + services", "Performance + reliability", "Mentorship + ownership"] %}
+  {% set roleLoopItems = ["Role + scope mapping", "Resume + LinkedIn signal", "System design + behavioral prep"] %}
+{% elif roleKey == "devops" %}
+  {% set roleHomeTitle = "DevOps/SRE signal that reads at scale" %}
+  {% set roleHomeBody = "We position reliability, infrastructure ownership, and incident leadership the way top teams expect." %}
+  {% set roleHomeBullets = ["Reliability impact", "Infra scope and scale", "Incident leadership stories"] %}
+  {% set roleStackTitle = "DevOps/SRE stack" %}
+  {% set roleStack = ["Kubernetes", "Terraform", "Observability", "CI/CD", "On-call ownership"] %}
+  {% set roleLoopItems = ["Scope + reliability map", "Resume + LinkedIn upgrade", "Scenario + system design prep"] %}
+{% elif roleKey == "data" %}
+  {% set roleHomeTitle = "Data roles with real business signal" %}
+  {% set roleHomeBody = "We turn pipelines, models, and analytics into outcomes and decision impact." %}
+  {% set roleHomeBullets = ["Business impact framing", "Data scope clarity", "Stakeholder narrative"] %}
+  {% set roleStackTitle = "Data stack" %}
+  {% set roleStack = ["SQL + pipelines", "Modeling", "Experimentation", "Metrics strategy", "Data storytelling"] %}
+  {% set roleLoopItems = ["Role + level definition", "Signal assets + portfolio framing", "Case + technical prep"] %}
+{% elif roleKey == "pm" %}
+  {% set roleHomeTitle = "PM positioning for strategy and execution" %}
+  {% set roleHomeBody = "We highlight product judgment, roadmap ownership, and cross-functional impact." %}
+  {% set roleHomeBullets = ["Roadmap and strategy signal", "Customer + market insight", "Execution and metrics"] %}
+  {% set roleStackTitle = "PM stack" %}
+  {% set roleStack = ["Discovery", "Roadmaps", "Metrics", "Stakeholder alignment", "Launch ownership"] %}
+  {% set roleLoopItems = ["Role + scope alignment", "Case study narrative", "Product sense + execution prep"] %}
+{% elif roleKey == "design" %}
+  {% set roleHomeTitle = "Product design signal that feels senior" %}
+  {% set roleHomeBody = "We align portfolio story, product impact, and collaboration signal." %}
+  {% set roleHomeBullets = ["Portfolio narrative", "Product impact framing", "Cross-functional leadership"] %}
+  {% set roleStackTitle = "Design stack" %}
+  {% set roleStack = ["UX strategy", "Systems thinking", "Prototyping", "Research insights", "Design leadership"] %}
+  {% set roleLoopItems = ["Target role + scope", "Portfolio story build", "Case study + critique prep"] %}
+{% elif roleKey == "em" %}
+  {% set roleHomeTitle = "Engineering manager signal at the right scope" %}
+  {% set roleHomeBody = "We position team leadership, delivery systems, and org impact." %}
+  {% set roleHomeBullets = ["People leadership", "Delivery systems", "Org-level impact"] %}
+  {% set roleStackTitle = "EM stack" %}
+  {% set roleStack = ["Team health", "Execution cadence", "Stakeholder management", "Hiring + org design"] %}
+  {% set roleLoopItems = ["Leadership scope map", "Executive narrative build", "Leadership interview prep"] %}
+{% elif roleKey == "security" %}
+  {% set roleHomeTitle = "Security roles with clear risk signal" %}
+  {% set roleHomeBody = "We translate security work into risk reduction, compliance, and business protection." %}
+  {% set roleHomeBullets = ["Risk framing", "Security scope", "Incident response leadership"] %}
+  {% set roleStackTitle = "Security stack" %}
+  {% set roleStack = ["Threat modeling", "GRC", "Security engineering", "Incident response", "Policy design"] %}
+  {% set roleLoopItems = ["Role + risk scope", "Signal assets", "Scenario + leadership prep"] %}
+{% elif roleKey == "ai" %}
+  {% set roleHomeTitle = "AI/ML roles with applied impact" %}
+  {% set roleHomeBody = "We frame models and pipelines in terms of business outcomes and deployment scope." %}
+  {% set roleHomeBullets = ["Model impact", "Production readiness", "Data + infra scope"] %}
+  {% set roleStackTitle = "AI/ML stack" %}
+  {% set roleStack = ["Modeling", "MLOps", "Experimentation", "Data pipelines", "Deployment impact"] %}
+  {% set roleLoopItems = ["Role + research/applied split", "Signal assets + case framing", "Technical + behavioral prep"] %}
+{% elif roleKey == "qa" %}
+  {% set roleHomeTitle = "QA roles with automation and quality signal" %}
+  {% set roleHomeBody = "We position quality strategy, automation scope, and reliability impact." %}
+  {% set roleHomeBullets = ["Automation scope", "Quality strategy", "Reliability outcomes"] %}
+  {% set roleStackTitle = "QA stack" %}
+  {% set roleStack = ["Test automation", "CI/CD quality gates", "Test strategy", "Defect metrics", "Reliability"] %}
+  {% set roleLoopItems = ["Role + automation scope", "Signal assets", "Scenario + process prep"] %}
+{% elif roleKey == "tp" or roleKey == "ppm" %}
+  {% set roleHomeTitle = "Program leadership that reads at scale" %}
+  {% set roleHomeBody = "We highlight planning, execution cadence, and cross-org influence." %}
+  {% set roleHomeBullets = ["Program scope", "Stakeholder orchestration", "Delivery signal"] %}
+  {% set roleStackTitle = "Program stack" %}
+  {% set roleStack = ["Roadmaps", "Milestones", "Risk management", "Cross-functional alignment", "Executive reporting"] %}
+  {% set roleLoopItems = ["Program scope map", "Signal assets", "Scenario + leadership prep"] %}
+{% elif roleKey == "cs" %}
+  {% set roleHomeTitle = "Customer success with retention signal" %}
+  {% set roleHomeBody = "We frame renewal impact, account growth, and customer outcomes." %}
+  {% set roleHomeBullets = ["Retention impact", "Expansion strategy", "Customer health metrics"] %}
+  {% set roleStackTitle = "CS stack" %}
+  {% set roleStack = ["Renewals", "QBRs", "Adoption strategy", "Customer health", "Escalation leadership"] %}
+  {% set roleLoopItems = ["Role + account scope", "Signal assets", "Scenario + stakeholder prep"] %}
+{% elif roleKey == "se" %}
+  {% set roleHomeTitle = "Sales engineering that converts" %}
+  {% set roleHomeBody = "We position technical depth, deal influence, and customer problem solving." %}
+  {% set roleHomeBullets = ["Technical depth", "Deal influence", "Storytelling for buyers"] %}
+  {% set roleStackTitle = "SE stack" %}
+  {% set roleStack = ["Discovery", "Demos", "POCs", "ROI framing", "Stakeholder influence"] %}
+  {% set roleLoopItems = ["Role + territory scope", "Signal assets", "Demo + scenario prep"] %}
+{% elif roleKey == "sa" %}
+  {% set roleHomeTitle = "Solutions architecture with system impact" %}
+  {% set roleHomeBody = "We frame architectural decisions, trade-offs, and business outcomes." %}
+  {% set roleHomeBullets = ["Architecture signal", "Trade-off decisions", "Business impact"] %}
+  {% set roleStackTitle = "SA stack" %}
+  {% set roleStack = ["Architecture design", "Cloud systems", "Stakeholder alignment", "Migration strategy", "Security + scale"] %}
+  {% set roleLoopItems = ["Role + system scope", "Signal assets", "Architecture + leadership prep"] %}
+{% elif roleKey == "pops" %}
+  {% set roleHomeTitle = "Product ops that accelerates teams" %}
+  {% set roleHomeBody = "We highlight systems thinking, process design, and product enablement." %}
+  {% set roleHomeBullets = ["Process clarity", "Product enablement", "Cross-functional leverage"] %}
+  {% set roleStackTitle = "Product ops stack" %}
+  {% set roleStack = ["Process design", "Metrics ops", "Tooling", "Stakeholder alignment", "Roadmap support"] %}
+  {% set roleLoopItems = ["Role + scope map", "Signal assets", "Scenario + ops prep"] %}
 {% endif %}
 
 <section class="role-hero role-theme-{{ roleKey }}" style="--role-accent: {{ page.visual.accent }}; --role-accent-2: {{ page.visual.accent2 }};">
@@ -197,6 +306,37 @@
           </div>
         </article>
       {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section role-home">
+  <div class="container role-home-grid">
+    <div class="role-home-copy">
+      <p class="hero-eyebrow">Role home base</p>
+      <h2 class="section-title section-title-glow">{{ roleHomeTitle }}</h2>
+      <p class="section-subtitle">{{ roleHomeBody }}</p>
+      <ul class="highlight-list">
+        {% for item in roleHomeBullets %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="role-home-panels">
+      <div class="role-stack">
+        <strong>{{ roleStackTitle }}</strong>
+        <div class="role-stack-chips">
+          {% for item in roleStack %}
+            <span>{{ item }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="role-loop">
+        <strong>{{ roleLoopTitle }}</strong>
+        {% for item in roleLoopItems %}
+          <div class="role-loop-item">{{ item }}</div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>
