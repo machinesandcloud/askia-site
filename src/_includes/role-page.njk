@@ -151,6 +151,12 @@
   { "title": "Interview story map", "body": "Reusable stories mapped to signals.", "chips": ["STAR", "Trade-offs", "Outcomes"] },
   { "title": "Offer decision view", "body": "A simple way to compare offers.", "chips": ["Total comp", "Role fit", "Growth"] }
 ] %}
+{% set roleScoreTitle = "Role signal scorecard" %}
+{% set roleScore = [
+  { "label": "Scope + ownership", "value": "Primary signal" },
+  { "label": "Impact metrics", "value": "Proof signal" },
+  { "label": "Decision-making", "value": "Level signal" }
+] %}
 
 {% if roleKey == "swe" %}
   {% set roleHomeTitle = "Built for Senior, Staff, and Principal SWE tracks" %}
@@ -177,6 +183,12 @@
     { "title": "Impact metric bank", "body": "Metrics that prove scope and ownership.", "chips": ["Latency", "Cost", "Reliability"] },
     { "title": "Scope ladder", "body": "Senior/Staff/Principal signal checklist.", "chips": ["Ownership", "Influence", "Complexity"] }
   ] %}
+  {% set roleScoreTitle = "SWE signal scorecard" %}
+  {% set roleScore = [
+    { "label": "System design", "value": "Core signal" },
+    { "label": "Scope + ownership", "value": "Level signal" },
+    { "label": "Impact metrics", "value": "Proof signal" }
+  ] %}
 {% elif roleKey == "devops" %}
   {% set roleHomeTitle = "DevOps/SRE signal that reads at scale" %}
   {% set roleHomeBody = "We position reliability, infrastructure ownership, and incident leadership the way top teams expect." %}
@@ -201,6 +213,12 @@
     { "title": "Incident narrative", "body": "Postmortem story that shows leadership.", "chips": ["Root cause", "Mitigation", "Prevention"] },
     { "title": "SLO impact sheet", "body": "Reliability outcomes mapped to business impact.", "chips": ["SLOs", "Downtime", "Cost"] },
     { "title": "Infra scope map", "body": "Your ownership across systems.", "chips": ["Kubernetes", "CI/CD", "Observability"] }
+  ] %}
+  {% set roleScoreTitle = "DevOps/SRE signal scorecard" %}
+  {% set roleScore = [
+    { "label": "Reliability impact", "value": "Core signal" },
+    { "label": "Incident leadership", "value": "Decision signal" },
+    { "label": "Infra scope", "value": "Level signal" }
   ] %}
 {% elif roleKey == "data" %}
   {% set roleHomeTitle = "Data roles with real business signal" %}
@@ -227,6 +245,12 @@
     { "title": "Pipeline scope map", "body": "Scale and reliability signal.", "chips": ["Volume", "Latency", "Cost"] },
     { "title": "Metrics map", "body": "North-star + guardrails.", "chips": ["KPIs", "Inputs", "Trade-offs"] }
   ] %}
+  {% set roleScoreTitle = "Data signal scorecard" %}
+  {% set roleScore = [
+    { "label": "Business impact", "value": "Primary signal" },
+    { "label": "Data scope", "value": "Level signal" },
+    { "label": "Decision framing", "value": "Proof signal" }
+  ] %}
 {% elif roleKey == "pm" %}
   {% set roleHomeTitle = "PM positioning for strategy and execution" %}
   {% set roleHomeBody = "We highlight product judgment, roadmap ownership, and cross-functional impact." %}
@@ -251,6 +275,12 @@
     { "title": "Product narrative", "body": "Story that ties vision to outcomes.", "chips": ["Problem", "Solution", "Impact"] },
     { "title": "Metrics map", "body": "KPIs and guardrails for the roadmap.", "chips": ["North-star", "Inputs", "Trade-offs"] },
     { "title": "Exec update", "body": "Concise leadership communication.", "chips": ["Decision", "Risk", "Next steps"] }
+  ] %}
+  {% set roleScoreTitle = "PM signal scorecard" %}
+  {% set roleScore = [
+    { "label": "Product sense", "value": "Primary signal" },
+    { "label": "Metrics impact", "value": "Proof signal" },
+    { "label": "Stakeholder alignment", "value": "Level signal" }
   ] %}
 {% elif roleKey == "design" %}
   {% set roleHomeTitle = "Product design signal that feels senior" %}
@@ -277,6 +307,12 @@
     { "title": "Case study template", "body": "Consistent structure for hiring teams.", "chips": ["Goal", "Trade-offs", "Results"] },
     { "title": "Impact metrics", "body": "Measured outcomes tied to design work.", "chips": ["Conversion", "Retention", "Efficiency"] }
   ] %}
+  {% set roleScoreTitle = "Design signal scorecard" %}
+  {% set roleScore = [
+    { "label": "Portfolio narrative", "value": "Primary signal" },
+    { "label": "Product impact", "value": "Proof signal" },
+    { "label": "Collaboration scope", "value": "Level signal" }
+  ] %}
 {% elif roleKey == "em" %}
   {% set roleHomeTitle = "Engineering manager signal at the right scope" %}
   {% set roleHomeBody = "We position team leadership, delivery systems, and org impact." %}
@@ -301,6 +337,12 @@
     { "title": "Leadership scope map", "body": "Span, outcomes, and impact.", "chips": ["Team size", "Roadmap", "Impact"] },
     { "title": "Operating system", "body": "Cadence that shows scale.", "chips": ["Planning", "Metrics", "Retros"] },
     { "title": "Org impact story", "body": "Decisions tied to outcomes.", "chips": ["Trade-offs", "Results", "Influence"] }
+  ] %}
+  {% set roleScoreTitle = "EM signal scorecard" %}
+  {% set roleScore = [
+    { "label": "Leadership scope", "value": "Primary signal" },
+    { "label": "Delivery systems", "value": "Proof signal" },
+    { "label": "Org influence", "value": "Level signal" }
   ] %}
 {% elif roleKey == "security" %}
   {% set roleHomeTitle = "Security roles with clear risk signal" %}
@@ -327,6 +369,12 @@
     { "title": "IR story map", "body": "Incident response leadership.", "chips": ["Detection", "Response", "Recovery"] },
     { "title": "Control impact map", "body": "Security posture changes.", "chips": ["Coverage", "Gaps", "Results"] }
   ] %}
+  {% set roleScoreTitle = "Security signal scorecard" %}
+  {% set roleScore = [
+    { "label": "Risk framing", "value": "Primary signal" },
+    { "label": "Incident leadership", "value": "Decision signal" },
+    { "label": "Control impact", "value": "Proof signal" }
+  ] %}
 {% elif roleKey == "ai" %}
   {% set roleHomeTitle = "AI/ML roles with applied impact" %}
   {% set roleHomeBody = "We frame models and pipelines in terms of business outcomes and deployment scope." %}
@@ -351,6 +399,12 @@
     { "title": "Model impact brief", "body": "Performance tied to outcomes.", "chips": ["Lift", "KPIs", "Trade-offs"] },
     { "title": "MLOps scope map", "body": "Deployment and monitoring signal.", "chips": ["Pipelines", "Monitoring", "Retraining"] },
     { "title": "Track positioning", "body": "Applied vs research clarity.", "chips": ["Scope", "Depth", "Impact"] }
+  ] %}
+  {% set roleScoreTitle = "AI/ML signal scorecard" %}
+  {% set roleScore = [
+    { "label": "Model impact", "value": "Primary signal" },
+    { "label": "Production readiness", "value": "Level signal" },
+    { "label": "Data scope", "value": "Proof signal" }
   ] %}
 {% elif roleKey == "qa" %}
   {% set roleHomeTitle = "QA roles with automation and quality signal" %}
@@ -377,6 +431,12 @@
     { "title": "Quality strategy", "body": "Process signal at scale.", "chips": ["Gates", "Metrics", "Risk"] },
     { "title": "Defect impact", "body": "Business outcomes from quality work.", "chips": ["Severity", "Cost", "Prevention"] }
   ] %}
+  {% set roleScoreTitle = "QA signal scorecard" %}
+  {% set roleScore = [
+    { "label": "Automation scope", "value": "Primary signal" },
+    { "label": "Quality strategy", "value": "Level signal" },
+    { "label": "Reliability impact", "value": "Proof signal" }
+  ] %}
 {% elif roleKey == "tp" or roleKey == "ppm" %}
   {% set roleHomeTitle = "Program leadership that reads at scale" %}
   {% set roleHomeBody = "We highlight planning, execution cadence, and cross-org influence." %}
@@ -401,6 +461,12 @@
     { "title": "Program charter", "body": "Scope and objectives at a glance.", "chips": ["Objectives", "Timeline", "Owners"] },
     { "title": "Risk narrative", "body": "RAID and mitigation story.", "chips": ["Risks", "Mitigations", "Status"] },
     { "title": "Exec update", "body": "Concise leadership report.", "chips": ["Progress", "Blockers", "Decisions"] }
+  ] %}
+  {% set roleScoreTitle = "Program signal scorecard" %}
+  {% set roleScore = [
+    { "label": "Delivery cadence", "value": "Primary signal" },
+    { "label": "Risk management", "value": "Proof signal" },
+    { "label": "Executive alignment", "value": "Level signal" }
   ] %}
 {% elif roleKey == "cs" %}
   {% set roleHomeTitle = "Customer success with retention signal" %}
@@ -427,6 +493,12 @@
     { "title": "QBR narrative", "body": "Account story tied to outcomes.", "chips": ["Goals", "Results", "Next steps"] },
     { "title": "Health plan", "body": "Metrics + interventions.", "chips": ["Scores", "Triggers", "Actions"] }
   ] %}
+  {% set roleScoreTitle = "CS signal scorecard" %}
+  {% set roleScore = [
+    { "label": "Retention impact", "value": "Primary signal" },
+    { "label": "Expansion growth", "value": "Proof signal" },
+    { "label": "Customer health", "value": "Level signal" }
+  ] %}
 {% elif roleKey == "se" %}
   {% set roleHomeTitle = "Sales engineering that converts" %}
   {% set roleHomeBody = "We position technical depth, deal influence, and customer problem solving." %}
@@ -451,6 +523,12 @@
     { "title": "Demo narrative", "body": "Story that connects value to product.", "chips": ["Discovery", "Value", "Objections"] },
     { "title": "ROI sheet", "body": "Quantified value framing.", "chips": ["Savings", "Impact", "Cost"] },
     { "title": "Stakeholder map", "body": "Decision-makers and risks.", "chips": ["Champion", "Buyer", "Risk"] }
+  ] %}
+  {% set roleScoreTitle = "SE signal scorecard" %}
+  {% set roleScore = [
+    { "label": "Demo narrative", "value": "Primary signal" },
+    { "label": "Technical depth", "value": "Proof signal" },
+    { "label": "Deal influence", "value": "Level signal" }
   ] %}
 {% elif roleKey == "sa" %}
   {% set roleHomeTitle = "Solutions architecture with system impact" %}
@@ -477,6 +555,12 @@
     { "title": "Migration plan", "body": "Phases and risk controls.", "chips": ["Phases", "Risks", "Mitigations"] },
     { "title": "Trade-off map", "body": "Scale and security decisions.", "chips": ["Performance", "Cost", "Security"] }
   ] %}
+  {% set roleScoreTitle = "SA signal scorecard" %}
+  {% set roleScore = [
+    { "label": "Architecture trade-offs", "value": "Primary signal" },
+    { "label": "Scale impact", "value": "Proof signal" },
+    { "label": "Stakeholder alignment", "value": "Level signal" }
+  ] %}
 {% elif roleKey == "pops" %}
   {% set roleHomeTitle = "Product ops that accelerates teams" %}
   {% set roleHomeBody = "We highlight systems thinking, process design, and product enablement." %}
@@ -501,6 +585,12 @@
     { "title": "Process map", "body": "Workflows that remove friction.", "chips": ["Workflow", "Tooling", "Metrics"] },
     { "title": "Metrics cadence", "body": "Operating rhythm and insights.", "chips": ["KPIs", "Cadence", "Insights"] },
     { "title": "Enablement plan", "body": "Support that accelerates teams.", "chips": ["Alignment", "Execution", "Results"] }
+  ] %}
+  {% set roleScoreTitle = "Product ops signal scorecard" %}
+  {% set roleScore = [
+    { "label": "Process leverage", "value": "Primary signal" },
+    { "label": "Enablement impact", "value": "Proof signal" },
+    { "label": "Ops clarity", "value": "Level signal" }
   ] %}
 {% endif %}
 
@@ -597,7 +687,7 @@
         <strong>{{ roleStackTitle }}</strong>
         <div class="role-stack-chips">
           {% for item in roleStack %}
-            <span>{{ item }}</span>
+            <span><span class="chip-icon">{{ roleIcon(roleKey) }}</span>{{ item }}</span>
           {% endfor %}
         </div>
       </div>
@@ -634,6 +724,29 @@
             {% endfor %}
           </ul>
         </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if roleScore %}
+<section class="section role-score">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Signal scorecard</p>
+      <h2 class="section-title section-title-glow">{{ roleScoreTitle }}</h2>
+      <p class="section-subtitle">How hiring teams evaluate this role.</p>
+    </div>
+    <div class="role-score-grid">
+      {% for item in roleScore %}
+        <div class="role-score-card">
+          <div class="role-score-icon">{{ roleIcon(roleKey) }}</div>
+          <div>
+            <strong>{{ item.label }}</strong>
+            <span>{{ item.value }}</span>
+          </div>
+        </div>
       {% endfor %}
     </div>
   </div>

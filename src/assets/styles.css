@@ -1403,6 +1403,9 @@ a {
 }
 
 .role-stack-chips span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   padding: 8px 12px;
   border-radius: 999px;
   border: 1px solid rgba(255, 255, 255, 0.12);
@@ -1411,6 +1414,67 @@ a {
   font-size: 0.82rem;
 }
 
+.chip-icon {
+  width: 18px;
+  height: 18px;
+  display: grid;
+  place-items: center;
+}
+
+.chip-icon svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: var(--role-accent);
+  stroke-width: 3;
+}
+
+.role-score .role-score-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+.role-score-card {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  gap: 12px;
+  padding: 16px 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(10, 15, 22, 0.6);
+  align-items: center;
+}
+
+.role-score-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: rgba(10, 16, 24, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.role-score-icon svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: var(--role-accent);
+  stroke-width: 3;
+}
+
+.role-score-card strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.role-score-card span {
+  color: rgba(204, 214, 228, 0.8);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
 .role-loop-item {
   padding: 10px 12px;
   border-radius: 14px;
