@@ -1046,6 +1046,24 @@ a {
   margin-bottom: 10px;
 }
 
+.artifact-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  background: rgba(10, 16, 24, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.artifact-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: var(--role-accent);
+  stroke-width: 3;
+}
+
 .artifact-top span {
   padding: 6px 12px;
   border-radius: 999px;
@@ -1443,6 +1461,24 @@ a {
   align-items: center;
   gap: 10px;
   margin-bottom: 10px;
+}
+
+.preview-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  display: grid;
+  place-items: center;
+  background: rgba(10, 16, 24, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.preview-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: var(--role-accent);
+  stroke-width: 3;
 }
 
 .role-preview-card p {

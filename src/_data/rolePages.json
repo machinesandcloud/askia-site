@@ -22,15 +22,28 @@
     "heroCard": {
       "title": "SWE signal upgrade",
       "body": "A focused system that positions your engineering impact at the right level.",
-      "bullets": ["Scope + impact framing", "System design narrative", "Interview story bank"]
+      "bullets": [
+        "Scope + impact framing",
+        "System design narrative",
+        "Interview story bank"
+      ]
     },
     "proof": {
       "title": "Outcomes for software engineers",
       "subtitle": "Senior‑signal positioning that generates interviews.",
       "items": [
-        { "title": "Senior → Staff", "body": "Level‑up positioning built into your narrative." },
-        { "title": "Interview velocity", "body": "Clear role fit that drives recruiter response." },
-        { "title": "Offer leverage", "body": "Negotiation strategy tied to comp band." }
+        {
+          "title": "Senior → Staff",
+          "body": "Level‑up positioning built into your narrative."
+        },
+        {
+          "title": "Interview velocity",
+          "body": "Clear role fit that drives recruiter response."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiation strategy tied to comp band."
+        }
       ]
     },
     "focus": {
@@ -38,18 +51,39 @@
       "title": "Show scope, not just code",
       "subtitle": "We translate technical execution into leadership signal.",
       "items": [
-        { "tag": "Scope", "title": "Level clarity", "body": "Make Staff/Principal signal explicit." },
-        { "tag": "Story", "title": "Impact narratives", "body": "Tie systems work to outcomes." },
-        { "tag": "Execution", "title": "Interview readiness", "body": "System design + behavioral prep." }
+        {
+          "tag": "Scope",
+          "title": "Level clarity",
+          "body": "Make Staff/Principal signal explicit."
+        },
+        {
+          "tag": "Story",
+          "title": "Impact narratives",
+          "body": "Tie systems work to outcomes."
+        },
+        {
+          "tag": "Execution",
+          "title": "Interview readiness",
+          "body": "System design + behavioral prep."
+        }
       ]
     },
     "steps": {
       "title": "How software engineer coaching works",
       "subtitle": "A structured approach from targeting to offer.",
       "items": [
-        { "title": "Define", "body": "Target level, scope, and comp range." },
-        { "title": "Position", "body": "Build resume, LinkedIn, and story bank." },
-        { "title": "Execute", "body": "Prep interviews and negotiate the offer." }
+        {
+          "title": "Define",
+          "body": "Target level, scope, and comp range."
+        },
+        {
+          "title": "Position",
+          "body": "Build resume, LinkedIn, and story bank."
+        },
+        {
+          "title": "Execute",
+          "body": "Prep interviews and negotiate the offer."
+        }
       ]
     },
     "for": {
@@ -78,19 +112,31 @@
           "title": "SWE positioning brief",
           "tag": "Strategy",
           "body": "Clarify level, scope, and engineering narrative.",
-          "bullets": ["Level mapping", "Impact framing", "Role targeting"]
+          "bullets": [
+            "Level mapping",
+            "Impact framing",
+            "Role targeting"
+          ]
         },
         {
           "title": "Resume + LinkedIn",
           "tag": "Signal",
           "body": "Recruiter‑ready assets aligned to your target role.",
-          "bullets": ["ATS‑clean resume", "LinkedIn rewrite", "Role keywords"]
+          "bullets": [
+            "ATS‑clean resume",
+            "LinkedIn rewrite",
+            "Role keywords"
+          ]
         },
         {
           "title": "Interview + offer prep",
           "tag": "Conversion",
           "body": "Story bank and negotiation strategy.",
-          "bullets": ["Mock interview", "System design framing", "Negotiation script"]
+          "bullets": [
+            "Mock interview",
+            "System design framing",
+            "Negotiation script"
+          ]
         }
       ]
     },
@@ -145,7 +191,9 @@
       "body": "Book a call and map your path to the next level.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Software Engineer Coaching for Senior, Staff, and Principal Roles | Askia",
+    "metaDescription": "Software engineer coaching focused on system design signal, scope, and impact stories that convert to senior offers."
   },
   "devops": {
     "eyebrow": "DevOps & SRE career coaching",
@@ -170,15 +218,28 @@
     "heroCard": {
       "title": "DevOps signal upgrade",
       "body": "Show the business impact behind uptime, performance, and scale.",
-      "bullets": ["Incident narrative", "Reliability metrics", "Cloud + infra scope"]
+      "bullets": [
+        "Incident narrative",
+        "Reliability metrics",
+        "Cloud + infra scope"
+      ]
     },
     "proof": {
       "title": "Outcomes for DevOps roles",
       "subtitle": "Clear infra impact translates into senior offers.",
       "items": [
-        { "title": "Reliability signal", "body": "Narrative tied to uptime, latency, and scale." },
-        { "title": "Platform scope", "body": "Positioning that reflects org‑level impact." },
-        { "title": "Offer leverage", "body": "Negotiation strategy aligned to comp bands." }
+        {
+          "title": "Reliability signal",
+          "body": "Narrative tied to uptime, latency, and scale."
+        },
+        {
+          "title": "Platform scope",
+          "body": "Positioning that reflects org‑level impact."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiation strategy aligned to comp bands."
+        }
       ]
     },
     "focus": {
@@ -186,18 +247,39 @@
       "title": "Make infra impact visible",
       "subtitle": "Turn operations into leadership signal.",
       "items": [
-        { "tag": "Impact", "title": "Reliability outcomes", "body": "Uptime, latency, cost wins." },
-        { "tag": "Scope", "title": "Platform ownership", "body": "Show cross‑org impact." },
-        { "tag": "Execution", "title": "Interview prep", "body": "Incident narratives and system trade‑offs." }
+        {
+          "tag": "Impact",
+          "title": "Reliability outcomes",
+          "body": "Uptime, latency, cost wins."
+        },
+        {
+          "tag": "Scope",
+          "title": "Platform ownership",
+          "body": "Show cross‑org impact."
+        },
+        {
+          "tag": "Execution",
+          "title": "Interview prep",
+          "body": "Incident narratives and system trade‑offs."
+        }
       ]
     },
     "steps": {
       "title": "How DevOps coaching works",
       "subtitle": "Focused on infra impact and execution.",
       "items": [
-        { "title": "Target", "body": "Define role family and comp range." },
-        { "title": "Position", "body": "Build resume, LinkedIn, and story bank." },
-        { "title": "Convert", "body": "Prep interviews and negotiate offers." }
+        {
+          "title": "Target",
+          "body": "Define role family and comp range."
+        },
+        {
+          "title": "Position",
+          "body": "Build resume, LinkedIn, and story bank."
+        },
+        {
+          "title": "Convert",
+          "body": "Prep interviews and negotiate offers."
+        }
       ]
     },
     "for": {
@@ -226,19 +308,31 @@
           "title": "DevOps positioning",
           "tag": "Strategy",
           "body": "Define your impact and scope in reliability and infra.",
-          "bullets": ["Role targeting", "Impact framing", "Scope mapping"]
+          "bullets": [
+            "Role targeting",
+            "Impact framing",
+            "Scope mapping"
+          ]
         },
         {
           "title": "Resume + LinkedIn",
           "tag": "Signal",
           "body": "Recruiter‑ready assets aligned to DevOps roles.",
-          "bullets": ["ATS‑clean resume", "LinkedIn rewrite", "Infra keywords"]
+          "bullets": [
+            "ATS‑clean resume",
+            "LinkedIn rewrite",
+            "Infra keywords"
+          ]
         },
         {
           "title": "Interview prep",
           "tag": "Conversion",
           "body": "Scenario‑based prep for infra and incident questions.",
-          "bullets": ["Incident narratives", "System design framing", "Negotiation plan"]
+          "bullets": [
+            "Incident narratives",
+            "System design framing",
+            "Negotiation plan"
+          ]
         }
       ]
     },
@@ -293,7 +387,9 @@
       "body": "Book a call and map your next move.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "DevOps & SRE Coaching for Reliability and Scale | Askia",
+    "metaDescription": "DevOps and SRE coaching built around reliability impact, incident leadership, and infrastructure scope."
   },
   "data": {
     "eyebrow": "Data career coaching",
@@ -318,15 +414,28 @@
     "heroCard": {
       "title": "Data signal upgrade",
       "body": "Show how your data work drives decisions, revenue, and scale.",
-      "bullets": ["Business impact framing", "Metrics storytelling", "Role‑level clarity"]
+      "bullets": [
+        "Business impact framing",
+        "Metrics storytelling",
+        "Role‑level clarity"
+      ]
     },
     "proof": {
       "title": "Outcomes for data roles",
       "subtitle": "Clear impact converts to stronger offers.",
       "items": [
-        { "title": "Business impact", "body": "Translate data into decisions and outcomes." },
-        { "title": "Role clarity", "body": "Target the right data role family and level." },
-        { "title": "Offer leverage", "body": "Negotiation strategy based on comp range." }
+        {
+          "title": "Business impact",
+          "body": "Translate data into decisions and outcomes."
+        },
+        {
+          "title": "Role clarity",
+          "body": "Target the right data role family and level."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiation strategy based on comp range."
+        }
       ]
     },
     "focus": {
@@ -334,18 +443,39 @@
       "title": "Make decisions, not just dashboards",
       "subtitle": "We frame the business impact behind the analysis.",
       "items": [
-        { "tag": "Impact", "title": "Decision narrative", "body": "Explain how your work changed outcomes." },
-        { "tag": "Scope", "title": "Ownership signal", "body": "Show end‑to‑end influence." },
-        { "tag": "Execution", "title": "Interview prep", "body": "Case and data storytelling." }
+        {
+          "tag": "Impact",
+          "title": "Decision narrative",
+          "body": "Explain how your work changed outcomes."
+        },
+        {
+          "tag": "Scope",
+          "title": "Ownership signal",
+          "body": "Show end‑to‑end influence."
+        },
+        {
+          "tag": "Execution",
+          "title": "Interview prep",
+          "body": "Case and data storytelling."
+        }
       ]
     },
     "steps": {
       "title": "How data coaching works",
       "subtitle": "Positioning, signal, and execution.",
       "items": [
-        { "title": "Define", "body": "Clarify role family, level, and comp target." },
-        { "title": "Position", "body": "Build resume + LinkedIn with impact narrative." },
-        { "title": "Execute", "body": "Interview prep and negotiation strategy." }
+        {
+          "title": "Define",
+          "body": "Clarify role family, level, and comp target."
+        },
+        {
+          "title": "Position",
+          "body": "Build resume + LinkedIn with impact narrative."
+        },
+        {
+          "title": "Execute",
+          "body": "Interview prep and negotiation strategy."
+        }
       ]
     },
     "for": {
@@ -374,19 +504,31 @@
           "title": "Data positioning",
           "tag": "Strategy",
           "body": "Clarify data impact and level signal.",
-          "bullets": ["Role targeting", "Business outcomes", "Scope mapping"]
+          "bullets": [
+            "Role targeting",
+            "Business outcomes",
+            "Scope mapping"
+          ]
         },
         {
           "title": "Resume + LinkedIn",
           "tag": "Signal",
           "body": "Recruiter‑ready assets aligned to data roles.",
-          "bullets": ["ATS‑clean resume", "LinkedIn rewrite", "Data keywords"]
+          "bullets": [
+            "ATS‑clean resume",
+            "LinkedIn rewrite",
+            "Data keywords"
+          ]
         },
         {
           "title": "Interview + offer prep",
           "tag": "Conversion",
           "body": "Story bank and negotiation strategy.",
-          "bullets": ["Case study framing", "Mock interview", "Negotiation plan"]
+          "bullets": [
+            "Case study framing",
+            "Mock interview",
+            "Negotiation plan"
+          ]
         }
       ]
     },
@@ -441,7 +583,9 @@
       "body": "Book a call and map your next move.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Data Career Coaching for Analytics, Engineering, and Science | Askia",
+    "metaDescription": "Data coaching that turns pipelines and insights into business outcomes and senior‑level signal."
   },
   "productManager": {
     "eyebrow": "Product manager career coaching",
@@ -466,15 +610,28 @@
     "heroCard": {
       "title": "PM signal upgrade",
       "body": "Frame your product impact for strategy, execution, and leadership signal.",
-      "bullets": ["Strategy narrative", "Cross‑functional impact", "Metrics storytelling"]
+      "bullets": [
+        "Strategy narrative",
+        "Cross‑functional impact",
+        "Metrics storytelling"
+      ]
     },
     "proof": {
       "title": "Outcomes for product roles",
       "subtitle": "Clear product impact drives stronger offers.",
       "items": [
-        { "title": "Strategy signal", "body": "Product narratives that show ownership and trade‑offs." },
-        { "title": "Execution clarity", "body": "Stories tied to results and metrics." },
-        { "title": "Offer leverage", "body": "Negotiation strategy aligned to comp bands." }
+        {
+          "title": "Strategy signal",
+          "body": "Product narratives that show ownership and trade‑offs."
+        },
+        {
+          "title": "Execution clarity",
+          "body": "Stories tied to results and metrics."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiation strategy aligned to comp bands."
+        }
       ]
     },
     "focus": {
@@ -482,18 +639,39 @@
       "title": "Show strategy + execution",
       "subtitle": "We craft a story that shows product leadership.",
       "items": [
-        { "tag": "Strategy", "title": "Product thinking", "body": "Frame trade‑offs and decisions." },
-        { "tag": "Execution", "title": "Delivery impact", "body": "Tie releases to outcomes." },
-        { "tag": "Leadership", "title": "Stakeholder signal", "body": "Show influence across teams." }
+        {
+          "tag": "Strategy",
+          "title": "Product thinking",
+          "body": "Frame trade‑offs and decisions."
+        },
+        {
+          "tag": "Execution",
+          "title": "Delivery impact",
+          "body": "Tie releases to outcomes."
+        },
+        {
+          "tag": "Leadership",
+          "title": "Stakeholder signal",
+          "body": "Show influence across teams."
+        }
       ]
     },
     "steps": {
       "title": "How product coaching works",
       "subtitle": "Positioning, story, execution.",
       "items": [
-        { "title": "Define", "body": "Clarify PM level, domain, and comp range." },
-        { "title": "Position", "body": "Build narrative and role‑aligned assets." },
-        { "title": "Execute", "body": "Interview and negotiation prep." }
+        {
+          "title": "Define",
+          "body": "Clarify PM level, domain, and comp range."
+        },
+        {
+          "title": "Position",
+          "body": "Build narrative and role‑aligned assets."
+        },
+        {
+          "title": "Execute",
+          "body": "Interview and negotiation prep."
+        }
       ]
     },
     "for": {
@@ -522,19 +700,31 @@
           "title": "PM positioning",
           "tag": "Strategy",
           "body": "Define your product narrative and impact scope.",
-          "bullets": ["Role targeting", "Impact framing", "Strategy story"]
+          "bullets": [
+            "Role targeting",
+            "Impact framing",
+            "Strategy story"
+          ]
         },
         {
           "title": "Resume + LinkedIn",
           "tag": "Signal",
           "body": "Recruiter‑ready assets aligned to PM roles.",
-          "bullets": ["ATS‑clean resume", "LinkedIn rewrite", "PM keywords"]
+          "bullets": [
+            "ATS‑clean resume",
+            "LinkedIn rewrite",
+            "PM keywords"
+          ]
         },
         {
           "title": "Interview + offer prep",
           "tag": "Conversion",
           "body": "Case and behavioral interview prep plus negotiation planning.",
-          "bullets": ["PM case framing", "Story bank", "Negotiation plan"]
+          "bullets": [
+            "PM case framing",
+            "Story bank",
+            "Negotiation plan"
+          ]
         }
       ]
     },
@@ -589,7 +779,9 @@
       "body": "Book a call and map your next move.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Product Manager Coaching for Strategy and Execution | Askia",
+    "metaDescription": "PM coaching focused on roadmap signal, product metrics, and cross‑functional influence."
   },
   "engineeringManager": {
     "eyebrow": "Engineering manager coaching",
@@ -614,15 +806,28 @@
     "heroCard": {
       "title": "Leadership signal upgrade",
       "body": "Show your management impact, org scope, and decision‑making clearly.",
-      "bullets": ["Leadership narrative", "Org impact framing", "Offer strategy"]
+      "bullets": [
+        "Leadership narrative",
+        "Org impact framing",
+        "Offer strategy"
+      ]
     },
     "proof": {
       "title": "Outcomes for EM roles",
       "subtitle": "Leadership signal that translates to senior offers.",
       "items": [
-        { "title": "Leadership scope", "body": "Positioning built around org‑level outcomes." },
-        { "title": "Interview confidence", "body": "Prep for leadership, strategy, and execution loops." },
-        { "title": "Offer leverage", "body": "Negotiation strategy tied to total comp." }
+        {
+          "title": "Leadership scope",
+          "body": "Positioning built around org‑level outcomes."
+        },
+        {
+          "title": "Interview confidence",
+          "body": "Prep for leadership, strategy, and execution loops."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiation strategy tied to total comp."
+        }
       ]
     },
     "focus": {
@@ -630,18 +835,39 @@
       "title": "Show org‑level outcomes",
       "subtitle": "Position yourself as a leader, not a manager.",
       "items": [
-        { "tag": "Scope", "title": "Org impact", "body": "Show scale and business outcomes." },
-        { "tag": "People", "title": "Leadership narrative", "body": "Demonstrate team development." },
-        { "tag": "Execution", "title": "Interview readiness", "body": "Leadership loop prep." }
+        {
+          "tag": "Scope",
+          "title": "Org impact",
+          "body": "Show scale and business outcomes."
+        },
+        {
+          "tag": "People",
+          "title": "Leadership narrative",
+          "body": "Demonstrate team development."
+        },
+        {
+          "tag": "Execution",
+          "title": "Interview readiness",
+          "body": "Leadership loop prep."
+        }
       ]
     },
     "steps": {
       "title": "How EM coaching works",
       "subtitle": "Leadership positioning + execution.",
       "items": [
-        { "title": "Define", "body": "Clarify target scope and leadership level." },
-        { "title": "Position", "body": "Build leadership narrative and assets." },
-        { "title": "Execute", "body": "Interview and negotiation prep." }
+        {
+          "title": "Define",
+          "body": "Clarify target scope and leadership level."
+        },
+        {
+          "title": "Position",
+          "body": "Build leadership narrative and assets."
+        },
+        {
+          "title": "Execute",
+          "body": "Interview and negotiation prep."
+        }
       ]
     },
     "for": {
@@ -670,19 +896,31 @@
           "title": "Leadership positioning",
           "tag": "Strategy",
           "body": "Define your management narrative and impact scope.",
-          "bullets": ["Org impact", "Decision‑making", "Team outcomes"]
+          "bullets": [
+            "Org impact",
+            "Decision‑making",
+            "Team outcomes"
+          ]
         },
         {
           "title": "Resume + LinkedIn",
           "tag": "Signal",
           "body": "Executive‑ready assets aligned to EM roles.",
-          "bullets": ["ATS‑clean resume", "LinkedIn rewrite", "Leadership keywords"]
+          "bullets": [
+            "ATS‑clean resume",
+            "LinkedIn rewrite",
+            "Leadership keywords"
+          ]
         },
         {
           "title": "Interview + offer prep",
           "tag": "Conversion",
           "body": "Leadership interview prep and negotiation strategy.",
-          "bullets": ["Leadership scenarios", "Mock interview", "Negotiation plan"]
+          "bullets": [
+            "Leadership scenarios",
+            "Mock interview",
+            "Negotiation plan"
+          ]
         }
       ]
     },
@@ -737,14 +975,20 @@
       "body": "Book a call and map your leadership path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Engineering Manager Coaching for Leadership and Scale | Askia",
+    "metaDescription": "Engineering manager coaching built around team leadership, delivery systems, and org‑level impact."
   },
   "cybersecurity": {
     "eyebrow": "Cybersecurity career coaching",
     "h1": "Cybersecurity Coaching for Risk and Defense Roles",
     "subtitle": "Positioning, interview prep, and offer strategy for security roles.",
     "supporting": "We translate security work into business‑critical impact and leadership signal.",
-    "highlights": ["Security narrative", "Risk + impact framing", "Interview readiness"],
+    "highlights": [
+      "Security narrative",
+      "Risk + impact framing",
+      "Interview readiness"
+    ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
     "ctaProof": "Built for security engineers, analysts, and leaders.",
@@ -758,15 +1002,28 @@
     "heroCard": {
       "title": "Security signal upgrade",
       "body": "Show risk reduction, incident response, and business impact.",
-      "bullets": ["Risk framing", "Incident narratives", "Leadership signal"]
+      "bullets": [
+        "Risk framing",
+        "Incident narratives",
+        "Leadership signal"
+      ]
     },
     "proof": {
       "title": "Outcomes for security roles",
       "subtitle": "Make security impact visible to decision‑makers.",
       "items": [
-        { "title": "Risk clarity", "body": "Translate threats into business impact." },
-        { "title": "Scope signal", "body": "Show ownership across systems." },
-        { "title": "Offer leverage", "body": "Negotiate from a position of expertise." }
+        {
+          "title": "Risk clarity",
+          "body": "Translate threats into business impact."
+        },
+        {
+          "title": "Scope signal",
+          "body": "Show ownership across systems."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiate from a position of expertise."
+        }
       ]
     },
     "focus": {
@@ -774,35 +1031,72 @@
       "title": "Turn risk into leadership signal",
       "subtitle": "We align technical depth with business outcomes.",
       "items": [
-        { "tag": "Impact", "title": "Risk reduction", "body": "Show measurable impact on security posture." },
-        { "tag": "Scope", "title": "Ownership", "body": "Demonstrate cross‑org influence." },
-        { "tag": "Execution", "title": "Interview prep", "body": "Incident response storytelling." }
+        {
+          "tag": "Impact",
+          "title": "Risk reduction",
+          "body": "Show measurable impact on security posture."
+        },
+        {
+          "tag": "Scope",
+          "title": "Ownership",
+          "body": "Demonstrate cross‑org influence."
+        },
+        {
+          "tag": "Execution",
+          "title": "Interview prep",
+          "body": "Incident response storytelling."
+        }
       ]
     },
     "steps": {
       "title": "How security coaching works",
       "subtitle": "Positioning → prep → offers.",
       "items": [
-        { "title": "Define", "body": "Target security role and level." },
-        { "title": "Position", "body": "Build security narrative." },
-        { "title": "Execute", "body": "Interview + negotiation prep." }
+        {
+          "title": "Define",
+          "body": "Target security role and level."
+        },
+        {
+          "title": "Position",
+          "body": "Build security narrative."
+        },
+        {
+          "title": "Execute",
+          "body": "Interview + negotiation prep."
+        }
       ]
     },
     "for": {
       "title": "This is for",
       "body": "Security professionals moving up in scope.",
-      "items": ["Security engineers", "Security analysts", "Security leaders"]
+      "items": [
+        "Security engineers",
+        "Security analysts",
+        "Security leaders"
+      ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You want generic career advice.",
-      "items": ["No role targeting", "Entry‑level guidance only"]
+      "items": [
+        "No role targeting",
+        "Entry‑level guidance only"
+      ]
     },
     "deliverables": {
       "title": "What you get",
       "subtitle": "Security‑specific positioning and prep.",
       "items": [
-        { "title": "Security positioning", "tag": "Core", "body": "Narrative aligned to risk + impact.", "bullets": ["Risk framing", "Scope clarity", "Impact metrics"] }
+        {
+          "title": "Security positioning",
+          "tag": "Core",
+          "body": "Narrative aligned to risk + impact.",
+          "bullets": [
+            "Risk framing",
+            "Scope clarity",
+            "Impact metrics"
+          ]
+        }
       ]
     },
     "related": {
@@ -817,10 +1111,22 @@
       "title": "Cybersecurity coaching FAQs",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "Do you cover GRC roles?", "answer": "Yes, we cover GRC, security engineering, and leadership." },
-        { "question": "Can you help with incident narratives?", "answer": "Yes. We structure incident stories for impact." },
-        { "question": "Is this for senior roles?", "answer": "Yes, we focus on $120K–$300K roles." },
-        { "question": "Do you help with negotiation?", "answer": "Yes, negotiation planning is included." }
+        {
+          "question": "Do you cover GRC roles?",
+          "answer": "Yes, we cover GRC, security engineering, and leadership."
+        },
+        {
+          "question": "Can you help with incident narratives?",
+          "answer": "Yes. We structure incident stories for impact."
+        },
+        {
+          "question": "Is this for senior roles?",
+          "answer": "Yes, we focus on $120K–$300K roles."
+        },
+        {
+          "question": "Do you help with negotiation?",
+          "answer": "Yes, negotiation planning is included."
+        }
       ]
     },
     "cta": {
@@ -828,14 +1134,20 @@
       "body": "Book a call and map the path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Cybersecurity Coaching for Risk and Defense Roles | Askia",
+    "metaDescription": "Cybersecurity coaching that frames risk, incident response, and security scope for senior roles."
   },
   "qa": {
     "eyebrow": "QA & test automation coaching",
     "h1": "QA & Test Automation Coaching for Quality Signal",
     "subtitle": "Positioning, interview prep, and offer strategy for QA and automation roles.",
     "supporting": "We turn quality impact into leadership‑level signal.",
-    "highlights": ["Automation impact", "Quality signal", "Interview readiness"],
+    "highlights": [
+      "Automation impact",
+      "Quality signal",
+      "Interview readiness"
+    ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
     "ctaProof": "Built for QA, SDET, and test automation roles.",
@@ -849,15 +1161,28 @@
     "heroCard": {
       "title": "QA signal upgrade",
       "body": "Show how quality work saves time, money, and reputation.",
-      "bullets": ["Automation wins", "Reliability signal", "Leadership scope"]
+      "bullets": [
+        "Automation wins",
+        "Reliability signal",
+        "Leadership scope"
+      ]
     },
     "proof": {
       "title": "Outcomes for QA roles",
       "subtitle": "Make quality impact visible.",
       "items": [
-        { "title": "Automation impact", "body": "Show time saved and defect reduction." },
-        { "title": "Scope signal", "body": "Position cross‑team impact." },
-        { "title": "Offer leverage", "body": "Negotiate from clarity." }
+        {
+          "title": "Automation impact",
+          "body": "Show time saved and defect reduction."
+        },
+        {
+          "title": "Scope signal",
+          "body": "Position cross‑team impact."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiate from clarity."
+        }
       ]
     },
     "focus": {
@@ -865,35 +1190,72 @@
       "title": "Elevate QA from support to strategy",
       "subtitle": "We frame QA as a business‑critical function.",
       "items": [
-        { "tag": "Impact", "title": "Automation outcomes", "body": "Demonstrate measurable improvements." },
-        { "tag": "Scope", "title": "Cross‑team influence", "body": "Show collaboration and leadership." },
-        { "tag": "Execution", "title": "Interview readiness", "body": "Behavioral + technical prep." }
+        {
+          "tag": "Impact",
+          "title": "Automation outcomes",
+          "body": "Demonstrate measurable improvements."
+        },
+        {
+          "tag": "Scope",
+          "title": "Cross‑team influence",
+          "body": "Show collaboration and leadership."
+        },
+        {
+          "tag": "Execution",
+          "title": "Interview readiness",
+          "body": "Behavioral + technical prep."
+        }
       ]
     },
     "steps": {
       "title": "How QA coaching works",
       "subtitle": "Positioning → prep → offers.",
       "items": [
-        { "title": "Define", "body": "Clarify role and level target." },
-        { "title": "Position", "body": "Build QA narrative." },
-        { "title": "Execute", "body": "Interview + negotiation prep." }
+        {
+          "title": "Define",
+          "body": "Clarify role and level target."
+        },
+        {
+          "title": "Position",
+          "body": "Build QA narrative."
+        },
+        {
+          "title": "Execute",
+          "body": "Interview + negotiation prep."
+        }
       ]
     },
     "for": {
       "title": "This is for",
       "body": "QA and automation professionals.",
-      "items": ["QA engineers", "SDETs", "Test automation"]
+      "items": [
+        "QA engineers",
+        "SDETs",
+        "Test automation"
+      ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You want a generic resume rewrite.",
-      "items": ["No role targeting", "Entry‑level only"]
+      "items": [
+        "No role targeting",
+        "Entry‑level only"
+      ]
     },
     "deliverables": {
       "title": "What you get",
       "subtitle": "QA‑specific positioning and prep.",
       "items": [
-        { "title": "QA positioning", "tag": "Core", "body": "Narrative aligned to quality impact.", "bullets": ["Automation wins", "Impact metrics", "Scope clarity"] }
+        {
+          "title": "QA positioning",
+          "tag": "Core",
+          "body": "Narrative aligned to quality impact.",
+          "bullets": [
+            "Automation wins",
+            "Impact metrics",
+            "Scope clarity"
+          ]
+        }
       ]
     },
     "related": {
@@ -908,10 +1270,22 @@
       "title": "QA coaching FAQs",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "Do you cover SDET roles?", "answer": "Yes, we tailor to QA, SDET, and automation roles." },
-        { "question": "Can you help with automation stories?", "answer": "Yes, we frame automation impact clearly." },
-        { "question": "Is this for senior roles?", "answer": "Yes, focused on $100K–$220K roles." },
-        { "question": "Do you help with negotiation?", "answer": "Yes." }
+        {
+          "question": "Do you cover SDET roles?",
+          "answer": "Yes, we tailor to QA, SDET, and automation roles."
+        },
+        {
+          "question": "Can you help with automation stories?",
+          "answer": "Yes, we frame automation impact clearly."
+        },
+        {
+          "question": "Is this for senior roles?",
+          "answer": "Yes, focused on $100K–$220K roles."
+        },
+        {
+          "question": "Do you help with negotiation?",
+          "answer": "Yes."
+        }
       ]
     },
     "cta": {
@@ -919,14 +1293,20 @@
       "body": "Book a call and map your path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "QA & Test Automation Coaching for Quality Signal | Askia",
+    "metaDescription": "QA and test automation coaching focused on quality strategy, automation scope, and reliability impact."
   },
   "productDesign": {
     "eyebrow": "Product design career coaching",
     "h1": "Product Design Coaching for Product Impact",
     "subtitle": "Portfolio story, interview prep, and offer strategy for design roles.",
     "supporting": "We turn design work into leadership signal and clear impact.",
-    "highlights": ["Portfolio narrative", "Design impact", "Interview readiness"],
+    "highlights": [
+      "Portfolio narrative",
+      "Design impact",
+      "Interview readiness"
+    ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
     "ctaProof": "Built for product, UX, and UI designers.",
@@ -940,15 +1320,28 @@
     "heroCard": {
       "title": "Design signal upgrade",
       "body": "Show impact, craft, and leadership in your portfolio.",
-      "bullets": ["Portfolio narrative", "Outcome framing", "Interview prep"]
+      "bullets": [
+        "Portfolio narrative",
+        "Outcome framing",
+        "Interview prep"
+      ]
     },
     "proof": {
       "title": "Outcomes for designers",
       "subtitle": "Make the story behind the pixels clear.",
       "items": [
-        { "title": "Impact", "body": "Tie design decisions to results." },
-        { "title": "Story", "body": "Clear portfolio narratives." },
-        { "title": "Offer leverage", "body": "Negotiation strategy included." }
+        {
+          "title": "Impact",
+          "body": "Tie design decisions to results."
+        },
+        {
+          "title": "Story",
+          "body": "Clear portfolio narratives."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiation strategy included."
+        }
       ]
     },
     "focus": {
@@ -956,35 +1349,72 @@
       "title": "Make your work unforgettable",
       "subtitle": "We shape a portfolio story that lands.",
       "items": [
-        { "tag": "Story", "title": "Portfolio arc", "body": "Build a clear case study flow." },
-        { "tag": "Impact", "title": "Outcome signal", "body": "Tie design to metrics." },
-        { "tag": "Execution", "title": "Interview prep", "body": "Practice portfolio walkthroughs." }
+        {
+          "tag": "Story",
+          "title": "Portfolio arc",
+          "body": "Build a clear case study flow."
+        },
+        {
+          "tag": "Impact",
+          "title": "Outcome signal",
+          "body": "Tie design to metrics."
+        },
+        {
+          "tag": "Execution",
+          "title": "Interview prep",
+          "body": "Practice portfolio walkthroughs."
+        }
       ]
     },
     "steps": {
       "title": "How design coaching works",
       "subtitle": "Narrative → prep → offers.",
       "items": [
-        { "title": "Define", "body": "Target design role and level." },
-        { "title": "Position", "body": "Build portfolio narrative." },
-        { "title": "Execute", "body": "Interview + negotiation prep." }
+        {
+          "title": "Define",
+          "body": "Target design role and level."
+        },
+        {
+          "title": "Position",
+          "body": "Build portfolio narrative."
+        },
+        {
+          "title": "Execute",
+          "body": "Interview + negotiation prep."
+        }
       ]
     },
     "for": {
       "title": "This is for",
       "body": "Designers moving up in level.",
-      "items": ["Product designers", "UX/UI designers", "Design leads"]
+      "items": [
+        "Product designers",
+        "UX/UI designers",
+        "Design leads"
+      ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You want generic portfolio feedback.",
-      "items": ["No role targeting", "Entry‑level only"]
+      "items": [
+        "No role targeting",
+        "Entry‑level only"
+      ]
     },
     "deliverables": {
       "title": "What you get",
       "subtitle": "Design‑specific positioning and prep.",
       "items": [
-        { "title": "Portfolio strategy", "tag": "Core", "body": "Narrative and story structure.", "bullets": ["Case study flow", "Impact framing", "Leadership signal"] }
+        {
+          "title": "Portfolio strategy",
+          "tag": "Core",
+          "body": "Narrative and story structure.",
+          "bullets": [
+            "Case study flow",
+            "Impact framing",
+            "Leadership signal"
+          ]
+        }
       ]
     },
     "related": {
@@ -999,10 +1429,22 @@
       "title": "Design coaching FAQs",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "Do you review portfolios?", "answer": "Yes, we structure the portfolio narrative." },
-        { "question": "Is this for UX and UI?", "answer": "Yes, both." },
-        { "question": "Do you help with negotiation?", "answer": "Yes." },
-        { "question": "Is this for senior roles?", "answer": "Yes, focused on $100K–$250K." }
+        {
+          "question": "Do you review portfolios?",
+          "answer": "Yes, we structure the portfolio narrative."
+        },
+        {
+          "question": "Is this for UX and UI?",
+          "answer": "Yes, both."
+        },
+        {
+          "question": "Do you help with negotiation?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Is this for senior roles?",
+          "answer": "Yes, focused on $100K–$250K."
+        }
       ]
     },
     "cta": {
@@ -1010,14 +1452,20 @@
       "body": "Book a call and map your path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Product Design Coaching for Product Impact | Askia",
+    "metaDescription": "Product design coaching focused on portfolio narrative, product impact, and senior design signal."
   },
   "solutionsArchitect": {
     "eyebrow": "Solutions architect coaching",
     "h1": "Solutions Architect Coaching for System Design and Scale",
     "subtitle": "Positioning and interview prep for architecture and pre‑sales roles.",
     "supporting": "We turn technical depth into business impact narratives.",
-    "highlights": ["Architecture signal", "Customer impact", "Interview readiness"],
+    "highlights": [
+      "Architecture signal",
+      "Customer impact",
+      "Interview readiness"
+    ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
     "ctaProof": "Built for SA, cloud architects, and pre‑sales roles.",
@@ -1031,15 +1479,28 @@
     "heroCard": {
       "title": "Architecture signal",
       "body": "Show system impact and customer outcomes.",
-      "bullets": ["System narratives", "Business value", "Leadership signal"]
+      "bullets": [
+        "System narratives",
+        "Business value",
+        "Leadership signal"
+      ]
     },
     "proof": {
       "title": "Outcomes for architects",
       "subtitle": "Turn complexity into clarity.",
       "items": [
-        { "title": "Impact", "body": "Frame architecture outcomes." },
-        { "title": "Scope", "body": "Show cross‑org influence." },
-        { "title": "Offer leverage", "body": "Negotiation support." }
+        {
+          "title": "Impact",
+          "body": "Frame architecture outcomes."
+        },
+        {
+          "title": "Scope",
+          "body": "Show cross‑org influence."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiation support."
+        }
       ]
     },
     "focus": {
@@ -1047,35 +1508,72 @@
       "title": "Make the system story clear",
       "subtitle": "We align technical depth with business outcomes.",
       "items": [
-        { "tag": "Story", "title": "System narratives", "body": "Explain trade‑offs simply." },
-        { "tag": "Impact", "title": "Business outcomes", "body": "Tie architecture to revenue and risk." },
-        { "tag": "Execution", "title": "Interview prep", "body": "Case studies and deep dives." }
+        {
+          "tag": "Story",
+          "title": "System narratives",
+          "body": "Explain trade‑offs simply."
+        },
+        {
+          "tag": "Impact",
+          "title": "Business outcomes",
+          "body": "Tie architecture to revenue and risk."
+        },
+        {
+          "tag": "Execution",
+          "title": "Interview prep",
+          "body": "Case studies and deep dives."
+        }
       ]
     },
     "steps": {
       "title": "How architect coaching works",
       "subtitle": "Positioning → prep → offers.",
       "items": [
-        { "title": "Define", "body": "Target role and comp band." },
-        { "title": "Position", "body": "Build architecture narrative." },
-        { "title": "Execute", "body": "Interview + negotiation prep." }
+        {
+          "title": "Define",
+          "body": "Target role and comp band."
+        },
+        {
+          "title": "Position",
+          "body": "Build architecture narrative."
+        },
+        {
+          "title": "Execute",
+          "body": "Interview + negotiation prep."
+        }
       ]
     },
     "for": {
       "title": "This is for",
       "body": "Architect and pre‑sales roles.",
-      "items": ["Solutions architects", "Cloud architects", "Pre‑sales engineers"]
+      "items": [
+        "Solutions architects",
+        "Cloud architects",
+        "Pre‑sales engineers"
+      ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You want generic advice.",
-      "items": ["No role targeting", "Entry‑level only"]
+      "items": [
+        "No role targeting",
+        "Entry‑level only"
+      ]
     },
     "deliverables": {
       "title": "What you get",
       "subtitle": "Architecture‑specific positioning.",
       "items": [
-        { "title": "Architecture narrative", "tag": "Core", "body": "Story aligned to outcomes.", "bullets": ["Trade‑offs", "Impact", "Scope"] }
+        {
+          "title": "Architecture narrative",
+          "tag": "Core",
+          "body": "Story aligned to outcomes.",
+          "bullets": [
+            "Trade‑offs",
+            "Impact",
+            "Scope"
+          ]
+        }
       ]
     },
     "related": {
@@ -1090,10 +1588,22 @@
       "title": "Solutions architect FAQs",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "Do you cover pre‑sales?", "answer": "Yes, including customer storytelling." },
-        { "question": "Can you help with system design interviews?", "answer": "Yes." },
-        { "question": "Is this for senior roles?", "answer": "Yes, $130K–$300K focus." },
-        { "question": "Do you help with negotiation?", "answer": "Yes." }
+        {
+          "question": "Do you cover pre‑sales?",
+          "answer": "Yes, including customer storytelling."
+        },
+        {
+          "question": "Can you help with system design interviews?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Is this for senior roles?",
+          "answer": "Yes, $130K–$300K focus."
+        },
+        {
+          "question": "Do you help with negotiation?",
+          "answer": "Yes."
+        }
       ]
     },
     "cta": {
@@ -1101,14 +1611,20 @@
       "body": "Book a call and map your path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Solutions Architect Coaching for System Design and Scale | Askia",
+    "metaDescription": "Solutions architect coaching centered on architecture trade‑offs, scale, and business impact."
   },
   "technicalProgramManager": {
     "eyebrow": "Technical program manager coaching",
     "h1": "Technical Program Manager Coaching for Delivery at Scale",
     "subtitle": "Positioning and interview prep for TPM and program roles.",
     "supporting": "We translate complex programs into leadership‑level impact.",
-    "highlights": ["Program impact", "Stakeholder signal", "Interview readiness"],
+    "highlights": [
+      "Program impact",
+      "Stakeholder signal",
+      "Interview readiness"
+    ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
     "ctaProof": "Built for TPMs, program managers, and ops leaders.",
@@ -1122,15 +1638,28 @@
     "heroCard": {
       "title": "TPM signal",
       "body": "Show cross‑org coordination and impact.",
-      "bullets": ["Program outcomes", "Stakeholder leadership", "Execution signal"]
+      "bullets": [
+        "Program outcomes",
+        "Stakeholder leadership",
+        "Execution signal"
+      ]
     },
     "proof": {
       "title": "Outcomes for TPM roles",
       "subtitle": "Make program impact obvious.",
       "items": [
-        { "title": "Coordination", "body": "Show complex delivery." },
-        { "title": "Scope", "body": "Demonstrate org‑wide influence." },
-        { "title": "Offer leverage", "body": "Negotiation strategy included." }
+        {
+          "title": "Coordination",
+          "body": "Show complex delivery."
+        },
+        {
+          "title": "Scope",
+          "body": "Demonstrate org‑wide influence."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiation strategy included."
+        }
       ]
     },
     "focus": {
@@ -1138,35 +1667,72 @@
       "title": "Turn coordination into leadership",
       "subtitle": "We frame program work as strategic impact.",
       "items": [
-        { "tag": "Impact", "title": "Outcome narratives", "body": "Tie programs to results." },
-        { "tag": "Scope", "title": "Cross‑org signal", "body": "Show influence and leadership." },
-        { "tag": "Execution", "title": "Interview prep", "body": "Behavioral + program stories." }
+        {
+          "tag": "Impact",
+          "title": "Outcome narratives",
+          "body": "Tie programs to results."
+        },
+        {
+          "tag": "Scope",
+          "title": "Cross‑org signal",
+          "body": "Show influence and leadership."
+        },
+        {
+          "tag": "Execution",
+          "title": "Interview prep",
+          "body": "Behavioral + program stories."
+        }
       ]
     },
     "steps": {
       "title": "How TPM coaching works",
       "subtitle": "Positioning → prep → offers.",
       "items": [
-        { "title": "Define", "body": "Target role and level." },
-        { "title": "Position", "body": "Build program narrative." },
-        { "title": "Execute", "body": "Interview + negotiation prep." }
+        {
+          "title": "Define",
+          "body": "Target role and level."
+        },
+        {
+          "title": "Position",
+          "body": "Build program narrative."
+        },
+        {
+          "title": "Execute",
+          "body": "Interview + negotiation prep."
+        }
       ]
     },
     "for": {
       "title": "This is for",
       "body": "TPMs and program leaders.",
-      "items": ["TPMs", "Program managers", "Ops leaders"]
+      "items": [
+        "TPMs",
+        "Program managers",
+        "Ops leaders"
+      ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You want generic advice.",
-      "items": ["No role targeting", "Entry‑level only"]
+      "items": [
+        "No role targeting",
+        "Entry‑level only"
+      ]
     },
     "deliverables": {
       "title": "What you get",
       "subtitle": "TPM‑specific positioning.",
       "items": [
-        { "title": "Program narrative", "tag": "Core", "body": "Story aligned to impact.", "bullets": ["Outcome framing", "Stakeholder signal", "Scope clarity"] }
+        {
+          "title": "Program narrative",
+          "tag": "Core",
+          "body": "Story aligned to impact.",
+          "bullets": [
+            "Outcome framing",
+            "Stakeholder signal",
+            "Scope clarity"
+          ]
+        }
       ]
     },
     "related": {
@@ -1181,10 +1747,22 @@
       "title": "TPM coaching FAQs",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "Do you cover non‑technical PM roles?", "answer": "Yes, we tailor to scope." },
-        { "question": "Is this for senior roles?", "answer": "Yes, $120K–$250K focus." },
-        { "question": "Do you help with negotiation?", "answer": "Yes." },
-        { "question": "Do you cover program case interviews?", "answer": "Yes." }
+        {
+          "question": "Do you cover non‑technical PM roles?",
+          "answer": "Yes, we tailor to scope."
+        },
+        {
+          "question": "Is this for senior roles?",
+          "answer": "Yes, $120K–$250K focus."
+        },
+        {
+          "question": "Do you help with negotiation?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Do you cover program case interviews?",
+          "answer": "Yes."
+        }
       ]
     },
     "cta": {
@@ -1192,14 +1770,20 @@
       "body": "Book a call and map your path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Technical Program Manager Coaching for Delivery at Scale | Askia",
+    "metaDescription": "TPM coaching focused on program scope, delivery cadence, and stakeholder alignment."
   },
   "salesEngineer": {
     "eyebrow": "Sales engineer coaching",
     "h1": "Sales Engineer Coaching for Pre-Sales Impact",
     "subtitle": "Positioning, interview prep, and offer strategy for technical sales.",
     "supporting": "We align technical depth with revenue impact narratives.",
-    "highlights": ["Technical + sales signal", "Customer impact", "Interview readiness"],
+    "highlights": [
+      "Technical + sales signal",
+      "Customer impact",
+      "Interview readiness"
+    ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
     "ctaProof": "Built for sales engineers and solutions consultants.",
@@ -1213,15 +1797,28 @@
     "heroCard": {
       "title": "Sales engineer signal",
       "body": "Show technical depth + customer outcomes.",
-      "bullets": ["Pre‑sales impact", "Customer wins", "Leadership signal"]
+      "bullets": [
+        "Pre‑sales impact",
+        "Customer wins",
+        "Leadership signal"
+      ]
     },
     "proof": {
       "title": "Outcomes for sales engineers",
       "subtitle": "Make revenue impact visible.",
       "items": [
-        { "title": "Revenue impact", "body": "Tie technical work to closed deals." },
-        { "title": "Scope signal", "body": "Show strategic customer influence." },
-        { "title": "Offer leverage", "body": "Negotiation planning included." }
+        {
+          "title": "Revenue impact",
+          "body": "Tie technical work to closed deals."
+        },
+        {
+          "title": "Scope signal",
+          "body": "Show strategic customer influence."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiation planning included."
+        }
       ]
     },
     "focus": {
@@ -1229,35 +1826,72 @@
       "title": "Bridge tech + sales",
       "subtitle": "We craft a story that sells your impact.",
       "items": [
-        { "tag": "Impact", "title": "Deal wins", "body": "Frame your role in revenue outcomes." },
-        { "tag": "Scope", "title": "Customer influence", "body": "Show cross‑functional leadership." },
-        { "tag": "Execution", "title": "Interview prep", "body": "Demo + storytelling practice." }
+        {
+          "tag": "Impact",
+          "title": "Deal wins",
+          "body": "Frame your role in revenue outcomes."
+        },
+        {
+          "tag": "Scope",
+          "title": "Customer influence",
+          "body": "Show cross‑functional leadership."
+        },
+        {
+          "tag": "Execution",
+          "title": "Interview prep",
+          "body": "Demo + storytelling practice."
+        }
       ]
     },
     "steps": {
       "title": "How sales engineer coaching works",
       "subtitle": "Positioning → prep → offers.",
       "items": [
-        { "title": "Define", "body": "Target role and comp band." },
-        { "title": "Position", "body": "Build revenue narrative." },
-        { "title": "Execute", "body": "Interview + negotiation prep." }
+        {
+          "title": "Define",
+          "body": "Target role and comp band."
+        },
+        {
+          "title": "Position",
+          "body": "Build revenue narrative."
+        },
+        {
+          "title": "Execute",
+          "body": "Interview + negotiation prep."
+        }
       ]
     },
     "for": {
       "title": "This is for",
       "body": "Sales engineers and solutions consultants.",
-      "items": ["Sales engineers", "Solutions consultants", "Technical pre‑sales"]
+      "items": [
+        "Sales engineers",
+        "Solutions consultants",
+        "Technical pre‑sales"
+      ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You want generic sales advice.",
-      "items": ["No role targeting", "Entry‑level only"]
+      "items": [
+        "No role targeting",
+        "Entry‑level only"
+      ]
     },
     "deliverables": {
       "title": "What you get",
       "subtitle": "Sales‑engineer positioning.",
       "items": [
-        { "title": "Revenue narrative", "tag": "Core", "body": "Story aligned to outcomes.", "bullets": ["Deal impact", "Customer wins", "Scope clarity"] }
+        {
+          "title": "Revenue narrative",
+          "tag": "Core",
+          "body": "Story aligned to outcomes.",
+          "bullets": [
+            "Deal impact",
+            "Customer wins",
+            "Scope clarity"
+          ]
+        }
       ]
     },
     "related": {
@@ -1272,10 +1906,22 @@
       "title": "Sales engineer FAQs",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "Do you cover demo interviews?", "answer": "Yes, we prep for demos and storytelling." },
-        { "question": "Is this for senior roles?", "answer": "Yes, $120K–$300K focus." },
-        { "question": "Do you help with negotiation?", "answer": "Yes." },
-        { "question": "Can this be bundled?", "answer": "Yes, with resume or coaching." }
+        {
+          "question": "Do you cover demo interviews?",
+          "answer": "Yes, we prep for demos and storytelling."
+        },
+        {
+          "question": "Is this for senior roles?",
+          "answer": "Yes, $120K–$300K focus."
+        },
+        {
+          "question": "Do you help with negotiation?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Can this be bundled?",
+          "answer": "Yes, with resume or coaching."
+        }
       ]
     },
     "cta": {
@@ -1283,14 +1929,20 @@
       "body": "Book a call and map your path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Sales Engineer Coaching for Pre‑Sales Impact | Askia",
+    "metaDescription": "Sales engineer coaching focused on demo narrative, technical depth, and deal influence."
   },
   "customerSuccess": {
     "eyebrow": "Customer success coaching",
     "h1": "Customer Success Coaching for Retention and Growth",
     "subtitle": "Positioning and interview prep for CS and client success roles.",
     "supporting": "We translate retention and expansion impact into leadership signal.",
-    "highlights": ["Retention impact", "Account growth", "Interview readiness"],
+    "highlights": [
+      "Retention impact",
+      "Account growth",
+      "Interview readiness"
+    ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
     "ctaProof": "Built for CSMs, CS leaders, and account managers.",
@@ -1304,15 +1956,28 @@
     "heroCard": {
       "title": "Customer success signal",
       "body": "Show retention, expansion, and customer impact.",
-      "bullets": ["Retention wins", "Expansion impact", "Leadership scope"]
+      "bullets": [
+        "Retention wins",
+        "Expansion impact",
+        "Leadership scope"
+      ]
     },
     "proof": {
       "title": "Outcomes for CS roles",
       "subtitle": "Make customer impact visible.",
       "items": [
-        { "title": "Retention impact", "body": "Show revenue protection and growth." },
-        { "title": "Scope signal", "body": "Demonstrate leadership across accounts." },
-        { "title": "Offer leverage", "body": "Negotiation planning included." }
+        {
+          "title": "Retention impact",
+          "body": "Show revenue protection and growth."
+        },
+        {
+          "title": "Scope signal",
+          "body": "Demonstrate leadership across accounts."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiation planning included."
+        }
       ]
     },
     "focus": {
@@ -1320,35 +1985,72 @@
       "title": "Turn account work into leadership signal",
       "subtitle": "We frame your results with clarity.",
       "items": [
-        { "tag": "Impact", "title": "Retention + expansion", "body": "Quantify customer outcomes." },
-        { "tag": "Scope", "title": "Portfolio signal", "body": "Show account complexity." },
-        { "tag": "Execution", "title": "Interview prep", "body": "Case and behavioral prep." }
+        {
+          "tag": "Impact",
+          "title": "Retention + expansion",
+          "body": "Quantify customer outcomes."
+        },
+        {
+          "tag": "Scope",
+          "title": "Portfolio signal",
+          "body": "Show account complexity."
+        },
+        {
+          "tag": "Execution",
+          "title": "Interview prep",
+          "body": "Case and behavioral prep."
+        }
       ]
     },
     "steps": {
       "title": "How CS coaching works",
       "subtitle": "Positioning → prep → offers.",
       "items": [
-        { "title": "Define", "body": "Target role and level." },
-        { "title": "Position", "body": "Build CS narrative." },
-        { "title": "Execute", "body": "Interview + negotiation prep." }
+        {
+          "title": "Define",
+          "body": "Target role and level."
+        },
+        {
+          "title": "Position",
+          "body": "Build CS narrative."
+        },
+        {
+          "title": "Execute",
+          "body": "Interview + negotiation prep."
+        }
       ]
     },
     "for": {
       "title": "This is for",
       "body": "Customer success professionals.",
-      "items": ["CSMs", "CS leaders", "Account managers"]
+      "items": [
+        "CSMs",
+        "CS leaders",
+        "Account managers"
+      ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You want generic career advice.",
-      "items": ["No role targeting", "Entry‑level only"]
+      "items": [
+        "No role targeting",
+        "Entry‑level only"
+      ]
     },
     "deliverables": {
       "title": "What you get",
       "subtitle": "CS‑specific positioning.",
       "items": [
-        { "title": "CS narrative", "tag": "Core", "body": "Story aligned to customer impact.", "bullets": ["Retention wins", "Expansion outcomes", "Scope clarity"] }
+        {
+          "title": "CS narrative",
+          "tag": "Core",
+          "body": "Story aligned to customer impact.",
+          "bullets": [
+            "Retention wins",
+            "Expansion outcomes",
+            "Scope clarity"
+          ]
+        }
       ]
     },
     "related": {
@@ -1363,10 +2065,22 @@
       "title": "Customer success FAQs",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "Do you cover account management?", "answer": "Yes." },
-        { "question": "Is this for leadership roles?", "answer": "Yes." },
-        { "question": "Do you help with negotiation?", "answer": "Yes." },
-        { "question": "Can this be bundled?", "answer": "Yes." }
+        {
+          "question": "Do you cover account management?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Is this for leadership roles?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Do you help with negotiation?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Can this be bundled?",
+          "answer": "Yes."
+        }
       ]
     },
     "cta": {
@@ -1374,14 +2088,20 @@
       "body": "Book a call and map your path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Customer Success Coaching for Retention and Growth | Askia",
+    "metaDescription": "Customer success coaching focused on retention, expansion, and customer health signal."
   },
   "productOps": {
     "eyebrow": "Product operations coaching",
     "h1": "Product Operations Coaching for Enablement",
     "subtitle": "Positioning and interview prep for product ops roles.",
     "supporting": "We frame operational impact into leadership‑level signal.",
-    "highlights": ["Process impact", "Cross‑org signal", "Interview readiness"],
+    "highlights": [
+      "Process impact",
+      "Cross‑org signal",
+      "Interview readiness"
+    ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
     "ctaProof": "Built for product ops and operations roles.",
@@ -1395,15 +2115,28 @@
     "heroCard": {
       "title": "Ops signal upgrade",
       "body": "Show operational impact and cross‑team influence.",
-      "bullets": ["Process wins", "Stakeholder impact", "Leadership signal"]
+      "bullets": [
+        "Process wins",
+        "Stakeholder impact",
+        "Leadership signal"
+      ]
     },
     "proof": {
       "title": "Outcomes for product ops",
       "subtitle": "Make process impact visible.",
       "items": [
-        { "title": "Process impact", "body": "Tie ops work to outcomes." },
-        { "title": "Scope signal", "body": "Show cross‑team influence." },
-        { "title": "Offer leverage", "body": "Negotiation planning included." }
+        {
+          "title": "Process impact",
+          "body": "Tie ops work to outcomes."
+        },
+        {
+          "title": "Scope signal",
+          "body": "Show cross‑team influence."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiation planning included."
+        }
       ]
     },
     "focus": {
@@ -1411,35 +2144,72 @@
       "title": "Turn process into strategy",
       "subtitle": "We position ops as a growth lever.",
       "items": [
-        { "tag": "Impact", "title": "Efficiency wins", "body": "Show time saved and outcomes." },
-        { "tag": "Scope", "title": "Cross‑org influence", "body": "Demonstrate leadership signal." },
-        { "tag": "Execution", "title": "Interview prep", "body": "Case and stakeholder prep." }
+        {
+          "tag": "Impact",
+          "title": "Efficiency wins",
+          "body": "Show time saved and outcomes."
+        },
+        {
+          "tag": "Scope",
+          "title": "Cross‑org influence",
+          "body": "Demonstrate leadership signal."
+        },
+        {
+          "tag": "Execution",
+          "title": "Interview prep",
+          "body": "Case and stakeholder prep."
+        }
       ]
     },
     "steps": {
       "title": "How product ops coaching works",
       "subtitle": "Positioning → prep → offers.",
       "items": [
-        { "title": "Define", "body": "Target role and level." },
-        { "title": "Position", "body": "Build ops narrative." },
-        { "title": "Execute", "body": "Interview + negotiation prep." }
+        {
+          "title": "Define",
+          "body": "Target role and level."
+        },
+        {
+          "title": "Position",
+          "body": "Build ops narrative."
+        },
+        {
+          "title": "Execute",
+          "body": "Interview + negotiation prep."
+        }
       ]
     },
     "for": {
       "title": "This is for",
       "body": "Ops and enablement professionals.",
-      "items": ["Product ops", "Program ops", "Enablement roles"]
+      "items": [
+        "Product ops",
+        "Program ops",
+        "Enablement roles"
+      ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You want generic advice.",
-      "items": ["No role targeting", "Entry‑level only"]
+      "items": [
+        "No role targeting",
+        "Entry‑level only"
+      ]
     },
     "deliverables": {
       "title": "What you get",
       "subtitle": "Ops‑specific positioning.",
       "items": [
-        { "title": "Ops narrative", "tag": "Core", "body": "Story aligned to process impact.", "bullets": ["Process outcomes", "Scope clarity", "Leadership signal"] }
+        {
+          "title": "Ops narrative",
+          "tag": "Core",
+          "body": "Story aligned to process impact.",
+          "bullets": [
+            "Process outcomes",
+            "Scope clarity",
+            "Leadership signal"
+          ]
+        }
       ]
     },
     "related": {
@@ -1454,10 +2224,22 @@
       "title": "Product ops FAQs",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "Is this for non‑product ops?", "answer": "Yes, for adjacent ops roles too." },
-        { "question": "Do you help with negotiation?", "answer": "Yes." },
-        { "question": "Is this for senior roles?", "answer": "Yes." },
-        { "question": "Can this be bundled?", "answer": "Yes." }
+        {
+          "question": "Is this for non‑product ops?",
+          "answer": "Yes, for adjacent ops roles too."
+        },
+        {
+          "question": "Do you help with negotiation?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Is this for senior roles?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Can this be bundled?",
+          "answer": "Yes."
+        }
       ]
     },
     "cta": {
@@ -1465,14 +2247,20 @@
       "body": "Book a call and map your path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Product Operations Coaching for Enablement | Askia",
+    "metaDescription": "Product ops coaching focused on process clarity, enablement, and cross‑functional leverage."
   },
   "projectProgramManagement": {
     "eyebrow": "Project & program management coaching",
     "h1": "Program & Project Management Coaching for Cross-Org Delivery",
     "subtitle": "Positioning and interview prep for project and program roles.",
     "supporting": "We translate delivery leadership into executive‑ready signal.",
-    "highlights": ["Delivery impact", "Stakeholder signal", "Interview readiness"],
+    "highlights": [
+      "Delivery impact",
+      "Stakeholder signal",
+      "Interview readiness"
+    ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
     "ctaProof": "Built for PMs, PgMs, and delivery leaders.",
@@ -1486,15 +2274,28 @@
     "heroCard": {
       "title": "Delivery signal",
       "body": "Show execution leadership and program outcomes.",
-      "bullets": ["Delivery wins", "Risk management", "Leadership signal"]
+      "bullets": [
+        "Delivery wins",
+        "Risk management",
+        "Leadership signal"
+      ]
     },
     "proof": {
       "title": "Outcomes for project/program roles",
       "subtitle": "Make delivery impact clear.",
       "items": [
-        { "title": "Delivery impact", "body": "Tie projects to outcomes." },
-        { "title": "Scope signal", "body": "Demonstrate cross‑org influence." },
-        { "title": "Offer leverage", "body": "Negotiation strategy included." }
+        {
+          "title": "Delivery impact",
+          "body": "Tie projects to outcomes."
+        },
+        {
+          "title": "Scope signal",
+          "body": "Demonstrate cross‑org influence."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiation strategy included."
+        }
       ]
     },
     "focus": {
@@ -1502,35 +2303,72 @@
       "title": "Turn delivery into leadership signal",
       "subtitle": "We frame program leadership clearly.",
       "items": [
-        { "tag": "Impact", "title": "Outcome narratives", "body": "Show results and risk mitigation." },
-        { "tag": "Scope", "title": "Stakeholder influence", "body": "Demonstrate leadership across teams." },
-        { "tag": "Execution", "title": "Interview prep", "body": "Behavioral + case prep." }
+        {
+          "tag": "Impact",
+          "title": "Outcome narratives",
+          "body": "Show results and risk mitigation."
+        },
+        {
+          "tag": "Scope",
+          "title": "Stakeholder influence",
+          "body": "Demonstrate leadership across teams."
+        },
+        {
+          "tag": "Execution",
+          "title": "Interview prep",
+          "body": "Behavioral + case prep."
+        }
       ]
     },
     "steps": {
       "title": "How PM/PgM coaching works",
       "subtitle": "Positioning → prep → offers.",
       "items": [
-        { "title": "Define", "body": "Target role and level." },
-        { "title": "Position", "body": "Build delivery narrative." },
-        { "title": "Execute", "body": "Interview + negotiation prep." }
+        {
+          "title": "Define",
+          "body": "Target role and level."
+        },
+        {
+          "title": "Position",
+          "body": "Build delivery narrative."
+        },
+        {
+          "title": "Execute",
+          "body": "Interview + negotiation prep."
+        }
       ]
     },
     "for": {
       "title": "This is for",
       "body": "Project and program managers.",
-      "items": ["Project managers", "Program managers", "Delivery leaders"]
+      "items": [
+        "Project managers",
+        "Program managers",
+        "Delivery leaders"
+      ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You want generic advice.",
-      "items": ["No role targeting", "Entry‑level only"]
+      "items": [
+        "No role targeting",
+        "Entry‑level only"
+      ]
     },
     "deliverables": {
       "title": "What you get",
       "subtitle": "Delivery‑specific positioning.",
       "items": [
-        { "title": "Delivery narrative", "tag": "Core", "body": "Story aligned to outcomes.", "bullets": ["Risk mitigation", "Stakeholder signal", "Outcome framing"] }
+        {
+          "title": "Delivery narrative",
+          "tag": "Core",
+          "body": "Story aligned to outcomes.",
+          "bullets": [
+            "Risk mitigation",
+            "Stakeholder signal",
+            "Outcome framing"
+          ]
+        }
       ]
     },
     "related": {
@@ -1545,10 +2383,22 @@
       "title": "Project/program FAQs",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "Do you cover non‑technical PM roles?", "answer": "Yes." },
-        { "question": "Is this for senior roles?", "answer": "Yes." },
-        { "question": "Do you help with negotiation?", "answer": "Yes." },
-        { "question": "Can this be bundled?", "answer": "Yes." }
+        {
+          "question": "Do you cover non‑technical PM roles?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Is this for senior roles?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Do you help with negotiation?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Can this be bundled?",
+          "answer": "Yes."
+        }
       ]
     },
     "cta": {
@@ -1556,14 +2406,20 @@
       "body": "Book a call and map your path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Program & Project Management Coaching for Cross‑Org Delivery | Askia",
+    "metaDescription": "Program and project management coaching focused on delivery cadence, risk management, and executive communication."
   },
   "aiMl": {
     "eyebrow": "AI / ML career coaching",
     "h1": "AI & ML Coaching for Applied Impact",
     "subtitle": "Positioning, interview prep, and offer strategy for AI/ML roles.",
     "supporting": "We translate model work into business impact and leadership signal.",
-    "highlights": ["Model impact", "System signal", "Interview readiness"],
+    "highlights": [
+      "Model impact",
+      "System signal",
+      "Interview readiness"
+    ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
     "ctaProof": "Built for ML engineers, applied scientists, and AI leads.",
@@ -1577,15 +2433,28 @@
     "heroCard": {
       "title": "AI/ML signal",
       "body": "Show how models drive real outcomes.",
-      "bullets": ["Model impact", "System narratives", "Leadership signal"]
+      "bullets": [
+        "Model impact",
+        "System narratives",
+        "Leadership signal"
+      ]
     },
     "proof": {
       "title": "Outcomes for AI/ML roles",
       "subtitle": "Make model impact visible.",
       "items": [
-        { "title": "Impact", "body": "Tie models to business outcomes." },
-        { "title": "Scope", "body": "Show system ownership." },
-        { "title": "Offer leverage", "body": "Negotiation strategy included." }
+        {
+          "title": "Impact",
+          "body": "Tie models to business outcomes."
+        },
+        {
+          "title": "Scope",
+          "body": "Show system ownership."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiation strategy included."
+        }
       ]
     },
     "focus": {
@@ -1593,35 +2462,72 @@
       "title": "Translate models into outcomes",
       "subtitle": "We frame AI/ML work for decision‑makers.",
       "items": [
-        { "tag": "Impact", "title": "Outcome framing", "body": "Show how models change metrics." },
-        { "tag": "Scope", "title": "System signal", "body": "Demonstrate end‑to‑end ownership." },
-        { "tag": "Execution", "title": "Interview prep", "body": "System design + ML case prep." }
+        {
+          "tag": "Impact",
+          "title": "Outcome framing",
+          "body": "Show how models change metrics."
+        },
+        {
+          "tag": "Scope",
+          "title": "System signal",
+          "body": "Demonstrate end‑to‑end ownership."
+        },
+        {
+          "tag": "Execution",
+          "title": "Interview prep",
+          "body": "System design + ML case prep."
+        }
       ]
     },
     "steps": {
       "title": "How AI/ML coaching works",
       "subtitle": "Positioning → prep → offers.",
       "items": [
-        { "title": "Define", "body": "Target role and level." },
-        { "title": "Position", "body": "Build AI narrative." },
-        { "title": "Execute", "body": "Interview + negotiation prep." }
+        {
+          "title": "Define",
+          "body": "Target role and level."
+        },
+        {
+          "title": "Position",
+          "body": "Build AI narrative."
+        },
+        {
+          "title": "Execute",
+          "body": "Interview + negotiation prep."
+        }
       ]
     },
     "for": {
       "title": "This is for",
       "body": "AI/ML professionals.",
-      "items": ["ML engineers", "Applied scientists", "AI leads"]
+      "items": [
+        "ML engineers",
+        "Applied scientists",
+        "AI leads"
+      ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You want generic advice.",
-      "items": ["No role targeting", "Entry‑level only"]
+      "items": [
+        "No role targeting",
+        "Entry‑level only"
+      ]
     },
     "deliverables": {
       "title": "What you get",
       "subtitle": "AI/ML positioning and prep.",
       "items": [
-        { "title": "AI narrative", "tag": "Core", "body": "Story aligned to outcomes.", "bullets": ["Model impact", "System scope", "Leadership signal"] }
+        {
+          "title": "AI narrative",
+          "tag": "Core",
+          "body": "Story aligned to outcomes.",
+          "bullets": [
+            "Model impact",
+            "System scope",
+            "Leadership signal"
+          ]
+        }
       ]
     },
     "related": {
@@ -1636,10 +2542,22 @@
       "title": "AI/ML FAQs",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "Do you cover ML system design?", "answer": "Yes." },
-        { "question": "Is this for senior roles?", "answer": "Yes, $140K–$350K focus." },
-        { "question": "Do you help with negotiation?", "answer": "Yes." },
-        { "question": "Can this be bundled?", "answer": "Yes." }
+        {
+          "question": "Do you cover ML system design?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Is this for senior roles?",
+          "answer": "Yes, $140K–$350K focus."
+        },
+        {
+          "question": "Do you help with negotiation?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Can this be bundled?",
+          "answer": "Yes."
+        }
       ]
     },
     "cta": {
@@ -1647,6 +2565,8 @@
       "body": "Book a call and map your path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "AI & ML Coaching for Applied Impact | Askia",
+    "metaDescription": "AI/ML coaching focused on model impact, MLOps readiness, and applied outcomes."
   }
 }

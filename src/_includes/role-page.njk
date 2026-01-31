@@ -623,6 +623,7 @@
       {% for item in roleArtifacts %}
         <article class="artifact-card">
           <div class="artifact-top">
+            <div class="artifact-icon">{{ roleIcon(roleKey) }}</div>
             <strong>{{ item.title }}</strong>
             <span>{{ item.tag }}</span>
           </div>
@@ -651,6 +652,7 @@
       {% for item in rolePreviews %}
         <article class="role-preview-card">
           <div class="preview-head">
+            <div class="preview-icon">{{ roleIcon(roleKey) }}</div>
             <strong>{{ item.title }}</strong>
           </div>
           <p>{{ item.body }}</p>

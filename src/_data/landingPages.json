@@ -22,21 +22,54 @@
     "heroTag": "Signal-led coaching",
     "heroTrustLabel": "Trusted by candidates from",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
-      { "src": "/assets/logos/testimonials/microsoft.svg", "alt": "Microsoft logo" },
-      { "src": "/assets/logos/testimonials/figma.svg", "alt": "Figma logo" },
-      { "src": "/assets/logos/testimonials/shopify.svg", "alt": "Shopify logo" },
-      { "src": "/assets/logos/testimonials/uber.svg", "alt": "Uber logo" }
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/microsoft.svg",
+        "alt": "Microsoft logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/figma.svg",
+        "alt": "Figma logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/shopify.svg",
+        "alt": "Shopify logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/uber.svg",
+        "alt": "Uber logo"
+      }
     ],
     "heroStats": [
-      { "value": "$100K–$350K", "label": "Offer ranges across tech roles" },
-      { "value": "2–6 weeks", "label": "Typical time to interview momentum" },
-      { "value": "Senior signal", "label": "Positioning that reads at level" }
+      {
+        "value": "$100K–$350K",
+        "label": "Offer ranges across tech roles"
+      },
+      {
+        "value": "2–6 weeks",
+        "label": "Typical time to interview momentum"
+      },
+      {
+        "value": "Senior signal",
+        "label": "Positioning that reads at level"
+      }
     ],
     "heroTimeline": [
-      { "tag": "Week 1", "body": "Target role + comp band with precision." },
-      { "tag": "Week 2–3", "body": "Rewrite narrative, resume, and LinkedIn." },
-      { "tag": "Week 4–6", "body": "Interview execution + offer strategy." }
+      {
+        "tag": "Week 1",
+        "body": "Target role + comp band with precision."
+      },
+      {
+        "tag": "Week 2–3",
+        "body": "Rewrite narrative, resume, and LinkedIn."
+      },
+      {
+        "tag": "Week 4–6",
+        "body": "Interview execution + offer strategy."
+      }
     ],
     "heroImages": [
       {
@@ -57,15 +90,41 @@
       "title": "Signals that move the market",
       "subtitle": "Outcomes across senior IC, manager, and leadership paths.",
       "items": [
-        { "title": "$100K–$350K", "body": "Offer ranges achieved by clients across tech roles." },
-        { "title": "2–6 weeks", "body": "Typical window to see interview momentum with the right signal." },
-        { "title": "Hiring-table insight", "body": "Built from real hiring decisions across engineering and product teams." }
+        {
+          "title": "$100K–$350K",
+          "body": "Offer ranges achieved by clients across tech roles."
+        },
+        {
+          "title": "2–6 weeks",
+          "body": "Typical window to see interview momentum with the right signal."
+        },
+        {
+          "title": "Hiring-table insight",
+          "body": "Built from real hiring decisions across engineering and product teams."
+        }
       ]
     },
     "testimonials": {
       "title": "Real outcomes from tech professionals",
       "subtitle": "Recent wins across engineering, product, data, and leadership roles.",
-      "indexes": [1, 3, 4, 6, 8, 19, 0, 2, 5, 7, 9, 10, 11, 12, 13, 14]
+      "indexes": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        19,
+        0,
+        2,
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
     },
     "coach": {
       "eyebrow": "Your coach",
@@ -84,18 +143,39 @@
       "title": "From stalled to offer‑ready",
       "subtitle": "We turn uncertainty into a plan you can feel.",
       "items": [
-        { "tag": "Clarity", "title": "Stop guessing", "body": "Define the role, level, and comp target that fits your strengths." },
-        { "tag": "Signal", "title": "Be seen", "body": "Turn your experience into recruiter‑ready narrative and assets." },
-        { "tag": "Momentum", "title": "Move fast", "body": "Interview execution + negotiation strategy built to close." }
+        {
+          "tag": "Clarity",
+          "title": "Stop guessing",
+          "body": "Define the role, level, and comp target that fits your strengths."
+        },
+        {
+          "tag": "Signal",
+          "title": "Be seen",
+          "body": "Turn your experience into recruiter‑ready narrative and assets."
+        },
+        {
+          "tag": "Momentum",
+          "title": "Move fast",
+          "body": "Interview execution + negotiation strategy built to close."
+        }
       ]
     },
     "steps": {
       "title": "How we move you from unclear to offer-ready",
       "subtitle": "A simple, repeatable path that prioritizes signal and leverage.",
       "items": [
-        { "title": "Target", "body": "Define your next role and compensation band with precision." },
-        { "title": "Position", "body": "Build a resume + LinkedIn narrative that signals seniority." },
-        { "title": "Convert", "body": "Execute interviews and negotiation with a plan." }
+        {
+          "title": "Target",
+          "body": "Define your next role and compensation band with precision."
+        },
+        {
+          "title": "Position",
+          "body": "Build a resume + LinkedIn narrative that signals seniority."
+        },
+        {
+          "title": "Convert",
+          "body": "Execute interviews and negotiation with a plan."
+        }
       ]
     },
     "call": {
@@ -103,9 +183,18 @@
       "title": "What happens on the strategy call",
       "subtitle": "You’ll leave with a clear plan — even if we’re not a fit.",
       "steps": [
-        { "title": "Goal + role alignment", "body": "Clarify your target role, level, and compensation band." },
-        { "title": "Signal + gap audit", "body": "We assess your resume, LinkedIn, and interview story strength." },
-        { "title": "Action plan", "body": "You get a scoped path, timeline, and next steps." }
+        {
+          "title": "Goal + role alignment",
+          "body": "Clarify your target role, level, and compensation band."
+        },
+        {
+          "title": "Signal + gap audit",
+          "body": "We assess your resume, LinkedIn, and interview story strength."
+        },
+        {
+          "title": "Action plan",
+          "body": "You get a scoped path, timeline, and next steps."
+        }
       ],
       "note": "No pressure. If we’re not the right fit, we’ll tell you and still send you forward with a plan."
     },
@@ -137,19 +226,31 @@
           "title": "Positioning Blueprint",
           "tag": "Foundation",
           "body": "A clear role definition and narrative map recruiters understand.",
-          "bullets": ["Role targeting", "Comp positioning", "Strengths mapping"]
+          "bullets": [
+            "Role targeting",
+            "Comp positioning",
+            "Strengths mapping"
+          ]
         },
         {
           "title": "Brand Assets",
           "tag": "Signal",
           "body": "Recruiter-ready resume + LinkedIn tailored to your level.",
-          "bullets": ["Impact bullets", "ATS-ready formatting", "LinkedIn headline + about"]
+          "bullets": [
+            "Impact bullets",
+            "ATS-ready formatting",
+            "LinkedIn headline + about"
+          ]
         },
         {
           "title": "Interview + Offer Plan",
           "tag": "Conversion",
           "body": "A focused interview system and negotiation strategy.",
-          "bullets": ["Interview story bank", "Mock interview", "Negotiation script"]
+          "bullets": [
+            "Interview story bank",
+            "Mock interview",
+            "Negotiation script"
+          ]
         }
       ]
     },
@@ -162,25 +263,41 @@
           "title": "Role Targeting Map",
           "tag": "Clarity",
           "body": "A one-page decision map for role family, level, and comp band.",
-          "bullets": ["Role family shortlist", "Leveling signals", "Comp anchor"]
+          "bullets": [
+            "Role family shortlist",
+            "Leveling signals",
+            "Comp anchor"
+          ]
         },
         {
           "title": "Resume + LinkedIn Rewrite",
           "tag": "Signal",
           "body": "Impact-first positioning that reads senior to recruiters.",
-          "bullets": ["Before/after impact bullets", "ATS-ready format", "Headline + About rewrite"]
+          "bullets": [
+            "Before/after impact bullets",
+            "ATS-ready format",
+            "Headline + About rewrite"
+          ]
         },
         {
           "title": "Interview Story Bank",
           "tag": "Execution",
           "body": "A structured bank of stories tied to role requirements.",
-          "bullets": ["System design/strategy prompts", "Leadership + conflict stories", "Quantified outcomes"]
+          "bullets": [
+            "System design/strategy prompts",
+            "Leadership + conflict stories",
+            "Quantified outcomes"
+          ]
         },
         {
           "title": "Offer Strategy Pack",
           "tag": "Leverage",
           "body": "Negotiation prep built around your leverage points.",
-          "bullets": ["Range + anchor plan", "Comp comparison matrix", "Decision script"]
+          "bullets": [
+            "Range + anchor plan",
+            "Comp comparison matrix",
+            "Decision script"
+          ]
         }
       ]
     },
@@ -251,6 +368,8 @@
       "body": "Book a strategy call and we’ll build the plan.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Land the Right‑Level Tech Role | Askia",
+    "metaDescription": "Outcome‑focused career coaching to refine your signal, interviews, and offer strategy."
   }
 }

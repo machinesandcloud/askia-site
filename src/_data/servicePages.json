@@ -23,30 +23,75 @@
     "heroGraphic": "resume",
     "heroGraphicLabel": "Resume signal",
     "heroModules": [
-      { "title": "Role targeting", "body": "Define level, scope, and comp band before writing.", "meta": "Strategy" },
-      { "title": "Impact rewrite", "body": "Translate work into metrics and outcomes.", "meta": "Signal" },
-      { "title": "ATS clean", "body": "Formatting that survives filters and scans fast.", "meta": "Delivery" }
+      {
+        "title": "Role targeting",
+        "body": "Define level, scope, and comp band before writing.",
+        "meta": "Strategy"
+      },
+      {
+        "title": "Impact rewrite",
+        "body": "Translate work into metrics and outcomes.",
+        "meta": "Signal"
+      },
+      {
+        "title": "ATS clean",
+        "body": "Formatting that survives filters and scans fast.",
+        "meta": "Delivery"
+      }
     ],
     "heroStats": [
-      { "value": "7–10 days", "label": "Typical turnaround" },
-      { "value": "1 revision", "label": "Included polish pass" },
-      { "value": "Senior signal", "label": "Level-aligned positioning" }
+      {
+        "value": "7–10 days",
+        "label": "Typical turnaround"
+      },
+      {
+        "value": "1 revision",
+        "label": "Included polish pass"
+      },
+      {
+        "value": "Senior signal",
+        "label": "Level-aligned positioning"
+      }
     ],
     "heroTrustLabel": "Trusted by candidates from",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
-      { "src": "/assets/logos/testimonials/microsoft.svg", "alt": "Microsoft logo" },
-      { "src": "/assets/logos/testimonials/figma.svg", "alt": "Figma logo" },
-      { "src": "/assets/logos/testimonials/shopify.svg", "alt": "Shopify logo" }
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/microsoft.svg",
+        "alt": "Microsoft logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/figma.svg",
+        "alt": "Figma logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/shopify.svg",
+        "alt": "Shopify logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "Resume audit",
       "title": "What changes after a resume rebuild",
       "subtitle": "We make your level, scope, and impact undeniable.",
       "items": [
-        { "tag": "Signal", "title": "Clarity in 8 seconds", "body": "Recruiters see level, scope, and impact at a glance." },
-        { "tag": "Structure", "title": "ATS + human readable", "body": "Clean architecture that passes filters and reads fast." },
-        { "tag": "Story", "title": "Leadership narrative", "body": "Your work reframed as outcomes, not tasks." }
+        {
+          "tag": "Signal",
+          "title": "Clarity in 8 seconds",
+          "body": "Recruiters see level, scope, and impact at a glance."
+        },
+        {
+          "tag": "Structure",
+          "title": "ATS + human readable",
+          "body": "Clean architecture that passes filters and reads fast."
+        },
+        {
+          "tag": "Story",
+          "title": "Leadership narrative",
+          "body": "Your work reframed as outcomes, not tasks."
+        }
       ]
     },
     "mistakes": {
@@ -54,12 +99,33 @@
       "title": "Why strong resumes still get ignored",
       "subtitle": "We fix the hidden friction points that kill response rates.",
       "items": [
-        { "title": "Task lists", "body": "Bullets describe duties instead of outcomes and scope." },
-        { "title": "Level ambiguity", "body": "No clear signal of seniority, leverage, or ownership." },
-        { "title": "ATS clutter", "body": "Design-heavy layouts that break scanning and parsing." }
+        {
+          "title": "Task lists",
+          "body": "Bullets describe duties instead of outcomes and scope."
+        },
+        {
+          "title": "Level ambiguity",
+          "body": "No clear signal of seniority, leverage, or ownership."
+        },
+        {
+          "title": "ATS clutter",
+          "body": "Design-heavy layouts that break scanning and parsing."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "roleLinks", "steps", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "proof",
+      "focus",
+      "mistakes",
+      "deliverables",
+      "roleLinks",
+      "steps",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "Resume Rebuild deliverables",
       "body": "A resume that positions you at the level you’re targeting, not the level you’re leaving.",
@@ -73,9 +139,18 @@
       "title": "Why this works",
       "subtitle": "We build resumes that trigger interviews, not confusion.",
       "items": [
-        { "title": "ATS‑ready", "body": "Clean structure that passes filters without losing signal." },
-        { "title": "Recruiter‑clear", "body": "Immediate level cues tied to scope and impact." },
-        { "title": "Interview‑ready", "body": "Bullets written for STAR and behavioral proof." }
+        {
+          "title": "ATS‑ready",
+          "body": "Clean structure that passes filters without losing signal."
+        },
+        {
+          "title": "Recruiter‑clear",
+          "body": "Immediate level cues tied to scope and impact."
+        },
+        {
+          "title": "Interview‑ready",
+          "body": "Bullets written for STAR and behavioral proof."
+        }
       ]
     },
     "focus": {
@@ -83,18 +158,39 @@
       "title": "Make your experience obvious in 8 seconds",
       "subtitle": "Recruiters scan fast. We make every line count.",
       "items": [
-        { "tag": "Positioning", "title": "Role‑aligned narrative", "body": "Define level and scope before we write a word." },
-        { "tag": "Impact", "title": "Outcomes, not tasks", "body": "Bullets built around results and scope." },
-        { "tag": "Clarity", "title": "ATS + human readable", "body": "Structured for filters and hiring managers." }
+        {
+          "tag": "Positioning",
+          "title": "Role‑aligned narrative",
+          "body": "Define level and scope before we write a word."
+        },
+        {
+          "tag": "Impact",
+          "title": "Outcomes, not tasks",
+          "body": "Bullets built around results and scope."
+        },
+        {
+          "tag": "Clarity",
+          "title": "ATS + human readable",
+          "body": "Structured for filters and hiring managers."
+        }
       ]
     },
     "steps": {
       "title": "How the resume rebuild works",
       "subtitle": "Fast, focused, and scoped to your target role.",
       "items": [
-        { "title": "Target", "body": "Define your next role and compensation band." },
-        { "title": "Rewrite", "body": "Translate your work into impact and leadership signal." },
-        { "title": "Refine", "body": "Finalize with ATS‑clean formatting and revisions." }
+        {
+          "title": "Target",
+          "body": "Define your next role and compensation band."
+        },
+        {
+          "title": "Rewrite",
+          "body": "Translate your work into impact and leadership signal."
+        },
+        {
+          "title": "Refine",
+          "body": "Finalize with ATS‑clean formatting and revisions."
+        }
       ]
     },
     "for": {
@@ -123,19 +219,31 @@
           "title": "Positioning brief",
           "tag": "Strategy",
           "body": "Role targeting, comp band, and narrative framing.",
-          "bullets": ["Role alignment", "Scope mapping", "Core strengths"]
+          "bullets": [
+            "Role alignment",
+            "Scope mapping",
+            "Core strengths"
+          ]
         },
         {
           "title": "Rewritten resume",
           "tag": "Signal",
           "body": "Impact‑first bullets with senior‑level structure.",
-          "bullets": ["Impact framing", "Metrics guidance", "ATS‑clean format"]
+          "bullets": [
+            "Impact framing",
+            "Metrics guidance",
+            "ATS‑clean format"
+          ]
         },
         {
           "title": "Revision round",
           "tag": "Polish",
           "body": "One revision round to lock the final version.",
-          "bullets": ["Feedback loop", "Final edits", "Delivery"]
+          "bullets": [
+            "Feedback loop",
+            "Final edits",
+            "Delivery"
+          ]
         }
       ]
     },
@@ -215,7 +323,9 @@
       "body": "Book a call and we’ll map the fastest path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Resume Writing for Senior Tech Roles | Askia",
+    "metaDescription": "Resume writing focused on senior‑level signal, scope, and impact that earns interviews."
   },
   "linkedinOptimization": {
     "eyebrow": "LinkedIn optimization for tech",
@@ -241,30 +351,75 @@
     "heroGraphic": "linkedin",
     "heroGraphicLabel": "Profile signal",
     "heroModules": [
-      { "title": "Headline + About", "body": "Rewrite the top 3 lines to signal role, scope, and impact.", "meta": "Above the fold" },
-      { "title": "Experience story", "body": "Convert experience into outcomes recruiters recognize.", "meta": "Credibility" },
-      { "title": "Search visibility", "body": "Align keywords to how recruiters actually search.", "meta": "Inbound" }
+      {
+        "title": "Headline + About",
+        "body": "Rewrite the top 3 lines to signal role, scope, and impact.",
+        "meta": "Above the fold"
+      },
+      {
+        "title": "Experience story",
+        "body": "Convert experience into outcomes recruiters recognize.",
+        "meta": "Credibility"
+      },
+      {
+        "title": "Search visibility",
+        "body": "Align keywords to how recruiters actually search.",
+        "meta": "Inbound"
+      }
     ],
     "heroStats": [
-      { "value": "7–10 days", "label": "Typical turnaround" },
-      { "value": "3 core sections", "label": "Headline, About, Experience" },
-      { "value": "Inbound focus", "label": "Search + narrative alignment" }
+      {
+        "value": "7–10 days",
+        "label": "Typical turnaround"
+      },
+      {
+        "value": "3 core sections",
+        "label": "Headline, About, Experience"
+      },
+      {
+        "value": "Inbound focus",
+        "label": "Search + narrative alignment"
+      }
     ],
     "heroTrustLabel": "Trusted by candidates from",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/linkedin.svg", "alt": "LinkedIn logo" },
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
-      { "src": "/assets/logos/testimonials/spotify.svg", "alt": "Spotify logo" },
-      { "src": "/assets/logos/testimonials/adobe.svg", "alt": "Adobe logo" }
+      {
+        "src": "/assets/logos/testimonials/linkedin.svg",
+        "alt": "LinkedIn logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/spotify.svg",
+        "alt": "Spotify logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/adobe.svg",
+        "alt": "Adobe logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "Profile snapshot",
       "title": "What changes after LinkedIn optimization",
       "subtitle": "Clarity, credibility, and the right inbound.",
       "items": [
-        { "tag": "Above the fold", "title": "Instant role fit", "body": "Headline + About communicate scope and seniority fast." },
-        { "tag": "Signal", "title": "Impact story", "body": "Experience sections read like outcomes, not tasks." },
-        { "tag": "Search", "title": "Recruiter visibility", "body": "Keywords mapped to target role families." }
+        {
+          "tag": "Above the fold",
+          "title": "Instant role fit",
+          "body": "Headline + About communicate scope and seniority fast."
+        },
+        {
+          "tag": "Signal",
+          "title": "Impact story",
+          "body": "Experience sections read like outcomes, not tasks."
+        },
+        {
+          "tag": "Search",
+          "title": "Recruiter visibility",
+          "body": "Keywords mapped to target role families."
+        }
       ]
     },
     "mistakes": {
@@ -272,24 +427,58 @@
       "title": "Why good profiles still don’t convert",
       "subtitle": "We eliminate friction in how recruiters scan and decide.",
       "items": [
-        { "title": "Generic headline", "body": "Title-only headlines don’t signal level or specialization." },
-        { "title": "Story gaps", "body": "Experience reads like tasks, not measurable outcomes." },
-        { "title": "Search mismatch", "body": "Keywords don’t match how recruiters filter." }
+        {
+          "title": "Generic headline",
+          "body": "Title-only headlines don’t signal level or specialization."
+        },
+        {
+          "title": "Story gaps",
+          "body": "Experience reads like tasks, not measurable outcomes."
+        },
+        {
+          "title": "Search mismatch",
+          "body": "Keywords don’t match how recruiters filter."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "deliverables", "roleLinks", "steps", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "focus",
+      "proof",
+      "mistakes",
+      "deliverables",
+      "roleLinks",
+      "steps",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "LinkedIn signal upgrade",
       "body": "Position your profile so recruiters see level, scope, and outcomes in seconds.",
-      "bullets": ["Headline + About rewrite", "Impact‑first experience", "Search visibility"]
+      "bullets": [
+        "Headline + About rewrite",
+        "Impact‑first experience",
+        "Search visibility"
+      ]
     },
     "proof": {
       "title": "LinkedIn that converts",
       "subtitle": "Built for inbound, not vanity.",
       "items": [
-        { "title": "Recruiter‑clear", "body": "Immediate role fit signals in the first 3 lines." },
-        { "title": "Search‑ready", "body": "Keywords aligned to your target role family." },
-        { "title": "Story‑driven", "body": "Impact narrative that supports interviews." }
+        {
+          "title": "Recruiter‑clear",
+          "body": "Immediate role fit signals in the first 3 lines."
+        },
+        {
+          "title": "Search‑ready",
+          "body": "Keywords aligned to your target role family."
+        },
+        {
+          "title": "Story‑driven",
+          "body": "Impact narrative that supports interviews."
+        }
       ]
     },
     "focus": {
@@ -297,18 +486,39 @@
       "title": "Turn your profile into a recruiter magnet",
       "subtitle": "We align the message, the signal, and the search intent.",
       "items": [
-        { "tag": "Headline", "title": "Instant level cue", "body": "Clear role + scope signal in your headline." },
-        { "tag": "Narrative", "title": "Impact story", "body": "A cohesive story that makes you memorable." },
-        { "tag": "Search", "title": "Keyword alignment", "body": "Optimize for how recruiters actually search." }
+        {
+          "tag": "Headline",
+          "title": "Instant level cue",
+          "body": "Clear role + scope signal in your headline."
+        },
+        {
+          "tag": "Narrative",
+          "title": "Impact story",
+          "body": "A cohesive story that makes you memorable."
+        },
+        {
+          "tag": "Search",
+          "title": "Keyword alignment",
+          "body": "Optimize for how recruiters actually search."
+        }
       ]
     },
     "steps": {
       "title": "How LinkedIn optimization works",
       "subtitle": "A precise rewrite built around target roles.",
       "items": [
-        { "title": "Target", "body": "Define your role family and level." },
-        { "title": "Rewrite", "body": "Build headline, about, and experience signal." },
-        { "title": "Align", "body": "Sync with resume and interview narrative." }
+        {
+          "title": "Target",
+          "body": "Define your role family and level."
+        },
+        {
+          "title": "Rewrite",
+          "body": "Build headline, about, and experience signal."
+        },
+        {
+          "title": "Align",
+          "body": "Sync with resume and interview narrative."
+        }
       ]
     },
     "for": {
@@ -337,19 +547,31 @@
           "title": "Headline + About",
           "tag": "Signal",
           "body": "A narrative that communicates scope and outcomes.",
-          "bullets": ["Level cues", "Role alignment", "Value proposition"]
+          "bullets": [
+            "Level cues",
+            "Role alignment",
+            "Value proposition"
+          ]
         },
         {
           "title": "Experience rewrite",
           "tag": "Impact",
           "body": "Impact‑driven bullets aligned to your target role family.",
-          "bullets": ["Metrics framing", "Outcome story", "Keyword alignment"]
+          "bullets": [
+            "Metrics framing",
+            "Outcome story",
+            "Keyword alignment"
+          ]
         },
         {
           "title": "Profile strategy",
           "tag": "Inbound",
           "body": "A simple plan to keep signal consistent across channels.",
-          "bullets": ["Profile consistency", "Recruiter search tips", "Outreach alignment"]
+          "bullets": [
+            "Profile consistency",
+            "Recruiter search tips",
+            "Outreach alignment"
+          ]
         }
       ]
     },
@@ -429,7 +651,9 @@
       "body": "Book a call and we’ll align your profile to your target level.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "LinkedIn Optimization for High‑Signal Profiles | Askia",
+    "metaDescription": "LinkedIn optimization that turns your profile into a recruiter‑ready inbound engine."
   },
   "interviewPrep": {
     "eyebrow": "Interview prep for tech roles",
@@ -455,30 +679,75 @@
     "heroGraphic": "interview",
     "heroGraphicLabel": "Interview loop",
     "heroModules": [
-      { "title": "Story bank", "body": "Build STAR stories tied to impact and scope.", "meta": "Clarity" },
-      { "title": "Live mock", "body": "Practice with feedback and iteration.", "meta": "Execution" },
-      { "title": "Signal calibration", "body": "Align answers to the level you want.", "meta": "Leveling" }
+      {
+        "title": "Story bank",
+        "body": "Build STAR stories tied to impact and scope.",
+        "meta": "Clarity"
+      },
+      {
+        "title": "Live mock",
+        "body": "Practice with feedback and iteration.",
+        "meta": "Execution"
+      },
+      {
+        "title": "Signal calibration",
+        "body": "Align answers to the level you want.",
+        "meta": "Leveling"
+      }
     ],
     "heroStats": [
-      { "value": "2–3 sessions", "label": "Typical prep cycle" },
-      { "value": "Story system", "label": "Reusable answers" },
-      { "value": "Offer-ready", "label": "Confidence under pressure" }
+      {
+        "value": "2–3 sessions",
+        "label": "Typical prep cycle"
+      },
+      {
+        "value": "Story system",
+        "label": "Reusable answers"
+      },
+      {
+        "value": "Offer-ready",
+        "label": "Confidence under pressure"
+      }
     ],
     "heroTrustLabel": "Trusted by candidates from",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
-      { "src": "/assets/logos/testimonials/uber.svg", "alt": "Uber logo" },
-      { "src": "/assets/logos/testimonials/paypal.svg", "alt": "PayPal logo" },
-      { "src": "/assets/logos/testimonials/snowflake.svg", "alt": "Snowflake logo" }
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/uber.svg",
+        "alt": "Uber logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/paypal.svg",
+        "alt": "PayPal logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/snowflake.svg",
+        "alt": "Snowflake logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "Interview snapshot",
       "title": "What changes after interview prep",
       "subtitle": "You answer with structure, confidence, and signal.",
       "items": [
-        { "tag": "Clarity", "title": "Structured answers", "body": "Responses that map to role requirements and level." },
-        { "tag": "Confidence", "title": "Controlled delivery", "body": "No rambling. No guessing. Clear outcomes." },
-        { "tag": "Signal", "title": "Senior presence", "body": "Decision-making and scope become obvious." }
+        {
+          "tag": "Clarity",
+          "title": "Structured answers",
+          "body": "Responses that map to role requirements and level."
+        },
+        {
+          "tag": "Confidence",
+          "title": "Controlled delivery",
+          "body": "No rambling. No guessing. Clear outcomes."
+        },
+        {
+          "tag": "Signal",
+          "title": "Senior presence",
+          "body": "Decision-making and scope become obvious."
+        }
       ]
     },
     "mistakes": {
@@ -486,24 +755,58 @@
       "title": "Why interviews stall at higher levels",
       "subtitle": "We fix the patterns that keep strong candidates from closing.",
       "items": [
-        { "title": "Unstructured stories", "body": "Great work gets lost in long, unclear answers." },
-        { "title": "Scope mismatch", "body": "Examples don’t match the level you’re targeting." },
-        { "title": "Weak trade-offs", "body": "No clear decision-making or stakeholder framing." }
+        {
+          "title": "Unstructured stories",
+          "body": "Great work gets lost in long, unclear answers."
+        },
+        {
+          "title": "Scope mismatch",
+          "body": "Examples don’t match the level you’re targeting."
+        },
+        {
+          "title": "Weak trade-offs",
+          "body": "No clear decision-making or stakeholder framing."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "steps", "deliverables", "roleLinks", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "focus",
+      "proof",
+      "mistakes",
+      "steps",
+      "deliverables",
+      "roleLinks",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "Interview performance upgrade",
       "body": "We turn your experience into compelling, senior‑level stories recruiters remember.",
-      "bullets": ["Behavioral + technical prep", "Story structure", "Confidence under pressure"]
+      "bullets": [
+        "Behavioral + technical prep",
+        "Story structure",
+        "Confidence under pressure"
+      ]
     },
     "proof": {
       "title": "Interview signal that wins",
       "subtitle": "Clarity → confidence → offers.",
       "items": [
-        { "title": "Story‑ready", "body": "Clear STAR stories tied to impact and scope." },
-        { "title": "Role‑aligned", "body": "Prep matched to the level and role family you’re targeting." },
-        { "title": "Offer‑ready", "body": "Negotiation prep included as you advance." }
+        {
+          "title": "Story‑ready",
+          "body": "Clear STAR stories tied to impact and scope."
+        },
+        {
+          "title": "Role‑aligned",
+          "body": "Prep matched to the level and role family you’re targeting."
+        },
+        {
+          "title": "Offer‑ready",
+          "body": "Negotiation prep included as you advance."
+        }
       ]
     },
     "focus": {
@@ -511,18 +814,39 @@
       "title": "Answer with control, not chaos",
       "subtitle": "We build a story system you can rely on under pressure.",
       "items": [
-        { "tag": "Structure", "title": "Story bank", "body": "A repeatable framework for behavioral and leadership questions." },
-        { "tag": "Signal", "title": "Level cues", "body": "Position scope and decision‑making clearly." },
-        { "tag": "Confidence", "title": "Mock drills", "body": "Live practice with feedback and iteration." }
+        {
+          "tag": "Structure",
+          "title": "Story bank",
+          "body": "A repeatable framework for behavioral and leadership questions."
+        },
+        {
+          "tag": "Signal",
+          "title": "Level cues",
+          "body": "Position scope and decision‑making clearly."
+        },
+        {
+          "tag": "Confidence",
+          "title": "Mock drills",
+          "body": "Live practice with feedback and iteration."
+        }
       ]
     },
     "steps": {
       "title": "How interview prep works",
       "subtitle": "Focused practice, not generic advice.",
       "items": [
-        { "title": "Map", "body": "Define the interview loop and expectations." },
-        { "title": "Build", "body": "Create a story bank tied to impact and leadership." },
-        { "title": "Drill", "body": "Practice with real‑world questions and feedback." }
+        {
+          "title": "Map",
+          "body": "Define the interview loop and expectations."
+        },
+        {
+          "title": "Build",
+          "body": "Create a story bank tied to impact and leadership."
+        },
+        {
+          "title": "Drill",
+          "body": "Practice with real‑world questions and feedback."
+        }
       ]
     },
     "for": {
@@ -551,19 +875,31 @@
           "title": "Story bank",
           "tag": "Core",
           "body": "A set of impact stories mapped to interview signals.",
-          "bullets": ["Behavioral narratives", "Leadership scope", "Trade‑off decisions"]
+          "bullets": [
+            "Behavioral narratives",
+            "Leadership scope",
+            "Trade‑off decisions"
+          ]
         },
         {
           "title": "Mock interview",
           "tag": "Practice",
           "body": "Live practice with feedback and iteration.",
-          "bullets": ["Role‑specific questions", "Feedback notes", "Iteration plan"]
+          "bullets": [
+            "Role‑specific questions",
+            "Feedback notes",
+            "Iteration plan"
+          ]
         },
         {
           "title": "Negotiation readiness",
           "tag": "Close",
           "body": "A plan for comp conversations once you reach offer stage.",
-          "bullets": ["Offer framing", "Leverage points", "Negotiation script"]
+          "bullets": [
+            "Offer framing",
+            "Leverage points",
+            "Negotiation script"
+          ]
         }
       ]
     },
@@ -643,7 +979,9 @@
       "body": "Book a call and we’ll tailor the prep to your target level.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Interview Prep for High‑Stakes Tech Loops | Askia",
+    "metaDescription": "Interview prep that builds a story system, role alignment, and confident delivery."
   },
   "salaryNegotiation": {
     "eyebrow": "Salary negotiation for tech",
@@ -669,30 +1007,75 @@
     "heroGraphic": "salary",
     "heroGraphicLabel": "Offer strategy",
     "heroModules": [
-      { "title": "Comp band", "body": "Know the real range for your level and role.", "meta": "Benchmark" },
-      { "title": "Leverage map", "body": "Identify what you can credibly negotiate.", "meta": "Strategy" },
-      { "title": "Negotiation scripts", "body": "Language that protects leverage and closes.", "meta": "Execution" }
+      {
+        "title": "Comp band",
+        "body": "Know the real range for your level and role.",
+        "meta": "Benchmark"
+      },
+      {
+        "title": "Leverage map",
+        "body": "Identify what you can credibly negotiate.",
+        "meta": "Strategy"
+      },
+      {
+        "title": "Negotiation scripts",
+        "body": "Language that protects leverage and closes.",
+        "meta": "Execution"
+      }
     ],
     "heroStats": [
-      { "value": "1–2 calls", "label": "Typical strategy time" },
-      { "value": "Total comp", "label": "Base + equity + bonus" },
-      { "value": "Offer-ready", "label": "Decision framework" }
+      {
+        "value": "1–2 calls",
+        "label": "Typical strategy time"
+      },
+      {
+        "value": "Total comp",
+        "label": "Base + equity + bonus"
+      },
+      {
+        "value": "Offer-ready",
+        "label": "Decision framework"
+      }
     ],
     "heroTrustLabel": "Trusted by candidates from",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/coinbase.svg", "alt": "Coinbase logo" },
-      { "src": "/assets/logos/testimonials/uber.svg", "alt": "Uber logo" },
-      { "src": "/assets/logos/testimonials/paypal.svg", "alt": "PayPal logo" },
-      { "src": "/assets/logos/testimonials/salesforce.svg", "alt": "Salesforce logo" }
+      {
+        "src": "/assets/logos/testimonials/coinbase.svg",
+        "alt": "Coinbase logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/uber.svg",
+        "alt": "Uber logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/paypal.svg",
+        "alt": "PayPal logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/salesforce.svg",
+        "alt": "Salesforce logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "Offer snapshot",
       "title": "What changes with negotiation support",
       "subtitle": "Clarity, leverage, and a plan you can execute.",
       "items": [
-        { "tag": "Range", "title": "Comp clarity", "body": "A realistic range tied to role and level." },
-        { "tag": "Leverage", "title": "Negotiation angle", "body": "Know which points matter and when to use them." },
-        { "tag": "Decision", "title": "Offer comparison", "body": "Structured trade-offs across base, equity, bonus." }
+        {
+          "tag": "Range",
+          "title": "Comp clarity",
+          "body": "A realistic range tied to role and level."
+        },
+        {
+          "tag": "Leverage",
+          "title": "Negotiation angle",
+          "body": "Know which points matter and when to use them."
+        },
+        {
+          "tag": "Decision",
+          "title": "Offer comparison",
+          "body": "Structured trade-offs across base, equity, bonus."
+        }
       ]
     },
     "mistakes": {
@@ -700,24 +1083,57 @@
       "title": "Why candidates leave money on the table",
       "subtitle": "We prevent the common negotiation errors.",
       "items": [
-        { "title": "No leverage plan", "body": "Pushing without strategy weakens your position." },
-        { "title": "Base-only focus", "body": "Equity, bonus, and scope are ignored." },
-        { "title": "Timing errors", "body": "Asking too early or too late kills momentum." }
+        {
+          "title": "No leverage plan",
+          "body": "Pushing without strategy weakens your position."
+        },
+        {
+          "title": "Base-only focus",
+          "body": "Equity, bonus, and scope are ignored."
+        },
+        {
+          "title": "Timing errors",
+          "body": "Asking too early or too late kills momentum."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "steps", "deliverables", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "focus",
+      "proof",
+      "mistakes",
+      "steps",
+      "deliverables",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "Negotiation strategy",
       "body": "Walk into offer conversations with leverage, not guesswork.",
-      "bullets": ["Comp band clarity", "Offer trade‑offs", "Decision framework"]
+      "bullets": [
+        "Comp band clarity",
+        "Offer trade‑offs",
+        "Decision framework"
+      ]
     },
     "proof": {
       "title": "Why negotiation works",
       "subtitle": "Most comp outcomes are decided in a few conversations.",
       "items": [
-        { "title": "Leverage mapped", "body": "Identify your strongest negotiation points." },
-        { "title": "Timing strategy", "body": "Know when to push and when to pause." },
-        { "title": "Total comp focus", "body": "Base, equity, bonus, and sign‑on considered together." }
+        {
+          "title": "Leverage mapped",
+          "body": "Identify your strongest negotiation points."
+        },
+        {
+          "title": "Timing strategy",
+          "body": "Know when to push and when to pause."
+        },
+        {
+          "title": "Total comp focus",
+          "body": "Base, equity, bonus, and sign‑on considered together."
+        }
       ]
     },
     "focus": {
@@ -725,18 +1141,39 @@
       "title": "Negotiate from a position of strength",
       "subtitle": "Know your range, your leverage, and your next move.",
       "items": [
-        { "tag": "Range", "title": "Comp band clarity", "body": "Know what your level commands in the market." },
-        { "tag": "Script", "title": "Words that work", "body": "Use language that protects leverage." },
-        { "tag": "Decision", "title": "Offer comparison", "body": "Evaluate offers with a structured framework." }
+        {
+          "tag": "Range",
+          "title": "Comp band clarity",
+          "body": "Know what your level commands in the market."
+        },
+        {
+          "tag": "Script",
+          "title": "Words that work",
+          "body": "Use language that protects leverage."
+        },
+        {
+          "tag": "Decision",
+          "title": "Offer comparison",
+          "body": "Evaluate offers with a structured framework."
+        }
       ]
     },
     "steps": {
       "title": "How negotiation support works",
       "subtitle": "A concise strategy you can execute fast.",
       "items": [
-        { "title": "Benchmark", "body": "Define comp band and role level range." },
-        { "title": "Plan", "body": "Build your negotiation path and scripts." },
-        { "title": "Execute", "body": "Guide the offer conversation and close." }
+        {
+          "title": "Benchmark",
+          "body": "Define comp band and role level range."
+        },
+        {
+          "title": "Plan",
+          "body": "Build your negotiation path and scripts."
+        },
+        {
+          "title": "Execute",
+          "body": "Guide the offer conversation and close."
+        }
       ]
     },
     "for": {
@@ -765,19 +1202,31 @@
           "title": "Comp strategy",
           "tag": "Core",
           "body": "Role‑specific comp band and leverage points.",
-          "bullets": ["Benchmarking", "Leverage inventory", "Target range"]
+          "bullets": [
+            "Benchmarking",
+            "Leverage inventory",
+            "Target range"
+          ]
         },
         {
           "title": "Negotiation scripts",
           "tag": "Execution",
           "body": "Email and call language for each offer stage.",
-          "bullets": ["Offer response", "Counter framing", "Close language"]
+          "bullets": [
+            "Offer response",
+            "Counter framing",
+            "Close language"
+          ]
         },
         {
           "title": "Offer evaluation",
           "tag": "Decision",
           "body": "A framework for comparing offers and trade‑offs.",
-          "bullets": ["Total comp view", "Risk factors", "Decision matrix"]
+          "bullets": [
+            "Total comp view",
+            "Risk factors",
+            "Decision matrix"
+          ]
         }
       ]
     },
@@ -857,7 +1306,9 @@
       "body": "Book a call and we’ll map your comp strategy.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Salary Negotiation Strategy for Tech Offers | Askia",
+    "metaDescription": "Negotiation strategy focused on leverage, timing, and total compensation outcomes."
   },
   "executiveCoaching": {
     "eyebrow": "Executive coaching for engineering leaders",
@@ -883,30 +1334,75 @@
     "heroGraphic": "executive",
     "heroGraphicLabel": "Leadership signal",
     "heroModules": [
-      { "title": "Leadership narrative", "body": "Position your decisions as org-level outcomes.", "meta": "Executive story" },
-      { "title": "Scope mapping", "body": "Clarify level, span of control, and impact.", "meta": "Leveling" },
-      { "title": "Offer leverage", "body": "Strategy for comp, equity, and scope.", "meta": "Negotiation" }
+      {
+        "title": "Leadership narrative",
+        "body": "Position your decisions as org-level outcomes.",
+        "meta": "Executive story"
+      },
+      {
+        "title": "Scope mapping",
+        "body": "Clarify level, span of control, and impact.",
+        "meta": "Leveling"
+      },
+      {
+        "title": "Offer leverage",
+        "body": "Strategy for comp, equity, and scope.",
+        "meta": "Negotiation"
+      }
     ],
     "heroStats": [
-      { "value": "Director+", "label": "Scope-aligned positioning" },
-      { "value": "Exec-ready", "label": "Narrative + assets" },
-      { "value": "Offer strategy", "label": "Comp + equity framing" }
+      {
+        "value": "Director+",
+        "label": "Scope-aligned positioning"
+      },
+      {
+        "value": "Exec-ready",
+        "label": "Narrative + assets"
+      },
+      {
+        "value": "Offer strategy",
+        "label": "Comp + equity framing"
+      }
     ],
     "heroTrustLabel": "Trusted by candidates from",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/microsoft.svg", "alt": "Microsoft logo" },
-      { "src": "/assets/logos/testimonials/oracle.svg", "alt": "Oracle logo" },
-      { "src": "/assets/logos/testimonials/salesforce.svg", "alt": "Salesforce logo" },
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" }
+      {
+        "src": "/assets/logos/testimonials/microsoft.svg",
+        "alt": "Microsoft logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/oracle.svg",
+        "alt": "Oracle logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/salesforce.svg",
+        "alt": "Salesforce logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "Leadership snapshot",
       "title": "What changes with executive coaching",
       "subtitle": "Your story reads at the scope you’re targeting.",
       "items": [
-        { "tag": "Scope", "title": "Org-level impact", "body": "Decisions framed around business outcomes." },
-        { "tag": "Signal", "title": "Executive presence", "body": "Language and assets calibrated for VP+ audiences." },
-        { "tag": "Leverage", "title": "Offer authority", "body": "A negotiation plan tied to scope and comp." }
+        {
+          "tag": "Scope",
+          "title": "Org-level impact",
+          "body": "Decisions framed around business outcomes."
+        },
+        {
+          "tag": "Signal",
+          "title": "Executive presence",
+          "body": "Language and assets calibrated for VP+ audiences."
+        },
+        {
+          "tag": "Leverage",
+          "title": "Offer authority",
+          "body": "A negotiation plan tied to scope and comp."
+        }
       ]
     },
     "mistakes": {
@@ -914,24 +1410,57 @@
       "title": "Why senior leaders still get down-leveled",
       "subtitle": "We eliminate the gaps that shrink perceived scope.",
       "items": [
-        { "title": "Execution-only framing", "body": "No evidence of strategic or org-level impact." },
-        { "title": "Span ambiguity", "body": "Unclear team scope, budget, or leadership scale." },
-        { "title": "Offer misalignment", "body": "Negotiation isn’t tied to leadership path." }
+        {
+          "title": "Execution-only framing",
+          "body": "No evidence of strategic or org-level impact."
+        },
+        {
+          "title": "Span ambiguity",
+          "body": "Unclear team scope, budget, or leadership scale."
+        },
+        {
+          "title": "Offer misalignment",
+          "body": "Negotiation isn’t tied to leadership path."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "steps", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "proof",
+      "focus",
+      "mistakes",
+      "deliverables",
+      "steps",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "Executive signal upgrade",
       "body": "Clarify your leadership story, scope, and outcomes for executive‑level roles.",
-      "bullets": ["Leadership positioning", "Org impact framing", "Offer strategy"]
+      "bullets": [
+        "Leadership positioning",
+        "Org impact framing",
+        "Offer strategy"
+      ]
     },
     "proof": {
       "title": "Leadership‑level outcomes",
       "subtitle": "Built for scope, systems thinking, and org impact.",
       "items": [
-        { "title": "Executive narrative", "body": "Leadership signal that resonates with VP+ stakeholders." },
-        { "title": "Scope clarity", "body": "Demonstrate org‑wide outcomes and decision‑making." },
-        { "title": "Offer leverage", "body": "Strategy tied to comp, equity, and leadership path." }
+        {
+          "title": "Executive narrative",
+          "body": "Leadership signal that resonates with VP+ stakeholders."
+        },
+        {
+          "title": "Scope clarity",
+          "body": "Demonstrate org‑wide outcomes and decision‑making."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Strategy tied to comp, equity, and leadership path."
+        }
       ]
     },
     "focus": {
@@ -939,18 +1468,39 @@
       "title": "Show the scope behind your decisions",
       "subtitle": "We translate execution into executive‑level narrative.",
       "items": [
-        { "tag": "Scope", "title": "Org‑level impact", "body": "Frame decisions and outcomes at scale." },
-        { "tag": "Signal", "title": "Executive presence", "body": "Language that positions you as a leader." },
-        { "tag": "Leverage", "title": "Offer strategy", "body": "Negotiate from authority and clarity." }
+        {
+          "tag": "Scope",
+          "title": "Org‑level impact",
+          "body": "Frame decisions and outcomes at scale."
+        },
+        {
+          "tag": "Signal",
+          "title": "Executive presence",
+          "body": "Language that positions you as a leader."
+        },
+        {
+          "tag": "Leverage",
+          "title": "Offer strategy",
+          "body": "Negotiate from authority and clarity."
+        }
       ]
     },
     "steps": {
       "title": "How executive coaching works",
       "subtitle": "Focused on narrative, scope, and outcomes.",
       "items": [
-        { "title": "Define", "body": "Target leadership roles and scope expectations." },
-        { "title": "Position", "body": "Build leadership narrative and executive materials." },
-        { "title": "Close", "body": "Prepare for interviews and negotiation at the exec level." }
+        {
+          "title": "Define",
+          "body": "Target leadership roles and scope expectations."
+        },
+        {
+          "title": "Position",
+          "body": "Build leadership narrative and executive materials."
+        },
+        {
+          "title": "Close",
+          "body": "Prepare for interviews and negotiation at the exec level."
+        }
       ]
     },
     "for": {
@@ -979,19 +1529,31 @@
           "title": "Leadership narrative",
           "tag": "Core",
           "body": "A narrative aligned to org outcomes and leadership scope.",
-          "bullets": ["Org impact framing", "Strategic decisions", "Leadership signal"]
+          "bullets": [
+            "Org impact framing",
+            "Strategic decisions",
+            "Leadership signal"
+          ]
         },
         {
           "title": "Executive assets",
           "tag": "Signal",
           "body": "Resume + LinkedIn built for leadership roles.",
-          "bullets": ["Executive resume", "LinkedIn narrative", "Board‑level language"]
+          "bullets": [
+            "Executive resume",
+            "LinkedIn narrative",
+            "Board‑level language"
+          ]
         },
         {
           "title": "Offer strategy",
           "tag": "Close",
           "body": "A negotiation plan tailored to leadership offers.",
-          "bullets": ["Total comp analysis", "Equity strategy", "Decision framework"]
+          "bullets": [
+            "Total comp analysis",
+            "Equity strategy",
+            "Decision framework"
+          ]
         }
       ]
     },
@@ -1071,7 +1633,9 @@
       "body": "Book a strategy call and we’ll map your leadership path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Executive Coaching for Engineering Leaders | Askia",
+    "metaDescription": "Executive coaching focused on leadership narrative, scope, and offer strategy."
   },
   "coverLetterWriting": {
     "eyebrow": "Cover letter writing for tech",
@@ -1097,30 +1661,75 @@
     "heroGraphic": "cover",
     "heroGraphicLabel": "Cover letter",
     "heroModules": [
-      { "title": "Role narrative", "body": "A crisp story that connects your experience to the role.", "meta": "Relevance" },
-      { "title": "Impact proof", "body": "Concrete outcomes that validate your fit.", "meta": "Credibility" },
-      { "title": "Hiring manager clarity", "body": "Structured to be read in under a minute.", "meta": "Speed" }
+      {
+        "title": "Role narrative",
+        "body": "A crisp story that connects your experience to the role.",
+        "meta": "Relevance"
+      },
+      {
+        "title": "Impact proof",
+        "body": "Concrete outcomes that validate your fit.",
+        "meta": "Credibility"
+      },
+      {
+        "title": "Hiring manager clarity",
+        "body": "Structured to be read in under a minute.",
+        "meta": "Speed"
+      }
     ],
     "heroStats": [
-      { "value": "30 sec read", "label": "Designed for skim" },
-      { "value": "Role-specific", "label": "Tailored to target" },
-      { "value": "1 letter", "label": "Focus on conversion" }
+      {
+        "value": "30 sec read",
+        "label": "Designed for skim"
+      },
+      {
+        "value": "Role-specific",
+        "label": "Tailored to target"
+      },
+      {
+        "value": "1 letter",
+        "label": "Focus on conversion"
+      }
     ],
     "heroTrustLabel": "Trusted by candidates from",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/adobe.svg", "alt": "Adobe logo" },
-      { "src": "/assets/logos/testimonials/airbnb.svg", "alt": "Airbnb logo" },
-      { "src": "/assets/logos/testimonials/notion.svg", "alt": "Notion logo" },
-      { "src": "/assets/logos/testimonials/spotify.svg", "alt": "Spotify logo" }
+      {
+        "src": "/assets/logos/testimonials/adobe.svg",
+        "alt": "Adobe logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/airbnb.svg",
+        "alt": "Airbnb logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/notion.svg",
+        "alt": "Notion logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/spotify.svg",
+        "alt": "Spotify logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "Cover snapshot",
       "title": "What a high‑signal cover letter does",
       "subtitle": "It opens doors where resumes alone stall.",
       "items": [
-        { "tag": "Relevance", "title": "Immediate role fit", "body": "Links your strengths to the role requirements." },
-        { "tag": "Signal", "title": "Impact evidence", "body": "Proves scope and outcomes without fluff." },
-        { "tag": "Clarity", "title": "Fast scan", "body": "Structured for busy hiring managers." }
+        {
+          "tag": "Relevance",
+          "title": "Immediate role fit",
+          "body": "Links your strengths to the role requirements."
+        },
+        {
+          "tag": "Signal",
+          "title": "Impact evidence",
+          "body": "Proves scope and outcomes without fluff."
+        },
+        {
+          "tag": "Clarity",
+          "title": "Fast scan",
+          "body": "Structured for busy hiring managers."
+        }
       ]
     },
     "mistakes": {
@@ -1128,24 +1737,57 @@
       "title": "Why most cover letters get ignored",
       "subtitle": "We eliminate the noise and focus on signal.",
       "items": [
-        { "title": "Generic intros", "body": "No role-specific connection or value." },
-        { "title": "Vague claims", "body": "No proof of outcomes or scope." },
-        { "title": "Wall of text", "body": "Hard to scan, easy to skip." }
+        {
+          "title": "Generic intros",
+          "body": "No role-specific connection or value."
+        },
+        {
+          "title": "Vague claims",
+          "body": "No proof of outcomes or scope."
+        },
+        {
+          "title": "Wall of text",
+          "body": "Hard to scan, easy to skip."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "deliverables", "steps", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "focus",
+      "proof",
+      "mistakes",
+      "deliverables",
+      "steps",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "Cover letter signal",
       "body": "A concise narrative that shows why you fit the role and level.",
-      "bullets": ["Role fit", "Impact story", "Hiring manager clarity"]
+      "bullets": [
+        "Role fit",
+        "Impact story",
+        "Hiring manager clarity"
+      ]
     },
     "proof": {
       "title": "Why it works",
       "subtitle": "Built for clarity and relevance.",
       "items": [
-        { "title": "Targeted", "body": "Role‑specific messaging with no fluff." },
-        { "title": "Concise", "body": "Readable in under a minute." },
-        { "title": "Aligned", "body": "Matches your resume + LinkedIn narrative." }
+        {
+          "title": "Targeted",
+          "body": "Role‑specific messaging with no fluff."
+        },
+        {
+          "title": "Concise",
+          "body": "Readable in under a minute."
+        },
+        {
+          "title": "Aligned",
+          "body": "Matches your resume + LinkedIn narrative."
+        }
       ]
     },
     "focus": {
@@ -1153,35 +1795,73 @@
       "title": "Open the door faster",
       "subtitle": "Clarity + relevance wins attention.",
       "items": [
-        { "tag": "Positioning", "title": "Role alignment", "body": "Speak directly to the level and scope." },
-        { "tag": "Signal", "title": "Impact proof", "body": "Concrete outcomes, not vague claims." },
-        { "tag": "Speed", "title": "Quick read", "body": "Clean structure for hiring managers." }
+        {
+          "tag": "Positioning",
+          "title": "Role alignment",
+          "body": "Speak directly to the level and scope."
+        },
+        {
+          "tag": "Signal",
+          "title": "Impact proof",
+          "body": "Concrete outcomes, not vague claims."
+        },
+        {
+          "tag": "Speed",
+          "title": "Quick read",
+          "body": "Clean structure for hiring managers."
+        }
       ]
     },
     "steps": {
       "title": "How it works",
       "subtitle": "A fast, role‑specific rewrite.",
       "items": [
-        { "title": "Target", "body": "Clarify role and company focus." },
-        { "title": "Draft", "body": "Write the story around impact." },
-        { "title": "Refine", "body": "Tighten language and polish." }
+        {
+          "title": "Target",
+          "body": "Clarify role and company focus."
+        },
+        {
+          "title": "Draft",
+          "body": "Write the story around impact."
+        },
+        {
+          "title": "Refine",
+          "body": "Tighten language and polish."
+        }
       ]
     },
     "for": {
       "title": "This is for",
       "body": "Candidates who need to stand out in competitive roles.",
-      "items": ["Leadership‑track roles", "Competitive teams", "New domain transitions"]
+      "items": [
+        "Leadership‑track roles",
+        "Competitive teams",
+        "New domain transitions"
+      ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You want a generic template.",
-      "items": ["One‑size‑fits‑all letters", "No role targeting", "Bulk applications"]
+      "items": [
+        "One‑size‑fits‑all letters",
+        "No role targeting",
+        "Bulk applications"
+      ]
     },
     "deliverables": {
       "title": "What you receive",
       "subtitle": "A clean, focused cover letter.",
       "items": [
-        { "title": "Role‑specific letter", "tag": "Core", "body": "A tailored narrative for your target role.", "bullets": ["Impact framing", "Role fit", "Clarity"] }
+        {
+          "title": "Role‑specific letter",
+          "tag": "Core",
+          "body": "A tailored narrative for your target role.",
+          "bullets": [
+            "Impact framing",
+            "Role fit",
+            "Clarity"
+          ]
+        }
       ]
     },
     "related": {
@@ -1196,10 +1876,22 @@
       "title": "Cover letter FAQs",
       "subtitle": "Short answers before you book.",
       "items": [
-        { "question": "Do I still need a cover letter?", "answer": "For competitive roles and leadership paths, it can be a differentiator." },
-        { "question": "How long is it?", "answer": "Typically 3–5 short paragraphs." },
-        { "question": "Is it customized?", "answer": "Yes. We align it to the role and company." },
-        { "question": "Can you bundle it?", "answer": "Yes, with resume + LinkedIn." }
+        {
+          "question": "Do I still need a cover letter?",
+          "answer": "For competitive roles and leadership paths, it can be a differentiator."
+        },
+        {
+          "question": "How long is it?",
+          "answer": "Typically 3–5 short paragraphs."
+        },
+        {
+          "question": "Is it customized?",
+          "answer": "Yes. We align it to the role and company."
+        },
+        {
+          "question": "Can you bundle it?",
+          "answer": "Yes, with resume + LinkedIn."
+        }
       ]
     },
     "cta": {
@@ -1207,14 +1899,20 @@
       "body": "Book a call and we’ll scope it.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Cover Letter Writing That Gets Read | Askia",
+    "metaDescription": "Cover letter writing that connects role fit to impact in under a minute."
   },
   "mockInterviews": {
     "eyebrow": "Mock interviews for tech roles",
     "h1": "Mock Interviews for Confident Performance",
     "subtitle": "Practice that turns anxiety into execution.",
     "supporting": "We simulate real interviews and give you feedback you can act on.",
-    "highlights": ["Live practice", "Role‑specific questions", "Clear feedback"],
+    "highlights": [
+      "Live practice",
+      "Role‑specific questions",
+      "Clear feedback"
+    ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
     "ctaProof": "Ideal before onsite loops or final rounds.",
@@ -1229,30 +1927,75 @@
     "heroGraphic": "mock",
     "heroGraphicLabel": "Mock lab",
     "heroModules": [
-      { "title": "Live simulation", "body": "A real interview format with time pressure.", "meta": "Execution" },
-      { "title": "Signal audit", "body": "We score scope, clarity, and decision-making.", "meta": "Leveling" },
-      { "title": "Action plan", "body": "Concrete fixes you can apply immediately.", "meta": "Iteration" }
+      {
+        "title": "Live simulation",
+        "body": "A real interview format with time pressure.",
+        "meta": "Execution"
+      },
+      {
+        "title": "Signal audit",
+        "body": "We score scope, clarity, and decision-making.",
+        "meta": "Leveling"
+      },
+      {
+        "title": "Action plan",
+        "body": "Concrete fixes you can apply immediately.",
+        "meta": "Iteration"
+      }
     ],
     "heroStats": [
-      { "value": "60–75 min", "label": "Live mock session" },
-      { "value": "Same-day", "label": "Feedback summary" },
-      { "value": "1–2 mocks", "label": "Most common package" }
+      {
+        "value": "60–75 min",
+        "label": "Live mock session"
+      },
+      {
+        "value": "Same-day",
+        "label": "Feedback summary"
+      },
+      {
+        "value": "1–2 mocks",
+        "label": "Most common package"
+      }
     ],
     "heroTrustLabel": "Trusted by candidates from",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/spotify.svg", "alt": "Spotify logo" },
-      { "src": "/assets/logos/testimonials/doordash.svg", "alt": "DoorDash logo" },
-      { "src": "/assets/logos/testimonials/coinbase.svg", "alt": "Coinbase logo" },
-      { "src": "/assets/logos/testimonials/github.svg", "alt": "GitHub logo" }
+      {
+        "src": "/assets/logos/testimonials/spotify.svg",
+        "alt": "Spotify logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/doordash.svg",
+        "alt": "DoorDash logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/coinbase.svg",
+        "alt": "Coinbase logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/github.svg",
+        "alt": "GitHub logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "Mock snapshot",
       "title": "What you get from a mock interview",
       "subtitle": "Clarity on what lands and what blocks offers.",
       "items": [
-        { "tag": "Performance", "title": "Live reps", "body": "Practice with realistic timing and prompts." },
-        { "tag": "Signal", "title": "Level cues", "body": "See exactly where your signal drops." },
-        { "tag": "Fixes", "title": "Actionable feedback", "body": "Specific changes you can apply in the next round." }
+        {
+          "tag": "Performance",
+          "title": "Live reps",
+          "body": "Practice with realistic timing and prompts."
+        },
+        {
+          "tag": "Signal",
+          "title": "Level cues",
+          "body": "See exactly where your signal drops."
+        },
+        {
+          "tag": "Fixes",
+          "title": "Actionable feedback",
+          "body": "Specific changes you can apply in the next round."
+        }
       ]
     },
     "mistakes": {
@@ -1260,24 +2003,57 @@
       "title": "Why strong candidates still stumble",
       "subtitle": "We correct the gaps that show up under pressure.",
       "items": [
-        { "title": "Overexplaining", "body": "Long answers without clear outcomes or decisions." },
-        { "title": "Weak scope", "body": "Examples don’t show ownership or scale." },
-        { "title": "No trade-offs", "body": "Decision-making isn’t visible to interviewers." }
+        {
+          "title": "Overexplaining",
+          "body": "Long answers without clear outcomes or decisions."
+        },
+        {
+          "title": "Weak scope",
+          "body": "Examples don’t show ownership or scale."
+        },
+        {
+          "title": "No trade-offs",
+          "body": "Decision-making isn’t visible to interviewers."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "steps", "deliverables", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "focus",
+      "proof",
+      "mistakes",
+      "steps",
+      "deliverables",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "Mock interview lab",
       "body": "A safe space to sharpen answers and build confidence.",
-      "bullets": ["Real questions", "Tight feedback", "Action plan"]
+      "bullets": [
+        "Real questions",
+        "Tight feedback",
+        "Action plan"
+      ]
     },
     "proof": {
       "title": "Why it works",
       "subtitle": "Practice transforms performance.",
       "items": [
-        { "title": "Realism", "body": "Interview‑like timing and pressure." },
-        { "title": "Signal", "body": "Clear level cues in your answers." },
-        { "title": "Iteration", "body": "Immediate feedback and improvement." }
+        {
+          "title": "Realism",
+          "body": "Interview‑like timing and pressure."
+        },
+        {
+          "title": "Signal",
+          "body": "Clear level cues in your answers."
+        },
+        {
+          "title": "Iteration",
+          "body": "Immediate feedback and improvement."
+        }
       ]
     },
     "focus": {
@@ -1285,35 +2061,72 @@
       "title": "Turn nervous into ready",
       "subtitle": "We shape answers that land.",
       "items": [
-        { "tag": "Clarity", "title": "Cleaner stories", "body": "Tighten answers for impact." },
-        { "tag": "Signal", "title": "Level cues", "body": "Show scope and decision‑making." },
-        { "tag": "Confidence", "title": "Practice reps", "body": "Feel calm under pressure." }
+        {
+          "tag": "Clarity",
+          "title": "Cleaner stories",
+          "body": "Tighten answers for impact."
+        },
+        {
+          "tag": "Signal",
+          "title": "Level cues",
+          "body": "Show scope and decision‑making."
+        },
+        {
+          "tag": "Confidence",
+          "title": "Practice reps",
+          "body": "Feel calm under pressure."
+        }
       ]
     },
     "steps": {
       "title": "How mock interviews work",
       "subtitle": "Prep → practice → feedback.",
       "items": [
-        { "title": "Map", "body": "Define the interview format." },
-        { "title": "Run", "body": "Simulate the interview." },
-        { "title": "Refine", "body": "Improve with targeted feedback." }
+        {
+          "title": "Map",
+          "body": "Define the interview format."
+        },
+        {
+          "title": "Run",
+          "body": "Simulate the interview."
+        },
+        {
+          "title": "Refine",
+          "body": "Improve with targeted feedback."
+        }
       ]
     },
     "for": {
       "title": "This is for",
       "body": "Candidates already in interview loops.",
-      "items": ["Onsite loops", "Final rounds", "Leadership interviews"]
+      "items": [
+        "Onsite loops",
+        "Final rounds",
+        "Leadership interviews"
+      ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You aren’t interviewing soon.",
-      "items": ["No interviews scheduled", "No target role defined"]
+      "items": [
+        "No interviews scheduled",
+        "No target role defined"
+      ]
     },
     "deliverables": {
       "title": "What you receive",
       "subtitle": "Actionable interview feedback.",
       "items": [
-        { "title": "Mock session", "tag": "Core", "body": "Live interview simulation.", "bullets": ["Real questions", "Timing", "Feedback notes"] }
+        {
+          "title": "Mock session",
+          "tag": "Core",
+          "body": "Live interview simulation.",
+          "bullets": [
+            "Real questions",
+            "Timing",
+            "Feedback notes"
+          ]
+        }
       ]
     },
     "related": {
@@ -1328,10 +2141,22 @@
       "title": "Mock interview FAQs",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "How many sessions?", "answer": "Most clients start with 1–3 sessions." },
-        { "question": "Do you cover technical interviews?", "answer": "Yes, tailored to your role." },
-        { "question": "Will I get feedback?", "answer": "Yes, with next‑step actions." },
-        { "question": "Is it live?", "answer": "Yes, live practice sessions." }
+        {
+          "question": "How many sessions?",
+          "answer": "Most clients start with 1–3 sessions."
+        },
+        {
+          "question": "Do you cover technical interviews?",
+          "answer": "Yes, tailored to your role."
+        },
+        {
+          "question": "Will I get feedback?",
+          "answer": "Yes, with next‑step actions."
+        },
+        {
+          "question": "Is it live?",
+          "answer": "Yes, live practice sessions."
+        }
       ]
     },
     "cta": {
@@ -1339,14 +2164,20 @@
       "body": "Book a call and we’ll schedule your mock session.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Mock Interviews for Confident Performance | Askia",
+    "metaDescription": "Mock interviews with realistic pressure, clear feedback, and fast improvement."
   },
   "careerClarity": {
     "eyebrow": "Career clarity coaching",
     "h1": "Career Clarity Coaching for Your Next Role",
     "subtitle": "Define the right role, level, and path — fast.",
     "supporting": "We turn confusion into a concrete target and plan.",
-    "highlights": ["Role targeting", "Level clarity", "Search strategy"],
+    "highlights": [
+      "Role targeting",
+      "Level clarity",
+      "Search strategy"
+    ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
     "ctaProof": "Best for stalled or uncertain job searches.",
@@ -1361,30 +2192,75 @@
     "heroGraphic": "clarity",
     "heroGraphicLabel": "Role compass",
     "heroModules": [
-      { "title": "Role targeting", "body": "Define the exact role family and level.", "meta": "Clarity" },
-      { "title": "Comp band", "body": "Set a realistic range tied to market.", "meta": "Benchmark" },
-      { "title": "Execution plan", "body": "A step-by-step path to interviews.", "meta": "Momentum" }
+      {
+        "title": "Role targeting",
+        "body": "Define the exact role family and level.",
+        "meta": "Clarity"
+      },
+      {
+        "title": "Comp band",
+        "body": "Set a realistic range tied to market.",
+        "meta": "Benchmark"
+      },
+      {
+        "title": "Execution plan",
+        "body": "A step-by-step path to interviews.",
+        "meta": "Momentum"
+      }
     ],
     "heroStats": [
-      { "value": "1 session", "label": "Focused clarity call" },
-      { "value": "Role target", "label": "Clear role + level" },
-      { "value": "Execution plan", "label": "Actionable roadmap" }
+      {
+        "value": "1 session",
+        "label": "Focused clarity call"
+      },
+      {
+        "value": "Role target",
+        "label": "Clear role + level"
+      },
+      {
+        "value": "Execution plan",
+        "label": "Actionable roadmap"
+      }
     ],
     "heroTrustLabel": "Trusted by candidates from",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/airbnb.svg", "alt": "Airbnb logo" },
-      { "src": "/assets/logos/testimonials/figma.svg", "alt": "Figma logo" },
-      { "src": "/assets/logos/testimonials/notion.svg", "alt": "Notion logo" },
-      { "src": "/assets/logos/testimonials/shopify.svg", "alt": "Shopify logo" }
+      {
+        "src": "/assets/logos/testimonials/airbnb.svg",
+        "alt": "Airbnb logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/figma.svg",
+        "alt": "Figma logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/notion.svg",
+        "alt": "Notion logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/shopify.svg",
+        "alt": "Shopify logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "Clarity snapshot",
       "title": "What changes after a clarity session",
       "subtitle": "You stop guessing and move with precision.",
       "items": [
-        { "tag": "Direction", "title": "Clear role target", "body": "No more scattered applications." },
-        { "tag": "Leveling", "title": "Comp + level fit", "body": "A realistic band for your profile." },
-        { "tag": "Plan", "title": "Execution roadmap", "body": "A simple path to follow next." }
+        {
+          "tag": "Direction",
+          "title": "Clear role target",
+          "body": "No more scattered applications."
+        },
+        {
+          "tag": "Leveling",
+          "title": "Comp + level fit",
+          "body": "A realistic band for your profile."
+        },
+        {
+          "tag": "Plan",
+          "title": "Execution roadmap",
+          "body": "A simple path to follow next."
+        }
       ]
     },
     "mistakes": {
@@ -1392,24 +2268,57 @@
       "title": "Why searches stall without clarity",
       "subtitle": "We remove the uncertainty that slows momentum.",
       "items": [
-        { "title": "Too many targets", "body": "Applying to every role weakens your signal." },
-        { "title": "Level drift", "body": "No clear level makes interviews inconsistent." },
-        { "title": "No plan", "body": "Tactics without strategy don’t convert." }
+        {
+          "title": "Too many targets",
+          "body": "Applying to every role weakens your signal."
+        },
+        {
+          "title": "Level drift",
+          "body": "No clear level makes interviews inconsistent."
+        },
+        {
+          "title": "No plan",
+          "body": "Tactics without strategy don’t convert."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "steps", "deliverables", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "focus",
+      "proof",
+      "mistakes",
+      "steps",
+      "deliverables",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "Clarity session",
       "body": "A focused session to define the right role and path.",
-      "bullets": ["Role clarity", "Comp target", "Execution plan"]
+      "bullets": [
+        "Role clarity",
+        "Comp target",
+        "Execution plan"
+      ]
     },
     "proof": {
       "title": "Why clarity matters",
       "subtitle": "Confusion kills momentum.",
       "items": [
-        { "title": "Targeted", "body": "A clear role and level focus." },
-        { "title": "Aligned", "body": "Strategy tied to your strengths." },
-        { "title": "Fast", "body": "A plan you can execute immediately." }
+        {
+          "title": "Targeted",
+          "body": "A clear role and level focus."
+        },
+        {
+          "title": "Aligned",
+          "body": "Strategy tied to your strengths."
+        },
+        {
+          "title": "Fast",
+          "body": "A plan you can execute immediately."
+        }
       ]
     },
     "focus": {
@@ -1417,35 +2326,72 @@
       "title": "Stop drifting",
       "subtitle": "Define the next move with certainty.",
       "items": [
-        { "tag": "Role", "title": "Target clarity", "body": "Know exactly what to pursue." },
-        { "tag": "Level", "title": "Comp fit", "body": "Set a realistic comp band." },
-        { "tag": "Plan", "title": "Search strategy", "body": "Build the next‑step plan." }
+        {
+          "tag": "Role",
+          "title": "Target clarity",
+          "body": "Know exactly what to pursue."
+        },
+        {
+          "tag": "Level",
+          "title": "Comp fit",
+          "body": "Set a realistic comp band."
+        },
+        {
+          "tag": "Plan",
+          "title": "Search strategy",
+          "body": "Build the next‑step plan."
+        }
       ]
     },
     "steps": {
       "title": "How clarity sessions work",
       "subtitle": "One focused session, clear outcomes.",
       "items": [
-        { "title": "Assess", "body": "Review goals and experience." },
-        { "title": "Define", "body": "Set role + level target." },
-        { "title": "Plan", "body": "Build the execution roadmap." }
+        {
+          "title": "Assess",
+          "body": "Review goals and experience."
+        },
+        {
+          "title": "Define",
+          "body": "Set role + level target."
+        },
+        {
+          "title": "Plan",
+          "body": "Build the execution roadmap."
+        }
       ]
     },
     "for": {
       "title": "This is for",
       "body": "Professionals unsure of their next role.",
-      "items": ["Stalled searches", "Career transitions", "Level‑up planning"]
+      "items": [
+        "Stalled searches",
+        "Career transitions",
+        "Level‑up planning"
+      ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You already have a clear target and plan.",
-      "items": ["Clear role + plan", "Already interviewing"]
+      "items": [
+        "Clear role + plan",
+        "Already interviewing"
+      ]
     },
     "deliverables": {
       "title": "What you receive",
       "subtitle": "A concrete plan.",
       "items": [
-        { "title": "Clarity roadmap", "tag": "Core", "body": "Role target + plan.", "bullets": ["Role family", "Comp target", "Execution steps"] }
+        {
+          "title": "Clarity roadmap",
+          "tag": "Core",
+          "body": "Role target + plan.",
+          "bullets": [
+            "Role family",
+            "Comp target",
+            "Execution steps"
+          ]
+        }
       ]
     },
     "related": {
@@ -1460,10 +2406,22 @@
       "title": "Career clarity FAQs",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "Is this a single session?", "answer": "Yes, typically one deep session." },
-        { "question": "Do I get a plan?", "answer": "Yes, a focused roadmap." },
-        { "question": "Can this be bundled?", "answer": "Yes, with resume or coaching." },
-        { "question": "What if I’m pivoting?", "answer": "We’ll map the best pivot path." }
+        {
+          "question": "Is this a single session?",
+          "answer": "Yes, typically one deep session."
+        },
+        {
+          "question": "Do I get a plan?",
+          "answer": "Yes, a focused roadmap."
+        },
+        {
+          "question": "Can this be bundled?",
+          "answer": "Yes, with resume or coaching."
+        },
+        {
+          "question": "What if I’m pivoting?",
+          "answer": "We’ll map the best pivot path."
+        }
       ]
     },
     "cta": {
@@ -1471,14 +2429,20 @@
       "body": "Book a call and we’ll define the path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Career Clarity Coaching for Your Next Role | Askia",
+    "metaDescription": "Career clarity coaching to define the right role, level, and execution plan."
   },
   "offerStrategy": {
     "eyebrow": "Offer strategy for tech roles",
     "h1": "Offer Strategy for Closing the Right Role",
     "subtitle": "Get the structure and leverage to close the right offer.",
     "supporting": "We help you manage timelines, leverage, and total comp decisions.",
-    "highlights": ["Offer strategy", "Leverage mapping", "Decision framework"],
+    "highlights": [
+      "Offer strategy",
+      "Leverage mapping",
+      "Decision framework"
+    ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
     "ctaProof": "Best for multiple offers or senior roles.",
@@ -1493,30 +2457,75 @@
     "heroGraphic": "offer",
     "heroGraphicLabel": "Offer control",
     "heroModules": [
-      { "title": "Timeline control", "body": "Align and extend offers to protect leverage.", "meta": "Timing" },
-      { "title": "Leverage map", "body": "Use competing offers and priorities smartly.", "meta": "Strategy" },
-      { "title": "Decision matrix", "body": "Compare total comp and role fit in one view.", "meta": "Decision" }
+      {
+        "title": "Timeline control",
+        "body": "Align and extend offers to protect leverage.",
+        "meta": "Timing"
+      },
+      {
+        "title": "Leverage map",
+        "body": "Use competing offers and priorities smartly.",
+        "meta": "Strategy"
+      },
+      {
+        "title": "Decision matrix",
+        "body": "Compare total comp and role fit in one view.",
+        "meta": "Decision"
+      }
     ],
     "heroStats": [
-      { "value": "2–5 days", "label": "Typical turnaround" },
-      { "value": "Total comp", "label": "Base + equity + bonus" },
-      { "value": "Multi-offer", "label": "Decision support" }
+      {
+        "value": "2–5 days",
+        "label": "Typical turnaround"
+      },
+      {
+        "value": "Total comp",
+        "label": "Base + equity + bonus"
+      },
+      {
+        "value": "Multi-offer",
+        "label": "Decision support"
+      }
     ],
     "heroTrustLabel": "Trusted by candidates from",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
-      { "src": "/assets/logos/testimonials/uber.svg", "alt": "Uber logo" },
-      { "src": "/assets/logos/testimonials/salesforce.svg", "alt": "Salesforce logo" },
-      { "src": "/assets/logos/testimonials/shopify.svg", "alt": "Shopify logo" }
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/uber.svg",
+        "alt": "Uber logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/salesforce.svg",
+        "alt": "Salesforce logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/shopify.svg",
+        "alt": "Shopify logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "Offer snapshot",
       "title": "What changes with offer strategy",
       "subtitle": "You control timing, leverage, and the final decision.",
       "items": [
-        { "tag": "Timing", "title": "Control the clock", "body": "Align offers to maximize leverage." },
-        { "tag": "Leverage", "title": "Negotiate smart", "body": "Use alternatives without risk." },
-        { "tag": "Decision", "title": "Choose with confidence", "body": "Total comp and role fit in one view." }
+        {
+          "tag": "Timing",
+          "title": "Control the clock",
+          "body": "Align offers to maximize leverage."
+        },
+        {
+          "tag": "Leverage",
+          "title": "Negotiate smart",
+          "body": "Use alternatives without risk."
+        },
+        {
+          "tag": "Decision",
+          "title": "Choose with confidence",
+          "body": "Total comp and role fit in one view."
+        }
       ]
     },
     "mistakes": {
@@ -1524,24 +2533,57 @@
       "title": "Why offers go sideways",
       "subtitle": "We prevent costly mistakes in the final steps.",
       "items": [
-        { "title": "Rushed timelines", "body": "Accepting before all offers are aligned." },
-        { "title": "Unclear leverage", "body": "Negotiating without a plan or backup." },
-        { "title": "Base-only focus", "body": "Ignoring equity, scope, and growth path." }
+        {
+          "title": "Rushed timelines",
+          "body": "Accepting before all offers are aligned."
+        },
+        {
+          "title": "Unclear leverage",
+          "body": "Negotiating without a plan or backup."
+        },
+        {
+          "title": "Base-only focus",
+          "body": "Ignoring equity, scope, and growth path."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "steps", "deliverables", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "focus",
+      "proof",
+      "mistakes",
+      "steps",
+      "deliverables",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "Offer control",
       "body": "A plan for timing, leverage, and decision‑making.",
-      "bullets": ["Timeline", "Leverage", "Decision matrix"]
+      "bullets": [
+        "Timeline",
+        "Leverage",
+        "Decision matrix"
+      ]
     },
     "proof": {
       "title": "Why it works",
       "subtitle": "Offers are won in the details.",
       "items": [
-        { "title": "Leverage", "body": "Use timing and alternatives wisely." },
-        { "title": "Clarity", "body": "Evaluate total comp, not just base." },
-        { "title": "Confidence", "body": "Know what to say and when." }
+        {
+          "title": "Leverage",
+          "body": "Use timing and alternatives wisely."
+        },
+        {
+          "title": "Clarity",
+          "body": "Evaluate total comp, not just base."
+        },
+        {
+          "title": "Confidence",
+          "body": "Know what to say and when."
+        }
       ]
     },
     "focus": {
@@ -1549,35 +2591,72 @@
       "title": "Close the right deal",
       "subtitle": "We align timing, leverage, and outcomes.",
       "items": [
-        { "tag": "Timing", "title": "Control the timeline", "body": "Extend and align offers." },
-        { "tag": "Leverage", "title": "Strengthen your ask", "body": "Use competing offers wisely." },
-        { "tag": "Decision", "title": "Make the call", "body": "Compare offers with a framework." }
+        {
+          "tag": "Timing",
+          "title": "Control the timeline",
+          "body": "Extend and align offers."
+        },
+        {
+          "tag": "Leverage",
+          "title": "Strengthen your ask",
+          "body": "Use competing offers wisely."
+        },
+        {
+          "tag": "Decision",
+          "title": "Make the call",
+          "body": "Compare offers with a framework."
+        }
       ]
     },
     "steps": {
       "title": "How offer strategy works",
       "subtitle": "Plan → leverage → close.",
       "items": [
-        { "title": "Assess", "body": "Map offer details and timing." },
-        { "title": "Plan", "body": "Set leverage strategy." },
-        { "title": "Close", "body": "Finalize the best offer." }
+        {
+          "title": "Assess",
+          "body": "Map offer details and timing."
+        },
+        {
+          "title": "Plan",
+          "body": "Set leverage strategy."
+        },
+        {
+          "title": "Close",
+          "body": "Finalize the best offer."
+        }
       ]
     },
     "for": {
       "title": "This is for",
       "body": "Candidates with strong offer potential.",
-      "items": ["Multiple offers", "Senior roles", "Negotiation‑ready"]
+      "items": [
+        "Multiple offers",
+        "Senior roles",
+        "Negotiation‑ready"
+      ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You’re not near offers yet.",
-      "items": ["No interviews", "No offers expected soon"]
+      "items": [
+        "No interviews",
+        "No offers expected soon"
+      ]
     },
     "deliverables": {
       "title": "What you receive",
       "subtitle": "A decision framework.",
       "items": [
-        { "title": "Offer plan", "tag": "Core", "body": "A plan for timing and leverage.", "bullets": ["Timeline map", "Leverage points", "Decision matrix"] }
+        {
+          "title": "Offer plan",
+          "tag": "Core",
+          "body": "A plan for timing and leverage.",
+          "bullets": [
+            "Timeline map",
+            "Leverage points",
+            "Decision matrix"
+          ]
+        }
       ]
     },
     "related": {
@@ -1592,10 +2671,22 @@
       "title": "Offer strategy FAQs",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "Do you negotiate for me?", "answer": "No, but we give you strategy and scripts." },
-        { "question": "Can you help with multiple offers?", "answer": "Yes, we help compare and decide." },
-        { "question": "How fast can we do this?", "answer": "Often within days." },
-        { "question": "Do you cover equity?", "answer": "Yes, total comp analysis included." }
+        {
+          "question": "Do you negotiate for me?",
+          "answer": "No, but we give you strategy and scripts."
+        },
+        {
+          "question": "Can you help with multiple offers?",
+          "answer": "Yes, we help compare and decide."
+        },
+        {
+          "question": "How fast can we do this?",
+          "answer": "Often within days."
+        },
+        {
+          "question": "Do you cover equity?",
+          "answer": "Yes, total comp analysis included."
+        }
       ]
     },
     "cta": {
@@ -1603,14 +2694,20 @@
       "body": "Book a call and we’ll map your offer strategy.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "Offer Strategy for Closing the Right Role | Askia",
+    "metaDescription": "Offer strategy to manage timelines, leverage, and total comp decisions."
   },
   "atsAudit": {
     "eyebrow": "ATS audit for tech resumes",
     "h1": "ATS Audit for Resume Signal Gaps",
     "subtitle": "Find the exact blockers in your resume and fix them fast.",
     "supporting": "We identify ATS issues and signal gaps that stall interviews.",
-    "highlights": ["ATS diagnostics", "Signal gaps", "Fix plan"],
+    "highlights": [
+      "ATS diagnostics",
+      "Signal gaps",
+      "Fix plan"
+    ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/consultation",
     "ctaProof": "Best for low response rates.",
@@ -1625,30 +2722,75 @@
     "heroGraphic": "ats",
     "heroGraphicLabel": "ATS scan",
     "heroModules": [
-      { "title": "ATS scan", "body": "Check parsing, structure, and keyword alignment.", "meta": "Diagnostics" },
-      { "title": "Signal gaps", "body": "Find where scope and impact are unclear.", "meta": "Leveling" },
-      { "title": "Fix roadmap", "body": "Actionable changes to lift response.", "meta": "Execution" }
+      {
+        "title": "ATS scan",
+        "body": "Check parsing, structure, and keyword alignment.",
+        "meta": "Diagnostics"
+      },
+      {
+        "title": "Signal gaps",
+        "body": "Find where scope and impact are unclear.",
+        "meta": "Leveling"
+      },
+      {
+        "title": "Fix roadmap",
+        "body": "Actionable changes to lift response.",
+        "meta": "Execution"
+      }
     ],
     "heroStats": [
-      { "value": "2–3 days", "label": "Typical turnaround" },
-      { "value": "Keyword map", "label": "Role-aligned terms" },
-      { "value": "Fix plan", "label": "Prioritized changes" }
+      {
+        "value": "2–3 days",
+        "label": "Typical turnaround"
+      },
+      {
+        "value": "Keyword map",
+        "label": "Role-aligned terms"
+      },
+      {
+        "value": "Fix plan",
+        "label": "Prioritized changes"
+      }
     ],
     "heroTrustLabel": "Trusted by candidates from",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/linkedin.svg", "alt": "LinkedIn logo" },
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
-      { "src": "/assets/logos/testimonials/microsoft.svg", "alt": "Microsoft logo" },
-      { "src": "/assets/logos/testimonials/github.svg", "alt": "GitHub logo" }
+      {
+        "src": "/assets/logos/testimonials/linkedin.svg",
+        "alt": "LinkedIn logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/microsoft.svg",
+        "alt": "Microsoft logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/github.svg",
+        "alt": "GitHub logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "Audit snapshot",
       "title": "What the ATS audit delivers",
       "subtitle": "Clear blockers, clear fixes.",
       "items": [
-        { "tag": "Parsing", "title": "ATS clarity", "body": "Structure and keywords that parse correctly." },
-        { "tag": "Signal", "title": "Level cues", "body": "Spot missing scope and impact indicators." },
-        { "tag": "Fixes", "title": "Action plan", "body": "A prioritized roadmap of changes." }
+        {
+          "tag": "Parsing",
+          "title": "ATS clarity",
+          "body": "Structure and keywords that parse correctly."
+        },
+        {
+          "tag": "Signal",
+          "title": "Level cues",
+          "body": "Spot missing scope and impact indicators."
+        },
+        {
+          "tag": "Fixes",
+          "title": "Action plan",
+          "body": "A prioritized roadmap of changes."
+        }
       ]
     },
     "mistakes": {
@@ -1656,24 +2798,57 @@
       "title": "Why resumes fail ATS screens",
       "subtitle": "We surface the silent blockers.",
       "items": [
-        { "title": "Formatting errors", "body": "Tables, columns, or headers that break parsing." },
-        { "title": "Keyword drift", "body": "Missing role-family language recruiters filter for." },
-        { "title": "Weak scope", "body": "Impact and level aren’t obvious to humans." }
+        {
+          "title": "Formatting errors",
+          "body": "Tables, columns, or headers that break parsing."
+        },
+        {
+          "title": "Keyword drift",
+          "body": "Missing role-family language recruiters filter for."
+        },
+        {
+          "title": "Weak scope",
+          "body": "Impact and level aren’t obvious to humans."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "focus", "proof", "mistakes", "steps", "deliverables", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "focus",
+      "proof",
+      "mistakes",
+      "steps",
+      "deliverables",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "ATS + signal audit",
       "body": "A diagnostic that shows what’s blocking interviews.",
-      "bullets": ["ATS scan", "Signal gaps", "Fix roadmap"]
+      "bullets": [
+        "ATS scan",
+        "Signal gaps",
+        "Fix roadmap"
+      ]
     },
     "proof": {
       "title": "Why it works",
       "subtitle": "Diagnose before you rewrite.",
       "items": [
-        { "title": "Fast", "body": "Quick scan and feedback." },
-        { "title": "Clear", "body": "Exact blockers identified." },
-        { "title": "Actionable", "body": "Fix plan you can implement." }
+        {
+          "title": "Fast",
+          "body": "Quick scan and feedback."
+        },
+        {
+          "title": "Clear",
+          "body": "Exact blockers identified."
+        },
+        {
+          "title": "Actionable",
+          "body": "Fix plan you can implement."
+        }
       ]
     },
     "focus": {
@@ -1681,35 +2856,72 @@
       "title": "Find the hidden blockers",
       "subtitle": "ATS issues are silent until fixed.",
       "items": [
-        { "tag": "ATS", "title": "Format + keywords", "body": "Ensure parsable, relevant language." },
-        { "tag": "Signal", "title": "Level clarity", "body": "Surface scope and impact." },
-        { "tag": "Action", "title": "Fix plan", "body": "Know what to change and why." }
+        {
+          "tag": "ATS",
+          "title": "Format + keywords",
+          "body": "Ensure parsable, relevant language."
+        },
+        {
+          "tag": "Signal",
+          "title": "Level clarity",
+          "body": "Surface scope and impact."
+        },
+        {
+          "tag": "Action",
+          "title": "Fix plan",
+          "body": "Know what to change and why."
+        }
       ]
     },
     "steps": {
       "title": "How ATS audits work",
       "subtitle": "Scan → diagnose → fix.",
       "items": [
-        { "title": "Scan", "body": "ATS parsing + keyword check." },
-        { "title": "Diagnose", "body": "Identify signal gaps." },
-        { "title": "Fix", "body": "Implement changes." }
+        {
+          "title": "Scan",
+          "body": "ATS parsing + keyword check."
+        },
+        {
+          "title": "Diagnose",
+          "body": "Identify signal gaps."
+        },
+        {
+          "title": "Fix",
+          "body": "Implement changes."
+        }
       ]
     },
     "for": {
       "title": "This is for",
       "body": "Candidates with low interview response.",
-      "items": ["Low inbound", "Stalled search", "Resume uncertainty"]
+      "items": [
+        "Low inbound",
+        "Stalled search",
+        "Resume uncertainty"
+      ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You want a full rewrite immediately.",
-      "items": ["Full rewrite first", "No diagnostics"]
+      "items": [
+        "Full rewrite first",
+        "No diagnostics"
+      ]
     },
     "deliverables": {
       "title": "What you receive",
       "subtitle": "A clear ATS diagnosis.",
       "items": [
-        { "title": "Audit report", "tag": "Core", "body": "ATS + signal feedback.", "bullets": ["Parsing review", "Keyword gaps", "Fix plan"] }
+        {
+          "title": "Audit report",
+          "tag": "Core",
+          "body": "ATS + signal feedback.",
+          "bullets": [
+            "Parsing review",
+            "Keyword gaps",
+            "Fix plan"
+          ]
+        }
       ]
     },
     "related": {
@@ -1724,10 +2936,22 @@
       "title": "ATS audit FAQs",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "Is this a full rewrite?", "answer": "No, it’s a diagnostic and fix plan." },
-        { "question": "Do you provide keywords?", "answer": "Yes, aligned to target roles." },
-        { "question": "How fast is it?", "answer": "Typically within a few days." },
-        { "question": "Can I bundle it?", "answer": "Yes, with resume writing." }
+        {
+          "question": "Is this a full rewrite?",
+          "answer": "No, it’s a diagnostic and fix plan."
+        },
+        {
+          "question": "Do you provide keywords?",
+          "answer": "Yes, aligned to target roles."
+        },
+        {
+          "question": "How fast is it?",
+          "answer": "Typically within a few days."
+        },
+        {
+          "question": "Can I bundle it?",
+          "answer": "Yes, with resume writing."
+        }
       ]
     },
     "cta": {
@@ -1735,6 +2959,8 @@
       "body": "Book a call and we’ll run your audit.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/consultation"
-    }
+    },
+    "metaTitle": "ATS Audit for Resume Signal Gaps | Askia",
+    "metaDescription": "ATS audit to diagnose parsing issues and signal gaps blocking interviews."
   }
 }
