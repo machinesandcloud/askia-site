@@ -9,11 +9,11 @@
     <meta property="og:title" content="{% if metaTitle %}{{ metaTitle }}{% elseif title %}{{ title }} | Askia{% else %}{{ site.name }} | Askia{% endif %}" />
     <meta property="og:description" content="{{ metaDescription or description or site.brandLine }}" />
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta property="og:image" content="{{ site.url }}/assets/askia-logo.png" />
+    <meta property="og:image" content="{{ site.url }}/assets/askia-logo-512.png" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="{% if metaTitle %}{{ metaTitle }}{% elseif title %}{{ title }} | Askia{% else %}{{ site.name }} | Askia{% endif %}" />
     <meta name="twitter:description" content="{{ metaDescription or description or site.brandLine }}" />
-    <meta name="twitter:image" content="{{ site.url }}/assets/askia-logo.png" />
+    <meta name="twitter:image" content="{{ site.url }}/assets/askia-logo-512.png" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -100,8 +100,8 @@
         "@type": "Organization",
         "name": "{{ site.name }}",
         "url": "{{ site.url }}",
-        "logo": "{{ site.url }}/assets/askia-logo.png",
-        "image": "{{ site.url }}/assets/askia-logo.png",
+        "logo": "{{ site.url }}/assets/askia-logo-512.png",
+        "image": "{{ site.url }}/assets/askia-logo-512.png",
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "{{ site.contact.phone }}",
