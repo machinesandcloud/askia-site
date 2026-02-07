@@ -10,6 +10,24 @@
 /askia-vs-others/ /land-your-next-role/ 301
 /growth-lab /resources/ 301
 /growth-lab/ /resources/ 301
+/recruitment-services/ /services/ 301
+/what-to-expect/ /services/ 301
+/find-companies-that-value-employees/ /resources/ 301
+/privacy-policy /about/ 301
+/privacy-policy/ /about/ 301
+
+/wp-login.php / 301
+/xmlrpc.php / 301
+/wp-comments-post.php / 301
+/postnews.php / 301
+/.env / 301
+/cdn-cgi/l/email-protection / 301
+
+/sitemap_index.xml /sitemap.xml 301
+/sitemap.txt /sitemap.txt 200
+/apple-touch-icon.png /apple-touch-icon.png 200
+/apple-touch-icon-precomposed.png /apple-touch-icon-precomposed.png 200
+/favicon.ico /assets/favicon.png 301
 
 # Canonical domain + protocol
 http://askia.tech/* https://askia.tech/:splat 301!

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://askia.tech/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://askia.tech/services/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://askia.tech/land-your-next-role/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://askia.tech/resources/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://askia.tech/testimonials/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://askia.tech/about/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://askia.tech/career-readiness-index/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
