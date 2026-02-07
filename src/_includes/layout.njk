@@ -14,7 +14,7 @@
     <link rel="apple-touch-icon" href="/assets/favicon.png?v=2" />
     <link rel="stylesheet" href="/assets/styles.css" />
   </head>
-  <body>
+  <body{% if page.url == "/" or page.url == "/services/" or page.url == "/land-your-next-role/" %} class="has-mobile-cta"{% endif %}>
     <div class="bg-layer"></div>
     <header class="site-header">
       <div class="container nav">
@@ -55,6 +55,20 @@
     <main>
       {{ content | safe }}
     </main>
+
+    {% if page.url == "/" or page.url == "/services/" or page.url == "/land-your-next-role/" %}
+    <div class="nudge-toast" data-service-nudge aria-live="polite">
+      <div class="nudge-icon" aria-hidden="true">A</div>
+      <div class="nudge-body">
+        <span class="nudge-label">Just now</span>
+        <p class="nudge-text">Someone booked a strategy call.</p>
+      </div>
+      <button class="nudge-close" type="button" aria-label="Dismiss notification">x</button>
+    </div>
+    <div class="mobile-cta">
+      <a class="btn btn-primary" href="{{ site.cta.link }}">{{ site.cta.label }}</a>
+    </div>
+    {% endif %}
 
     <footer class="site-footer">
       <div class="container footer-inner">
@@ -264,6 +278,11 @@
 
         const nudgeToast = document.querySelector("[data-service-nudge]");
         if (nudgeToast) {
+          const isMobile = window.matchMedia("(max-width: 640px)").matches;
+          const hideAfter = isMobile ? 1600 : 2400;
+          const intervalMin = isMobile ? 9000 : 3000;
+          const intervalRand = isMobile ? 6000 : 4000;
+          const initialDelay = isMobile ? 9000 : 5000;
           const messages = [
             "Ava M. booked a Resume Rebuild.",
             "Marcus P. started Momentum Coaching.",
@@ -324,12 +343,12 @@
             labelEl.textContent = times[index % times.length];
             nudgeToast.classList.add("is-visible");
             index += 1;
-            setTimeout(() => nudgeToast.classList.remove("is-visible"), 2400);
+            setTimeout(() => nudgeToast.classList.remove("is-visible"), hideAfter);
           };
 
           const cycle = () => {
             showToast();
-            if (active) nudgeToast._timer = setTimeout(cycle, 3000 + Math.random() * 4000);
+            if (active) nudgeToast._timer = setTimeout(cycle, intervalMin + Math.random() * intervalRand);
           };
 
           closeBtn.addEventListener("click", () => {
@@ -338,7 +357,7 @@
             clearTimeout(nudgeToast._timer);
           });
 
-          setTimeout(cycle, 5000 + Math.random() * 4000);
+          setTimeout(cycle, initialDelay + Math.random() * intervalRand);
         }
 
         const wrapper = document.querySelector("[data-assessment]");
