@@ -280,9 +280,9 @@
         if (nudgeToast) {
           const isMobile = window.matchMedia("(max-width: 640px)").matches;
           const hideAfter = isMobile ? 1600 : 2400;
-          const intervalMin = isMobile ? 9000 : 3000;
-          const intervalRand = isMobile ? 6000 : 4000;
-          const initialDelay = isMobile ? 9000 : 5000;
+          const intervalMin = 5000;
+          const intervalRand = 10000;
+          const initialDelay = 5000;
           const messages = [
             "Ava M. booked a Resume Rebuild.",
             "Marcus P. started Momentum Coaching.",
