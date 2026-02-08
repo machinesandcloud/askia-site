@@ -1,0 +1,191 @@
+---
+layout: layout.njk
+title: AI-Powered Career Intelligence
+metaTitle: "AI-Powered Tech Career Blog | Askia"
+metaDescription: "AI-optimized tech career insights on positioning, interviews, and compensation. Built for high performers targeting $100K–$350K roles."
+breadcrumbs:
+  - name: "Home"
+    url: "/"
+  - name: "Resources"
+    url: "/resources/"
+  - name: "AI Blog"
+    url: "/blog/"
+---
+<section class="blog-hero">
+  <div class="blog-hero-bg">
+    <div class="neural-net">
+      <span class="node node-1"></span>
+      <span class="node node-2"></span>
+      <span class="node node-3"></span>
+      <span class="node node-4"></span>
+      <span class="node node-5"></span>
+      <span class="node node-6"></span>
+      <span class="node node-7"></span>
+      <span class="node node-8"></span>
+    </div>
+  </div>
+  <div class="container blog-hero-grid">
+    <div>
+      <p class="hero-eyebrow">AI Career Intelligence</p>
+      <h1 class="blog-hero-title">The AI‑Powered Tech Career Resource Engine</h1>
+      <p class="blog-hero-subtitle">Built for high performers. Every post is engineered to answer AI‑surfaceable questions with direct, tactical guidance.</p>
+      <div class="blog-hero-cta">
+        <div class="glass-card">
+          <strong>AI‑Powered Career Intelligence</strong>
+          <p>Question-first headlines. Direct answers. Frameworks you can execute today.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="{{ site.cta.link }}">Book Your Strategy Call</a>
+            <a class="btn btn-ghost" href="https://askiatech.com/job-search-system">Get the Job Search System</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blog-hero-visual">
+      <div class="blog-hero-image">
+        <img src="/assets/blog/hero-network.jpg" alt="Futuristic network nodes glowing across a dark background." />
+        <span class="holo-badge">AI OVERVIEW READY</span>
+      </div>
+      <div class="blog-hero-metrics">
+        <div>
+          <strong>75%</strong>
+          <span>Roles hidden market</span>
+        </div>
+        <div>
+          <strong>$87K</strong>
+          <span>Avg offer uplift</span>
+        </div>
+        <div>
+          <strong>2–6 wks</strong>
+          <span>Average time‑to‑offer</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section blog-filters" data-blog-filters>
+  <div class="container blog-filter-bar">
+    <div class="filter-group">
+      <button class="filter-chip is-active" type="button" data-filter="all">All</button>
+      <button class="filter-chip" type="button" data-filter="Strategic Positioning">Strategic Positioning</button>
+      <button class="filter-chip" type="button" data-filter="Compensation Mastery">Compensation Mastery</button>
+      <button class="filter-chip" type="button" data-filter="Interview Intelligence">Interview Intelligence</button>
+      <button class="filter-chip" type="button" data-filter="Hidden Market Access">Hidden Market Access</button>
+      <button class="filter-chip" type="button" data-filter="Leadership Signal">Leadership Signal</button>
+      <button class="filter-chip" type="button" data-filter="Tech Career Navigation">Tech Career Navigation</button>
+    </div>
+    <div class="filter-search">
+      <span>Search</span>
+      <input type="search" placeholder="Try: negotiation, callbacks, hidden market" data-blog-search />
+    </div>
+  </div>
+</section>
+
+<section class="section blog-grid-section">
+  <div class="container">
+    <div class="blog-grid" data-blog-grid>
+      {% for post in collections.blog | reverse %}
+      <article class="blog-card reveal" data-blog-card data-categories="{{ post.data.categories | join(',') }}" data-title="{{ post.data.title | lower }}" data-excerpt="{{ post.data.description | lower }}">
+        <a class="blog-card-image" href="{{ post.url }}">
+          <img src="{{ post.data.featuredImage }}" alt="{{ post.data.imageAlt }}" loading="lazy" />
+          {% if post.data.featured %}
+          <span class="featured-badge">Featured</span>
+          {% endif %}
+        </a>
+        <div class="blog-card-body">
+          <div class="blog-card-meta">
+            {% for category in post.data.categories %}
+              <span class="category-pill">{{ category }}</span>
+            {% endfor %}
+          </div>
+          <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+          <p>{{ post.data.description }}</p>
+          <div class="blog-card-foot">
+            <span>{{ post.data.readTime }}</span>
+            <span>{{ post.data.publishDate }}</span>
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    <div class="blog-empty" data-blog-empty hidden>
+      <p>No results match your filters. Try a different category or search term.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section blog-cta-band">
+  <div class="container cta-band">
+    <div>
+      <h2 class="section-title">Ready to turn insight into offers?</h2>
+      <p class="section-subtitle">Book a strategy call and we’ll map the fastest path to your next role.</p>
+    </div>
+    <a class="btn btn-primary" href="{{ site.cta.link }}">Book Your Strategy Call</a>
+  </div>
+</section>
+
+<div class="scroll-progress" data-scroll-progress></div>
+
+<script>
+  (() => {
+    const filters = document.querySelectorAll("[data-filter]");
+    const cards = Array.from(document.querySelectorAll("[data-blog-card]"));
+    const empty = document.querySelector("[data-blog-empty]");
+    const search = document.querySelector("[data-blog-search]");
+
+    if (!filters.length || !cards.length) return;
+
+    let activeFilter = "all";
+    let query = "";
+
+    const applyFilters = () => {
+      let visible = 0;
+      cards.forEach((card) => {
+        const categories = (card.dataset.categories || "").toLowerCase();
+        const matchesCategory = activeFilter === "all" || categories.includes(activeFilter.toLowerCase());
+        const haystack = `${card.dataset.title || ""} ${card.dataset.excerpt || ""}`;
+        const matchesQuery = !query || haystack.includes(query);
+        const show = matchesCategory && matchesQuery;
+        card.hidden = !show;
+        if (show) visible += 1;
+      });
+      if (empty) empty.hidden = visible !== 0;
+    };
+
+    filters.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        filters.forEach((item) => item.classList.remove("is-active"));
+        btn.classList.add("is-active");
+        activeFilter = btn.dataset.filter || "all";
+        applyFilters();
+      });
+    });
+
+    if (search) {
+      search.addEventListener("input", (event) => {
+        query = event.target.value.toLowerCase().trim();
+        applyFilters();
+      });
+    }
+
+    const progress = document.querySelector("[data-scroll-progress]");
+    if (progress) {
+      const onScroll = () => {
+        const scrollTop = window.scrollY;
+        const docHeight = document.body.scrollHeight - window.innerHeight;
+        const ratio = docHeight > 0 ? scrollTop / docHeight : 0;
+        progress.style.transform = `scaleY(${ratio})`;
+      };
+      window.addEventListener("scroll", onScroll, { passive: true });
+      onScroll();
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) entry.target.classList.add("is-visible");
+      });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+  })();
+</script>

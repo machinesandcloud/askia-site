@@ -76,7 +76,6 @@ https://www.askia.tech/* https://askia.tech/:splat 301!
 /work-life-balance-boundaries-framework/ /resources/ 301
 
 # Legacy WordPress structures
-/blog/* /resources/ 301
 */category/* /resources/ 301
 */tag/* /resources/ 410
 */author/* / 410

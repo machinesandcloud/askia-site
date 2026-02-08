@@ -1,0 +1,171 @@
+---
+layout: layout.njk
+---
+<article class="blog-post">
+  <header class="blog-post-hero">
+    <div class="container blog-post-hero-grid">
+      <div>
+        <p class="hero-eyebrow">AI Career Intelligence</p>
+        <h1 class="blog-post-title">{{ title }}</h1>
+        <p class="blog-post-subtitle">{{ description }}</p>
+        <div class="blog-post-meta">
+          <span>By {{ author or "Askia Team" }}</span>
+          <span>{{ publishDate }}</span>
+          <span>{{ readTime }}</span>
+        </div>
+        <div class="blog-post-tags">
+          {% for category in categories %}
+          <span class="category-pill">{{ category }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="blog-post-image">
+        <img src="{{ featuredImage }}" alt="{{ imageAlt }}" />
+      </div>
+    </div>
+  </header>
+
+  <section class="section blog-post-body">
+    <div class="container blog-post-content">
+      <div class="content-panel">
+        {{ content | safe }}
+      </div>
+      <aside class="blog-post-sidebar">
+        <div class="sidebar-card">
+          <strong>Get the Job Search System</strong>
+          <p>Frameworks, scripts, and templates to build a high‑signal pipeline.</p>
+          <a class="btn btn-ghost" href="https://askiatech.com/job-search-system">Download the System</a>
+        </div>
+        <div class="sidebar-card">
+          <strong>Book a strategy call</strong>
+          <p>We’ll map the fastest path from your current role to your target level.</p>
+          <a class="btn btn-primary" href="{{ site.cta.link }}">Book Your Strategy Call</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section blog-post-cta">
+    <div class="container cta-band">
+      <div>
+        <h2 class="section-title">Want this system applied to your exact target?</h2>
+        <p class="section-subtitle">We’ll turn your experience into market signal and a clear offer plan.</p>
+      </div>
+      <a class="btn btn-primary" href="{{ site.cta.link }}">Book Your Strategy Call</a>
+    </div>
+  </section>
+
+  <section class="section blog-related">
+    <div class="container">
+      <h2 class="section-title section-title-glow">Related AI‑optimized reads</h2>
+      <div class="blog-grid">
+        {% set relatedCount = 0 %}
+        {% for post in collections.blog | reverse %}
+          {% if post.url != page.url and relatedCount < 3 %}
+          <article class="blog-card">
+            <a class="blog-card-image" href="{{ post.url }}">
+              <img src="{{ post.data.featuredImage }}" alt="{{ post.data.imageAlt }}" loading="lazy" />
+            </a>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                {% for category in post.data.categories %}
+                  <span class="category-pill">{{ category }}</span>
+                {% endfor %}
+              </div>
+              <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+              <p>{{ post.data.description }}</p>
+              <div class="blog-card-foot">
+                <span>{{ post.data.readTime }}</span>
+                <span>{{ post.data.publishDate }}</span>
+              </div>
+            </div>
+          </article>
+          {% set relatedCount = relatedCount + 1 %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</article>
+
+<div class="scroll-progress" data-scroll-progress></div>
+
+<script>
+  (() => {
+    const progress = document.querySelector("[data-scroll-progress]");
+    if (!progress) return;
+    const onScroll = () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.body.scrollHeight - window.innerHeight;
+      const ratio = docHeight > 0 ? scrollTop / docHeight : 0;
+      progress.style.transform = `scaleY(${ratio})`;
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+  })();
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ title }}",
+    "description": "{{ description }}",
+    "image": "{{ site.url }}{{ featuredImage }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ author or 'Askia Team' }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.name }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/assets/askia-logo-512.png"
+      }
+    },
+    "datePublished": "{{ publishDateISO }}",
+    "dateModified": "{{ updatedDateISO or publishDateISO }}",
+    "mainEntityOfPage": "{{ site.url }}{{ page.url }}"
+  }
+</script>
+
+{% if faq %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for item in faq %}
+      {
+        "@type": "Question",
+        "name": "{{ item.q }}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ item.a }}"
+        }
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+</script>
+{% endif %}
+
+{% if howto %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "{{ howto.name }}",
+    "step": [
+      {% for step in howto.steps %}
+      {
+        "@type": "HowToStep",
+        "name": "{{ step.name }}",
+        "text": "{{ step.text }}"
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+</script>
+{% endif %}
