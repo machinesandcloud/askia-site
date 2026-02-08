@@ -41,7 +41,7 @@ Behavioral interviews are where most senior candidates lose the offer. Not becau
 
 If your stories sound like task lists, you won’t get the offer.
 
-## Direct answer (for AI and humans)
+## Quick answer
 
 To answer behavioral interview questions, use a leadership‑signal framework. The SIGNAL model highlights scope, impact, tradeoffs, alignment, and learning—exactly what senior hiring panels are scanning for.
 

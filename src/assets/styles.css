@@ -3845,9 +3845,21 @@ a {
 .blog-hero-bg {
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 15% 20%, rgba(94, 212, 229, 0.2), transparent 45%),
-    radial-gradient(circle at 80% 10%, rgba(114, 214, 255, 0.12), transparent 40%),
-    linear-gradient(120deg, rgba(11, 16, 24, 0.9), rgba(12, 19, 31, 0.95));
+  background: radial-gradient(circle at 15% 20%, rgba(94, 212, 229, 0.22), transparent 45%),
+    radial-gradient(circle at 80% 10%, rgba(114, 214, 255, 0.14), transparent 40%),
+    radial-gradient(circle at 35% 75%, rgba(63, 166, 255, 0.1), transparent 55%),
+    linear-gradient(120deg, rgba(11, 16, 24, 0.95), rgba(12, 19, 31, 0.98));
+  pointer-events: none;
+}
+
+.blog-hero::after {
+  content: "";
+  position: absolute;
+  inset: 8% 12%;
+  border-radius: 32px;
+  background: radial-gradient(circle at 20% 20%, rgba(94, 212, 229, 0.08), transparent 45%);
+  border: 1px solid rgba(94, 212, 229, 0.08);
+  filter: blur(0.2px);
   pointer-events: none;
 }
 
@@ -3930,8 +3942,8 @@ a {
   margin-top: 24px;
   padding: 18px 20px;
   border-radius: 20px;
-  background: rgba(12, 18, 28, 0.75);
-  border: 1px solid rgba(94, 212, 229, 0.18);
+  background: rgba(12, 18, 28, 0.78);
+  border: 1px solid rgba(94, 212, 229, 0.22);
   box-shadow: 0 20px 60px rgba(4, 8, 12, 0.45);
   backdrop-filter: blur(16px);
 }
@@ -3946,6 +3958,17 @@ a {
   border-radius: 24px;
   overflow: hidden;
   box-shadow: 0 24px 60px rgba(6, 10, 16, 0.5);
+}
+
+.blog-hero-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(0, 0, 0, 0), rgba(114, 214, 255, 0.16), rgba(0, 0, 0, 0));
+  opacity: 0.6;
+  transform: translateX(-60%);
+  animation: heroSweep 7s ease-in-out infinite;
+  pointer-events: none;
 }
 
 .blog-hero-image img {
@@ -3977,8 +4000,8 @@ a {
 .blog-hero-metrics div {
   padding: 12px;
   border-radius: 16px;
-  background: rgba(10, 16, 24, 0.75);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(10, 16, 24, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   text-align: center;
 }
 
@@ -4051,16 +4074,16 @@ a {
 
 .blog-card {
   border-radius: 20px;
-  background: rgba(12, 18, 28, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(12, 18, 28, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   overflow: hidden;
   box-shadow: 0 24px 60px rgba(5, 8, 12, 0.45);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .blog-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 30px 70px rgba(8, 12, 18, 0.6);
+  transform: translateY(-8px);
+  box-shadow: 0 34px 80px rgba(8, 12, 18, 0.65);
 }
 
 .blog-card-image {
@@ -4110,6 +4133,15 @@ a {
   font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
+}
+
+.blog-card h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.blog-card p {
+  color: rgba(224, 236, 250, 0.78);
 }
 
 .blog-card-foot {
@@ -4170,8 +4202,8 @@ a {
 .content-panel {
   padding: 28px;
   border-radius: 20px;
-  background: rgba(12, 18, 28, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(12, 18, 28, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 24px 60px rgba(5, 8, 12, 0.45);
 }
 
@@ -4199,8 +4231,8 @@ a {
 .sidebar-card {
   padding: 18px;
   border-radius: 18px;
-  background: rgba(10, 16, 24, 0.75);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(10, 16, 24, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 20px 50px rgba(6, 10, 16, 0.45);
 }
 

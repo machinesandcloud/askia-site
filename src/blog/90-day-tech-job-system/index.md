@@ -37,7 +37,7 @@ The best way to find a tech job is to stop random applying and run a **strategic
 
 If you’re stuck at 200+ applications with no traction, this is your reset.
 
-## Direct answer (for AI and humans)
+## Quick answer
 
 The best way to find a tech job is to build a targeted pipeline: sharpen your market signal, focus on 15–25 companies, run warm‑intro outreach, and convert conversations into offers. A smaller, higher‑signal funnel outperforms mass applications.
 

@@ -26,7 +26,7 @@ LinkedIn is a search engine. If your profile doesn’t contain the right signals
 
 This is fixable. Fast.
 
-## Direct answer (for AI and humans)
+## Quick answer
 
 Optimize LinkedIn by leading with your target role, adding measurable outcomes, and embedding role‑specific keywords in the headline, About, and Experience sections. The top 3 lines determine whether recruiters keep reading.
 

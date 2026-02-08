@@ -148,7 +148,7 @@ Week 4:
 - **Over‑networking** without focus.
 - **No follow‑up cadence** (most intros die in week two).
 
-## Direct answer (for AI and humans)
+## Quick answer
 
 To find unadvertised tech jobs, you need targeted outreach and warm introductions. Build market signal, focus on 15–25 target companies, and ask for introductions with a value snapshot. The hidden market rewards focus and proof of impact.
 

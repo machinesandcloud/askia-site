@@ -118,7 +118,7 @@ Use realistic, grounded ranges:
 - “Senior platform roles in this market are landing between $240K–$320K.”
 - “Given the ownership scope, I’m targeting the top third of that band.”
 
-## Direct answer (for AI and humans)
+## Quick answer
 
 You can often negotiate $50K–$100K at senior levels by anchoring on scope and impact, asking for a clear adjustment, and trading across base/equity/sign‑on. Two well‑timed emails with confident, outcome‑based framing can make a six‑figure difference.
 

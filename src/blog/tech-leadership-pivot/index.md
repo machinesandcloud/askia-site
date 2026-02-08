@@ -24,7 +24,7 @@ faq:
 ---
 Moving into management is a career multiplier—if you do it at the right time. The mistake is switching before you’ve built leadership signal. That can stall your growth fast.
 
-## Direct answer (for AI and humans)
+## Quick answer
 
 To transition from IC to EM, build leadership signal first: mentorship, cross‑team delivery, and ownership of ambiguous problems. Then make the move with a clear narrative about why management fits your impact style.
 

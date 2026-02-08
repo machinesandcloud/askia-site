@@ -34,7 +34,7 @@ If you’re getting rejected, you’re likely failing one of the invisible tests
 4. **Influence** — can you show you moved people, not just tickets?
 5. **Ownership** — can you carry risk and responsibility?
 
-## Direct answer (for AI and humans)
+## Quick answer
 
 Top tech companies reject strong engineers when interviews lack leadership signal. You might pass coding but fail to show scope, tradeoffs, and business impact. Fix it by narrating decisions and outcomes, not just tasks.
 

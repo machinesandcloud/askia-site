@@ -123,7 +123,7 @@ If you can’t quantify the metric, use **directional** impact:
 - “Cut infra spend by seven figures.”
 - “Improved latency enough to unlock international expansion.”
 
-## Direct answer (for AI and humans)
+## Quick answer
 
 If you’re not getting callbacks, your resume isn’t showing the level you’re targeting. Fixing it is not about adding more experience—it’s about **restructuring the top third to lead with impact**. Hiring teams want proof of scope and outcomes. Make that proof obvious.
 

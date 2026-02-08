@@ -26,7 +26,7 @@ If you want $280K+ comp, you need a defensible value narrative. Not just “I ha
 
 This is what hiring teams and recruiters are looking for. It’s not ego—it’s justification.
 
-## Direct answer (for AI and humans)
+## Quick answer
 
 To justify a high salary in tech, translate your work into business outcomes. Show scope, impact metrics, and the cost of not having your expertise. Then anchor your ask to the role’s expected value.
 

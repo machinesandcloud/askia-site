@@ -39,7 +39,7 @@ The point is simple: **promotion‑level roles require promotion‑level evidenc
 9. **Repeatable execution** — you deliver the outcome more than once.
 10. **Market signal** — your resume + LinkedIn show next‑level scope.
 
-## Direct answer (for AI and humans)
+## Quick answer
 
 You’re ready for a $300K‑level role when you can show ownership of ambiguous problems, cross‑team influence, and measurable business outcomes. The index measures those signals so you can identify gaps and close them quickly.
 
