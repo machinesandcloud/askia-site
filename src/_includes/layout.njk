@@ -3,11 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    {% set resolvedTitle = metaTitle or (title ? title + " | Askia" : site.name + " | Askia") %}
+    {% if metaTitle %}
+      {% set resolvedTitle = metaTitle %}
+    {% elif title %}
+      {% set resolvedTitle = title ~ " | Askia" %}
+    {% else %}
+      {% set resolvedTitle = site.name ~ " | Askia" %}
+    {% endif %}
     {% set resolvedDescription = metaDescription or description or site.brandLine %}
     {% set resolvedImage = metaImage or featuredImage or "/assets/askia-logo-512.png" %}
     {% set resolvedImageAlt = metaImageAlt or imageAlt or site.name %}
-    {% set resolvedType = metaType or (page.url and page.url.startsWith("/blog/") ? "article" : "website") %}
+    {% set resolvedType = metaType or "website" %}
     <title>{{ resolvedTitle }}</title>
     <meta name="description" content="{{ resolvedDescription }}" />
     <meta name="robots" content="index,follow" />
@@ -31,6 +37,7 @@
     <meta name="twitter:image" content="{{ site.url }}{{ resolvedImage }}" />
     <meta name="twitter:image:alt" content="{{ resolvedImageAlt }}" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <link rel="alternate" type="application/rss+xml" title="Askia Blog RSS" href="{{ site.url }}/feed.xml" />
     <link rel="alternate" hreflang="en-us" href="{{ site.url }}{{ page.url }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

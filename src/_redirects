@@ -86,7 +86,7 @@ https://www.askia.tech/* https://askia.tech/:splat 301!
 /wp-includes/* / 410
 /wp-json/* / 410
 /*.php / 410
-/feed/ / 410
+/feed/ /feed.xml 301
 /comments/feed/ / 410
 
 # Retired enterprise subdomain → main site
