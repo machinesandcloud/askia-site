@@ -184,6 +184,11 @@
   ],
   "contact": {
     "address": "5718 Westheimer Rd Suite 1000, Houston, TX 77057",
+    "streetAddress": "5718 Westheimer Rd Suite 1000",
+    "addressLocality": "Houston",
+    "addressRegion": "TX",
+    "postalCode": "77057",
+    "addressCountry": "US",
     "phone": "(346) 229-1245",
     "email": "support@askia.tech"
   },

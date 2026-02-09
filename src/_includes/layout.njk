@@ -3,18 +3,35 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{% if metaTitle %}{{ metaTitle }}{% elseif title %}{{ title }} | Askia{% else %}{{ site.name }} | Askia{% endif %}</title>
-    <meta name="description" content="{{ metaDescription or description or site.brandLine }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{% if metaTitle %}{{ metaTitle }}{% elseif title %}{{ title }} | Askia{% else %}{{ site.name }} | Askia{% endif %}" />
-    <meta property="og:description" content="{{ metaDescription or description or site.brandLine }}" />
+    {% set resolvedTitle = metaTitle or (title ? title + " | Askia" : site.name + " | Askia") %}
+    {% set resolvedDescription = metaDescription or description or site.brandLine %}
+    {% set resolvedImage = metaImage or featuredImage or "/assets/askia-logo-512.png" %}
+    {% set resolvedImageAlt = metaImageAlt or imageAlt or site.name %}
+    {% set resolvedType = metaType or (page.url and page.url.startsWith("/blog/") ? "article" : "website") %}
+    <title>{{ resolvedTitle }}</title>
+    <meta name="description" content="{{ resolvedDescription }}" />
+    <meta name="robots" content="index,follow" />
+    <meta name="author" content="{{ author or site.name }}" />
+    <meta name="theme-color" content="#1a2332" />
+    <meta property="og:type" content="{{ resolvedType }}" />
+    <meta property="og:site_name" content="{{ site.name }}" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="{{ resolvedTitle }}" />
+    <meta property="og:description" content="{{ resolvedDescription }}" />
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta property="og:image" content="{{ site.url }}/assets/askia-logo-512.png" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="{% if metaTitle %}{{ metaTitle }}{% elseif title %}{{ title }} | Askia{% else %}{{ site.name }} | Askia{% endif %}" />
-    <meta name="twitter:description" content="{{ metaDescription or description or site.brandLine }}" />
-    <meta name="twitter:image" content="{{ site.url }}/assets/askia-logo-512.png" />
+    <meta property="og:image" content="{{ site.url }}{{ resolvedImage }}" />
+    <meta property="og:image:alt" content="{{ resolvedImageAlt }}" />
+    {% if resolvedType == "article" %}
+    <meta property="article:published_time" content="{{ publishDateISO }}" />
+    <meta property="article:modified_time" content="{{ updatedDateISO or publishDateISO }}" />
+    {% endif %}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ resolvedTitle }}" />
+    <meta name="twitter:description" content="{{ resolvedDescription }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ resolvedImage }}" />
+    <meta name="twitter:image:alt" content="{{ resolvedImageAlt }}" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <link rel="alternate" hreflang="en-us" href="{{ site.url }}{{ page.url }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -108,6 +125,26 @@
           "contactType": "sales",
           "email": "{{ site.contact.email }}"
         }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "{{ site.name }}",
+        "url": "{{ site.url }}",
+        "image": "{{ site.url }}/assets/askia-logo-512.png",
+        "telephone": "{{ site.contact.phone }}",
+        "email": "{{ site.contact.email }}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "{{ site.contact.streetAddress }}",
+          "addressLocality": "{{ site.contact.addressLocality }}",
+          "addressRegion": "{{ site.contact.addressRegion }}",
+          "postalCode": "{{ site.contact.postalCode }}",
+          "addressCountry": "{{ site.contact.addressCountry }}"
+        },
+        "areaServed": "United States"
       }
     </script>
     <script type="application/ld+json">
