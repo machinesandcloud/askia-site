@@ -3838,80 +3838,19 @@ a {
 /* Blog / AI resources */
 .blog-hero {
   position: relative;
-  padding: 120px 0 80px;
+  padding: 110px 0 90px;
   overflow: hidden;
 }
 
-.blog-hero-bg {
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at 15% 20%, rgba(94, 212, 229, 0.22), transparent 45%),
-    radial-gradient(circle at 80% 10%, rgba(114, 214, 255, 0.14), transparent 40%),
-    radial-gradient(circle at 35% 75%, rgba(63, 166, 255, 0.1), transparent 55%),
-    linear-gradient(120deg, rgba(11, 16, 24, 0.95), rgba(12, 19, 31, 0.98));
-  pointer-events: none;
-}
-
-.blog-hero::after {
+.blog-hero::before {
   content: "";
   position: absolute;
-  inset: 10% 14%;
-  border-radius: 32px;
-  background: radial-gradient(circle at 20% 20%, rgba(94, 212, 229, 0.08), transparent 45%);
-  border: 1px solid rgba(94, 212, 229, 0.08);
-  filter: blur(0.2px);
-  pointer-events: none;
-}
-
-.neural-net {
-  position: absolute;
   inset: 0;
-}
-
-.neural-net::before,
-.neural-net::after {
-  content: "";
-  position: absolute;
-  inset: 12% 10%;
-  border-radius: 32px;
-  border: 1px solid rgba(94, 212, 229, 0.18);
-  box-shadow: inset 0 0 120px rgba(94, 212, 229, 0.08);
-  animation: pulseGlow 6s ease-in-out infinite;
-}
-
-.neural-net::after {
-  inset: 20% 18%;
-  border-color: rgba(114, 214, 255, 0.2);
-  animation-delay: 1.5s;
-}
-
-.node {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: rgba(114, 214, 255, 0.95);
-  box-shadow: 0 0 18px rgba(114, 214, 255, 0.8);
-  animation: nodePulse 3s ease-in-out infinite;
-}
-
-.node-1 { top: 18%; left: 12%; }
-.node-2 { top: 28%; left: 48%; animation-delay: 0.2s; }
-.node-3 { top: 42%; left: 24%; animation-delay: 0.4s; }
-.node-4 { top: 52%; left: 68%; animation-delay: 0.6s; }
-.node-5 { top: 70%; left: 38%; animation-delay: 0.8s; }
-.node-6 { top: 22%; left: 76%; animation-delay: 1s; }
-.node-7 { top: 80%; left: 18%; animation-delay: 1.2s; }
-.node-8 { top: 64%; left: 82%; animation-delay: 1.4s; }
-
-@keyframes nodePulse {
-  0%, 100% { transform: scale(1); opacity: 0.8; }
-  50% { transform: scale(1.4); opacity: 1; }
-}
-
-@keyframes pulseGlow {
-  0%, 100% { opacity: 0.55; }
-  50% { opacity: 0.9; }
+  background:
+    radial-gradient(circle at 20% 15%, rgba(94, 212, 229, 0.2), transparent 45%),
+    radial-gradient(circle at 75% 10%, rgba(114, 214, 255, 0.12), transparent 40%),
+    linear-gradient(120deg, rgba(8, 12, 18, 0.98), rgba(12, 19, 31, 0.98));
+  pointer-events: none;
 }
 
 .blog-hero-grid {
@@ -3921,6 +3860,11 @@ a {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   align-items: center;
   z-index: 1;
+}
+
+.blog-hero-copy {
+  display: grid;
+  gap: 12px;
 }
 
 .blog-hero-title {
@@ -3945,16 +3889,37 @@ a {
   margin: 22px 0 16px;
 }
 
-.blog-hero-visual {
+.blog-hero-kicker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  color: rgba(210, 236, 255, 0.75);
+  font-size: 0.85rem;
+}
+
+.blog-hero-kicker span {
+  position: relative;
+  padding-left: 14px;
+}
+
+.blog-hero-kicker span::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: rgba(114, 214, 255, 0.7);
+}
+
+.blog-hero-media {
   display: grid;
-  gap: 16px;
+  gap: 18px;
 }
 
 .blog-hero-image {
   position: relative;
   border-radius: 24px;
   overflow: hidden;
-  box-shadow: 0 24px 60px rgba(6, 10, 16, 0.5);
+  box-shadow: 0 28px 70px rgba(6, 10, 16, 0.6);
+  border: 1px solid rgba(114, 214, 255, 0.18);
 }
 
 .blog-hero-image::after {
@@ -3970,7 +3935,7 @@ a {
 
 .blog-hero-image img {
   width: 100%;
-  height: 340px;
+  height: 360px;
   object-fit: cover;
   display: block;
 }
@@ -3988,21 +3953,17 @@ a {
   letter-spacing: 0.2em;
 }
 
-.blog-hero-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+.blog-hero-caption {
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: rgba(10, 16, 24, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: grid;
+  gap: 4px;
 }
 
-.blog-hero-chips span {
-  padding: 6px 12px;
-  border-radius: 999px;
-  border: 1px solid rgba(114, 214, 255, 0.35);
-  background: rgba(12, 18, 28, 0.65);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: rgba(210, 236, 255, 0.9);
+.blog-hero-caption strong {
+  font-size: 1.1rem;
 }
 
 .blog-filter-bar {
@@ -4327,10 +4288,6 @@ a {
 @media (max-width: 720px) {
   .blog-hero {
     padding: 90px 0 70px;
-  }
-
-  .blog-hero-metrics {
-    grid-template-columns: 1fr;
   }
 
   .filter-search {

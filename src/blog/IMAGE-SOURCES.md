@@ -3,6 +3,7 @@
 - hero-network.jpg: https://www.pexels.com/photo/futuristic-abstract-technology-background-30547594/
 - negotiation.jpg: https://www.pexels.com/photo/businessmen-doing-a-handshake-7984490/
 - interview-story.jpg: https://www.pexels.com/photo/man-having-an-interview-6585014/
+- interview-rejection.jpg: https://www.pexels.com/photo/group-of-people-discussing-1181396/
 - leadership-signal.jpg: https://www.pexels.com/photo/team-meeting-8134002/
 - hidden-market.jpg: https://www.pexels.com/photo/people-in-a-meeting-3867849/
 - leadership-pivot.jpg: https://www.pexels.com/photo/businessmen-having-a-meeting-8428061/

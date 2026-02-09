@@ -9,8 +9,8 @@ publishDateISO: "2026-02-08"
 updatedDateISO: "2026-02-08"
 readTime: "13 min read"
 featured: false
-featuredImage: "/assets/blog/interview-story.jpg"
-imageAlt: "A professional interview setting across a desk."
+featuredImage: "/assets/blog/interview-rejection.jpg"
+imageAlt: "A group of professionals collaborating in a modern office."
 categories:
   - "Interview Intelligence"
   - "Leadership Signal"
