@@ -3,6 +3,11 @@ layout: layout.njk
 title: Career Intelligence Library
 metaTitle: "Tech Career Intelligence Blog | Askia"
 metaDescription: "Tech career insights on positioning, interviews, and compensation. Built for high performers targeting $100K–$350K roles."
+pagination:
+  data: collections.blog
+  size: 10
+  alias: posts
+  reverse: true
 breadcrumbs:
   - name: "Home"
     url: "/"
@@ -60,8 +65,31 @@ breadcrumbs:
 
 <section class="section blog-grid-section">
   <div class="container">
+    {% set featured = posts[0] %}
+    {% if featured %}
+    <div class="blog-featured">
+      <a class="blog-featured-image" href="{{ featured.url }}">
+        <img src="{{ featured.data.featuredImage }}" alt="{{ featured.data.imageAlt }}" loading="lazy" />
+      </a>
+      <div class="blog-featured-body">
+        <div class="blog-card-meta">
+          {% for category in featured.data.categories %}
+            <span class="category-pill">{{ category }}</span>
+          {% endfor %}
+        </div>
+        <h2><a href="{{ featured.url }}">{{ featured.data.title }}</a></h2>
+        <p>{{ featured.data.description }}</p>
+        <div class="blog-card-foot">
+          <span>{{ featured.data.readTime }}</span>
+          <span>{{ featured.data.publishDate }}</span>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
     <div class="blog-grid" data-blog-grid>
-      {% for post in collections.blog | reverse %}
+      {% for post in posts %}
+      {% if not featured or post.url != featured.url %}
       <article class="blog-card" data-blog-card data-categories="{{ post.data.categories | join(',') }}" data-title="{{ post.data.title | lower }}" data-excerpt="{{ post.data.description | lower }}">
         <a class="blog-card-image" href="{{ post.url }}">
           <img src="{{ post.data.featuredImage }}" alt="{{ post.data.imageAlt }}" loading="lazy" />
@@ -83,11 +111,26 @@ breadcrumbs:
           </div>
         </div>
       </article>
+      {% endif %}
       {% endfor %}
     </div>
     <div class="blog-empty" data-blog-empty hidden>
       <p>No results match your filters. Try a different category or search term.</p>
     </div>
+
+    <nav class="blog-pagination" aria-label="Blog pagination">
+      {% if pagination.href.previous %}
+        <a class="btn btn-ghost" href="{{ pagination.href.previous }}">Previous</a>
+      {% else %}
+        <span class="btn btn-ghost is-disabled">Previous</span>
+      {% endif %}
+      <span class="pagination-status">Page {{ pagination.pageNumber + 1 }} of {{ pagination.pages | length }}</span>
+      {% if pagination.href.next %}
+        <a class="btn btn-ghost" href="{{ pagination.href.next }}">Next</a>
+      {% else %}
+        <span class="btn btn-ghost is-disabled">Next</span>
+      {% endif %}
+    </nav>
   </div>
 </section>
 

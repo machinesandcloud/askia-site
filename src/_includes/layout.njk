@@ -24,7 +24,7 @@
     <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png" />
     <link rel="stylesheet" href="/assets/styles.css" />
   </head>
-  <body{% if page.url == "/" or page.url == "/services/" or page.url == "/land-your-next-role/" %} class="has-mobile-cta"{% endif %}>
+  <body{% if page.url == "/" or page.url == "/services/" or page.url == "/land-your-next-role/" or page.url == "/blog/" or (page.url and page.url.startsWith("/blog/")) %} class="has-mobile-cta"{% endif %}>
     <div class="bg-layer"></div>
     <header class="site-header">
       <div class="container nav">
@@ -66,7 +66,7 @@
       {{ content | safe }}
     </main>
 
-    {% if page.url == "/" or page.url == "/services/" or page.url == "/land-your-next-role/" %}
+    {% if page.url == "/" or page.url == "/services/" or page.url == "/land-your-next-role/" or page.url == "/blog/" or (page.url and page.url.startsWith("/blog/")) %}
     <div class="nudge-toast" data-service-nudge aria-live="polite">
       <div class="nudge-icon" aria-hidden="true">A</div>
       <div class="nudge-body">
