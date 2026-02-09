@@ -9,13 +9,13 @@ eleventyExcludeFromCollections: true
     <link>{{ site.url }}/blog/</link>
     <description>{{ site.brandLine }}</description>
     <language>en-us</language>
-    <lastBuildDate>{{ collections.blog | last | date("r") }}</lastBuildDate>
+    <lastBuildDate>{{ (collections.blog | last).date | rfc822 }}</lastBuildDate>
     {% for post in collections.blog | reverse | slice(0, 50) %}
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ site.url }}{{ post.url }}</link>
       <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-      <pubDate>{{ post.date | date("r") }}</pubDate>
+      <pubDate>{{ post.date | rfc822 }}</pubDate>
       <description><![CDATA[{{ post.data.description }}]]></description>
     </item>
     {% endfor %}

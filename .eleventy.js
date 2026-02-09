@@ -8,6 +8,12 @@ module.exports = function (eleventyConfig) {
     return new Array(times).fill(value).join("");
   });
 
+  eleventyConfig.addFilter("rfc822", (value) => {
+    if (!value) return "";
+    const date = value instanceof Date ? value : new Date(value);
+    return date.toUTCString();
+  });
+
   return {
     dir: {
       input: "src",
