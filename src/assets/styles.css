@@ -4038,6 +4038,8 @@ a {
   overflow: hidden;
   box-shadow: 0 24px 60px rgba(5, 8, 12, 0.45);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+  content-visibility: auto;
+  contain-intrinsic-size: 320px 420px;
 }
 
 .blog-card:hover {
