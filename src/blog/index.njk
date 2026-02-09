@@ -29,7 +29,7 @@ breadcrumbs:
     </div>
     <div class="blog-hero-media">
       <div class="blog-hero-image">
-        <img src="/assets/blog/hero-network.jpg" alt="Futuristic network nodes glowing across a dark background." />
+        <img src="/assets/blog/hero-coach.jpg" alt="A career coach meeting with a professional in a modern office." />
         <span class="holo-badge">SIGNAL READY</span>
       </div>
       <div class="blog-hero-caption">
@@ -62,7 +62,7 @@ breadcrumbs:
   <div class="container">
     <div class="blog-grid" data-blog-grid>
       {% for post in collections.blog | reverse %}
-      <article class="blog-card reveal" data-blog-card data-categories="{{ post.data.categories | join(',') }}" data-title="{{ post.data.title | lower }}" data-excerpt="{{ post.data.description | lower }}">
+      <article class="blog-card" data-blog-card data-categories="{{ post.data.categories | join(',') }}" data-title="{{ post.data.title | lower }}" data-excerpt="{{ post.data.description | lower }}">
         <a class="blog-card-image" href="{{ post.url }}">
           <img src="{{ post.data.featuredImage }}" alt="{{ post.data.imageAlt }}" loading="lazy" />
           {% if post.data.featured %}
@@ -100,8 +100,6 @@ breadcrumbs:
     <a class="btn btn-primary" href="{{ site.cta.link }}">Book Your Strategy Call</a>
   </div>
 </section>
-
-<div class="scroll-progress" data-scroll-progress></div>
 
 <script>
   (() => {
@@ -145,24 +143,6 @@ breadcrumbs:
       });
     }
 
-    const progress = document.querySelector("[data-scroll-progress]");
-    if (progress) {
-      const onScroll = () => {
-        const scrollTop = window.scrollY;
-        const docHeight = document.body.scrollHeight - window.innerHeight;
-        const ratio = docHeight > 0 ? scrollTop / docHeight : 0;
-        progress.style.transform = `scaleY(${ratio})`;
-      };
-      window.addEventListener("scroll", onScroll, { passive: true });
-      onScroll();
-    }
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) entry.target.classList.add("is-visible");
-      });
-    }, { threshold: 0.2 });
-
-    document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+    applyFilters();
   })();
 </script>

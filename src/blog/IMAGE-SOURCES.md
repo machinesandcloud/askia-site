@@ -1,6 +1,7 @@
 # Image Sources (Pexels)
 
 - hero-network.jpg: https://www.pexels.com/photo/futuristic-abstract-technology-background-30547594/
+- hero-coach.jpg: https://www.pexels.com/photo/young-people-having-a-business-meeting-6474478/
 - negotiation.jpg: https://www.pexels.com/photo/businessmen-doing-a-handshake-7984490/
 - interview-story.jpg: https://www.pexels.com/photo/man-having-an-interview-6585014/
 - interview-rejection.jpg: https://www.pexels.com/photo/group-of-people-discussing-1181396/

@@ -88,23 +88,6 @@ layout: layout.njk
   </section>
 </article>
 
-<div class="scroll-progress" data-scroll-progress></div>
-
-<script>
-  (() => {
-    const progress = document.querySelector("[data-scroll-progress]");
-    if (!progress) return;
-    const onScroll = () => {
-      const scrollTop = window.scrollY;
-      const docHeight = document.body.scrollHeight - window.innerHeight;
-      const ratio = docHeight > 0 ? scrollTop / docHeight : 0;
-      progress.style.transform = `scaleY(${ratio})`;
-    };
-    window.addEventListener("scroll", onScroll, { passive: true });
-    onScroll();
-  })();
-</script>
-
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
