@@ -35,9 +35,18 @@
   <url><loc>https://askia.tech/project-program-management-coaching/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/ai-ml-career-coaching/</loc><changefreq>monthly</changefreq></url>
 
+
   <url><loc>https://askia.tech/blog/</loc><changefreq>weekly</changefreq></url>
   <url><loc>https://askia.tech/blog/90-day-tech-job-system/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/behavioral-interviews-57/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/behavioral-interviews-86/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/behavioral-interviews-89/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/behavioral-signal/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/career-pivot-32/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/career-pivot-82/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/career-pivot-97/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/career-positioning-17/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/career-positioning-38/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/career-readiness-index-300k/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/career-reset/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/case-study-framework/</loc><changefreq>monthly</changefreq></url>
@@ -49,16 +58,143 @@
   <url><loc>https://askia.tech/blog/executive-presence/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/first-30-days/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/follow-up-strategy/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/hidden-market-20/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/hidden-market-31/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/hidden-market-36/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/hidden-market-40/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/hidden-market-44/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/hidden-market-47/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/hidden-market-50/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/hidden-market-63/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/hidden-market-81/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/hidden-market-90/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/hidden-tech-job-market/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/hiring-manager-call/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-career-coaching-04/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-career-coaching-15/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-career-coaching-17/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-career-coaching-23/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-career-coaching-46/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-career-coaching-52/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-career-coaching-62/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-career-coaching-78/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-career-coaching-80/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-career-coaching-89/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-09/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-100/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-14/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-18/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-31/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-40/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-44/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-47/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-50/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-64/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-67/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-70/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-87/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-88/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-90/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-interview-preparation-93/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-job-search-strategy-07/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-job-search-strategy-13/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-job-search-strategy-19/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-job-search-strategy-24/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-job-search-strategy-32/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-job-search-strategy-33/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-job-search-strategy-48/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-job-search-strategy-51/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-job-search-strategy-54/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-job-search-strategy-65/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-job-search-strategy-68/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-job-search-strategy-72/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-job-search-strategy-83/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-linkedin-optimization-34/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-linkedin-optimization-77/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-linkedin-optimization-79/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-linkedin-optimization-86/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-offer-strategy-08/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-offer-strategy-10/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-offer-strategy-20/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-offer-strategy-27/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-offer-strategy-28/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-offer-strategy-29/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-offer-strategy-41/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-offer-strategy-43/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-offer-strategy-45/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-offer-strategy-53/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-offer-strategy-57/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-offer-strategy-63/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-offer-strategy-69/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-offer-strategy-74/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-offer-strategy-95/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-06/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-16/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-22/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-36/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-38/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-42/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-56/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-58/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-59/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-60/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-61/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-66/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-71/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-73/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-75/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-91/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-92/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-resume-writer-98/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-salary-negotiation-01/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-salary-negotiation-11/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-salary-negotiation-55/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-salary-negotiation-97/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-02/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-03/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-05/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-12/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-21/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-25/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-26/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-30/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-35/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-37/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-39/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-49/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-76/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-81/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-82/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-84/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-85/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-94/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-96/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/houston-tech-career-coaching-99/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/internal-transfer/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/interview-calibration/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/interview-prep-03/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/interview-prep-11/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/interview-prep-67/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/interview-prep-72/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/interview-prep-90/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/interview-storytelling-framework/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/job-search-metrics/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/job-search-strategy-08/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/job-search-strategy-24/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/job-search-strategy-53/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/job-search-strategy-62/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/leadership-signal-18/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/leadership-signal-resume/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/linkedin-headline-formula/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/linkedin-optimization-engineers/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/linkedin-signal-12/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/linkedin-signal-15/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/linkedin-signal-42/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/linkedin-signal-48/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/linkedin-signal-49/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/linkedin-signal-91/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/linkedin-signal-92/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/linkedin-signal-96/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/manager-vs-staff/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/negotiate-300k-offer/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/negotiation-breakdown-85k/</loc><changefreq>monthly</changefreq></url>
@@ -69,31 +205,96 @@
   <url><loc>https://askia.tech/blog/offer-decision/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/offer-leverage/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/offer-range/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/offer-strategy-23/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/offer-strategy-73/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/offer-strategy-78/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/offer-strategy-87/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/offer-timing/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/panel-interview/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/portfolio-for-senior/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/portfolio-impact-02/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/portfolio-impact-19/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/portfolio-impact-94/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/portfolio-pm/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/portfolio-structure/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/project-selection/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/promotion-case/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/promotion-readiness-21/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/promotion-readiness-55/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/promotion-readiness-60/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/promotion-readiness-68/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/promotion-readiness-70/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/promotion-readiness-95/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/recruiter-relationship/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/recruiter-screen-04/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/recruiter-screen-35/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/recruiter-screen-58/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/recruiter-screen-64/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/recruiter-screen-66/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/recruiter-screen/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/reference-checks/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/referral-ask/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/rejection-reframe/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-clarity-10/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-clarity-100/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-clarity-26/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-clarity-33/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-clarity-74/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-clarity-75/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-clarity-76/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-clarity-83/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-clarity-93/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/resume-impact-bullets/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/resume-summary/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-writer-13/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-writer-16/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-writer-30/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-writer-41/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-writer-56/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-writer-85/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/resume-writer-88/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/risk-mitigation-story/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/role-leveling-14/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/role-leveling-28/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/role-leveling-54/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/role-leveling-61/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/role-leveling-65/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/role-leveling-80/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/role-leveling-84/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/role-leveling/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/role-targeting/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/salary-expectations/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/salary-negotiation-01/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/salary-negotiation-06/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/salary-negotiation-07/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/salary-negotiation-37/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/salary-negotiation-43/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/salary-negotiation-45/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/salary-negotiation-59/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/salary-negotiation-98/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/signal-vs-noise/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/story-bank-29/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/story-bank-39/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/story-bank-77/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/story-bank/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/system-design-22/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/system-design-27/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/system-design-52/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/system-design-69/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/system-design-99/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/system-design-story/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/tech-career-coaching-05/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/tech-career-coaching-09/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/tech-career-coaching-25/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/tech-career-coaching-34/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/tech-career-coaching-71/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/tech-leadership-pivot/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/technical-screen/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/the-200k-resume-mistake/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/unadvertised-tech-jobs/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/value-narrative-46/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/value-narrative-51/</loc><changefreq>monthly</changefreq></url>
+  <url><loc>https://askia.tech/blog/value-narrative-79/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/why-no-interview-callbacks/</loc><changefreq>monthly</changefreq></url>
   <url><loc>https://askia.tech/blog/why-top-tech-rejects/</loc><changefreq>monthly</changefreq></url>
 </urlset>
