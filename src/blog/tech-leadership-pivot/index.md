@@ -61,6 +61,21 @@ Six months later: EM1 offer at $245K.
 
 If you love deep technical work, Staff+ IC roles may offer equal comp and more autonomy. Management isn’t the only path to senior compensation.
 
+## What to look for in proof
+
+- A specific role and level (not generic titles).
+- A clear before/after shift in signal or results.
+- Timelines and scope of work so you can benchmark fit.
+- Examples tied to your function (engineering, product, data, or leadership).
+- Artifacts you can review (resume excerpts, interview outlines, or positioning notes).
+
+## Questions to ask on the first call
+
+1. What diagnostic do you run before giving advice?
+2. What will I have in 30 days if we work together?
+3. How do you tailor the plan to my level and target companies?
+4. How do you measure progress beyond “feels better”?
+
 ## Final takeaway
 
 Management isn’t about title. It’s about signal. Build it first, and your pivot becomes leverage instead of risk.

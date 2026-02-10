@@ -66,6 +66,21 @@ Cons:
 - Offer rate per interview loop
 - Average comp uplift after negotiation
 
+## What to look for in proof
+
+- A specific role and level (not generic titles).
+- A clear before/after shift in signal or results.
+- Timelines and scope of work so you can benchmark fit.
+- Examples tied to your function (engineering, product, data, or leadership).
+- Artifacts you can review (resume excerpts, interview outlines, or positioning notes).
+
+## Questions to ask on the first call
+
+1. What diagnostic do you run before giving advice?
+2. What will I have in 30 days if we work together?
+3. How do you tailor the plan to my level and target companies?
+4. How do you measure progress beyond “feels better”?
+
 ## Final takeaway
 
 Clarity beats volume. Build signal, align to scope, and make your impact unmistakable.

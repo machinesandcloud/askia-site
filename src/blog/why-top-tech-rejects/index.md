@@ -86,6 +86,21 @@ Result: 3 offers in 6 weeks.
 - Cut any sentence that doesn’t show scope, impact, or tradeoff.
 - Add one metric to every story.
 
+## What to look for in proof
+
+- A specific role and level (not generic titles).
+- A clear before/after shift in signal or results.
+- Timelines and scope of work so you can benchmark fit.
+- Examples tied to your function (engineering, product, data, or leadership).
+- Artifacts you can review (resume excerpts, interview outlines, or positioning notes).
+
+## Questions to ask on the first call
+
+1. What diagnostic do you run before giving advice?
+2. What will I have in 30 days if we work together?
+3. How do you tailor the plan to my level and target companies?
+4. How do you measure progress beyond “feels better”?
+
 ## Final takeaway
 
 Top tech companies reject strong engineers when the interview lacks leadership signal. Fix your stories, and you fix your results.

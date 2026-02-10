@@ -112,6 +112,21 @@ If you can confidently answer “yes” to 7 of these 10, you’re in range:
 - I have 3–5 flagship wins.
 - My resume shows next‑level scope in the top third.
 
+## What to look for in proof
+
+- A specific role and level (not generic titles).
+- A clear before/after shift in signal or results.
+- Timelines and scope of work so you can benchmark fit.
+- Examples tied to your function (engineering, product, data, or leadership).
+- Artifacts you can review (resume excerpts, interview outlines, or positioning notes).
+
+## Questions to ask on the first call
+
+1. What diagnostic do you run before giving advice?
+2. What will I have in 30 days if we work together?
+3. How do you tailor the plan to my level and target companies?
+4. How do you measure progress beyond “feels better”?
+
 ## Final takeaway
 
 The Career Readiness Index isn’t about ego. It’s about evidence. Measure it, close the gaps, and you’ll land the level you’re targeting faster.

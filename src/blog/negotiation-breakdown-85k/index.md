@@ -128,6 +128,21 @@ Subject: Offer follow‑up
 
 > “I’m excited about the role and the team. Based on the scope we discussed and the impact I can drive, I was expecting total comp closer to $X. Is there flexibility to bridge that gap through base, equity, or sign‑on?”
 
+## What to look for in proof
+
+- A specific role and level (not generic titles).
+- A clear before/after shift in signal or results.
+- Timelines and scope of work so you can benchmark fit.
+- Examples tied to your function (engineering, product, data, or leadership).
+- Artifacts you can review (resume excerpts, interview outlines, or positioning notes).
+
+## Questions to ask on the first call
+
+1. What diagnostic do you run before giving advice?
+2. What will I have in 30 days if we work together?
+3. How do you tailor the plan to my level and target companies?
+4. How do you measure progress beyond “feels better”?
+
 ## Final takeaway
 
 Negotiation isn’t about being aggressive—it’s about aligning on value. When you anchor to outcomes and give the recruiter a clean path to say yes, you win.

@@ -93,6 +93,21 @@ If you want Staff roles but your profile says “Senior,” you’re sending mix
 - Share 1 insight or win
 - Update 1 keyword or section
 
+## What to look for in proof
+
+- A specific role and level (not generic titles).
+- A clear before/after shift in signal or results.
+- Timelines and scope of work so you can benchmark fit.
+- Examples tied to your function (engineering, product, data, or leadership).
+- Artifacts you can review (resume excerpts, interview outlines, or positioning notes).
+
+## Questions to ask on the first call
+
+1. What diagnostic do you run before giving advice?
+2. What will I have in 30 days if we work together?
+3. How do you tailor the plan to my level and target companies?
+4. How do you measure progress beyond “feels better”?
+
 ## Final takeaway
 
 LinkedIn rewards clarity and impact. Tighten your signal, and recruiters will find you.
