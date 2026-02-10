@@ -16,6 +16,13 @@ module.exports = function (eleventyConfig) {
     return date.toUTCString();
   });
 
+  eleventyConfig.addTransform("stripHallucinatedSections", (content, outputPath) => {
+    if (!outputPath || !outputPath.endsWith(".html")) return content;
+    return content
+      .replace(/<h2>Visibility signals that convert<\\/h2>\\s*<p>[\\s\\S]*?<\\/p>/gi, "")
+      .replace(/<h2>Offline trust builders<\\/h2>\\s*<p>[\\s\\S]*?<\\/p>/gi, "");
+  });
+
   return {
     dir: {
       input: "src",
