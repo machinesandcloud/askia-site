@@ -37,14 +37,6 @@ Recruiters and hiring managers scan for signal fast. If they cannot see business
 
 Example: "Reduced onboarding time by 48% and cut critical errors by 5x" is far stronger than "improved onboarding." That single line creates immediate resume writer signal.
 
-## Visibility signals that convert
-
-People buy after they trust the signal. Answering specific questions clearly, showing real outcomes, and publishing consistent proof helps readers decide faster. Pair your content with visible social proof like client reviews and outcome snapshots, so your credibility is easy to verify.
-
-## Offline trust builders
-
-Digital trust moves faster when it is backed by real-world proof. Consider workshops, local meetups, and targeted outreach that puts your expertise in front of people before they start searching. Consistent follow-up and a simple review request system can turn wins into durable reputation.
-
 ## Pros and cons
 
 Pros:

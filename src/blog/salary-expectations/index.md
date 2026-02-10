@@ -33,14 +33,6 @@ Senior hiring is about risk reduction. Clarity and proof reduce perceived risk a
 4. Translate tools into business outcomes.
 5. Pressure-test the narrative with a senior peer.
 
-## Visibility signals that convert
-
-Answer specific questions, publish proof, and show reviews. Trust accelerates decisions.
-
-## Offline trust builders
-
-Workshops, local events, and referral loops turn wins into durable reputation.
-
 ## Pros and cons
 
 Pros:
