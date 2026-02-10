@@ -88,6 +88,23 @@ https://www.askia.tech/* https://askia.tech/:splat 301!
 /*.php / 410
 /feed/ /feed.xml 301
 /comments/feed/ / 410
+/apple-touch-icon.png /apple-touch-icon.png 200
+/apple-touch-icon-precomposed.png /apple-touch-icon-precomposed.png 200
+
+# Legacy content slugs
+/action-based-leadership-guide/ /resources/ 301
+/the-hidden-resume-mistakes-costing-you-20k-in-salary-a-technical-*/ /blog/the-200k-resume-mistake/ 301
+/strategic-career-navigation/ /resources/ 301
+/hidden-psychology-top-performers-7-traits/ /resources/ 301
+/job-seekers/ /resources/ 301
+/why-career-coaching-matters/ /services/ 301
+/career-psychology-mindset /resources/ 301
+/2024/12/page/* /resources/ 301
+/demonstrate-genuine-passion-technical-interviews/ /interview-prep/ 301
+/modern-resume-guide-2025/ /resume-writing/ 301
+/transform-duties-quantified-achievements/* /resume-writing/ 301
+/mastering-the-tech-job-market-in-2024-a-playbook-for-success/ /resources/ 301
+/txets.php / 410
 
 # Retired enterprise subdomain → main site
 http://enterprise.askia.tech/* https://askia.tech/ 301!
