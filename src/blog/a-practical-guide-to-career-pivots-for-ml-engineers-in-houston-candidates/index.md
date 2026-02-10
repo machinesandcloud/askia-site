@@ -15,57 +15,52 @@ categories:
   - "Interview Intelligence"
   - "Strategic Positioning"
 ---
-If your narrative doesn’t connect past to target role, your career pivots needs a tighter signal. This guide shows a clear plan to align your story with production ML systems and move faster in Houston candidates.
+If you’re targeting ML engineers, career pivots should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+Pivots require a bridge. Without it, hiring teams see risk.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Not connecting past experience to the target role.
+- Ignoring domain relevance.
+- Overloading with unrelated details.
+- Skipping proof of transferable impact.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in Houston candidates.
-2. Select 2-3 outcomes that show production ML systems.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Define the transferable core skill.
+2. Show one project that proves the pivot.
+3. Align your narrative to the new role.
+4. Validate with recruiters or mentors.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- A concise pivot narrative.
+- One transferable outcome.
+- A target role map.
 
-## Metrics to track
+## Context for Houston candidates
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in Houston candidates. Tailor examples to the scope and pace that those roles demand.
+## Local signal for Houston
 
-## Internal resources
+Connect your outcomes to industries that hire heavily in Houston, such as energy, healthcare, logistics, and aerospace. Keep the reference natural and relevant.
+## Next step
 
-- [/career-clarity/](/career-clarity/)
+If you want help with career pivots, start here: [/career-clarity/](/career-clarity/).
 
 ## FAQ
 
-**What is the fastest way to improve career pivots?**
+**Should I downplay my past role?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+No. Reframe it around the skills that transfer.
 
-**How do I know if this is working?**
+**How do I prove fit quickly?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+Use one strong, relevant project or case study.
 
-## Local signal for Houston
-
-Tie your examples to Houston hiring priorities and mention local industries where your impact is strongest.
 ## Final takeaway
 
-Treat career pivots as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

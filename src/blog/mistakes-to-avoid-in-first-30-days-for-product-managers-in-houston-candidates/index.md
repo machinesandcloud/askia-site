@@ -15,57 +15,52 @@ categories:
   - "Tech Career Navigation"
   - "Leadership Signal"
 ---
-If you’re slow to set impact in a new role, your first 30 days needs a tighter signal. This guide shows a clear plan to align your story with roadmap and user impact and move faster in Houston candidates.
+If you’re targeting product managers, first 30 days should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+Early momentum builds trust. The first 30 days set your reputation.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Waiting for direction without proposing a plan.
+- Not aligning on success metrics.
+- Missing key stakeholder relationships.
+- Skipping quick wins.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in Houston candidates.
-2. Select 2-3 outcomes that show roadmap and user impact.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Clarify success metrics with your manager.
+2. Map stakeholders and build early trust.
+3. Deliver one quick win that proves impact.
+4. Share a 30-60-90 plan early.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- A written 30-60-90 plan.
+- One quick win with outcome.
+- Stakeholder map.
 
-## Metrics to track
+## Context for Houston candidates
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in Houston candidates. Tailor examples to the scope and pace that those roles demand.
+## Local signal for Houston
 
-## Internal resources
+Connect your outcomes to industries that hire heavily in Houston, such as energy, healthcare, logistics, and aerospace. Keep the reference natural and relevant.
+## Next step
 
-- [/executive-coaching/](/executive-coaching/)
+If you want help with first 30 days, start here: [/executive-coaching/](/executive-coaching/).
 
 ## FAQ
 
-**What is the fastest way to improve first 30 days?**
+**How soon should I share a plan?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+Within the first two weeks.
 
-**How do I know if this is working?**
+**What counts as a quick win?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+A small outcome that removes friction or saves time.
 
-## Local signal for Houston
-
-Tie your examples to Houston hiring priorities and mention local industries where your impact is strongest.
 ## Final takeaway
 
-Treat first 30 days as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

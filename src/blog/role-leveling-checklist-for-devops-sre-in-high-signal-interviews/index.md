@@ -15,54 +15,49 @@ categories:
   - "Interview Intelligence"
   - "Tech Career Navigation"
 ---
-If you’re applying at the wrong level, your role leveling needs a tighter signal. This guide shows a clear plan to align your story with uptime and incident leadership and move faster in high-signal interviews.
+If you’re targeting DevOps & SRE, role leveling should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+Wrong level targets slow everything down. Leveling clarity speeds alignment.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Applying at multiple levels without a core narrative.
+- Ignoring scope expectations for the target level.
+- Underselling leadership or ownership.
+- Overstating impact without proof.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in high-signal interviews.
-2. Select 2-3 outcomes that show uptime and incident leadership.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Map the scope for your target level.
+2. Align your stories to that scope.
+3. Update resume and LinkedIn to match.
+4. Validate with recruiters or peers.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- Scope statement for the target level.
+- Impact metrics that match scope.
+- Consistent narrative across channels.
 
-## Metrics to track
+## Context for high-signal interviews
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in high-signal interviews. Tailor examples to the scope and pace that those roles demand.
+## Next step
 
-## Internal resources
-
-- [/career-clarity/](/career-clarity/)
+If you want help with role leveling, start here: [/career-clarity/](/career-clarity/).
 
 ## FAQ
 
-**What is the fastest way to improve role leveling?**
+**How do I know my level?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+Compare your scope and impact to published leveling guides and peers.
 
-**How do I know if this is working?**
+**Can I level up via the interview?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+Yes, if your stories show scope and leadership.
 
 ## Final takeaway
 
-Treat role leveling as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

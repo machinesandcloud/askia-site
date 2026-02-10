@@ -15,54 +15,49 @@ categories:
   - "Tech Career Navigation"
   - "Tech Career Navigation"
 ---
-If your communication reads tactical, not strategic, your executive presence needs a tighter signal. This guide shows a clear plan to align your story with architecture and stakeholder trust and move faster in leadership tracks.
+If you’re targeting solutions architects, executive presence should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+Executive presence is about clarity and decision framing, not style.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Overloading details instead of headlines.
+- Not stating recommendations clearly.
+- Avoiding tradeoffs and risks.
+- No crisp summary.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in leadership tracks.
-2. Select 2-3 outcomes that show architecture and stakeholder trust.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Lead with the headline and recommendation.
+2. Explain tradeoffs in plain language.
+3. Tie decisions to business outcomes.
+4. Close with next steps and risks.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- A one-paragraph executive summary.
+- Decision tradeoffs and outcomes.
+- Clear next steps.
 
-## Metrics to track
+## Context for leadership tracks
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in leadership tracks. Tailor examples to the scope and pace that those roles demand.
+## Next step
 
-## Internal resources
-
-- [/executive-coaching/](/executive-coaching/)
+If you want help with executive presence, start here: [/executive-coaching/](/executive-coaching/).
 
 ## FAQ
 
-**What is the fastest way to improve executive presence?**
+**Is executive presence only for managers?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+No. It’s about clear decision-making at any level.
 
-**How do I know if this is working?**
+**How do I practice it?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+Use short, outcome-first summaries and ask for feedback.
 
 ## Final takeaway
 
-Treat executive presence as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

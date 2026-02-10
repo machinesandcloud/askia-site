@@ -15,54 +15,49 @@ categories:
   - "Compensation Mastery"
   - "Compensation Mastery"
 ---
-If your impact reads like tasks, not outcomes, your resume clarity needs a tighter signal. This guide shows a clear plan to align your story with risk reduction and response and move faster in competitive markets.
+If you’re targeting cybersecurity leaders, resume clarity should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+Hiring teams scan for impact fast. If the story reads like tasks, senior signal gets lost.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Leading with tools instead of outcomes.
+- Mixing levels (IC vs. lead) without a clear scope.
+- Using responsibilities instead of measurable impact.
+- Burying the most relevant results below the fold.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in competitive markets.
-2. Select 2-3 outcomes that show risk reduction and response.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Define your target level and role focus in one sentence.
+2. Choose 3 outcomes that best prove scope and impact.
+3. Rewrite bullets to start with impact, then method, then tools.
+4. Add a concise summary that matches the target role.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- A before/after bullet that shows impact shift.
+- 1–2 metrics that align to the target role.
+- A scope statement (team size, system size, or business impact).
 
-## Metrics to track
+## Context for competitive markets
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in competitive markets. Tailor examples to the scope and pace that those roles demand.
+## Next step
 
-## Internal resources
-
-- [/resume-writing/](/resume-writing/)
+If you want help with resume clarity, start here: [/resume-writing/](/resume-writing/).
 
 ## FAQ
 
-**What is the fastest way to improve resume clarity?**
+**How long should a senior resume be?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+Usually 1–2 pages focused on impact and scope, not a full history.
 
-**How do I know if this is working?**
+**Should I tailor every resume?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+Yes. Tailor the top third to the target role and reuse proven impact bullets where they fit.
 
 ## Final takeaway
 
-Treat resume clarity as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

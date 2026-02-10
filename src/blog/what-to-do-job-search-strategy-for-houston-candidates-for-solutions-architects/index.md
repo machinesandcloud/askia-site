@@ -16,48 +16,52 @@ categories:
   - "Hidden Market Access"
   - "Leadership Signal"
 ---
-If you want stronger results with job search strategy, focus on one target role, one clear narrative, and measurable proof. This guide gives you a practical plan and the checks that prevent weak signal.
+If you’re targeting solutions architects, job search strategy should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal, not effort. The clearer your signal, the faster you move through screening.
+A repeatable system beats random applications. Strategy creates momentum.
 
 ## Common mistakes
 
-- Trying to rank for multiple keywords in one post.
-- Writing generic advice instead of role-specific guidance.
-- Hiding impact behind responsibilities.
-- Skipping proof or examples that match the target level.
+- Applying broadly without targeting.
+- Not tracking responses or pipeline stages.
+- Ignoring warm introductions and referrals.
+- Letting outreach and prep drift.
 
-## 5-step framework
+## The fix
 
-1. Define the exact target role, level, and company type before you edit anything.
-2. Identify the top 2-3 outcomes you want to be known for and align every bullet to them.
-3. Build a short proof set (metrics, scope, impact) that supports the story.
-4. Practice the narrative until it sounds natural in interviews and outreach.
-5. Track response rates and iterate every 2 weeks.
+1. Build a focused target list of companies and roles.
+2. Create weekly outreach and follow-up targets.
+3. Prepare role-specific stories before interviews.
+4. Review pipeline metrics weekly and iterate.
 
-## Proof checklist
+## Proof hiring teams look for
 
-- One primary keyword and one intent per post.
-- Role- or level-specific examples.
-- A clear CTA connected to the topic.
-- Internal links to relevant service pages.
-- A short FAQ section that answers what readers actually ask.
+- A target list with 20–30 roles.
+- Weekly outreach log.
+- Interview readiness checklist.
+
+## Context for Houston candidates
+
+Focus on the expectations that matter most in Houston candidates. Tailor examples to the scope and pace that those roles demand.
+## Local signal for Houston
+
+Connect your outcomes to industries that hire heavily in Houston, such as energy, healthcare, logistics, and aerospace. Keep the reference natural and relevant.
+## Next step
+
+If you want help with job search strategy, start here: [/land-your-next-role/](/land-your-next-role/).
 
 ## FAQ
 
-**What is the fastest way to improve job search strategy?**
+**How many roles should I target?**
 
-Focus on one target role and build your proof set before you edit the rest.
+Start with 20–30 that match your level and focus.
 
-**How do I know if this is working?**
+**What should I track?**
 
-Watch the response rate from recruiters and interview conversion within 2-4 weeks.
+Responses, screens, onsites, offers, and time-to-next step.
 
-## Local signal for Houston
-
-If you are targeting Houston, tie your examples to the industries hiring most in the area and use location cues naturally in the opening and closing.
 ## Final takeaway
 
-Treat job search strategy as a system: clear target, clear proof, consistent execution. That is how you get results faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

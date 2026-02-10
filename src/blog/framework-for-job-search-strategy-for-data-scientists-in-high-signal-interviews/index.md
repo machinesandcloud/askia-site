@@ -15,54 +15,49 @@ categories:
   - "Hidden Market Access"
   - "Hidden Market Access"
 ---
-If your pipeline is random and inconsistent, your job search strategy needs a tighter signal. This guide shows a clear plan to align your story with business impact and model adoption and move faster in high-signal interviews.
+If you’re targeting data scientists, job search strategy should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+A repeatable system beats random applications. Strategy creates momentum.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Applying broadly without targeting.
+- Not tracking responses or pipeline stages.
+- Ignoring warm introductions and referrals.
+- Letting outreach and prep drift.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in high-signal interviews.
-2. Select 2-3 outcomes that show business impact and model adoption.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Build a focused target list of companies and roles.
+2. Create weekly outreach and follow-up targets.
+3. Prepare role-specific stories before interviews.
+4. Review pipeline metrics weekly and iterate.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- A target list with 20–30 roles.
+- Weekly outreach log.
+- Interview readiness checklist.
 
-## Metrics to track
+## Context for high-signal interviews
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in high-signal interviews. Tailor examples to the scope and pace that those roles demand.
+## Next step
 
-## Internal resources
-
-- [/land-your-next-role/](/land-your-next-role/)
+If you want help with job search strategy, start here: [/land-your-next-role/](/land-your-next-role/).
 
 ## FAQ
 
-**What is the fastest way to improve job search strategy?**
+**How many roles should I target?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+Start with 20–30 that match your level and focus.
 
-**How do I know if this is working?**
+**What should I track?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+Responses, screens, onsites, offers, and time-to-next step.
 
 ## Final takeaway
 
-Treat job search strategy as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

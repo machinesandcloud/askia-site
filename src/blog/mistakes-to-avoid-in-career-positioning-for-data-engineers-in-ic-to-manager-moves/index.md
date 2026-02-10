@@ -15,54 +15,49 @@ categories:
   - "Strategic Positioning"
   - "Strategic Positioning"
 ---
-If your target role is still fuzzy, your career positioning needs a tighter signal. This guide shows a clear plan to align your story with pipelines and data quality and move faster in IC to manager moves.
+If you’re targeting data engineers, career positioning should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+Positioning decides which roles consider you. Clarity accelerates everything else.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Targeting multiple unrelated roles.
+- Using vague role labels without scope.
+- Missing a clear impact narrative.
+- Not aligning proof to the target level.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in IC to manager moves.
-2. Select 2-3 outcomes that show pipelines and data quality.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Choose one target role and level.
+2. Define the 2–3 outcomes you want to be known for.
+3. Align resume, LinkedIn, and stories to that narrative.
+4. Validate with recruiters or hiring managers.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- A clear target statement.
+- An impact narrative with metrics.
+- Consistent messaging across materials.
 
-## Metrics to track
+## Context for IC to manager moves
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in IC to manager moves. Tailor examples to the scope and pace that those roles demand.
+## Next step
 
-## Internal resources
-
-- [/career-clarity/](/career-clarity/)
+If you want help with career positioning, start here: [/career-clarity/](/career-clarity/).
 
 ## FAQ
 
-**What is the fastest way to improve career positioning?**
+**Can I target two roles?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+Only if they share the same core skills and level; otherwise focus on one.
 
-**How do I know if this is working?**
+**How do I know my positioning works?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+You should see better recruiter responses and stronger interview alignment.
 
 ## Final takeaway
 
-Treat career positioning as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

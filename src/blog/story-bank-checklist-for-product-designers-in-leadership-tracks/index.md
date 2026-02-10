@@ -15,54 +15,49 @@ categories:
   - "Strategic Positioning"
   - "Interview Intelligence"
 ---
-If you don’t have repeatable stories ready, your story bank needs a tighter signal. This guide shows a clear plan to align your story with outcome-driven design and move faster in leadership tracks.
+If you’re targeting product designers, story bank should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+A story bank keeps you consistent across interviews, outreach, and negotiation.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Only preparing one or two stories.
+- Repeating stories that don’t match the prompt.
+- Missing impact metrics.
+- Not practicing delivery.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in leadership tracks.
-2. Select 2-3 outcomes that show outcome-driven design.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Build 6–8 stories across scope, conflict, and growth.
+2. Write a short version and a long version of each.
+3. Practice with feedback.
+4. Update stories after new wins.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- A written list of stories.
+- One outcome metric per story.
+- A short delivery outline.
 
-## Metrics to track
+## Context for leadership tracks
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in leadership tracks. Tailor examples to the scope and pace that those roles demand.
+## Next step
 
-## Internal resources
-
-- [/interview-prep/](/interview-prep/)
+If you want help with story bank, start here: [/interview-prep/](/interview-prep/).
 
 ## FAQ
 
-**What is the fastest way to improve story bank?**
+**How many stories do I need?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+Aim for 6–8 that cover the most common prompts.
 
-**How do I know if this is working?**
+**What if I forget a story?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+Use a simple outline so you can recover quickly.
 
 ## Final takeaway
 
-Treat story bank as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

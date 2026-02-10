@@ -15,57 +15,52 @@ categories:
   - "Tech Career Navigation"
   - "Compensation Mastery"
 ---
-If your tradeoff explanations lack business framing, your system design needs a tighter signal. This guide shows a clear plan to align your story with production ML systems and move faster in Houston candidates.
+If you’re targeting ML engineers, system design should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+System design evaluates how you think. Clear tradeoffs show senior-level judgment.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Jumping to tools without clarifying requirements.
+- Ignoring scalability or reliability constraints.
+- Missing tradeoffs and alternatives.
+- Not tying design choices to business outcomes.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in Houston candidates.
-2. Select 2-3 outcomes that show production ML systems.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Clarify requirements and constraints before proposing architecture.
+2. Start with a high-level design and validate it.
+3. Zoom into critical components and tradeoffs.
+4. Tie decisions back to reliability, cost, and performance.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- A clear requirements checklist.
+- A tradeoff table with pros/cons.
+- An impact statement tied to scale or reliability.
 
-## Metrics to track
+## Context for Houston candidates
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in Houston candidates. Tailor examples to the scope and pace that those roles demand.
+## Local signal for Houston
 
-## Internal resources
+Connect your outcomes to industries that hire heavily in Houston, such as energy, healthcare, logistics, and aerospace. Keep the reference natural and relevant.
+## Next step
 
-- [/interview-prep/](/interview-prep/)
+If you want help with system design, start here: [/interview-prep/](/interview-prep/).
 
 ## FAQ
 
-**What is the fastest way to improve system design?**
+**How detailed should my design be?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+Start broad, then deepen the critical paths that matter most.
 
-**How do I know if this is working?**
+**Do I need exact numbers?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+Back-of-the-envelope estimates are enough if the logic is sound.
 
-## Local signal for Houston
-
-Tie your examples to Houston hiring priorities and mention local industries where your impact is strongest.
 ## Final takeaway
 
-Treat system design as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

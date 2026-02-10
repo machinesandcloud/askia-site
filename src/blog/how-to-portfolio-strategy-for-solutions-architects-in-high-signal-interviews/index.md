@@ -15,54 +15,49 @@ categories:
   - "Hidden Market Access"
   - "Hidden Market Access"
 ---
-If your portfolio doesn’t show measurable impact, your portfolio strategy needs a tighter signal. This guide shows a clear plan to align your story with architecture and stakeholder trust and move faster in high-signal interviews.
+If you’re targeting solutions architects, portfolio strategy should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+Portfolios are impact evidence. Without measurable outcomes, they read junior.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Including too many projects without impact.
+- Showing process without results.
+- Ignoring the target role’s scope.
+- No clear narrative across projects.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in high-signal interviews.
-2. Select 2-3 outcomes that show architecture and stakeholder trust.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Choose 3–4 projects that match the target level.
+2. Lead with outcomes, then show process.
+3. Add metrics and decision context.
+4. Summarize your role and scope clearly.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- Before/after outcomes.
+- Scope statement per project.
+- Decision tradeoffs you owned.
 
-## Metrics to track
+## Context for high-signal interviews
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in high-signal interviews. Tailor examples to the scope and pace that those roles demand.
+## Next step
 
-## Internal resources
-
-- [/product-design-career-coaching/](/product-design-career-coaching/)
+If you want help with portfolio strategy, start here: [/product-design-career-coaching/](/product-design-career-coaching/).
 
 ## FAQ
 
-**What is the fastest way to improve portfolio strategy?**
+**How many projects should I show?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+3–4 strong ones beat a long list.
 
-**How do I know if this is working?**
+**Should I include wireframes?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+Yes if they support decisions and outcomes, not as filler.
 
 ## Final takeaway
 
-Treat portfolio strategy as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

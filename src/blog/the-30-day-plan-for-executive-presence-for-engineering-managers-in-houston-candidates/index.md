@@ -15,57 +15,52 @@ categories:
   - "Tech Career Navigation"
   - "Leadership Signal"
 ---
-If your communication reads tactical, not strategic, your executive presence needs a tighter signal. This guide shows a clear plan to align your story with team delivery and leadership and move faster in Houston candidates.
+If you’re targeting engineering managers, executive presence should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+Executive presence is about clarity and decision framing, not style.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Overloading details instead of headlines.
+- Not stating recommendations clearly.
+- Avoiding tradeoffs and risks.
+- No crisp summary.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in Houston candidates.
-2. Select 2-3 outcomes that show team delivery and leadership.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Lead with the headline and recommendation.
+2. Explain tradeoffs in plain language.
+3. Tie decisions to business outcomes.
+4. Close with next steps and risks.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- A one-paragraph executive summary.
+- Decision tradeoffs and outcomes.
+- Clear next steps.
 
-## Metrics to track
+## Context for Houston candidates
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in Houston candidates. Tailor examples to the scope and pace that those roles demand.
+## Local signal for Houston
 
-## Internal resources
+Connect your outcomes to industries that hire heavily in Houston, such as energy, healthcare, logistics, and aerospace. Keep the reference natural and relevant.
+## Next step
 
-- [/executive-coaching/](/executive-coaching/)
+If you want help with executive presence, start here: [/executive-coaching/](/executive-coaching/).
 
 ## FAQ
 
-**What is the fastest way to improve executive presence?**
+**Is executive presence only for managers?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+No. It’s about clear decision-making at any level.
 
-**How do I know if this is working?**
+**How do I practice it?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+Use short, outcome-first summaries and ask for feedback.
 
-## Local signal for Houston
-
-Tie your examples to Houston hiring priorities and mention local industries where your impact is strongest.
 ## Final takeaway
 
-Treat executive presence as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

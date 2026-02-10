@@ -16,81 +16,49 @@ categories:
   - "Strategic Positioning"
   - "Hidden Market Access"
 ---
-Senior hiring does not reward volume. It rewards clarity, scope, and proof. This guide focuses on build a repeatable framework through stronger linkedin optimization signals.
-
-## Quick answer
-
-Use a level-aligned narrative, three quantified wins, and role-specific language. When your linkedin optimization shows impact at a glance, callbacks and offers rise.
+If you’re targeting tech professionals, LinkedIn positioning should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Recruiters and hiring managers scan for signal fast. If they cannot see business impact and level alignment, they move on. Strong signal reduces risk and speeds decisions.
-
-## The framework
-
-1. Define the target level and what success looks like in this role.
-2. Surface three outcomes tied to scope (e.g., 86% reliability or $X impact).
-3. Align resume, LinkedIn, and interview stories to those outcomes.
-4. Translate tools into impact statements, not task lists.
-5. Pressure-test the story with a senior peer.
-
-## Scenario and example
-
-Example: "Reduced onboarding time by 23% and cut critical errors by 9x" is far stronger than "improved onboarding." That single line creates immediate linkedin optimization signal.
-
-## Houston-specific guidance
-
-Houston hiring often values domain context and local proof. If you target oil and gas or enterprise teams, show how your work maps to local business outcomes. Make it explicit that you are seeking career coaching in Houston or tech career coaching in Houston so the intent is unmistakable.
-
-## Pros and cons
-
-Pros:
-- Faster decisions when scope and impact are explicit.
-- Higher conversion from readers who see proof, not just promises.
-- More referrals from clear outcomes and repeatable frameworks.
-
-Cons:
-- Requires disciplined documentation of outcomes.
-- Takes consistent updates to keep proof current.
-- Demands a tighter narrative across resume, LinkedIn, and interviews.
-
-## Metrics to track
-
-- Time from first contact to interview loop
-- Callback rate from target roles
-- Offer rate per interview loop
-- Average comp uplift after negotiation
+LinkedIn is often your first screen. A generic profile turns high-intent views into silent skips.
 
 ## Common mistakes
 
-- Leading with tools instead of outcomes.
-- Hiding the strongest wins below the fold.
-- Using a title that signals a lower level than you want.
+- Using a headline that repeats your title.
+- Missing role-level keywords for your target roles.
+- Describing work without outcomes.
+- Leaving the About section vague or empty.
 
-## Action checklist
+## The fix
 
-- [ ] Three measurable wins above the fold.
-- [ ] Six or more metrics on page one.
-- [ ] Target role clearly stated.
-- [ ] Interview stories aligned to outcomes.
+1. Write a headline that combines role + impact + domain.
+2. Update About to state target role, scope, and outcomes.
+3. Add 3–5 bullets with measurable results in Experience.
+4. Align keywords with the roles you want recruiters to find you for.
 
-## What to look for in proof
+## Proof hiring teams look for
 
-- A specific role and level (not generic titles).
-- A clear before/after shift in signal or results.
-- Timelines and scope of work so you can benchmark fit.
-- Examples tied to your function (engineering, product, data, or leadership).
-- Artifacts you can review (resume excerpts, interview outlines, or positioning notes).
+- A headline that maps to the target role.
+- 2–3 quantified outcomes in Experience.
+- A short About section that states level and scope.
 
-## Questions to ask on the first call
+## Local signal for Houston
 
-1. What diagnostic do you run before giving advice?
-2. What will I have in 30 days if we work together?
-3. How do you tailor the plan to my level and target companies?
-4. How do you measure progress beyond “feels better”?
+Connect your outcomes to industries that hire heavily in Houston, such as energy, healthcare, logistics, and aerospace. Keep the reference natural and relevant.
+## Next step
+
+If you want help with LinkedIn positioning, start here: [/linkedin-optimization/](/linkedin-optimization/).
+
+## FAQ
+
+**Do keywords still matter on LinkedIn?**
+
+Yes. Recruiter search filters rely on them. Use role-level terms you want to be found for.
+
+**How often should I update LinkedIn?**
+
+Update after meaningful outcomes or role shifts; keep the top section current.
 
 ## Final takeaway
 
-Clarity beats volume. Build signal, align it across channels, and your results compound fast.
-
-If you are searching for career coaching in Houston, tech career coaching in Houston, a resume writer in Houston, or interview preparation in Houston, we can help you move faster with clear, outcome-led positioning.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

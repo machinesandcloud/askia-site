@@ -15,57 +15,52 @@ categories:
   - "Compensation Mastery"
   - "Strategic Positioning"
 ---
-If your number feels arbitrary to hiring teams, your salary expectations needs a tighter signal. This guide shows a clear plan to align your story with business impact and model adoption and move faster in Houston candidates.
+If you’re targeting data scientists, salary expectations should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+Comp expectations shape the rest of the process. Clear ranges signal maturity.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Using past salary as the only anchor.
+- Giving a single number too early.
+- Skipping the scope and level conversation.
+- Ignoring total comp components.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in Houston candidates.
-2. Select 2-3 outcomes that show business impact and model adoption.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Research ranges for your level and market.
+2. Frame expectations as a range tied to scope.
+3. Ask about total comp and leveling early.
+4. Adjust once you understand the full package.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- A target range with justification.
+- Scope statement for the level you want.
+- A note on total comp, not just base.
 
-## Metrics to track
+## Context for Houston candidates
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in Houston candidates. Tailor examples to the scope and pace that those roles demand.
+## Local signal for Houston
 
-## Internal resources
+Connect your outcomes to industries that hire heavily in Houston, such as energy, healthcare, logistics, and aerospace. Keep the reference natural and relevant.
+## Next step
 
-- [/salary-negotiation/](/salary-negotiation/)
+If you want help with salary expectations, start here: [/salary-negotiation/](/salary-negotiation/).
 
 ## FAQ
 
-**What is the fastest way to improve salary expectations?**
+**Should I give a number first?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+Use a range and ask about leveling before committing.
 
-**How do I know if this is working?**
+**What if they insist on a number?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+Offer a range tied to scope and ask for the full package details.
 
-## Local signal for Houston
-
-Tie your examples to Houston hiring priorities and mention local industries where your impact is strongest.
 ## Final takeaway
 
-Treat salary expectations as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

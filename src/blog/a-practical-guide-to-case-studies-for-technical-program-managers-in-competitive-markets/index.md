@@ -15,54 +15,49 @@ categories:
   - "Compensation Mastery"
   - "Interview Intelligence"
 ---
-If your examples are missing scope and impact, your case studies needs a tighter signal. This guide shows a clear plan to align your story with cross-org execution and move faster in competitive markets.
+If you’re targeting technical program managers, case studies should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+Case studies are proof. Without context and outcomes, they look like busywork.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Skipping business context.
+- Describing tasks instead of decisions.
+- No measurable result.
+- Overloading with detail.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in competitive markets.
-2. Select 2-3 outcomes that show cross-org execution.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Start with the problem and why it mattered.
+2. Explain the decision and constraints.
+3. Show the outcome with metrics.
+4. Close with lessons and impact.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- A one-paragraph summary.
+- Key metrics and scope.
+- Decision tradeoffs.
 
-## Metrics to track
+## Context for competitive markets
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in competitive markets. Tailor examples to the scope and pace that those roles demand.
+## Next step
 
-## Internal resources
-
-- [/resume-writing/](/resume-writing/)
+If you want help with case studies, start here: [/resume-writing/](/resume-writing/).
 
 ## FAQ
 
-**What is the fastest way to improve case studies?**
+**How long should a case study be?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+Short enough to scan, long enough to show impact.
 
-**How do I know if this is working?**
+**Do I need visuals?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+Only if they clarify the outcome or decision.
 
 ## Final takeaway
 
-Treat case studies as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

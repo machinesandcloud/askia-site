@@ -15,54 +15,49 @@ categories:
   - "Interview Intelligence"
   - "Strategic Positioning"
 ---
-If you’re asking but not getting introductions, your referrals needs a tighter signal. This guide shows a clear plan to align your story with team delivery and leadership and move faster in remote roles.
+If you’re targeting engineering managers, referrals should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+Referrals reduce risk for hiring teams, but only when the ask is clear.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Asking without context or target role.
+- Making the intro hard to write.
+- Not sharing proof of fit.
+- Waiting too long to follow up.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in remote roles.
-2. Select 2-3 outcomes that show team delivery and leadership.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Share the exact role and level you want.
+2. Provide a short impact summary.
+3. Offer a 2–3 line intro they can forward.
+4. Follow up with gratitude and updates.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- A short role target statement.
+- One impact metric.
+- A ready-to-forward intro.
 
-## Metrics to track
+## Context for remote roles
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in remote roles. Tailor examples to the scope and pace that those roles demand.
+## Next step
 
-## Internal resources
-
-- [/land-your-next-role/](/land-your-next-role/)
+If you want help with referrals, start here: [/land-your-next-role/](/land-your-next-role/).
 
 ## FAQ
 
-**What is the fastest way to improve referrals?**
+**Who should I ask first?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+Start with people who know your work and can vouch for it.
 
-**How do I know if this is working?**
+**Should I offer anything in return?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+Offer to help them too, but keep the ask simple.
 
 ## Final takeaway
 
-Treat referrals as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

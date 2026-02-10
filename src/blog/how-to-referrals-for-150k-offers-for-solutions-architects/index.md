@@ -16,45 +16,49 @@ categories:
   - "Leadership Signal"
   - "Tech Career Navigation"
 ---
-If you want stronger results with referrals, focus on one target role, one clear narrative, and measurable proof. This guide gives you a practical plan and the checks that prevent weak signal.
+If you’re targeting solutions architects, referrals should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal, not effort. The clearer your signal, the faster you move through screening.
+Referrals reduce risk for hiring teams, but only when the ask is clear.
 
 ## Common mistakes
 
-- Trying to rank for multiple keywords in one post.
-- Writing generic advice instead of role-specific guidance.
-- Hiding impact behind responsibilities.
-- Skipping proof or examples that match the target level.
+- Asking without context or target role.
+- Making the intro hard to write.
+- Not sharing proof of fit.
+- Waiting too long to follow up.
 
-## 5-step framework
+## The fix
 
-1. Define the exact target role, level, and company type before you edit anything.
-2. Identify the top 2-3 outcomes you want to be known for and align every bullet to them.
-3. Build a short proof set (metrics, scope, impact) that supports the story.
-4. Practice the narrative until it sounds natural in interviews and outreach.
-5. Track response rates and iterate every 2 weeks.
+1. Share the exact role and level you want.
+2. Provide a short impact summary.
+3. Offer a 2–3 line intro they can forward.
+4. Follow up with gratitude and updates.
 
-## Proof checklist
+## Proof hiring teams look for
 
-- One primary keyword and one intent per post.
-- Role- or level-specific examples.
-- A clear CTA connected to the topic.
-- Internal links to relevant service pages.
-- A short FAQ section that answers what readers actually ask.
+- A short role target statement.
+- One impact metric.
+- A ready-to-forward intro.
+
+## Context for $150K+ offers
+
+Focus on the expectations that matter most in $150K+ offers. Tailor examples to the scope and pace that those roles demand.
+## Next step
+
+If you want help with referrals, start here: [/land-your-next-role/](/land-your-next-role/).
 
 ## FAQ
 
-**What is the fastest way to improve referrals?**
+**Who should I ask first?**
 
-Focus on one target role and build your proof set before you edit the rest.
+Start with people who know your work and can vouch for it.
 
-**How do I know if this is working?**
+**Should I offer anything in return?**
 
-Watch the response rate from recruiters and interview conversion within 2-4 weeks.
+Offer to help them too, but keep the ask simple.
 
 ## Final takeaway
 
-Treat referrals as a system: clear target, clear proof, consistent execution. That is how you get results faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

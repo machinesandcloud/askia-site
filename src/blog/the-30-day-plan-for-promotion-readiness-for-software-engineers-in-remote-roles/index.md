@@ -15,54 +15,49 @@ categories:
   - "Leadership Signal"
   - "Hidden Market Access"
 ---
-If you look strong but not clearly senior, your promotion readiness needs a tighter signal. This guide shows a clear plan to align your story with scalability and reliability and move faster in remote roles.
+If you’re targeting software engineers, promotion readiness should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+Promotion decisions require visible scope and leadership, not just delivery.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Only showing individual contributions.
+- Missing cross-team influence.
+- No evidence of decision ownership.
+- Not aligning to level expectations.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in remote roles.
-2. Select 2-3 outcomes that show scalability and reliability.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Map expectations for the next level.
+2. Collect examples showing scope and influence.
+3. Document outcomes with metrics.
+4. Build a clear promotion narrative.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- A level expectations map.
+- 2–3 cross-team examples.
+- Documented impact metrics.
 
-## Metrics to track
+## Context for remote roles
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in remote roles. Tailor examples to the scope and pace that those roles demand.
+## Next step
 
-## Internal resources
-
-- [/executive-coaching/](/executive-coaching/)
+If you want help with promotion readiness, start here: [/executive-coaching/](/executive-coaching/).
 
 ## FAQ
 
-**What is the fastest way to improve promotion readiness?**
+**How do I show leadership as an IC?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+Highlight decisions, influence, and scope beyond your team.
 
-**How do I know if this is working?**
+**What evidence matters most?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+Outcomes tied to scope, not just effort.
 
 ## Final takeaway
 
-Treat promotion readiness as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

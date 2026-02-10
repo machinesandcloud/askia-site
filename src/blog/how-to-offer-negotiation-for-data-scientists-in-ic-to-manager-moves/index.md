@@ -15,54 +15,49 @@ categories:
   - "Hidden Market Access"
   - "Strategic Positioning"
 ---
-If you’re leaving comp on the table, your offer negotiation needs a tighter signal. This guide shows a clear plan to align your story with business impact and model adoption and move faster in IC to manager moves.
+If you’re targeting data scientists, offer negotiation should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+Offers are decided on leverage and clarity. A solid strategy protects long-term value.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Sharing a number before understanding the full package.
+- Negotiating base without considering equity and bonuses.
+- Failing to tie your ask to market data and impact.
+- Rushing a decision without a plan.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in IC to manager moves.
-2. Select 2-3 outcomes that show business impact and model adoption.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Clarify the full package and decision timeline.
+2. Anchor your value with outcomes and market ranges.
+3. Make a specific, justified ask.
+4. Use timing and competing offers to manage leverage.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- A short value narrative tied to outcomes.
+- Market data for the target level.
+- A clear ask with justification.
 
-## Metrics to track
+## Context for IC to manager moves
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in IC to manager moves. Tailor examples to the scope and pace that those roles demand.
+## Next step
 
-## Internal resources
-
-- [/salary-negotiation/](/salary-negotiation/)
+If you want help with offer negotiation, start here: [/salary-negotiation/](/salary-negotiation/).
 
 ## FAQ
 
-**What is the fastest way to improve offer negotiation?**
+**When should I negotiate?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+After you receive the full offer and before you accept.
 
-**How do I know if this is working?**
+**Is it risky to negotiate?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+Most employers expect it if you do it professionally and with data.
 
 ## Final takeaway
 
-Treat offer negotiation as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

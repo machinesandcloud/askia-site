@@ -16,45 +16,49 @@ categories:
   - "Strategic Positioning"
   - "Interview Intelligence"
 ---
-If you want stronger results with story bank, focus on one target role, one clear narrative, and measurable proof. This guide gives you a practical plan and the checks that prevent weak signal.
+If you’re targeting data scientists, story bank should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal, not effort. The clearer your signal, the faster you move through screening.
+A story bank keeps you consistent across interviews, outreach, and negotiation.
 
 ## Common mistakes
 
-- Trying to rank for multiple keywords in one post.
-- Writing generic advice instead of role-specific guidance.
-- Hiding impact behind responsibilities.
-- Skipping proof or examples that match the target level.
+- Only preparing one or two stories.
+- Repeating stories that don’t match the prompt.
+- Missing impact metrics.
+- Not practicing delivery.
 
-## 5-step framework
+## The fix
 
-1. Define the exact target role, level, and company type before you edit anything.
-2. Identify the top 2-3 outcomes you want to be known for and align every bullet to them.
-3. Build a short proof set (metrics, scope, impact) that supports the story.
-4. Practice the narrative until it sounds natural in interviews and outreach.
-5. Track response rates and iterate every 2 weeks.
+1. Build 6–8 stories across scope, conflict, and growth.
+2. Write a short version and a long version of each.
+3. Practice with feedback.
+4. Update stories after new wins.
 
-## Proof checklist
+## Proof hiring teams look for
 
-- One primary keyword and one intent per post.
-- Role- or level-specific examples.
-- A clear CTA connected to the topic.
-- Internal links to relevant service pages.
-- A short FAQ section that answers what readers actually ask.
+- A written list of stories.
+- One outcome metric per story.
+- A short delivery outline.
+
+## Context for senior roles
+
+Focus on the expectations that matter most in senior roles. Tailor examples to the scope and pace that those roles demand.
+## Next step
+
+If you want help with story bank, start here: [/interview-prep/](/interview-prep/).
 
 ## FAQ
 
-**What is the fastest way to improve story bank?**
+**How many stories do I need?**
 
-Focus on one target role and build your proof set before you edit the rest.
+Aim for 6–8 that cover the most common prompts.
 
-**How do I know if this is working?**
+**What if I forget a story?**
 
-Watch the response rate from recruiters and interview conversion within 2-4 weeks.
+Use a simple outline so you can recover quickly.
 
 ## Final takeaway
 
-Treat story bank as a system: clear target, clear proof, consistent execution. That is how you get results faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

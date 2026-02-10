@@ -15,54 +15,49 @@ categories:
   - "Interview Intelligence"
   - "Leadership Signal"
 ---
-If your profile isn’t converting recruiter searches, your LinkedIn positioning needs a tighter signal. This guide shows a clear plan to align your story with uptime and incident leadership and move faster in leadership tracks.
+If you’re targeting DevOps & SRE, LinkedIn positioning should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Hiring decisions are made on signal. The clearer and more specific your signal, the faster you move.
+LinkedIn is often your first screen. A generic profile turns high-intent views into silent skips.
 
 ## Common mistakes
 
-- Trying to cover too many goals in one version.
-- Leading with responsibilities instead of outcomes.
-- Skipping proof that matches the target level.
-- Failing to align format with the decision moment.
+- Using a headline that repeats your title.
+- Missing role-level keywords for your target roles.
+- Describing work without outcomes.
+- Leaving the About section vague or empty.
 
-## 5-step plan
+## The fix
 
-1. Define the exact target role and level you want in leadership tracks.
-2. Select 2-3 outcomes that show uptime and incident leadership.
-3. Draft one primary narrative that connects scope, impact, and decisions.
-4. Build supporting proof (metrics, before/after, and constraints).
-5. Test the story in real conversations and refine weekly.
+1. Write a headline that combines role + impact + domain.
+2. Update About to state target role, scope, and outcomes.
+3. Add 3–5 bullets with measurable results in Experience.
+4. Align keywords with the roles you want recruiters to find you for.
 
-## Proof to gather
+## Proof hiring teams look for
 
-- 2 metrics that show impact.
-- 1 scope statement that shows level.
-- 1 decision you owned and its result.
+- A headline that maps to the target role.
+- 2–3 quantified outcomes in Experience.
+- A short About section that states level and scope.
 
-## Metrics to track
+## Context for leadership tracks
 
-- Recruiter response rate
-- Interview conversion rate
-- Offer rate per process
-- Time-to-offer
+Focus on the expectations that matter most in leadership tracks. Tailor examples to the scope and pace that those roles demand.
+## Next step
 
-## Internal resources
-
-- [/linkedin-optimization/](/linkedin-optimization/)
+If you want help with LinkedIn positioning, start here: [/linkedin-optimization/](/linkedin-optimization/).
 
 ## FAQ
 
-**What is the fastest way to improve LinkedIn positioning?**
+**Do keywords still matter on LinkedIn?**
 
-Clarify your target level, then rebuild your story around outcomes and decisions.
+Yes. Recruiter search filters rely on them. Use role-level terms you want to be found for.
 
-**How do I know if this is working?**
+**How often should I update LinkedIn?**
 
-Look for higher response rates and better conversion from screen to onsite in 2-4 weeks.
+Update after meaningful outcomes or role shifts; keep the top section current.
 
 ## Final takeaway
 
-Treat LinkedIn positioning as a system: target, proof, narrative, and iteration. That is how you win faster.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.

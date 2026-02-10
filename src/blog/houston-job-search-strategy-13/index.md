@@ -16,81 +16,49 @@ categories:
   - "Strategic Positioning"
   - "Hidden Market Access"
 ---
-Senior hiring does not reward volume. It rewards clarity, scope, and proof. This guide focuses on improve clarity above the fold through stronger job search strategy signals.
-
-## Quick answer
-
-Use a level-aligned narrative, three quantified wins, and role-specific language. When your job search strategy shows impact at a glance, callbacks and offers rise.
+If you’re targeting tech professionals, job search strategy should make your impact obvious. This guide gives a clear plan to improve signal and decision clarity.
 
 ## Why this matters
 
-Recruiters and hiring managers scan for signal fast. If they cannot see business impact and level alignment, they move on. Strong signal reduces risk and speeds decisions.
-
-## The framework
-
-1. Define the target level and what success looks like in this role.
-2. Surface three outcomes tied to scope (e.g., 83% reliability or $X impact).
-3. Align resume, LinkedIn, and interview stories to those outcomes.
-4. Translate tools into impact statements, not task lists.
-5. Pressure-test the story with a senior peer.
-
-## Scenario and example
-
-Example: "Reduced onboarding time by 31% and cut critical errors by 6x" is far stronger than "improved onboarding." That single line creates immediate job search strategy signal.
-
-## Houston-specific guidance
-
-Houston hiring often values domain context and local proof. If you target fintech or enterprise teams, show how your work maps to local business outcomes. Make it explicit that you are seeking career coaching in Houston or tech career coaching in Houston so the intent is unmistakable.
-
-## Pros and cons
-
-Pros:
-- Faster decisions when scope and impact are explicit.
-- Higher conversion from readers who see proof, not just promises.
-- More referrals from clear outcomes and repeatable frameworks.
-
-Cons:
-- Requires disciplined documentation of outcomes.
-- Takes consistent updates to keep proof current.
-- Demands a tighter narrative across resume, LinkedIn, and interviews.
-
-## Metrics to track
-
-- Time from first contact to interview loop
-- Callback rate from target roles
-- Offer rate per interview loop
-- Average comp uplift after negotiation
+A repeatable system beats random applications. Strategy creates momentum.
 
 ## Common mistakes
 
-- Leading with tools instead of outcomes.
-- Hiding the strongest wins below the fold.
-- Using a title that signals a lower level than you want.
+- Applying broadly without targeting.
+- Not tracking responses or pipeline stages.
+- Ignoring warm introductions and referrals.
+- Letting outreach and prep drift.
 
-## Action checklist
+## The fix
 
-- [ ] Three measurable wins above the fold.
-- [ ] Six or more metrics on page one.
-- [ ] Target role clearly stated.
-- [ ] Interview stories aligned to outcomes.
+1. Build a focused target list of companies and roles.
+2. Create weekly outreach and follow-up targets.
+3. Prepare role-specific stories before interviews.
+4. Review pipeline metrics weekly and iterate.
 
-## What to look for in proof
+## Proof hiring teams look for
 
-- A specific role and level (not generic titles).
-- A clear before/after shift in signal or results.
-- Timelines and scope of work so you can benchmark fit.
-- Examples tied to your function (engineering, product, data, or leadership).
-- Artifacts you can review (resume excerpts, interview outlines, or positioning notes).
+- A target list with 20–30 roles.
+- Weekly outreach log.
+- Interview readiness checklist.
 
-## Questions to ask on the first call
+## Local signal for Houston
 
-1. What diagnostic do you run before giving advice?
-2. What will I have in 30 days if we work together?
-3. How do you tailor the plan to my level and target companies?
-4. How do you measure progress beyond “feels better”?
+Connect your outcomes to industries that hire heavily in Houston, such as energy, healthcare, logistics, and aerospace. Keep the reference natural and relevant.
+## Next step
+
+If you want help with job search strategy, start here: [/land-your-next-role/](/land-your-next-role/).
+
+## FAQ
+
+**How many roles should I target?**
+
+Start with 20–30 that match your level and focus.
+
+**What should I track?**
+
+Responses, screens, onsites, offers, and time-to-next step.
 
 ## Final takeaway
 
-Clarity beats volume. Build signal, align it across channels, and your results compound fast.
-
-If you are searching for career coaching in Houston, tech career coaching in Houston, a resume writer in Houston, or interview preparation in Houston, we can help you move faster with clear, outcome-led positioning.
+Clarity beats volume. Focus your story, prove impact, and iterate until the signal is obvious.
