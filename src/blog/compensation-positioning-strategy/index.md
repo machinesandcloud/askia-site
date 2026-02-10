@@ -7,7 +7,7 @@ author: "Steve Ngoumnai"
 publishDate: "February 8, 2026"
 publishDateISO: "2026-02-08"
 updatedDateISO: "2026-02-08"
-readTime: "12 min read"
+readTime: "6 min read"
 featured: false
 featuredImage: "/assets/blog/comp-position.jpg"
 imageAlt: "A handshake between two professionals." 
@@ -22,89 +22,137 @@ faq:
   - q: "How do I negotiate if the recruiter says comp is fixed?"
     a: "Trade across base, equity, sign‑on, and refreshers—most flexibility lives there."
 ---
-If you want $280K+ comp, you need a defensible value narrative. Not just “I have 10 years.” You need **impact translation**: show how your work directly affects revenue, cost, or risk.
+If you are a tech professional, you already know the work is hard. The challenge is making the signal clear.
 
-This is what hiring teams and recruiters are looking for. It’s not ego—it’s justification.
+I will walk you through a simple, repeatable approach that works at senior levels.
 
-## Quick answer
+## Short answer
 
-To justify a high salary in tech, translate your work into business outcomes. Show scope, impact metrics, and the cost of not having your expertise. Then anchor your ask to the role’s expected value.
+The short answer: tighten your negotiation plan around the exact role, lead with impact, and show proof that matches the level you want. Start by clarifying the target and the top signals you must show.
 
-## The Impact Translation Model
+## Why this matters
 
-Use this structure:
+Hiring teams scan fast. The faster they understand your story, the faster you move forward.
 
-1. **What you owned** (scope)
-2. **What changed** (impact)
-3. **Why it mattered** (business outcome)
+A clear negotiation plan removes guesswork and helps the right people say yes.
 
-**Example:**
+That speed compounds. It shortens the search, improves leverage, and makes the process less exhausting.
 
-- Owned: reliability of payments platform
-- Changed: reduced incident time by 41%
-- Mattered: avoided $1.8M in annual chargebacks
+## What strong signal looks like
 
-That’s a comp defense.
+Strong signal is simple, specific, and easy to verify. Look for these cues:
 
-## The 3 proof buckets
+- clear market data and ranges
+- value story tied to outcomes
+- confident, calm communication
+- well-timed asks
 
-Hiring managers want at least one of these:
+If any of these are missing, the story usually feels vague or junior.
 
-- **Revenue impact** (new revenue, upsell, expansion)
-- **Cost reduction** (infra savings, efficiency)
-- **Risk reduction** (stability, security, compliance)
+## Common mistakes
 
-If you have two, your leverage is strong. If you have all three, your leverage is premium.
+- Negotiating without data. Bring comps and role-level ranges. This usually reads as junior even when the work is senior.
+- Apologizing for the ask. Use direct, respectful language. It slows down decision-making because the signal is unclear.
+- Moving too fast. Let offers and timelines work for you. Recruiters often skip past this when scanning quickly.
+- Focusing only on base. Look at equity, bonus, and scope. It hides impact behind busy details.
 
-## The narrative framework
+## Role-specific nuance
 
-When asked “What are your comp expectations?” respond with:
+For tech professionals, the bar is not just execution. It is how you explain decisions to cross-functional partners.
 
-1. **Excitement**
-2. **Scope alignment**
-3. **Range with justification**
+When you connect your offer negotiation to cross-team impact, the story lands faster and feels more senior.
 
-Example:
+## Deeper context
 
-> “I’m excited about the scope here. Given the platform ownership and the impact I’ve driven in similar roles, I’m targeting total comp in the $280K–$320K range.”
+In practice, tech professionals often describe the work as tasks because that is how it was assigned. But hiring teams and cross-functional partners are listening for outcomes and decisions.
 
-## Case study: $245K → $295K
+Translate the work into impact and scope, and your offer negotiation becomes a clear signal rather than a summary. That is what turns interest into real conversations.
 
-A candidate was offered $245K. We built a stronger value narrative:
+A good test: can a recruiter summarize your story in one sentence after a 10-second scan? If not, simplify and refocus.
 
-- Quantified reliability impact: 99.95% → 99.99%
-- Converted to business impact: $2.2M annual cost avoidance
-- Positioned as a platform leader
+## The coach's framework
 
-Result: $295K total comp without a competing offer.
+1. Prepare the case
+   - Collect comp data and impact stories.
+   - Use metrics where you can to make it concrete.
+2. Set the anchor
+   - Name a range that reflects your value.
+   - Cut anything that does not support the story.
+3. Ask clearly
+   - State the number and the reason.
+   - Keep the reader focused on outcomes, not tasks.
+4. Hold the line
+   - Use silence and clarify trade-offs.
+   - Validate with a fast read before you move on.
+5. Confirm in writing
+   - Document the final package.
+   - Tie this step back to the target level.
 
-## The comp defense checklist
+## Coach's note
 
-- [ ] 3 quantified outcomes
-- [ ] 1 cross‑team initiative
-- [ ] 1 risk reduction story
-- [ ] Clear range tied to scope
-- [ ] Confidence without arrogance
+Coach's note: the biggest mistake I see tech professionals make is trying to fix everything at once. Pick one signal tied to offer negotiation and tighten it first.
 
-## The script that closes gaps
+Test that change for two weeks, look at the results, then decide the next move. This keeps your process calm, measurable, and repeatable.
 
-> “If base is capped, I’d love to explore sign‑on or equity to align with the impact I’m expected to deliver.”
+## Practical execution this week
 
-## What to look for in proof
+- Block 60 minutes to work on your negotiation plan without distractions.
+- Write a one-sentence summary of the outcome you want to be known for.
+- Test your message with a peer and ask what they heard.
+- Track response or performance metrics for two weeks and adjust one thing at a time.
+- Save your strongest proof to reuse across resume, LinkedIn, and interviews.
 
-- A specific role and level (not generic titles).
-- A clear before/after shift in signal or results.
-- Timelines and scope of work so you can benchmark fit.
-- Examples tied to your function (engineering, product, data, or leadership).
-- Artifacts you can review (resume excerpts, interview outlines, or positioning notes).
+## How to measure progress
 
-## Questions to ask on the first call
+- Delta between initial and final offer.
+- Number of levers improved (base, equity, bonus).
+- Time from initial offer to signed offer.
+- Strength of narrative used in negotiation emails.
 
-1. What diagnostic do you run before giving advice?
-2. What will I have in 30 days if we work together?
-3. How do you tailor the plan to my level and target companies?
-4. How do you measure progress beyond “feels better”?
+## If you are stuck
+
+- Simplify the message to one sentence and rebuild from there.
+- Collect two real outcomes with metrics and anchor the story there.
+- Run one mock or feedback session and adjust immediately.
+
+## Proof checklist
+
+- A clear target role and level.
+- Three outcomes with metrics and scope.
+- One leadership or ownership example.
+- A CTA that matches the topic.
+- Consistent story across resume, LinkedIn, and interviews.
+
+## Example
+
+Example: A tech professional anchors with a researched range, ties it to outcomes, and asks for a clear adjustment. The conversation stays calm and productive.
+
+## How to talk about it
+
+When you talk about offer negotiation, keep the language concrete and outcome-based.
+
+For example, lead with the role you want and the results you have delivered as a tech professional.
+
+People searching for offer negotiation respond best to specific proof, not generic claims. The same is true for salary negotiation.
+
+## Next step
+
+If you want help with this, start here: [/salary-negotiation/](/salary-negotiation/).
+
+## FAQ
+
+**Is it okay to negotiate?**
+
+Yes, most companies expect it at senior levels.
+
+**How much is reasonable?**
+
+It depends on level, scope, and market data.
+
+**What if they say no?**
+
+Ask about other levers like title, scope, or bonus.
 
 ## Final takeaway
 
-You’re not asking for more money. You’re aligning comp to the value you deliver. Build the narrative, and the numbers follow.
+When your message is clear and your proof is strong, the right roles move faster.
