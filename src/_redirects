@@ -106,6 +106,24 @@ https://www.askia.tech/* https://askia.tech/:splat 301!
 /mastering-the-tech-job-market-in-2024-a-playbook-for-success/ /resources/ 301
 /txets.php / 410
 
+# Additional legacy slugs seen in 404 logs (including malformed tel: suffixes)
+/sunday-night-test-toxic-workplace-signs/ /resources/ 301
+/sunday-night-test-toxic-workplace-signs/tel:* /resources/ 301
+/write-effective-resume-bullets/ /resume-writing/ 301
+/write-effective-resume-bullets/tel:* /resume-writing/ 301
+/tech-interview-resume-success/ /resume-writing/ 301
+/tech-interview-resume-success/tel:* /resume-writing/ 301
+/demonstrate-genuine-passion-technical-interviews/tel:* /interview-prep/ 301
+/impact-over-status-leadership-framework/tel:* /executive-coaching/ 301
+/hidden-signs-healthy-workplace-culture/tel:* /resources/ 301
+/strategic-guide-leaving-toxic-workplace-professional-roadmap/tel:* /resources/ 301
+/resume-career-documents/ /resume-writing/ 301
+/abundance-mindset-career-success/ /resources/ 301
+/2024/12/tel:* /resources/ 301
+/cms/wp-includes/wlwmanifest.xml / 410
+/web/wp-includes/wlwmanifest.xml / 410
+/2019/wp-includes/wlwmanifest.xml / 410
+
 # Retired enterprise subdomain → main site
 http://enterprise.askia.tech/* https://askia.tech/ 301!
 https://enterprise.askia.tech/* https://askia.tech/ 301!
