@@ -18,9 +18,9 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addTransform("stripHallucinatedSections", (content, outputPath) => {
     if (!outputPath || !outputPath.endsWith(".html")) return content;
-    return content
-      .replace(/<h2>Visibility signals that convert<\\/h2>\\s*<p>[\\s\\S]*?<\\/p>/gi, "")
-      .replace(/<h2>Offline trust builders<\\/h2>\\s*<p>[\\s\\S]*?<\\/p>/gi, "");
+    const visibilityRe = new RegExp("<h2>Visibility signals that convert<\\\\/h2>\\\\s*<p>[\\\\s\\\\S]*?<\\\\/p>", "gi");
+    const offlineRe = new RegExp("<h2>Offline trust builders<\\\\/h2>\\\\s*<p>[\\\\s\\\\S]*?<\\\\/p>", "gi");
+    return content.replace(visibilityRe, "").replace(offlineRe, "");
   });
 
   return {
