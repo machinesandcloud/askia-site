@@ -124,6 +124,19 @@ https://www.askia.tech/* https://askia.tech/:splat 301!
 /web/wp-includes/wlwmanifest.xml / 410
 /2019/wp-includes/wlwmanifest.xml / 410
 
+# Additional 404s from latest logs
+/.git/* / 410
+/.env.save / 410
+/test.php / 410
+/debugbar/ / 410
+/aws.config.js / 410
+/.aws/* / 410
+/.well-known/assetlinks.json / 410
+/%22/.netlify/scripts/rum%22 / 410
+/wp-config.php / 410
+/strategic-guide-leaving-toxic-job/ /resources/ 301
+/services/tel:* /services/ 301
+
 # Retired enterprise subdomain → main site
 http://enterprise.askia.tech/* https://askia.tech/ 301!
 https://enterprise.askia.tech/* https://askia.tech/ 301!
