@@ -137,6 +137,43 @@ https://www.askia.tech/* https://askia.tech/:splat 301!
 /strategic-guide-leaving-toxic-job/ /resources/ 301
 /services/tel:* /services/ 301
 
+# Contact and booking intent (send to strategy call)
+/get-in-touch https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/get-in-touch/ https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/get-in-touch/tel:* https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/contact https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/contact/ https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/contact/tel:* https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/contact-us https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/contact-us/ https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/contact-us/tel:* https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/contactus https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/contactus/ https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/contactus/tel:* https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/contact_us https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/contact_us/ https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/contact_us/tel:* https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/career-coaching-partnership-portal/ https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+/career-coaching-partnership-portal/tel:* https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
+
+# New resource + guide slugs from 404 logs
+/navigating-your-career-path-ebook/ /resources/ 301
+/navigating-your-career-path-ebook/tel:* /resources/ 301
+/outgrowing-your-role-transition-guide/ /resources/ 301
+/outgrowing-your-role-transition-guide/tel:* /resources/ 301
+/why-great-talent-leaves-toxic-workplace-analysis/tel:* /resources/ 301
+/professional-development-growth/tel:* /resources/ 301
+/resources/tel:* /resources/ 301
+/strategic-career-navigation/tel:* /resources/ 301
+/impact-over-status-leadership-framework /executive-coaching/ 301
+/impact-over-status-leadership-framework/ /executive-coaching/ 301
+/software-engineer-interview-preparation-guide/ /interview-prep/ 301
+/software-engineer-interview-preparation-guide/tel:* /interview-prep/ 301
+/coaching-services-for-your-career/tel:* /services/ 301
+/2024/12/ /resources/ 301
+/2025/01/ /resources/ 301
+/2025/01/page/* /resources/ 301
+
 # Retired enterprise subdomain → main site
 http://enterprise.askia.tech/* https://askia.tech/ 301!
 https://enterprise.askia.tech/* https://askia.tech/ 301!
