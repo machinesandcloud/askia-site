@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /wp-json/
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /xmlrpc.php
+Disallow: /.git/
+Disallow: /.env
+Disallow: /admin/
+Disallow: /cgi-bin/
 
 Sitemap: https://askia.tech/sitemap.xml

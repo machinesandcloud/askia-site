@@ -5,6 +5,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
   eleventyConfig.addPassthroughCopy({ "src/apple-touch-icon.png": "apple-touch-icon.png" });
   eleventyConfig.addPassthroughCopy({ "src/apple-touch-icon-precomposed.png": "apple-touch-icon-precomposed.png" });
+  eleventyConfig.addPassthroughCopy({ "src/.well-known": ".well-known" });
 
   eleventyConfig.addFilter("repeat", (value, times) => {
     return new Array(times).fill(value).join("");

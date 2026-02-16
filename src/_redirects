@@ -136,6 +136,24 @@ https://www.askia.tech/* https://askia.tech/:splat 301!
 /wp-config.php / 410
 /strategic-guide-leaving-toxic-job/ /resources/ 301
 /services/tel:* /services/ 301
+/interview-excellence/ /interview-prep/ 301
+/interview-excellence /interview-prep/ 301
+/interview-excellence/tel:* /interview-prep/ 301
+/job-search/ /land-your-next-role/ 301
+/job-search /land-your-next-role/ 301
+/job-search/tel:* /land-your-next-role/ 301
+/hidden-psychology-top-performers-7-traits/tel:* /resources/ 301
+/career-psychology-mindset/tel:* /resources/ 301
+/career-life-integration/ /resources/ 301
+/career-life-integration/tel:* /resources/ 301
+/strategic-guide-leaving-toxic-job/tel:* /resources/ 301
+/2024/ /resources/ 301
+/2024/tel:* /resources/ 301
+/find-companies-that-value-employees/tel:* /resources/ 301
+/modern-salary-negotiation-guide/tel:* /salary-negotiation/ 301
+/rejection-redirection-framework/ /resources/ 301
+/rejection-redirection-framework /resources/ 301
+/.well-known/traffic-advice / 410
 
 # Contact and booking intent (send to strategy call)
 /get-in-touch https://calendly.com/ngoumnaisteve/clarity-call-with-steve 301
