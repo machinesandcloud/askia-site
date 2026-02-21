@@ -714,5 +714,14 @@
         });
       });
     </script>
+    <script>
+      window.$zoho = window.$zoho || {};
+      $zoho.salesiq = $zoho.salesiq || { ready: function () {} };
+      $zoho.salesiq.ready = function () {
+        $zoho.salesiq.floatbutton.visible("hide");
+        $zoho.salesiq.tracking.on();
+      };
+    </script>
+    <script id="zsiqscript" src="https://salesiq.zohopublic.com/widget?wc=siq29135e41693b031f9054bf47902f5149302960359bdb70b2e88993011f5c9229" defer></script>
   </body>
 </html>
