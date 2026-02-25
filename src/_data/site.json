@@ -169,52 +169,61 @@
       "url": "/services/",
       "groups": [
         {
-          "label": "Core Services",
+          "label": "Packages",
           "items": [
             {
-              "label": "Resume Writing",
-              "url": "/resume-writing/"
-            },
-            {
-              "label": "LinkedIn Optimization",
-              "url": "/linkedin-optimization/"
-            },
-            {
-              "label": "Interview Prep",
-              "url": "/interview-prep/"
-            },
-            {
-              "label": "Salary Negotiation",
-              "url": "/salary-negotiation/"
-            },
-            {
-              "label": "Executive Coaching",
-              "url": "/executive-coaching/"
+              "label": "Packages Overview",
+              "url": "/services/"
             }
           ]
         },
         {
-          "label": "Specialized",
+          "label": "Core A la carte",
           "items": [
             {
-              "label": "Cover Letter Writing",
-              "url": "/cover-letter-writing/"
+              "label": "Resume Revision",
+              "url": "/resume-writing/"
             },
             {
-              "label": "Mock Interviews",
-              "url": "/mock-interviews/"
+              "label": "LinkedIn Profile Revision",
+              "url": "/linkedin-optimization/"
             },
             {
-              "label": "Career Clarity",
+              "label": "Career Consulting",
               "url": "/career-clarity/"
+            },
+            {
+              "label": "Interview Preparation",
+              "url": "/interview-prep/"
             },
             {
               "label": "Offer Strategy",
               "url": "/offer-strategy/"
             },
             {
+              "label": "Salary Negotiation",
+              "url": "/salary-negotiation/"
+            }
+          ]
+        },
+        {
+          "label": "Add-ons",
+          "items": [
+            {
+              "label": "Mock Interviews",
+              "url": "/mock-interviews/"
+            },
+            {
+              "label": "Cover Letter Writing",
+              "url": "/cover-letter-writing/"
+            },
+            {
               "label": "ATS Audit",
               "url": "/ats-audit/"
+            },
+            {
+              "label": "Executive Coaching",
+              "url": "/executive-coaching/"
             }
           ]
         }
