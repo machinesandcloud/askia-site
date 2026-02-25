@@ -2535,11 +2535,33 @@ body.pricing-focus {
   .role-atlas-grid {
     grid-template-columns: 1fr;
   }
+
+  .role-atlas-item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .role-atlas-tag {
+    align-self: flex-start;
+  }
 }
 
 @media (max-width: 760px) {
   .services-grid-cards {
     grid-auto-columns: minmax(220px, 1fr);
+  }
+
+  .services-core-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-track-row span {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+
+  .services-outcome-card {
+    padding: 16px;
   }
 }
 
@@ -6281,7 +6303,18 @@ body.pricing-focus {
 
 @media (max-width: 680px) {
   .testimonial-grid {
-    column-count: 1;
+    column-count: unset;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(260px, 85vw);
+    gap: 16px;
+    overflow-x: auto;
+    padding-bottom: 12px;
+    scroll-snap-type: x mandatory;
+  }
+  .testimonial-card {
+    margin-bottom: 0;
+    scroll-snap-align: start;
   }
   .testimonial-breakout {
     column-span: all;
