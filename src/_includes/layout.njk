@@ -694,15 +694,11 @@
             const formData = new FormData(form);
             const zohoEndpoint =
               "https://forms.zohopublic.com/askiacareercoaching/form/EmailSubscription/formperma/cBXsJmQv2DE_EhdC_-0DPNAUZjTVp02YMSloAcFS5ko/htmlRecords/submit";
-            const zohoFormName = "EmailSubscription";
-            const zohoFormPerma = "cBXsJmQv2DE_EhdC_-0DPNAUZjTVp02YMSloAcFS5ko";
             const fullName = String(formData.get("name") || "").trim();
             const nameParts = fullName.split(/\s+/).filter(Boolean);
             const firstName = nameParts.shift() || "";
             const lastName = nameParts.join(" ");
             const zohoPayload = {
-              formName: zohoFormName,
-              formPerma: zohoFormPerma,
               Name_First: firstName,
               Name_Last: lastName,
               Email: String(formData.get("email") || ""),
