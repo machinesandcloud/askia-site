@@ -27,6 +27,10 @@ body.assessment-focus {
   overflow: hidden;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -2142,6 +2146,133 @@ a {
   background: #ffffff;
   color: rgba(13, 21, 32, 0.7);
   cursor: pointer;
+}
+
+/* Lead capture modal */
+.lead-modal {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  z-index: 1300;
+}
+
+.lead-modal[hidden] {
+  display: none;
+}
+
+.lead-modal-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(6, 10, 16, 0.72);
+  backdrop-filter: blur(6px);
+}
+
+.lead-modal-card {
+  position: relative;
+  width: min(920px, 92vw);
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background:
+    radial-gradient(circle at 10% 10%, rgba(114, 214, 255, 0.14), transparent 45%),
+    linear-gradient(140deg, rgba(10, 16, 24, 0.96), rgba(8, 12, 18, 0.88));
+  box-shadow: 0 35px 70px rgba(7, 10, 15, 0.45);
+  overflow: hidden;
+  animation: modalIn 0.5s ease;
+  z-index: 1;
+}
+
+.lead-modal-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(8, 12, 18, 0.9);
+  color: #e9f2ff;
+  cursor: pointer;
+}
+
+.lead-modal-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr);
+  gap: 24px;
+  padding: 34px;
+  align-items: center;
+}
+
+.lead-modal-copy h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 14px;
+}
+
+.lead-modal-subtitle {
+  color: rgba(214, 226, 243, 0.85);
+  margin-bottom: 20px;
+}
+
+.lead-modal-form {
+  display: grid;
+  gap: 14px;
+}
+
+.lead-modal-form label {
+  display: grid;
+  gap: 8px;
+  color: rgba(214, 226, 243, 0.85);
+  font-size: 0.9rem;
+}
+
+.lead-modal-form input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(8, 12, 18, 0.85);
+  color: #f4f7fb;
+}
+
+.lead-modal-message {
+  min-height: 18px;
+  color: rgba(164, 232, 255, 0.9);
+}
+
+.lead-modal-media {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(7, 10, 15, 0.45);
+}
+
+.lead-modal-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@keyframes modalIn {
+  from { transform: translateY(12px) scale(0.98); opacity: 0; }
+  to { transform: translateY(0) scale(1); opacity: 1; }
+}
+
+@media (max-width: 860px) {
+  .lead-modal-body {
+    grid-template-columns: 1fr;
+  }
+
+  .lead-modal-media {
+    order: -1;
+    max-height: 220px;
+  }
+}
+
+@media (max-width: 640px) {
+  .lead-modal-body {
+    padding: 24px;
+  }
 }
 
 body.pricing-focus {

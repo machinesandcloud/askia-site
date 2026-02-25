@@ -125,6 +125,35 @@
       </div>
     </footer>
 
+    <div class="lead-modal" data-lead-modal hidden>
+      <div class="lead-modal-overlay" data-lead-modal-close></div>
+      <div class="lead-modal-card" role="dialog" aria-modal="true" aria-labelledby="lead-modal-title">
+        <button class="lead-modal-close" type="button" data-lead-modal-close aria-label="Close">✕</button>
+        <div class="lead-modal-body">
+          <div class="lead-modal-copy">
+            <p class="hero-eyebrow">Free Toolkit</p>
+            <h2 id="lead-modal-title">Want our FREE Resume Review Toolkit?</h2>
+            <p class="lead-modal-subtitle">Enter your email and we’ll send it instantly.</p>
+            <form class="lead-modal-form" data-lead-modal-form>
+              <label>
+                Full name
+                <input type="text" name="name" placeholder="Your name" autocomplete="name" />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="you@company.com" autocomplete="email" required />
+              </label>
+              <button class="btn btn-primary" type="submit">Send me the toolkit</button>
+              <p class="lead-modal-message" data-lead-modal-message></p>
+            </form>
+          </div>
+          <div class="lead-modal-media" aria-hidden="true">
+            <img src="/assets/hero/askia-hero-2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -473,6 +502,87 @@
               { threshold: 0.2 }
             );
             revealItems.forEach((item) => observer.observe(item));
+          }
+        }
+
+        const leadModal = document.querySelector("[data-lead-modal]");
+        if (leadModal) {
+          const closeButtons = leadModal.querySelectorAll("[data-lead-modal-close]");
+          const form = leadModal.querySelector("[data-lead-modal-form]");
+          const message = leadModal.querySelector("[data-lead-modal-message]");
+          const storageKey = "askia_lead_modal_dismissed";
+
+          const openModal = () => {
+            leadModal.hidden = false;
+            document.body.classList.add("modal-open");
+          };
+
+          const closeModal = () => {
+            leadModal.hidden = true;
+            document.body.classList.remove("modal-open");
+            localStorage.setItem(storageKey, "1");
+          };
+
+          if (!localStorage.getItem(storageKey)) {
+            setTimeout(openModal, 4200);
+          }
+
+          closeButtons.forEach((btn) => btn.addEventListener("click", closeModal));
+
+          if (form) {
+            form.addEventListener("submit", (event) => {
+              event.preventDefault();
+              if (message) message.textContent = "Sending…";
+              const formData = new FormData(form);
+              const name = (formData.get("name") || "").toString().trim();
+              const email = (formData.get("email") || "").toString().trim();
+              if (!email) {
+                if (message) message.textContent = "Please enter your email.";
+                return;
+              }
+
+              const zohoEndpoint =
+                "https://forms.zohopublic.com/askiacareercoaching/form/EmailSubscription/formperma/cBXsJmQv2DE_EhdC_-0DPNAUZjTVp02YMSloAcFS5ko/htmlRecords/submit";
+
+              const zohoPayload = {
+                "Name_First": name.split(" ")[0] || "Visitor",
+                "Name_Last": name.split(" ").slice(1).join(" ") || "Lead",
+                "Email": email
+              };
+
+              const submitZoho = () => {
+                const zohoForm = document.createElement("form");
+                zohoForm.method = "POST";
+                zohoForm.action = zohoEndpoint;
+                zohoForm.style.display = "none";
+                const iframeName = "zohoLeadTarget";
+                let iframe = document.querySelector(`iframe[name="${iframeName}"]`);
+                if (!iframe) {
+                  iframe = document.createElement("iframe");
+                  iframe.name = iframeName;
+                  iframe.style.display = "none";
+                  document.body.appendChild(iframe);
+                }
+                zohoForm.target = iframeName;
+                Object.entries(zohoPayload).forEach(([key, value]) => {
+                  const input = document.createElement("input");
+                  input.type = "hidden";
+                  input.name = key;
+                  input.value = value || "";
+                  zohoForm.appendChild(input);
+                });
+                document.body.appendChild(zohoForm);
+                zohoForm.submit();
+                setTimeout(() => {
+                  zohoForm.remove();
+                }, 1000);
+              };
+
+              submitZoho();
+              if (message) message.textContent = "Success! Check your inbox.";
+              form.reset();
+              setTimeout(closeModal, 1400);
+            });
           }
         }
 
