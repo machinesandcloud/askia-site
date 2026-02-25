@@ -134,7 +134,16 @@
           "telephone": "{{ site.contact.phone }}",
           "contactType": "sales",
           "email": "{{ site.contact.email }}"
-        }
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "{{ site.contact.streetAddress }}",
+          "addressLocality": "{{ site.contact.addressLocality }}",
+          "addressRegion": "{{ site.contact.addressRegion }}",
+          "postalCode": "{{ site.contact.postalCode }}",
+          "addressCountry": "{{ site.contact.addressCountry }}"
+        },
+        "areaServed": "United States"
       }
     </script>
     <script type="application/ld+json">
