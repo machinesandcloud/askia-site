@@ -2377,6 +2377,99 @@ body.pricing-focus {
   font-size: 0.7rem;
 }
 
+/* Role atlas (role tracks section) */
+.role-atlas {
+  display: grid;
+  gap: 24px;
+}
+
+.role-atlas-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.45fr) minmax(0, 0.55fr);
+  gap: 24px;
+}
+
+.role-atlas-card {
+  padding: 24px;
+  border-radius: 26px;
+  border: 1px solid rgba(114, 214, 255, 0.16);
+  background:
+    radial-gradient(circle at 10% 10%, rgba(114, 214, 255, 0.2), transparent 40%),
+    radial-gradient(circle at 80% 20%, rgba(255, 214, 133, 0.16), transparent 42%),
+    linear-gradient(160deg, rgba(12, 18, 26, 0.98), rgba(7, 10, 15, 0.8));
+  box-shadow: 0 26px 60px rgba(5, 8, 14, 0.45);
+  position: relative;
+  overflow: hidden;
+}
+
+.role-atlas-kicker {
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(114, 214, 255, 0.8);
+}
+
+.role-atlas-orbit {
+  display: flex;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.role-atlas-orbit span {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(114, 214, 255, 0.7);
+  animation: orbitPulse 2.4s ease infinite;
+}
+
+.role-atlas-orbit span:nth-child(2) { animation-delay: 0.4s; }
+.role-atlas-orbit span:nth-child(3) { animation-delay: 0.8s; }
+.role-atlas-orbit span:nth-child(4) { animation-delay: 1.2s; }
+
+.role-atlas-list {
+  display: grid;
+  gap: 12px;
+}
+
+.role-atlas-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(10, 16, 24, 0.7);
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.role-atlas-item strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.role-atlas-item span {
+  color: rgba(214, 226, 243, 0.78);
+  font-size: 0.95rem;
+}
+
+.role-atlas-item:hover {
+  transform: translateY(-4px);
+  border-color: rgba(114, 214, 255, 0.35);
+  box-shadow: 0 18px 40px rgba(7, 10, 15, 0.35);
+}
+
+.role-atlas-tag {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(114, 214, 255, 0.18);
+  color: rgba(210, 236, 255, 0.9);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 /* Stacked card layout for deliverables + samples */
 .stacked-list {
   display: grid;
@@ -2437,6 +2530,10 @@ body.pricing-focus {
     position: static;
     top: auto;
     box-shadow: none;
+  }
+
+  .role-atlas-grid {
+    grid-template-columns: 1fr;
   }
 }
 
