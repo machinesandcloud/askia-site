@@ -1,4 +1,4 @@
-<section class="section industries-band">
+<section class="section section-tight industries-band">
   <div class="container">
     <div class="band-shell">
       <div class="band-rail">
@@ -12,7 +12,7 @@
       <div class="band-body">
         <div class="industry-grid">
           {% for item in industries.items %}
-          <a class="industry-card" href="/industries/{{ item.slug }}/">
+          <a class="industry-card reveal-item" href="/industries/{{ item.slug }}/">
             <div class="industry-card-header">
               <span class="industry-dot"></span>
               <strong>{{ item.label }}</strong>
