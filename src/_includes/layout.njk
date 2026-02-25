@@ -693,7 +693,7 @@
             if (submitMessage) submitMessage.textContent = "Sending...";
             const formData = new FormData(form);
             const zohoEndpoint =
-              "https://forms.zohopublic.com/askiacareercoaching/form/EmailSubscription/formperma/XOr27__CMBFvi0xWTTr_c2_D7RsJqTh_71SQajXbm1I/htmlRecords/submit";
+              "https://forms.askia.tech/askiacareercoaching/form/EmailSubscription/formperma/XOr27__CMBFvi0xWTTr_c2_D7RsJqTh_71SQajXbm1I/htmlRecords/submit";
             const zohoFormName = "EmailSubscription";
             const zohoFormPerma = "XOr27__CMBFvi0xWTTr_c2_D7RsJqTh_71SQajXbm1I";
             const fullName = String(formData.get("name") || "").trim();
@@ -706,8 +706,11 @@
               formType: "0",
               isPaymentForm: "false",
               isDocsPublicForm: "false",
+              date_format: "dd-MMM-yyyy",
+              resizeform: "0",
               Name: [firstName, lastName].filter(Boolean),
               Email: String(formData.get("email") || ""),
+              referrerName: document.referrer || window.location.href,
               zf_referrer_name: document.referrer || window.location.href,
               zf_redirect_url: "",
               zc_gad: ""
