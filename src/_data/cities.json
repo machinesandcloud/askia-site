@@ -301,6 +301,96 @@
       "state": "NY",
       "slug": "rochester-career-coaching",
       "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Colorado Springs",
+      "state": "CO",
+      "slug": "colorado-springs-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Boise",
+      "state": "ID",
+      "slug": "boise-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Reno",
+      "state": "NV",
+      "slug": "reno-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Albany",
+      "state": "NY",
+      "slug": "albany-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Omaha",
+      "state": "NE",
+      "slug": "omaha-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Grand Rapids",
+      "state": "MI",
+      "slug": "grand-rapids-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Harrisburg",
+      "state": "PA",
+      "slug": "harrisburg-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Portland",
+      "state": "ME",
+      "slug": "portland-me-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Myrtle Beach",
+      "state": "SC",
+      "slug": "myrtle-beach-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Wilmington",
+      "state": "NC",
+      "slug": "wilmington-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Greenville\u2013Spartanburg\u2013Anderson",
+      "state": "SC",
+      "slug": "greenville-spartanburg-anderson-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Fayetteville",
+      "state": "AR",
+      "slug": "fayetteville-ar-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Fort Wayne",
+      "state": "IN",
+      "slug": "fort-wayne-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Pensacola",
+      "state": "FL",
+      "slug": "pensacola-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Columbia",
+      "state": "SC",
+      "slug": "columbia-sc-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
     }
   ]
 }

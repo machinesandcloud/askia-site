@@ -1,0 +1,151 @@
+---
+layout: layout.njk
+title: Harrisburg Career Coaching
+metaTitle: "Career Coaching in Harrisburg | Askia"
+metaDescription: "Career coaching in Harrisburg for high-performing professionals across all industries targeting $100K–$350K roles."
+schemaType: "Service"
+schemaName: "Career coaching in Harrisburg"
+schemaDescription: "Career coaching for professionals in Harrisburg targeting $100K–$350K roles across tech, business, and healthcare."
+schemaServiceType: "Career coaching"
+breadcrumbs:
+  - name: "Home"
+    url: "/"
+  - name: "Locations"
+    url: "/locations/"
+  - name: "Harrisburg"
+    url: "/harrisburg-career-coaching/"
+---
+<section class="section">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="hero-eyebrow">Local + Remote Coaching</p>
+      <h1 class="hero-title section-title-glow">Career coaching for Harrisburg</h1>
+      <p class="hero-subtitle">Book a call to build a focused plan for your target role, level, and market.</p>
+      <p class="hero-support">We serve professionals across all industries and role tracks, from IC to leadership.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+        <a class="btn btn-ghost" href="/land-your-next-role/">Explore role tracks</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <strong>What we focus on</strong>
+      <ul>
+        <li>Role targeting and scope clarity</li>
+        <li>Resume + LinkedIn positioning</li>
+        <li>Interview and offer strategy</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container faq-stage">
+    <div class="faq-header">
+      <h2 class="section-title section-title-glow">Harrisburg coaching FAQs</h2>
+      <p class="section-subtitle">Answers for professionals targeting senior roles in Harrisburg.</p>
+    </div>
+    <div class="faq-grid">
+      <details class="faq-card">
+        <summary>Do you work with all industries in Harrisburg?</summary>
+        <p>Yes. We support professionals across tech, finance, operations, healthcare, sales, marketing, and leadership roles.</p>
+      </details>
+      <details class="faq-card">
+        <summary>Is coaching remote or in person?</summary>
+        <p>We work remotely and tailor the plan to the hiring market in Harrisburg.</p>
+      </details>
+      <details class="faq-card">
+        <summary>What roles do you support in Harrisburg?</summary>
+        <p>We support every role track listed on the site, from IC to leadership.</p>
+      </details>
+      <details class="faq-card">
+        <summary>How do I get started?</summary>
+        <p>Book a call and we will map the fastest path to your target role.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container cta-band">
+    <div>
+      <h2 class="section-title">Ready to target your next role in Harrisburg?</h2>
+      <p class="section-subtitle">Book a call and we’ll map the fastest path to your next offer.</p>
+    </div>
+    <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+  </div>
+</section>
+
+{% include "role-directory.njk" %}
+{% include "locations-band.njk" %}
+{% include "industries-band.njk" %}
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}{{ page.url }}",
+    "telephone": "{{ site.contact.phone }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ site.contact.streetAddress }}",
+      "addressLocality": "{{ site.contact.addressLocality }}",
+      "addressRegion": "{{ site.contact.addressRegion }}",
+      "postalCode": "{{ site.contact.postalCode }}",
+      "addressCountry": "{{ site.contact.addressCountry }}"
+    },
+    "areaServed": [{"@type":"Place","name":"Harrisburg"}],
+    "serviceArea": ["Harrisburg", "United States"],
+    "serviceType": "Career coaching",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    ],
+    "description": "Career coaching in Harrisburg for professionals targeting $100K–$350K roles across all industries."
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do you work with all industries in Harrisburg?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We support professionals across tech, finance, operations, healthcare, sales, marketing, and leadership roles."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is coaching remote or in person?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We work remotely and tailor the plan to the hiring market in Harrisburg."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What roles do you support in Harrisburg?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We support every role track listed on the site, from IC to leadership."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I get started?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Book a call and we will map the fastest path to your target role."
+        }
+      }
+    ]
+  }
+</script>
