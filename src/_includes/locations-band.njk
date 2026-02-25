@@ -1,21 +1,28 @@
 <section class="section location-band">
   <div class="container">
-    <div class="pillar-header">
-      <p class="hero-eyebrow">Markets</p>
-      <h2 class="section-title section-title-glow">{{ locations.title }}</h2>
-      {% if locations.subtitle %}<p class="section-subtitle">{{ locations.subtitle }}</p>{% endif %}
-    </div>
-    <div class="location-grid">
-      {% for item in locations.items %}
-      <div class="location-card">
-        <strong>{{ item.label }}</strong>
-        <span>{{ item.note }}</span>
+    <div class="band-shell">
+      <div class="band-rail">
+        <p class="hero-eyebrow">Markets</p>
+        <h2 class="section-title section-title-glow">{{ locations.title }}</h2>
+        {% if locations.subtitle %}<p class="section-subtitle">{{ locations.subtitle }}</p>{% endif %}
+        {% if locations.remoteLine %}<p class="location-remote">{{ locations.remoteLine }}</p>{% endif %}
+        <div class="band-rail-cta">
+          <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+        </div>
       </div>
-      {% endfor %}
-    </div>
-    {% if locations.remoteLine %}<p class="location-remote">{{ locations.remoteLine }}</p>{% endif %}
-    <div class="location-cta">
-      <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+      <div class="band-body">
+        <div class="location-grid">
+          {% for item in locations.items %}
+          <div class="location-card">
+            <div class="location-card-header">
+              <span class="location-dot"></span>
+              <strong>{{ item.label }}</strong>
+            </div>
+            <span>{{ item.note }}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
     </div>
   </div>
 </section>

@@ -1,20 +1,27 @@
 <section class="section industries-band">
   <div class="container">
-    <div class="pillar-header">
-      <p class="hero-eyebrow">Industries</p>
-      <h2 class="section-title section-title-glow">{{ industries.title }}</h2>
-      {% if industries.subtitle %}<p class="section-subtitle">{{ industries.subtitle }}</p>{% endif %}
-    </div>
-    <div class="industry-grid">
-      {% for item in industries.items %}
-      <a class="industry-card" href="/industries/{{ item.slug }}/">
-        <strong>{{ item.label }}</strong>
-        <span>{{ item.note }}</span>
-      </a>
-      {% endfor %}
-    </div>
-    <div class="industry-cta">
-      <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+    <div class="band-shell">
+      <div class="band-rail">
+        <p class="hero-eyebrow">Industries</p>
+        <h2 class="section-title section-title-glow">{{ industries.title }}</h2>
+        {% if industries.subtitle %}<p class="section-subtitle">{{ industries.subtitle }}</p>{% endif %}
+        <div class="band-rail-cta">
+          <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+        </div>
+      </div>
+      <div class="band-body">
+        <div class="industry-grid">
+          {% for item in industries.items %}
+          <a class="industry-card" href="/industries/{{ item.slug }}/">
+            <div class="industry-card-header">
+              <span class="industry-dot"></span>
+              <strong>{{ item.label }}</strong>
+            </div>
+            <span>{{ item.note }}</span>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
     </div>
   </div>
 </section>
