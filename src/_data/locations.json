@@ -1,0 +1,13 @@
+{
+  "title": "Serving Houston + top U.S. markets",
+  "subtitle": "We work across all industries with professionals targeting $100K–$350K roles. Book a call and we’ll tailor the plan to your market.",
+  "remoteLine": "Remote, nationwide support available.",
+  "items": [
+    { "label": "Houston", "note": "Energy, healthcare, operations, and growth roles" },
+    { "label": "New York City", "note": "Finance, strategy, media, and leadership" },
+    { "label": "San Francisco Bay Area", "note": "Tech, product, and leadership tracks" },
+    { "label": "Los Angeles", "note": "Entertainment, marketing, and operations" },
+    { "label": "Chicago", "note": "Finance, consulting, and enterprise ops" },
+    { "label": "Dallas–Fort Worth", "note": "Operations, healthcare, and corporate roles" }
+  ]
+}

@@ -1,8 +1,8 @@
 ---
 layout: layout.njk
 title: Career Intelligence Library
-metaTitle: "Tech Career Intelligence Blog | Askia"
-metaDescription: "Tech career insights on positioning, interviews, and compensation. Built for high performers targeting $100K–$350K roles."
+metaTitle: "Career Intelligence Blog for $100K–$350K Roles | Askia"
+metaDescription: "Career insights on positioning, interviews, and compensation across tech, business, and healthcare. Built for high performers targeting $100K–$350K roles."
 pagination:
   data: collections.blog
   size: 10
@@ -20,8 +20,8 @@ breadcrumbs:
   <div class="container blog-hero-grid">
     <div class="blog-hero-copy">
       <p class="hero-eyebrow">Career Intelligence</p>
-      <h1 class="blog-hero-title">The Tech Career Intelligence Library</h1>
-      <p class="blog-hero-subtitle">Built for high performers. Every post answers the questions that actually decide interviews and offers.</p>
+      <h1 class="blog-hero-title">The Career Intelligence Library</h1>
+      <p class="blog-hero-subtitle">Built for high performers across all industries. Every post answers the questions that actually decide interviews and offers.</p>
       <div class="blog-hero-actions">
         <a class="btn btn-primary" href="{{ site.cta.link }}">Book Your Strategy Call</a>
         <a class="btn btn-ghost" href="https://askia.tech/career-readiness-index/">Get the Career Readiness Index</a>
@@ -133,6 +133,9 @@ breadcrumbs:
     </nav>
   </div>
 </section>
+
+{% include "role-directory.njk" %}
+{% include "locations-band.njk" %}
 
 <section class="section blog-cta-band">
   <div class="container cta-band">

@@ -1,0 +1,24 @@
+<section class="section role-directory">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Role Directory</p>
+      <h2 class="section-title section-title-glow">{{ roleDirectory.title }}</h2>
+      {% if roleDirectory.subtitle %}<p class="section-subtitle">{{ roleDirectory.subtitle }}</p>{% endif %}
+    </div>
+    <div class="role-directory-grid">
+      {% for group in roleDirectory.groups %}
+      <div class="role-directory-group">
+        <strong>{{ group.label }}</strong>
+        <div class="role-directory-list">
+          {% for item in group.items %}
+          <a class="role-directory-item" href="{{ item.url }}">{{ item.label }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="role-directory-cta">
+      <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+    </div>
+  </div>
+</section>

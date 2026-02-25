@@ -47,6 +47,10 @@
             {
               "label": "Resources",
               "url": "/resources/"
+            },
+            {
+              "label": "Locations",
+              "url": "/locations/"
             }
           ]
         },
