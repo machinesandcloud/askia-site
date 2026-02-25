@@ -130,120 +130,95 @@ breadcrumbs:
   </div>
 </section>
 
-<section class="section services-explorer" data-services-explorer>
+<section class="section services-core">
   <div class="container">
-    <div class="services-explorer-head">
+    <div class="services-core-head">
       <div>
-        <p class="hero-eyebrow">Explore</p>
-        <h2 class="section-title section-title-glow">Build your path with clarity</h2>
-        <p class="section-subtitle">Pick a core service, then expand into a role track when you’re ready.</p>
+        <p class="hero-eyebrow">Core Services</p>
+        <h2 class="section-title section-title-glow">Choose a focused upgrade</h2>
+        <p class="section-subtitle">Clear, high‑impact services that stack together when you want more support.</p>
       </div>
-      <div class="services-explorer-actions">
-        <a class="btn btn-primary" href="{{ services.cta.ctaLink }}">Get a recommendation</a>
-        <a class="btn btn-ghost" href="/land-your-next-role/">Explore role tracks</a>
+      <a class="btn btn-primary" href="{{ services.cta.ctaLink }}">Get a recommendation</a>
+    </div>
+    <div class="services-core-grid">
+      {% for item in services.alaCarte.items %}
+        <div class="services-core-card">
+          <div class="services-core-card-top">
+            <h3>{{ item.title }}</h3>
+            <span class="services-core-price">{{ item.price }}</span>
+          </div>
+          <p>{{ item.body }}</p>
+          <div class="services-core-actions">
+            <a class="btn btn-ghost" href="{{ item.buyLink }}">Book now</a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section services-tracks">
+  <div class="container">
+    <div class="services-tracks-head">
+      <div>
+        <p class="hero-eyebrow">Role Tracks</p>
+        <h2 class="section-title section-title-glow">Paths built around how hiring actually works</h2>
+        <p class="section-subtitle">Tech and non‑tech tracks with outcomes, scope, and signal tailored to each function.</p>
+      </div>
+      <a class="btn btn-ghost" href="/land-your-next-role/">Explore role tracks</a>
+    </div>
+    <div class="services-track-marquee" data-track-marquee>
+      <div class="services-track-row">
+        <span>Software Engineer</span>
+        <span>Data</span>
+        <span>Product Manager</span>
+        <span>Finance &amp; FP&amp;A</span>
+        <span>Marketing &amp; Growth</span>
+        <span>Operations</span>
+        <span>Healthcare Admin</span>
+        <span>People Ops &amp; HR</span>
+      </div>
+      <div class="services-track-row">
+        <span>DevOps &amp; SRE</span>
+        <span>Cybersecurity</span>
+        <span>Solutions Architect</span>
+        <span>Sales</span>
+        <span>Supply Chain</span>
+        <span>Strategy &amp; Consulting</span>
+        <span>Accounting &amp; Controller</span>
+        <span>Customer Success</span>
       </div>
     </div>
-    <div class="services-explorer-grid">
-      <div class="services-explorer-tabs" role="tablist">
-        <button class="services-explorer-tab is-active" type="button" data-explorer-tab="alacarte" role="tab" aria-selected="true">Core Services</button>
-        <button class="services-explorer-tab" type="button" data-explorer-tab="tracks" role="tab" aria-selected="false">Role Tracks</button>
-        <button class="services-explorer-tab" type="button" data-explorer-tab="outcomes" role="tab" aria-selected="false">What You Get</button>
+  </div>
+</section>
+
+<section class="section services-outcomes">
+  <div class="container">
+    <div class="services-outcomes-head">
+      <p class="hero-eyebrow">What You Get</p>
+      <h2 class="section-title section-title-glow">Signal, momentum, leverage</h2>
+      <p class="section-subtitle">A clear system that moves you from scattered effort to the right offer.</p>
+    </div>
+    <div class="services-outcomes-grid">
+      <div class="services-outcome-card">
+        <span>01</span>
+        <h3>Signal</h3>
+        <p>Role‑aligned narrative, resume, and LinkedIn that read at the right level.</p>
       </div>
-      <div class="services-explorer-panel">
-        <div class="services-explorer-pane is-active" data-explorer-pane="alacarte" role="tabpanel">
-          <div class="services-explorer-cards">
-            {% for item in services.alaCarte.items %}
-              <div class="services-explorer-card">
-                <div class="services-explorer-card-header">
-                  <h3>{{ item.title }}</h3>
-                  <span class="services-explorer-price">{{ item.price }}</span>
-                </div>
-                <p>{{ item.body }}</p>
-                <a class="btn btn-ghost" href="{{ item.buyLink }}">Book now</a>
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-        <div class="services-explorer-pane" data-explorer-pane="tracks" role="tabpanel">
-          <div class="services-explorer-cards">
-            <a class="services-explorer-card" href="/software-engineer-career-coaching/">
-              <div class="services-explorer-card-header">
-                <h3>Software Engineer</h3>
-                <span class="services-explorer-tag">Tech</span>
-              </div>
-              <p>System design and scope positioning.</p>
-            </a>
-            <a class="services-explorer-card" href="/data-career-coaching/">
-              <div class="services-explorer-card-header">
-                <h3>Data</h3>
-                <span class="services-explorer-tag">Tech</span>
-              </div>
-              <p>Impact narratives for data roles.</p>
-            </a>
-            <a class="services-explorer-card" href="/product-manager-career-coaching/">
-              <div class="services-explorer-card-header">
-                <h3>Product Manager</h3>
-                <span class="services-explorer-tag">Tech</span>
-              </div>
-              <p>Strategy, execution, and stakeholder signal.</p>
-            </a>
-            <a class="services-explorer-card" href="/finance-fpa-career-coaching/">
-              <div class="services-explorer-card-header">
-                <h3>Finance & FP&amp;A</h3>
-                <span class="services-explorer-tag">Finance</span>
-              </div>
-              <p>Executive‑ready finance narrative.</p>
-            </a>
-            <a class="services-explorer-card" href="/marketing-career-coaching/">
-              <div class="services-explorer-card-header">
-                <h3>Marketing &amp; Growth</h3>
-                <span class="services-explorer-tag">Marketing</span>
-              </div>
-              <p>Pipeline and revenue impact signal.</p>
-            </a>
-            <a class="services-explorer-card" href="/operations-career-coaching/">
-              <div class="services-explorer-card-header">
-                <h3>Operations</h3>
-                <span class="services-explorer-tag">Ops</span>
-              </div>
-              <p>Systems, scale, and execution signal.</p>
-            </a>
-            <a class="services-explorer-card" href="/healthcare-administration-career-coaching/">
-              <div class="services-explorer-card-header">
-                <h3>Healthcare Admin</h3>
-                <span class="services-explorer-tag">Healthcare</span>
-              </div>
-              <p>Operational leadership and patient impact.</p>
-            </a>
-            <a class="services-explorer-card" href="/people-ops-career-coaching/">
-              <div class="services-explorer-card-header">
-                <h3>People Ops &amp; HR</h3>
-                <span class="services-explorer-tag">People</span>
-              </div>
-              <p>Org impact and talent strategy.</p>
-            </a>
-          </div>
-        </div>
-        <div class="services-explorer-pane" data-explorer-pane="outcomes" role="tabpanel">
-          <div class="services-explorer-outcomes">
-            <div class="services-explorer-outcome">
-              <strong>Signal</strong>
-              <p>Role‑aligned narrative, resume, and LinkedIn that reads at level.</p>
-            </div>
-            <div class="services-explorer-outcome">
-              <strong>Momentum</strong>
-              <p>A search plan and interview strategy that accelerates results.</p>
-            </div>
-            <div class="services-explorer-outcome">
-              <strong>Leverage</strong>
-              <p>Offer strategy and negotiation guidance aligned to comp bands.</p>
-            </div>
-          </div>
-          <div class="services-explorer-note">
-            <span>Need help choosing?</span>
-            <p>We’ll map the fastest path based on your role, level, and timeline.</p>
-          </div>
-        </div>
+      <div class="services-outcome-card">
+        <span>02</span>
+        <h3>Momentum</h3>
+        <p>Search strategy and interview prep that accelerate results.</p>
+      </div>
+      <div class="services-outcome-card">
+        <span>03</span>
+        <h3>Leverage</h3>
+        <p>Offer strategy and negotiation guidance aligned to comp bands.</p>
+      </div>
+      <div class="services-outcome-card highlight">
+        <span>04</span>
+        <h3>Clarity</h3>
+        <p>A scoped plan that matches your role, timeline, and target level.</p>
       </div>
     </div>
   </div>
@@ -329,21 +304,28 @@ breadcrumbs:
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    const explorer = document.querySelector("[data-services-explorer]");
-    if (!explorer) return;
-    const tabs = explorer.querySelectorAll("[data-explorer-tab]");
-    const panes = explorer.querySelectorAll("[data-explorer-pane]");
+    const marquee = document.querySelector("[data-track-marquee]");
+    if (!marquee) return;
+    let rafId = null;
+    let offset = 0;
 
-    tabs.forEach((tab) => {
-      tab.addEventListener("click", () => {
-        const key = tab.dataset.explorerTab;
-        tabs.forEach((t) => t.classList.remove("is-active"));
-        panes.forEach((pane) => pane.classList.remove("is-active"));
-        tab.classList.add("is-active");
-        const pane = explorer.querySelector(`[data-explorer-pane=\"${key}\"]`);
-        if (pane) pane.classList.add("is-active");
-        tabs.forEach((t) => t.setAttribute("aria-selected", t === tab ? "true" : "false"));
-      });
-    });
+    const step = () => {
+      offset -= 0.3;
+      marquee.style.setProperty("--track-offset", `${offset}px`);
+      rafId = requestAnimationFrame(step);
+    };
+
+    const start = () => {
+      if (!rafId) rafId = requestAnimationFrame(step);
+    };
+
+    const stop = () => {
+      if (rafId) cancelAnimationFrame(rafId);
+      rafId = null;
+    };
+
+    marquee.addEventListener("mouseenter", stop);
+    marquee.addEventListener("mouseleave", start);
+    start();
   });
 </script>
