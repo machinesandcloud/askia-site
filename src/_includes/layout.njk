@@ -136,10 +136,6 @@
             <p class="lead-modal-subtitle">Enter your email and we’ll send it instantly.</p>
             <form class="lead-modal-form" data-lead-modal-form>
               <label>
-                Full name
-                <input type="text" name="name" placeholder="Your name" autocomplete="name" />
-              </label>
-              <label>
                 Email
                 <input type="email" name="email" placeholder="you@company.com" autocomplete="email" required />
               </label>
@@ -524,7 +520,7 @@
           };
 
           if (!localStorage.getItem(storageKey)) {
-            setTimeout(openModal, 4200);
+            setTimeout(openModal, 2000);
           }
 
           closeButtons.forEach((btn) => btn.addEventListener("click", closeModal));
@@ -534,7 +530,6 @@
               event.preventDefault();
               if (message) message.textContent = "Sending…";
               const formData = new FormData(form);
-              const name = (formData.get("name") || "").toString().trim();
               const email = (formData.get("email") || "").toString().trim();
               if (!email) {
                 if (message) message.textContent = "Please enter your email.";
@@ -545,8 +540,6 @@
                 "https://forms.zohopublic.com/askiacareercoaching/form/EmailSubscription/formperma/cBXsJmQv2DE_EhdC_-0DPNAUZjTVp02YMSloAcFS5ko/htmlRecords/submit";
 
               const zohoPayload = {
-                "Name_First": name.split(" ")[0] || "Visitor",
-                "Name_Last": name.split(" ").slice(1).join(" ") || "Lead",
                 "Email": email
               };
 
