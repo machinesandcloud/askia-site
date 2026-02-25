@@ -133,6 +133,29 @@ breadcrumbs:
 <section class="section services-precision">
   <div class="container services-precision-grid">
     <div>
+      <p class="hero-eyebrow">A la carte</p>
+      <h2 class="section-title section-title-glow">{{ services.alaCarte.title }}</h2>
+      <p class="section-subtitle">{{ services.alaCarte.subtitle }}</p>
+      <a class="btn btn-ghost" href="{{ services.cta.ctaLink }}">Get a recommendation</a>
+    </div>
+    <div class="service-stack">
+      {% for item in services.alaCarte.items %}
+        <div class="service-tile">
+          <div class="service-header">
+            <h3>{{ item.title }}</h3>
+            <span class="service-tag">{{ item.price }}</span>
+          </div>
+          <p>{{ item.body }}</p>
+          <a class="btn btn-ghost" href="{{ item.buyLink }}">Book now</a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section services-precision">
+  <div class="container services-precision-grid">
+    <div>
       <p class="hero-eyebrow">Precision upgrades</p>
       <h2 class="section-title section-title-glow">High‑stakes moments, focused help</h2>
       <p class="section-subtitle">Small, fast engagements when you need targeted leverage.</p>
