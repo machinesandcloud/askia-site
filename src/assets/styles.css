@@ -2377,6 +2377,36 @@ body.pricing-focus {
   font-size: 0.7rem;
 }
 
+/* Stacked card layout for deliverables + samples */
+.stacked-list {
+  display: grid;
+  gap: 24px;
+}
+
+.stacked-card {
+  position: sticky;
+  top: calc(110px + (var(--stack-index) * 16px));
+  padding: 22px;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background:
+    radial-gradient(circle at 20% 10%, rgba(114, 214, 255, 0.12), transparent 40%),
+    linear-gradient(160deg, rgba(12, 18, 26, 0.95), rgba(8, 12, 18, 0.8));
+  box-shadow: 0 24px 50px rgba(7, 10, 15, 0.35);
+}
+
+.stacked-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.stacked-card ul {
+  margin-top: 12px;
+}
+
 @keyframes orbitPulse {
   0%, 100% { transform: scale(1); opacity: 0.6; }
   50% { transform: scale(1.6); opacity: 1; }
@@ -2401,6 +2431,12 @@ body.pricing-focus {
   .services-outcomes-rail {
     flex-wrap: wrap;
     text-align: center;
+  }
+
+  .stacked-card {
+    position: static;
+    top: auto;
+    box-shadow: none;
   }
 }
 

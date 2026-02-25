@@ -374,7 +374,7 @@
     "roleLinks": {
       "eyebrow": "Role tracks",
       "title": "Find a path built for your role",
-      "subtitle": "Tech and non\u2011tech tracks tuned to how hiring works in your function.",
+      "subtitle": "Role tracks tailored to how hiring works in each function.",
       "items": [
         {
           "title": "Software Engineer",
@@ -428,8 +428,8 @@
     },
     "roleShowcase": {
       "eyebrow": "Role coverage",
-      "title": "A balanced mix of six\u2011figure paths",
-      "subtitle": "Tech stays core \u2014 and we also support finance, operations, healthcare, and leadership roles.",
+      "title": "Role tracks across tech, business, and healthcare",
+      "subtitle": "Choose a track that mirrors how your function is evaluated.",
       "groups": [
         {
           "title": "Tech & Data",
@@ -507,6 +507,7 @@
           ]
         }
       ]
-    }
+    },
+    "stackedSections": true
   }
 }

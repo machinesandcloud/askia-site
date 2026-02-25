@@ -352,6 +352,26 @@
       <h2 class="section-title section-title-glow">{{ page.deliverables.title }}</h2>
       {% if page.deliverables.subtitle %}<p class="section-subtitle">{{ page.deliverables.subtitle }}</p>{% endif %}
     </div>
+    {% if page.stackedSections %}
+    <div class="stacked-list">
+      {% for item in page.deliverables.items %}
+        <div class="stacked-card" style="--stack-index: {{ loop.index0 }};">
+          <div class="stacked-card-header">
+            <h3>{{ item.title }}</h3>
+            {% if item.tag %}<span class="service-tag">{{ item.tag }}</span>{% endif %}
+          </div>
+          <p>{{ item.body }}</p>
+          {% if item.bullets and item.bullets.length %}
+          <ul>
+            {% for bullet in item.bullets %}
+              <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+    {% else %}
     <div class="service-stack">
       {% for item in page.deliverables.items %}
         <div class="service-tile">
@@ -370,6 +390,7 @@
         </div>
       {% endfor %}
     </div>
+    {% endif %}
   </div>
 </section>
 
@@ -381,6 +402,26 @@
       <h2 class="section-title section-title-glow">{{ page.samples.title }}</h2>
       {% if page.samples.subtitle %}<p class="section-subtitle">{{ page.samples.subtitle }}</p>{% endif %}
     </div>
+    {% if page.stackedSections %}
+    <div class="stacked-list">
+      {% for item in page.samples.items %}
+        <div class="stacked-card" style="--stack-index: {{ loop.index0 }};">
+          <div class="stacked-card-header">
+            <h3>{{ item.title }}</h3>
+            {% if item.tag %}<span class="service-tag">{{ item.tag }}</span>{% endif %}
+          </div>
+          <p>{{ item.body }}</p>
+          {% if item.bullets and item.bullets.length %}
+          <ul>
+            {% for bullet in item.bullets %}
+              <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+    {% else %}
     <div class="service-stack">
       {% for item in page.samples.items %}
         <div class="service-tile">
@@ -399,6 +440,7 @@
         </div>
       {% endfor %}
     </div>
+    {% endif %}
   </div>
 </section>
 {% endif %}
