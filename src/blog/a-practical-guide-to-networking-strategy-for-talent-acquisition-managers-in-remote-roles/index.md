@@ -9,8 +9,8 @@ publishDateISO: "2026-01-23"
 updatedDateISO: "2026-01-23"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-networking-strategy-for-talent-acquisition-managers-in-remote-roles.jpg"
-imageAlt: "Professional coaching session focused on networking strategy."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Interview Intelligence"
   - "Compensation Mastery"

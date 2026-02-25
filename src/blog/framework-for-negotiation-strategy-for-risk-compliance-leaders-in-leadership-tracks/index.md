@@ -9,8 +9,8 @@ publishDateISO: "2025-12-20"
 updatedDateISO: "2025-12-20"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-negotiation-strategy-for-risk-compliance-leaders-in-leadership-tracks.jpg"
-imageAlt: "Professional coaching session focused on negotiation strategy."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"

@@ -9,8 +9,8 @@ publishDateISO: "2026-01-22"
 updatedDateISO: "2026-01-22"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/career-coaching-in-sacramento-guide.jpg"
-imageAlt: "Professional coaching session focused on career clarity."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"

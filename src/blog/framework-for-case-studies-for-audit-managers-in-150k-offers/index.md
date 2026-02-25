@@ -9,8 +9,8 @@ publishDateISO: "2026-02-18"
 updatedDateISO: "2026-02-18"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-case-studies-for-audit-managers-in-150k-offers.jpg"
-imageAlt: "Professional coaching session focused on case studies."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"

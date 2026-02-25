@@ -9,8 +9,8 @@ publishDateISO: "2025-12-17"
 updatedDateISO: "2025-12-17"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-referrals-for-retail-district-managers-in-150k-offers.jpg"
-imageAlt: "Professional coaching session focused on referrals."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Compensation Mastery"

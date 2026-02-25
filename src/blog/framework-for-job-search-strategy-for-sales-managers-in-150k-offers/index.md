@@ -9,8 +9,8 @@ publishDateISO: "2025-11-26"
 updatedDateISO: "2025-11-26"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-job-search-strategy-for-sales-managers-in-150k-offers.jpg"
-imageAlt: "Professional coaching session focused on job search strategy."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"

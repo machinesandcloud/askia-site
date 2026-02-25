@@ -9,8 +9,8 @@ publishDateISO: "2026-02-03"
 updatedDateISO: "2026-02-03"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-linkedin-positioning-for-operations-managers-in-competitive-markets.jpg"
-imageAlt: "Professional coaching session focused on LinkedIn positioning."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Compensation Mastery"

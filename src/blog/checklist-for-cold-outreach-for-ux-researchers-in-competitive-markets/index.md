@@ -9,8 +9,8 @@ publishDateISO: "2026-01-06"
 updatedDateISO: "2026-01-06"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-cold-outreach-for-ux-researchers-in-competitive-markets.jpg"
-imageAlt: "Professional coaching session focused on cold outreach."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Strategic Positioning"

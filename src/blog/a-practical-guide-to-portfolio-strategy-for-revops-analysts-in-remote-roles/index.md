@@ -9,8 +9,8 @@ publishDateISO: "2025-12-12"
 updatedDateISO: "2025-12-12"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-portfolio-strategy-for-revops-analysts-in-remote-roles.jpg"
-imageAlt: "Professional coaching session focused on portfolio strategy."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Interview Intelligence"
   - "Compensation Mastery"

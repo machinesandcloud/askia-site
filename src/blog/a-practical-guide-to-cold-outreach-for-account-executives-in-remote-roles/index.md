@@ -9,8 +9,8 @@ publishDateISO: "2026-02-13"
 updatedDateISO: "2026-02-13"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-cold-outreach-for-account-executives-in-remote-roles.jpg"
-imageAlt: "Professional coaching session focused on cold outreach."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Strategic Positioning"
   - "Interview Intelligence"

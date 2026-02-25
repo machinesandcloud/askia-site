@@ -9,8 +9,8 @@ publishDateISO: "2026-01-17"
 updatedDateISO: "2026-01-17"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-career-positioning-for-healthcare-administrators-in-leadership-tracks.jpg"
-imageAlt: "Professional coaching session focused on career positioning."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Interview Intelligence"
   - "Compensation Mastery"

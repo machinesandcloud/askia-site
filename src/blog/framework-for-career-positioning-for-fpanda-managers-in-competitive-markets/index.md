@@ -9,8 +9,8 @@ publishDateISO: "2026-02-24"
 updatedDateISO: "2026-02-24"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-career-positioning-for-fpanda-managers-in-competitive-markets.jpg"
-imageAlt: "Professional coaching session focused on career positioning."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"

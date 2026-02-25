@@ -9,8 +9,8 @@ publishDateISO: "2026-02-09"
 updatedDateISO: "2026-02-09"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-first-30-days-for-marketing-managers-in-fast-offer-cycles.jpg"
-imageAlt: "Professional coaching session focused on first 30 days."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Compensation Mastery"

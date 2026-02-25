@@ -9,8 +9,8 @@ publishDateISO: "2026-01-03"
 updatedDateISO: "2026-01-03"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-job-search-strategy-for-customer-support-leaders-in-leadership-tracks.jpg"
-imageAlt: "Professional coaching session focused on job search strategy."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Interview Intelligence"

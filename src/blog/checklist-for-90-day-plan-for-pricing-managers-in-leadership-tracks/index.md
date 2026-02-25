@@ -9,8 +9,8 @@ publishDateISO: "2025-12-13"
 updatedDateISO: "2025-12-13"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-90-day-plan-for-pricing-managers-in-leadership-tracks.jpg"
-imageAlt: "Professional coaching session focused on 90-day plan."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Strategic Positioning"

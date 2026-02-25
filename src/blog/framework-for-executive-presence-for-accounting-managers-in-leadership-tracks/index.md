@@ -9,8 +9,8 @@ publishDateISO: "2026-02-21"
 updatedDateISO: "2026-02-21"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-executive-presence-for-accounting-managers-in-leadership-tracks.jpg"
-imageAlt: "Professional coaching session focused on executive presence."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Compensation Mastery"

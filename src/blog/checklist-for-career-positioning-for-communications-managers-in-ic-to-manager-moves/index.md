@@ -9,8 +9,8 @@ publishDateISO: "2026-02-05"
 updatedDateISO: "2026-02-05"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-career-positioning-for-communications-managers-in-ic-to-manager-moves.jpg"
-imageAlt: "Professional coaching session focused on career positioning."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Strategic Positioning"

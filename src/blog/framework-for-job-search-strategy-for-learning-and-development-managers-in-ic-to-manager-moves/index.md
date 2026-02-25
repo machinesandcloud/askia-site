@@ -9,8 +9,8 @@ publishDateISO: "2026-01-22"
 updatedDateISO: "2026-01-22"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-job-search-strategy-for-learning-and-development-managers-in-ic-to-manager-moves.jpg"
-imageAlt: "Professional coaching session focused on job search strategy."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Compensation Mastery"

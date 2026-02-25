@@ -9,8 +9,8 @@ publishDateISO: "2026-02-07"
 updatedDateISO: "2026-02-07"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-portfolio-strategy-for-product-marketing-managers-in-leadership-tracks.jpg"
-imageAlt: "Professional coaching session focused on portfolio strategy."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Strategic Positioning"
   - "Interview Intelligence"

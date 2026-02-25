@@ -9,8 +9,8 @@ publishDateISO: "2025-11-21"
 updatedDateISO: "2025-11-21"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-career-positioning-for-marketing-managers-in-remote-roles.jpg"
-imageAlt: "Professional coaching session focused on career positioning."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Strategic Positioning"
   - "Interview Intelligence"

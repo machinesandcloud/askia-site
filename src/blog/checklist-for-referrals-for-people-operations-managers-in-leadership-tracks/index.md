@@ -9,8 +9,8 @@ publishDateISO: "2026-01-24"
 updatedDateISO: "2026-01-24"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-referrals-for-people-operations-managers-in-leadership-tracks.jpg"
-imageAlt: "Professional coaching session focused on referrals."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Strategic Positioning"

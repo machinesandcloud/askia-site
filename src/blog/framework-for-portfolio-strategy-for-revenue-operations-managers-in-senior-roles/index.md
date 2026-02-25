@@ -9,8 +9,8 @@ publishDateISO: "2025-11-23"
 updatedDateISO: "2025-11-23"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-portfolio-strategy-for-revenue-operations-managers-in-senior-roles.jpg"
-imageAlt: "Professional coaching session focused on portfolio strategy."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Compensation Mastery"

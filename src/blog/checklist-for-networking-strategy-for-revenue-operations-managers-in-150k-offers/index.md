@@ -9,8 +9,8 @@ publishDateISO: "2026-02-11"
 updatedDateISO: "2026-02-11"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-networking-strategy-for-revenue-operations-managers-in-150k-offers.jpg"
-imageAlt: "Professional coaching session focused on networking strategy."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Strategic Positioning"

@@ -9,8 +9,8 @@ publishDateISO: "2025-12-08"
 updatedDateISO: "2025-12-08"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-linkedin-positioning-for-operations-executives-in-fast-offer-cycles.jpg"
-imageAlt: "Professional coaching session focused on LinkedIn positioning."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"

@@ -9,8 +9,8 @@ publishDateISO: "2025-11-25"
 updatedDateISO: "2025-11-25"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-first-30-days-for-account-executives-in-competitive-markets.jpg"
-imageAlt: "Professional coaching session focused on first 30 days."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Strategic Positioning"

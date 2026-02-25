@@ -9,8 +9,8 @@ publishDateISO: "2026-01-09"
 updatedDateISO: "2026-01-09"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-role-leveling-for-strategy-managers-in-remote-roles.jpg"
-imageAlt: "Professional coaching session focused on role leveling."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Interview Intelligence"

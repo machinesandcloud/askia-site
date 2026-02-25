@@ -9,8 +9,8 @@ publishDateISO: "2026-01-02"
 updatedDateISO: "2026-01-02"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-first-30-days-for-operations-directors-in-remote-roles.jpg"
-imageAlt: "Professional coaching session focused on first 30 days."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Strategic Positioning"
   - "Interview Intelligence"

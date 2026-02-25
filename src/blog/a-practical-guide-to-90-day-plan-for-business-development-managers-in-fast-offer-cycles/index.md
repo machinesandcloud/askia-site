@@ -9,8 +9,8 @@ publishDateISO: "2025-11-24"
 updatedDateISO: "2025-11-24"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-90-day-plan-for-business-development-managers-in-fast-offer-cycles.jpg"
-imageAlt: "Professional coaching session focused on 90-day plan."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Interview Intelligence"
   - "Compensation Mastery"

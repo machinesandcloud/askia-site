@@ -9,8 +9,8 @@ publishDateISO: "2025-12-30"
 updatedDateISO: "2025-12-30"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-career-pivots-for-marketing-directors-in-competitive-markets.jpg"
-imageAlt: "Professional coaching session focused on career pivots."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Interview Intelligence"
   - "Compensation Mastery"

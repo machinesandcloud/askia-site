@@ -9,8 +9,8 @@ publishDateISO: "2025-12-02"
 updatedDateISO: "2025-12-02"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-role-leveling-for-treasury-managers-in-competitive-markets.jpg"
-imageAlt: "Professional coaching session focused on role leveling."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"

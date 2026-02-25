@@ -9,8 +9,8 @@ publishDateISO: "2025-12-16"
 updatedDateISO: "2025-12-16"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-networking-strategy-for-merchandising-managers-in-competitive-markets.jpg"
-imageAlt: "Professional coaching session focused on networking strategy."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Interview Intelligence"

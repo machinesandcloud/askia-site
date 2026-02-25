@@ -9,8 +9,8 @@ publishDateISO: "2025-11-30"
 updatedDateISO: "2025-11-30"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-salary-negotiation-for-audit-managers-in-senior-roles.jpg"
-imageAlt: "Professional coaching session focused on salary negotiation."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Interview Intelligence"
   - "Compensation Mastery"

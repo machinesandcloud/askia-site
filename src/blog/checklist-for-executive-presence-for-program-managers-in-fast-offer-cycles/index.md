@@ -9,8 +9,8 @@ publishDateISO: "2026-02-02"
 updatedDateISO: "2026-02-02"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-executive-presence-for-program-managers-in-fast-offer-cycles.jpg"
-imageAlt: "Professional coaching session focused on executive presence."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Interview Intelligence"

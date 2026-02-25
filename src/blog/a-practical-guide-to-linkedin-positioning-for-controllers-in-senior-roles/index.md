@@ -9,8 +9,8 @@ publishDateISO: "2026-02-22"
 updatedDateISO: "2026-02-22"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-linkedin-positioning-for-controllers-in-senior-roles.jpg"
-imageAlt: "Professional coaching session focused on LinkedIn positioning."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Interview Intelligence"
   - "Compensation Mastery"

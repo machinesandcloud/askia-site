@@ -9,8 +9,8 @@ publishDateISO: "2026-02-20"
 updatedDateISO: "2026-02-20"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-interview-prep-for-treasury-managers-in-remote-roles.jpg"
-imageAlt: "Professional coaching session focused on interview prep."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Interview Intelligence"

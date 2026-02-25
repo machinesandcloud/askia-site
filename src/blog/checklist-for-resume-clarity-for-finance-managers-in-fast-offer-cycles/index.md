@@ -9,8 +9,8 @@ publishDateISO: "2026-02-23"
 updatedDateISO: "2026-02-23"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-resume-clarity-for-finance-managers-in-fast-offer-cycles.jpg"
-imageAlt: "Professional coaching session focused on resume clarity."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Strategic Positioning"

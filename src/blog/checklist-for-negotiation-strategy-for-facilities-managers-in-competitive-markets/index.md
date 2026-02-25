@@ -9,8 +9,8 @@ publishDateISO: "2026-01-27"
 updatedDateISO: "2026-01-27"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-negotiation-strategy-for-facilities-managers-in-competitive-markets.jpg"
-imageAlt: "Professional coaching session focused on negotiation strategy."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Interview Intelligence"

@@ -9,8 +9,8 @@ publishDateISO: "2026-01-01"
 updatedDateISO: "2026-01-01"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-90-day-plan-for-finance-directors-in-ic-to-manager-moves.jpg"
-imageAlt: "Professional coaching session focused on 90-day plan."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"

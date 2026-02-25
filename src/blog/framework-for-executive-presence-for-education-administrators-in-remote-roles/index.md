@@ -9,8 +9,8 @@ publishDateISO: "2025-12-26"
 updatedDateISO: "2025-12-26"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-executive-presence-for-education-administrators-in-remote-roles.jpg"
-imageAlt: "Professional coaching session focused on executive presence."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"

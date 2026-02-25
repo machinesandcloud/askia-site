@@ -9,8 +9,8 @@ publishDateISO: "2025-12-21"
 updatedDateISO: "2025-12-21"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-role-leveling-for-insurance-claims-managers-in-senior-roles.jpg"
-imageAlt: "Professional coaching session focused on role leveling."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Strategic Positioning"
   - "Interview Intelligence"

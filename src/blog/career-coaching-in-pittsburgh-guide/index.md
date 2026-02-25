@@ -9,8 +9,8 @@ publishDateISO: "2026-01-30"
 updatedDateISO: "2026-01-30"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/career-coaching-in-pittsburgh-guide.jpg"
-imageAlt: "Professional coaching session focused on career clarity."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"

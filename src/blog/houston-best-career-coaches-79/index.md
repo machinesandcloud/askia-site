@@ -9,8 +9,8 @@ publishDateISO: "2026-02-09"
 updatedDateISO: "2026-02-09"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/houston-best-career-coaches-79.jpg"
-imageAlt: "Career coaching session with analytics leaders in Houston."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Tech Career Navigation"
   - "Strategic Positioning"

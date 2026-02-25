@@ -9,8 +9,8 @@ publishDateISO: "2026-02-14"
 updatedDateISO: "2026-02-14"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-salary-negotiation-for-sales-managers-in-leadership-tracks.jpg"
-imageAlt: "Professional coaching session focused on salary negotiation."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Interview Intelligence"

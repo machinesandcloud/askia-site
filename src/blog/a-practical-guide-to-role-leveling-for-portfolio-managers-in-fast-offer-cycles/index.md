@@ -9,8 +9,8 @@ publishDateISO: "2026-02-16"
 updatedDateISO: "2026-02-16"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-role-leveling-for-portfolio-managers-in-fast-offer-cycles.jpg"
-imageAlt: "Professional coaching session focused on role leveling."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Interview Intelligence"
   - "Compensation Mastery"

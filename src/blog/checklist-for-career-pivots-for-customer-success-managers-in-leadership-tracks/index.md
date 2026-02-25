@@ -9,8 +9,8 @@ publishDateISO: "2025-11-22"
 updatedDateISO: "2025-11-22"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-career-pivots-for-customer-success-managers-in-leadership-tracks.jpg"
-imageAlt: "Professional coaching session focused on career pivots."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Interview Intelligence"

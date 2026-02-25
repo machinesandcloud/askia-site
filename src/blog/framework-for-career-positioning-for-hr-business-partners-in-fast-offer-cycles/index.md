@@ -9,8 +9,8 @@ publishDateISO: "2025-12-29"
 updatedDateISO: "2025-12-29"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-career-positioning-for-hr-business-partners-in-fast-offer-cycles.jpg"
-imageAlt: "Professional coaching session focused on career positioning."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Compensation Mastery"

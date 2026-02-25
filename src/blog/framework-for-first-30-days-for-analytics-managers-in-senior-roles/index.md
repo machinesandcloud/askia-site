@@ -9,8 +9,8 @@ publishDateISO: "2025-12-14"
 updatedDateISO: "2025-12-14"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-first-30-days-for-analytics-managers-in-senior-roles.jpg"
-imageAlt: "Professional coaching session focused on first 30 days."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"

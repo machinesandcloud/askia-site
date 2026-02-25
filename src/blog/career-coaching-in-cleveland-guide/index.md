@@ -9,8 +9,8 @@ publishDateISO: "2026-02-01"
 updatedDateISO: "2026-02-01"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/career-coaching-in-cleveland-guide.jpg"
-imageAlt: "Professional coaching session focused on career clarity."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"

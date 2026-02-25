@@ -9,8 +9,8 @@ publishDateISO: "2026-02-06"
 updatedDateISO: "2026-02-06"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-career-pivots-for-brand-managers-in-remote-roles.jpg"
-imageAlt: "Professional coaching session focused on career pivots."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"

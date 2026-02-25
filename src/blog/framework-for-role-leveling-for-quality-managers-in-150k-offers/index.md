@@ -9,8 +9,8 @@ publishDateISO: "2026-01-28"
 updatedDateISO: "2026-01-28"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-role-leveling-for-quality-managers-in-150k-offers.jpg"
-imageAlt: "Professional coaching session focused on role leveling."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Compensation Mastery"

@@ -9,8 +9,8 @@ publishDateISO: "2026-02-12"
 updatedDateISO: "2026-02-12"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-referrals-for-business-development-managers-in-ic-to-manager-moves.jpg"
-imageAlt: "Professional coaching session focused on referrals."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"

@@ -9,8 +9,8 @@ publishDateISO: "2025-12-22"
 updatedDateISO: "2025-12-22"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-promotion-readiness-for-medical-practice-managers-in-fast-offer-cycles.jpg"
-imageAlt: "Professional coaching session focused on promotion readiness."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Interview Intelligence"

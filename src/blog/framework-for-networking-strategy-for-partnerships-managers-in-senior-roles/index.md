@@ -9,8 +9,8 @@ publishDateISO: "2026-01-04"
 updatedDateISO: "2026-01-04"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-networking-strategy-for-partnerships-managers-in-senior-roles.jpg"
-imageAlt: "Professional coaching session focused on networking strategy."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Compensation Mastery"

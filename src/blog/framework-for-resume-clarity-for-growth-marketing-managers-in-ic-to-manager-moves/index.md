@@ -9,8 +9,8 @@ publishDateISO: "2025-11-20"
 updatedDateISO: "2025-11-20"
 readTime: "7 min read"
 featured: false
-featuredImage: "/assets/blog/framework-for-resume-clarity-for-growth-marketing-managers-in-ic-to-manager-moves.jpg"
-imageAlt: "Professional coaching session focused on resume clarity."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"

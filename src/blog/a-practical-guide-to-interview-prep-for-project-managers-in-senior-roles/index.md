@@ -9,8 +9,8 @@ publishDateISO: "2026-02-01"
 updatedDateISO: "2026-02-01"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-interview-prep-for-project-managers-in-senior-roles.jpg"
-imageAlt: "Professional coaching session focused on interview prep."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Strategic Positioning"
   - "Interview Intelligence"

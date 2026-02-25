@@ -9,8 +9,8 @@ publishDateISO: "2025-11-19"
 updatedDateISO: "2025-11-19"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-linkedin-positioning-for-product-marketing-managers-in-150k-offers.jpg"
-imageAlt: "Professional coaching session focused on LinkedIn positioning."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Strategic Positioning"

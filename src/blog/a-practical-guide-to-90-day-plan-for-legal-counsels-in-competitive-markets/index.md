@@ -9,8 +9,8 @@ publishDateISO: "2026-01-20"
 updatedDateISO: "2026-01-20"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-90-day-plan-for-legal-counsels-in-competitive-markets.jpg"
-imageAlt: "Professional coaching session focused on 90-day plan."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Strategic Positioning"
   - "Interview Intelligence"

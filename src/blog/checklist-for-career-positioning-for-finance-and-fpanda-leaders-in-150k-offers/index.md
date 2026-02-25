@@ -9,8 +9,8 @@ publishDateISO: "2025-12-10"
 updatedDateISO: "2025-12-10"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-career-positioning-for-finance-and-fpanda-leaders-in-150k-offers.jpg"
-imageAlt: "Professional coaching session focused on career positioning."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Interview Intelligence"

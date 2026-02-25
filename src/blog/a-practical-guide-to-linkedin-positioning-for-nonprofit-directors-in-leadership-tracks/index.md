@@ -9,8 +9,8 @@ publishDateISO: "2025-12-27"
 updatedDateISO: "2025-12-27"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-linkedin-positioning-for-nonprofit-directors-in-leadership-tracks.jpg"
-imageAlt: "Professional coaching session focused on LinkedIn positioning."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Strategic Positioning"
   - "Interview Intelligence"

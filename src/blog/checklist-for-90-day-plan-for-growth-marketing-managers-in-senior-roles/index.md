@@ -9,8 +9,8 @@ publishDateISO: "2026-02-08"
 updatedDateISO: "2026-02-08"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-90-day-plan-for-growth-marketing-managers-in-senior-roles.jpg"
-imageAlt: "Professional coaching session focused on 90-day plan."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Interview Intelligence"

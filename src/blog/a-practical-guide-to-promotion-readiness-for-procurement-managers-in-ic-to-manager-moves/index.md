@@ -9,8 +9,8 @@ publishDateISO: "2026-01-29"
 updatedDateISO: "2026-01-29"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-promotion-readiness-for-procurement-managers-in-ic-to-manager-moves.jpg"
-imageAlt: "Professional coaching session focused on promotion readiness."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Interview Intelligence"
   - "Compensation Mastery"

@@ -9,8 +9,8 @@ publishDateISO: "2026-01-15"
 updatedDateISO: "2026-01-15"
 readTime: "8 min read"
 featured: false
-featuredImage: "/assets/blog/checklist-for-linkedin-positioning-for-nurse-practitioners-in-ic-to-manager-moves.jpg"
-imageAlt: "Professional coaching session focused on LinkedIn positioning."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Interview Intelligence"

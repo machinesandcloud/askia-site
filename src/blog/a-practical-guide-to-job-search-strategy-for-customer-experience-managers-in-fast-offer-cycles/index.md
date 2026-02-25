@@ -9,8 +9,8 @@ publishDateISO: "2025-12-15"
 updatedDateISO: "2025-12-15"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-job-search-strategy-for-customer-experience-managers-in-fast-offer-cycles.jpg"
-imageAlt: "Professional coaching session focused on job search strategy."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Strategic Positioning"
   - "Interview Intelligence"

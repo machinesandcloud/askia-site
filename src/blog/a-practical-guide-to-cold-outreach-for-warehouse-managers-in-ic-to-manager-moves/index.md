@@ -9,8 +9,8 @@ publishDateISO: "2025-12-18"
 updatedDateISO: "2025-12-18"
 readTime: "6 min read"
 featured: false
-featuredImage: "/assets/blog/a-practical-guide-to-cold-outreach-for-warehouse-managers-in-ic-to-manager-moves.jpg"
-imageAlt: "Professional coaching session focused on cold outreach."
+featuredImage: "/assets/blog/offer-leverage.jpg"
+imageAlt: "Askia career coaching insights."
 categories:
   - "Interview Intelligence"
   - "Compensation Mastery"
