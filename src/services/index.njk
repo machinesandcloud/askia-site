@@ -130,163 +130,121 @@ breadcrumbs:
   </div>
 </section>
 
-<section class="section services-precision">
-  <div class="container services-precision-grid">
-    <div>
-      <p class="hero-eyebrow">A la carte</p>
-      <h2 class="section-title section-title-glow">{{ services.alaCarte.title }}</h2>
-      <p class="section-subtitle">{{ services.alaCarte.subtitle }}</p>
-      <a class="btn btn-ghost" href="{{ services.cta.ctaLink }}">Get a recommendation</a>
+<section class="section services-explorer" data-services-explorer>
+  <div class="container">
+    <div class="services-explorer-head">
+      <div>
+        <p class="hero-eyebrow">Explore</p>
+        <h2 class="section-title section-title-glow">Build your path with clarity</h2>
+        <p class="section-subtitle">Pick a core service, then expand into a role track when you’re ready.</p>
+      </div>
+      <div class="services-explorer-actions">
+        <a class="btn btn-primary" href="{{ services.cta.ctaLink }}">Get a recommendation</a>
+        <a class="btn btn-ghost" href="/land-your-next-role/">Explore role tracks</a>
+      </div>
     </div>
-    <div class="service-stack">
-      {% for item in services.alaCarte.items %}
-        <div class="service-tile">
-          <div class="service-header">
-            <h3>{{ item.title }}</h3>
-            <span class="service-tag">{{ item.price }}</span>
+    <div class="services-explorer-grid">
+      <div class="services-explorer-tabs" role="tablist">
+        <button class="services-explorer-tab is-active" type="button" data-explorer-tab="alacarte" role="tab" aria-selected="true">Core Services</button>
+        <button class="services-explorer-tab" type="button" data-explorer-tab="tracks" role="tab" aria-selected="false">Role Tracks</button>
+        <button class="services-explorer-tab" type="button" data-explorer-tab="outcomes" role="tab" aria-selected="false">What You Get</button>
+      </div>
+      <div class="services-explorer-panel">
+        <div class="services-explorer-pane is-active" data-explorer-pane="alacarte" role="tabpanel">
+          <div class="services-explorer-cards">
+            {% for item in services.alaCarte.items %}
+              <div class="services-explorer-card">
+                <div class="services-explorer-card-header">
+                  <h3>{{ item.title }}</h3>
+                  <span class="services-explorer-price">{{ item.price }}</span>
+                </div>
+                <p>{{ item.body }}</p>
+                <a class="btn btn-ghost" href="{{ item.buyLink }}">Book now</a>
+              </div>
+            {% endfor %}
           </div>
-          <p>{{ item.body }}</p>
-          <a class="btn btn-ghost" href="{{ item.buyLink }}">Book now</a>
         </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="section services-precision">
-  <div class="container services-precision-grid">
-    <div>
-      <p class="hero-eyebrow">Precision upgrades</p>
-      <h2 class="section-title section-title-glow">High‑stakes moments, focused help</h2>
-      <p class="section-subtitle">Small, fast engagements when you need targeted leverage.</p>
-      <a class="btn btn-ghost" href="{{ services.cta.ctaLink }}">Get a recommendation</a>
-    </div>
-    <div class="service-stack">
-      <a class="service-tile" href="/cover-letter-writing/">
-        <div class="service-header">
-          <h3>Cover Letter Writing</h3>
-          <span class="service-tag">Signal</span>
+        <div class="services-explorer-pane" data-explorer-pane="tracks" role="tabpanel">
+          <div class="services-explorer-cards">
+            <a class="services-explorer-card" href="/software-engineer-career-coaching/">
+              <div class="services-explorer-card-header">
+                <h3>Software Engineer</h3>
+                <span class="services-explorer-tag">Tech</span>
+              </div>
+              <p>System design and scope positioning.</p>
+            </a>
+            <a class="services-explorer-card" href="/data-career-coaching/">
+              <div class="services-explorer-card-header">
+                <h3>Data</h3>
+                <span class="services-explorer-tag">Tech</span>
+              </div>
+              <p>Impact narratives for data roles.</p>
+            </a>
+            <a class="services-explorer-card" href="/product-manager-career-coaching/">
+              <div class="services-explorer-card-header">
+                <h3>Product Manager</h3>
+                <span class="services-explorer-tag">Tech</span>
+              </div>
+              <p>Strategy, execution, and stakeholder signal.</p>
+            </a>
+            <a class="services-explorer-card" href="/finance-fpa-career-coaching/">
+              <div class="services-explorer-card-header">
+                <h3>Finance & FP&amp;A</h3>
+                <span class="services-explorer-tag">Finance</span>
+              </div>
+              <p>Executive‑ready finance narrative.</p>
+            </a>
+            <a class="services-explorer-card" href="/marketing-career-coaching/">
+              <div class="services-explorer-card-header">
+                <h3>Marketing &amp; Growth</h3>
+                <span class="services-explorer-tag">Marketing</span>
+              </div>
+              <p>Pipeline and revenue impact signal.</p>
+            </a>
+            <a class="services-explorer-card" href="/operations-career-coaching/">
+              <div class="services-explorer-card-header">
+                <h3>Operations</h3>
+                <span class="services-explorer-tag">Ops</span>
+              </div>
+              <p>Systems, scale, and execution signal.</p>
+            </a>
+            <a class="services-explorer-card" href="/healthcare-administration-career-coaching/">
+              <div class="services-explorer-card-header">
+                <h3>Healthcare Admin</h3>
+                <span class="services-explorer-tag">Healthcare</span>
+              </div>
+              <p>Operational leadership and patient impact.</p>
+            </a>
+            <a class="services-explorer-card" href="/people-ops-career-coaching/">
+              <div class="services-explorer-card-header">
+                <h3>People Ops &amp; HR</h3>
+                <span class="services-explorer-tag">People</span>
+              </div>
+              <p>Org impact and talent strategy.</p>
+            </a>
+          </div>
         </div>
-        <p>Targeted narrative that earns the read.</p>
-      </a>
-      <a class="service-tile" href="/mock-interviews/">
-        <div class="service-header">
-          <h3>Mock Interviews</h3>
-          <span class="service-tag">Execution</span>
+        <div class="services-explorer-pane" data-explorer-pane="outcomes" role="tabpanel">
+          <div class="services-explorer-outcomes">
+            <div class="services-explorer-outcome">
+              <strong>Signal</strong>
+              <p>Role‑aligned narrative, resume, and LinkedIn that reads at level.</p>
+            </div>
+            <div class="services-explorer-outcome">
+              <strong>Momentum</strong>
+              <p>A search plan and interview strategy that accelerates results.</p>
+            </div>
+            <div class="services-explorer-outcome">
+              <strong>Leverage</strong>
+              <p>Offer strategy and negotiation guidance aligned to comp bands.</p>
+            </div>
+          </div>
+          <div class="services-explorer-note">
+            <span>Need help choosing?</span>
+            <p>We’ll map the fastest path based on your role, level, and timeline.</p>
+          </div>
         </div>
-        <p>Live practice with real‑world feedback.</p>
-      </a>
-      <a class="service-tile" href="/career-clarity/">
-        <div class="service-header">
-          <h3>Career Clarity</h3>
-          <span class="service-tag">Direction</span>
-        </div>
-        <p>Define the right role, level, and path.</p>
-      </a>
-      <a class="service-tile" href="/offer-strategy/">
-        <div class="service-header">
-          <h3>Offer Strategy</h3>
-          <span class="service-tag">Leverage</span>
-        </div>
-        <p>Control timing, leverage, and total comp.</p>
-      </a>
-      <a class="service-tile" href="/ats-audit/">
-        <div class="service-header">
-          <h3>ATS Audit</h3>
-          <span class="service-tag">Diagnostics</span>
-        </div>
-        <p>Find the blockers and fix them fast.</p>
-      </a>
-    </div>
-  </div>
-</section>
-
-<section class="section services-role-tracks">
-  <div class="container services-preview">
-    <div>
-      <p class="hero-eyebrow">Role tracks</p>
-      <h2 class="section-title section-title-glow">Find a path built for your role</h2>
-      <p class="section-subtitle">Tech and non‑tech tracks speak directly to how hiring works in your function.</p>
-      <a class="btn btn-ghost" href="/land-your-next-role/">Explore role tracks</a>
-    </div>
-    <div class="service-stack">
-      <a class="service-tile" href="/software-engineer-career-coaching/">
-        <div class="service-header">
-          <h3>Software Engineer Coaching</h3>
-          <span class="service-tag">SWE</span>
-        </div>
-        <p>System design and scope positioning.</p>
-      </a>
-      <a class="service-tile" href="/devops-career-coaching/">
-        <div class="service-header">
-          <h3>DevOps & SRE Coaching</h3>
-          <span class="service-tag">DevOps</span>
-        </div>
-        <p>Reliability impact and infra leadership.</p>
-      </a>
-      <a class="service-tile" href="/data-career-coaching/">
-        <div class="service-header">
-          <h3>Data Career Coaching</h3>
-          <span class="service-tag">Data</span>
-        </div>
-        <p>Business impact narratives for data roles.</p>
-      </a>
-      <a class="service-tile" href="/product-manager-career-coaching/">
-        <div class="service-header">
-          <h3>Product Manager Coaching</h3>
-          <span class="service-tag">Product</span>
-        </div>
-        <p>Strategy, execution, and stakeholder signal.</p>
-      </a>
-      <a class="service-tile" href="/engineering-manager-coaching/">
-        <div class="service-header">
-          <h3>Engineering Manager Coaching</h3>
-          <span class="service-tag">Leadership</span>
-        </div>
-        <p>Leadership scope and delivery systems.</p>
-      </a>
-      <a class="service-tile" href="/finance-fpa-career-coaching/">
-        <div class="service-header">
-          <h3>Finance & FP&amp;A Coaching</h3>
-          <span class="service-tag">Finance</span>
-        </div>
-        <p>Executive‑ready finance narrative.</p>
-      </a>
-      <a class="service-tile" href="/marketing-career-coaching/">
-        <div class="service-header">
-          <h3>Marketing &amp; Growth Coaching</h3>
-          <span class="service-tag">Marketing</span>
-        </div>
-        <p>Pipeline and revenue impact signal.</p>
-      </a>
-      <a class="service-tile" href="/sales-career-coaching/">
-        <div class="service-header">
-          <h3>Sales Coaching</h3>
-          <span class="service-tag">Sales</span>
-        </div>
-        <p>Revenue impact and leadership scope.</p>
-      </a>
-      <a class="service-tile" href="/operations-career-coaching/">
-        <div class="service-header">
-          <h3>Operations Coaching</h3>
-          <span class="service-tag">Ops</span>
-        </div>
-        <p>Systems, scale, and execution signal.</p>
-      </a>
-      <a class="service-tile" href="/healthcare-administration-career-coaching/">
-        <div class="service-header">
-          <h3>Healthcare Administration Coaching</h3>
-          <span class="service-tag">Healthcare</span>
-        </div>
-        <p>Operational leadership and patient impact.</p>
-      </a>
-      <a class="service-tile" href="/people-ops-career-coaching/">
-        <div class="service-header">
-          <h3>People Ops &amp; HR Coaching</h3>
-          <span class="service-tag">People</span>
-        </div>
-        <p>Org impact and talent strategy.</p>
-      </a>
+      </div>
     </div>
   </div>
 </section>
@@ -365,6 +323,27 @@ breadcrumbs:
     });
     document.addEventListener("keydown", (event) => {
       if (event.key === "Escape" && !overlay.hidden) closeModal();
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const explorer = document.querySelector("[data-services-explorer]");
+    if (!explorer) return;
+    const tabs = explorer.querySelectorAll("[data-explorer-tab]");
+    const panes = explorer.querySelectorAll("[data-explorer-pane]");
+
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => {
+        const key = tab.dataset.explorerTab;
+        tabs.forEach((t) => t.classList.remove("is-active"));
+        panes.forEach((pane) => pane.classList.remove("is-active"));
+        tab.classList.add("is-active");
+        const pane = explorer.querySelector(`[data-explorer-pane=\"${key}\"]`);
+        if (pane) pane.classList.add("is-active");
+        tabs.forEach((t) => t.setAttribute("aria-selected", t === tab ? "true" : "false"));
+      });
     });
   });
 </script>

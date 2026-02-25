@@ -5,13 +5,13 @@
     "subtitle": "Positioning, interview prep, and offer strategy built for software engineering roles.",
     "supporting": "We clarify your level, refine your narrative, and build the interview signal that wins senior SWE offers.",
     "highlights": [
-      "Role targeting from Senior → Staff → Principal",
-      "Impact‑driven resume + LinkedIn",
+      "Role targeting from Senior \u2192 Staff \u2192 Principal",
+      "Impact\u2011driven resume + LinkedIn",
       "Interview + negotiation readiness"
     ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for backend, frontend, full‑stack, and platform engineers.",
+    "ctaProof": "Built for backend, frontend, full\u2011stack, and platform engineers.",
     "secondaryCtaLabel": "Get the Job Search System",
     "secondaryCtaLink": "https://askiatech.com/job-search-system",
     "visual": {
@@ -30,11 +30,11 @@
     },
     "proof": {
       "title": "Outcomes for software engineers",
-      "subtitle": "Senior‑signal positioning that generates interviews.",
+      "subtitle": "Senior\u2011signal positioning that generates interviews.",
       "items": [
         {
-          "title": "Senior → Staff",
-          "body": "Level‑up positioning built into your narrative."
+          "title": "Senior \u2192 Staff",
+          "body": "Level\u2011up positioning built into your narrative."
         },
         {
           "title": "Interview velocity",
@@ -97,16 +97,16 @@
     },
     "notFor": {
       "title": "Not a fit if",
-      "body": "You want generic career advice or entry‑level prep.",
+      "body": "You want generic career advice or entry\u2011level prep.",
       "items": [
-        "You’re early‑career with limited experience",
+        "You\u2019re early\u2011career with limited experience",
         "You want mass application tactics",
         "You want templates without strategy"
       ]
     },
     "deliverables": {
       "title": "What you get",
-      "subtitle": "Role‑specific assets and execution support.",
+      "subtitle": "Role\u2011specific assets and execution support.",
       "items": [
         {
           "title": "SWE positioning brief",
@@ -121,9 +121,9 @@
         {
           "title": "Resume + LinkedIn",
           "tag": "Signal",
-          "body": "Recruiter‑ready assets aligned to your target role.",
+          "body": "Recruiter\u2011ready assets aligned to your target role.",
           "bullets": [
-            "ATS‑clean resume",
+            "ATS\u2011clean resume",
             "LinkedIn rewrite",
             "Role keywords"
           ]
@@ -166,7 +166,7 @@
         },
         {
           "question": "How long does the process take?",
-          "answer": "Most clients see momentum in 2–6 weeks depending on package."
+          "answer": "Most clients see momentum in 2\u20136 weeks depending on package."
         },
         {
           "question": "Can you rewrite my resume?",
@@ -177,7 +177,7 @@
           "answer": "Yes. Negotiation planning is part of interview and coaching packages."
         },
         {
-          "question": "What if I’m changing companies but not level?",
+          "question": "What if I\u2019m changing companies but not level?",
           "answer": "We still position your impact to maximize comp and role quality."
         },
         {
@@ -234,7 +234,7 @@
         },
         {
           "title": "Platform scope",
-          "body": "Positioning that reflects org‑level impact."
+          "body": "Positioning that reflects org\u2011level impact."
         },
         {
           "title": "Offer leverage",
@@ -255,12 +255,12 @@
         {
           "tag": "Scope",
           "title": "Platform ownership",
-          "body": "Show cross‑org impact."
+          "body": "Show cross\u2011org impact."
         },
         {
           "tag": "Execution",
           "title": "Interview prep",
-          "body": "Incident narratives and system trade‑offs."
+          "body": "Incident narratives and system trade\u2011offs."
         }
       ]
     },
@@ -287,7 +287,7 @@
       "body": "DevOps, SRE, and platform engineers leveling up.",
       "items": [
         "Senior ICs and tech leads",
-        "Engineers targeting $120K–$300K roles",
+        "Engineers targeting $120K\u2013$300K roles",
         "Adjacent roles: cloud security, infrastructure, QA automation"
       ]
     },
@@ -295,14 +295,14 @@
       "title": "Not a fit if",
       "body": "You want generic resume templates.",
       "items": [
-        "You’re early‑career and building fundamentals",
+        "You\u2019re early\u2011career and building fundamentals",
         "You want mass application tactics",
-        "You don’t want role‑specific positioning"
+        "You don\u2019t want role\u2011specific positioning"
       ]
     },
     "deliverables": {
       "title": "What you get",
-      "subtitle": "DevOps‑specific positioning and prep.",
+      "subtitle": "DevOps\u2011specific positioning and prep.",
       "items": [
         {
           "title": "DevOps positioning",
@@ -317,9 +317,9 @@
         {
           "title": "Resume + LinkedIn",
           "tag": "Signal",
-          "body": "Recruiter‑ready assets aligned to DevOps roles.",
+          "body": "Recruiter\u2011ready assets aligned to DevOps roles.",
           "bullets": [
-            "ATS‑clean resume",
+            "ATS\u2011clean resume",
             "LinkedIn rewrite",
             "Infra keywords"
           ]
@@ -327,7 +327,7 @@
         {
           "title": "Interview prep",
           "tag": "Conversion",
-          "body": "Scenario‑based prep for infra and incident questions.",
+          "body": "Scenario\u2011based prep for infra and incident questions.",
           "bullets": [
             "Incident narratives",
             "System design framing",
@@ -357,12 +357,12 @@
           "answer": "Yes. We build system design narratives tied to infra outcomes."
         },
         {
-          "question": "What if I’m moving from IT to DevOps?",
-          "answer": "We translate your experience into DevOps‑aligned impact."
+          "question": "What if I\u2019m moving from IT to DevOps?",
+          "answer": "We translate your experience into DevOps\u2011aligned impact."
         },
         {
           "question": "How long does the process take?",
-          "answer": "Typical momentum appears within 2–6 weeks."
+          "answer": "Typical momentum appears within 2\u20136 weeks."
         },
         {
           "question": "Do you help with cloud certification stories?",
@@ -374,7 +374,7 @@
         },
         {
           "question": "Can you help with incident response storytelling?",
-          "answer": "Yes. We build narratives around reliability and trade‑offs."
+          "answer": "Yes. We build narratives around reliability and trade\u2011offs."
         },
         {
           "question": "Is this only for Big Tech?",
@@ -395,7 +395,7 @@
     "eyebrow": "Data career coaching",
     "h1": "Data Career Coaching for Analytics, Engineering, and Science",
     "subtitle": "Positioning for data engineering, analytics, and data science roles.",
-    "supporting": "We help you translate data impact into clear business outcomes and senior‑level signal.",
+    "supporting": "We help you translate data impact into clear business outcomes and senior\u2011level signal.",
     "highlights": [
       "Role targeting for DE/DS/Analytics",
       "Resume + LinkedIn aligned to business impact",
@@ -417,7 +417,7 @@
       "bullets": [
         "Business impact framing",
         "Metrics storytelling",
-        "Role‑level clarity"
+        "Role\u2011level clarity"
       ]
     },
     "proof": {
@@ -451,7 +451,7 @@
         {
           "tag": "Scope",
           "title": "Ownership signal",
-          "body": "Show end‑to‑end influence."
+          "body": "Show end\u2011to\u2011end influence."
         },
         {
           "tag": "Execution",
@@ -489,16 +489,16 @@
     },
     "notFor": {
       "title": "Not a fit if",
-      "body": "You’re looking for generic data career advice.",
+      "body": "You\u2019re looking for generic data career advice.",
       "items": [
-        "You’re early‑career and need foundational skills",
+        "You\u2019re early\u2011career and need foundational skills",
         "You want mass application tactics",
-        "You don’t want role‑specific positioning"
+        "You don\u2019t want role\u2011specific positioning"
       ]
     },
     "deliverables": {
       "title": "What you get",
-      "subtitle": "Data‑specific positioning and prep.",
+      "subtitle": "Data\u2011specific positioning and prep.",
       "items": [
         {
           "title": "Data positioning",
@@ -513,9 +513,9 @@
         {
           "title": "Resume + LinkedIn",
           "tag": "Signal",
-          "body": "Recruiter‑ready assets aligned to data roles.",
+          "body": "Recruiter\u2011ready assets aligned to data roles.",
           "bullets": [
-            "ATS‑clean resume",
+            "ATS\u2011clean resume",
             "LinkedIn rewrite",
             "Data keywords"
           ]
@@ -558,7 +558,7 @@
         },
         {
           "question": "How long does the process take?",
-          "answer": "Most clients see momentum in 2–6 weeks."
+          "answer": "Most clients see momentum in 2\u20136 weeks."
         },
         {
           "question": "Do you provide resume writing?",
@@ -574,7 +574,7 @@
         },
         {
           "question": "Do you work with leadership roles?",
-          "answer": "Yes. We help data leaders frame org‑level impact."
+          "answer": "Yes. We help data leaders frame org\u2011level impact."
         }
       ]
     },
@@ -585,7 +585,7 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "Data Career Coaching for Analytics, Engineering, and Science | Askia",
-    "metaDescription": "Data coaching that turns pipelines and insights into business outcomes and senior‑level signal."
+    "metaDescription": "Data coaching that turns pipelines and insights into business outcomes and senior\u2011level signal."
   },
   "productManager": {
     "eyebrow": "Product manager career coaching",
@@ -612,7 +612,7 @@
       "body": "Frame your product impact for strategy, execution, and leadership signal.",
       "bullets": [
         "Strategy narrative",
-        "Cross‑functional impact",
+        "Cross\u2011functional impact",
         "Metrics storytelling"
       ]
     },
@@ -622,7 +622,7 @@
       "items": [
         {
           "title": "Strategy signal",
-          "body": "Product narratives that show ownership and trade‑offs."
+          "body": "Product narratives that show ownership and trade\u2011offs."
         },
         {
           "title": "Execution clarity",
@@ -642,7 +642,7 @@
         {
           "tag": "Strategy",
           "title": "Product thinking",
-          "body": "Frame trade‑offs and decisions."
+          "body": "Frame trade\u2011offs and decisions."
         },
         {
           "tag": "Execution",
@@ -666,7 +666,7 @@
         },
         {
           "title": "Position",
-          "body": "Build narrative and role‑aligned assets."
+          "body": "Build narrative and role\u2011aligned assets."
         },
         {
           "title": "Execute",
@@ -687,14 +687,14 @@
       "title": "Not a fit if",
       "body": "You want generic PM advice without strategy.",
       "items": [
-        "You’re early‑career and building fundamentals",
+        "You\u2019re early\u2011career and building fundamentals",
         "You want mass application tactics",
-        "You don’t want role‑specific positioning"
+        "You don\u2019t want role\u2011specific positioning"
       ]
     },
     "deliverables": {
       "title": "What you get",
-      "subtitle": "Product‑specific positioning and prep.",
+      "subtitle": "Product\u2011specific positioning and prep.",
       "items": [
         {
           "title": "PM positioning",
@@ -709,9 +709,9 @@
         {
           "title": "Resume + LinkedIn",
           "tag": "Signal",
-          "body": "Recruiter‑ready assets aligned to PM roles.",
+          "body": "Recruiter\u2011ready assets aligned to PM roles.",
           "bullets": [
-            "ATS‑clean resume",
+            "ATS\u2011clean resume",
             "LinkedIn rewrite",
             "PM keywords"
           ]
@@ -754,7 +754,7 @@
         },
         {
           "question": "How long does the process take?",
-          "answer": "Most clients see momentum in 2–6 weeks."
+          "answer": "Most clients see momentum in 2\u20136 weeks."
         },
         {
           "question": "Do you provide resume writing?",
@@ -770,7 +770,7 @@
         },
         {
           "question": "Can you help with leadership roles?",
-          "answer": "Yes. We cover group PM and director‑level positioning."
+          "answer": "Yes. We cover group PM and director\u2011level positioning."
         }
       ]
     },
@@ -781,13 +781,13 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "Product Manager Coaching for Strategy and Execution | Askia",
-    "metaDescription": "PM coaching focused on roadmap signal, product metrics, and cross‑functional influence."
+    "metaDescription": "PM coaching focused on roadmap signal, product metrics, and cross\u2011functional influence."
   },
   "engineeringManager": {
     "eyebrow": "Engineering manager coaching",
     "h1": "Engineering Manager Coaching for Leadership and Scale",
     "subtitle": "Leadership positioning and interview strategy for engineering managers.",
-    "supporting": "We help you communicate org impact, leadership scope, and decision‑making that wins EM offers.",
+    "supporting": "We help you communicate org impact, leadership scope, and decision\u2011making that wins EM offers.",
     "highlights": [
       "Leadership narrative and scope",
       "Resume + LinkedIn aligned to EM roles",
@@ -795,7 +795,7 @@
     ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for engineering managers, directors, and exec‑track leaders.",
+    "ctaProof": "Built for engineering managers, directors, and exec\u2011track leaders.",
     "secondaryCtaLabel": "Get the Job Search System",
     "secondaryCtaLink": "https://askiatech.com/job-search-system",
     "visual": {
@@ -805,7 +805,7 @@
     },
     "heroCard": {
       "title": "Leadership signal upgrade",
-      "body": "Show your management impact, org scope, and decision‑making clearly.",
+      "body": "Show your management impact, org scope, and decision\u2011making clearly.",
       "bullets": [
         "Leadership narrative",
         "Org impact framing",
@@ -818,7 +818,7 @@
       "items": [
         {
           "title": "Leadership scope",
-          "body": "Positioning built around org‑level outcomes."
+          "body": "Positioning built around org\u2011level outcomes."
         },
         {
           "title": "Interview confidence",
@@ -832,7 +832,7 @@
     },
     "focus": {
       "eyebrow": "Leadership impact",
-      "title": "Show org‑level outcomes",
+      "title": "Show org\u2011level outcomes",
       "subtitle": "Position yourself as a leader, not a manager.",
       "items": [
         {
@@ -883,14 +883,14 @@
       "title": "Not a fit if",
       "body": "You want generic leadership advice.",
       "items": [
-        "You’re early‑career and building fundamentals",
+        "You\u2019re early\u2011career and building fundamentals",
         "You want mass application tactics",
-        "You don’t want leadership positioning"
+        "You don\u2019t want leadership positioning"
       ]
     },
     "deliverables": {
       "title": "What you get",
-      "subtitle": "Leadership‑level positioning and prep.",
+      "subtitle": "Leadership\u2011level positioning and prep.",
       "items": [
         {
           "title": "Leadership positioning",
@@ -898,16 +898,16 @@
           "body": "Define your management narrative and impact scope.",
           "bullets": [
             "Org impact",
-            "Decision‑making",
+            "Decision\u2011making",
             "Team outcomes"
           ]
         },
         {
           "title": "Resume + LinkedIn",
           "tag": "Signal",
-          "body": "Executive‑ready assets aligned to EM roles.",
+          "body": "Executive\u2011ready assets aligned to EM roles.",
           "bullets": [
-            "ATS‑clean resume",
+            "ATS\u2011clean resume",
             "LinkedIn rewrite",
             "Leadership keywords"
           ]
@@ -929,8 +929,8 @@
       "body": "Choose the deliverable that fits your stage.",
       "primaryLabel": "Land Your Next Role",
       "primaryLink": "/land-your-next-role/",
-      "secondaryLabel": "Executive Coaching",
-      "secondaryLink": "/executive-coaching/"
+      "secondaryLabel": "Core Services",
+      "secondaryLink": "/services/"
     },
     "faq": {
       "title": "Engineering manager coaching FAQs",
@@ -946,11 +946,11 @@
         },
         {
           "question": "Can you help with director roles?",
-          "answer": "Yes. We build executive‑level positioning for director and above."
+          "answer": "Yes. We build executive\u2011level positioning for director and above."
         },
         {
           "question": "How long does the process take?",
-          "answer": "Most clients see momentum in 2–6 weeks depending on scope."
+          "answer": "Most clients see momentum in 2\u20136 weeks depending on scope."
         },
         {
           "question": "Do you provide resume writing?",
@@ -961,7 +961,7 @@
           "answer": "Yes. Negotiation planning is part of coaching packages."
         },
         {
-          "question": "Do you cover org‑scale narratives?",
+          "question": "Do you cover org\u2011scale narratives?",
           "answer": "Yes. We focus on impact, scope, and leadership outcomes."
         },
         {
@@ -977,13 +977,13 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "Engineering Manager Coaching for Leadership and Scale | Askia",
-    "metaDescription": "Engineering manager coaching built around team leadership, delivery systems, and org‑level impact."
+    "metaDescription": "Engineering manager coaching built around team leadership, delivery systems, and org\u2011level impact."
   },
   "cybersecurity": {
     "eyebrow": "Cybersecurity career coaching",
     "h1": "Cybersecurity Coaching for Risk and Defense Roles",
     "subtitle": "Positioning, interview prep, and offer strategy for security roles.",
-    "supporting": "We translate security work into business‑critical impact and leadership signal.",
+    "supporting": "We translate security work into business\u2011critical impact and leadership signal.",
     "highlights": [
       "Security narrative",
       "Risk + impact framing",
@@ -1010,7 +1010,7 @@
     },
     "proof": {
       "title": "Outcomes for security roles",
-      "subtitle": "Make security impact visible to decision‑makers.",
+      "subtitle": "Make security impact visible to decision\u2011makers.",
       "items": [
         {
           "title": "Risk clarity",
@@ -1039,7 +1039,7 @@
         {
           "tag": "Scope",
           "title": "Ownership",
-          "body": "Demonstrate cross‑org influence."
+          "body": "Demonstrate cross\u2011org influence."
         },
         {
           "tag": "Execution",
@@ -1050,7 +1050,7 @@
     },
     "steps": {
       "title": "How security coaching works",
-      "subtitle": "Positioning → prep → offers.",
+      "subtitle": "Positioning \u2192 prep \u2192 offers.",
       "items": [
         {
           "title": "Define",
@@ -1080,12 +1080,12 @@
       "body": "You want generic career advice.",
       "items": [
         "No role targeting",
-        "Entry‑level guidance only"
+        "Entry\u2011level guidance only"
       ]
     },
     "deliverables": {
       "title": "What you get",
-      "subtitle": "Security‑specific positioning and prep.",
+      "subtitle": "Security\u2011specific positioning and prep.",
       "items": [
         {
           "title": "Security positioning",
@@ -1121,7 +1121,7 @@
         },
         {
           "question": "Is this for senior roles?",
-          "answer": "Yes, we focus on $120K–$300K roles."
+          "answer": "Yes, we focus on $120K\u2013$300K roles."
         },
         {
           "question": "Do you help with negotiation?",
@@ -1142,7 +1142,7 @@
     "eyebrow": "QA & test automation coaching",
     "h1": "QA & Test Automation Coaching for Quality Signal",
     "subtitle": "Positioning, interview prep, and offer strategy for QA and automation roles.",
-    "supporting": "We turn quality impact into leadership‑level signal.",
+    "supporting": "We turn quality impact into leadership\u2011level signal.",
     "highlights": [
       "Automation impact",
       "Quality signal",
@@ -1177,7 +1177,7 @@
         },
         {
           "title": "Scope signal",
-          "body": "Position cross‑team impact."
+          "body": "Position cross\u2011team impact."
         },
         {
           "title": "Offer leverage",
@@ -1188,7 +1188,7 @@
     "focus": {
       "eyebrow": "Quality impact",
       "title": "Elevate QA from support to strategy",
-      "subtitle": "We frame QA as a business‑critical function.",
+      "subtitle": "We frame QA as a business\u2011critical function.",
       "items": [
         {
           "tag": "Impact",
@@ -1197,7 +1197,7 @@
         },
         {
           "tag": "Scope",
-          "title": "Cross‑team influence",
+          "title": "Cross\u2011team influence",
           "body": "Show collaboration and leadership."
         },
         {
@@ -1209,7 +1209,7 @@
     },
     "steps": {
       "title": "How QA coaching works",
-      "subtitle": "Positioning → prep → offers.",
+      "subtitle": "Positioning \u2192 prep \u2192 offers.",
       "items": [
         {
           "title": "Define",
@@ -1239,12 +1239,12 @@
       "body": "You want a generic resume rewrite.",
       "items": [
         "No role targeting",
-        "Entry‑level only"
+        "Entry\u2011level only"
       ]
     },
     "deliverables": {
       "title": "What you get",
-      "subtitle": "QA‑specific positioning and prep.",
+      "subtitle": "QA\u2011specific positioning and prep.",
       "items": [
         {
           "title": "QA positioning",
@@ -1280,7 +1280,7 @@
         },
         {
           "question": "Is this for senior roles?",
-          "answer": "Yes, focused on $100K–$220K roles."
+          "answer": "Yes, focused on $100K\u2013$220K roles."
         },
         {
           "question": "Do you help with negotiation?",
@@ -1368,7 +1368,7 @@
     },
     "steps": {
       "title": "How design coaching works",
-      "subtitle": "Narrative → prep → offers.",
+      "subtitle": "Narrative \u2192 prep \u2192 offers.",
       "items": [
         {
           "title": "Define",
@@ -1398,12 +1398,12 @@
       "body": "You want generic portfolio feedback.",
       "items": [
         "No role targeting",
-        "Entry‑level only"
+        "Entry\u2011level only"
       ]
     },
     "deliverables": {
       "title": "What you get",
-      "subtitle": "Design‑specific positioning and prep.",
+      "subtitle": "Design\u2011specific positioning and prep.",
       "items": [
         {
           "title": "Portfolio strategy",
@@ -1443,7 +1443,7 @@
         },
         {
           "question": "Is this for senior roles?",
-          "answer": "Yes, focused on $100K–$250K."
+          "answer": "Yes, focused on $100K\u2013$250K."
         }
       ]
     },
@@ -1459,7 +1459,7 @@
   "solutionsArchitect": {
     "eyebrow": "Solutions architect coaching",
     "h1": "Solutions Architect Coaching for System Design and Scale",
-    "subtitle": "Positioning and interview prep for architecture and pre‑sales roles.",
+    "subtitle": "Positioning and interview prep for architecture and pre\u2011sales roles.",
     "supporting": "We turn technical depth into business impact narratives.",
     "highlights": [
       "Architecture signal",
@@ -1468,7 +1468,7 @@
     ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for SA, cloud architects, and pre‑sales roles.",
+    "ctaProof": "Built for SA, cloud architects, and pre\u2011sales roles.",
     "secondaryCtaLabel": "Get the Job Search System",
     "secondaryCtaLink": "https://askiatech.com/job-search-system",
     "visual": {
@@ -1495,7 +1495,7 @@
         },
         {
           "title": "Scope",
-          "body": "Show cross‑org influence."
+          "body": "Show cross\u2011org influence."
         },
         {
           "title": "Offer leverage",
@@ -1511,7 +1511,7 @@
         {
           "tag": "Story",
           "title": "System narratives",
-          "body": "Explain trade‑offs simply."
+          "body": "Explain trade\u2011offs simply."
         },
         {
           "tag": "Impact",
@@ -1527,7 +1527,7 @@
     },
     "steps": {
       "title": "How architect coaching works",
-      "subtitle": "Positioning → prep → offers.",
+      "subtitle": "Positioning \u2192 prep \u2192 offers.",
       "items": [
         {
           "title": "Define",
@@ -1545,11 +1545,11 @@
     },
     "for": {
       "title": "This is for",
-      "body": "Architect and pre‑sales roles.",
+      "body": "Architect and pre\u2011sales roles.",
       "items": [
         "Solutions architects",
         "Cloud architects",
-        "Pre‑sales engineers"
+        "Pre\u2011sales engineers"
       ]
     },
     "notFor": {
@@ -1557,19 +1557,19 @@
       "body": "You want generic advice.",
       "items": [
         "No role targeting",
-        "Entry‑level only"
+        "Entry\u2011level only"
       ]
     },
     "deliverables": {
       "title": "What you get",
-      "subtitle": "Architecture‑specific positioning.",
+      "subtitle": "Architecture\u2011specific positioning.",
       "items": [
         {
           "title": "Architecture narrative",
           "tag": "Core",
           "body": "Story aligned to outcomes.",
           "bullets": [
-            "Trade‑offs",
+            "Trade\u2011offs",
             "Impact",
             "Scope"
           ]
@@ -1589,7 +1589,7 @@
       "subtitle": "Quick answers.",
       "items": [
         {
-          "question": "Do you cover pre‑sales?",
+          "question": "Do you cover pre\u2011sales?",
           "answer": "Yes, including customer storytelling."
         },
         {
@@ -1598,7 +1598,7 @@
         },
         {
           "question": "Is this for senior roles?",
-          "answer": "Yes, $130K–$300K focus."
+          "answer": "Yes, $130K\u2013$300K focus."
         },
         {
           "question": "Do you help with negotiation?",
@@ -1613,13 +1613,13 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "Solutions Architect Coaching for System Design and Scale | Askia",
-    "metaDescription": "Solutions architect coaching centered on architecture trade‑offs, scale, and business impact."
+    "metaDescription": "Solutions architect coaching centered on architecture trade\u2011offs, scale, and business impact."
   },
   "technicalProgramManager": {
     "eyebrow": "Technical program manager coaching",
     "h1": "Technical Program Manager Coaching for Delivery at Scale",
     "subtitle": "Positioning and interview prep for TPM and program roles.",
-    "supporting": "We translate complex programs into leadership‑level impact.",
+    "supporting": "We translate complex programs into leadership\u2011level impact.",
     "highlights": [
       "Program impact",
       "Stakeholder signal",
@@ -1637,7 +1637,7 @@
     },
     "heroCard": {
       "title": "TPM signal",
-      "body": "Show cross‑org coordination and impact.",
+      "body": "Show cross\u2011org coordination and impact.",
       "bullets": [
         "Program outcomes",
         "Stakeholder leadership",
@@ -1654,7 +1654,7 @@
         },
         {
           "title": "Scope",
-          "body": "Demonstrate org‑wide influence."
+          "body": "Demonstrate org\u2011wide influence."
         },
         {
           "title": "Offer leverage",
@@ -1674,7 +1674,7 @@
         },
         {
           "tag": "Scope",
-          "title": "Cross‑org signal",
+          "title": "Cross\u2011org signal",
           "body": "Show influence and leadership."
         },
         {
@@ -1686,7 +1686,7 @@
     },
     "steps": {
       "title": "How TPM coaching works",
-      "subtitle": "Positioning → prep → offers.",
+      "subtitle": "Positioning \u2192 prep \u2192 offers.",
       "items": [
         {
           "title": "Define",
@@ -1716,12 +1716,12 @@
       "body": "You want generic advice.",
       "items": [
         "No role targeting",
-        "Entry‑level only"
+        "Entry\u2011level only"
       ]
     },
     "deliverables": {
       "title": "What you get",
-      "subtitle": "TPM‑specific positioning.",
+      "subtitle": "TPM\u2011specific positioning.",
       "items": [
         {
           "title": "Program narrative",
@@ -1748,12 +1748,12 @@
       "subtitle": "Quick answers.",
       "items": [
         {
-          "question": "Do you cover non‑technical PM roles?",
+          "question": "Do you cover non\u2011technical PM roles?",
           "answer": "Yes, we tailor to scope."
         },
         {
           "question": "Is this for senior roles?",
-          "answer": "Yes, $120K–$250K focus."
+          "answer": "Yes, $120K\u2013$250K focus."
         },
         {
           "question": "Do you help with negotiation?",
@@ -1798,7 +1798,7 @@
       "title": "Sales engineer signal",
       "body": "Show technical depth + customer outcomes.",
       "bullets": [
-        "Pre‑sales impact",
+        "Pre\u2011sales impact",
         "Customer wins",
         "Leadership signal"
       ]
@@ -1834,7 +1834,7 @@
         {
           "tag": "Scope",
           "title": "Customer influence",
-          "body": "Show cross‑functional leadership."
+          "body": "Show cross\u2011functional leadership."
         },
         {
           "tag": "Execution",
@@ -1845,7 +1845,7 @@
     },
     "steps": {
       "title": "How sales engineer coaching works",
-      "subtitle": "Positioning → prep → offers.",
+      "subtitle": "Positioning \u2192 prep \u2192 offers.",
       "items": [
         {
           "title": "Define",
@@ -1867,7 +1867,7 @@
       "items": [
         "Sales engineers",
         "Solutions consultants",
-        "Technical pre‑sales"
+        "Technical pre\u2011sales"
       ]
     },
     "notFor": {
@@ -1875,12 +1875,12 @@
       "body": "You want generic sales advice.",
       "items": [
         "No role targeting",
-        "Entry‑level only"
+        "Entry\u2011level only"
       ]
     },
     "deliverables": {
       "title": "What you get",
-      "subtitle": "Sales‑engineer positioning.",
+      "subtitle": "Sales\u2011engineer positioning.",
       "items": [
         {
           "title": "Revenue narrative",
@@ -1896,7 +1896,7 @@
     },
     "related": {
       "title": "Pair with LinkedIn optimization",
-      "body": "Pre‑sales roles need strong signal on LinkedIn.",
+      "body": "Pre\u2011sales roles need strong signal on LinkedIn.",
       "primaryLabel": "LinkedIn Optimization",
       "primaryLink": "/linkedin-optimization/",
       "secondaryLabel": "Interview Prep",
@@ -1912,7 +1912,7 @@
         },
         {
           "question": "Is this for senior roles?",
-          "answer": "Yes, $120K–$300K focus."
+          "answer": "Yes, $120K\u2013$300K focus."
         },
         {
           "question": "Do you help with negotiation?",
@@ -1930,7 +1930,7 @@
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Sales Engineer Coaching for Pre‑Sales Impact | Askia",
+    "metaTitle": "Sales Engineer Coaching for Pre\u2011Sales Impact | Askia",
     "metaDescription": "Sales engineer coaching focused on demo narrative, technical depth, and deal influence."
   },
   "customerSuccess": {
@@ -2004,7 +2004,7 @@
     },
     "steps": {
       "title": "How CS coaching works",
-      "subtitle": "Positioning → prep → offers.",
+      "subtitle": "Positioning \u2192 prep \u2192 offers.",
       "items": [
         {
           "title": "Define",
@@ -2034,12 +2034,12 @@
       "body": "You want generic career advice.",
       "items": [
         "No role targeting",
-        "Entry‑level only"
+        "Entry\u2011level only"
       ]
     },
     "deliverables": {
       "title": "What you get",
-      "subtitle": "CS‑specific positioning.",
+      "subtitle": "CS\u2011specific positioning.",
       "items": [
         {
           "title": "CS narrative",
@@ -2096,10 +2096,10 @@
     "eyebrow": "Product operations coaching",
     "h1": "Product Operations Coaching for Enablement",
     "subtitle": "Positioning and interview prep for product ops roles.",
-    "supporting": "We frame operational impact into leadership‑level signal.",
+    "supporting": "We frame operational impact into leadership\u2011level signal.",
     "highlights": [
       "Process impact",
-      "Cross‑org signal",
+      "Cross\u2011org signal",
       "Interview readiness"
     ],
     "ctaLabel": "Book a Call",
@@ -2114,7 +2114,7 @@
     },
     "heroCard": {
       "title": "Ops signal upgrade",
-      "body": "Show operational impact and cross‑team influence.",
+      "body": "Show operational impact and cross\u2011team influence.",
       "bullets": [
         "Process wins",
         "Stakeholder impact",
@@ -2131,7 +2131,7 @@
         },
         {
           "title": "Scope signal",
-          "body": "Show cross‑team influence."
+          "body": "Show cross\u2011team influence."
         },
         {
           "title": "Offer leverage",
@@ -2151,7 +2151,7 @@
         },
         {
           "tag": "Scope",
-          "title": "Cross‑org influence",
+          "title": "Cross\u2011org influence",
           "body": "Demonstrate leadership signal."
         },
         {
@@ -2163,7 +2163,7 @@
     },
     "steps": {
       "title": "How product ops coaching works",
-      "subtitle": "Positioning → prep → offers.",
+      "subtitle": "Positioning \u2192 prep \u2192 offers.",
       "items": [
         {
           "title": "Define",
@@ -2193,12 +2193,12 @@
       "body": "You want generic advice.",
       "items": [
         "No role targeting",
-        "Entry‑level only"
+        "Entry\u2011level only"
       ]
     },
     "deliverables": {
       "title": "What you get",
-      "subtitle": "Ops‑specific positioning.",
+      "subtitle": "Ops\u2011specific positioning.",
       "items": [
         {
           "title": "Ops narrative",
@@ -2225,7 +2225,7 @@
       "subtitle": "Quick answers.",
       "items": [
         {
-          "question": "Is this for non‑product ops?",
+          "question": "Is this for non\u2011product ops?",
           "answer": "Yes, for adjacent ops roles too."
         },
         {
@@ -2249,13 +2249,13 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "Product Operations Coaching for Enablement | Askia",
-    "metaDescription": "Product ops coaching focused on process clarity, enablement, and cross‑functional leverage."
+    "metaDescription": "Product ops coaching focused on process clarity, enablement, and cross\u2011functional leverage."
   },
   "projectProgramManagement": {
     "eyebrow": "Project & program management coaching",
     "h1": "Program & Project Management Coaching for Cross-Org Delivery",
     "subtitle": "Positioning and interview prep for project and program roles.",
-    "supporting": "We translate delivery leadership into executive‑ready signal.",
+    "supporting": "We translate delivery leadership into executive\u2011ready signal.",
     "highlights": [
       "Delivery impact",
       "Stakeholder signal",
@@ -2290,7 +2290,7 @@
         },
         {
           "title": "Scope signal",
-          "body": "Demonstrate cross‑org influence."
+          "body": "Demonstrate cross\u2011org influence."
         },
         {
           "title": "Offer leverage",
@@ -2322,7 +2322,7 @@
     },
     "steps": {
       "title": "How PM/PgM coaching works",
-      "subtitle": "Positioning → prep → offers.",
+      "subtitle": "Positioning \u2192 prep \u2192 offers.",
       "items": [
         {
           "title": "Define",
@@ -2352,12 +2352,12 @@
       "body": "You want generic advice.",
       "items": [
         "No role targeting",
-        "Entry‑level only"
+        "Entry\u2011level only"
       ]
     },
     "deliverables": {
       "title": "What you get",
-      "subtitle": "Delivery‑specific positioning.",
+      "subtitle": "Delivery\u2011specific positioning.",
       "items": [
         {
           "title": "Delivery narrative",
@@ -2384,7 +2384,7 @@
       "subtitle": "Quick answers.",
       "items": [
         {
-          "question": "Do you cover non‑technical PM roles?",
+          "question": "Do you cover non\u2011technical PM roles?",
           "answer": "Yes."
         },
         {
@@ -2407,7 +2407,7 @@
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Program & Project Management Coaching for Cross‑Org Delivery | Askia",
+    "metaTitle": "Program & Project Management Coaching for Cross\u2011Org Delivery | Askia",
     "metaDescription": "Program and project management coaching focused on delivery cadence, risk management, and executive communication."
   },
   "aiMl": {
@@ -2460,7 +2460,7 @@
     "focus": {
       "eyebrow": "Model impact",
       "title": "Translate models into outcomes",
-      "subtitle": "We frame AI/ML work for decision‑makers.",
+      "subtitle": "We frame AI/ML work for decision\u2011makers.",
       "items": [
         {
           "tag": "Impact",
@@ -2470,7 +2470,7 @@
         {
           "tag": "Scope",
           "title": "System signal",
-          "body": "Demonstrate end‑to‑end ownership."
+          "body": "Demonstrate end\u2011to\u2011end ownership."
         },
         {
           "tag": "Execution",
@@ -2481,7 +2481,7 @@
     },
     "steps": {
       "title": "How AI/ML coaching works",
-      "subtitle": "Positioning → prep → offers.",
+      "subtitle": "Positioning \u2192 prep \u2192 offers.",
       "items": [
         {
           "title": "Define",
@@ -2511,7 +2511,7 @@
       "body": "You want generic advice.",
       "items": [
         "No role targeting",
-        "Entry‑level only"
+        "Entry\u2011level only"
       ]
     },
     "deliverables": {
@@ -2548,7 +2548,7 @@
         },
         {
           "question": "Is this for senior roles?",
-          "answer": "Yes, $140K–$350K focus."
+          "answer": "Yes, $140K\u2013$350K focus."
         },
         {
           "question": "Do you help with negotiation?",

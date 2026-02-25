@@ -9,12 +9,8 @@ https://askia.tech/resume-writing/
 https://askia.tech/linkedin-optimization/
 https://askia.tech/interview-prep/
 https://askia.tech/salary-negotiation/
-https://askia.tech/executive-coaching/
-https://askia.tech/cover-letter-writing/
-https://askia.tech/mock-interviews/
 https://askia.tech/career-clarity/
 https://askia.tech/offer-strategy/
-https://askia.tech/ats-audit/
 https://askia.tech/software-engineer-career-coaching/
 https://askia.tech/devops-career-coaching/
 https://askia.tech/data-career-coaching/
@@ -791,7 +787,6 @@ https://askia.tech/blog/what-to-do-system-design-for-local-career-coaching-for-t
 https://askia.tech/blog/what-to-do-system-design-for-senior-roles-for-qa-test-automation/
 https://askia.tech/blog/why-no-interview-callbacks/
 https://askia.tech/blog/why-top-tech-rejects/
-
 https://askia.tech/finance-fpa-career-coaching/
 https://askia.tech/accounting-controller-coaching/
 https://askia.tech/marketing-career-coaching/

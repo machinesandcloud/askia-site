@@ -169,17 +169,12 @@
       "url": "/services/",
       "groups": [
         {
-          "label": "Packages",
+          "label": "Core Services",
           "items": [
             {
-              "label": "Packages Overview",
+              "label": "Core Services",
               "url": "/services/"
-            }
-          ]
-        },
-        {
-          "label": "Core A la carte",
-          "items": [
+            },
             {
               "label": "Resume Revision",
               "url": "/resume-writing/"
@@ -203,27 +198,6 @@
             {
               "label": "Salary Negotiation",
               "url": "/salary-negotiation/"
-            }
-          ]
-        },
-        {
-          "label": "Add-ons",
-          "items": [
-            {
-              "label": "Mock Interviews",
-              "url": "/mock-interviews/"
-            },
-            {
-              "label": "Cover Letter Writing",
-              "url": "/cover-letter-writing/"
-            },
-            {
-              "label": "ATS Audit",
-              "url": "/ats-audit/"
-            },
-            {
-              "label": "Executive Coaching",
-              "url": "/executive-coaching/"
             }
           ]
         }
