@@ -698,25 +698,49 @@
             const nameParts = fullName.split(/\s+/).filter(Boolean);
             const firstName = nameParts.shift() || "";
             const lastName = nameParts.join(" ");
-            const zohoPayload = new URLSearchParams();
-            zohoPayload.set("Name_First", firstName);
-            zohoPayload.set("Name_Last", lastName);
-            zohoPayload.set("Name", fullName);
-            zohoPayload.set("Email", String(formData.get("email") || ""));
-            zohoPayload.set("zf_referrer_name", document.referrer || "");
-            zohoPayload.set("zf_redirect_url", "");
-            zohoPayload.set("zc_gad", "");
+            const zohoPayload = {
+              Name_First: firstName,
+              Name_Last: lastName,
+              Name: fullName,
+              Email: String(formData.get("email") || ""),
+              zf_referrer_name: document.referrer || window.location.href,
+              zf_redirect_url: "",
+              zc_gad: ""
+            };
+            const submitZoho = () => {
+              const zohoForm = document.createElement("form");
+              zohoForm.method = "POST";
+              zohoForm.action = zohoEndpoint;
+              zohoForm.style.display = "none";
+              const iframeName = "zohoHiddenTarget";
+              let iframe = document.querySelector(`iframe[name="${iframeName}"]`);
+              if (!iframe) {
+                iframe = document.createElement("iframe");
+                iframe.name = iframeName;
+                iframe.style.display = "none";
+                document.body.appendChild(iframe);
+              }
+              zohoForm.target = iframeName;
+              Object.entries(zohoPayload).forEach(([key, value]) => {
+                const input = document.createElement("input");
+                input.type = "hidden";
+                input.name = key;
+                input.value = value || "";
+                zohoForm.appendChild(input);
+              });
+              document.body.appendChild(zohoForm);
+              zohoForm.submit();
+              setTimeout(() => {
+                zohoForm.remove();
+              }, 1000);
+            };
             fetch("/", {
               method: "POST",
               headers: { "Content-Type": "application/x-www-form-urlencoded" },
               body: new URLSearchParams(formData).toString()
             })
               .then(() => {
-                fetch(zohoEndpoint, {
-                  method: "POST",
-                  mode: "no-cors",
-                  body: zohoPayload
-                });
+                submitZoho();
                 if (submitMessage) submitMessage.textContent = "Success! Check your inbox.";
                 form.reset();
               })
