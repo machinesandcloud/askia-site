@@ -1,0 +1,21 @@
+{
+  "title": "Industries we support",
+  "subtitle": "We help professionals across every major industry build role signal and land offers faster.",
+  "items": [
+    { "label": "Technology", "slug": "technology-career-coaching", "note": "Product, engineering, data, and leadership" },
+    { "label": "Finance", "slug": "finance-career-coaching", "note": "FP&A, accounting, banking, and strategy" },
+    { "label": "Healthcare", "slug": "healthcare-career-coaching", "note": "Clinical ops, admin, and leadership" },
+    { "label": "Operations", "slug": "operations-career-coaching-industry", "note": "Program, ops, and execution roles" },
+    { "label": "Supply Chain", "slug": "supply-chain-career-coaching-industry", "note": "Logistics, procurement, and planning" },
+    { "label": "Sales", "slug": "sales-career-coaching-industry", "note": "Revenue, sales leadership, and growth" },
+    { "label": "Marketing", "slug": "marketing-career-coaching-industry", "note": "Brand, demand, and growth marketing" },
+    { "label": "Legal & Compliance", "slug": "legal-compliance-career-coaching-industry", "note": "Regulatory, risk, and legal ops" },
+    { "label": "HR & People", "slug": "hr-people-career-coaching-industry", "note": "People ops, talent, and leadership" },
+    { "label": "Consulting & Strategy", "slug": "consulting-strategy-career-coaching-industry", "note": "Advisory, strategy, and transformation" },
+    { "label": "Education", "slug": "education-career-coaching-industry", "note": "Higher ed and admin leadership" },
+    { "label": "Government & Public Sector", "slug": "government-career-coaching-industry", "note": "Public sector leadership and ops" },
+    { "label": "Real Estate", "slug": "real-estate-career-coaching-industry", "note": "Property, development, and ops" },
+    { "label": "Hospitality", "slug": "hospitality-career-coaching-industry", "note": "Operations, guest experience, and leadership" },
+    { "label": "Manufacturing", "slug": "manufacturing-career-coaching-industry", "note": "Plant ops, quality, and supply chain" }
+  ]
+}

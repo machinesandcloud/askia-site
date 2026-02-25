@@ -1,0 +1,306 @@
+{
+  "title": "All supported markets",
+  "subtitle": "We serve professionals across all industries with tailored coaching by role and level.",
+  "items": [
+    {
+      "label": "Houston",
+      "state": "TX",
+      "slug": "houston-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "New York City",
+      "state": "NY",
+      "slug": "new-york-city-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Los Angeles",
+      "state": "CA",
+      "slug": "los-angeles-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Chicago",
+      "state": "IL",
+      "slug": "chicago-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Dallas\u2013Fort Worth",
+      "state": "TX",
+      "slug": "dallas-fort-worth-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "San Francisco Bay Area",
+      "state": "CA",
+      "slug": "san-francisco-bay-area-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Austin",
+      "state": "TX",
+      "slug": "austin-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Seattle",
+      "state": "WA",
+      "slug": "seattle-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Boston",
+      "state": "MA",
+      "slug": "boston-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Washington, DC",
+      "state": "DC",
+      "slug": "washington-dc-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Atlanta",
+      "state": "GA",
+      "slug": "atlanta-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Miami",
+      "state": "FL",
+      "slug": "miami-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Denver",
+      "state": "CO",
+      "slug": "denver-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Phoenix",
+      "state": "AZ",
+      "slug": "phoenix-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Philadelphia",
+      "state": "PA",
+      "slug": "philadelphia-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Minneapolis\u2013St. Paul",
+      "state": "MN",
+      "slug": "minneapolis-st-paul-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "San Diego",
+      "state": "CA",
+      "slug": "san-diego-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Detroit",
+      "state": "MI",
+      "slug": "detroit-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Tampa\u2013St. Petersburg",
+      "state": "FL",
+      "slug": "tampa-st-petersburg-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Orlando",
+      "state": "FL",
+      "slug": "orlando-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Raleigh\u2013Durham",
+      "state": "NC",
+      "slug": "raleigh-durham-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Charlotte",
+      "state": "NC",
+      "slug": "charlotte-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Nashville",
+      "state": "TN",
+      "slug": "nashville-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Columbus",
+      "state": "OH",
+      "slug": "columbus-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Cleveland",
+      "state": "OH",
+      "slug": "cleveland-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Cincinnati",
+      "state": "OH",
+      "slug": "cincinnati-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Pittsburgh",
+      "state": "PA",
+      "slug": "pittsburgh-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "St. Louis",
+      "state": "MO",
+      "slug": "st-louis-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Kansas City",
+      "state": "MO",
+      "slug": "kansas-city-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Indianapolis",
+      "state": "IN",
+      "slug": "indianapolis-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Milwaukee",
+      "state": "WI",
+      "slug": "milwaukee-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "New Orleans",
+      "state": "LA",
+      "slug": "new-orleans-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "San Antonio",
+      "state": "TX",
+      "slug": "san-antonio-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Portland",
+      "state": "OR",
+      "slug": "portland-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Sacramento",
+      "state": "CA",
+      "slug": "sacramento-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Las Vegas",
+      "state": "NV",
+      "slug": "las-vegas-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Salt Lake City",
+      "state": "UT",
+      "slug": "salt-lake-city-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Baltimore",
+      "state": "MD",
+      "slug": "baltimore-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Richmond",
+      "state": "VA",
+      "slug": "richmond-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Virginia Beach",
+      "state": "VA",
+      "slug": "virginia-beach-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Jacksonville",
+      "state": "FL",
+      "slug": "jacksonville-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Memphis",
+      "state": "TN",
+      "slug": "memphis-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Oklahoma City",
+      "state": "OK",
+      "slug": "oklahoma-city-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Albuquerque",
+      "state": "NM",
+      "slug": "albuquerque-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Louisville",
+      "state": "KY",
+      "slug": "louisville-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Birmingham",
+      "state": "AL",
+      "slug": "birmingham-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Hartford",
+      "state": "CT",
+      "slug": "hartford-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Providence",
+      "state": "RI",
+      "slug": "providence-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Buffalo",
+      "state": "NY",
+      "slug": "buffalo-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    },
+    {
+      "label": "Rochester",
+      "state": "NY",
+      "slug": "rochester-career-coaching",
+      "note": "Role targeting, positioning, and offer strategy"
+    }
+  ]
+}

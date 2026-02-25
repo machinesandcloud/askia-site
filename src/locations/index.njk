@@ -20,6 +20,19 @@ breadcrumbs:
 </section>
 
 {% include "locations-band.njk" %}
+<section class="section">
+  <div class="container">
+    <div class="location-grid">
+      {% for item in cities.items %}
+      <a class="location-card" href="/{{ item.slug }}/">
+        <strong>{{ item.label }}</strong>
+        <span>{{ item.note }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% include "industries-band.njk" %}
 {% include "role-directory.njk" %}
 
 <section class="section">

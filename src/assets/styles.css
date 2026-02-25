@@ -2559,6 +2559,44 @@ body.pricing-focus {
   margin-top: 18px;
 }
 
+/* Industry band */
+.industry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.industry-card {
+  padding: 16px 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(150deg, rgba(12, 20, 30, 0.8), rgba(8, 12, 18, 0.35));
+  box-shadow: 0 16px 34px rgba(7, 10, 15, 0.35);
+  display: grid;
+  gap: 6px;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.industry-card strong {
+  color: #f4f7fb;
+}
+
+.industry-card span {
+  color: rgba(214, 226, 243, 0.8);
+  font-size: 0.95rem;
+}
+
+.industry-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(114, 214, 255, 0.3);
+  box-shadow: 0 20px 40px rgba(7, 10, 15, 0.4);
+}
+
+.industry-cta {
+  margin-top: 18px;
+}
+
 /* Stacked card layout for deliverables + samples */
 .stacked-list {
   display: grid;

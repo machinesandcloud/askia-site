@@ -51,6 +51,10 @@
             {
               "label": "Locations",
               "url": "/locations/"
+            },
+            {
+              "label": "Industries",
+              "url": "/industries/"
             }
           ]
         },

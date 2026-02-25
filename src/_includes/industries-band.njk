@@ -1,0 +1,20 @@
+<section class="section industries-band">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Industries</p>
+      <h2 class="section-title section-title-glow">{{ industries.title }}</h2>
+      {% if industries.subtitle %}<p class="section-subtitle">{{ industries.subtitle }}</p>{% endif %}
+    </div>
+    <div class="industry-grid">
+      {% for item in industries.items %}
+      <a class="industry-card" href="/industries/{{ item.slug }}/">
+        <strong>{{ item.label }}</strong>
+        <span>{{ item.note }}</span>
+      </a>
+      {% endfor %}
+    </div>
+    <div class="industry-cta">
+      <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+    </div>
+  </div>
+</section>
