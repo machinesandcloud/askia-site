@@ -15,15 +15,9 @@
         </div>
       </div>
       <div class="band-panel" data-collapsible-panel>
-        <div class="industry-grid">
+        <div class="industry-line" aria-label="Industries">
           {% for item in industries.items %}
-          <a class="industry-card reveal-item" href="/industries/{{ item.slug }}/">
-            <div class="industry-card-header">
-              <span class="industry-dot"></span>
-              <strong>{{ item.label }}</strong>
-            </div>
-            <span>{{ item.note }}</span>
-          </a>
+          <a class="industry-line-item reveal-item" href="/industries/{{ item.slug }}/">{{ item.label }}</a>
           {% endfor %}
         </div>
       </div>

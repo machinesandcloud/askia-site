@@ -15,19 +15,11 @@
         </div>
       </div>
       <div class="band-panel" data-collapsible-panel>
-        <div class="role-directory-grid">
+        <div class="role-line" aria-label="Role tracks">
           {% for group in roleDirectory.groups %}
-          <div class="role-directory-group reveal-item">
-            <div class="role-directory-group-header">
-              <span class="role-directory-dot"></span>
-              <strong>{{ group.label }}</strong>
-            </div>
-            <div class="role-directory-list">
-              {% for item in group.items %}
-              <a class="role-directory-item" href="{{ item.url }}">{{ item.label }}</a>
-              {% endfor %}
-            </div>
-          </div>
+            {% for item in group.items %}
+            <a class="role-line-item reveal-item" href="{{ item.url }}">{{ item.label }}</a>
+            {% endfor %}
           {% endfor %}
         </div>
       </div>
