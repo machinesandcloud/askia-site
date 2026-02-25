@@ -2154,6 +2154,7 @@ body.pricing-focus {
   justify-content: space-between;
   gap: 24px;
   margin-bottom: 24px;
+  position: relative;
 }
 
 .services-core-grid {
@@ -2173,6 +2174,9 @@ body.pricing-focus {
   flex-direction: column;
   gap: 12px;
   min-height: 190px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .services-core-card-top {
@@ -2193,6 +2197,46 @@ body.pricing-focus {
 
 .services-core-actions {
   margin-top: auto;
+}
+
+.services-core-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 70% 20%, rgba(255, 255, 255, 0.12), transparent 45%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.services-core-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 40px rgba(7, 10, 15, 0.35);
+}
+
+.services-core-card:hover::after {
+  opacity: 1;
+}
+
+.services-core-orbit {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.services-core-orbit span {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(114, 214, 255, 0.6);
+  animation: orbitPulse 2.4s ease infinite;
+}
+
+.services-core-orbit span:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.services-core-orbit span:nth-child(3) {
+  animation-delay: 0.8s;
 }
 
 .services-tracks {
@@ -2255,6 +2299,11 @@ body.pricing-focus {
   animation-duration: 26s;
 }
 
+.services-track-row.slow .services-track-track {
+  animation-duration: 32s;
+  opacity: 0.8;
+}
+
 .services-track-row span {
   display: inline-flex;
   padding: 8px 14px;
@@ -2263,6 +2312,12 @@ body.pricing-focus {
   background: rgba(255, 255, 255, 0.04);
   color: rgba(244, 247, 251, 0.85);
   font-size: 0.85rem;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.services-track-row span:hover {
+  transform: translateY(-2px);
+  border-color: rgba(114, 214, 255, 0.35);
 }
 
 .services-track-marquee:hover .services-track-track {
@@ -2292,6 +2347,8 @@ body.pricing-focus {
   background: rgba(10, 16, 24, 0.75);
   display: grid;
   gap: 10px;
+  position: relative;
+  overflow: hidden;
 }
 
 .services-outcome-card span {
@@ -2309,6 +2366,22 @@ body.pricing-focus {
   box-shadow: 0 20px 40px rgba(7, 10, 15, 0.35);
 }
 
+.services-outcomes-rail {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 18px;
+  color: rgba(210, 236, 255, 0.65);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+@keyframes orbitPulse {
+  0%, 100% { transform: scale(1); opacity: 0.6; }
+  50% { transform: scale(1.6); opacity: 1; }
+}
+
 @media (max-width: 980px) {
   .services-grid-cards {
     grid-auto-columns: minmax(240px, 1fr);
@@ -2323,6 +2396,11 @@ body.pricing-focus {
   .services-track-marquee::before,
   .services-track-marquee::after {
     width: 60px;
+  }
+
+  .services-outcomes-rail {
+    flex-wrap: wrap;
+    text-align: center;
   }
 }
 
