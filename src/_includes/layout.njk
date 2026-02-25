@@ -694,14 +694,19 @@
             const formData = new FormData(form);
             const zohoEndpoint =
               "https://forms.zohopublic.com/askiacareercoaching/form/EmailSubscription/formperma/XOr27__CMBFvi0xWTTr_c2_D7RsJqTh_71SQajXbm1I/htmlRecords/submit";
+            const zohoFormName = "EmailSubscription";
+            const zohoFormPerma = "XOr27__CMBFvi0xWTTr_c2_D7RsJqTh_71SQajXbm1I";
             const fullName = String(formData.get("name") || "").trim();
             const nameParts = fullName.split(/\s+/).filter(Boolean);
             const firstName = nameParts.shift() || "";
             const lastName = nameParts.join(" ");
             const zohoPayload = {
-              Name_First: firstName,
-              Name_Last: lastName,
-              Name: fullName,
+              formName: zohoFormName,
+              formPerma: zohoFormPerma,
+              formType: "0",
+              isPaymentForm: "false",
+              isDocsPublicForm: "false",
+              Name: [firstName, lastName].filter(Boolean),
               Email: String(formData.get("email") || ""),
               zf_referrer_name: document.referrer || window.location.href,
               zf_redirect_url: "",
@@ -725,8 +730,16 @@
                 const input = document.createElement("input");
                 input.type = "hidden";
                 input.name = key;
-                input.value = value || "";
-                zohoForm.appendChild(input);
+                if (Array.isArray(value)) {
+                  value.forEach((item) => {
+                    const clone = input.cloneNode();
+                    clone.value = item || "";
+                    zohoForm.appendChild(clone);
+                  });
+                } else {
+                  input.value = value || "";
+                  zohoForm.appendChild(input);
+                }
               });
               document.body.appendChild(zohoForm);
               zohoForm.submit();

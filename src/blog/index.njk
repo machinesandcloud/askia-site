@@ -148,10 +148,24 @@ breadcrumbs:
   (() => {
     const filters = document.querySelectorAll("[data-filter]");
     const cards = Array.from(document.querySelectorAll("[data-blog-card]"));
+    const grid = document.querySelector("[data-blog-grid]");
     const empty = document.querySelector("[data-blog-empty]");
     const search = document.querySelector("[data-blog-search]");
 
     if (!filters.length || !cards.length) return;
+
+    const shuffle = (list) => {
+      for (let i = list.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [list[i], list[j]] = [list[j], list[i]];
+      }
+      return list;
+    };
+
+    if (grid) {
+      shuffle(cards);
+      cards.forEach((card) => grid.appendChild(card));
+    }
 
     let activeFilter = "all";
     let query = "";
