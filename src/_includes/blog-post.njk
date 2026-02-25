@@ -66,7 +66,10 @@ layout: layout.njk
     <div class="container">
       <h2 class="section-title section-title-glow">Related reads</h2>
       <div class="blog-grid">
-        {% set primaryCategory = (categories and categories.length) ? categories[0] : "" %}
+        {% set primaryCategory = "" %}
+        {% if categories and categories.length %}
+          {% set primaryCategory = categories[0] %}
+        {% endif %}
         {% set relatedCount = 0 %}
         {% for post in collections.blog | reverse %}
           {% if post.url != page.url and relatedCount < 6 %}
