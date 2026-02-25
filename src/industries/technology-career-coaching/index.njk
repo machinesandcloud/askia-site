@@ -86,11 +86,60 @@ breadcrumbs:
     "name": "Technology career coaching",
     "provider": {
       "@type": "Organization",
-      "name": "Askia",
-      "url": "{{ site.url }}"
+      "name": "{{ site.name }}",
+      "url": "{{ site.url }}",
+      "telephone": "{{ site.contact.phone }}",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ site.contact.streetAddress }}",
+        "addressLocality": "{{ site.contact.addressLocality }}",
+        "addressRegion": "{{ site.contact.addressRegion }}",
+        "postalCode": "{{ site.contact.postalCode }}",
+        "addressCountry": "{{ site.contact.addressCountry }}"
+      }
     },
     "areaServed": "United States",
     "serviceType": "Career coaching",
     "description": "Career coaching for Technology professionals targeting $100K–$350K roles."
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do you support all role types in Technology?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We support all roles listed on the site and tailor the plan to your function and level."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do you tailor for Technology hiring?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We map the market signals, scope expectations, and interview loops common in Technology roles."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is coaching remote?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We work remotely and align the plan to your target market and company mix."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I get started?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Book a call and we will map the fastest path to your next offer."
+        }
+      }
+    ]
   }
 </script>

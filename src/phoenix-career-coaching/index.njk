@@ -67,6 +67,7 @@ breadcrumbs:
 
 {% include "role-directory.njk" %}
 {% include "locations-band.njk" %}
+{% include "industries-band.njk" %}
 
 <section class="section">
   <div class="container cta-band">
@@ -82,16 +83,60 @@ breadcrumbs:
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Askia",
+    "name": "{{ site.name }}",
     "url": "{{ site.url }}{{ page.url }}",
-    "areaServed": [
-      {
-        "@type": "Place",
-        "name": "Phoenix"
-      }
-    ],
+    "telephone": "{{ site.contact.phone }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ site.contact.streetAddress }}",
+      "addressLocality": "{{ site.contact.addressLocality }}",
+      "addressRegion": "{{ site.contact.addressRegion }}",
+      "postalCode": "{{ site.contact.postalCode }}",
+      "addressCountry": "{{ site.contact.addressCountry }}"
+    },
+    "areaServed": [{"@type":"Place","name":"Phoenix"}],
     "serviceArea": ["Phoenix", "United States"],
     "serviceType": "Career coaching",
     "description": "Career coaching in Phoenix for professionals targeting $100K–$350K roles across all industries."
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do you work with all industries in Phoenix?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We support professionals across tech, finance, operations, healthcare, sales, marketing, and leadership roles."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is coaching remote or in person?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We work remotely and tailor the plan to the hiring market in Phoenix."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What roles do you support in Phoenix?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We support every role track listed on the site, from IC to leadership."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I get started?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Book a call and we will map the fastest path to your target role."
+        }
+      }
+    ]
   }
 </script>
