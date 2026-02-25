@@ -1,7 +1,7 @@
 {
   "name": "Askia",
   "url": "https://askia.tech",
-  "brandLine": "Land your next $100K\u2013$350K role in Tech",
+  "brandLine": "Land your next $100K\u2013$350K role in tech, business, and healthcare",
   "heroImages": [
     {
       "src": "/assets/hero/askia-hero-1.jpg",
@@ -114,6 +114,51 @@
               "url": "/ai-ml-career-coaching/"
             }
           ]
+        },
+        {
+          "label": "Business & Operations",
+          "items": [
+            {
+              "label": "Finance & FP&A",
+              "url": "/finance-fpa-career-coaching/"
+            },
+            {
+              "label": "Accounting & Controller",
+              "url": "/accounting-controller-coaching/"
+            },
+            {
+              "label": "Marketing & Growth",
+              "url": "/marketing-career-coaching/"
+            },
+            {
+              "label": "Sales",
+              "url": "/sales-career-coaching/"
+            },
+            {
+              "label": "Operations",
+              "url": "/operations-career-coaching/"
+            },
+            {
+              "label": "Supply Chain",
+              "url": "/supply-chain-career-coaching/"
+            },
+            {
+              "label": "People Ops & HR",
+              "url": "/people-ops-career-coaching/"
+            },
+            {
+              "label": "Strategy & Consulting",
+              "url": "/strategy-consulting-career-coaching/"
+            },
+            {
+              "label": "Healthcare Admin",
+              "url": "/healthcare-administration-career-coaching/"
+            },
+            {
+              "label": "Legal & Compliance",
+              "url": "/legal-compliance-career-coaching/"
+            }
+          ]
         }
       ]
     },
@@ -193,6 +238,7 @@
     "email": "support@askia.tech"
   },
   "footer": {
-    "note": "\u00a9 2026 Askia. All rights reserved."
+    "note": "\u00a9 2026 Askia. All rights reserved.",
+    "subnote": "Supporting tech and non\u2011tech professionals across finance, healthcare, operations, sales, and leadership."
   }
 }

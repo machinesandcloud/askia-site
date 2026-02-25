@@ -457,6 +457,32 @@
 </section>
 {% endif %}
 
+{% if page.roleCoverage %}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">{{ page.roleCoverage.eyebrow }}</p>
+      <h2 class="section-title section-title-glow">{{ page.roleCoverage.title }}</h2>
+      {% if page.roleCoverage.subtitle %}<p class="section-subtitle">{{ page.roleCoverage.subtitle }}</p>{% endif %}
+    </div>
+    <div class="service-stack">
+      {% for group in page.roleCoverage.groups %}
+        <div class="service-tile">
+          <div class="service-header">
+            <h3>{{ group.title }}</h3>
+          </div>
+          <ul>
+            {% for item in group.items %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
 <section class="section">
   <div class="container card">
     <h2 class="section-title">{{ page.related.title }}</h2>

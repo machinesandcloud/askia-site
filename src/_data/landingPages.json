@@ -1,17 +1,17 @@
 {
   "landNextRole": {
     "eyebrow": "Career coaching",
-    "h1": "Land the right‑level role",
+    "h1": "Land the right\u2011level role",
     "subtitle": "Positioning + interview execution that gets you hired faster.",
     "supporting": "We build your narrative, market signal, and offer strategy so the right roles convert.",
     "highlights": [
       "Role + compensation targeting tied to your strengths",
-      "Resume + LinkedIn that generate decision‑maker response",
+      "Resume + LinkedIn that generate decision\u2011maker response",
       "Interview and negotiation strategy that closes"
     ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "15‑min fit check · No pressure · Clear next steps",
+    "ctaProof": "15\u2011min fit check \u00b7 No pressure \u00b7 Clear next steps",
     "secondaryCtaLabel": "Get the Job Search System",
     "secondaryCtaLink": "https://askiatech.com/job-search-system",
     "visual": {
@@ -45,11 +45,11 @@
     ],
     "heroStats": [
       {
-        "value": "$100K–$350K",
-        "label": "Offer ranges across high‑impact roles"
+        "value": "$100K\u2013$350K",
+        "label": "Offer ranges across high\u2011impact roles"
       },
       {
-        "value": "2–6 weeks",
+        "value": "2\u20136 weeks",
         "label": "Typical time to interview momentum"
       },
       {
@@ -63,11 +63,11 @@
         "body": "Target role + comp band with precision."
       },
       {
-        "tag": "Week 2–3",
+        "tag": "Week 2\u20133",
         "body": "Rewrite narrative, resume, and LinkedIn."
       },
       {
-        "tag": "Week 4–6",
+        "tag": "Week 4\u20136",
         "body": "Interview execution + offer strategy."
       }
     ],
@@ -78,8 +78,8 @@
       }
     ],
     "heroCard": {
-      "title": "What you get in 2–6 weeks",
-      "body": "A focused system that upgrades your narrative, market signal, and execution — so you can land the right level.",
+      "title": "What you get in 2\u20136 weeks",
+      "body": "A focused system that upgrades your narrative, market signal, and execution \u2014 so you can land the right level.",
       "bullets": [
         "Clear role definition + comp positioning",
         "Recruiter-ready brand assets",
@@ -91,22 +91,22 @@
       "subtitle": "Outcomes across senior IC, manager, and leadership paths.",
       "items": [
         {
-          "title": "$100K–$350K",
-          "body": "Offer ranges achieved by clients across high‑impact roles."
+          "title": "$100K\u2013$350K",
+          "body": "Offer ranges achieved by clients across high\u2011impact roles."
         },
         {
-          "title": "2–6 weeks",
+          "title": "2\u20136 weeks",
           "body": "Typical window to see interview momentum with the right signal."
         },
         {
           "title": "Hiring-table insight",
-          "body": "Built from real hiring decisions across technical and business teams."
+          "body": "Built from real hiring decisions across technical, business, and healthcare teams."
         }
       ]
     },
     "testimonials": {
       "title": "Real outcomes from professionals",
-      "subtitle": "Recent wins across technical, product, operations, and leadership roles.",
+      "subtitle": "Recent wins across technical, business, healthcare, and leadership roles.",
       "indexes": [
         1,
         3,
@@ -129,18 +129,18 @@
     "coach": {
       "eyebrow": "Your coach",
       "name": "Steve J. Ngoumnai",
-      "role": "Founder · Career Strategist",
+      "role": "Founder \u00b7 Career Strategist",
       "photo": "/assets/team/steve-2026.jpg",
-      "bio": "Steve is a former engineering leader who built Askia to solve a simple problem: top talent shouldn’t be invisible. His approach blends real hiring‑table insight with crisp positioning and execution‑focused coaching.",
+      "bio": "Steve is a former engineering leader who built Askia to solve a simple problem: top talent shouldn\u2019t be invisible. His approach blends real hiring\u2011table insight with crisp positioning and execution\u2011focused coaching.",
       "bullets": [
         "Former engineering leader",
-        "Hiring‑table insight",
+        "Hiring\u2011table insight",
         "Signal + execution coaching"
       ]
     },
     "focus": {
       "eyebrow": "Salvation moment",
-      "title": "From stalled to offer‑ready",
+      "title": "From stalled to offer\u2011ready",
       "subtitle": "We turn uncertainty into a plan you can feel.",
       "items": [
         {
@@ -151,7 +151,7 @@
         {
           "tag": "Signal",
           "title": "Be seen",
-          "body": "Turn your experience into recruiter‑ready narrative and assets."
+          "body": "Turn your experience into recruiter\u2011ready narrative and assets."
         },
         {
           "tag": "Momentum",
@@ -181,7 +181,7 @@
     "call": {
       "eyebrow": "What to expect",
       "title": "What happens on the strategy call",
-      "subtitle": "You’ll leave with a clear plan — even if we’re not a fit.",
+      "subtitle": "You\u2019ll leave with a clear plan \u2014 even if we\u2019re not a fit.",
       "steps": [
         {
           "title": "Goal + role alignment",
@@ -196,25 +196,25 @@
           "body": "You get a scoped path, timeline, and next steps."
         }
       ],
-      "note": "No pressure. If we’re not the right fit, we’ll tell you and still send you forward with a plan."
+      "note": "No pressure. If we\u2019re not the right fit, we\u2019ll tell you and still send you forward with a plan."
     },
     "for": {
       "title": "This is for",
-      "body": "Professionals who want a higher‑level role and a cleaner path to offers.",
+      "body": "Professionals who want a higher\u2011level role and a cleaner path to offers.",
       "items": [
-        "Senior ICs and emerging leaders",
-        "Technical, product, operations, and customer‑facing roles",
-        "Business, finance, healthcare, and growth teams",
-        "Project, program, and people leaders",
-        "Professionals targeting higher‑level compensation"
+        "Senior ICs, managers, and emerging leaders",
+        "Tech, data, product, and security roles",
+        "Finance, operations, marketing, and sales roles",
+        "Healthcare administration and clinical leadership",
+        "Professionals targeting $100K\u2013$350K compensation"
       ]
     },
     "notFor": {
       "title": "Not a fit if",
-      "body": "We’re not a generic resume mill or a broad career advice blog.",
+      "body": "We\u2019re not a generic resume mill or a broad career advice blog.",
       "items": [
         "You want mass applying without a strategy",
-        "You’re early‑career and need foundational skills",
+        "You\u2019re early\u2011career and need foundational skills",
         "You want a quick template with no guidance"
       ]
     },
@@ -306,12 +306,12 @@
       "subtitle": "Engagements are scoped to your target level and timeline.",
       "items": [
         "Most clients start with Positioning Blueprint + Brand Assets, then add interview/offer support as interviews begin.",
-        "You’ll receive a clear scope, timeline, and investment after the call."
+        "You\u2019ll receive a clear scope, timeline, and investment after the call."
       ]
     },
     "risk": {
-      "title": "No‑pressure decision",
-      "body": "If we’re not the right fit, we’ll tell you quickly and still give you next steps.",
+      "title": "No\u2011pressure decision",
+      "body": "If we\u2019re not the right fit, we\u2019ll tell you quickly and still give you next steps.",
       "items": [
         "Clear action plan you can execute",
         "Referrals to the right resource if needed"
@@ -331,23 +331,23 @@
       "items": [
         {
           "question": "What roles do you specialize in?",
-          "answer": "We support professionals across technical, product, operations, sales, finance, healthcare, and leadership roles. If you’re unsure, we’ll confirm fit on the call."
+          "answer": "We support professionals across tech, finance, operations, sales, marketing, healthcare administration, and leadership roles. If you\u2019re unsure, we\u2019ll confirm fit on the call."
         },
         {
           "question": "How quickly can I see results?",
-          "answer": "Most clients see interview momentum within 2–6 weeks once positioning is dialed in."
+          "answer": "Most clients see interview momentum within 2\u20136 weeks once positioning is dialed in."
         },
         {
           "question": "Do you guarantee offers?",
-          "answer": "We don’t control hiring decisions, but we guarantee a clear strategy, aligned materials, and execution support."
+          "answer": "We don\u2019t control hiring decisions, but we guarantee a clear strategy, aligned materials, and execution support."
         },
         {
           "question": "Is this only for leaders?",
           "answer": "No. We work with senior ICs, managers, and leaders. Your level determines the strategy and deliverables."
         },
         {
-          "question": "What if I’m unsure of my next role?",
-          "answer": "That’s common. We start by narrowing role families and positioning based on your strengths and market demand."
+          "question": "What if I\u2019m unsure of my next role?",
+          "answer": "That\u2019s common. We start by narrowing role families and positioning based on your strengths and market demand."
         },
         {
           "question": "Can you help with negotiation?",
@@ -355,21 +355,158 @@
         },
         {
           "question": "Do you offer resume-only work?",
-          "answer": "Yes — but it’s built around role targeting and market signal, not just formatting."
+          "answer": "Yes \u2014 but it\u2019s built around role targeting and market signal, not just formatting."
         },
         {
           "question": "How do I get started?",
-          "answer": "Book a call and we’ll map the shortest path to your target role."
+          "answer": "Book a call and we\u2019ll map the shortest path to your target role."
         }
       ]
     },
     "cta": {
       "title": "Land a role that matches your level",
-      "body": "Book a strategy call and we’ll build the plan.",
+      "body": "Book a strategy call and we\u2019ll build the plan.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Land the Right‑Level Role | Askia",
-    "metaDescription": "Outcome‑focused career coaching to refine your signal, interviews, and offer strategy."
+    "metaTitle": "Land the Right\u2011Level Role | Askia",
+    "metaDescription": "Outcome\u2011focused career coaching to refine your signal, interviews, and offer strategy.",
+    "roleLinks": {
+      "eyebrow": "Role tracks",
+      "title": "Find a path built for your role",
+      "subtitle": "Tech and non\u2011tech tracks tuned to how hiring works in your function.",
+      "items": [
+        {
+          "title": "Software Engineer",
+          "tag": "Tech",
+          "body": "System design and scope positioning.",
+          "url": "/software-engineer-career-coaching/"
+        },
+        {
+          "title": "Data (DE/DS/Analytics)",
+          "tag": "Tech",
+          "body": "Impact narratives for data roles.",
+          "url": "/data-career-coaching/"
+        },
+        {
+          "title": "Product Manager",
+          "tag": "Tech",
+          "body": "Strategy and stakeholder signal.",
+          "url": "/product-manager-career-coaching/"
+        },
+        {
+          "title": "Finance & FP&A",
+          "tag": "Finance",
+          "body": "Executive\u2011ready finance narrative.",
+          "url": "/finance-fpa-career-coaching/"
+        },
+        {
+          "title": "Marketing & Growth",
+          "tag": "Marketing",
+          "body": "Pipeline and revenue impact signal.",
+          "url": "/marketing-career-coaching/"
+        },
+        {
+          "title": "Operations",
+          "tag": "Ops",
+          "body": "Systems, scale, and execution signal.",
+          "url": "/operations-career-coaching/"
+        },
+        {
+          "title": "Sales",
+          "tag": "Sales",
+          "body": "Revenue impact and leadership scope.",
+          "url": "/sales-career-coaching/"
+        },
+        {
+          "title": "People Ops & HR",
+          "tag": "People",
+          "body": "Org impact and talent strategy.",
+          "url": "/people-ops-career-coaching/"
+        }
+      ]
+    },
+    "roleCoverage": {
+      "eyebrow": "Role coverage",
+      "title": "50+ common six\u2011figure paths we support",
+      "subtitle": "Tech stays core \u2014 and we now support a broader mix of business, healthcare, and leadership roles.",
+      "groups": [
+        {
+          "title": "Tech & Data",
+          "items": [
+            "Software Engineer",
+            "DevOps / SRE",
+            "Data Scientist",
+            "Data Engineer",
+            "Analytics Manager",
+            "Product Manager",
+            "Technical Program Manager",
+            "Cybersecurity Manager",
+            "Solutions Architect",
+            "AI / ML Engineer"
+          ]
+        },
+        {
+          "title": "Finance & Accounting",
+          "items": [
+            "Financial Analyst",
+            "FP&A Manager",
+            "Finance Manager",
+            "Investment Analyst",
+            "Portfolio Manager",
+            "Treasury Manager",
+            "Controller",
+            "Accounting Manager",
+            "Risk Manager",
+            "Compliance Manager"
+          ]
+        },
+        {
+          "title": "Sales & Marketing",
+          "items": [
+            "Account Executive",
+            "Sales Manager",
+            "Business Development Manager",
+            "Revenue Operations Manager",
+            "Sales Operations Manager",
+            "Marketing Manager",
+            "Growth Marketing Manager",
+            "Product Marketing Manager",
+            "Demand Generation Manager",
+            "Customer Success Manager"
+          ]
+        },
+        {
+          "title": "Operations & Supply Chain",
+          "items": [
+            "Operations Manager",
+            "Business Operations Manager",
+            "Program Manager",
+            "Project Manager",
+            "Supply Chain Manager",
+            "Logistics Manager",
+            "Procurement Manager",
+            "Quality Manager",
+            "Facilities Manager",
+            "Construction Manager"
+          ]
+        },
+        {
+          "title": "People, Legal, Healthcare",
+          "items": [
+            "HR Manager",
+            "People Operations Manager",
+            "Talent Acquisition Manager",
+            "Learning & Development Manager",
+            "Corporate Counsel",
+            "Contracts Manager",
+            "Healthcare Administrator",
+            "Clinical Operations Manager",
+            "Nurse Practitioner",
+            "Physician Assistant"
+          ]
+        }
+      ]
+    }
   }
 }

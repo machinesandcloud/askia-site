@@ -1,13 +1,13 @@
 {
   "resumeWriting": {
-    "eyebrow": "Resume writing for tech professionals",
-    "h1": "Resume Writing for Senior Tech Roles",
-    "subtitle": "A senior‑signal resume built for recruiters, hiring managers, and ATS.",
+    "eyebrow": "Resume writing for high\u2011impact roles",
+    "h1": "Resume Writing for Senior Roles",
+    "subtitle": "A senior\u2011signal resume built for recruiters, hiring managers, and ATS.",
     "supporting": "We turn your experience into impact language that clearly signals level, scope, and results.",
     "highlights": [
-      "Role‑aligned positioning and scope",
-      "Impact‑driven bullet rewrites",
-      "ATS‑clean format and structure"
+      "Role\u2011aligned positioning and scope",
+      "Impact\u2011driven bullet rewrites",
+      "ATS\u2011clean format and structure"
     ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
@@ -41,7 +41,7 @@
     ],
     "heroStats": [
       {
-        "value": "7–10 days",
+        "value": "7\u201310 days",
         "label": "Typical turnaround"
       },
       {
@@ -128,11 +128,11 @@
     ],
     "heroCard": {
       "title": "Resume Rebuild deliverables",
-      "body": "A resume that positions you at the level you’re targeting, not the level you’re leaving.",
+      "body": "A resume that positions you at the level you\u2019re targeting, not the level you\u2019re leaving.",
       "bullets": [
         "Role targeting alignment",
         "Impact + metrics framing",
-        "Senior‑level narrative"
+        "Senior\u2011level narrative"
       ]
     },
     "proof": {
@@ -140,15 +140,15 @@
       "subtitle": "We build resumes that trigger interviews, not confusion.",
       "items": [
         {
-          "title": "ATS‑ready",
+          "title": "ATS\u2011ready",
           "body": "Clean structure that passes filters without losing signal."
         },
         {
-          "title": "Recruiter‑clear",
+          "title": "Recruiter\u2011clear",
           "body": "Immediate level cues tied to scope and impact."
         },
         {
-          "title": "Interview‑ready",
+          "title": "Interview\u2011ready",
           "body": "Bullets written for STAR and behavioral proof."
         }
       ]
@@ -160,7 +160,7 @@
       "items": [
         {
           "tag": "Positioning",
-          "title": "Role‑aligned narrative",
+          "title": "Role\u2011aligned narrative",
           "body": "Define level and scope before we write a word."
         },
         {
@@ -189,31 +189,31 @@
         },
         {
           "title": "Refine",
-          "body": "Finalize with ATS‑clean formatting and revisions."
+          "body": "Finalize with ATS\u2011clean formatting and revisions."
         }
       ]
     },
     "for": {
       "title": "This is for",
-      "body": "Tech professionals who need a resume that reflects their true level.",
+      "body": "Professionals who need a resume that reflects their true level.",
       "items": [
         "Senior ICs and leaders ready to level up",
         "Those with solid experience but weak interview response",
-        "Candidates targeting $100K–$350K roles"
+        "Candidates targeting $100K\u2013$350K roles"
       ]
     },
     "notFor": {
       "title": "Not a fit if",
-      "body": "You’re looking for generic templates or basic formatting.",
+      "body": "You\u2019re looking for generic templates or basic formatting.",
       "items": [
-        "You want a one‑size‑fits‑all resume",
-        "You’re early‑career and need skill development",
-        "You don’t want strategic positioning"
+        "You want a one\u2011size\u2011fits\u2011all resume",
+        "You\u2019re early\u2011career and need skill development",
+        "You don\u2019t want strategic positioning"
       ]
     },
     "deliverables": {
       "title": "What you receive",
-      "subtitle": "Structured, recruiter‑clear, and aligned to senior expectations.",
+      "subtitle": "Structured, recruiter\u2011clear, and aligned to senior expectations.",
       "items": [
         {
           "title": "Positioning brief",
@@ -228,11 +228,11 @@
         {
           "title": "Rewritten resume",
           "tag": "Signal",
-          "body": "Impact‑first bullets with senior‑level structure.",
+          "body": "Impact\u2011first bullets with senior\u2011level structure.",
           "bullets": [
             "Impact framing",
             "Metrics guidance",
-            "ATS‑clean format"
+            "ATS\u2011clean format"
           ]
         },
         {
@@ -255,7 +255,7 @@
         {
           "title": "Software Engineer Coaching",
           "tag": "SWE",
-          "body": "Position for Senior → Staff roles.",
+          "body": "Position for Senior \u2192 Staff roles.",
           "url": "/software-engineer-career-coaching/"
         },
         {
@@ -286,7 +286,7 @@
       "items": [
         {
           "question": "Is this resume writing or coaching?",
-          "answer": "It’s both — we align the resume to your target role and comp, then write for signal and impact."
+          "answer": "It\u2019s both \u2014 we align the resume to your target role and comp, then write for signal and impact."
         },
         {
           "question": "Do you work with senior ICs and managers?",
@@ -294,7 +294,7 @@
         },
         {
           "question": "How long does it take?",
-          "answer": "Most resume rebuilds are delivered in 7–10 days, depending on complexity."
+          "answer": "Most resume rebuilds are delivered in 7\u201310 days, depending on complexity."
         },
         {
           "question": "Will this help with ATS?",
@@ -313,24 +313,24 @@
           "answer": "No guarantees, but we build the strongest possible signal for your target roles."
         },
         {
-          "question": "What if I don’t know my target role?",
-          "answer": "We’ll clarify role targeting before writing the resume."
+          "question": "What if I don\u2019t know my target role?",
+          "answer": "We\u2019ll clarify role targeting before writing the resume."
         }
       ]
     },
     "cta": {
       "title": "Ready for a resume that signals seniority?",
-      "body": "Book a call and we’ll map the fastest path.",
+      "body": "Book a call and we\u2019ll map the fastest path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Resume Writing for Senior Tech Roles | Askia",
-    "metaDescription": "Resume writing focused on senior‑level signal, scope, and impact that earns interviews."
+    "metaTitle": "Resume Writing for Senior Roles | Askia",
+    "metaDescription": "Resume writing focused on senior\u2011level signal, scope, and impact that earns interviews."
   },
   "linkedinOptimization": {
-    "eyebrow": "LinkedIn optimization for tech",
+    "eyebrow": "LinkedIn optimization for high\u2011impact roles",
     "h1": "LinkedIn Optimization for High-Signal Profiles",
-    "subtitle": "Turn your profile into a recruiter‑ready narrative and inbound engine.",
+    "subtitle": "Turn your profile into a recruiter\u2011ready narrative and inbound engine.",
     "supporting": "We build a profile that mirrors your seniority, makes your impact obvious, and drives the right outreach.",
     "highlights": [
       "Headline + About rewrite for senior signal",
@@ -369,7 +369,7 @@
     ],
     "heroStats": [
       {
-        "value": "7–10 days",
+        "value": "7\u201310 days",
         "label": "Typical turnaround"
       },
       {
@@ -424,12 +424,12 @@
     },
     "mistakes": {
       "eyebrow": "Common misses",
-      "title": "Why good profiles still don’t convert",
+      "title": "Why good profiles still don\u2019t convert",
       "subtitle": "We eliminate friction in how recruiters scan and decide.",
       "items": [
         {
           "title": "Generic headline",
-          "body": "Title-only headlines don’t signal level or specialization."
+          "body": "Title-only headlines don\u2019t signal level or specialization."
         },
         {
           "title": "Story gaps",
@@ -437,7 +437,7 @@
         },
         {
           "title": "Search mismatch",
-          "body": "Keywords don’t match how recruiters filter."
+          "body": "Keywords don\u2019t match how recruiters filter."
         }
       ]
     },
@@ -459,7 +459,7 @@
       "body": "Position your profile so recruiters see level, scope, and outcomes in seconds.",
       "bullets": [
         "Headline + About rewrite",
-        "Impact‑first experience",
+        "Impact\u2011first experience",
         "Search visibility"
       ]
     },
@@ -468,15 +468,15 @@
       "subtitle": "Built for inbound, not vanity.",
       "items": [
         {
-          "title": "Recruiter‑clear",
+          "title": "Recruiter\u2011clear",
           "body": "Immediate role fit signals in the first 3 lines."
         },
         {
-          "title": "Search‑ready",
+          "title": "Search\u2011ready",
           "body": "Keywords aligned to your target role family."
         },
         {
-          "title": "Story‑driven",
+          "title": "Story\u2011driven",
           "body": "Impact narrative that supports interviews."
         }
       ]
@@ -523,11 +523,11 @@
     },
     "for": {
       "title": "This is for",
-      "body": "Tech professionals who want more inbound and clearer recruiter fit.",
+      "body": "Professionals who want more inbound and clearer recruiter fit.",
       "items": [
         "Senior ICs and leaders with low inbound",
         "Candidates shifting roles or industries",
-        "Those targeting $100K–$350K roles"
+        "Those targeting $100K\u2013$350K roles"
       ]
     },
     "notFor": {
@@ -535,13 +535,13 @@
       "body": "You want growth hacks without positioning changes.",
       "items": [
         "You only want a keyword dump",
-        "You’re early‑career with no experience base",
+        "You\u2019re early\u2011career with no experience base",
         "You want a generic template"
       ]
     },
     "deliverables": {
       "title": "What you receive",
-      "subtitle": "High‑signal sections that match your target level.",
+      "subtitle": "High\u2011signal sections that match your target level.",
       "items": [
         {
           "title": "Headline + About",
@@ -556,7 +556,7 @@
         {
           "title": "Experience rewrite",
           "tag": "Impact",
-          "body": "Impact‑driven bullets aligned to your target role family.",
+          "body": "Impact\u2011driven bullets aligned to your target role family.",
           "bullets": [
             "Metrics framing",
             "Outcome story",
@@ -614,7 +614,7 @@
       "items": [
         {
           "question": "Will this increase recruiter outreach?",
-          "answer": "Yes, by improving role fit and search visibility — not by gaming the system."
+          "answer": "Yes, by improving role fit and search visibility \u2014 not by gaming the system."
         },
         {
           "question": "Do you write the About section?",
@@ -626,7 +626,7 @@
         },
         {
           "question": "How long does it take?",
-          "answer": "Typically 7–10 days, depending on scope."
+          "answer": "Typically 7\u201310 days, depending on scope."
         },
         {
           "question": "Do you update my resume too?",
@@ -648,22 +648,22 @@
     },
     "cta": {
       "title": "Upgrade your LinkedIn signal",
-      "body": "Book a call and we’ll align your profile to your target level.",
+      "body": "Book a call and we\u2019ll align your profile to your target level.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "LinkedIn Optimization for High‑Signal Profiles | Askia",
-    "metaDescription": "LinkedIn optimization that turns your profile into a recruiter‑ready inbound engine."
+    "metaTitle": "LinkedIn Optimization for High\u2011Signal Profiles | Askia",
+    "metaDescription": "LinkedIn optimization that turns your profile into a recruiter\u2011ready inbound engine."
   },
   "interviewPrep": {
-    "eyebrow": "Interview prep for tech roles",
-    "h1": "Interview Prep for High-Stakes Tech Loops",
+    "eyebrow": "Interview prep for high\u2011stakes roles",
+    "h1": "Interview Prep for High\u2011Stakes Roles",
     "subtitle": "Structured practice that turns experience into confident, repeatable answers.",
     "supporting": "We build your story bank, run focused mocks, and sharpen technical + behavioral signal.",
     "highlights": [
       "Story bank built around impact",
       "Mock interview practice",
-      "Role‑specific question strategy"
+      "Role\u2011specific question strategy"
     ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
@@ -697,7 +697,7 @@
     ],
     "heroStats": [
       {
-        "value": "2–3 sessions",
+        "value": "2\u20133 sessions",
         "label": "Typical prep cycle"
       },
       {
@@ -761,7 +761,7 @@
         },
         {
           "title": "Scope mismatch",
-          "body": "Examples don’t match the level you’re targeting."
+          "body": "Examples don\u2019t match the level you\u2019re targeting."
         },
         {
           "title": "Weak trade-offs",
@@ -784,7 +784,7 @@
     ],
     "heroCard": {
       "title": "Interview performance upgrade",
-      "body": "We turn your experience into compelling, senior‑level stories recruiters remember.",
+      "body": "We turn your experience into compelling, senior\u2011level stories recruiters remember.",
       "bullets": [
         "Behavioral + technical prep",
         "Story structure",
@@ -793,18 +793,18 @@
     },
     "proof": {
       "title": "Interview signal that wins",
-      "subtitle": "Clarity → confidence → offers.",
+      "subtitle": "Clarity \u2192 confidence \u2192 offers.",
       "items": [
         {
-          "title": "Story‑ready",
+          "title": "Story\u2011ready",
           "body": "Clear STAR stories tied to impact and scope."
         },
         {
-          "title": "Role‑aligned",
-          "body": "Prep matched to the level and role family you’re targeting."
+          "title": "Role\u2011aligned",
+          "body": "Prep matched to the level and role family you\u2019re targeting."
         },
         {
-          "title": "Offer‑ready",
+          "title": "Offer\u2011ready",
           "body": "Negotiation prep included as you advance."
         }
       ]
@@ -822,7 +822,7 @@
         {
           "tag": "Signal",
           "title": "Level cues",
-          "body": "Position scope and decision‑making clearly."
+          "body": "Position scope and decision\u2011making clearly."
         },
         {
           "tag": "Confidence",
@@ -845,26 +845,26 @@
         },
         {
           "title": "Drill",
-          "body": "Practice with real‑world questions and feedback."
+          "body": "Practice with real\u2011world questions and feedback."
         }
       ]
     },
     "for": {
       "title": "This is for",
-      "body": "Tech professionals who want sharper interview performance at higher levels.",
+      "body": "Professionals who want sharper interview performance at higher levels.",
       "items": [
         "Senior ICs and managers moving up",
         "Candidates getting interviews but not offers",
-        "Professionals targeting $100K–$350K roles"
+        "Professionals targeting $100K\u2013$350K roles"
       ]
     },
     "notFor": {
       "title": "Not a fit if",
       "body": "You want generic prep without role alignment.",
       "items": [
-        "You’re not ready for active interviewing",
-        "You want a one‑size‑fits‑all script",
-        "You’re early‑career and need core skill building"
+        "You\u2019re not ready for active interviewing",
+        "You want a one\u2011size\u2011fits\u2011all script",
+        "You\u2019re early\u2011career and need core skill building"
       ]
     },
     "deliverables": {
@@ -878,7 +878,7 @@
           "bullets": [
             "Behavioral narratives",
             "Leadership scope",
-            "Trade‑off decisions"
+            "Trade\u2011off decisions"
           ]
         },
         {
@@ -886,7 +886,7 @@
           "tag": "Practice",
           "body": "Live practice with feedback and iteration.",
           "bullets": [
-            "Role‑specific questions",
+            "Role\u2011specific questions",
             "Feedback notes",
             "Iteration plan"
           ]
@@ -917,13 +917,13 @@
         {
           "title": "Engineering Manager Coaching",
           "tag": "Leadership",
-          "body": "Leadership and org‑impact interviews.",
+          "body": "Leadership and org\u2011impact interviews.",
           "url": "/engineering-manager-coaching/"
         },
         {
           "title": "DevOps & SRE Coaching",
           "tag": "DevOps",
-          "body": "Scenario‑based reliability interviews.",
+          "body": "Scenario\u2011based reliability interviews.",
           "url": "/devops-career-coaching/"
         }
       ]
@@ -942,23 +942,23 @@
       "items": [
         {
           "question": "Is this behavioral or technical prep?",
-          "answer": "Both. We cover behavioral, system design, and role‑specific interview formats."
+          "answer": "Both. We cover behavioral, system design, and role\u2011specific interview formats."
         },
         {
           "question": "How many sessions do I need?",
-          "answer": "Most clients start with 1–3 sessions depending on interview volume."
+          "answer": "Most clients start with 1\u20133 sessions depending on interview volume."
         },
         {
           "question": "Can you help with leadership interviews?",
-          "answer": "Yes. We focus on scope, decision‑making, and leadership narrative."
+          "answer": "Yes. We focus on scope, decision\u2011making, and leadership narrative."
         },
         {
           "question": "Do you provide feedback after mocks?",
-          "answer": "Yes. You’ll receive specific feedback and a plan to improve."
+          "answer": "Yes. You\u2019ll receive specific feedback and a plan to improve."
         },
         {
           "question": "Will this help with onsite loops?",
-          "answer": "Yes. We prep for multi‑round loops and expectation setting."
+          "answer": "Yes. We prep for multi\u2011round loops and expectation setting."
         },
         {
           "question": "Do you guarantee offers?",
@@ -975,17 +975,17 @@
       ]
     },
     "cta": {
-      "title": "Get interview‑ready faster",
-      "body": "Book a call and we’ll tailor the prep to your target level.",
+      "title": "Get interview\u2011ready faster",
+      "body": "Book a call and we\u2019ll tailor the prep to your target level.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Interview Prep for High‑Stakes Tech Loops | Askia",
+    "metaTitle": "Interview Prep for High\u2011Stakes Roles | Askia",
     "metaDescription": "Interview prep that builds a story system, role alignment, and confident delivery."
   },
   "salaryNegotiation": {
-    "eyebrow": "Salary negotiation for tech",
-    "h1": "Salary Negotiation Strategy for Tech Offers",
+    "eyebrow": "Salary negotiation for high\u2011impact roles",
+    "h1": "Salary Negotiation Strategy for High\u2011Impact Offers",
     "subtitle": "Negotiate with confidence and a clear compensation strategy.",
     "supporting": "We build leverage and a negotiation plan tied to your role, level, and market range.",
     "highlights": [
@@ -995,7 +995,7 @@
     ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "For tech professionals negotiating higher‑level offers.",
+    "ctaProof": "For professionals negotiating higher\u2011level offers.",
     "secondaryCtaLabel": "Get the Job Search System",
     "secondaryCtaLink": "https://askiatech.com/job-search-system",
     "visual": {
@@ -1025,7 +1025,7 @@
     ],
     "heroStats": [
       {
-        "value": "1–2 calls",
+        "value": "1\u20132 calls",
         "label": "Typical strategy time"
       },
       {
@@ -1114,7 +1114,7 @@
       "body": "Walk into offer conversations with leverage, not guesswork.",
       "bullets": [
         "Comp band clarity",
-        "Offer trade‑offs",
+        "Offer trade\u2011offs",
         "Decision framework"
       ]
     },
@@ -1132,7 +1132,7 @@
         },
         {
           "title": "Total comp focus",
-          "body": "Base, equity, bonus, and sign‑on considered together."
+          "body": "Base, equity, bonus, and sign\u2011on considered together."
         }
       ]
     },
@@ -1182,16 +1182,16 @@
       "items": [
         "Senior ICs and managers approaching offers",
         "Professionals changing companies or levels",
-        "Candidates targeting $100K–$350K comp"
+        "Candidates targeting $100K\u2013$350K comp"
       ]
     },
     "notFor": {
       "title": "Not a fit if",
-      "body": "You’re not yet in interview or offer stages.",
+      "body": "You\u2019re not yet in interview or offer stages.",
       "items": [
-        "You don’t have a clear target role",
+        "You don\u2019t have a clear target role",
         "You want salary advice without strategy",
-        "You’re early‑career and not yet negotiating"
+        "You\u2019re early\u2011career and not yet negotiating"
       ]
     },
     "deliverables": {
@@ -1201,7 +1201,7 @@
         {
           "title": "Comp strategy",
           "tag": "Core",
-          "body": "Role‑specific comp band and leverage points.",
+          "body": "Role\u2011specific comp band and leverage points.",
           "bullets": [
             "Benchmarking",
             "Leverage inventory",
@@ -1221,7 +1221,7 @@
         {
           "title": "Offer evaluation",
           "tag": "Decision",
-          "body": "A framework for comparing offers and trade‑offs.",
+          "body": "A framework for comparing offers and trade\u2011offs.",
           "bullets": [
             "Total comp view",
             "Risk factors",
@@ -1273,7 +1273,7 @@
         },
         {
           "question": "Can you help with equity and RSUs?",
-          "answer": "Yes. We consider total comp including equity, bonuses, and sign‑on."
+          "answer": "Yes. We consider total comp including equity, bonuses, and sign\u2011on."
         },
         {
           "question": "Do you negotiate on my behalf?",
@@ -1284,8 +1284,8 @@
           "answer": "Yes. We can help compare and decide."
         },
         {
-          "question": "What if I’m nervous about negotiating?",
-          "answer": "That’s common. We give you a clear plan and language to use."
+          "question": "What if I\u2019m nervous about negotiating?",
+          "answer": "That\u2019s common. We give you a clear plan and language to use."
         },
         {
           "question": "Do you guarantee more pay?",
@@ -1297,23 +1297,23 @@
         },
         {
           "question": "What roles does this cover?",
-          "answer": "Senior IC, manager, and leadership roles across tech disciplines."
+          "answer": "Senior IC, manager, and leadership roles across industries."
         }
       ]
     },
     "cta": {
       "title": "Ready to negotiate with leverage?",
-      "body": "Book a call and we’ll map your comp strategy.",
+      "body": "Book a call and we\u2019ll map your comp strategy.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Salary Negotiation Strategy for Tech Offers | Askia",
+    "metaTitle": "Salary Negotiation Strategy for High\u2011Impact Offers | Askia",
     "metaDescription": "Negotiation strategy focused on leverage, timing, and total compensation outcomes."
   },
   "executiveCoaching": {
     "eyebrow": "Executive coaching for engineering leaders",
     "h1": "Executive Coaching for Engineering Leaders",
-    "subtitle": "Positioning and leadership narrative for managers, directors, and exec‑track leaders.",
+    "subtitle": "Positioning and leadership narrative for managers, directors, and exec\u2011track leaders.",
     "supporting": "We build leadership signal, executive narrative, and offer strategy aligned to senior scope.",
     "highlights": [
       "Leadership narrative architecture",
@@ -1322,7 +1322,7 @@
     ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for engineering managers, directors, and exec‑track leaders.",
+    "ctaProof": "Built for engineering managers, directors, and exec\u2011track leaders.",
     "secondaryCtaLabel": "Get the Job Search System",
     "secondaryCtaLink": "https://askiatech.com/job-search-system",
     "visual": {
@@ -1386,7 +1386,7 @@
     "snapshot": {
       "eyebrow": "Leadership snapshot",
       "title": "What changes with executive coaching",
-      "subtitle": "Your story reads at the scope you’re targeting.",
+      "subtitle": "Your story reads at the scope you\u2019re targeting.",
       "items": [
         {
           "tag": "Scope",
@@ -1420,7 +1420,7 @@
         },
         {
           "title": "Offer misalignment",
-          "body": "Negotiation isn’t tied to leadership path."
+          "body": "Negotiation isn\u2019t tied to leadership path."
         }
       ]
     },
@@ -1438,7 +1438,7 @@
     ],
     "heroCard": {
       "title": "Executive signal upgrade",
-      "body": "Clarify your leadership story, scope, and outcomes for executive‑level roles.",
+      "body": "Clarify your leadership story, scope, and outcomes for executive\u2011level roles.",
       "bullets": [
         "Leadership positioning",
         "Org impact framing",
@@ -1446,7 +1446,7 @@
       ]
     },
     "proof": {
-      "title": "Leadership‑level outcomes",
+      "title": "Leadership\u2011level outcomes",
       "subtitle": "Built for scope, systems thinking, and org impact.",
       "items": [
         {
@@ -1455,7 +1455,7 @@
         },
         {
           "title": "Scope clarity",
-          "body": "Demonstrate org‑wide outcomes and decision‑making."
+          "body": "Demonstrate org\u2011wide outcomes and decision\u2011making."
         },
         {
           "title": "Offer leverage",
@@ -1466,11 +1466,11 @@
     "focus": {
       "eyebrow": "Leadership signal",
       "title": "Show the scope behind your decisions",
-      "subtitle": "We translate execution into executive‑level narrative.",
+      "subtitle": "We translate execution into executive\u2011level narrative.",
       "items": [
         {
           "tag": "Scope",
-          "title": "Org‑level impact",
+          "title": "Org\u2011level impact",
           "body": "Frame decisions and outcomes at scale."
         },
         {
@@ -1505,25 +1505,25 @@
     },
     "for": {
       "title": "This is for",
-      "body": "Leaders moving into manager, director, or exec‑track roles.",
+      "body": "Leaders moving into manager, director, or exec\u2011track roles.",
       "items": [
         "Engineering managers and senior ICs moving up",
         "Leaders seeking stronger executive positioning",
-        "Professionals targeting $150K–$350K roles"
+        "Professionals targeting $150K\u2013$350K roles"
       ]
     },
     "notFor": {
       "title": "Not a fit if",
-      "body": "You want entry‑level guidance or generic templates.",
+      "body": "You want entry\u2011level guidance or generic templates.",
       "items": [
-        "You’re early‑career and building fundamentals",
+        "You\u2019re early\u2011career and building fundamentals",
         "You want fast fixes without leadership narrative",
         "You prefer generic resume writing"
       ]
     },
     "deliverables": {
       "title": "What you receive",
-      "subtitle": "Executive‑level positioning and strategy.",
+      "subtitle": "Executive\u2011level positioning and strategy.",
       "items": [
         {
           "title": "Leadership narrative",
@@ -1542,7 +1542,7 @@
           "bullets": [
             "Executive resume",
             "LinkedIn narrative",
-            "Board‑level language"
+            "Board\u2011level language"
           ]
         },
         {
@@ -1560,7 +1560,7 @@
     "roleLinks": {
       "eyebrow": "Role pathways",
       "title": "Leadership role tracks",
-      "subtitle": "Position for leadership roles across tech.",
+      "subtitle": "Position for leadership roles across industries.",
       "items": [
         {
           "title": "Engineering Manager Coaching",
@@ -1600,15 +1600,15 @@
         },
         {
           "question": "Do you build executive resumes?",
-          "answer": "Yes. We craft leadership‑level resumes and LinkedIn profiles."
+          "answer": "Yes. We craft leadership\u2011level resumes and LinkedIn profiles."
         },
         {
           "question": "How long does executive positioning take?",
-          "answer": "Most engagements are 2–4 weeks depending on scope."
+          "answer": "Most engagements are 2\u20134 weeks depending on scope."
         },
         {
           "question": "Do you help with leadership interviews?",
-          "answer": "Yes. We prep for leadership, strategy, and org‑scale questions."
+          "answer": "Yes. We prep for leadership, strategy, and org\u2011scale questions."
         },
         {
           "question": "Can you help with compensation strategy?",
@@ -1619,8 +1619,8 @@
           "answer": "No guarantees, but we improve positioning and execution."
         },
         {
-          "question": "What if I’m switching industries?",
-          "answer": "We translate leadership scope to the new industry’s expectations."
+          "question": "What if I\u2019m switching industries?",
+          "answer": "We translate leadership scope to the new industry\u2019s expectations."
         },
         {
           "question": "How do I start?",
@@ -1629,8 +1629,8 @@
       ]
     },
     "cta": {
-      "title": "Lead at the level you’ve earned",
-      "body": "Book a strategy call and we’ll map your leadership path.",
+      "title": "Lead at the level you\u2019ve earned",
+      "body": "Book a strategy call and we\u2019ll map your leadership path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
@@ -1638,18 +1638,18 @@
     "metaDescription": "Executive coaching focused on leadership narrative, scope, and offer strategy."
   },
   "coverLetterWriting": {
-    "eyebrow": "Cover letter writing for tech",
+    "eyebrow": "Cover letter writing for high\u2011impact roles",
     "h1": "Cover Letter Writing That Gets Read",
     "subtitle": "A targeted cover letter that earns the read and opens the loop.",
-    "supporting": "We craft role‑specific messaging that makes your story clear in under 30 seconds.",
+    "supporting": "We craft role\u2011specific messaging that makes your story clear in under 30 seconds.",
     "highlights": [
-      "Role‑specific positioning",
-      "Impact‑first narrative",
+      "Role\u2011specific positioning",
+      "Impact\u2011first narrative",
       "Hiring manager clarity"
     ],
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Best for competitive or leadership‑track roles.",
+    "ctaProof": "Best for competitive or leadership\u2011track roles.",
     "secondaryCtaLabel": "Get the Job Search System",
     "secondaryCtaLink": "https://askiatech.com/job-search-system",
     "visual": {
@@ -1712,7 +1712,7 @@
     ],
     "snapshot": {
       "eyebrow": "Cover snapshot",
-      "title": "What a high‑signal cover letter does",
+      "title": "What a high\u2011signal cover letter does",
       "subtitle": "It opens doors where resumes alone stall.",
       "items": [
         {
@@ -1778,7 +1778,7 @@
       "items": [
         {
           "title": "Targeted",
-          "body": "Role‑specific messaging with no fluff."
+          "body": "Role\u2011specific messaging with no fluff."
         },
         {
           "title": "Concise",
@@ -1814,7 +1814,7 @@
     },
     "steps": {
       "title": "How it works",
-      "subtitle": "A fast, role‑specific rewrite.",
+      "subtitle": "A fast, role\u2011specific rewrite.",
       "items": [
         {
           "title": "Target",
@@ -1834,7 +1834,7 @@
       "title": "This is for",
       "body": "Candidates who need to stand out in competitive roles.",
       "items": [
-        "Leadership‑track roles",
+        "Leadership\u2011track roles",
         "Competitive teams",
         "New domain transitions"
       ]
@@ -1843,7 +1843,7 @@
       "title": "Not a fit if",
       "body": "You want a generic template.",
       "items": [
-        "One‑size‑fits‑all letters",
+        "One\u2011size\u2011fits\u2011all letters",
         "No role targeting",
         "Bulk applications"
       ]
@@ -1853,7 +1853,7 @@
       "subtitle": "A clean, focused cover letter.",
       "items": [
         {
-          "title": "Role‑specific letter",
+          "title": "Role\u2011specific letter",
           "tag": "Core",
           "body": "A tailored narrative for your target role.",
           "bullets": [
@@ -1882,7 +1882,7 @@
         },
         {
           "question": "How long is it?",
-          "answer": "Typically 3–5 short paragraphs."
+          "answer": "Typically 3\u20135 short paragraphs."
         },
         {
           "question": "Is it customized?",
@@ -1896,7 +1896,7 @@
     },
     "cta": {
       "title": "Ready for a cover letter that converts?",
-      "body": "Book a call and we’ll scope it.",
+      "body": "Book a call and we\u2019ll scope it.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
@@ -1904,13 +1904,13 @@
     "metaDescription": "Cover letter writing that connects role fit to impact in under a minute."
   },
   "mockInterviews": {
-    "eyebrow": "Mock interviews for tech roles",
+    "eyebrow": "Mock interviews for high\u2011stakes roles",
     "h1": "Mock Interviews for Confident Performance",
     "subtitle": "Practice that turns anxiety into execution.",
     "supporting": "We simulate real interviews and give you feedback you can act on.",
     "highlights": [
       "Live practice",
-      "Role‑specific questions",
+      "Role\u2011specific questions",
       "Clear feedback"
     ],
     "ctaLabel": "Book a Call",
@@ -1945,7 +1945,7 @@
     ],
     "heroStats": [
       {
-        "value": "60–75 min",
+        "value": "60\u201375 min",
         "label": "Live mock session"
       },
       {
@@ -1953,7 +1953,7 @@
         "label": "Feedback summary"
       },
       {
-        "value": "1–2 mocks",
+        "value": "1\u20132 mocks",
         "label": "Most common package"
       }
     ],
@@ -2009,11 +2009,11 @@
         },
         {
           "title": "Weak scope",
-          "body": "Examples don’t show ownership or scale."
+          "body": "Examples don\u2019t show ownership or scale."
         },
         {
           "title": "No trade-offs",
-          "body": "Decision-making isn’t visible to interviewers."
+          "body": "Decision-making isn\u2019t visible to interviewers."
         }
       ]
     },
@@ -2044,7 +2044,7 @@
       "items": [
         {
           "title": "Realism",
-          "body": "Interview‑like timing and pressure."
+          "body": "Interview\u2011like timing and pressure."
         },
         {
           "title": "Signal",
@@ -2069,7 +2069,7 @@
         {
           "tag": "Signal",
           "title": "Level cues",
-          "body": "Show scope and decision‑making."
+          "body": "Show scope and decision\u2011making."
         },
         {
           "tag": "Confidence",
@@ -2080,7 +2080,7 @@
     },
     "steps": {
       "title": "How mock interviews work",
-      "subtitle": "Prep → practice → feedback.",
+      "subtitle": "Prep \u2192 practice \u2192 feedback.",
       "items": [
         {
           "title": "Map",
@@ -2107,7 +2107,7 @@
     },
     "notFor": {
       "title": "Not a fit if",
-      "body": "You aren’t interviewing soon.",
+      "body": "You aren\u2019t interviewing soon.",
       "items": [
         "No interviews scheduled",
         "No target role defined"
@@ -2143,7 +2143,7 @@
       "items": [
         {
           "question": "How many sessions?",
-          "answer": "Most clients start with 1–3 sessions."
+          "answer": "Most clients start with 1\u20133 sessions."
         },
         {
           "question": "Do you cover technical interviews?",
@@ -2151,7 +2151,7 @@
         },
         {
           "question": "Will I get feedback?",
-          "answer": "Yes, with next‑step actions."
+          "answer": "Yes, with next\u2011step actions."
         },
         {
           "question": "Is it live?",
@@ -2161,7 +2161,7 @@
     },
     "cta": {
       "title": "Ready to practice?",
-      "body": "Book a call and we’ll schedule your mock session.",
+      "body": "Book a call and we\u2019ll schedule your mock session.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
@@ -2171,7 +2171,7 @@
   "careerClarity": {
     "eyebrow": "Career clarity coaching",
     "h1": "Career Clarity Coaching for Your Next Role",
-    "subtitle": "Define the right role, level, and path — fast.",
+    "subtitle": "Define the right role, level, and path \u2014 fast.",
     "supporting": "We turn confusion into a concrete target and plan.",
     "highlights": [
       "Role targeting",
@@ -2278,7 +2278,7 @@
         },
         {
           "title": "No plan",
-          "body": "Tactics without strategy don’t convert."
+          "body": "Tactics without strategy don\u2019t convert."
         }
       ]
     },
@@ -2339,7 +2339,7 @@
         {
           "tag": "Plan",
           "title": "Search strategy",
-          "body": "Build the next‑step plan."
+          "body": "Build the next\u2011step plan."
         }
       ]
     },
@@ -2367,7 +2367,7 @@
       "items": [
         "Stalled searches",
         "Career transitions",
-        "Level‑up planning"
+        "Level\u2011up planning"
       ]
     },
     "notFor": {
@@ -2419,14 +2419,14 @@
           "answer": "Yes, with resume or coaching."
         },
         {
-          "question": "What if I’m pivoting?",
-          "answer": "We’ll map the best pivot path."
+          "question": "What if I\u2019m pivoting?",
+          "answer": "We\u2019ll map the best pivot path."
         }
       ]
     },
     "cta": {
       "title": "Get clear on your next role",
-      "body": "Book a call and we’ll define the path.",
+      "body": "Book a call and we\u2019ll define the path.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
@@ -2434,7 +2434,7 @@
     "metaDescription": "Career clarity coaching to define the right role, level, and execution plan."
   },
   "offerStrategy": {
-    "eyebrow": "Offer strategy for tech roles",
+    "eyebrow": "Offer strategy for high\u2011impact roles",
     "h1": "Offer Strategy for Closing the Right Role",
     "subtitle": "Get the structure and leverage to close the right offer.",
     "supporting": "We help you manage timelines, leverage, and total comp decisions.",
@@ -2475,7 +2475,7 @@
     ],
     "heroStats": [
       {
-        "value": "2–5 days",
+        "value": "2\u20135 days",
         "label": "Typical turnaround"
       },
       {
@@ -2561,7 +2561,7 @@
     ],
     "heroCard": {
       "title": "Offer control",
-      "body": "A plan for timing, leverage, and decision‑making.",
+      "body": "A plan for timing, leverage, and decision\u2011making.",
       "bullets": [
         "Timeline",
         "Leverage",
@@ -2610,7 +2610,7 @@
     },
     "steps": {
       "title": "How offer strategy works",
-      "subtitle": "Plan → leverage → close.",
+      "subtitle": "Plan \u2192 leverage \u2192 close.",
       "items": [
         {
           "title": "Assess",
@@ -2632,12 +2632,12 @@
       "items": [
         "Multiple offers",
         "Senior roles",
-        "Negotiation‑ready"
+        "Negotiation\u2011ready"
       ]
     },
     "notFor": {
       "title": "Not a fit if",
-      "body": "You’re not near offers yet.",
+      "body": "You\u2019re not near offers yet.",
       "items": [
         "No interviews",
         "No offers expected soon"
@@ -2691,7 +2691,7 @@
     },
     "cta": {
       "title": "Close the right offer",
-      "body": "Book a call and we’ll map your offer strategy.",
+      "body": "Book a call and we\u2019ll map your offer strategy.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
@@ -2699,7 +2699,7 @@
     "metaDescription": "Offer strategy to manage timelines, leverage, and total comp decisions."
   },
   "atsAudit": {
-    "eyebrow": "ATS audit for tech resumes",
+    "eyebrow": "ATS audit for competitive resumes",
     "h1": "ATS Audit for Resume Signal Gaps",
     "subtitle": "Find the exact blockers in your resume and fix them fast.",
     "supporting": "We identify ATS issues and signal gaps that stall interviews.",
@@ -2740,7 +2740,7 @@
     ],
     "heroStats": [
       {
-        "value": "2–3 days",
+        "value": "2\u20133 days",
         "label": "Typical turnaround"
       },
       {
@@ -2808,7 +2808,7 @@
         },
         {
           "title": "Weak scope",
-          "body": "Impact and level aren’t obvious to humans."
+          "body": "Impact and level aren\u2019t obvious to humans."
         }
       ]
     },
@@ -2826,7 +2826,7 @@
     ],
     "heroCard": {
       "title": "ATS + signal audit",
-      "body": "A diagnostic that shows what’s blocking interviews.",
+      "body": "A diagnostic that shows what\u2019s blocking interviews.",
       "bullets": [
         "ATS scan",
         "Signal gaps",
@@ -2875,7 +2875,7 @@
     },
     "steps": {
       "title": "How ATS audits work",
-      "subtitle": "Scan → diagnose → fix.",
+      "subtitle": "Scan \u2192 diagnose \u2192 fix.",
       "items": [
         {
           "title": "Scan",
@@ -2938,7 +2938,7 @@
       "items": [
         {
           "question": "Is this a full rewrite?",
-          "answer": "No, it’s a diagnostic and fix plan."
+          "answer": "No, it\u2019s a diagnostic and fix plan."
         },
         {
           "question": "Do you provide keywords?",
@@ -2956,7 +2956,7 @@
     },
     "cta": {
       "title": "Find the blockers fast",
-      "body": "Book a call and we’ll run your audit.",
+      "body": "Book a call and we\u2019ll run your audit.",
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },

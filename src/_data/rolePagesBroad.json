@@ -1,0 +1,1136 @@
+{
+  "financeFpa": {
+    "eyebrow": "Finance & FP&A career coaching",
+    "h1": "Finance & FP&A Coaching for High‑Impact Roles",
+    "subtitle": "Positioning, storytelling, and interview prep for finance and FP&A roles.",
+    "supporting": "We translate analytical impact into executive‑ready narratives that win senior finance offers.",
+    "highlights": [
+      "Role targeting for analyst → manager → director",
+      "Resume + LinkedIn tuned for finance outcomes",
+      "Interview + offer readiness"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "Built for FP&A, corporate finance, and strategy roles.",
+    "secondaryCtaLabel": "Get the Job Search System",
+    "secondaryCtaLink": "https://askiatech.com/job-search-system",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(114, 214, 255, 0.65)",
+      "accent2": "rgba(87, 207, 196, 0.35)"
+    },
+    "heroCard": {
+      "title": "Finance signal upgrade",
+      "body": "Show business impact, not just models.",
+      "bullets": ["Strategic insights", "Executive framing", "Decision support"]
+    },
+    "proof": {
+      "title": "Outcomes for finance leaders",
+      "subtitle": "Credible signal that drives interviews.",
+      "items": [
+        { "title": "Level clarity", "body": "Position for manager and director scope." },
+        { "title": "Executive signal", "body": "Insights framed for decision makers." },
+        { "title": "Offer leverage", "body": "Negotiation aligned to comp bands." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Finance signal",
+      "title": "Make analysis look like leadership",
+      "subtitle": "We connect your work to outcomes and decisions.",
+      "items": [
+        { "tag": "Scope", "title": "Level clarity", "body": "Show the size of the problems you own." },
+        { "tag": "Story", "title": "Impact narratives", "body": "Tie insights to decisions and results." },
+        { "tag": "Execution", "title": "Interview readiness", "body": "Case, stakeholder, and exec prep." }
+      ]
+    },
+    "steps": {
+      "title": "How finance coaching works",
+      "subtitle": "Structured from targeting to offer.",
+      "items": [
+        { "title": "Define", "body": "Target role, level, and comp range." },
+        { "title": "Position", "body": "Build resume, LinkedIn, and story bank." },
+        { "title": "Execute", "body": "Prep interviews and negotiate offers." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Finance and FP&A professionals ready to move up.",
+      "items": [
+        "Senior analysts and finance managers",
+        "FP&A, corp finance, strategy roles",
+        "Candidates targeting six‑figure comp"
+      ]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You want generic resume edits without strategy.",
+      "items": ["Entry‑level prep", "Mass application tactics", "Template‑only services"]
+    },
+    "deliverables": {
+      "title": "What you get",
+      "subtitle": "Role‑specific assets and execution support.",
+      "items": [
+        {
+          "title": "Finance positioning brief",
+          "tag": "Strategy",
+          "body": "Clarify level, scope, and finance narrative.",
+          "bullets": ["Level mapping", "Impact framing", "Role targeting"]
+        },
+        {
+          "title": "Resume + LinkedIn",
+          "tag": "Signal",
+          "body": "Recruiter‑ready assets aligned to your target role.",
+          "bullets": ["ATS‑clean resume", "LinkedIn rewrite", "Finance keywords"]
+        },
+        {
+          "title": "Interview + offer prep",
+          "tag": "Conversion",
+          "body": "Story bank and negotiation strategy.",
+          "bullets": ["Case prep", "Stakeholder stories", "Negotiation script"]
+        }
+      ]
+    },
+    "related": {
+      "title": "Pair with a service",
+      "body": "Choose the right deliverable for your stage.",
+      "primaryLabel": "Land Your Next Role",
+      "primaryLink": "/land-your-next-role/",
+      "secondaryLabel": "Interview Prep",
+      "secondaryLink": "/interview-prep/"
+    },
+    "faq": {
+      "title": "Finance coaching FAQs",
+      "subtitle": "Answers for finance candidates.",
+      "items": [
+        { "question": "Do you help with FP&A roles?", "answer": "Yes. We tailor to planning, forecasting, and business partnering." },
+        { "question": "Can you help me move into finance leadership?", "answer": "Yes. We build executive‑level narrative and scope signal." },
+        { "question": "Do you help with interviews?", "answer": "Yes. We prep for cases, stakeholder questions, and exec panels." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to level up in finance?",
+      "body": "Book a call and map your path to the next level.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "Finance & FP&A Coaching for High‑Impact Roles | Askia",
+    "metaDescription": "Finance coaching focused on FP&A signal, executive narrative, and interview readiness for six‑figure roles."
+  },
+  "accountingController": {
+    "eyebrow": "Accounting & controller coaching",
+    "h1": "Accounting & Controller Coaching for Senior Roles",
+    "subtitle": "Positioning, leadership signal, and interview prep for accounting leaders.",
+    "supporting": "We translate compliance and close expertise into executive‑ready impact.",
+    "highlights": [
+      "Role targeting for manager → controller",
+      "Resume + LinkedIn built for leadership signal",
+      "Interview + offer readiness"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "Built for accounting, audit, and controllership roles.",
+    "secondaryCtaLabel": "Get the Job Search System",
+    "secondaryCtaLink": "https://askiatech.com/job-search-system",
+    "visual": {
+      "style": "signal-min",
+      "accent": "rgba(87, 207, 196, 0.6)",
+      "accent2": "rgba(114, 214, 255, 0.25)"
+    },
+    "heroCard": {
+      "title": "Accounting signal upgrade",
+      "body": "Show leadership, controls, and business impact.",
+      "bullets": ["Close ownership", "Risk control", "Team leadership"]
+    },
+    "proof": {
+      "title": "Outcomes for accounting leaders",
+      "subtitle": "Clear signal that earns senior roles.",
+      "items": [
+        { "title": "Leadership scope", "body": "Position for manager and controller roles." },
+        { "title": "Risk clarity", "body": "Demonstrate governance and control strength." },
+        { "title": "Offer leverage", "body": "Comp aligned to scope and responsibility." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Accounting signal",
+      "title": "Turn accuracy into leadership",
+      "subtitle": "We show the business impact behind the numbers.",
+      "items": [
+        { "tag": "Scope", "title": "Level clarity", "body": "Show scale of close and reporting." },
+        { "tag": "Story", "title": "Impact narratives", "body": "Tie controls to business confidence." },
+        { "tag": "Execution", "title": "Interview readiness", "body": "Leadership + stakeholder prep." }
+      ]
+    },
+    "steps": {
+      "title": "How accounting coaching works",
+      "subtitle": "Structured from targeting to offer.",
+      "items": [
+        { "title": "Define", "body": "Target role, level, and comp range." },
+        { "title": "Position", "body": "Build resume, LinkedIn, and story bank." },
+        { "title": "Execute", "body": "Prep interviews and negotiate offers." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Accounting professionals ready to move up.",
+      "items": ["Accounting managers", "Controllers and audit leaders", "Candidates targeting six‑figure comp"]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You want generic resume edits without strategy.",
+      "items": ["Entry‑level prep", "Mass application tactics", "Template‑only services"]
+    },
+    "deliverables": {
+      "title": "What you get",
+      "subtitle": "Role‑specific assets and execution support.",
+      "items": [
+        {
+          "title": "Leadership positioning brief",
+          "tag": "Strategy",
+          "body": "Clarify scope, controls, and leadership signal.",
+          "bullets": ["Level mapping", "Impact framing", "Role targeting"]
+        },
+        {
+          "title": "Resume + LinkedIn",
+          "tag": "Signal",
+          "body": "Recruiter‑ready assets aligned to senior accounting roles.",
+          "bullets": ["ATS‑clean resume", "LinkedIn rewrite", "Accounting keywords"]
+        },
+        {
+          "title": "Interview + offer prep",
+          "tag": "Conversion",
+          "body": "Story bank and negotiation strategy.",
+          "bullets": ["Leadership stories", "Stakeholder prep", "Negotiation script"]
+        }
+      ]
+    },
+    "related": {
+      "title": "Pair with a service",
+      "body": "Choose the right deliverable for your stage.",
+      "primaryLabel": "Land Your Next Role",
+      "primaryLink": "/land-your-next-role/",
+      "secondaryLabel": "Resume Writing",
+      "secondaryLink": "/resume-writing/"
+    },
+    "faq": {
+      "title": "Accounting coaching FAQs",
+      "subtitle": "Answers for accounting candidates.",
+      "items": [
+        { "question": "Do you help with controller roles?", "answer": "Yes. We focus on leadership scope and governance signal." },
+        { "question": "Do you help with audit leaders?", "answer": "Yes. We tailor to compliance, controls, and stakeholder impact." },
+        { "question": "Do you help with interviews?", "answer": "Yes. We prep for leadership, process, and stakeholder questions." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to lead in accounting?",
+      "body": "Book a call and map your path to the next level.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "Accounting & Controller Coaching for Senior Roles | Askia",
+    "metaDescription": "Accounting coaching focused on leadership signal, controls, and interview readiness for senior roles."
+  },
+  "marketing": {
+    "eyebrow": "Marketing career coaching",
+    "h1": "Marketing & Growth Coaching for Senior Roles",
+    "subtitle": "Positioning, narrative, and interview prep for marketing leaders.",
+    "supporting": "We translate growth and brand impact into executive‑ready signal.",
+    "highlights": [
+      "Role targeting for manager → director",
+      "Resume + LinkedIn tuned for growth outcomes",
+      "Interview + offer readiness"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "Built for growth, product marketing, and brand roles.",
+    "secondaryCtaLabel": "Get the Job Search System",
+    "secondaryCtaLink": "https://askiatech.com/job-search-system",
+    "visual": {
+      "style": "signal-focus",
+      "accent": "rgba(255, 154, 118, 0.6)",
+      "accent2": "rgba(255, 214, 133, 0.3)"
+    },
+    "heroCard": {
+      "title": "Marketing signal upgrade",
+      "body": "Prove revenue, pipeline, and brand impact.",
+      "bullets": ["Growth outcomes", "Channel strategy", "Leadership scope"]
+    },
+    "proof": {
+      "title": "Outcomes for marketing leaders",
+      "subtitle": "Clear signal that drives senior interviews.",
+      "items": [
+        { "title": "Growth signal", "body": "Position for manager and director roles." },
+        { "title": "Pipeline impact", "body": "Tie programs to revenue and retention." },
+        { "title": "Offer leverage", "body": "Comp aligned to scope and impact." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Marketing signal",
+      "title": "Make growth impact undeniable",
+      "subtitle": "We show the outcomes behind the campaigns.",
+      "items": [
+        { "tag": "Scope", "title": "Level clarity", "body": "Show ownership across channels." },
+        { "tag": "Story", "title": "Impact narratives", "body": "Frame results with metrics." },
+        { "tag": "Execution", "title": "Interview readiness", "body": "Campaign, ROI, and leadership prep." }
+      ]
+    },
+    "steps": {
+      "title": "How marketing coaching works",
+      "subtitle": "Structured from targeting to offer.",
+      "items": [
+        { "title": "Define", "body": "Target role, level, and comp range." },
+        { "title": "Position", "body": "Build resume, LinkedIn, and story bank." },
+        { "title": "Execute", "body": "Prep interviews and negotiate offers." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Marketing professionals ready to move up.",
+      "items": ["Growth, demand gen, and product marketing", "Brand and lifecycle leaders", "Candidates targeting six‑figure comp"]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You want generic resume edits without strategy.",
+      "items": ["Entry‑level prep", "Mass application tactics", "Template‑only services"]
+    },
+    "deliverables": {
+      "title": "What you get",
+      "subtitle": "Role‑specific assets and execution support.",
+      "items": [
+        {
+          "title": "Marketing positioning brief",
+          "tag": "Strategy",
+          "body": "Clarify scope, channel ownership, and narrative.",
+          "bullets": ["Level mapping", "Impact framing", "Role targeting"]
+        },
+        {
+          "title": "Resume + LinkedIn",
+          "tag": "Signal",
+          "body": "Recruiter‑ready assets aligned to your target role.",
+          "bullets": ["ATS‑clean resume", "LinkedIn rewrite", "Marketing keywords"]
+        },
+        {
+          "title": "Interview + offer prep",
+          "tag": "Conversion",
+          "body": "Story bank and negotiation strategy.",
+          "bullets": ["Campaign stories", "Executive prep", "Negotiation script"]
+        }
+      ]
+    },
+    "related": {
+      "title": "Pair with a service",
+      "body": "Choose the right deliverable for your stage.",
+      "primaryLabel": "Land Your Next Role",
+      "primaryLink": "/land-your-next-role/",
+      "secondaryLabel": "LinkedIn Optimization",
+      "secondaryLink": "/linkedin-optimization/"
+    },
+    "faq": {
+      "title": "Marketing coaching FAQs",
+      "subtitle": "Answers for marketing candidates.",
+      "items": [
+        { "question": "Do you work with growth and product marketing?", "answer": "Yes. We tailor narratives to pipeline and revenue impact." },
+        { "question": "Can you help me move into leadership?", "answer": "Yes. We build scope and leadership signal." },
+        { "question": "Do you help with interviews?", "answer": "Yes. We prep for strategy, channel, and leadership questions." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to level up in marketing?",
+      "body": "Book a call and map your path to the next level.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "Marketing & Growth Coaching for Senior Roles | Askia",
+    "metaDescription": "Marketing coaching focused on growth impact, leadership signal, and interview readiness for senior roles."
+  },
+  "sales": {
+    "eyebrow": "Sales career coaching",
+    "h1": "Sales Coaching for Enterprise and Leadership Roles",
+    "subtitle": "Positioning, narrative, and interview prep for sales leaders.",
+    "supporting": "We translate quota, pipeline, and deal impact into leadership signal.",
+    "highlights": [
+      "Role targeting for AE → manager → director",
+      "Resume + LinkedIn tuned for revenue impact",
+      "Interview + offer readiness"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "Built for enterprise AE, sales leadership, and rev ops roles.",
+    "secondaryCtaLabel": "Get the Job Search System",
+    "secondaryCtaLink": "https://askiatech.com/job-search-system",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(87, 207, 196, 0.6)",
+      "accent2": "rgba(114, 214, 255, 0.25)"
+    },
+    "heroCard": {
+      "title": "Sales signal upgrade",
+      "body": "Show revenue impact and leadership scope.",
+      "bullets": ["Quota outcomes", "Pipeline strategy", "Team leadership"]
+    },
+    "proof": {
+      "title": "Outcomes for sales leaders",
+      "subtitle": "Credible signal that drives interviews.",
+      "items": [
+        { "title": "Revenue signal", "body": "Position for enterprise and leadership roles." },
+        { "title": "Deal impact", "body": "Show influence across complex sales cycles." },
+        { "title": "Offer leverage", "body": "Comp aligned to scope and outcomes." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Sales signal",
+      "title": "Make revenue impact undeniable",
+      "subtitle": "We tie wins to strategy and leadership.",
+      "items": [
+        { "tag": "Scope", "title": "Level clarity", "body": "Show account size and ownership." },
+        { "tag": "Story", "title": "Impact narratives", "body": "Frame wins with metrics." },
+        { "tag": "Execution", "title": "Interview readiness", "body": "Deal, pipeline, and leadership prep." }
+      ]
+    },
+    "steps": {
+      "title": "How sales coaching works",
+      "subtitle": "Structured from targeting to offer.",
+      "items": [
+        { "title": "Define", "body": "Target role, level, and comp range." },
+        { "title": "Position", "body": "Build resume, LinkedIn, and story bank." },
+        { "title": "Execute", "body": "Prep interviews and negotiate offers." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Sales professionals ready to move up.",
+      "items": ["Enterprise account executives", "Sales leaders and managers", "Candidates targeting six‑figure comp"]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You want generic resume edits without strategy.",
+      "items": ["Entry‑level prep", "Mass application tactics", "Template‑only services"]
+    },
+    "deliverables": {
+      "title": "What you get",
+      "subtitle": "Role‑specific assets and execution support.",
+      "items": [
+        {
+          "title": "Sales positioning brief",
+          "tag": "Strategy",
+          "body": "Clarify target role, market, and narrative.",
+          "bullets": ["Level mapping", "Impact framing", "Role targeting"]
+        },
+        {
+          "title": "Resume + LinkedIn",
+          "tag": "Signal",
+          "body": "Recruiter‑ready assets aligned to your target role.",
+          "bullets": ["ATS‑clean resume", "LinkedIn rewrite", "Sales keywords"]
+        },
+        {
+          "title": "Interview + offer prep",
+          "tag": "Conversion",
+          "body": "Story bank and negotiation strategy.",
+          "bullets": ["Deal stories", "Executive prep", "Negotiation script"]
+        }
+      ]
+    },
+    "related": {
+      "title": "Pair with a service",
+      "body": "Choose the right deliverable for your stage.",
+      "primaryLabel": "Land Your Next Role",
+      "primaryLink": "/land-your-next-role/",
+      "secondaryLabel": "Interview Prep",
+      "secondaryLink": "/interview-prep/"
+    },
+    "faq": {
+      "title": "Sales coaching FAQs",
+      "subtitle": "Answers for sales candidates.",
+      "items": [
+        { "question": "Do you work with enterprise sales roles?", "answer": "Yes. We tailor to complex deals and longer cycles." },
+        { "question": "Do you help with leadership roles?", "answer": "Yes. We build leadership signal and scope clarity." },
+        { "question": "Do you help with interviews?", "answer": "Yes. We prep for role plays, pipeline, and strategy questions." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to level up in sales?",
+      "body": "Book a call and map your path to the next level.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "Sales Coaching for Enterprise and Leadership Roles | Askia",
+    "metaDescription": "Sales coaching focused on revenue impact, leadership signal, and interview readiness for senior roles."
+  },
+  "operations": {
+    "eyebrow": "Operations career coaching",
+    "h1": "Operations Coaching for Management Roles",
+    "subtitle": "Positioning, narrative, and interview prep for operations leaders.",
+    "supporting": "We translate systems, scale, and execution into leadership signal.",
+    "highlights": [
+      "Role targeting for ops manager → director",
+      "Resume + LinkedIn tuned for operational outcomes",
+      "Interview + offer readiness"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "Built for operations, PMO, and business ops roles.",
+    "secondaryCtaLabel": "Get the Job Search System",
+    "secondaryCtaLink": "https://askiatech.com/job-search-system",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(114, 214, 255, 0.6)",
+      "accent2": "rgba(87, 207, 196, 0.3)"
+    },
+    "heroCard": {
+      "title": "Ops signal upgrade",
+      "body": "Show scale, systems, and business outcomes.",
+      "bullets": ["Process impact", "Cross‑functional scope", "Leadership signal"]
+    },
+    "proof": {
+      "title": "Outcomes for operations leaders",
+      "subtitle": "Credible signal that drives interviews.",
+      "items": [
+        { "title": "Scale signal", "body": "Position for manager and director roles." },
+        { "title": "System impact", "body": "Show process and efficiency gains." },
+        { "title": "Offer leverage", "body": "Comp aligned to scope and outcomes." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Ops signal",
+      "title": "Make execution look like leadership",
+      "subtitle": "We show the outcomes behind the operations.",
+      "items": [
+        { "tag": "Scope", "title": "Level clarity", "body": "Show scale and cross‑org ownership." },
+        { "tag": "Story", "title": "Impact narratives", "body": "Frame efficiency and savings." },
+        { "tag": "Execution", "title": "Interview readiness", "body": "Ops case and leadership prep." }
+      ]
+    },
+    "steps": {
+      "title": "How operations coaching works",
+      "subtitle": "Structured from targeting to offer.",
+      "items": [
+        { "title": "Define", "body": "Target role, level, and comp range." },
+        { "title": "Position", "body": "Build resume, LinkedIn, and story bank." },
+        { "title": "Execute", "body": "Prep interviews and negotiate offers." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Operations professionals ready to move up.",
+      "items": ["Ops managers and business ops", "PMO and program leaders", "Candidates targeting six‑figure comp"]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You want generic resume edits without strategy.",
+      "items": ["Entry‑level prep", "Mass application tactics", "Template‑only services"]
+    },
+    "deliverables": {
+      "title": "What you get",
+      "subtitle": "Role‑specific assets and execution support.",
+      "items": [
+        {
+          "title": "Ops positioning brief",
+          "tag": "Strategy",
+          "body": "Clarify scope, systems, and leadership narrative.",
+          "bullets": ["Level mapping", "Impact framing", "Role targeting"]
+        },
+        {
+          "title": "Resume + LinkedIn",
+          "tag": "Signal",
+          "body": "Recruiter‑ready assets aligned to your target role.",
+          "bullets": ["ATS‑clean resume", "LinkedIn rewrite", "Ops keywords"]
+        },
+        {
+          "title": "Interview + offer prep",
+          "tag": "Conversion",
+          "body": "Story bank and negotiation strategy.",
+          "bullets": ["Case prep", "Leadership stories", "Negotiation script"]
+        }
+      ]
+    },
+    "related": {
+      "title": "Pair with a service",
+      "body": "Choose the right deliverable for your stage.",
+      "primaryLabel": "Land Your Next Role",
+      "primaryLink": "/land-your-next-role/",
+      "secondaryLabel": "Resume Writing",
+      "secondaryLink": "/resume-writing/"
+    },
+    "faq": {
+      "title": "Operations coaching FAQs",
+      "subtitle": "Answers for ops candidates.",
+      "items": [
+        { "question": "Do you work with business ops roles?", "answer": "Yes. We tailor to cross‑functional execution and strategy." },
+        { "question": "Can you help me move into leadership?", "answer": "Yes. We focus on scope, systems, and leadership signal." },
+        { "question": "Do you help with interviews?", "answer": "Yes. We prep for operations cases and leadership questions." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to level up in operations?",
+      "body": "Book a call and map your path to the next level.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "Operations Coaching for Management Roles | Askia",
+    "metaDescription": "Operations coaching focused on execution signal, leadership scope, and interview readiness for senior roles."
+  },
+  "supplyChain": {
+    "eyebrow": "Supply chain career coaching",
+    "h1": "Supply Chain & Logistics Coaching for Senior Roles",
+    "subtitle": "Positioning, narrative, and interview prep for supply chain leaders.",
+    "supporting": "We translate cost, fulfillment, and resilience impact into leadership signal.",
+    "highlights": [
+      "Role targeting for manager → director",
+      "Resume + LinkedIn tuned for supply chain outcomes",
+      "Interview + offer readiness"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "Built for logistics, procurement, and supply planning roles.",
+    "secondaryCtaLabel": "Get the Job Search System",
+    "secondaryCtaLink": "https://askiatech.com/job-search-system",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(114, 214, 255, 0.6)",
+      "accent2": "rgba(87, 207, 196, 0.3)"
+    },
+    "heroCard": {
+      "title": "Supply chain signal upgrade",
+      "body": "Show resilience, cost, and delivery impact.",
+      "bullets": ["Cost reduction", "Fulfillment impact", "Risk management"]
+    },
+    "proof": {
+      "title": "Outcomes for supply chain leaders",
+      "subtitle": "Credible signal that drives interviews.",
+      "items": [
+        { "title": "Scale signal", "body": "Position for senior logistics roles." },
+        { "title": "Cost impact", "body": "Show savings and efficiency gains." },
+        { "title": "Offer leverage", "body": "Comp aligned to scope and outcomes." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Supply chain signal",
+      "title": "Make operational impact undeniable",
+      "subtitle": "We show the outcomes behind the network.",
+      "items": [
+        { "tag": "Scope", "title": "Level clarity", "body": "Show scale and network complexity." },
+        { "tag": "Story", "title": "Impact narratives", "body": "Frame savings and resilience." },
+        { "tag": "Execution", "title": "Interview readiness", "body": "Scenario and leadership prep." }
+      ]
+    },
+    "steps": {
+      "title": "How supply chain coaching works",
+      "subtitle": "Structured from targeting to offer.",
+      "items": [
+        { "title": "Define", "body": "Target role, level, and comp range." },
+        { "title": "Position", "body": "Build resume, LinkedIn, and story bank." },
+        { "title": "Execute", "body": "Prep interviews and negotiate offers." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Supply chain professionals ready to move up.",
+      "items": ["Logistics and procurement leaders", "Supply planning and ops managers", "Candidates targeting six‑figure comp"]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You want generic resume edits without strategy.",
+      "items": ["Entry‑level prep", "Mass application tactics", "Template‑only services"]
+    },
+    "deliverables": {
+      "title": "What you get",
+      "subtitle": "Role‑specific assets and execution support.",
+      "items": [
+        {
+          "title": "Supply chain positioning brief",
+          "tag": "Strategy",
+          "body": "Clarify scope, network, and leadership narrative.",
+          "bullets": ["Level mapping", "Impact framing", "Role targeting"]
+        },
+        {
+          "title": "Resume + LinkedIn",
+          "tag": "Signal",
+          "body": "Recruiter‑ready assets aligned to your target role.",
+          "bullets": ["ATS‑clean resume", "LinkedIn rewrite", "Supply chain keywords"]
+        },
+        {
+          "title": "Interview + offer prep",
+          "tag": "Conversion",
+          "body": "Story bank and negotiation strategy.",
+          "bullets": ["Scenario prep", "Leadership stories", "Negotiation script"]
+        }
+      ]
+    },
+    "related": {
+      "title": "Pair with a service",
+      "body": "Choose the right deliverable for your stage.",
+      "primaryLabel": "Land Your Next Role",
+      "primaryLink": "/land-your-next-role/",
+      "secondaryLabel": "Interview Prep",
+      "secondaryLink": "/interview-prep/"
+    },
+    "faq": {
+      "title": "Supply chain coaching FAQs",
+      "subtitle": "Answers for supply chain candidates.",
+      "items": [
+        { "question": "Do you work with procurement roles?", "answer": "Yes. We tailor to sourcing, vendor strategy, and savings impact." },
+        { "question": "Do you help with logistics roles?", "answer": "Yes. We focus on scale, reliability, and cost outcomes." },
+        { "question": "Do you help with interviews?", "answer": "Yes. We prep for scenario and leadership questions." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to level up in supply chain?",
+      "body": "Book a call and map your path to the next level.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "Supply Chain & Logistics Coaching for Senior Roles | Askia",
+    "metaDescription": "Supply chain coaching focused on operational impact, leadership signal, and interview readiness for senior roles."
+  },
+  "peopleOps": {
+    "eyebrow": "People ops & HR coaching",
+    "h1": "People Ops & HR Coaching for Leadership Roles",
+    "subtitle": "Positioning, narrative, and interview prep for people leaders.",
+    "supporting": "We translate talent strategy and culture impact into leadership signal.",
+    "highlights": [
+      "Role targeting for HRBP → manager → director",
+      "Resume + LinkedIn tuned for people impact",
+      "Interview + offer readiness"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "Built for HR, people ops, and talent leadership roles.",
+    "secondaryCtaLabel": "Get the Job Search System",
+    "secondaryCtaLink": "https://askiatech.com/job-search-system",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(255, 154, 118, 0.6)",
+      "accent2": "rgba(255, 214, 133, 0.3)"
+    },
+    "heroCard": {
+      "title": "People ops signal upgrade",
+      "body": "Show org impact, retention, and leadership scope.",
+      "bullets": ["Org design", "Talent strategy", "Leadership impact"]
+    },
+    "proof": {
+      "title": "Outcomes for people leaders",
+      "subtitle": "Credible signal that drives interviews.",
+      "items": [
+        { "title": "Leadership scope", "body": "Position for senior HR roles." },
+        { "title": "Talent impact", "body": "Show retention and growth outcomes." },
+        { "title": "Offer leverage", "body": "Comp aligned to scope and outcomes." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "People ops signal",
+      "title": "Make people impact undeniable",
+      "subtitle": "We show the outcomes behind culture and talent.",
+      "items": [
+        { "tag": "Scope", "title": "Level clarity", "body": "Show org size and complexity." },
+        { "tag": "Story", "title": "Impact narratives", "body": "Frame retention and engagement wins." },
+        { "tag": "Execution", "title": "Interview readiness", "body": "HR strategy and leadership prep." }
+      ]
+    },
+    "steps": {
+      "title": "How people ops coaching works",
+      "subtitle": "Structured from targeting to offer.",
+      "items": [
+        { "title": "Define", "body": "Target role, level, and comp range." },
+        { "title": "Position", "body": "Build resume, LinkedIn, and story bank." },
+        { "title": "Execute", "body": "Prep interviews and negotiate offers." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "People ops and HR professionals ready to move up.",
+      "items": ["HRBPs and people ops managers", "Talent and L&D leaders", "Candidates targeting six‑figure comp"]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You want generic resume edits without strategy.",
+      "items": ["Entry‑level prep", "Mass application tactics", "Template‑only services"]
+    },
+    "deliverables": {
+      "title": "What you get",
+      "subtitle": "Role‑specific assets and execution support.",
+      "items": [
+        {
+          "title": "People ops positioning brief",
+          "tag": "Strategy",
+          "body": "Clarify scope, org impact, and narrative.",
+          "bullets": ["Level mapping", "Impact framing", "Role targeting"]
+        },
+        {
+          "title": "Resume + LinkedIn",
+          "tag": "Signal",
+          "body": "Recruiter‑ready assets aligned to your target role.",
+          "bullets": ["ATS‑clean resume", "LinkedIn rewrite", "People ops keywords"]
+        },
+        {
+          "title": "Interview + offer prep",
+          "tag": "Conversion",
+          "body": "Story bank and negotiation strategy.",
+          "bullets": ["Leadership stories", "Culture strategy", "Negotiation script"]
+        }
+      ]
+    },
+    "related": {
+      "title": "Pair with a service",
+      "body": "Choose the right deliverable for your stage.",
+      "primaryLabel": "Land Your Next Role",
+      "primaryLink": "/land-your-next-role/",
+      "secondaryLabel": "Career Clarity",
+      "secondaryLink": "/career-clarity/"
+    },
+    "faq": {
+      "title": "People ops coaching FAQs",
+      "subtitle": "Answers for HR candidates.",
+      "items": [
+        { "question": "Do you work with HRBP roles?", "answer": "Yes. We tailor to business partnering and org strategy." },
+        { "question": "Can you help me move into leadership?", "answer": "Yes. We focus on scope and leadership signal." },
+        { "question": "Do you help with interviews?", "answer": "Yes. We prep for people strategy and leadership questions." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to level up in people ops?",
+      "body": "Book a call and map your path to the next level.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "People Ops & HR Coaching for Leadership Roles | Askia",
+    "metaDescription": "People ops coaching focused on org impact, leadership signal, and interview readiness for senior roles."
+  },
+  "strategyConsulting": {
+    "eyebrow": "Strategy & consulting coaching",
+    "h1": "Strategy & Consulting Coaching for Senior Roles",
+    "subtitle": "Positioning, narrative, and interview prep for strategy leaders.",
+    "supporting": "We translate problem‑solving impact into leadership signal.",
+    "highlights": [
+      "Role targeting for analyst → manager → director",
+      "Resume + LinkedIn tuned for strategy outcomes",
+      "Interview + offer readiness"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "Built for consulting, strategy, and corporate development roles.",
+    "secondaryCtaLabel": "Get the Job Search System",
+    "secondaryCtaLink": "https://askiatech.com/job-search-system",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(114, 214, 255, 0.6)",
+      "accent2": "rgba(87, 207, 196, 0.3)"
+    },
+    "heroCard": {
+      "title": "Strategy signal upgrade",
+      "body": "Show problem‑solving impact and executive readiness.",
+      "bullets": ["Case impact", "Executive framing", "Leadership scope"]
+    },
+    "proof": {
+      "title": "Outcomes for strategy leaders",
+      "subtitle": "Credible signal that drives interviews.",
+      "items": [
+        { "title": "Executive signal", "body": "Position for manager and director roles." },
+        { "title": "Impact framing", "body": "Tie analysis to business outcomes." },
+        { "title": "Offer leverage", "body": "Comp aligned to scope and impact." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Strategy signal",
+      "title": "Make problem‑solving look like leadership",
+      "subtitle": "We show the outcomes behind the analysis.",
+      "items": [
+        { "tag": "Scope", "title": "Level clarity", "body": "Show size of problems you own." },
+        { "tag": "Story", "title": "Impact narratives", "body": "Frame outcomes with data." },
+        { "tag": "Execution", "title": "Interview readiness", "body": "Case and stakeholder prep." }
+      ]
+    },
+    "steps": {
+      "title": "How strategy coaching works",
+      "subtitle": "Structured from targeting to offer.",
+      "items": [
+        { "title": "Define", "body": "Target role, level, and comp range." },
+        { "title": "Position", "body": "Build resume, LinkedIn, and story bank." },
+        { "title": "Execute", "body": "Prep interviews and negotiate offers." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Strategy and consulting professionals ready to move up.",
+      "items": ["Consultants and strategy analysts", "Corporate development roles", "Candidates targeting six‑figure comp"]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You want generic resume edits without strategy.",
+      "items": ["Entry‑level prep", "Mass application tactics", "Template‑only services"]
+    },
+    "deliverables": {
+      "title": "What you get",
+      "subtitle": "Role‑specific assets and execution support.",
+      "items": [
+        {
+          "title": "Strategy positioning brief",
+          "tag": "Strategy",
+          "body": "Clarify scope, impact, and narrative.",
+          "bullets": ["Level mapping", "Impact framing", "Role targeting"]
+        },
+        {
+          "title": "Resume + LinkedIn",
+          "tag": "Signal",
+          "body": "Recruiter‑ready assets aligned to your target role.",
+          "bullets": ["ATS‑clean resume", "LinkedIn rewrite", "Strategy keywords"]
+        },
+        {
+          "title": "Interview + offer prep",
+          "tag": "Conversion",
+          "body": "Story bank and negotiation strategy.",
+          "bullets": ["Case prep", "Executive stories", "Negotiation script"]
+        }
+      ]
+    },
+    "related": {
+      "title": "Pair with a service",
+      "body": "Choose the right deliverable for your stage.",
+      "primaryLabel": "Land Your Next Role",
+      "primaryLink": "/land-your-next-role/",
+      "secondaryLabel": "Interview Prep",
+      "secondaryLink": "/interview-prep/"
+    },
+    "faq": {
+      "title": "Strategy coaching FAQs",
+      "subtitle": "Answers for strategy candidates.",
+      "items": [
+        { "question": "Do you help with consulting roles?", "answer": "Yes. We tailor to case and client leadership signal." },
+        { "question": "Can you help me move into strategy leadership?", "answer": "Yes. We focus on executive framing and scope." },
+        { "question": "Do you help with interviews?", "answer": "Yes. We prep for cases and stakeholder questions." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to level up in strategy?",
+      "body": "Book a call and map your path to the next level.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "Strategy & Consulting Coaching for Senior Roles | Askia",
+    "metaDescription": "Strategy coaching focused on executive signal, impact framing, and interview readiness for senior roles."
+  },
+  "healthcareAdmin": {
+    "eyebrow": "Healthcare administration coaching",
+    "h1": "Healthcare Administration Coaching for Senior Roles",
+    "subtitle": "Positioning, narrative, and interview prep for healthcare leaders.",
+    "supporting": "We translate operational and patient impact into leadership signal.",
+    "highlights": [
+      "Role targeting for manager → director",
+      "Resume + LinkedIn tuned for healthcare outcomes",
+      "Interview + offer readiness"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "Built for healthcare operations and administration roles.",
+    "secondaryCtaLabel": "Get the Job Search System",
+    "secondaryCtaLink": "https://askiatech.com/job-search-system",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(114, 214, 255, 0.6)",
+      "accent2": "rgba(87, 207, 196, 0.3)"
+    },
+    "heroCard": {
+      "title": "Healthcare signal upgrade",
+      "body": "Show patient, operational, and leadership impact.",
+      "bullets": ["Patient outcomes", "Operational excellence", "Leadership scope"]
+    },
+    "proof": {
+      "title": "Outcomes for healthcare leaders",
+      "subtitle": "Credible signal that drives interviews.",
+      "items": [
+        { "title": "Leadership scope", "body": "Position for senior admin roles." },
+        { "title": "Operational impact", "body": "Show safety and efficiency gains." },
+        { "title": "Offer leverage", "body": "Comp aligned to scope and outcomes." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Healthcare signal",
+      "title": "Make impact and safety undeniable",
+      "subtitle": "We show the outcomes behind the operations.",
+      "items": [
+        { "tag": "Scope", "title": "Level clarity", "body": "Show department and system scale." },
+        { "tag": "Story", "title": "Impact narratives", "body": "Frame patient outcomes and quality." },
+        { "tag": "Execution", "title": "Interview readiness", "body": "Operational and leadership prep." }
+      ]
+    },
+    "steps": {
+      "title": "How healthcare coaching works",
+      "subtitle": "Structured from targeting to offer.",
+      "items": [
+        { "title": "Define", "body": "Target role, level, and comp range." },
+        { "title": "Position", "body": "Build resume, LinkedIn, and story bank." },
+        { "title": "Execute", "body": "Prep interviews and negotiate offers." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Healthcare administrators ready to move up.",
+      "items": ["Medical and health services managers", "Clinic and hospital operations leaders", "Candidates targeting six‑figure comp"]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You want generic resume edits without strategy.",
+      "items": ["Entry‑level prep", "Mass application tactics", "Template‑only services"]
+    },
+    "deliverables": {
+      "title": "What you get",
+      "subtitle": "Role‑specific assets and execution support.",
+      "items": [
+        {
+          "title": "Healthcare positioning brief",
+          "tag": "Strategy",
+          "body": "Clarify scope, impact, and narrative.",
+          "bullets": ["Level mapping", "Impact framing", "Role targeting"]
+        },
+        {
+          "title": "Resume + LinkedIn",
+          "tag": "Signal",
+          "body": "Recruiter‑ready assets aligned to your target role.",
+          "bullets": ["ATS‑clean resume", "LinkedIn rewrite", "Healthcare keywords"]
+        },
+        {
+          "title": "Interview + offer prep",
+          "tag": "Conversion",
+          "body": "Story bank and negotiation strategy.",
+          "bullets": ["Operational stories", "Leadership prep", "Negotiation script"]
+        }
+      ]
+    },
+    "related": {
+      "title": "Pair with a service",
+      "body": "Choose the right deliverable for your stage.",
+      "primaryLabel": "Land Your Next Role",
+      "primaryLink": "/land-your-next-role/",
+      "secondaryLabel": "Career Clarity",
+      "secondaryLink": "/career-clarity/"
+    },
+    "faq": {
+      "title": "Healthcare coaching FAQs",
+      "subtitle": "Answers for healthcare leaders.",
+      "items": [
+        { "question": "Do you work with hospital administrators?", "answer": "Yes. We tailor to scale, compliance, and operations." },
+        { "question": "Can you help me move into leadership?", "answer": "Yes. We focus on scope and leadership signal." },
+        { "question": "Do you help with interviews?", "answer": "Yes. We prep for operational and leadership questions." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to level up in healthcare?",
+      "body": "Book a call and map your path to the next level.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "Healthcare Administration Coaching for Senior Roles | Askia",
+    "metaDescription": "Healthcare administration coaching focused on leadership signal, operational impact, and interview readiness."
+  },
+  "legalCompliance": {
+    "eyebrow": "Legal & compliance coaching",
+    "h1": "Legal & Compliance Coaching for Senior Roles",
+    "subtitle": "Positioning, narrative, and interview prep for legal leaders.",
+    "supporting": "We translate risk, governance, and business impact into leadership signal.",
+    "highlights": [
+      "Role targeting for counsel → senior counsel",
+      "Resume + LinkedIn tuned for legal impact",
+      "Interview + offer readiness"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "Built for corporate counsel, compliance, and risk roles.",
+    "secondaryCtaLabel": "Get the Job Search System",
+    "secondaryCtaLink": "https://askiatech.com/job-search-system",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(114, 214, 255, 0.6)",
+      "accent2": "rgba(87, 207, 196, 0.3)"
+    },
+    "heroCard": {
+      "title": "Legal signal upgrade",
+      "body": "Show governance, risk, and business impact.",
+      "bullets": ["Risk control", "Policy impact", "Executive counsel"]
+    },
+    "proof": {
+      "title": "Outcomes for legal leaders",
+      "subtitle": "Credible signal that drives interviews.",
+      "items": [
+        { "title": "Governance signal", "body": "Position for senior counsel roles." },
+        { "title": "Risk impact", "body": "Show mitigation and compliance outcomes." },
+        { "title": "Offer leverage", "body": "Comp aligned to scope and outcomes." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "Legal signal",
+      "title": "Make counsel impact undeniable",
+      "subtitle": "We show the outcomes behind the guidance.",
+      "items": [
+        { "tag": "Scope", "title": "Level clarity", "body": "Show breadth of counsel and risk." },
+        { "tag": "Story", "title": "Impact narratives", "body": "Frame wins with business outcomes." },
+        { "tag": "Execution", "title": "Interview readiness", "body": "Scenario and leadership prep." }
+      ]
+    },
+    "steps": {
+      "title": "How legal coaching works",
+      "subtitle": "Structured from targeting to offer.",
+      "items": [
+        { "title": "Define", "body": "Target role, level, and comp range." },
+        { "title": "Position", "body": "Build resume, LinkedIn, and story bank." },
+        { "title": "Execute", "body": "Prep interviews and negotiate offers." }
+      ]
+    },
+    "for": {
+      "title": "This is for",
+      "body": "Legal and compliance professionals ready to move up.",
+      "items": ["Corporate counsel and compliance leaders", "Risk and governance roles", "Candidates targeting six‑figure comp"]
+    },
+    "notFor": {
+      "title": "Not a fit if",
+      "body": "You want generic resume edits without strategy.",
+      "items": ["Entry‑level prep", "Mass application tactics", "Template‑only services"]
+    },
+    "deliverables": {
+      "title": "What you get",
+      "subtitle": "Role‑specific assets and execution support.",
+      "items": [
+        {
+          "title": "Legal positioning brief",
+          "tag": "Strategy",
+          "body": "Clarify scope, risk, and narrative.",
+          "bullets": ["Level mapping", "Impact framing", "Role targeting"]
+        },
+        {
+          "title": "Resume + LinkedIn",
+          "tag": "Signal",
+          "body": "Recruiter‑ready assets aligned to your target role.",
+          "bullets": ["ATS‑clean resume", "LinkedIn rewrite", "Legal keywords"]
+        },
+        {
+          "title": "Interview + offer prep",
+          "tag": "Conversion",
+          "body": "Story bank and negotiation strategy.",
+          "bullets": ["Scenario prep", "Leadership stories", "Negotiation script"]
+        }
+      ]
+    },
+    "related": {
+      "title": "Pair with a service",
+      "body": "Choose the right deliverable for your stage.",
+      "primaryLabel": "Land Your Next Role",
+      "primaryLink": "/land-your-next-role/",
+      "secondaryLabel": "Resume Writing",
+      "secondaryLink": "/resume-writing/"
+    },
+    "faq": {
+      "title": "Legal coaching FAQs",
+      "subtitle": "Answers for legal candidates.",
+      "items": [
+        { "question": "Do you work with corporate counsel roles?", "answer": "Yes. We tailor to governance and business impact." },
+        { "question": "Do you help with compliance roles?", "answer": "Yes. We focus on risk and regulatory outcomes." },
+        { "question": "Do you help with interviews?", "answer": "Yes. We prep for scenario and leadership questions." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to level up in legal?",
+      "body": "Book a call and map your path to the next level.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "Legal & Compliance Coaching for Senior Roles | Askia",
+    "metaDescription": "Legal coaching focused on governance signal, risk impact, and interview readiness for senior roles."
+  }
+}
