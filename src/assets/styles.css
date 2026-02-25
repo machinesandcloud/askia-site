@@ -2214,16 +2214,45 @@ body.pricing-focus {
   border-radius: 22px;
   border: 1px solid rgba(114, 214, 255, 0.12);
   background: linear-gradient(140deg, rgba(10, 16, 24, 0.9), rgba(8, 12, 18, 0.65));
-  --track-offset: 0px;
+}
+
+.services-track-marquee::before,
+.services-track-marquee::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 120px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.services-track-marquee::before {
+  left: 0;
+  background: linear-gradient(90deg, rgba(8, 12, 18, 0.95), rgba(8, 12, 18, 0));
+}
+
+.services-track-marquee::after {
+  right: 0;
+  background: linear-gradient(270deg, rgba(8, 12, 18, 0.95), rgba(8, 12, 18, 0));
 }
 
 .services-track-row {
-  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 8px 0;
+}
+
+.services-track-track {
+  display: inline-flex;
   gap: 14px;
   white-space: nowrap;
-  transform: translateX(var(--track-offset));
-  transition: transform 0.1s linear;
-  padding: 8px 0;
+  animation: trackScroll 22s linear infinite;
+}
+
+.services-track-row.reverse .services-track-track {
+  animation-direction: reverse;
+  animation-duration: 26s;
 }
 
 .services-track-row span {
@@ -2234,6 +2263,15 @@ body.pricing-focus {
   background: rgba(255, 255, 255, 0.04);
   color: rgba(244, 247, 251, 0.85);
   font-size: 0.85rem;
+}
+
+.services-track-marquee:hover .services-track-track {
+  animation-play-state: paused;
+}
+
+@keyframes trackScroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
 
 .services-outcomes-head {
@@ -2280,6 +2318,11 @@ body.pricing-focus {
   .services-tracks-head {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .services-track-marquee::before,
+  .services-track-marquee::after {
+    width: 60px;
   }
 }
 

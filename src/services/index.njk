@@ -169,24 +169,44 @@ breadcrumbs:
     </div>
     <div class="services-track-marquee" data-track-marquee>
       <div class="services-track-row">
-        <span>Software Engineer</span>
-        <span>Data</span>
-        <span>Product Manager</span>
-        <span>Finance &amp; FP&amp;A</span>
-        <span>Marketing &amp; Growth</span>
-        <span>Operations</span>
-        <span>Healthcare Admin</span>
-        <span>People Ops &amp; HR</span>
+        <div class="services-track-track">
+          <span>Software Engineer</span>
+          <span>Data</span>
+          <span>Product Manager</span>
+          <span>Finance &amp; FP&amp;A</span>
+          <span>Marketing &amp; Growth</span>
+          <span>Operations</span>
+          <span>Healthcare Admin</span>
+          <span>People Ops &amp; HR</span>
+          <span>Software Engineer</span>
+          <span>Data</span>
+          <span>Product Manager</span>
+          <span>Finance &amp; FP&amp;A</span>
+          <span>Marketing &amp; Growth</span>
+          <span>Operations</span>
+          <span>Healthcare Admin</span>
+          <span>People Ops &amp; HR</span>
+        </div>
       </div>
-      <div class="services-track-row">
-        <span>DevOps &amp; SRE</span>
-        <span>Cybersecurity</span>
-        <span>Solutions Architect</span>
-        <span>Sales</span>
-        <span>Supply Chain</span>
-        <span>Strategy &amp; Consulting</span>
-        <span>Accounting &amp; Controller</span>
-        <span>Customer Success</span>
+      <div class="services-track-row reverse">
+        <div class="services-track-track">
+          <span>DevOps &amp; SRE</span>
+          <span>Cybersecurity</span>
+          <span>Solutions Architect</span>
+          <span>Sales</span>
+          <span>Supply Chain</span>
+          <span>Strategy &amp; Consulting</span>
+          <span>Accounting &amp; Controller</span>
+          <span>Customer Success</span>
+          <span>DevOps &amp; SRE</span>
+          <span>Cybersecurity</span>
+          <span>Solutions Architect</span>
+          <span>Sales</span>
+          <span>Supply Chain</span>
+          <span>Strategy &amp; Consulting</span>
+          <span>Accounting &amp; Controller</span>
+          <span>Customer Success</span>
+        </div>
       </div>
     </div>
   </div>
@@ -299,33 +319,5 @@ breadcrumbs:
     document.addEventListener("keydown", (event) => {
       if (event.key === "Escape" && !overlay.hidden) closeModal();
     });
-  });
-</script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const marquee = document.querySelector("[data-track-marquee]");
-    if (!marquee) return;
-    let rafId = null;
-    let offset = 0;
-
-    const step = () => {
-      offset -= 0.3;
-      marquee.style.setProperty("--track-offset", `${offset}px`);
-      rafId = requestAnimationFrame(step);
-    };
-
-    const start = () => {
-      if (!rafId) rafId = requestAnimationFrame(step);
-    };
-
-    const stop = () => {
-      if (rafId) cancelAnimationFrame(rafId);
-      rafId = null;
-    };
-
-    marquee.addEventListener("mouseenter", stop);
-    marquee.addEventListener("mouseleave", start);
-    start();
   });
 </script>
