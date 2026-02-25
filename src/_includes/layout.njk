@@ -16,7 +16,11 @@
     {% set resolvedType = metaType or "website" %}
     <title>{{ resolvedTitle }}</title>
     <meta name="description" content="{{ resolvedDescription }}" />
+    {% if noindex %}
+    <meta name="robots" content="noindex,follow" />
+    {% else %}
     <meta name="robots" content="index,follow" />
+    {% endif %}
     <meta name="author" content="{{ author or site.name }}" />
     <meta name="theme-color" content="#1a2332" />
     <meta property="og:type" content="{{ resolvedType }}" />
