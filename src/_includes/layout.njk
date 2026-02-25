@@ -472,6 +472,23 @@
           }
         }
 
+        document.querySelectorAll("[data-collapsible]").forEach((section) => {
+          const toggle = section.querySelector("[data-collapsible-toggle]");
+          const panel = section.querySelector("[data-collapsible-panel]");
+          if (!toggle || !panel) return;
+
+          const setOpen = (isOpen) => {
+            section.classList.toggle("is-open", isOpen);
+            toggle.setAttribute("aria-expanded", String(isOpen));
+          };
+
+          setOpen(false);
+          toggle.addEventListener("click", () => {
+            const isOpen = !section.classList.contains("is-open");
+            setOpen(isOpen);
+          });
+        });
+
         const wrapper = document.querySelector("[data-assessment]");
         if (!wrapper) return;
 

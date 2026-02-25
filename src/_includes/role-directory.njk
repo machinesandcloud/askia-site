@@ -1,15 +1,21 @@
-<section class="section section-tight role-directory">
+<section class="section band-collapsible role-directory" data-collapsible>
   <div class="container">
-    <div class="band-shell">
-      <div class="band-rail">
-        <p class="hero-eyebrow">Role Directory</p>
-        <h2 class="section-title section-title-glow">{{ roleDirectory.title }}</h2>
-        {% if roleDirectory.subtitle %}<p class="section-subtitle">{{ roleDirectory.subtitle }}</p>{% endif %}
-        <div class="band-rail-cta">
+    <div class="band-collapsible-shell">
+      <div class="band-hero">
+        <div class="band-hero-text">
+          <p class="hero-eyebrow">Role Directory</p>
+          <h2 class="section-title section-title-glow">{{ roleDirectory.title }}</h2>
+          {% if roleDirectory.subtitle %}<p class="section-subtitle">{{ roleDirectory.subtitle }}</p>{% endif %}
+        </div>
+        <div class="band-hero-actions">
           <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+          <button class="band-toggle" type="button" data-collapsible-toggle aria-expanded="false">
+            <span>Explore roles</span>
+            <span class="band-toggle-icon" aria-hidden="true"></span>
+          </button>
         </div>
       </div>
-      <div class="band-body">
+      <div class="band-panel" data-collapsible-panel>
         <div class="role-directory-grid">
           {% for group in roleDirectory.groups %}
           <div class="role-directory-group reveal-item">
