@@ -16,15 +16,9 @@
         </div>
       </div>
       <div class="band-panel" data-collapsible-panel>
-        <div class="location-grid">
+        <div class="location-line" aria-label="Top markets">
           {% for item in locations.items %}
-          <div class="location-card reveal-item">
-            <div class="location-card-header">
-              <span class="location-dot"></span>
-              <strong>{{ item.label }}</strong>
-            </div>
-            <span>{{ item.note }}</span>
-          </div>
+          <span class="location-line-item reveal-item">{{ item.label }}</span>
           {% endfor %}
         </div>
       </div>
