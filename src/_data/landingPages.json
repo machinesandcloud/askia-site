@@ -1,12 +1,12 @@
 {
   "landNextRole": {
     "eyebrow": "Career coaching",
-    "h1": "Land the right-level tech role",
-    "subtitle": "Positioning + interview execution to get hired faster.",
+    "h1": "Land the right‑level role",
+    "subtitle": "Positioning + interview execution that gets you hired faster.",
     "supporting": "We build your narrative, market signal, and offer strategy so the right roles convert.",
     "highlights": [
       "Role + compensation targeting tied to your strengths",
-      "Resume + LinkedIn that generate recruiter response",
+      "Resume + LinkedIn that generate decision‑maker response",
       "Interview and negotiation strategy that closes"
     ],
     "ctaLabel": "Book a Call",
@@ -46,7 +46,7 @@
     "heroStats": [
       {
         "value": "$100K–$350K",
-        "label": "Offer ranges across tech roles"
+        "label": "Offer ranges across high‑impact roles"
       },
       {
         "value": "2–6 weeks",
@@ -92,7 +92,7 @@
       "items": [
         {
           "title": "$100K–$350K",
-          "body": "Offer ranges achieved by clients across tech roles."
+          "body": "Offer ranges achieved by clients across high‑impact roles."
         },
         {
           "title": "2–6 weeks",
@@ -100,13 +100,13 @@
         },
         {
           "title": "Hiring-table insight",
-          "body": "Built from real hiring decisions across engineering and product teams."
+          "body": "Built from real hiring decisions across technical and business teams."
         }
       ]
     },
     "testimonials": {
-      "title": "Real outcomes from tech professionals",
-      "subtitle": "Recent wins across engineering, product, data, and leadership roles.",
+      "title": "Real outcomes from professionals",
+      "subtitle": "Recent wins across technical, product, operations, and leadership roles.",
       "indexes": [
         1,
         3,
@@ -200,13 +200,13 @@
     },
     "for": {
       "title": "This is for",
-      "body": "Tech professionals who want a higher level role and a cleaner path to offers.",
+      "body": "Professionals who want a higher‑level role and a cleaner path to offers.",
       "items": [
         "Senior ICs and emerging leaders",
-        "Engineers, data, product, and platform roles",
-        "Tech sales, solutions, and customer success roles",
-        "Project, program, and product ops roles",
-        "Professionals targeting $100K–$350K compensation"
+        "Technical, product, operations, and customer‑facing roles",
+        "Business, finance, healthcare, and growth teams",
+        "Project, program, and people leaders",
+        "Professionals targeting higher‑level compensation"
       ]
     },
     "notFor": {
@@ -331,7 +331,7 @@
       "items": [
         {
           "question": "What roles do you specialize in?",
-          "answer": "Software engineering, DevOps/SRE, data, product, and engineering leadership — all targeting $100K–$350K outcomes."
+          "answer": "We support professionals across technical, product, operations, sales, finance, healthcare, and leadership roles. If you’re unsure, we’ll confirm fit on the call."
         },
         {
           "question": "How quickly can I see results?",
@@ -343,7 +343,7 @@
         },
         {
           "question": "Is this only for leaders?",
-          "answer": "No. We work with senior ICs and leaders. The level determines the strategy and deliverables."
+          "answer": "No. We work with senior ICs, managers, and leaders. Your level determines the strategy and deliverables."
         },
         {
           "question": "What if I’m unsure of my next role?",
@@ -369,7 +369,7 @@
       "label": "Book a Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Land the Right‑Level Tech Role | Askia",
+    "metaTitle": "Land the Right‑Level Role | Askia",
     "metaDescription": "Outcome‑focused career coaching to refine your signal, interviews, and offer strategy."
   }
 }

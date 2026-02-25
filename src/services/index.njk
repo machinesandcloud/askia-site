@@ -1,7 +1,7 @@
 ---
 layout: layout.njk
 title: Services
-description: "Askia coaching services to land top tech roles."
+description: "Askia coaching services to land high‑impact roles."
 metaTitle: "Coaching Services That Move Your Next Role | Askia"
 metaDescription: "Outcome‑focused coaching services across resume, LinkedIn, interviews, and offer strategy."
 breadcrumbs:
@@ -94,7 +94,26 @@ breadcrumbs:
               <p>{{ tier.body }}</p>
               <ul>
                 {% for bullet in tier.bullets %}
-                  <li>{{ bullet }}</li>
+                  {% if bullet.label %}
+                    <li>
+                      <span>{{ bullet.label }}</span>
+                      {% if bullet.detailTitle or bullet.detailBody %}
+                        <button
+                          type="button"
+                          class="pricing-detail"
+                          data-pricing-detail
+                          data-pricing-title="{{ bullet.detailTitle | default(bullet.label) }}"
+                          data-pricing-body="{{ bullet.detailBody | default('') }}"
+                          data-pricing-points="{% if bullet.detailPoints %}{{ bullet.detailPoints | join('||') }}{% endif %}"
+                          aria-label="Learn more about {{ bullet.label }}"
+                        >
+                          +
+                        </button>
+                      {% endif %}
+                    </li>
+                  {% else %}
+                    <li>{{ bullet }}</li>
+                  {% endif %}
                 {% endfor %}
               </ul>
               <div class="services-meta">
@@ -164,7 +183,7 @@ breadcrumbs:
     <div>
       <p class="hero-eyebrow">Role tracks</p>
       <h2 class="section-title section-title-glow">Find a path built for your role</h2>
-      <p class="section-subtitle">Role tracks speak directly to how hiring works in your function.</p>
+      <p class="section-subtitle">Tech‑focused tracks speak directly to how hiring works in your function. Other roles are scoped on the call.</p>
       <a class="btn btn-ghost" href="/land-your-next-role/">Explore role tracks</a>
     </div>
     <div class="service-stack">
@@ -233,3 +252,54 @@ breadcrumbs:
     <a class="btn btn-primary" href="{{ services.cta.ctaLink }}">{{ services.cta.ctaLabel }}</a>
   </div>
 </section>
+
+<div class="pricing-overlay" data-pricing-overlay hidden>
+  <div class="pricing-modal" role="dialog" aria-modal="true" aria-labelledby="pricing-modal-title">
+    <button class="pricing-close" type="button" data-pricing-close aria-label="Close details">✕</button>
+    <h3 id="pricing-modal-title" data-pricing-title></h3>
+    <p data-pricing-body></p>
+    <ul data-pricing-points></ul>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const overlay = document.querySelector("[data-pricing-overlay]");
+    if (!overlay) return;
+
+    const titleEl = overlay.querySelector("[data-pricing-title]");
+    const bodyEl = overlay.querySelector("[data-pricing-body]");
+    const pointsEl = overlay.querySelector("[data-pricing-points]");
+    const closeBtn = overlay.querySelector("[data-pricing-close]");
+    const detailButtons = document.querySelectorAll("[data-pricing-detail]");
+
+    const openModal = (button) => {
+      titleEl.textContent = button.dataset.pricingTitle || "Details";
+      bodyEl.textContent = button.dataset.pricingBody || "";
+      const points = (button.dataset.pricingPoints || "").split("||").filter(Boolean);
+      pointsEl.innerHTML = points.map((point) => `<li>${point}</li>`).join("");
+      overlay.hidden = false;
+      document.body.classList.add("pricing-focus");
+    };
+
+    const closeModal = () => {
+      overlay.hidden = true;
+      document.body.classList.remove("pricing-focus");
+      titleEl.textContent = "";
+      bodyEl.textContent = "";
+      pointsEl.innerHTML = "";
+    };
+
+    detailButtons.forEach((button) => {
+      button.addEventListener("click", () => openModal(button));
+    });
+
+    closeBtn.addEventListener("click", closeModal);
+    overlay.addEventListener("click", (event) => {
+      if (event.target === overlay) closeModal();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !overlay.hidden) closeModal();
+    });
+  });
+</script>

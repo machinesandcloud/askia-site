@@ -1992,10 +1992,95 @@ a {
   margin-bottom: auto;
 }
 
+.services-card li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.pricing-detail {
+  width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  border: 1px solid rgba(114, 214, 255, 0.35);
+  background: rgba(114, 214, 255, 0.16);
+  color: rgba(210, 236, 255, 0.95);
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.pricing-detail:hover {
+  transform: translateY(-1px);
+  border-color: rgba(114, 214, 255, 0.55);
+  background: rgba(114, 214, 255, 0.24);
+}
+
 .services-card .btn-buy {
   margin-top: 18px;
   align-self: center;
   width: 100%;
+}
+
+.pricing-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(7, 11, 18, 0.7);
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  z-index: 1200;
+}
+
+.pricing-overlay[hidden] {
+  display: none;
+}
+
+.pricing-modal {
+  width: min(680px, 92vw);
+  background: #ffffff;
+  color: #0d1520;
+  border-radius: 24px;
+  padding: 32px;
+  position: relative;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
+}
+
+.pricing-modal h3 {
+  margin-bottom: 12px;
+  font-size: 1.8rem;
+}
+
+.pricing-modal p {
+  margin-bottom: 18px;
+  color: rgba(13, 21, 32, 0.75);
+}
+
+.pricing-modal ul {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 18px;
+  color: rgba(13, 21, 32, 0.85);
+}
+
+.pricing-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  border: 1px solid rgba(13, 21, 32, 0.18);
+  background: #ffffff;
+  color: rgba(13, 21, 32, 0.7);
+  cursor: pointer;
+}
+
+body.pricing-focus {
+  overflow: hidden;
 }
 
 @media (max-width: 980px) {

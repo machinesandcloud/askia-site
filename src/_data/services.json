@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Coaching services that move your next role",
-    "subtitle": "From fast brand upgrades to executive positioning, every package is built to increase interviews, strengthen your signal, and help you land the right offer.",
+    "subtitle": "From fast brand upgrades to deep strategy, every package is built to increase interviews, strengthen your signal, and help you land the right offer.",
     "ctaLabel": "Book a Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "metaTitle": "Coaching Services That Move Your Next Role | Askia",
@@ -13,72 +13,104 @@
       "title": "Resume Rebuild",
       "price": "$300",
       "buyLink": "https://zohosecurepay.com/checkout/btlfltm-dd32rfkdqgyr06/Resume-Rebuild",
-      "body": "A sharp, impact‑driven resume that signals seniority and gets recruiter replies.",
+      "body": "A sharp, impact‑driven resume that signals seniority and gets decision‑maker replies.",
       "ideal": "Best for: quick upgrade + clearer positioning",
       "turnaround": "Turnaround: 7–10 days",
       "bullets": [
-        "Target role alignment",
-        "Impact‑driven bullets",
-        "ATS‑ready formatting",
-        "One revision round"
+        {
+          "label": "Role targeting intake",
+          "detailTitle": "Role targeting intake",
+          "detailBody": "We start with a quick intake to pin down the role family, level, and hiring criteria you want to signal.",
+          "detailPoints": ["Target role definition", "Level calibration", "Success metrics"]
+        },
+        {
+          "label": "Impact‑driven bullets",
+          "detailTitle": "Impact‑driven bullets",
+          "detailBody": "We rewrite your bullets to show outcomes, scope, and ownership instead of tasks.",
+          "detailPoints": ["Outcome-first framing", "Scope and scale", "Quantified proof"]
+        },
+        {
+          "label": "ATS‑ready formatting",
+          "detailTitle": "ATS‑ready formatting",
+          "detailBody": "Clean structure and formatting that parses cleanly and reads fast for humans.",
+          "detailPoints": ["ATS-safe layout", "Readable hierarchy", "Recruiter scan flow"]
+        },
+        {
+          "label": "One revision round",
+          "detailTitle": "One revision round",
+          "detailBody": "We do a final pass based on your feedback to lock it in.",
+          "detailPoints": ["Consolidated edits", "Final polish", "Ready to ship"]
+        }
       ]
     },
     {
       "tag": "Most Popular",
-      "title": "Resume + LinkedIn + Cover Letter",
+      "title": "Brand Refresh",
       "price": "$550",
       "buyLink": "https://zohosecurepay.com/checkout/s4pxp4t-009etoj01kr8uv/Brand-Rebuild",
       "body": "A complete brand refresh across every recruiter touchpoint.",
       "ideal": "Best for: full visibility + conversion",
       "turnaround": "Turnaround: 10–14 days",
       "bullets": [
-        "Resume rebuild",
-        "LinkedIn optimization",
-        "Targeted cover letter",
-        "Two revision rounds"
+        {
+          "label": "Resume rebuild",
+          "detailTitle": "Resume rebuild",
+          "detailBody": "We rebuild your resume to read senior, clear, and outcome-driven.",
+          "detailPoints": ["Role-aligned structure", "Impact-first bullets", "Hiring manager readability"]
+        },
+        {
+          "label": "LinkedIn optimization",
+          "detailTitle": "LinkedIn optimization",
+          "detailBody": "We sharpen your headline, about, and experience to drive inbound interest.",
+          "detailPoints": ["Headline + About rewrite", "Experience positioning", "Keyword targeting"]
+        },
+        {
+          "label": "Targeted cover letter",
+          "detailTitle": "Targeted cover letter",
+          "detailBody": "A flexible cover letter framework you can tailor fast without sounding generic.",
+          "detailPoints": ["Role fit framing", "Impact highlights", "Quick customization"]
+        },
+        {
+          "label": "Two revision rounds",
+          "detailTitle": "Two revision rounds",
+          "detailBody": "Two rounds of feedback to ensure everything matches your voice and target role.",
+          "detailPoints": ["Structured edits", "Feedback incorporation", "Final polish"]
+        }
       ]
     },
     {
-      "tag": "Clarity",
+      "tag": "Strategy Sprint",
       "title": "Brand + Career Clarity + Interview Practice",
       "price": "$1000",
       "buyLink": "https://zohosecurepay.com/checkout/qa3x3aa-oomya9do1jsnzc/Brand--Career-Optimization",
-      "body": "Everything above plus coaching to refine your narrative and interview performance.",
+      "body": "Everything above plus a clarity session and interview practice to sharpen your narrative.",
       "ideal": "Best for: clarity + confidence + execution",
       "turnaround": "Turnaround: 2–3 weeks",
       "bullets": [
-        "Resume + LinkedIn + Cover Letter",
-        "Career clarity coaching call",
-        "Interview practice session",
-        "Personalized action plan"
-      ]
-    },
-    {
-      "tag": "Coaching",
-      "title": "Momentum Coaching (3 Sessions)",
-      "price": "$1000",
-      "buyLink": "https://zohosecurepay.com/checkout/nm808mu-ff10gmofbq7qcl/Momentum-Coaching",
-      "body": "Three high‑leverage sessions to build strategy, momentum, and offer‑level confidence.",
-      "ideal": "Best for: focused, guided execution",
-      "turnaround": "Timeline: 2–4 weeks",
-      "bullets": [
-        "Role positioning session",
-        "Search strategy + networking plan",
-        "Interview + negotiation prep"
-      ]
-    },
-    {
-      "tag": "Executive",
-      "title": "Executive Advisory",
-      "price": "$2000",
-      "buyLink": "https://zohosecurepay.com/checkout/qa3x3aa-uu6wzy7ut5m5ad/Executive-Advisory",
-      "body": "Senior‑level positioning, leadership narrative, and offer strategy for managers and execs.",
-      "ideal": "Best for: Staff/Principal → Director+",
-      "turnaround": "Timeline: custom",
-      "bullets": [
-        "Executive resume + LinkedIn",
-        "Leadership story architecture",
-        "Offer strategy & negotiation"
+        {
+          "label": "Resume + LinkedIn + Cover Letter",
+          "detailTitle": "Full brand refresh",
+          "detailBody": "You get the complete brand package so every touchpoint signals the right level.",
+          "detailPoints": ["Resume rebuild", "LinkedIn positioning", "Cover letter framework"]
+        },
+        {
+          "label": "Career clarity coaching call",
+          "detailTitle": "Career clarity coaching call",
+          "detailBody": "We align role, level, and target narrative so your search has a clear spine.",
+          "detailPoints": ["Role family focus", "Leveling signals", "Positioning map"]
+        },
+        {
+          "label": "Interview practice session",
+          "detailTitle": "Interview practice session",
+          "detailBody": "A live session to pressure-test your story and sharpen delivery.",
+          "detailPoints": ["Story structure", "Signal and scope", "Feedback and iteration"]
+        },
+        {
+          "label": "Personalized action plan",
+          "detailTitle": "Personalized action plan",
+          "detailBody": "A clear next-step plan you can execute immediately after the sprint.",
+          "detailPoints": ["90-day priorities", "Search cadence", "Offer readiness moves"]
+        }
       ]
     }
   ],
@@ -87,11 +119,11 @@
     "items": [
       {
         "question": "Which service is right for me?",
-        "answer": "If you need a fast resume upgrade, start with Resume Rebuild. If you want higher recruiter response rates across all channels, choose the full Brand refresh. If you need clarity + interview confidence, pick the Brand + Clarity package."
+        "answer": "If you need a fast resume upgrade, start with Resume Rebuild. If you want higher response rates across all channels, choose Brand Refresh. If you need clarity + interview confidence, pick the Strategy Sprint."
       },
       {
         "question": "Do you work with senior and executive candidates?",
-        "answer": "Yes. Executive Advisory is built for senior ICs, managers, and leaders who need a stronger leadership narrative, executive‑level positioning, and offer strategy."
+        "answer": "Yes. We support senior ICs, managers, and leaders. Ongoing or executive‑level coaching is scoped after the call."
       },
       {
         "question": "How long does the process take?",
@@ -99,7 +131,7 @@
       },
       {
         "question": "Do you help with interviews and negotiation?",
-        "answer": "Yes. Interview practice and negotiation strategy are included in the Brand + Clarity package and Momentum Coaching."
+        "answer": "Yes. Interview practice is included in the Strategy Sprint, and negotiation strategy is added when you’re near offers."
       },
       {
         "question": "Will you tailor everything to my target roles?",
@@ -111,7 +143,7 @@
       },
       {
         "question": "Can I combine services?",
-        "answer": "Absolutely. Many clients start with Brand refresh and then add coaching when interviews begin. We can build a custom path."
+        "answer": "Absolutely. Many clients start with Brand Refresh and then add coaching when interviews begin. We can build a custom path."
       }
     ]
   },

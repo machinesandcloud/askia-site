@@ -1,20 +1,20 @@
 {
   "hero": {
-    "eyebrow": "Land your next $100K–$350K role in Tech",
+    "eyebrow": "Land your next high‑impact role",
     "titleLead": "Land a",
-    "titleEmphasis": "$100K–$350K",
-    "titleTail": "tech role",
+    "titleEmphasis": "next‑level",
+    "titleTail": "role",
     "titleAccent": "faster",
-    "subtitle": "Private coaching for ambitious tech professionals.",
+    "subtitle": "Private coaching for ambitious professionals and leaders.",
     "supporting": "We help you define the right roles, present a standout brand, and close interviews with leverage — so you can land the offer that fits your goals.",
     "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "highlight": [
       "Role targeting and compensation positioning",
-      "Resume + LinkedIn that get recruiter replies",
+      "Resume + LinkedIn that get decision‑maker replies",
       "Interview prep and negotiation support"
     ],
-    "proof": "Avg. client first-round in 2–6 weeks • Roles across Big Tech, fintech, and high-growth startups"
+    "proof": "Avg. client first-round in 2–6 weeks • Outcomes across tech, product, operations, sales, and leadership roles"
   },
   "stats": [
     {
@@ -52,8 +52,8 @@
     "title": "Outcomes that compound",
     "items": [
       {
-        "title": "$100K–$350K",
-        "body": "Offer ranges achieved by Askia clients across high‑impact tech roles."
+        "title": "Offer growth",
+        "body": "Stronger offers achieved across high‑impact roles and industries."
       },
       {
         "title": "2–6 weeks",
@@ -125,12 +125,12 @@
   },
   "about": {
     "title": "About Askia",
-    "subtitle": "Helping top talent secure high-paying tech roles.",
+    "subtitle": "Helping top talent secure high‑impact roles.",
     "body": "This program is about more than just landing a job. It’s about unlocking your potential, telling your story with confidence, and building a career that excites you and pays what you’re worth. With insights from the hiring table, we position you as the standout candidate without wasting months on cold applications."
   },
   "coach": {
     "title": "Meet Steve, Your Career Coach",
-    "credential": "Former engineering leader turned top tech career strategist",
+    "credential": "Former engineering leader turned career strategist",
     "body": "Steve brings real-world hiring experience and a tactical, human approach to career transitions. You’ll work directly with him to build clarity, confidence, and a repeatable system that lands interviews.",
     "bullets": [
       "10+ years leading engineering teams",
