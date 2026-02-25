@@ -1,0 +1,62 @@
+---
+layout: blog-post.njk
+tags: ["blog"]
+title: "Career coaching in San Francisco Bay Area: a practical guide for senior professionals"
+description: "A practical guide to career coaching in San Francisco Bay Area for professionals targeting $100K–$350K roles across all industries."
+author: "Steve Ngoumnai"
+publishDate: "February 20, 2026"
+publishDateISO: "2026-02-20"
+updatedDateISO: "2026-02-20"
+readTime: "8 min read"
+featured: false
+featuredImage: "/assets/blog/career-coaching-in-san-francisco-bay-area-guide.jpg"
+imageAlt: "Professional coaching session focused on career clarity."
+categories:
+  - "Hidden Market Access"
+  - "Strategic Positioning"
+---
+If you are targeting a $100K–$350K role in San Francisco Bay Area, career coaching is about signal, not motivation.
+
+This guide shows how to get a clear plan, build proof fast, and move through hiring loops with leverage.
+
+## Short answer
+
+The short answer: pick the exact role and level, build a signal story around outcomes, and pressure‑test it with targeted outreach. It matters even more in San Francisco Bay Area, where competition for senior roles moves fast.
+
+## Why this matters in San Francisco Bay Area
+
+Hiring teams in San Francisco Bay Area scan fast. The faster they understand your story, the faster you move forward.
+
+A clear positioning narrative removes guesswork and helps the right people say yes.
+
+## What strong signal looks like
+
+- Role clarity (level + scope)
+- Outcome‑based proof with metrics
+- Clean resume + LinkedIn alignment
+- Interview story bank that matches the role
+
+## Common mistakes
+
+- Generic positioning that blends into the market.
+- Proof that shows tasks instead of outcomes.
+- Applying broadly without a role narrative.
+- Waiting for inbound instead of building warm paths.
+
+## The coach’s framework
+
+1. Define the target role and level
+2. Map proof to outcomes and scope
+3. Rewrite resume + LinkedIn for signal
+4. Build a short list of target companies
+5. Run a structured outreach plan
+
+## How to measure progress
+
+- Interview invites in the target role
+- Conversion rate from outreach
+- Clarity scores in mock interviews
+
+## If you want a plan
+
+Book a call and we will map the fastest path to your next role in San Francisco Bay Area.
