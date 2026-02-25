@@ -498,7 +498,7 @@
         </div>
         <div class="role-atlas-list">
           {% for item in page.roleLinks.items %}
-            <a class="role-atlas-item" href="{{ item.url }}">
+            <a class="role-atlas-item" href="{{ item.url }}" style="--stack-index: {{ loop.index0 }};">
               <div>
                 <strong>{{ item.title }}</strong>
                 <span>{{ item.body }}</span>
