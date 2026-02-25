@@ -2473,61 +2473,61 @@ body.pricing-focus {
 /* Subtle band layout */
 .band-shell {
   display: grid;
-  grid-template-columns: minmax(220px, 0.4fr) minmax(0, 1fr);
-  gap: 28px;
+  grid-template-columns: minmax(200px, 0.35fr) minmax(0, 1fr);
+  gap: 20px;
   align-items: start;
 }
 
 .band-rail {
   position: sticky;
-  top: 110px;
-  padding: 18px 18px 20px;
-  border-radius: 18px;
+  top: 96px;
+  padding: 14px 14px 16px;
+  border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.06);
   background: linear-gradient(180deg, rgba(10, 16, 24, 0.7), rgba(8, 12, 18, 0.55));
-  box-shadow: 0 18px 38px rgba(7, 10, 15, 0.3);
+  box-shadow: 0 14px 28px rgba(7, 10, 15, 0.25);
 }
 
 .band-rail .hero-eyebrow {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   letter-spacing: 0.12em;
 }
 
 .band-rail-cta {
-  margin-top: 18px;
+  margin-top: 14px;
 }
 
 .band-body {
   display: grid;
-  gap: 18px;
+  gap: 14px;
 }
 
 /* Role directory */
 .role-directory-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
 }
 
 .role-directory-group {
-  padding: 16px 18px 18px;
-  border-radius: 18px;
+  padding: 12px 14px 14px;
+  border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.06);
   background:
     linear-gradient(180deg, rgba(9, 14, 20, 0.85), rgba(6, 10, 16, 0.65));
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 12px 26px rgba(7, 10, 15, 0.28);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 10px 22px rgba(7, 10, 15, 0.24);
 }
 
 .role-directory-group-header {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .role-directory-dot {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   border-radius: 999px;
   background: rgba(114, 214, 255, 0.6);
   box-shadow: 0 0 12px rgba(114, 214, 255, 0.5);
@@ -2545,11 +2545,12 @@ body.pricing-focus {
 .role-directory-item {
   display: inline-flex;
   align-items: center;
-  padding: 7px 12px;
+  padding: 6px 10px;
   border-radius: 999px;
   border: 1px solid rgba(255, 255, 255, 0.06);
   color: rgba(214, 241, 255, 0.88);
   background: rgba(114, 214, 255, 0.06);
+  font-size: 0.92rem;
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -2562,19 +2563,19 @@ body.pricing-focus {
 /* Location band */
 .location-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
 }
 
 .location-card {
-  padding: 14px 16px 16px;
-  border-radius: 16px;
+  padding: 12px 14px 14px;
+  border-radius: 14px;
   border: 1px solid rgba(255, 255, 255, 0.06);
   background:
     linear-gradient(180deg, rgba(10, 16, 24, 0.82), rgba(8, 12, 18, 0.6));
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 12px 26px rgba(7, 10, 15, 0.26);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 10px 22px rgba(7, 10, 15, 0.22);
   display: grid;
-  gap: 8px;
+  gap: 6px;
 }
 
 .location-card-header {
@@ -2584,8 +2585,8 @@ body.pricing-focus {
 }
 
 .location-dot {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   border-radius: 999px;
   background: rgba(120, 199, 255, 0.55);
   box-shadow: 0 0 12px rgba(120, 199, 255, 0.45);
@@ -2597,7 +2598,7 @@ body.pricing-focus {
 
 .location-card span {
   color: rgba(214, 226, 243, 0.78);
-  font-size: 0.95rem;
+  font-size: 0.92rem;
 }
 
 .location-remote {
@@ -2608,19 +2609,19 @@ body.pricing-focus {
 /* Industry band */
 .industry-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
 }
 
 .industry-card {
-  padding: 14px 16px 16px;
-  border-radius: 16px;
+  padding: 12px 14px 14px;
+  border-radius: 14px;
   border: 1px solid rgba(255, 255, 255, 0.06);
   background:
     linear-gradient(180deg, rgba(10, 16, 24, 0.82), rgba(8, 12, 18, 0.6));
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 12px 26px rgba(7, 10, 15, 0.26);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 10px 22px rgba(7, 10, 15, 0.22);
   display: grid;
-  gap: 8px;
+  gap: 6px;
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -2631,8 +2632,8 @@ body.pricing-focus {
 }
 
 .industry-dot {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   border-radius: 999px;
   background: rgba(114, 214, 255, 0.5);
   box-shadow: 0 0 12px rgba(114, 214, 255, 0.45);
@@ -2644,13 +2645,13 @@ body.pricing-focus {
 
 .industry-card span {
   color: rgba(214, 226, 243, 0.78);
-  font-size: 0.95rem;
+  font-size: 0.92rem;
 }
 
 .industry-card:hover {
   transform: translateY(-2px);
   border-color: rgba(114, 214, 255, 0.2);
-  box-shadow: 0 18px 36px rgba(7, 10, 15, 0.32);
+  box-shadow: 0 16px 30px rgba(7, 10, 15, 0.28);
 }
 
 @media (max-width: 980px) {
@@ -2660,6 +2661,17 @@ body.pricing-focus {
 
   .band-rail {
     position: static;
+  }
+}
+
+@media (min-width: 1100px) {
+  .role-directory-list {
+    columns: 2;
+    column-gap: 10px;
+  }
+
+  .role-directory-item {
+    width: 100%;
   }
 }
 
