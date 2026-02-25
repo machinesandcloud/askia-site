@@ -457,30 +457,52 @@
 </section>
 {% endif %}
 
-{% if page.roleCoverage %}
-<section class="section">
+{% if page.roleShowcase %}
+<section class="section role-showcase" data-role-showcase>
   <div class="container">
     <div class="pillar-header">
-      <p class="hero-eyebrow">{{ page.roleCoverage.eyebrow }}</p>
-      <h2 class="section-title section-title-glow">{{ page.roleCoverage.title }}</h2>
-      {% if page.roleCoverage.subtitle %}<p class="section-subtitle">{{ page.roleCoverage.subtitle }}</p>{% endif %}
+      <p class="hero-eyebrow">{{ page.roleShowcase.eyebrow }}</p>
+      <h2 class="section-title section-title-glow">{{ page.roleShowcase.title }}</h2>
+      {% if page.roleShowcase.subtitle %}<p class="section-subtitle">{{ page.roleShowcase.subtitle }}</p>{% endif %}
     </div>
-    <div class="service-stack">
-      {% for group in page.roleCoverage.groups %}
-        <div class="service-tile">
-          <div class="service-header">
-            <h3>{{ group.title }}</h3>
-          </div>
-          <ul>
+    <div class="role-showcase-panel">
+      <div class="role-tabs" role="tablist">
+        {% for group in page.roleShowcase.groups %}
+          <button class="role-tab{% if loop.first %} is-active{% endif %}" type="button" data-role-tab="{{ loop.index0 }}" role="tab" aria-selected="{{ 'true' if loop.first else 'false' }}">
+            {{ group.title }}
+          </button>
+        {% endfor %}
+      </div>
+      <div class="role-grid">
+        {% for group in page.roleShowcase.groups %}
+          <div class="role-chip-group{% if loop.first %} is-active{% endif %}" data-role-group="{{ loop.index0 }}" role="tabpanel">
             {% for item in group.items %}
-              <li>{{ item }}</li>
+              <span class="role-chip">{{ item }}</span>
             {% endfor %}
-          </ul>
-        </div>
-      {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>
+<script>
+  document.addEventListener(\"DOMContentLoaded\", () => {
+    const showcase = document.querySelector(\"[data-role-showcase]\");
+    if (!showcase) return;
+    const tabs = showcase.querySelectorAll(\"[data-role-tab]\");
+    const groups = showcase.querySelectorAll(\"[data-role-group]\");
+    tabs.forEach((tab) => {
+      tab.addEventListener(\"click\", () => {
+        const index = tab.dataset.roleTab;
+        tabs.forEach((t) => t.classList.remove(\"is-active\"));
+        groups.forEach((g) => g.classList.remove(\"is-active\"));
+        tab.classList.add(\"is-active\");
+        const group = showcase.querySelector(`[data-role-group=\"${index}\"]`);
+        if (group) group.classList.add(\"is-active\");
+        tabs.forEach((t) => t.setAttribute(\"aria-selected\", t === tab ? \"true\" : \"false\"));\n      });
+    });
+  });
+</script>
 {% endif %}
 
 <section class="section">

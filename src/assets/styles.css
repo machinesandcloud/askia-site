@@ -217,6 +217,10 @@ a {
 .nav-dropdown-grouped {
   min-width: 360px;
   gap: 16px;
+  max-height: 70vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 6px;
 }
 
 .nav-group {
@@ -2022,6 +2026,67 @@ a {
   margin-top: 18px;
   align-self: center;
   width: 100%;
+}
+
+.role-showcase-panel {
+  margin-top: 24px;
+  padding: 20px;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(140deg, rgba(12, 18, 26, 0.9), rgba(8, 12, 18, 0.7));
+}
+
+.role-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.role-tab {
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(12, 18, 26, 0.65);
+  color: rgba(244, 247, 251, 0.75);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.role-tab.is-active {
+  border-color: rgba(114, 214, 255, 0.5);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.role-grid {
+  position: relative;
+}
+
+.role-chip-group {
+  display: none;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.role-chip-group.is-active {
+  display: flex;
+  animation: chipFade 0.3s ease;
+}
+
+.role-chip {
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(114, 214, 255, 0.2);
+  background: rgba(114, 214, 255, 0.08);
+  color: rgba(244, 247, 251, 0.9);
+  font-size: 0.85rem;
+}
+
+@keyframes chipFade {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .pricing-overlay {

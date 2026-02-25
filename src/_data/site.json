@@ -51,7 +51,7 @@
           ]
         },
         {
-          "label": "Role Tracks",
+          "label": "Tech & Data",
           "items": [
             {
               "label": "Software Engineer",
@@ -78,10 +78,6 @@
               "url": "/cybersecurity-career-coaching/"
             },
             {
-              "label": "QA / Test Automation",
-              "url": "/qa-career-coaching/"
-            },
-            {
               "label": "Product Design",
               "url": "/product-design-career-coaching/"
             },
@@ -94,29 +90,13 @@
               "url": "/technical-program-manager-coaching/"
             },
             {
-              "label": "Sales Engineer",
-              "url": "/sales-engineer-career-coaching/"
-            },
-            {
-              "label": "Customer Success",
-              "url": "/customer-success-career-coaching/"
-            },
-            {
-              "label": "Product Operations",
-              "url": "/product-ops-career-coaching/"
-            },
-            {
-              "label": "Project / Program Manager",
-              "url": "/project-program-management-coaching/"
-            },
-            {
               "label": "AI / ML Engineer",
               "url": "/ai-ml-career-coaching/"
             }
           ]
         },
         {
-          "label": "Business & Operations",
+          "label": "Business & Finance",
           "items": [
             {
               "label": "Finance & FP&A",
@@ -127,14 +107,6 @@
               "url": "/accounting-controller-coaching/"
             },
             {
-              "label": "Marketing & Growth",
-              "url": "/marketing-career-coaching/"
-            },
-            {
-              "label": "Sales",
-              "url": "/sales-career-coaching/"
-            },
-            {
               "label": "Operations",
               "url": "/operations-career-coaching/"
             },
@@ -143,12 +115,42 @@
               "url": "/supply-chain-career-coaching/"
             },
             {
+              "label": "Strategy & Consulting",
+              "url": "/strategy-consulting-career-coaching/"
+            }
+          ]
+        },
+        {
+          "label": "Sales & Marketing",
+          "items": [
+            {
+              "label": "Sales",
+              "url": "/sales-career-coaching/"
+            },
+            {
+              "label": "Sales Engineer",
+              "url": "/sales-engineer-career-coaching/"
+            },
+            {
+              "label": "Customer Success",
+              "url": "/customer-success-career-coaching/"
+            },
+            {
+              "label": "Marketing & Growth",
+              "url": "/marketing-career-coaching/"
+            }
+          ]
+        },
+        {
+          "label": "People, Legal, Healthcare",
+          "items": [
+            {
               "label": "People Ops & HR",
               "url": "/people-ops-career-coaching/"
             },
             {
-              "label": "Strategy & Consulting",
-              "url": "/strategy-consulting-career-coaching/"
+              "label": "Project / Program Manager",
+              "url": "/project-program-management-coaching/"
             },
             {
               "label": "Healthcare Admin",

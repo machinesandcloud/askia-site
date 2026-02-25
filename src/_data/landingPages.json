@@ -426,10 +426,10 @@
         }
       ]
     },
-    "roleCoverage": {
+    "roleShowcase": {
       "eyebrow": "Role coverage",
-      "title": "50+ common six\u2011figure paths we support",
-      "subtitle": "Tech stays core \u2014 and we now support a broader mix of business, healthcare, and leadership roles.",
+      "title": "A balanced mix of six\u2011figure paths",
+      "subtitle": "Tech stays core \u2014 and we also support finance, operations, healthcare, and leadership roles.",
       "groups": [
         {
           "title": "Tech & Data",
