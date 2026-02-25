@@ -693,9 +693,9 @@
             if (submitMessage) submitMessage.textContent = "Sending...";
             const formData = new FormData(form);
             const zohoEndpoint =
-              "https://forms.zohopublic.com/askiacareercoaching/form/EmailSubscription/formperma/XOr27__CMBFvi0xWTTr_c2_D7RsJqTh_71SQajXbm1I/htmlRecords/submit";
+              "https://forms.zohopublic.com/askiacareercoaching/form/EmailSubscription/formperma/cBXsJmQv2DE_EhdC_-0DPNAUZjTVp02YMSloAcFS5ko/htmlRecords/submit";
             const zohoFormName = "EmailSubscription";
-            const zohoFormPerma = "XOr27__CMBFvi0xWTTr_c2_D7RsJqTh_71SQajXbm1I";
+            const zohoFormPerma = "cBXsJmQv2DE_EhdC_-0DPNAUZjTVp02YMSloAcFS5ko";
             const fullName = String(formData.get("name") || "").trim();
             const nameParts = fullName.split(/\s+/).filter(Boolean);
             const firstName = nameParts.shift() || "";
@@ -703,14 +703,9 @@
             const zohoPayload = {
               formName: zohoFormName,
               formPerma: zohoFormPerma,
-              formType: "0",
-              isPaymentForm: "false",
-              isDocsPublicForm: "false",
-              date_format: "dd-MMM-yyyy",
-              resizeform: "0",
-              Name: [firstName, lastName].filter(Boolean),
+              Name_First: firstName,
+              Name_Last: lastName,
               Email: String(formData.get("email") || ""),
-              referrerName: document.referrer || window.location.href,
               zf_referrer_name: document.referrer || window.location.href,
               zf_redirect_url: "",
               zc_gad: ""
@@ -733,16 +728,8 @@
                 const input = document.createElement("input");
                 input.type = "hidden";
                 input.name = key;
-                if (Array.isArray(value)) {
-                  value.forEach((item) => {
-                    const clone = input.cloneNode();
-                    clone.value = item || "";
-                    zohoForm.appendChild(clone);
-                  });
-                } else {
-                  input.value = value || "";
-                  zohoForm.appendChild(input);
-                }
+                input.value = value || "";
+                zohoForm.appendChild(input);
               });
               document.body.appendChild(zohoForm);
               zohoForm.submit();
