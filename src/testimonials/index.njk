@@ -143,7 +143,7 @@ breadcrumbs:
             <p>Sharper stories create faster loops and more confident interviews.</p>
           </div>
         {% endif %}
-        <div class="testimonial-card">
+        <div class="testimonial-card" style="--stack-index: {{ loop.index }};">
           <div class="testimonial-header">
             <img class="avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
             <div>

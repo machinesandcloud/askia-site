@@ -210,7 +210,7 @@
       {% for index in page.testimonials.indexes %}
         {% set item = testimonials.items[index] %}
         {% if item %}
-        <article class="testimonial-card">
+        <article class="testimonial-card" style="--stack-index: {{ loop.index }};">
           <div class="testimonial-header">
             <img class="avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
             <div>

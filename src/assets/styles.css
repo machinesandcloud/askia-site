@@ -6303,18 +6303,19 @@ body.pricing-focus {
 
 @media (max-width: 680px) {
   .testimonial-grid {
-    column-count: unset;
+    column-count: 1;
     display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: minmax(260px, 85vw);
     gap: 16px;
-    overflow-x: auto;
-    padding-bottom: 12px;
-    scroll-snap-type: x mandatory;
+    padding-bottom: 24px;
   }
   .testimonial-card {
-    margin-bottom: 0;
-    scroll-snap-align: start;
+    position: sticky;
+    top: 88px;
+    margin-bottom: 20px;
+    z-index: calc(100 + var(--stack-index, 1));
+  }
+  .testimonial-card + .testimonial-card {
+    margin-top: -20px;
   }
   .testimonial-breakout {
     column-span: all;

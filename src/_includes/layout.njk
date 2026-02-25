@@ -692,12 +692,31 @@
             event.preventDefault();
             if (submitMessage) submitMessage.textContent = "Sending...";
             const formData = new FormData(form);
+            const zohoEndpoint =
+              "https://forms.zohopublic.com/askiacareercoaching/form/EmailSubscription/formperma/XOr27__CMBFvi0xWTTr_c2_D7RsJqTh_71SQajXbm1I/htmlRecords/submit";
+            const fullName = String(formData.get("name") || "").trim();
+            const nameParts = fullName.split(/\s+/).filter(Boolean);
+            const firstName = nameParts.shift() || "";
+            const lastName = nameParts.join(" ");
+            const zohoPayload = new URLSearchParams();
+            zohoPayload.set("Name_First", firstName);
+            zohoPayload.set("Name_Last", lastName);
+            zohoPayload.set("Name", fullName);
+            zohoPayload.set("Email", String(formData.get("email") || ""));
+            zohoPayload.set("zf_referrer_name", document.referrer || "");
+            zohoPayload.set("zf_redirect_url", "");
+            zohoPayload.set("zc_gad", "");
             fetch("/", {
               method: "POST",
               headers: { "Content-Type": "application/x-www-form-urlencoded" },
               body: new URLSearchParams(formData).toString()
             })
               .then(() => {
+                fetch(zohoEndpoint, {
+                  method: "POST",
+                  mode: "no-cors",
+                  body: zohoPayload
+                });
                 if (submitMessage) submitMessage.textContent = "Success! Check your inbox.";
                 form.reset();
               })
