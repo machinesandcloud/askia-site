@@ -2565,6 +2565,24 @@ body.pricing-focus {
   }
 }
 
+@media (max-width: 680px) {
+  .stacked-list {
+    gap: 16px;
+    padding-bottom: 20px;
+  }
+
+  .stacked-card {
+    position: sticky;
+    top: calc(88px + (var(--stack-index) * 14px));
+    z-index: calc(100 + var(--stack-index));
+    box-shadow: 0 22px 46px rgba(7, 10, 15, 0.35);
+  }
+
+  .stacked-card + .stacked-card {
+    margin-top: -16px;
+  }
+}
+
 .services-precision-grid {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
