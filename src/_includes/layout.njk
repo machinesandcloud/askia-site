@@ -59,7 +59,6 @@
         <a class="brand" href="/" aria-label="Askia">
           <img src="/assets/logo-wordmark.png" alt="Askia" class="brand-wordmark" />
         </a>
-        <a class="nav-link nav-link-mobile" href="/services/">Services</a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
           <span class="sr-only">Toggle navigation</span>
           <span class="nav-toggle-bar"></span>
@@ -669,6 +668,7 @@
         const mobileCta = document.querySelector(".mobile-cta");
         const leadMagnetsSection = document.querySelector("[data-lead-magnets]");
         if (mobileCta && leadMagnetsSection) {
+          document.body.classList.add("has-lead-magnets");
           const setMobileCtaHidden = (isHidden) => {
             document.body.classList.toggle("hide-mobile-cta", isHidden);
           };

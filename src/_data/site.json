@@ -204,12 +204,23 @@
       ]
     },
     {
-      "label": "Testimonials",
-      "url": "/testimonials/"
-    },
-    {
-      "label": "About",
-      "url": "/about/"
+      "label": "Company",
+      "url": "/about/",
+      "groups": [
+        {
+          "label": "Company",
+          "items": [
+            {
+              "label": "About",
+              "url": "/about/"
+            },
+            {
+              "label": "Testimonials",
+              "url": "/testimonials/"
+            }
+          ]
+        }
+      ]
     }
   ],
   "contact": {
