@@ -148,6 +148,11 @@ a {
   padding-bottom: 4px;
 }
 
+.nav-link-mobile {
+  display: none;
+  font-weight: 600;
+}
+
 .nav-link::after {
   content: "";
   position: absolute;
@@ -7341,8 +7346,15 @@ body.pricing-focus {
 
   .nav-toggle {
     display: inline-flex;
+    margin-left: 12px;
+    order: 3;
+  }
+
+  .nav-link-mobile {
+    display: inline-flex;
     margin-left: auto;
     order: 2;
+    padding-bottom: 0;
   }
 
   .nav-open .nav {
