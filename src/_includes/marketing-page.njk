@@ -297,6 +297,10 @@
   </div>
 </section>
 
+{% if page.leadMagnetsPlacement == "beforeCall" %}
+{% include "lead-magnets.njk" %}
+{% endif %}
+
 {% if page.call %}
 <section class="section">
   <div class="container">
@@ -561,7 +565,7 @@
 </script>
 {% endif %}
 
-{% if not page.hideLeadMagnets %}
+{% if not page.hideLeadMagnets and page.leadMagnetsPlacement != "beforeCall" %}
 {% include "lead-magnets.njk" %}
 {% endif %}
 

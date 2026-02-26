@@ -179,6 +179,7 @@
         }
       ]
     },
+    "leadMagnetsPlacement": "beforeCall",
     "call": {
       "eyebrow": "What to expect",
       "title": "What happens on the strategy call",
