@@ -105,8 +105,9 @@
       ]
     },
     "testimonials": {
-      "title": "Real outcomes from professionals",
+      "title": "What people say",
       "subtitle": "Recent wins across technical, business, healthcare, and leadership roles.",
+      "sticky": true,
       "indexes": [
         1,
         3,
@@ -209,6 +210,7 @@
         "Professionals targeting $100K\u2013$350K compensation"
       ]
     },
+    "hideLeadMagnets": true,
     "notFor": {
       "title": "Not a fit if",
       "body": "We\u2019re not a generic resume mill or a broad career advice blog.",
@@ -250,53 +252,6 @@
             "Interview story bank",
             "Mock interview",
             "Negotiation script"
-          ]
-        }
-      ]
-    },
-    "samples": {
-      "eyebrow": "Preview",
-      "title": "Examples of what you walk away with",
-      "subtitle": "Anonymized, real-world artifacts that make recruiters say yes.",
-      "items": [
-        {
-          "title": "Role Targeting Map",
-          "tag": "Clarity",
-          "body": "A one-page decision map for role family, level, and comp band.",
-          "bullets": [
-            "Role family shortlist",
-            "Leveling signals",
-            "Comp anchor"
-          ]
-        },
-        {
-          "title": "Resume + LinkedIn Rewrite",
-          "tag": "Signal",
-          "body": "Impact-first positioning that reads senior to recruiters.",
-          "bullets": [
-            "Before/after impact bullets",
-            "ATS-ready format",
-            "Headline + About rewrite"
-          ]
-        },
-        {
-          "title": "Interview Story Bank",
-          "tag": "Execution",
-          "body": "A structured bank of stories tied to role requirements.",
-          "bullets": [
-            "System design/strategy prompts",
-            "Leadership + conflict stories",
-            "Quantified outcomes"
-          ]
-        },
-        {
-          "title": "Offer Strategy Pack",
-          "tag": "Leverage",
-          "body": "Negotiation prep built around your leverage points.",
-          "bullets": [
-            "Range + anchor plan",
-            "Comp comparison matrix",
-            "Decision script"
           ]
         }
       ]
@@ -375,6 +330,7 @@
       "eyebrow": "Role tracks",
       "title": "Find a path built for your role",
       "subtitle": "Role tracks tailored to how hiring works in each function.",
+      "sticky": true,
       "items": [
         {
           "title": "Software Engineer",

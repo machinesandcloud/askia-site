@@ -2731,6 +2731,12 @@ body.pricing-focus {
   gap: 12px;
 }
 
+.role-atlas-list.is-sticky {
+  position: sticky;
+  top: 120px;
+  align-self: start;
+}
+
 .role-atlas-item {
   display: flex;
   align-items: center;
@@ -6710,6 +6716,18 @@ body.pricing-focus {
   padding: 10px 0 6px;
 }
 
+.testimonial-wall.is-sticky {
+  display: grid;
+  grid-template-columns: minmax(0, 0.38fr) minmax(0, 0.62fr);
+  gap: 28px;
+  align-items: start;
+}
+
+.testimonial-wall.is-sticky .testimonial-wall-header {
+  position: sticky;
+  top: 120px;
+}
+
 .testimonial-wall-header::after {
   content: "";
   position: absolute;
@@ -7015,6 +7033,20 @@ body.pricing-focus {
 }
 
 @media (max-width: 980px) {
+  .role-atlas-list.is-sticky {
+    position: static;
+    top: auto;
+  }
+
+  .testimonial-wall.is-sticky {
+    display: block;
+  }
+
+  .testimonial-wall.is-sticky .testimonial-wall-header {
+    position: static;
+    top: auto;
+  }
+
   .feature-grid {
     grid-template-columns: 1fr;
   }

@@ -22,8 +22,8 @@
         "Removes fluff and emphasizes measurable impact",
         "ATS‑friendly layout that reads cleanly"
       ],
-      "cover": "/assets/hero/askia-hero-1.jpg",
-      "link": "https://workdrive.zohoexternal.com/external/921d9dd2aa9d59b5170a4742ab2cb08a2222af4cecf8fca10d0a9eeb4e641bd3"
+      "cover": "/assets/lead-magnets/cover_resume_template.png",
+      "link": "https://workdrive.zohoexternal.com/external/3373ae65d2192010a8ce05693cb92fa8320648cf1a75cf4732a1ae4890acc9ab"
     },
     {
       "title": "AI for Job Seekers: 2025 Guide",
@@ -33,8 +33,19 @@
         "Prompts and templates that actually work",
         "How to avoid AI mistakes that hurt credibility"
       ],
-      "cover": "/assets/hero/askia-hero-1.jpg",
-      "link": "https://workdrive.zohoexternal.com/external/921d9dd2aa9d59b5170a4742ab2cb08a2222af4cecf8fca10d0a9eeb4e641bd3"
+      "cover": "/assets/lead-magnets/cover_ai_resources.png",
+      "link": "https://workdrive.zohoexternal.com/external/0453e4a6754264f335fd655ad3b85fd82fd9464e1350897435e536ed8d0c7217"
+    },
+    {
+      "title": "Join Our Newsletter",
+      "body": "Weekly insights on hiring trends, positioning, and offer strategy for high‑impact roles.",
+      "bullets": [
+        "Signal‑building tactics that get responses",
+        "Market shifts and hiring trend snapshots",
+        "Actionable steps you can use immediately"
+      ],
+      "cover": "/assets/lead-magnets/cover_newsletter.png",
+      "link": ""
     }
   ]
 }

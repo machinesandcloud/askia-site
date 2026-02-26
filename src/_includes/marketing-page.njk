@@ -201,7 +201,7 @@
 
 {% if page.testimonials %}
 <section class="section">
-  <div class="container">
+  <div class="container testimonial-wall{% if page.testimonials.sticky %} is-sticky{% endif %}">
     <div class="testimonial-wall-header">
       <h2 class="section-title section-title-glow">{{ page.testimonials.title }}</h2>
       {% if page.testimonials.subtitle %}<p class="section-subtitle">{{ page.testimonials.subtitle }}</p>{% endif %}
@@ -496,7 +496,7 @@
             </div>
           </div>
         </div>
-        <div class="role-atlas-list">
+        <div class="role-atlas-list{% if page.roleLinks.sticky %} is-sticky{% endif %}">
           {% for item in page.roleLinks.items %}
             <a class="role-atlas-item" href="{{ item.url }}" style="--stack-index: {{ loop.index0 }};">
               <div>
@@ -561,7 +561,9 @@
 </script>
 {% endif %}
 
+{% if not page.hideLeadMagnets %}
 {% include "lead-magnets.njk" %}
+{% endif %}
 
 <section class="section">
   <div class="container card">

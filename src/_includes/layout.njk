@@ -656,7 +656,7 @@
               };
 
               submitZoho();
-              if (message) message.textContent = "Success! Redirecting…";
+              if (message) message.textContent = activeLink ? "Success! Redirecting…" : "Success! You're in.";
               setTimeout(() => {
                 closeModal();
                 if (activeLink) window.location.href = activeLink;
