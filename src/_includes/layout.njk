@@ -665,6 +665,21 @@
           }
         }
 
+        const mobileCta = document.querySelector(".mobile-cta");
+        const leadMagnetsSection = document.querySelector("[data-lead-magnets]");
+        if (mobileCta && leadMagnetsSection) {
+          const updateMobileCta = (entries) => {
+            entries.forEach((entry) => {
+              document.body.classList.toggle("hide-mobile-cta", entry.isIntersecting);
+            });
+          };
+          const observer = new IntersectionObserver(updateMobileCta, {
+            root: null,
+            threshold: 0.2
+          });
+          observer.observe(leadMagnetsSection);
+        }
+
         document.querySelectorAll("[data-collapsible]").forEach((section) => {
           const toggle = section.querySelector("[data-collapsible-toggle]");
           const panel = section.querySelector("[data-collapsible-panel]");

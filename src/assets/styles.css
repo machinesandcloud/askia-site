@@ -2364,11 +2364,11 @@ a {
 
 @media (max-width: 640px) {
   .lead-magnets {
-    padding-bottom: 140px;
+    padding-bottom: 64px;
   }
 
   .lead-magnets-list {
-    padding-bottom: 160px;
+    padding-bottom: 40px;
   }
 
   .lead-magnet-card {
@@ -5079,6 +5079,10 @@ body.pricing-focus {
   transform: translateX(-50%);
   width: min(92vw, 420px);
   z-index: 9998;
+  display: none;
+}
+
+.hide-mobile-cta .mobile-cta {
   display: none;
 }
 
