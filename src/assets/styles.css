@@ -6723,6 +6723,19 @@ body.pricing-focus {
   align-items: start;
 }
 
+.testimonial-wall.is-sticky .testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  column-count: initial;
+}
+
+.testimonial-wall.is-sticky .testimonial-card {
+  position: sticky;
+  top: calc(120px + (var(--stack-index, 0) * 10px));
+  margin-bottom: 0;
+}
+
 .testimonial-wall.is-sticky .testimonial-wall-header {
   position: sticky;
   top: 120px;

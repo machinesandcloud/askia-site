@@ -11,7 +11,7 @@
         "Networking moves to get back in the market faster",
         "What we’d do first if we were impacted by a layoff"
       ],
-      "cover": "/assets/hero/askia-hero-1.jpg",
+      "cover": "/assets/lead-magnets/cover_actionable_steps.png",
       "link": "https://workdrive.zohoexternal.com/external/921d9dd2aa9d59b5170a4742ab2cb08a2222af4cecf8fca10d0a9eeb4e641bd3"
     },
     {
@@ -45,7 +45,8 @@
         "Actionable steps you can use immediately"
       ],
       "cover": "/assets/lead-magnets/cover_newsletter.png",
-      "link": ""
+      "link": "",
+      "ctaLabel": "GET EXCLUSIVE CAREER INSIGHTS!"
     }
   ]
 }

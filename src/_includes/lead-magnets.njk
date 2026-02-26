@@ -27,7 +27,7 @@
             data-resource-title="{{ item.title }}"
             data-resource-link="{{ item.link }}"
           >
-            Get My Copy Now
+            {{ item.ctaLabel or "Get My Copy Now" }}
           </button>
         </div>
       </article>
