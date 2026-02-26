@@ -2368,20 +2368,26 @@ a {
   }
 
   .lead-magnets-list {
-    padding-bottom: 120px;
+    padding-bottom: 160px;
   }
 
   .lead-magnet-card {
     padding: 18px;
     gap: 16px;
+    top: calc(100px + (var(--magnet-index) * 12px));
   }
 
   .lead-magnet-card + .lead-magnet-card {
-    margin-top: -12px;
+    margin-top: -6px;
   }
 
   .lead-magnet-cover img {
-    max-width: 200px;
+    max-width: 220px;
+  }
+
+  .lead-magnet-cover .btn {
+    width: 100%;
+    max-width: 240px;
   }
 }
 
