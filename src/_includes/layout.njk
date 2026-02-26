@@ -579,6 +579,92 @@
           }
         }
 
+        const resourceModal = document.querySelector("[data-resource-modal]");
+        if (resourceModal) {
+          const modalTitle = resourceModal.querySelector("#resource-modal-title");
+          const closeButtons = resourceModal.querySelectorAll("[data-resource-modal-close]");
+          const form = resourceModal.querySelector("[data-resource-modal-form]");
+          const message = resourceModal.querySelector("[data-resource-modal-message]");
+          let activeLink = "";
+
+          const openModal = (title, link) => {
+            if (modalTitle) modalTitle.textContent = title || "Get the resource";
+            activeLink = link || "";
+            resourceModal.hidden = false;
+            document.body.classList.add("modal-open");
+          };
+
+          const closeModal = () => {
+            resourceModal.hidden = true;
+            document.body.classList.remove("modal-open");
+            if (message) message.textContent = "";
+            if (form) form.reset();
+          };
+
+          document.querySelectorAll("[data-lead-resource]").forEach((btn) => {
+            btn.addEventListener("click", () => {
+              openModal(btn.dataset.resourceTitle, btn.dataset.resourceLink);
+            });
+          });
+
+          closeButtons.forEach((btn) => btn.addEventListener("click", closeModal));
+
+          if (form) {
+            form.addEventListener("submit", (event) => {
+              event.preventDefault();
+              if (message) message.textContent = "Sending…";
+              const formData = new FormData(form);
+              const email = (formData.get("email") || "").toString().trim();
+              if (!email) {
+                if (message) message.textContent = "Please enter your email.";
+                return;
+              }
+
+              const zohoEndpoint =
+                "https://forms.zohopublic.com/askiacareercoaching/form/EmailSubscription/formperma/cBXsJmQv2DE_EhdC_-0DPNAUZjTVp02YMSloAcFS5ko/htmlRecords/submit";
+
+              const zohoPayload = {
+                "Email": email
+              };
+
+              const submitZoho = () => {
+                const zohoForm = document.createElement("form");
+                zohoForm.method = "POST";
+                zohoForm.action = zohoEndpoint;
+                zohoForm.style.display = "none";
+                const iframeName = "zohoResourceTarget";
+                let iframe = document.querySelector(`iframe[name="${iframeName}"]`);
+                if (!iframe) {
+                  iframe = document.createElement("iframe");
+                  iframe.name = iframeName;
+                  iframe.style.display = "none";
+                  document.body.appendChild(iframe);
+                }
+                zohoForm.target = iframeName;
+                Object.entries(zohoPayload).forEach(([key, value]) => {
+                  const input = document.createElement("input");
+                  input.type = "hidden";
+                  input.name = key;
+                  input.value = value || "";
+                  zohoForm.appendChild(input);
+                });
+                document.body.appendChild(zohoForm);
+                zohoForm.submit();
+                setTimeout(() => {
+                  zohoForm.remove();
+                }, 1000);
+              };
+
+              submitZoho();
+              if (message) message.textContent = "Success! Redirecting…";
+              setTimeout(() => {
+                closeModal();
+                if (activeLink) window.location.href = activeLink;
+              }, 800);
+            });
+          }
+        }
+
         document.querySelectorAll("[data-collapsible]").forEach((section) => {
           const toggle = section.querySelector("[data-collapsible-toggle]");
           const panel = section.querySelector("[data-collapsible-panel]");

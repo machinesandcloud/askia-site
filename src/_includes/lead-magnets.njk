@@ -1,0 +1,57 @@
+<section class="section lead-magnets" data-lead-magnets>
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Free Resources</p>
+      <h2 class="section-title section-title-glow">{{ leadMagnets.title }}</h2>
+      <p class="section-subtitle">{{ leadMagnets.subtitle }}</p>
+    </div>
+
+    <div class="lead-magnets-list">
+      {% for item in leadMagnets.items %}
+      <article class="lead-magnet-card" style="--magnet-index: {{ loop.index0 }};">
+        <div class="lead-magnet-copy">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.body }}</p>
+          <ul>
+            {% for bullet in item.bullets %}
+            <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="lead-magnet-cover">
+          <img src="{{ item.cover }}" alt="{{ item.title }} cover" />
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-lead-resource
+            data-resource-title="{{ item.title }}"
+            data-resource-link="{{ item.link }}"
+          >
+            Get My Copy Now
+          </button>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<div class="resource-modal" data-resource-modal hidden>
+  <div class="resource-modal-overlay" data-resource-modal-close></div>
+  <div class="resource-modal-card" role="dialog" aria-modal="true" aria-labelledby="resource-modal-title">
+    <button class="resource-modal-close" type="button" data-resource-modal-close aria-label="Close">✕</button>
+    <div class="resource-modal-body">
+      <p class="hero-eyebrow">Instant Access</p>
+      <h3 id="resource-modal-title">Get the toolkit</h3>
+      <p class="resource-modal-subtitle">Enter your email to unlock this resource.</p>
+      <form class="resource-modal-form" data-resource-modal-form>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@company.com" autocomplete="email" required />
+        </label>
+        <button class="btn btn-primary" type="submit">Send me the resource</button>
+        <p class="resource-modal-message" data-resource-modal-message></p>
+      </form>
+    </div>
+  </div>
+</div>
