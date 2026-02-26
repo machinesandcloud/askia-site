@@ -2363,12 +2363,25 @@ a {
 }
 
 @media (max-width: 640px) {
+  .lead-magnets {
+    padding-bottom: 140px;
+  }
+
+  .lead-magnets-list {
+    padding-bottom: 120px;
+  }
+
   .lead-magnet-card {
     padding: 18px;
+    gap: 16px;
   }
 
   .lead-magnet-card + .lead-magnet-card {
     margin-top: -12px;
+  }
+
+  .lead-magnet-cover img {
+    max-width: 200px;
   }
 }
 
