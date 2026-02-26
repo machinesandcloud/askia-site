@@ -668,15 +668,27 @@
         const mobileCta = document.querySelector(".mobile-cta");
         const leadMagnetsSection = document.querySelector("[data-lead-magnets]");
         if (mobileCta && leadMagnetsSection) {
-          const updateMobileCta = (entries) => {
-            entries.forEach((entry) => {
-              document.body.classList.toggle("hide-mobile-cta", entry.isIntersecting);
-            });
+          const setMobileCtaHidden = (isHidden) => {
+            document.body.classList.toggle("hide-mobile-cta", isHidden);
           };
-          const observer = new IntersectionObserver(updateMobileCta, {
-            root: null,
-            threshold: 0.2
-          });
+
+          const checkOverlap = () => {
+            const rect = leadMagnetsSection.getBoundingClientRect();
+            const viewHeight = window.innerHeight || document.documentElement.clientHeight;
+            const isVisible = rect.top < viewHeight && rect.bottom > 0;
+            setMobileCtaHidden(isVisible);
+          };
+
+          checkOverlap();
+          window.addEventListener("scroll", checkOverlap, { passive: true });
+          window.addEventListener("resize", checkOverlap);
+
+          const observer = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((entry) => setMobileCtaHidden(entry.isIntersecting));
+            },
+            { root: null, threshold: 0.15 }
+          );
           observer.observe(leadMagnetsSection);
         }
 
