@@ -2368,19 +2368,19 @@ a {
   }
 
   .lead-magnets-list {
-    padding-bottom: 40px;
+    padding-bottom: 140px;
   }
 
   .lead-magnet-card {
     padding: 18px;
     gap: 16px;
-    position: static;
-    top: auto;
-    z-index: auto;
+    position: sticky;
+    top: calc(84px + (var(--magnet-index) * 10px));
+    z-index: calc(120 + var(--magnet-index));
   }
 
   .lead-magnet-card + .lead-magnet-card {
-    margin-top: 0;
+    margin-top: -8px;
   }
 
   .lead-magnet-cover img {
