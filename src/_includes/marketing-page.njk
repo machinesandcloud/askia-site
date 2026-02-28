@@ -5,7 +5,16 @@
       {% if page.eyebrow and (page.eyebrow | lower) != (page.h1 | lower) and (page.eyebrow | length) < 36 %}
         <p class="hero-eyebrow">{{ page.eyebrow }}</p>
       {% endif %}
+      {% if page.titleLead %}
+      <h1 class="hero-title">
+        <span class="hero-title-lead">{{ page.titleLead }}</span>
+        <span class="hero-title-emphasis">{{ page.titleEmphasis }}</span>
+        <span class="hero-title-tail">{{ page.titleTail }}</span>
+        <span class="hero-title-accent">{{ page.titleAccent }}</span>
+      </h1>
+      {% else %}
       <h1 class="hero-next-title">{{ page.h1 }}</h1>
+      {% endif %}
       {% if page.subtitle %}<p class="hero-next-subtitle">{{ page.subtitle }}</p>{% endif %}
       {% if page.supporting %}<p class="hero-next-supporting">{{ page.supporting }}</p>{% endif %}
       {% if page.highlights and page.highlights.length %}
