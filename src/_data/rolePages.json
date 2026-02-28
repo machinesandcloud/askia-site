@@ -1,18 +1,18 @@
 {
   "softwareEngineer": {
-    "eyebrow": "Software engineer career coaching",
-    "h1": "Software Engineer Coaching for Senior, Staff, and Principal Roles",
-    "subtitle": "Positioning, interview prep, and offer strategy built for software engineering roles.",
-    "supporting": "We clarify your level, refine your narrative, and build the interview signal that wins senior SWE offers.",
+    "eyebrow": "For software engineers who are ready to level up",
+    "h1": "You're a strong engineer. Your career materials don't show it.",
+    "subtitle": "Stop getting passed over for roles you could crush.",
+    "supporting": "You've shipped features, scaled systems, and solved hard problems. But your resume reads like a task list, your LinkedIn is basically invisible, and interviews feel like you're constantly proving yourself. You know you're good. Let's make sure everyone else does too.",
     "highlights": [
-      "Role targeting from Senior \u2192 Staff \u2192 Principal",
-      "Impact\u2011driven resume + LinkedIn",
-      "Interview + negotiation readiness"
+      "Get clear on Senior vs Staff vs Principal — and what it takes",
+      "A resume that shows scope and impact, not just technologies",
+      "Interview prep that makes system design feel natural"
     ],
-    "ctaLabel": "Book a Call",
+    "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for backend, frontend, full\u2011stack, and platform engineers.",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
+    "ctaProof": "For backend, frontend, full-stack, and platform engineers.",
+    "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
       "style": "blueprint",
@@ -20,195 +20,188 @@
       "accent2": "rgba(87, 207, 196, 0.35)"
     },
     "heroCard": {
-      "title": "SWE signal upgrade",
-      "body": "A focused system that positions your engineering impact at the right level.",
+      "title": "What changes",
+      "body": "Most engineers undersell their scope. We fix that.",
       "bullets": [
-        "Scope + impact framing",
-        "System design narrative",
-        "Interview story bank"
+        "Show the business impact of your technical work",
+        "System design stories that demonstrate level",
+        "Confidence in behavioral interviews"
       ]
     },
     "proof": {
-      "title": "Outcomes for software engineers",
-      "subtitle": "Senior\u2011signal positioning that generates interviews.",
+      "title": "Engineers like you have landed at Google, Meta, Stripe, and beyond",
+      "subtitle": "Here's what's different after we work together:",
       "items": [
         {
-          "title": "Senior \u2192 Staff",
-          "body": "Level\u2011up positioning built into your narrative."
+          "title": "Level becomes clear",
+          "body": "You'll know exactly what Senior, Staff, and Principal actually mean — and how to demonstrate it."
         },
         {
-          "title": "Interview velocity",
-          "body": "Clear role fit that drives recruiter response."
+          "title": "Interviews feel different",
+          "body": "System design stops being scary. Behavioral questions become opportunities."
         },
         {
-          "title": "Offer leverage",
-          "body": "Negotiation strategy tied to comp band."
+          "title": "Offers improve",
+          "body": "When you can articulate your value, you negotiate from strength."
         }
       ]
     },
     "focus": {
-      "eyebrow": "Engineer signal",
-      "title": "Show scope, not just code",
-      "subtitle": "We translate technical execution into leadership signal.",
+      "eyebrow": "The problem",
+      "title": "Great code doesn't sell itself",
+      "subtitle": "If it did, you wouldn't be stuck.",
       "items": [
         {
-          "tag": "Scope",
-          "title": "Level clarity",
-          "body": "Make Staff/Principal signal explicit."
+          "tag": "The Gap",
+          "title": "Your work is invisible",
+          "body": "You built the thing. But your resume says 'developed backend services' like every other engineer."
         },
         {
-          "tag": "Story",
-          "title": "Impact narratives",
-          "body": "Tie systems work to outcomes."
+          "tag": "The Struggle",
+          "title": "System design feels like a test",
+          "body": "You can design systems all day at work. But in interviews, you freeze or ramble."
         },
         {
-          "tag": "Execution",
-          "title": "Interview readiness",
-          "body": "System design + behavioral prep."
+          "tag": "The Doubt",
+          "title": "Imposter syndrome is real",
+          "body": "You wonder if you're actually Staff-level or if you've just been lucky."
         }
       ]
     },
     "steps": {
-      "title": "How software engineer coaching works",
-      "subtitle": "A structured approach from targeting to offer.",
+      "title": "How we get you there",
+      "subtitle": "A clear path from where you are to where you want to be.",
       "items": [
         {
-          "title": "Define",
-          "body": "Target level, scope, and comp range."
+          "title": "Get clear on your level",
+          "body": "We figure out where you actually are, where you should be targeting, and what the gap looks like."
         },
         {
-          "title": "Position",
-          "body": "Build resume, LinkedIn, and story bank."
+          "title": "Rebuild your story",
+          "body": "Your resume, LinkedIn, and pitch get overhauled to show scope and impact, not just tasks."
         },
         {
-          "title": "Execute",
-          "body": "Prep interviews and negotiate the offer."
+          "title": "Nail the interviews",
+          "body": "System design frameworks, behavioral story bank, and practice until it feels natural."
         }
       ]
     },
     "for": {
-      "title": "This is for",
-      "body": "Software engineers ready to move up in level and comp.",
+      "title": "This is for you if",
+      "body": "You've got the skills but aren't getting the recognition.",
       "items": [
-        "Senior ICs and tech leads",
-        "Engineers moving toward Staff/Principal",
-        "Adjacent roles: QA, platform, security engineering"
+        "You're a Senior engineer eyeing Staff or Principal",
+        "You've been at the same level too long",
+        "You're getting interviews but not offers",
+        "System design or behavioral interviews trip you up"
       ]
     },
     "notFor": {
-      "title": "Not a fit if",
-      "body": "You want generic career advice or entry\u2011level prep.",
+      "title": "This probably isn't for you if",
+      "body": "We're focused on leveling up, not starting out.",
       "items": [
-        "You\u2019re early\u2011career with limited experience",
-        "You want mass application tactics",
-        "You want templates without strategy"
+        "You're still building foundational engineering skills",
+        "You just want someone to apply to jobs for you",
+        "You're looking for LeetCode prep (we focus on the rest)"
       ]
     },
     "deliverables": {
-      "title": "What you get",
-      "subtitle": "Role\u2011specific assets and execution support.",
+      "title": "What you actually get",
+      "subtitle": "Not vague coaching. Concrete deliverables.",
       "items": [
         {
-          "title": "SWE positioning brief",
-          "tag": "Strategy",
-          "body": "Clarify level, scope, and engineering narrative.",
+          "title": "Level Clarity",
+          "tag": "Foundation",
+          "body": "Know exactly what your target level looks like and how to demonstrate it.",
           "bullets": [
-            "Level mapping",
-            "Impact framing",
-            "Role targeting"
+            "Level calibration",
+            "Scope mapping",
+            "Gap analysis"
           ]
         },
         {
-          "title": "Resume + LinkedIn",
-          "tag": "Signal",
-          "body": "Recruiter\u2011ready assets aligned to your target role.",
+          "title": "Materials That Land",
+          "tag": "Visibility",
+          "body": "Resume and LinkedIn that make your impact impossible to miss.",
           "bullets": [
-            "ATS\u2011clean resume",
-            "LinkedIn rewrite",
-            "Role keywords"
+            "Impact-focused resume",
+            "LinkedIn optimization",
+            "Scope demonstration"
           ]
         },
         {
-          "title": "Interview + offer prep",
-          "tag": "Conversion",
-          "body": "Story bank and negotiation strategy.",
+          "title": "Interview Confidence",
+          "tag": "Execution",
+          "body": "System design frameworks and behavioral stories that work.",
           "bullets": [
-            "Mock interview",
-            "System design framing",
-            "Negotiation script"
+            "System design practice",
+            "Behavioral story bank",
+            "Negotiation strategy"
           ]
         }
       ]
     },
     "related": {
-      "title": "Pair with a service",
-      "body": "Choose the right deliverable for your stage.",
-      "primaryLabel": "Land Your Next Role",
-      "primaryLink": "/land-your-next-role/",
-      "secondaryLabel": "Interview Prep",
-      "secondaryLink": "/interview-prep/"
+      "title": "Ready to level up?",
+      "body": "Let's figure out what's been holding you back.",
+      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/"
     },
     "faq": {
-      "title": "Software engineer coaching FAQs",
-      "subtitle": "Answers for SWE candidates.",
+      "title": "Questions engineers usually ask",
+      "subtitle": "Straight answers.",
       "items": [
         {
           "question": "Do you help with system design interviews?",
-          "answer": "Yes. We build system design narratives and practice for your target level."
+          "answer": "Yes. We build frameworks for approaching any problem and practice until you can walk through designs confidently."
         },
         {
-          "question": "Can you help me move from Senior to Staff?",
-          "answer": "Yes. We focus on scope, ownership, and leadership signal."
+          "question": "Can you help me go from Senior to Staff?",
+          "answer": "That's one of our most common engagements. We focus on demonstrating scope, influence, and technical leadership."
         },
         {
-          "question": "Do you work with frontend or backend engineers?",
-          "answer": "Yes. We tailor to your stack and role focus."
+          "question": "What about LeetCode?",
+          "answer": "We don't do algorithm prep — there are great resources for that. We focus on everything else: positioning, system design, behavioral, and negotiation."
         },
         {
-          "question": "How long does the process take?",
-          "answer": "Most clients see momentum in 2\u20136 weeks depending on package."
+          "question": "I'm a frontend/backend/full-stack engineer. Does that matter?",
+          "answer": "The principles are the same. We tailor the specifics to your domain."
         },
         {
-          "question": "Can you rewrite my resume?",
-          "answer": "Yes. Resume writing is included in brand packages or as a standalone."
+          "question": "How long until I see results?",
+          "answer": "Most clients land interviews within 3 weeks once their materials are dialed in. Full search timelines vary."
         },
         {
           "question": "Do you help with negotiation?",
-          "answer": "Yes. Negotiation planning is part of interview and coaching packages."
-        },
-        {
-          "question": "What if I\u2019m changing companies but not level?",
-          "answer": "We still position your impact to maximize comp and role quality."
-        },
-        {
-          "question": "Is this only for Big Tech?",
-          "answer": "No. We work across Big Tech, startups, and enterprise."
+          "answer": "Yes. We help you understand your leverage and prepare for the compensation conversation."
         }
       ]
     },
     "cta": {
-      "title": "Ready to level up your SWE role?",
-      "body": "Book a call and map your path to the next level.",
-      "label": "Book a Call",
+      "title": "Ready to be seen for what you're actually worth?",
+      "body": "Book a call. Let's figure out what level you should be targeting and how to get there.",
+      "label": "Book Your Free Strategy Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Software Engineer Coaching for Senior, Staff, and Principal Roles | Askia",
-    "metaDescription": "Software engineer coaching focused on system design signal, scope, and impact stories that convert to senior offers."
+    "metaTitle": "Software Engineer Career Coaching | Senior to Staff to Principal | Askia",
+    "metaDescription": "Career coaching for software engineers who are ready to level up. System design prep, resume overhaul, and interview strategy."
   },
   "devops": {
-    "eyebrow": "DevOps & SRE career coaching",
-    "h1": "DevOps & SRE Coaching for Reliability and Scale",
-    "subtitle": "Positioning and interview prep for DevOps, SRE, and platform engineering roles.",
-    "supporting": "We translate your operational impact into leadership signal that wins senior DevOps offers.",
+    "eyebrow": "For DevOps & SRE engineers who want recognition for what they actually do",
+    "h1": "You keep the lights on. But nobody sees it until they go out.",
+    "subtitle": "Stop being invisible. Start being valued.",
+    "supporting": "You've automated deployments, improved reliability, and saved the company countless hours (and dollars). But 'maintained infrastructure' doesn't exactly pop on a resume. The work that matters most is often the hardest to explain. We help you translate operational excellence into career advancement.",
     "highlights": [
-      "Role targeting for DevOps/SRE/platform",
-      "Resume + LinkedIn aligned to infra impact",
-      "Interview prep for systems + incident management"
+      "Turn uptime and reliability into measurable achievements",
+      "Show the business impact of your infrastructure work",
+      "Interview prep for incident response and system trade-offs"
     ],
-    "ctaLabel": "Book a Call",
+    "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for cloud, infrastructure, and reliability engineers.",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
+    "ctaProof": "For DevOps, SRE, Platform, and Infrastructure engineers.",
+    "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
       "style": "signal",
@@ -216,195 +209,180 @@
       "accent2": "rgba(114, 214, 255, 0.3)"
     },
     "heroCard": {
-      "title": "DevOps signal upgrade",
-      "body": "Show the business impact behind uptime, performance, and scale.",
+      "title": "What changes",
+      "body": "Make the invisible visible.",
       "bullets": [
-        "Incident narrative",
-        "Reliability metrics",
-        "Cloud + infra scope"
+        "Quantify reliability improvements",
+        "Show the cost of what you prevented",
+        "Articulate your systems thinking"
       ]
     },
     "proof": {
-      "title": "Outcomes for DevOps roles",
-      "subtitle": "Clear infra impact translates into senior offers.",
+      "title": "DevOps engineers have landed roles with $50K+ increases",
+      "subtitle": "Here's what they learned:",
       "items": [
         {
-          "title": "Reliability signal",
-          "body": "Narrative tied to uptime, latency, and scale."
+          "title": "Your work has numbers",
+          "body": "Uptime percentages, deployment frequency, incident reduction — we help you find and articulate them."
         },
         {
-          "title": "Platform scope",
-          "body": "Positioning that reflects org\u2011level impact."
+          "title": "Trade-offs are your strength",
+          "body": "The ability to reason about systems is a leadership skill. We help you show it."
         },
         {
-          "title": "Offer leverage",
-          "body": "Negotiation strategy aligned to comp bands."
+          "title": "Platform is strategic",
+          "body": "You're not just keeping things running. You're enabling the entire company. We help you frame it that way."
         }
       ]
     },
     "focus": {
-      "eyebrow": "Reliability signal",
-      "title": "Make infra impact visible",
-      "subtitle": "Turn operations into leadership signal.",
+      "eyebrow": "The problem",
+      "title": "Your best work is preventing disasters. That's hard to put on a resume.",
+      "subtitle": "Nobody thanks you when nothing goes wrong.",
       "items": [
         {
-          "tag": "Impact",
-          "title": "Reliability outcomes",
-          "body": "Uptime, latency, cost wins."
+          "tag": "The Gap",
+          "title": "Maintenance doesn't sound sexy",
+          "body": "'Maintained CI/CD pipelines' doesn't convey that you enabled 10x faster deployments."
         },
         {
-          "tag": "Scope",
-          "title": "Platform ownership",
-          "body": "Show cross\u2011org impact."
+          "tag": "The Struggle",
+          "title": "Incident stories are tricky",
+          "body": "You handled a crisis, but explaining it without sounding like you caused it is an art."
         },
         {
-          "tag": "Execution",
-          "title": "Interview prep",
-          "body": "Incident narratives and system trade\u2011offs."
+          "tag": "The Doubt",
+          "title": "Is this even engineering?",
+          "body": "You wonder if platform work 'counts' as much as product engineering. (It does. We'll help you prove it.)"
         }
       ]
     },
     "steps": {
-      "title": "How DevOps coaching works",
-      "subtitle": "Focused on infra impact and execution.",
+      "title": "How we get you there",
+      "subtitle": "A clear path from ops to opportunity.",
       "items": [
         {
-          "title": "Target",
-          "body": "Define role family and comp range."
+          "title": "Quantify your impact",
+          "body": "We dig through your work and find the numbers that matter — uptime, cost savings, velocity improvements."
         },
         {
-          "title": "Position",
-          "body": "Build resume, LinkedIn, and story bank."
+          "title": "Craft your story",
+          "body": "Your resume and LinkedIn get rebuilt to show platform ownership and business impact."
         },
         {
-          "title": "Convert",
-          "body": "Prep interviews and negotiate offers."
+          "title": "Prep for the tough questions",
+          "body": "Incident response stories, system design trade-offs, and the 'tell me about yourself' that actually works."
         }
       ]
     },
     "for": {
-      "title": "This is for",
-      "body": "DevOps, SRE, and platform engineers leveling up.",
+      "title": "This is for you if",
+      "body": "You've built serious infrastructure and want serious recognition.",
       "items": [
-        "Senior ICs and tech leads",
-        "Engineers targeting $120K\u2013$300K roles",
-        "Adjacent roles: cloud security, infrastructure, QA automation"
+        "You've improved reliability but can't quantify it",
+        "Your resume sounds like a job description",
+        "You're ready to move from Senior to Staff/Principal",
+        "You want to transition from ops to platform engineering"
       ]
     },
     "notFor": {
-      "title": "Not a fit if",
-      "body": "You want generic resume templates.",
+      "title": "This probably isn't for you if",
+      "body": "We focus on experienced professionals.",
       "items": [
-        "You\u2019re early\u2011career and building fundamentals",
-        "You want mass application tactics",
-        "You don\u2019t want role\u2011specific positioning"
+        "You're just learning DevOps fundamentals",
+        "You want help getting certifications",
+        "You're looking for hands-on technical training"
       ]
     },
     "deliverables": {
-      "title": "What you get",
-      "subtitle": "DevOps\u2011specific positioning and prep.",
+      "title": "What you actually get",
+      "subtitle": "Concrete outcomes, not vague advice.",
       "items": [
         {
-          "title": "DevOps positioning",
-          "tag": "Strategy",
-          "body": "Define your impact and scope in reliability and infra.",
+          "title": "Impact Mapping",
+          "tag": "Foundation",
+          "body": "Find and articulate the business value of your infrastructure work.",
           "bullets": [
-            "Role targeting",
-            "Impact framing",
-            "Scope mapping"
+            "Reliability metrics",
+            "Cost savings",
+            "Velocity improvements"
           ]
         },
         {
-          "title": "Resume + LinkedIn",
-          "tag": "Signal",
-          "body": "Recruiter\u2011ready assets aligned to DevOps roles.",
+          "title": "Story Overhaul",
+          "tag": "Visibility",
+          "body": "Resume and LinkedIn that show platform leadership.",
           "bullets": [
-            "ATS\u2011clean resume",
-            "LinkedIn rewrite",
-            "Infra keywords"
+            "Systems narrative",
+            "Business alignment",
+            "Scale demonstration"
           ]
         },
         {
-          "title": "Interview prep",
-          "tag": "Conversion",
-          "body": "Scenario\u2011based prep for infra and incident questions.",
+          "title": "Interview Readiness",
+          "tag": "Execution",
+          "body": "Incident stories and system design prep that work.",
           "bullets": [
-            "Incident narratives",
-            "System design framing",
-            "Negotiation plan"
+            "Incident framing",
+            "Trade-off articulation",
+            "Negotiation prep"
           ]
         }
       ]
     },
     "related": {
-      "title": "Pair with a service",
-      "body": "Choose the deliverable that fits your stage.",
-      "primaryLabel": "Land Your Next Role",
-      "primaryLink": "/land-your-next-role/",
-      "secondaryLabel": "Resume Writing",
-      "secondaryLink": "/resume-writing/"
+      "title": "Ready to get the recognition you deserve?",
+      "body": "Let's talk about where you are and where you want to be.",
+      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/"
     },
     "faq": {
-      "title": "DevOps coaching FAQs",
-      "subtitle": "Short answers for DevOps candidates.",
+      "title": "Questions DevOps engineers usually ask",
+      "subtitle": "Real answers.",
       "items": [
         {
-          "question": "Do you cover SRE and platform roles?",
-          "answer": "Yes. We tailor to SRE, platform, and infrastructure roles."
+          "question": "How do I quantify reliability work?",
+          "answer": "We look for uptime improvements, incident frequency reduction, MTTR, deployment velocity, cost savings — the numbers are there, we just need to find them."
         },
         {
-          "question": "Do you help with system design?",
-          "answer": "Yes. We build system design narratives tied to infra outcomes."
+          "question": "Do you help with platform engineering roles specifically?",
+          "answer": "Yes. Platform, SRE, and DevOps all have nuances. We tailor to your target."
         },
         {
-          "question": "What if I\u2019m moving from IT to DevOps?",
-          "answer": "We translate your experience into DevOps\u2011aligned impact."
+          "question": "What about cloud certifications?",
+          "answer": "Certifications can help, but they're not the focus. We focus on demonstrating real impact."
         },
         {
-          "question": "How long does the process take?",
-          "answer": "Typical momentum appears within 2\u20136 weeks."
-        },
-        {
-          "question": "Do you help with cloud certification stories?",
-          "answer": "Yes, we frame certifications as part of your impact narrative."
-        },
-        {
-          "question": "Do you offer negotiation support?",
-          "answer": "Yes, negotiation planning is included in coaching packages."
-        },
-        {
-          "question": "Can you help with incident response storytelling?",
-          "answer": "Yes. We build narratives around reliability and trade\u2011offs."
-        },
-        {
-          "question": "Is this only for Big Tech?",
-          "answer": "No. We work across Big Tech, startups, and enterprise."
+          "question": "How do I talk about incidents without looking bad?",
+          "answer": "It's all about framing. We help you tell incident stories that show leadership, not blame."
         }
       ]
     },
     "cta": {
-      "title": "Ready for a stronger DevOps role?",
-      "body": "Book a call and map your next move.",
-      "label": "Book a Call",
+      "title": "Stop being invisible",
+      "body": "Book a call. Let's figure out how to show what you've actually built.",
+      "label": "Book Your Free Strategy Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "DevOps & SRE Coaching for Reliability and Scale | Askia",
-    "metaDescription": "DevOps and SRE coaching built around reliability impact, incident leadership, and infrastructure scope."
+    "metaTitle": "DevOps & SRE Career Coaching | Make Your Infrastructure Work Visible | Askia",
+    "metaDescription": "Career coaching for DevOps and SRE engineers. Turn reliability, uptime, and platform work into career advancement."
   },
   "data": {
-    "eyebrow": "Data career coaching",
-    "h1": "Data Career Coaching for Analytics, Engineering, and Science",
-    "subtitle": "Positioning for data engineering, analytics, and data science roles.",
-    "supporting": "We help you translate data impact into clear business outcomes and senior\u2011level signal.",
+    "eyebrow": "For data professionals who are tired of being seen as 'just analytics'",
+    "h1": "You drive decisions. Your resume shows dashboards.",
+    "subtitle": "Stop being the person behind the report. Start being the person who changed the outcome.",
+    "supporting": "You've built pipelines that power entire products. You've surfaced insights that redirected strategy. You've made data actually mean something. But when it's time to talk about your work, it sounds like 'created reports' and 'maintained data models.' That's not what you did. Let's tell the real story.",
     "highlights": [
-      "Role targeting for DE/DS/Analytics",
-      "Resume + LinkedIn aligned to business impact",
-      "Interview + negotiation readiness"
+      "Translate data work into business decisions and outcomes",
+      "Position yourself for DE, DS, or Analytics leadership",
+      "Prep for case interviews that show your thinking"
     ],
-    "ctaLabel": "Book a Call",
+    "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for data engineers, analysts, and data scientists.",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
+    "ctaProof": "For Data Engineers, Data Scientists, Analytics Engineers, and BI leads.",
+    "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
       "style": "radar",
@@ -412,195 +390,180 @@
       "accent2": "rgba(255, 214, 102, 0.25)"
     },
     "heroCard": {
-      "title": "Data signal upgrade",
-      "body": "Show how your data work drives decisions, revenue, and scale.",
+      "title": "What changes",
+      "body": "Show the 'so what' behind your data work.",
       "bullets": [
-        "Business impact framing",
-        "Metrics storytelling",
-        "Role\u2011level clarity"
+        "Connect analysis to decisions",
+        "Demonstrate business ownership",
+        "Own the outcomes, not just the queries"
       ]
     },
     "proof": {
-      "title": "Outcomes for data roles",
-      "subtitle": "Clear impact converts to stronger offers.",
+      "title": "Data professionals have gone from analyst to senior roles with $80K+ increases",
+      "subtitle": "Here's what made the difference:",
       "items": [
         {
-          "title": "Business impact",
-          "body": "Translate data into decisions and outcomes."
+          "title": "Your work influenced decisions",
+          "body": "We help you trace the line from your analysis to the action someone took because of it."
         },
         {
-          "title": "Role clarity",
-          "body": "Target the right data role family and level."
+          "title": "Technical depth matters",
+          "body": "Pipelines, models, infrastructure — we help you show the engineering, not just the output."
         },
         {
-          "title": "Offer leverage",
-          "body": "Negotiation strategy based on comp range."
+          "title": "Leadership is about influence",
+          "body": "You don't need to manage people to be a leader. We help you demonstrate influence."
         }
       ]
     },
     "focus": {
-      "eyebrow": "Data impact",
-      "title": "Make decisions, not just dashboards",
-      "subtitle": "We frame the business impact behind the analysis.",
+      "eyebrow": "The problem",
+      "title": "The best insights in the world don't matter if no one acts on them",
+      "subtitle": "And no one will know you drove the action unless you tell them.",
       "items": [
         {
-          "tag": "Impact",
-          "title": "Decision narrative",
-          "body": "Explain how your work changed outcomes."
+          "tag": "The Gap",
+          "title": "Dashboards don't show impact",
+          "body": "'Built dashboards for marketing team' doesn't convey that you changed how they spend $5M."
         },
         {
-          "tag": "Scope",
-          "title": "Ownership signal",
-          "body": "Show end\u2011to\u2011end influence."
+          "tag": "The Struggle",
+          "title": "Technical work gets overlooked",
+          "body": "You built the pipeline that powers the product. But it's invisible to hiring managers."
         },
         {
-          "tag": "Execution",
-          "title": "Interview prep",
-          "body": "Case and data storytelling."
+          "tag": "The Doubt",
+          "title": "DE vs DS vs Analytics — what even am I?",
+          "body": "Roles blur together. We help you pick a lane and own it."
         }
       ]
     },
     "steps": {
-      "title": "How data coaching works",
-      "subtitle": "Positioning, signal, and execution.",
+      "title": "How we get you there",
+      "subtitle": "From reports to revenue impact.",
       "items": [
         {
-          "title": "Define",
-          "body": "Clarify role family, level, and comp target."
+          "title": "Find your outcomes",
+          "body": "We dig through your work and find where your analysis actually changed something."
         },
         {
-          "title": "Position",
-          "body": "Build resume + LinkedIn with impact narrative."
+          "title": "Choose your path",
+          "body": "DE, DS, Analytics, or something hybrid — we get clear on what you want and position you for it."
         },
         {
-          "title": "Execute",
-          "body": "Interview prep and negotiation strategy."
+          "title": "Tell the story",
+          "body": "Resume, LinkedIn, and case interview prep that shows business thinking, not just SQL."
         }
       ]
     },
     "for": {
-      "title": "This is for",
-      "body": "Data professionals moving up in role and compensation.",
+      "title": "This is for you if",
+      "body": "You've done real data work and want real recognition.",
       "items": [
-        "Data engineers, analysts, and data scientists",
-        "Senior ICs aiming for lead roles",
-        "Adjacent roles: BI, analytics engineering, QA analytics"
+        "Your resume sounds like a technical spec",
+        "You're ready to move from IC to lead or senior",
+        "You want to transition between DE/DS/Analytics",
+        "Case interviews make you nervous"
       ]
     },
     "notFor": {
-      "title": "Not a fit if",
-      "body": "You\u2019re looking for generic data career advice.",
+      "title": "This probably isn't for you if",
+      "body": "We work with experienced professionals.",
       "items": [
-        "You\u2019re early\u2011career and need foundational skills",
-        "You want mass application tactics",
-        "You don\u2019t want role\u2011specific positioning"
+        "You're just learning SQL or Python",
+        "You want help with technical skill-building",
+        "You're looking for bootcamp-style training"
       ]
     },
     "deliverables": {
-      "title": "What you get",
-      "subtitle": "Data\u2011specific positioning and prep.",
+      "title": "What you actually get",
+      "subtitle": "Real deliverables, not fluff.",
       "items": [
         {
-          "title": "Data positioning",
-          "tag": "Strategy",
-          "body": "Clarify data impact and level signal.",
+          "title": "Outcome Mapping",
+          "tag": "Foundation",
+          "body": "Connect your data work to business decisions and results.",
           "bullets": [
-            "Role targeting",
-            "Business outcomes",
-            "Scope mapping"
+            "Decision tracing",
+            "Revenue attribution",
+            "Scope clarification"
           ]
         },
         {
-          "title": "Resume + LinkedIn",
-          "tag": "Signal",
-          "body": "Recruiter\u2011ready assets aligned to data roles.",
+          "title": "Story Overhaul",
+          "tag": "Visibility",
+          "body": "Resume and LinkedIn that show business impact.",
           "bullets": [
-            "ATS\u2011clean resume",
-            "LinkedIn rewrite",
-            "Data keywords"
+            "Business narrative",
+            "Technical depth",
+            "Leadership indicators"
           ]
         },
         {
-          "title": "Interview + offer prep",
-          "tag": "Conversion",
-          "body": "Story bank and negotiation strategy.",
+          "title": "Interview Prep",
+          "tag": "Execution",
+          "body": "Case interview frameworks and behavioral stories.",
           "bullets": [
-            "Case study framing",
-            "Mock interview",
-            "Negotiation plan"
+            "Case frameworks",
+            "Stakeholder stories",
+            "Negotiation prep"
           ]
         }
       ]
     },
     "related": {
-      "title": "Pair with a service",
-      "body": "Choose the deliverable that fits your stage.",
-      "primaryLabel": "Land Your Next Role",
-      "primaryLink": "/land-your-next-role/",
-      "secondaryLabel": "LinkedIn Optimization",
-      "secondaryLink": "/linkedin-optimization/"
+      "title": "Ready to be more than 'just analytics'?",
+      "body": "Let's talk about what you've actually done.",
+      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/"
     },
     "faq": {
-      "title": "Data coaching FAQs",
-      "subtitle": "Short answers for data candidates.",
+      "title": "Questions data professionals usually ask",
+      "subtitle": "Direct answers.",
       "items": [
         {
-          "question": "Do you cover data engineering and data science?",
-          "answer": "Yes. We tailor positioning to DE, DS, and analytics roles."
+          "question": "I do a mix of DE/DS/Analytics. How do I position myself?",
+          "answer": "We help you pick the angle that serves your goals and tell a coherent story around it."
         },
         {
           "question": "Do you help with case interviews?",
-          "answer": "Yes. We build case frameworks and story banks."
+          "answer": "Yes. We build frameworks for approaching data problems and practice until you're confident."
         },
         {
-          "question": "Can you help me move from analyst to engineer?",
-          "answer": "Yes. We map transferable impact and target the right roles."
+          "question": "My work was technical (pipelines, models). Does that count as impact?",
+          "answer": "Absolutely. We help you connect technical work to business outcomes."
         },
         {
-          "question": "How long does the process take?",
-          "answer": "Most clients see momentum in 2\u20136 weeks."
-        },
-        {
-          "question": "Do you provide resume writing?",
-          "answer": "Yes. Resume writing is included in brand packages or as a standalone."
-        },
-        {
-          "question": "Do you help with negotiation?",
-          "answer": "Yes. Negotiation planning is part of coaching packages."
-        },
-        {
-          "question": "Is this for BI or analytics engineers?",
-          "answer": "Yes. We cover BI, analytics engineering, and data platform roles."
-        },
-        {
-          "question": "Do you work with leadership roles?",
-          "answer": "Yes. We help data leaders frame org\u2011level impact."
+          "question": "How do I show leadership if I don't manage people?",
+          "answer": "Leadership is about influence, not headcount. We help you demonstrate cross-functional impact."
         }
       ]
     },
     "cta": {
-      "title": "Ready for a stronger data role?",
-      "body": "Book a call and map your next move.",
-      "label": "Book a Call",
+      "title": "Your data changed outcomes. Let's make sure people know.",
+      "body": "Book a call. Let's figure out how to tell your story.",
+      "label": "Book Your Free Strategy Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Data Career Coaching for Analytics, Engineering, and Science | Askia",
-    "metaDescription": "Data coaching that turns pipelines and insights into business outcomes and senior\u2011level signal."
+    "metaTitle": "Data Career Coaching | DE, DS, Analytics | Show Business Impact | Askia",
+    "metaDescription": "Career coaching for data professionals. Turn pipelines, models, and analysis into career advancement."
   },
   "productManager": {
-    "eyebrow": "Product manager career coaching",
-    "h1": "Product Manager Coaching for Strategy and Execution",
-    "subtitle": "Positioning, storytelling, and offer strategy for product roles.",
-    "supporting": "We clarify your product impact and turn it into a narrative that wins PM interviews.",
+    "eyebrow": "For product managers who are tired of explaining what they actually do",
+    "h1": "You shipped the product. The engineers get the credit.",
+    "subtitle": "Stop being invisible. Start being indispensable.",
+    "supporting": "You've aligned stakeholders, prioritized ruthlessly, and made the hard calls. But when it's time to interview, you struggle to quantify your impact because you didn't write the code or close the deals. You enabled everything. Now let's make sure that's obvious.",
     "highlights": [
-      "Role targeting across product levels",
-      "Story bank for strategy + execution",
-      "Interview + negotiation readiness"
+      "Quantify product impact without technical credit",
+      "Tell strategy stories that show your thinking",
+      "Prep for PM case interviews with confidence"
     ],
-    "ctaLabel": "Book a Call",
+    "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for product managers, product owners, and program leads.",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
+    "ctaProof": "For Product Managers, Product Owners, and Program leads.",
+    "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
       "style": "signal",
@@ -608,195 +571,180 @@
       "accent2": "rgba(114, 214, 255, 0.3)"
     },
     "heroCard": {
-      "title": "PM signal upgrade",
-      "body": "Frame your product impact for strategy, execution, and leadership signal.",
+      "title": "What changes",
+      "body": "Own the outcomes, even without writing the code.",
       "bullets": [
-        "Strategy narrative",
-        "Cross\u2011functional impact",
-        "Metrics storytelling"
+        "Show the 'why' behind product decisions",
+        "Quantify without taking others' credit",
+        "Demonstrate strategic thinking"
       ]
     },
     "proof": {
-      "title": "Outcomes for product roles",
-      "subtitle": "Clear product impact drives stronger offers.",
+      "title": "PMs have moved from APM to Senior to Group PM — with the comp to match",
+      "subtitle": "Here's what clicked:",
       "items": [
         {
-          "title": "Strategy signal",
-          "body": "Product narratives that show ownership and trade\u2011offs."
+          "title": "Your decisions have numbers",
+          "body": "Revenue influence, user growth, feature adoption — we help you find and own them."
         },
         {
-          "title": "Execution clarity",
-          "body": "Stories tied to results and metrics."
+          "title": "Trade-offs are your superpower",
+          "body": "The ability to make hard choices and explain why is exactly what companies want. We help you show it."
         },
         {
-          "title": "Offer leverage",
-          "body": "Negotiation strategy aligned to comp bands."
+          "title": "Cross-functional is leadership",
+          "body": "You don't need direct reports to lead. We help you demonstrate influence."
         }
       ]
     },
     "focus": {
-      "eyebrow": "Product signal",
-      "title": "Show strategy + execution",
-      "subtitle": "We craft a story that shows product leadership.",
+      "eyebrow": "The problem",
+      "title": "Everyone remembers the feature. Nobody remembers who made it happen.",
+      "subtitle": "That's the PM curse. Let's break it.",
       "items": [
         {
-          "tag": "Strategy",
-          "title": "Product thinking",
-          "body": "Frame trade\u2011offs and decisions."
+          "tag": "The Gap",
+          "title": "Your impact is invisible",
+          "body": "'Managed product roadmap' doesn't convey the $10M feature you prioritized."
         },
         {
-          "tag": "Execution",
-          "title": "Delivery impact",
-          "body": "Tie releases to outcomes."
+          "tag": "The Struggle",
+          "title": "Case interviews feel like tricks",
+          "body": "You do product thinking all day. But in interviews, you second-guess yourself."
         },
         {
-          "tag": "Leadership",
-          "title": "Stakeholder signal",
-          "body": "Show influence across teams."
+          "tag": "The Doubt",
+          "title": "Are you strategic enough?",
+          "body": "You wonder if you're 'really' a PM or just a project manager in disguise."
         }
       ]
     },
     "steps": {
-      "title": "How product coaching works",
-      "subtitle": "Positioning, story, execution.",
+      "title": "How we get you there",
+      "subtitle": "From feature owner to strategic leader.",
       "items": [
         {
-          "title": "Define",
-          "body": "Clarify PM level, domain, and comp range."
+          "title": "Find your wins",
+          "body": "We dig through your product work and find the decisions that drove real outcomes."
         },
         {
-          "title": "Position",
-          "body": "Build narrative and role\u2011aligned assets."
+          "title": "Build your narrative",
+          "body": "Resume, LinkedIn, and your verbal pitch get rebuilt around strategy and impact."
         },
         {
-          "title": "Execute",
-          "body": "Interview and negotiation prep."
+          "title": "Crush the interviews",
+          "body": "PM case frameworks, stakeholder stories, and the confidence to think out loud."
         }
       ]
     },
     "for": {
-      "title": "This is for",
-      "body": "Product managers moving up in scope and compensation.",
+      "title": "This is for you if",
+      "body": "You've shipped real products and want real recognition.",
       "items": [
-        "PMs targeting senior or lead roles",
-        "Product owners moving into PM roles",
-        "Adjacent roles: project managers, program managers"
+        "You can't quantify your PM impact",
+        "Case interviews make you anxious",
+        "You're ready to move to Senior/Group PM",
+        "You're transitioning from PO or project management"
       ]
     },
     "notFor": {
-      "title": "Not a fit if",
-      "body": "You want generic PM advice without strategy.",
+      "title": "This probably isn't for you if",
+      "body": "We work with experienced PMs.",
       "items": [
-        "You\u2019re early\u2011career and building fundamentals",
-        "You want mass application tactics",
-        "You don\u2019t want role\u2011specific positioning"
+        "You're trying to break into PM from scratch",
+        "You want help building PM hard skills",
+        "You're looking for a PM certification"
       ]
     },
     "deliverables": {
-      "title": "What you get",
-      "subtitle": "Product\u2011specific positioning and prep.",
+      "title": "What you actually get",
+      "subtitle": "Tangible outcomes.",
       "items": [
         {
-          "title": "PM positioning",
-          "tag": "Strategy",
-          "body": "Define your product narrative and impact scope.",
+          "title": "Impact Clarity",
+          "tag": "Foundation",
+          "body": "Find and quantify your product wins.",
           "bullets": [
-            "Role targeting",
-            "Impact framing",
-            "Strategy story"
+            "Outcome mapping",
+            "Decision inventory",
+            "Metric attribution"
           ]
         },
         {
-          "title": "Resume + LinkedIn",
-          "tag": "Signal",
-          "body": "Recruiter\u2011ready assets aligned to PM roles.",
+          "title": "Story Overhaul",
+          "tag": "Visibility",
+          "body": "Resume and LinkedIn that show strategic PM thinking.",
           "bullets": [
-            "ATS\u2011clean resume",
-            "LinkedIn rewrite",
-            "PM keywords"
+            "Strategy narrative",
+            "Cross-functional proof",
+            "Business impact"
           ]
         },
         {
-          "title": "Interview + offer prep",
-          "tag": "Conversion",
-          "body": "Case and behavioral interview prep plus negotiation planning.",
+          "title": "Interview Prep",
+          "tag": "Execution",
+          "body": "PM case frameworks and behavioral polish.",
           "bullets": [
-            "PM case framing",
-            "Story bank",
-            "Negotiation plan"
+            "Case frameworks",
+            "Stakeholder stories",
+            "Negotiation strategy"
           ]
         }
       ]
     },
     "related": {
-      "title": "Pair with a service",
-      "body": "Choose the deliverable that fits your stage.",
-      "primaryLabel": "Land Your Next Role",
-      "primaryLink": "/land-your-next-role/",
-      "secondaryLabel": "LinkedIn Optimization",
-      "secondaryLink": "/linkedin-optimization/"
+      "title": "Ready to own your impact?",
+      "body": "Let's talk about what you've actually shipped.",
+      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/"
     },
     "faq": {
-      "title": "Product manager coaching FAQs",
-      "subtitle": "Short answers for PM candidates.",
+      "title": "Questions PMs usually ask",
+      "subtitle": "Honest answers.",
       "items": [
         {
+          "question": "How do I quantify impact when I didn't write the code?",
+          "answer": "You made the decisions. You prioritized. You aligned. We help you trace outcomes back to your work."
+        },
+        {
           "question": "Do you help with PM case interviews?",
-          "answer": "Yes. We build frameworks and practice cases."
+          "answer": "Yes. We build frameworks and practice until you can think out loud confidently."
         },
         {
-          "question": "Can you help product owners transition to PM roles?",
-          "answer": "Yes. We map transferable experience into PM impact."
+          "question": "I'm a PO trying to become a PM. Can you help?",
+          "answer": "Yes. We help reframe your experience to show PM-relevant skills."
         },
         {
-          "question": "Do you cover technical PM roles?",
-          "answer": "Yes. We tailor to technical and platform PM roles."
-        },
-        {
-          "question": "How long does the process take?",
-          "answer": "Most clients see momentum in 2\u20136 weeks."
-        },
-        {
-          "question": "Do you provide resume writing?",
-          "answer": "Yes. Resume writing is included in brand packages or as a standalone."
-        },
-        {
-          "question": "Do you help with negotiation?",
-          "answer": "Yes. Negotiation planning is part of coaching packages."
-        },
-        {
-          "question": "Is this only for Big Tech PM roles?",
-          "answer": "No. We work across Big Tech, startups, and enterprise."
-        },
-        {
-          "question": "Can you help with leadership roles?",
-          "answer": "Yes. We cover group PM and director\u2011level positioning."
+          "question": "What about Technical PM roles?",
+          "answer": "We cover all PM flavors — technical, growth, platform, core product."
         }
       ]
     },
     "cta": {
-      "title": "Ready for a stronger PM role?",
-      "body": "Book a call and map your next move.",
-      "label": "Book a Call",
+      "title": "You made the decisions. Let's make sure people know.",
+      "body": "Book a call. Let's figure out how to tell your PM story.",
+      "label": "Book Your Free Strategy Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Product Manager Coaching for Strategy and Execution | Askia",
-    "metaDescription": "PM coaching focused on roadmap signal, product metrics, and cross\u2011functional influence."
+    "metaTitle": "Product Manager Career Coaching | Quantify Your Impact | Askia",
+    "metaDescription": "Career coaching for product managers. Turn product decisions into quantifiable impact and land better PM roles."
   },
   "engineeringManager": {
-    "eyebrow": "Engineering manager coaching",
-    "h1": "Engineering Manager Coaching for Leadership and Scale",
-    "subtitle": "Leadership positioning and interview strategy for engineering managers.",
-    "supporting": "We help you communicate org impact, leadership scope, and decision\u2011making that wins EM offers.",
+    "eyebrow": "For engineering managers who've outgrown their title",
+    "h1": "You've built teams. Now it's time to build your next chapter.",
+    "subtitle": "Move from managing to leading — with the role and comp to match.",
+    "supporting": "You've hired, developed, and retained talent. You've navigated org changes, aligned roadmaps, and kept the trains running. But your resume sounds like everyone else's, and interviews feel like you're defending your technical credibility instead of showcasing your leadership. Let's change that.",
     "highlights": [
-      "Leadership narrative and scope",
-      "Resume + LinkedIn aligned to EM roles",
-      "Interview + negotiation readiness"
+      "Frame team outcomes as your outcomes",
+      "Show org-level impact, not just team management",
+      "Prep for leadership interviews with confidence"
     ],
-    "ctaLabel": "Book a Call",
+    "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for engineering managers, directors, and exec\u2011track leaders.",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
+    "ctaProof": "For Engineering Managers, Directors, and leadership-track ICs.",
+    "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
       "style": "executive",
@@ -804,195 +752,180 @@
       "accent2": "rgba(255, 214, 102, 0.3)"
     },
     "heroCard": {
-      "title": "Leadership signal upgrade",
-      "body": "Show your management impact, org scope, and decision\u2011making clearly.",
+      "title": "What changes",
+      "body": "Lead with outcomes, not activities.",
       "bullets": [
-        "Leadership narrative",
-        "Org impact framing",
-        "Offer strategy"
+        "Team success = your success",
+        "Org-level impact stories",
+        "Executive presence in interviews"
       ]
     },
     "proof": {
-      "title": "Outcomes for EM roles",
-      "subtitle": "Leadership signal that translates to senior offers.",
+      "title": "EMs have moved to Director, VP, and senior leadership",
+      "subtitle": "Here's what shifted:",
       "items": [
         {
-          "title": "Leadership scope",
-          "body": "Positioning built around org\u2011level outcomes."
+          "title": "Your team's wins are your wins",
+          "body": "You built the team that shipped. That's leadership. We help you own it."
         },
         {
-          "title": "Interview confidence",
-          "body": "Prep for leadership, strategy, and execution loops."
+          "title": "Scale matters",
+          "body": "Not just how many people. How much impact. We help you articulate org-level outcomes."
         },
         {
-          "title": "Offer leverage",
-          "body": "Negotiation strategy tied to total comp."
+          "title": "Technical credibility without coding",
+          "body": "You don't need to be the best coder. We help you show technical judgment."
         }
       ]
     },
     "focus": {
-      "eyebrow": "Leadership impact",
-      "title": "Show org\u2011level outcomes",
-      "subtitle": "Position yourself as a leader, not a manager.",
+      "eyebrow": "The problem",
+      "title": "Great managers are often invisible. Their teams shine instead.",
+      "subtitle": "That's noble. It's also a career problem.",
       "items": [
         {
-          "tag": "Scope",
-          "title": "Org impact",
-          "body": "Show scale and business outcomes."
+          "tag": "The Gap",
+          "title": "You're behind the scenes",
+          "body": "Your team got the recognition. You got more work. Sound familiar?"
         },
         {
-          "tag": "People",
-          "title": "Leadership narrative",
-          "body": "Demonstrate team development."
+          "tag": "The Struggle",
+          "title": "Leadership interviews are different",
+          "body": "It's not about what you built. It's about how you think. That requires a different prep."
         },
         {
-          "tag": "Execution",
-          "title": "Interview readiness",
-          "body": "Leadership loop prep."
+          "tag": "The Doubt",
+          "title": "Are you 'really' technical anymore?",
+          "body": "You haven't coded in a while. You wonder if that matters. (It doesn't. Not how you think.)"
         }
       ]
     },
     "steps": {
-      "title": "How EM coaching works",
-      "subtitle": "Leadership positioning + execution.",
+      "title": "How we get you there",
+      "subtitle": "From manager to senior leader.",
       "items": [
         {
-          "title": "Define",
-          "body": "Clarify target scope and leadership level."
+          "title": "Own your outcomes",
+          "body": "We help you articulate team and org impact as your leadership outcomes."
         },
         {
-          "title": "Position",
-          "body": "Build leadership narrative and assets."
+          "title": "Build your executive story",
+          "body": "Resume, LinkedIn, and pitch rebuilt for leadership roles."
         },
         {
-          "title": "Execute",
-          "body": "Interview and negotiation prep."
+          "title": "Nail leadership interviews",
+          "body": "Strategy, people scenarios, and executive presence practice."
         }
       ]
     },
     "for": {
-      "title": "This is for",
-      "body": "Engineering leaders moving up in scope and comp.",
+      "title": "This is for you if",
+      "body": "You've led teams and are ready for more scope.",
       "items": [
-        "Current EMs seeking bigger scope",
-        "Senior ICs transitioning into management",
-        "Adjacent roles: TPMs, project managers"
+        "You're an EM eyeing Director or VP",
+        "You're a Staff+ IC considering management",
+        "Your resume sounds like a job description",
+        "Leadership interviews feel different and you're not sure why"
       ]
     },
     "notFor": {
-      "title": "Not a fit if",
-      "body": "You want generic leadership advice.",
+      "title": "This probably isn't for you if",
+      "body": "We work with experienced leaders.",
       "items": [
-        "You\u2019re early\u2011career and building fundamentals",
-        "You want mass application tactics",
-        "You don\u2019t want leadership positioning"
+        "You haven't managed people yet",
+        "You're looking for new manager training",
+        "You want IC coaching (check our SWE page)"
       ]
     },
     "deliverables": {
-      "title": "What you get",
-      "subtitle": "Leadership\u2011level positioning and prep.",
+      "title": "What you actually get",
+      "subtitle": "Leadership-ready assets.",
       "items": [
         {
-          "title": "Leadership positioning",
-          "tag": "Strategy",
-          "body": "Define your management narrative and impact scope.",
+          "title": "Outcome Framing",
+          "tag": "Foundation",
+          "body": "Turn team wins into leadership wins.",
           "bullets": [
-            "Org impact",
-            "Decision\u2011making",
-            "Team outcomes"
+            "Impact attribution",
+            "Org-level outcomes",
+            "Scale demonstration"
           ]
         },
         {
-          "title": "Resume + LinkedIn",
-          "tag": "Signal",
-          "body": "Executive\u2011ready assets aligned to EM roles.",
+          "title": "Executive Story",
+          "tag": "Visibility",
+          "body": "Resume and LinkedIn that show leadership scope.",
           "bullets": [
-            "ATS\u2011clean resume",
-            "LinkedIn rewrite",
-            "Leadership keywords"
+            "Leadership narrative",
+            "Strategic framing",
+            "Executive tone"
           ]
         },
         {
-          "title": "Interview + offer prep",
-          "tag": "Conversion",
-          "body": "Leadership interview prep and negotiation strategy.",
+          "title": "Leadership Prep",
+          "tag": "Execution",
+          "body": "Interview prep for leadership loops.",
           "bullets": [
-            "Leadership scenarios",
-            "Mock interview",
-            "Negotiation plan"
+            "Strategy scenarios",
+            "People management stories",
+            "Negotiation strategy"
           ]
         }
       ]
     },
     "related": {
-      "title": "Pair with a service",
-      "body": "Choose the deliverable that fits your stage.",
-      "primaryLabel": "Land Your Next Role",
-      "primaryLink": "/land-your-next-role/",
-      "secondaryLabel": "Core Services",
+      "title": "Ready for more scope?",
+      "body": "Let's talk about your leadership trajectory.",
+      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
       "secondaryLink": "/services/"
     },
     "faq": {
-      "title": "Engineering manager coaching FAQs",
-      "subtitle": "Answers for EM candidates.",
+      "title": "Questions EMs usually ask",
+      "subtitle": "Real talk.",
       "items": [
         {
-          "question": "Do you help ICs transition into management?",
-          "answer": "Yes. We build a leadership narrative and scope story for EM roles."
+          "question": "How do I take credit for team work without being arrogant?",
+          "answer": "It's not arrogance. You built the team. You created the conditions. We help you frame it properly."
         },
         {
-          "question": "Do you prep for leadership interviews?",
-          "answer": "Yes. We cover strategy, people management, and execution."
+          "question": "Do you help with Director/VP roles?",
+          "answer": "Yes. The principles scale. The scope of impact just gets bigger."
         },
         {
-          "question": "Can you help with director roles?",
-          "answer": "Yes. We build executive\u2011level positioning for director and above."
+          "question": "I'm a Staff IC considering management. Can you help?",
+          "answer": "Yes. We help you articulate transferable leadership and make the case for management."
         },
         {
-          "question": "How long does the process take?",
-          "answer": "Most clients see momentum in 2\u20136 weeks depending on scope."
-        },
-        {
-          "question": "Do you provide resume writing?",
-          "answer": "Yes. Resume writing is included in brand packages or as a standalone."
-        },
-        {
-          "question": "Do you help with negotiation?",
-          "answer": "Yes. Negotiation planning is part of coaching packages."
-        },
-        {
-          "question": "Do you cover org\u2011scale narratives?",
-          "answer": "Yes. We focus on impact, scope, and leadership outcomes."
-        },
-        {
-          "question": "Is this only for Big Tech?",
-          "answer": "No. We work across Big Tech, startups, and enterprise."
+          "question": "What about technical credibility?",
+          "answer": "We help you demonstrate technical judgment without needing to code in interviews."
         }
       ]
     },
     "cta": {
-      "title": "Ready to lead at a higher level?",
-      "body": "Book a call and map your leadership path.",
-      "label": "Book a Call",
+      "title": "Your teams shipped. Your people grew. That's leadership.",
+      "body": "Book a call. Let's make sure your next role reflects it.",
+      "label": "Book Your Free Strategy Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Engineering Manager Coaching for Leadership and Scale | Askia",
-    "metaDescription": "Engineering manager coaching built around team leadership, delivery systems, and org\u2011level impact."
+    "metaTitle": "Engineering Manager Career Coaching | Move to Director and Beyond | Askia",
+    "metaDescription": "Career coaching for engineering managers. Frame team outcomes as leadership wins and land senior roles."
   },
   "cybersecurity": {
-    "eyebrow": "Cybersecurity career coaching",
-    "h1": "Cybersecurity Coaching for Risk and Defense Roles",
-    "subtitle": "Positioning, interview prep, and offer strategy for security roles.",
-    "supporting": "We translate security work into business\u2011critical impact and leadership signal.",
+    "eyebrow": "For security professionals who protect companies but can't prove it",
+    "h1": "You stopped the breach. Nobody noticed.",
+    "subtitle": "Make your defense work into career offense.",
+    "supporting": "You've hardened systems, responded to incidents, and kept the company out of the headlines. But 'managed security' doesn't exactly scream impact. The best security work is invisible — and that's a career problem. Let's make your protection visible.",
     "highlights": [
-      "Security narrative",
-      "Risk + impact framing",
-      "Interview readiness"
+      "Quantify risk reduction and incident response",
+      "Frame compliance as business enablement",
+      "Prep for security role interviews"
     ],
-    "ctaLabel": "Book a Call",
+    "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for security engineers, analysts, and leaders.",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
+    "ctaProof": "For Security Engineers, Analysts, and Security Leaders.",
+    "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
       "style": "radar",
@@ -1000,476 +933,530 @@
       "accent2": "rgba(114, 214, 255, 0.25)"
     },
     "heroCard": {
-      "title": "Security signal upgrade",
-      "body": "Show risk reduction, incident response, and business impact.",
+      "title": "What changes",
+      "body": "Turn prevention into proof.",
       "bullets": [
-        "Risk framing",
-        "Incident narratives",
-        "Leadership signal"
+        "Quantify what didn't happen",
+        "Frame incidents as leadership moments",
+        "Show business impact of security"
       ]
     },
     "proof": {
-      "title": "Outcomes for security roles",
-      "subtitle": "Make security impact visible to decision\u2011makers.",
+      "title": "Security pros have landed roles with $60K+ increases",
+      "subtitle": "Here's what made it click:",
       "items": [
         {
-          "title": "Risk clarity",
-          "body": "Translate threats into business impact."
+          "title": "Prevention has a price tag",
+          "body": "What would the breach have cost? We help you estimate and articulate it."
         },
         {
-          "title": "Scope signal",
-          "body": "Show ownership across systems."
+          "title": "Incidents are leadership stories",
+          "body": "You handled a crisis. That's not a liability — it's proof you can handle pressure."
         },
         {
-          "title": "Offer leverage",
-          "body": "Negotiate from a position of expertise."
+          "title": "Compliance enables business",
+          "body": "You're not blocking deals. You're making them possible. We help you frame it that way."
         }
       ]
     },
     "focus": {
-      "eyebrow": "Security impact",
-      "title": "Turn risk into leadership signal",
-      "subtitle": "We align technical depth with business outcomes.",
+      "eyebrow": "The problem",
+      "title": "The best security is the breach that never happened",
+      "subtitle": "Try putting that on a resume.",
       "items": [
         {
-          "tag": "Impact",
-          "title": "Risk reduction",
-          "body": "Show measurable impact on security posture."
+          "tag": "The Gap",
+          "title": "Your wins are invisible",
+          "body": "'Maintained security posture' doesn't convey that you prevented a $10M incident."
         },
         {
-          "tag": "Scope",
-          "title": "Ownership",
-          "body": "Demonstrate cross\u2011org influence."
+          "tag": "The Struggle",
+          "title": "Incident stories are tricky",
+          "body": "How do you talk about breaches without sounding like you caused them?"
         },
         {
-          "tag": "Execution",
-          "title": "Interview prep",
-          "body": "Incident response storytelling."
+          "tag": "The Doubt",
+          "title": "Is security a dead end?",
+          "body": "You wonder if there's a path to leadership or if you're stuck in the SOC forever."
         }
       ]
     },
     "steps": {
-      "title": "How security coaching works",
-      "subtitle": "Positioning \u2192 prep \u2192 offers.",
+      "title": "How we get you there",
+      "subtitle": "From security work to career advancement.",
       "items": [
         {
-          "title": "Define",
-          "body": "Target security role and level."
+          "title": "Find your impact",
+          "body": "We quantify risk reduction, incident response wins, and compliance achievements."
         },
         {
-          "title": "Position",
-          "body": "Build security narrative."
+          "title": "Build your story",
+          "body": "Resume and LinkedIn rebuilt to show business-critical security work."
         },
         {
-          "title": "Execute",
-          "body": "Interview + negotiation prep."
+          "title": "Prep for interviews",
+          "body": "Incident response stories and technical credibility without sounding like a hacker."
         }
       ]
     },
     "for": {
-      "title": "This is for",
-      "body": "Security professionals moving up in scope.",
+      "title": "This is for you if",
+      "body": "You've protected companies and want career protection for yourself.",
       "items": [
-        "Security engineers",
-        "Security analysts",
-        "Security leaders"
+        "Your resume sounds like a tools list",
+        "You can't quantify your security impact",
+        "You want to move into security leadership",
+        "Incident interviews make you nervous"
       ]
     },
     "notFor": {
-      "title": "Not a fit if",
-      "body": "You want generic career advice.",
+      "title": "This probably isn't for you if",
+      "body": "We work with experienced security pros.",
       "items": [
-        "No role targeting",
-        "Entry\u2011level guidance only"
+        "You're just getting into security",
+        "You want help with certifications",
+        "You're looking for technical security training"
       ]
     },
     "deliverables": {
-      "title": "What you get",
-      "subtitle": "Security\u2011specific positioning and prep.",
+      "title": "What you actually get",
+      "subtitle": "Security-specific career support.",
       "items": [
         {
-          "title": "Security positioning",
-          "tag": "Core",
-          "body": "Narrative aligned to risk + impact.",
+          "title": "Impact Quantification",
+          "tag": "Foundation",
+          "body": "Put numbers on your security work.",
           "bullets": [
-            "Risk framing",
-            "Scope clarity",
-            "Impact metrics"
+            "Risk reduction metrics",
+            "Incident cost avoidance",
+            "Compliance business value"
+          ]
+        },
+        {
+          "title": "Story Overhaul",
+          "tag": "Visibility",
+          "body": "Resume and LinkedIn that show security leadership.",
+          "bullets": [
+            "Business framing",
+            "Incident storytelling",
+            "Technical credibility"
+          ]
+        },
+        {
+          "title": "Interview Prep",
+          "tag": "Execution",
+          "body": "Security interview readiness.",
+          "bullets": [
+            "Incident frameworks",
+            "Leadership scenarios",
+            "Negotiation strategy"
           ]
         }
       ]
     },
     "related": {
-      "title": "Pair with resume writing",
-      "body": "Security roles require clear signal.",
-      "primaryLabel": "Resume Writing",
-      "primaryLink": "/resume-writing/",
-      "secondaryLabel": "Interview Prep",
-      "secondaryLink": "/interview-prep/"
+      "title": "Ready to get recognized?",
+      "body": "Let's talk about making your security work visible.",
+      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/"
     },
     "faq": {
-      "title": "Cybersecurity coaching FAQs",
-      "subtitle": "Quick answers.",
+      "title": "Questions security pros usually ask",
+      "subtitle": "Straight answers.",
       "items": [
         {
-          "question": "Do you cover GRC roles?",
-          "answer": "Yes, we cover GRC, security engineering, and leadership."
+          "question": "How do I quantify prevention?",
+          "answer": "We estimate what incidents would have cost and attribute prevention to your work."
         },
         {
-          "question": "Can you help with incident narratives?",
-          "answer": "Yes. We structure incident stories for impact."
+          "question": "How do I talk about incidents?",
+          "answer": "We frame them as leadership moments, not failures. You handled it. That's the story."
         },
         {
-          "question": "Is this for senior roles?",
-          "answer": "Yes, we focus on $120K\u2013$300K roles."
-        },
-        {
-          "question": "Do you help with negotiation?",
-          "answer": "Yes, negotiation planning is included."
+          "question": "Is there a path to security leadership?",
+          "answer": "Absolutely. CISO, security directors, and VP roles all need people who've done the work."
         }
       ]
     },
     "cta": {
-      "title": "Ready to level up in security?",
-      "body": "Book a call and map the path.",
-      "label": "Book a Call",
+      "title": "You protected the company. Now protect your career.",
+      "body": "Book a call. Let's figure out how to show your security impact.",
+      "label": "Book Your Free Strategy Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Cybersecurity Coaching for Risk and Defense Roles | Askia",
-    "metaDescription": "Cybersecurity coaching that frames risk, incident response, and security scope for senior roles."
+    "metaTitle": "Cybersecurity Career Coaching | Show Your Security Impact | Askia",
+    "metaDescription": "Career coaching for cybersecurity professionals. Turn risk reduction and incident response into career advancement."
   },
   "qa": {
-    "eyebrow": "QA & test automation coaching",
-    "h1": "QA & Test Automation Coaching for Quality Signal",
-    "subtitle": "Positioning, interview prep, and offer strategy for QA and automation roles.",
-    "supporting": "We turn quality impact into leadership\u2011level signal.",
+    "eyebrow": "For QA professionals who want to be more than 'the bug finder'",
+    "h1": "You ship quality. But your resume says 'wrote test cases.'",
+    "subtitle": "Stop being an afterthought. Start being essential.",
+    "supporting": "You've caught critical bugs before launch. You've built automation that saves hours every sprint. You've made sure the product actually works. But QA often feels like a second-class engineering citizen. Let's change how people see you — starting with how you see yourself.",
     "highlights": [
-      "Automation impact",
-      "Quality signal",
-      "Interview readiness"
+      "Frame quality work as risk reduction and speed enablement",
+      "Position for SDET, Automation Lead, or Quality Manager roles",
+      "Show engineering depth, not just test execution"
     ],
-    "ctaLabel": "Book a Call",
+    "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for QA, SDET, and test automation roles.",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
+    "ctaProof": "For QA Engineers, SDETs, and Test Automation specialists.",
+    "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
       "style": "blueprint",
-      "accent": "rgba(114, 214, 255, 0.7)",
-      "accent2": "rgba(103, 233, 173, 0.25)"
+      "accent": "rgba(87, 207, 196, 0.7)",
+      "accent2": "rgba(114, 214, 255, 0.25)"
     },
     "heroCard": {
-      "title": "QA signal upgrade",
-      "body": "Show how quality work saves time, money, and reputation.",
+      "title": "What changes",
+      "body": "Quality is engineering. Let's prove it.",
       "bullets": [
-        "Automation wins",
-        "Reliability signal",
-        "Leadership scope"
+        "Show bugs caught = money saved",
+        "Automation as productivity multiplier",
+        "Engineering credibility, not just testing"
       ]
     },
     "proof": {
-      "title": "Outcomes for QA roles",
-      "subtitle": "Make quality impact visible.",
+      "title": "QA pros have moved to SDET and lead roles with major comp jumps",
+      "subtitle": "Here's what shifted:",
       "items": [
         {
-          "title": "Automation impact",
-          "body": "Show time saved and defect reduction."
+          "title": "Quality has a price tag",
+          "body": "That bug you caught? It would have cost. We help you estimate and articulate it."
         },
         {
-          "title": "Scope signal",
-          "body": "Position cross\u2011team impact."
+          "title": "Automation is leverage",
+          "body": "Hours saved, faster releases, fewer regressions. We help you quantify it."
         },
         {
-          "title": "Offer leverage",
-          "body": "Negotiate from clarity."
+          "title": "SDET is engineering",
+          "body": "You write code. You design systems. We help you show it."
         }
       ]
     },
     "focus": {
-      "eyebrow": "Quality impact",
-      "title": "Elevate QA from support to strategy",
-      "subtitle": "We frame QA as a business\u2011critical function.",
+      "eyebrow": "The problem",
+      "title": "Nobody celebrates when things don't break",
+      "subtitle": "That's the QA curse. Let's fix it.",
       "items": [
         {
-          "tag": "Impact",
-          "title": "Automation outcomes",
-          "body": "Demonstrate measurable improvements."
+          "tag": "The Gap",
+          "title": "Quality work is invisible",
+          "body": "'Tested features' doesn't convey that you prevented a $500K production incident."
         },
         {
-          "tag": "Scope",
-          "title": "Cross\u2011team influence",
-          "body": "Show collaboration and leadership."
+          "tag": "The Struggle",
+          "title": "QA feels like a second class citizen",
+          "body": "You're not 'just testing.' You're engineering quality. But not everyone sees it."
         },
         {
-          "tag": "Execution",
-          "title": "Interview readiness",
-          "body": "Behavioral + technical prep."
+          "tag": "The Doubt",
+          "title": "Is there a career path?",
+          "body": "You wonder if QA leads anywhere or if you need to switch to 'real' engineering."
         }
       ]
     },
     "steps": {
-      "title": "How QA coaching works",
-      "subtitle": "Positioning \u2192 prep \u2192 offers.",
+      "title": "How we get you there",
+      "subtitle": "From tester to quality leader.",
       "items": [
         {
-          "title": "Define",
-          "body": "Clarify role and level target."
+          "title": "Find your impact",
+          "body": "We quantify bugs caught, time saved, and release velocity improvements."
         },
         {
-          "title": "Position",
-          "body": "Build QA narrative."
+          "title": "Build your story",
+          "body": "Resume and LinkedIn rebuilt to show quality engineering, not just test execution."
         },
         {
-          "title": "Execute",
-          "body": "Interview + negotiation prep."
+          "title": "Land the role",
+          "body": "Interview prep for SDET, lead, and management positions."
         }
       ]
     },
     "for": {
-      "title": "This is for",
-      "body": "QA and automation professionals.",
+      "title": "This is for you if",
+      "body": "You've done real quality work and want real recognition.",
       "items": [
-        "QA engineers",
-        "SDETs",
-        "Test automation"
+        "Your resume sounds like a test plan",
+        "You want to move into SDET or lead roles",
+        "You've built automation but can't show the value",
+        "You're ready for management"
       ]
     },
     "notFor": {
-      "title": "Not a fit if",
-      "body": "You want a generic resume rewrite.",
+      "title": "This probably isn't for you if",
+      "body": "We work with experienced QA professionals.",
       "items": [
-        "No role targeting",
-        "Entry\u2011level only"
+        "You're just learning test fundamentals",
+        "You want automation coding training",
+        "You're looking for ISTQB prep"
       ]
     },
     "deliverables": {
-      "title": "What you get",
-      "subtitle": "QA\u2011specific positioning and prep.",
+      "title": "What you actually get",
+      "subtitle": "Quality-focused career support.",
       "items": [
         {
-          "title": "QA positioning",
-          "tag": "Core",
-          "body": "Narrative aligned to quality impact.",
+          "title": "Impact Mapping",
+          "tag": "Foundation",
+          "body": "Quantify your quality contributions.",
           "bullets": [
-            "Automation wins",
-            "Impact metrics",
-            "Scope clarity"
+            "Bug prevention value",
+            "Automation savings",
+            "Release velocity"
+          ]
+        },
+        {
+          "title": "Engineering Story",
+          "tag": "Visibility",
+          "body": "Resume and LinkedIn that show engineering, not testing.",
+          "bullets": [
+            "Technical credibility",
+            "Business impact",
+            "Leadership signals"
+          ]
+        },
+        {
+          "title": "Interview Prep",
+          "tag": "Execution",
+          "body": "SDET and leadership interview readiness.",
+          "bullets": [
+            "Technical scenarios",
+            "Process stories",
+            "Negotiation prep"
           ]
         }
       ]
     },
     "related": {
-      "title": "Pair with resume writing",
-      "body": "Quality signal starts with your resume.",
-      "primaryLabel": "Resume Writing",
-      "primaryLink": "/resume-writing/",
-      "secondaryLabel": "Interview Prep",
-      "secondaryLink": "/interview-prep/"
+      "title": "Ready to be seen as an engineer?",
+      "body": "Let's talk about your quality work.",
+      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/"
     },
     "faq": {
-      "title": "QA coaching FAQs",
-      "subtitle": "Quick answers.",
+      "title": "Questions QA pros usually ask",
+      "subtitle": "Real talk.",
       "items": [
         {
-          "question": "Do you cover SDET roles?",
-          "answer": "Yes, we tailor to QA, SDET, and automation roles."
+          "question": "How do I quantify bug prevention?",
+          "answer": "We estimate what those bugs would have cost in production — user impact, engineering time, business consequences."
         },
         {
-          "question": "Can you help with automation stories?",
-          "answer": "Yes, we frame automation impact clearly."
+          "question": "Is SDET really engineering?",
+          "answer": "Yes. You're writing code, designing systems, solving problems. We help you frame it that way."
         },
         {
-          "question": "Is this for senior roles?",
-          "answer": "Yes, focused on $100K\u2013$220K roles."
-        },
-        {
-          "question": "Do you help with negotiation?",
-          "answer": "Yes."
+          "question": "Can I transition to 'regular' software engineering?",
+          "answer": "Many do. Your testing experience is actually an asset. We help you position it."
         }
       ]
     },
     "cta": {
-      "title": "Ready to elevate your QA role?",
-      "body": "Book a call and map your path.",
-      "label": "Book a Call",
+      "title": "Quality is engineering. Let's prove it.",
+      "body": "Book a call. Let's figure out how to show your real impact.",
+      "label": "Book Your Free Strategy Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "QA & Test Automation Coaching for Quality Signal | Askia",
-    "metaDescription": "QA and test automation coaching focused on quality strategy, automation scope, and reliability impact."
+    "metaTitle": "QA & Test Automation Career Coaching | SDET & Lead Roles | Askia",
+    "metaDescription": "Career coaching for QA professionals. Turn quality work into engineering credibility and career advancement."
   },
   "productDesign": {
-    "eyebrow": "Product design career coaching",
-    "h1": "Product Design Coaching for Product Impact",
-    "subtitle": "Portfolio story, interview prep, and offer strategy for design roles.",
-    "supporting": "We turn design work into leadership signal and clear impact.",
+    "eyebrow": "For designers who can't seem to get past the portfolio review",
+    "h1": "Your designs shipped. Your career didn't.",
+    "subtitle": "Stop losing to designers with prettier Figma files.",
+    "supporting": "You've solved real user problems, shipped to millions, and made measurable impact. But somehow, juniors with fancier portfolios are getting the roles you want. Design hiring is broken. Let's make sure you win anyway.",
     "highlights": [
-      "Portfolio narrative",
-      "Design impact",
-      "Interview readiness"
+      "Portfolio that tells stories, not just shows screens",
+      "Quantify design impact without fabricating metrics",
+      "Interview prep for design critiques and presentations"
     ],
-    "ctaLabel": "Book a Call",
+    "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for product, UX, and UI designers.",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
+    "ctaProof": "For Product Designers, UX Designers, and Design Leads.",
+    "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
       "style": "signal",
-      "accent": "rgba(255, 214, 255, 0.5)",
-      "accent2": "rgba(114, 214, 255, 0.3)"
+      "accent": "rgba(255, 154, 118, 0.65)",
+      "accent2": "rgba(255, 214, 133, 0.3)"
     },
     "heroCard": {
-      "title": "Design signal upgrade",
-      "body": "Show impact, craft, and leadership in your portfolio.",
+      "title": "What changes",
+      "body": "Show process and impact, not just pixels.",
       "bullets": [
-        "Portfolio narrative",
-        "Outcome framing",
-        "Interview prep"
+        "Outcome-driven portfolio stories",
+        "Design thinking articulation",
+        "Presentation confidence"
       ]
     },
     "proof": {
-      "title": "Outcomes for designers",
-      "subtitle": "Make the story behind the pixels clear.",
+      "title": "Designers have landed at Meta, Airbnb, and top startups",
+      "subtitle": "Here's what shifted:",
       "items": [
         {
-          "title": "Impact",
-          "body": "Tie design decisions to results."
+          "title": "Process beats polish",
+          "body": "The best portfolios show how you think, not just how you design."
         },
         {
-          "title": "Story",
-          "body": "Clear portfolio narratives."
+          "title": "Impact is measurable",
+          "body": "Conversion improvements, user satisfaction, engagement — we help you find the numbers."
         },
         {
-          "title": "Offer leverage",
-          "body": "Negotiation strategy included."
+          "title": "Presentation is half the job",
+          "body": "How you talk about your work matters as much as the work itself."
         }
       ]
     },
     "focus": {
-      "eyebrow": "Design narrative",
-      "title": "Make your work unforgettable",
-      "subtitle": "We shape a portfolio story that lands.",
+      "eyebrow": "The problem",
+      "title": "Design portfolios are judged like art shows. That's wrong.",
+      "subtitle": "You solve problems. Let's show it.",
       "items": [
         {
-          "tag": "Story",
-          "title": "Portfolio arc",
-          "body": "Build a clear case study flow."
+          "tag": "The Gap",
+          "title": "Pretty pixels ≠ impact",
+          "body": "Your portfolio looks good but doesn't tell the story of what changed because of you."
         },
         {
-          "tag": "Impact",
-          "title": "Outcome signal",
-          "body": "Tie design to metrics."
+          "tag": "The Struggle",
+          "title": "Design critiques are terrifying",
+          "body": "You know your work is good, but presenting it under pressure is different."
         },
         {
-          "tag": "Execution",
-          "title": "Interview prep",
-          "body": "Practice portfolio walkthroughs."
+          "tag": "The Doubt",
+          "title": "Is it your portfolio or is it you?",
+          "body": "After enough rejections, you start to wonder. (It's probably neither. It's the story.)"
         }
       ]
     },
     "steps": {
-      "title": "How design coaching works",
-      "subtitle": "Narrative \u2192 prep \u2192 offers.",
+      "title": "How we get you there",
+      "subtitle": "From portfolio rejection to offer accepted.",
       "items": [
         {
-          "title": "Define",
-          "body": "Target design role and level."
+          "title": "Find your impact",
+          "body": "We dig through your projects and find where design moved business metrics."
         },
         {
-          "title": "Position",
-          "body": "Build portfolio narrative."
+          "title": "Rebuild your portfolio narrative",
+          "body": "Stories, not just screens. Process, not just polish."
         },
         {
-          "title": "Execute",
-          "body": "Interview + negotiation prep."
+          "title": "Master the presentation",
+          "body": "Design critique prep, case study walkthrough practice, and confidence building."
         }
       ]
     },
     "for": {
-      "title": "This is for",
-      "body": "Designers moving up in level.",
+      "title": "This is for you if",
+      "body": "You've shipped real design work and deserve recognition.",
       "items": [
-        "Product designers",
-        "UX/UI designers",
-        "Design leads"
+        "Your portfolio gets views but not callbacks",
+        "Design presentations make you nervous",
+        "You're ready for Senior or Lead roles",
+        "You can't quantify your design impact"
       ]
     },
     "notFor": {
-      "title": "Not a fit if",
-      "body": "You want generic portfolio feedback.",
+      "title": "This probably isn't for you if",
+      "body": "We work with experienced designers.",
       "items": [
-        "No role targeting",
-        "Entry\u2011level only"
+        "You're building foundational design skills",
+        "You want Figma or UI training",
+        "You need portfolio building from scratch"
       ]
     },
     "deliverables": {
-      "title": "What you get",
-      "subtitle": "Design\u2011specific positioning and prep.",
+      "title": "What you actually get",
+      "subtitle": "Design career support.",
       "items": [
         {
-          "title": "Portfolio strategy",
-          "tag": "Core",
-          "body": "Narrative and story structure.",
+          "title": "Impact Discovery",
+          "tag": "Foundation",
+          "body": "Find the business impact of your design work.",
           "bullets": [
-            "Case study flow",
-            "Impact framing",
-            "Leadership signal"
+            "Metric attribution",
+            "Process documentation",
+            "Outcome mapping"
+          ]
+        },
+        {
+          "title": "Portfolio Narrative",
+          "tag": "Visibility",
+          "body": "Rebuild your case studies to tell stories.",
+          "bullets": [
+            "Process emphasis",
+            "Impact proof",
+            "Story structure"
+          ]
+        },
+        {
+          "title": "Presentation Prep",
+          "tag": "Execution",
+          "body": "Design critique and case study presentation readiness.",
+          "bullets": [
+            "Walkthrough practice",
+            "Critique response",
+            "Confidence building"
           ]
         }
       ]
     },
     "related": {
-      "title": "Pair with interview prep",
-      "body": "Portfolio + interview prep wins.",
-      "primaryLabel": "Interview Prep",
-      "primaryLink": "/interview-prep/",
-      "secondaryLabel": "Land Your Next Role",
-      "secondaryLink": "/land-your-next-role/"
+      "title": "Ready to land the design role you deserve?",
+      "body": "Let's talk about your design work.",
+      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/"
     },
     "faq": {
-      "title": "Design coaching FAQs",
-      "subtitle": "Quick answers.",
+      "title": "Questions designers usually ask",
+      "subtitle": "Honest answers.",
       "items": [
         {
-          "question": "Do you review portfolios?",
-          "answer": "Yes, we structure the portfolio narrative."
+          "question": "How do I quantify design impact?",
+          "answer": "We look for conversion changes, user feedback, engagement metrics, and business outcomes connected to your work."
         },
         {
-          "question": "Is this for UX and UI?",
-          "answer": "Yes, both."
+          "question": "What makes a portfolio stand out?",
+          "answer": "Process and impact, not just visual polish. We help you restructure around decision-making and outcomes."
         },
         {
-          "question": "Do you help with negotiation?",
-          "answer": "Yes."
-        },
-        {
-          "question": "Is this for senior roles?",
-          "answer": "Yes, focused on $100K\u2013$250K."
+          "question": "How do I get better at design critiques?",
+          "answer": "Practice. We run through your case studies until presenting them feels natural."
         }
       ]
     },
     "cta": {
-      "title": "Ready to elevate your design story?",
-      "body": "Book a call and map your path.",
-      "label": "Book a Call",
+      "title": "Your designs worked. Let's make your career work too.",
+      "body": "Book a call. Let's fix your portfolio narrative.",
+      "label": "Book Your Free Strategy Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Product Design Coaching for Product Impact | Askia",
-    "metaDescription": "Product design coaching focused on portfolio narrative, product impact, and senior design signal."
+    "metaTitle": "Product Design Career Coaching | Portfolio & Interview Prep | Askia",
+    "metaDescription": "Career coaching for product designers. Turn design work into portfolio stories that land interviews."
   },
   "solutionsArchitect": {
-    "eyebrow": "Solutions architect coaching",
-    "h1": "Solutions Architect Coaching for System Design and Scale",
-    "subtitle": "Positioning and interview prep for architecture and pre\u2011sales roles.",
-    "supporting": "We turn technical depth into business impact narratives.",
+    "eyebrow": "For solutions architects who close deals but can't close their next role",
+    "h1": "You've designed systems worth millions. Your resume shows 'technical presales.'",
+    "subtitle": "Bridge the gap between technical credibility and career advancement.",
+    "supporting": "You've architected enterprise solutions, won competitive deals, and been the technical voice that closed business. But SA roles are weird — not quite sales, not quite engineering. That makes positioning tricky. Let's get it right.",
     "highlights": [
-      "Architecture signal",
-      "Customer impact",
-      "Interview readiness"
+      "Quantify deal influence and technical wins",
+      "Position for SA leadership or transition to product/engineering",
+      "Interview prep for hybrid technical/business roles"
     ],
-    "ctaLabel": "Book a Call",
+    "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for SA, cloud architects, and pre\u2011sales roles.",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
+    "ctaProof": "For Solutions Architects, Technical Account Managers, and Pre-Sales Engineers.",
+    "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
       "style": "blueprint",
@@ -1477,1096 +1464,1222 @@
       "accent2": "rgba(255, 214, 102, 0.25)"
     },
     "heroCard": {
-      "title": "Architecture signal",
-      "body": "Show system impact and customer outcomes.",
+      "title": "What changes",
+      "body": "Own your revenue influence AND technical depth.",
       "bullets": [
-        "System narratives",
-        "Business value",
-        "Leadership signal"
+        "Deal attribution",
+        "Technical credibility proof",
+        "Hybrid role positioning"
       ]
     },
     "proof": {
-      "title": "Outcomes for architects",
-      "subtitle": "Turn complexity into clarity.",
+      "title": "SAs have moved to leadership, PM, and senior engineering roles",
+      "subtitle": "Here's what made the difference:",
       "items": [
         {
-          "title": "Impact",
-          "body": "Frame architecture outcomes."
+          "title": "Revenue has your fingerprints",
+          "body": "You influenced those deals. We help you attribute and articulate it."
         },
         {
-          "title": "Scope",
-          "body": "Show cross\u2011org influence."
+          "title": "Architecture is engineering",
+          "body": "You design systems. That's technical work. We help you prove it."
         },
         {
-          "title": "Offer leverage",
-          "body": "Negotiation support."
+          "title": "Hybrid is a strength",
+          "body": "Technical + business is rare. We help you position it as an advantage."
         }
       ]
     },
     "focus": {
-      "eyebrow": "Architecture impact",
-      "title": "Make the system story clear",
-      "subtitle": "We align technical depth with business outcomes.",
+      "eyebrow": "The problem",
+      "title": "Solutions architects fall through the cracks",
+      "subtitle": "Too technical for sales. Too sales-y for engineering. Sound familiar?",
       "items": [
         {
-          "tag": "Story",
-          "title": "System narratives",
-          "body": "Explain trade\u2011offs simply."
+          "tag": "The Gap",
+          "title": "You're hard to categorize",
+          "body": "Recruiters don't know where to put you. That means you get overlooked."
         },
         {
-          "tag": "Impact",
-          "title": "Business outcomes",
-          "body": "Tie architecture to revenue and risk."
+          "tag": "The Struggle",
+          "title": "Deal credit is shared",
+          "body": "Sales got the commission. You made it technically possible. Who gets the credit?"
         },
         {
-          "tag": "Execution",
-          "title": "Interview prep",
-          "body": "Case studies and deep dives."
+          "tag": "The Doubt",
+          "title": "Is this a dead end?",
+          "body": "You wonder if SA leads anywhere or if you're stuck between sales and engineering forever."
         }
       ]
     },
     "steps": {
-      "title": "How architect coaching works",
-      "subtitle": "Positioning \u2192 prep \u2192 offers.",
+      "title": "How we get you there",
+      "subtitle": "From technical presales to technical leadership.",
       "items": [
         {
-          "title": "Define",
-          "body": "Target role and comp band."
+          "title": "Claim your impact",
+          "body": "We quantify deal influence and technical wins you enabled."
         },
         {
-          "title": "Position",
-          "body": "Build architecture narrative."
+          "title": "Pick your lane",
+          "body": "SA leadership, PM, engineering? We help you decide and position for it."
         },
         {
-          "title": "Execute",
-          "body": "Interview + negotiation prep."
+          "title": "Tell the hybrid story",
+          "body": "Resume, LinkedIn, and interview prep that bridges technical and business."
         }
       ]
     },
     "for": {
-      "title": "This is for",
-      "body": "Architect and pre\u2011sales roles.",
+      "title": "This is for you if",
+      "body": "You've enabled real revenue and want real recognition.",
       "items": [
-        "Solutions architects",
-        "Cloud architects",
-        "Pre\u2011sales engineers"
+        "Your resume sounds like a product brochure",
+        "You can't quantify your deal influence",
+        "You want to move to SA leadership, PM, or engineering",
+        "You feel stuck between sales and engineering"
       ]
     },
     "notFor": {
-      "title": "Not a fit if",
-      "body": "You want generic advice.",
+      "title": "This probably isn't for you if",
+      "body": "We work with experienced SAs.",
       "items": [
-        "No role targeting",
-        "Entry\u2011level only"
+        "You're new to technical presales",
+        "You want sales training",
+        "You're looking for technical certifications"
       ]
     },
     "deliverables": {
-      "title": "What you get",
-      "subtitle": "Architecture\u2011specific positioning.",
+      "title": "What you actually get",
+      "subtitle": "SA-specific career support.",
       "items": [
         {
-          "title": "Architecture narrative",
-          "tag": "Core",
-          "body": "Story aligned to outcomes.",
+          "title": "Deal Attribution",
+          "tag": "Foundation",
+          "body": "Quantify your revenue influence.",
           "bullets": [
-            "Trade\u2011offs",
-            "Impact",
-            "Scope"
+            "Deal mapping",
+            "Win attribution",
+            "Technical contribution"
+          ]
+        },
+        {
+          "title": "Hybrid Positioning",
+          "tag": "Visibility",
+          "body": "Resume and LinkedIn that bridge technical and business.",
+          "bullets": [
+            "Technical credibility",
+            "Revenue influence",
+            "Leadership signals"
+          ]
+        },
+        {
+          "title": "Interview Prep",
+          "tag": "Execution",
+          "body": "Prep for hybrid role interviews.",
+          "bullets": [
+            "Architecture discussions",
+            "Deal stories",
+            "Negotiation strategy"
           ]
         }
       ]
     },
     "related": {
-      "title": "Pair with LinkedIn optimization",
-      "body": "Architecture roles need clarity on LinkedIn.",
-      "primaryLabel": "LinkedIn Optimization",
-      "primaryLink": "/linkedin-optimization/",
-      "secondaryLabel": "Interview Prep",
-      "secondaryLink": "/interview-prep/"
+      "title": "Ready to stop falling through the cracks?",
+      "body": "Let's talk about your SA career.",
+      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/"
     },
     "faq": {
-      "title": "Solutions architect FAQs",
-      "subtitle": "Quick answers.",
+      "title": "Questions SAs usually ask",
+      "subtitle": "Direct answers.",
       "items": [
         {
-          "question": "Do you cover pre\u2011sales?",
-          "answer": "Yes, including customer storytelling."
+          "question": "How do I quantify deal influence?",
+          "answer": "We look at deals won, technical objections overcome, and competitive displacement you enabled."
         },
         {
-          "question": "Can you help with system design interviews?",
-          "answer": "Yes."
+          "question": "Can I transition to PM or engineering?",
+          "answer": "Many SAs do. Your hybrid experience is actually an asset. We help you position it."
         },
         {
-          "question": "Is this for senior roles?",
-          "answer": "Yes, $130K\u2013$300K focus."
-        },
-        {
-          "question": "Do you help with negotiation?",
-          "answer": "Yes."
+          "question": "Is there an SA leadership path?",
+          "answer": "Yes. SA managers, directors, and CTOs come from SA backgrounds. We help you get there."
         }
       ]
     },
     "cta": {
-      "title": "Ready to elevate your architecture role?",
-      "body": "Book a call and map your path.",
-      "label": "Book a Call",
+      "title": "You made the deal work. Now make your career work.",
+      "body": "Book a call. Let's figure out your SA trajectory.",
+      "label": "Book Your Free Strategy Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Solutions Architect Coaching for System Design and Scale | Askia",
-    "metaDescription": "Solutions architect coaching centered on architecture trade\u2011offs, scale, and business impact."
+    "metaTitle": "Solutions Architect Career Coaching | Deal Attribution & Career Growth | Askia",
+    "metaDescription": "Career coaching for solutions architects. Quantify your deal influence and advance your technical career."
   },
-  "technicalProgramManager": {
-    "eyebrow": "Technical program manager coaching",
-    "h1": "Technical Program Manager Coaching for Delivery at Scale",
-    "subtitle": "Positioning and interview prep for TPM and program roles.",
-    "supporting": "We translate complex programs into leadership\u2011level impact.",
+  "tpm": {
+    "eyebrow": "For TPMs who run complex programs but can't explain what they do",
+    "h1": "You herded the cats. The cats got the credit.",
+    "subtitle": "Finally get recognized for the chaos you tamed.",
+    "supporting": "You've coordinated cross-functional programs, navigated org politics, and delivered massive initiatives on time. But 'program management' sounds vague to most people. They don't see the complexity you handled. Let's fix that.",
     "highlights": [
-      "Program impact",
-      "Stakeholder signal",
-      "Interview readiness"
+      "Frame program complexity as leadership",
+      "Quantify delivery impact and stakeholder influence",
+      "Prep for TPM interviews with confidence"
     ],
-    "ctaLabel": "Book a Call",
+    "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for TPMs, program managers, and ops leaders.",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
-    "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
-    "visual": {
-      "style": "signal",
-      "accent": "rgba(255, 214, 102, 0.6)",
-      "accent2": "rgba(114, 214, 255, 0.3)"
-    },
-    "heroCard": {
-      "title": "TPM signal",
-      "body": "Show cross\u2011org coordination and impact.",
-      "bullets": [
-        "Program outcomes",
-        "Stakeholder leadership",
-        "Execution signal"
-      ]
-    },
-    "proof": {
-      "title": "Outcomes for TPM roles",
-      "subtitle": "Make program impact obvious.",
-      "items": [
-        {
-          "title": "Coordination",
-          "body": "Show complex delivery."
-        },
-        {
-          "title": "Scope",
-          "body": "Demonstrate org\u2011wide influence."
-        },
-        {
-          "title": "Offer leverage",
-          "body": "Negotiation strategy included."
-        }
-      ]
-    },
-    "focus": {
-      "eyebrow": "Program impact",
-      "title": "Turn coordination into leadership",
-      "subtitle": "We frame program work as strategic impact.",
-      "items": [
-        {
-          "tag": "Impact",
-          "title": "Outcome narratives",
-          "body": "Tie programs to results."
-        },
-        {
-          "tag": "Scope",
-          "title": "Cross\u2011org signal",
-          "body": "Show influence and leadership."
-        },
-        {
-          "tag": "Execution",
-          "title": "Interview prep",
-          "body": "Behavioral + program stories."
-        }
-      ]
-    },
-    "steps": {
-      "title": "How TPM coaching works",
-      "subtitle": "Positioning \u2192 prep \u2192 offers.",
-      "items": [
-        {
-          "title": "Define",
-          "body": "Target role and level."
-        },
-        {
-          "title": "Position",
-          "body": "Build program narrative."
-        },
-        {
-          "title": "Execute",
-          "body": "Interview + negotiation prep."
-        }
-      ]
-    },
-    "for": {
-      "title": "This is for",
-      "body": "TPMs and program leaders.",
-      "items": [
-        "TPMs",
-        "Program managers",
-        "Ops leaders"
-      ]
-    },
-    "notFor": {
-      "title": "Not a fit if",
-      "body": "You want generic advice.",
-      "items": [
-        "No role targeting",
-        "Entry\u2011level only"
-      ]
-    },
-    "deliverables": {
-      "title": "What you get",
-      "subtitle": "TPM\u2011specific positioning.",
-      "items": [
-        {
-          "title": "Program narrative",
-          "tag": "Core",
-          "body": "Story aligned to impact.",
-          "bullets": [
-            "Outcome framing",
-            "Stakeholder signal",
-            "Scope clarity"
-          ]
-        }
-      ]
-    },
-    "related": {
-      "title": "Pair with resume writing",
-      "body": "TPM roles require clear scope in the resume.",
-      "primaryLabel": "Resume Writing",
-      "primaryLink": "/resume-writing/",
-      "secondaryLabel": "Interview Prep",
-      "secondaryLink": "/interview-prep/"
-    },
-    "faq": {
-      "title": "TPM coaching FAQs",
-      "subtitle": "Quick answers.",
-      "items": [
-        {
-          "question": "Do you cover non\u2011technical PM roles?",
-          "answer": "Yes, we tailor to scope."
-        },
-        {
-          "question": "Is this for senior roles?",
-          "answer": "Yes, $120K\u2013$250K focus."
-        },
-        {
-          "question": "Do you help with negotiation?",
-          "answer": "Yes."
-        },
-        {
-          "question": "Do you cover program case interviews?",
-          "answer": "Yes."
-        }
-      ]
-    },
-    "cta": {
-      "title": "Ready to elevate your TPM role?",
-      "body": "Book a call and map your path.",
-      "label": "Book a Call",
-      "link": "https://bookings.askia.tech/#/clarity"
-    },
-    "metaTitle": "Technical Program Manager Coaching for Delivery at Scale | Askia",
-    "metaDescription": "TPM coaching focused on program scope, delivery cadence, and stakeholder alignment."
-  },
-  "salesEngineer": {
-    "eyebrow": "Sales engineer coaching",
-    "h1": "Sales Engineer Coaching for Pre-Sales Impact",
-    "subtitle": "Positioning, interview prep, and offer strategy for technical sales.",
-    "supporting": "We align technical depth with revenue impact narratives.",
-    "highlights": [
-      "Technical + sales signal",
-      "Customer impact",
-      "Interview readiness"
-    ],
-    "ctaLabel": "Book a Call",
-    "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for sales engineers and solutions consultants.",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
-    "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
-    "visual": {
-      "style": "signal",
-      "accent": "rgba(103, 233, 173, 0.6)",
-      "accent2": "rgba(114, 214, 255, 0.25)"
-    },
-    "heroCard": {
-      "title": "Sales engineer signal",
-      "body": "Show technical depth + customer outcomes.",
-      "bullets": [
-        "Pre\u2011sales impact",
-        "Customer wins",
-        "Leadership signal"
-      ]
-    },
-    "proof": {
-      "title": "Outcomes for sales engineers",
-      "subtitle": "Make revenue impact visible.",
-      "items": [
-        {
-          "title": "Revenue impact",
-          "body": "Tie technical work to closed deals."
-        },
-        {
-          "title": "Scope signal",
-          "body": "Show strategic customer influence."
-        },
-        {
-          "title": "Offer leverage",
-          "body": "Negotiation planning included."
-        }
-      ]
-    },
-    "focus": {
-      "eyebrow": "Revenue signal",
-      "title": "Bridge tech + sales",
-      "subtitle": "We craft a story that sells your impact.",
-      "items": [
-        {
-          "tag": "Impact",
-          "title": "Deal wins",
-          "body": "Frame your role in revenue outcomes."
-        },
-        {
-          "tag": "Scope",
-          "title": "Customer influence",
-          "body": "Show cross\u2011functional leadership."
-        },
-        {
-          "tag": "Execution",
-          "title": "Interview prep",
-          "body": "Demo + storytelling practice."
-        }
-      ]
-    },
-    "steps": {
-      "title": "How sales engineer coaching works",
-      "subtitle": "Positioning \u2192 prep \u2192 offers.",
-      "items": [
-        {
-          "title": "Define",
-          "body": "Target role and comp band."
-        },
-        {
-          "title": "Position",
-          "body": "Build revenue narrative."
-        },
-        {
-          "title": "Execute",
-          "body": "Interview + negotiation prep."
-        }
-      ]
-    },
-    "for": {
-      "title": "This is for",
-      "body": "Sales engineers and solutions consultants.",
-      "items": [
-        "Sales engineers",
-        "Solutions consultants",
-        "Technical pre\u2011sales"
-      ]
-    },
-    "notFor": {
-      "title": "Not a fit if",
-      "body": "You want generic sales advice.",
-      "items": [
-        "No role targeting",
-        "Entry\u2011level only"
-      ]
-    },
-    "deliverables": {
-      "title": "What you get",
-      "subtitle": "Sales\u2011engineer positioning.",
-      "items": [
-        {
-          "title": "Revenue narrative",
-          "tag": "Core",
-          "body": "Story aligned to outcomes.",
-          "bullets": [
-            "Deal impact",
-            "Customer wins",
-            "Scope clarity"
-          ]
-        }
-      ]
-    },
-    "related": {
-      "title": "Pair with LinkedIn optimization",
-      "body": "Pre\u2011sales roles need strong signal on LinkedIn.",
-      "primaryLabel": "LinkedIn Optimization",
-      "primaryLink": "/linkedin-optimization/",
-      "secondaryLabel": "Interview Prep",
-      "secondaryLink": "/interview-prep/"
-    },
-    "faq": {
-      "title": "Sales engineer FAQs",
-      "subtitle": "Quick answers.",
-      "items": [
-        {
-          "question": "Do you cover demo interviews?",
-          "answer": "Yes, we prep for demos and storytelling."
-        },
-        {
-          "question": "Is this for senior roles?",
-          "answer": "Yes, $120K\u2013$300K focus."
-        },
-        {
-          "question": "Do you help with negotiation?",
-          "answer": "Yes."
-        },
-        {
-          "question": "Can this be bundled?",
-          "answer": "Yes, with resume or coaching."
-        }
-      ]
-    },
-    "cta": {
-      "title": "Ready to elevate your sales engineer role?",
-      "body": "Book a call and map your path.",
-      "label": "Book a Call",
-      "link": "https://bookings.askia.tech/#/clarity"
-    },
-    "metaTitle": "Sales Engineer Coaching for Pre\u2011Sales Impact | Askia",
-    "metaDescription": "Sales engineer coaching focused on demo narrative, technical depth, and deal influence."
-  },
-  "customerSuccess": {
-    "eyebrow": "Customer success coaching",
-    "h1": "Customer Success Coaching for Retention and Growth",
-    "subtitle": "Positioning and interview prep for CS and client success roles.",
-    "supporting": "We translate retention and expansion impact into leadership signal.",
-    "highlights": [
-      "Retention impact",
-      "Account growth",
-      "Interview readiness"
-    ],
-    "ctaLabel": "Book a Call",
-    "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for CSMs, CS leaders, and account managers.",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
-    "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
-    "visual": {
-      "style": "signal",
-      "accent": "rgba(87, 207, 196, 0.75)",
-      "accent2": "rgba(114, 214, 255, 0.3)"
-    },
-    "heroCard": {
-      "title": "Customer success signal",
-      "body": "Show retention, expansion, and customer impact.",
-      "bullets": [
-        "Retention wins",
-        "Expansion impact",
-        "Leadership scope"
-      ]
-    },
-    "proof": {
-      "title": "Outcomes for CS roles",
-      "subtitle": "Make customer impact visible.",
-      "items": [
-        {
-          "title": "Retention impact",
-          "body": "Show revenue protection and growth."
-        },
-        {
-          "title": "Scope signal",
-          "body": "Demonstrate leadership across accounts."
-        },
-        {
-          "title": "Offer leverage",
-          "body": "Negotiation planning included."
-        }
-      ]
-    },
-    "focus": {
-      "eyebrow": "Customer impact",
-      "title": "Turn account work into leadership signal",
-      "subtitle": "We frame your results with clarity.",
-      "items": [
-        {
-          "tag": "Impact",
-          "title": "Retention + expansion",
-          "body": "Quantify customer outcomes."
-        },
-        {
-          "tag": "Scope",
-          "title": "Portfolio signal",
-          "body": "Show account complexity."
-        },
-        {
-          "tag": "Execution",
-          "title": "Interview prep",
-          "body": "Case and behavioral prep."
-        }
-      ]
-    },
-    "steps": {
-      "title": "How CS coaching works",
-      "subtitle": "Positioning \u2192 prep \u2192 offers.",
-      "items": [
-        {
-          "title": "Define",
-          "body": "Target role and level."
-        },
-        {
-          "title": "Position",
-          "body": "Build CS narrative."
-        },
-        {
-          "title": "Execute",
-          "body": "Interview + negotiation prep."
-        }
-      ]
-    },
-    "for": {
-      "title": "This is for",
-      "body": "Customer success professionals.",
-      "items": [
-        "CSMs",
-        "CS leaders",
-        "Account managers"
-      ]
-    },
-    "notFor": {
-      "title": "Not a fit if",
-      "body": "You want generic career advice.",
-      "items": [
-        "No role targeting",
-        "Entry\u2011level only"
-      ]
-    },
-    "deliverables": {
-      "title": "What you get",
-      "subtitle": "CS\u2011specific positioning.",
-      "items": [
-        {
-          "title": "CS narrative",
-          "tag": "Core",
-          "body": "Story aligned to customer impact.",
-          "bullets": [
-            "Retention wins",
-            "Expansion outcomes",
-            "Scope clarity"
-          ]
-        }
-      ]
-    },
-    "related": {
-      "title": "Pair with LinkedIn optimization",
-      "body": "CS roles require strong narrative.",
-      "primaryLabel": "LinkedIn Optimization",
-      "primaryLink": "/linkedin-optimization/",
-      "secondaryLabel": "Interview Prep",
-      "secondaryLink": "/interview-prep/"
-    },
-    "faq": {
-      "title": "Customer success FAQs",
-      "subtitle": "Quick answers.",
-      "items": [
-        {
-          "question": "Do you cover account management?",
-          "answer": "Yes."
-        },
-        {
-          "question": "Is this for leadership roles?",
-          "answer": "Yes."
-        },
-        {
-          "question": "Do you help with negotiation?",
-          "answer": "Yes."
-        },
-        {
-          "question": "Can this be bundled?",
-          "answer": "Yes."
-        }
-      ]
-    },
-    "cta": {
-      "title": "Ready to elevate your CS role?",
-      "body": "Book a call and map your path.",
-      "label": "Book a Call",
-      "link": "https://bookings.askia.tech/#/clarity"
-    },
-    "metaTitle": "Customer Success Coaching for Retention and Growth | Askia",
-    "metaDescription": "Customer success coaching focused on retention, expansion, and customer health signal."
-  },
-  "productOps": {
-    "eyebrow": "Product operations coaching",
-    "h1": "Product Operations Coaching for Enablement",
-    "subtitle": "Positioning and interview prep for product ops roles.",
-    "supporting": "We frame operational impact into leadership\u2011level signal.",
-    "highlights": [
-      "Process impact",
-      "Cross\u2011org signal",
-      "Interview readiness"
-    ],
-    "ctaLabel": "Book a Call",
-    "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for product ops and operations roles.",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
+    "ctaProof": "For Technical Program Managers and Program leads.",
+    "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
       "style": "blueprint",
-      "accent": "rgba(114, 214, 255, 0.7)",
-      "accent2": "rgba(114, 214, 255, 0.25)"
+      "accent": "rgba(114, 214, 255, 0.65)",
+      "accent2": "rgba(87, 207, 196, 0.3)"
     },
     "heroCard": {
-      "title": "Ops signal upgrade",
-      "body": "Show operational impact and cross\u2011team influence.",
+      "title": "What changes",
+      "body": "Make complexity visible.",
       "bullets": [
-        "Process wins",
-        "Stakeholder impact",
-        "Leadership signal"
+        "Program scope as leadership proof",
+        "Stakeholder navigation stories",
+        "Delivery impact quantification"
       ]
     },
     "proof": {
-      "title": "Outcomes for product ops",
-      "subtitle": "Make process impact visible.",
+      "title": "TPMs have landed senior and principal roles with significant comp increases",
+      "subtitle": "Here's what clicked:",
       "items": [
         {
-          "title": "Process impact",
-          "body": "Tie ops work to outcomes."
+          "title": "Complexity is your proof",
+          "body": "The more chaotic the program, the more impressive your delivery. We help you articulate it."
         },
         {
-          "title": "Scope signal",
-          "body": "Show cross\u2011team influence."
+          "title": "Influence is leadership",
+          "body": "You got people to work together without authority. That's a rare skill."
         },
         {
-          "title": "Offer leverage",
-          "body": "Negotiation planning included."
+          "title": "Technical credibility matters",
+          "body": "You're not just a scheduler. We help you show technical judgment."
         }
       ]
     },
     "focus": {
-      "eyebrow": "Operational impact",
-      "title": "Turn process into strategy",
-      "subtitle": "We position ops as a growth lever.",
+      "eyebrow": "The problem",
+      "title": "Everyone knows what engineers and PMs do. TPMs? Not so much.",
+      "subtitle": "Let's make your work undeniable.",
       "items": [
         {
-          "tag": "Impact",
-          "title": "Efficiency wins",
-          "body": "Show time saved and outcomes."
+          "tag": "The Gap",
+          "title": "Your work is invisible infrastructure",
+          "body": "'Managed cross-functional program' doesn't convey the 50-person coordination you did."
         },
         {
-          "tag": "Scope",
-          "title": "Cross\u2011org influence",
-          "body": "Demonstrate leadership signal."
+          "tag": "The Struggle",
+          "title": "TPM interviews are vague",
+          "body": "Different companies want different things. It's hard to know what to prep."
         },
         {
-          "tag": "Execution",
-          "title": "Interview prep",
-          "body": "Case and stakeholder prep."
+          "tag": "The Doubt",
+          "title": "Is TPM a real engineering role?",
+          "body": "You sometimes feel like a glorified project manager. (You're not. We'll prove it.)"
         }
       ]
     },
     "steps": {
-      "title": "How product ops coaching works",
-      "subtitle": "Positioning \u2192 prep \u2192 offers.",
+      "title": "How we get you there",
+      "subtitle": "From program manager to recognized leader.",
       "items": [
         {
-          "title": "Define",
-          "body": "Target role and level."
+          "title": "Quantify complexity",
+          "body": "We measure the scope, risk, and impact of programs you delivered."
         },
         {
-          "title": "Position",
-          "body": "Build ops narrative."
+          "title": "Build your leadership story",
+          "body": "Resume and LinkedIn rebuilt around influence and delivery."
         },
         {
-          "title": "Execute",
-          "body": "Interview + negotiation prep."
+          "title": "Nail the interviews",
+          "body": "TPM-specific prep for stakeholder, execution, and technical judgment questions."
         }
       ]
     },
     "for": {
-      "title": "This is for",
-      "body": "Ops and enablement professionals.",
+      "title": "This is for you if",
+      "body": "You've delivered complex programs and want recognition.",
       "items": [
-        "Product ops",
-        "Program ops",
-        "Enablement roles"
+        "Your resume sounds like a task list",
+        "You can't articulate program complexity",
+        "You're ready for Senior or Principal TPM",
+        "You want to transition to EM or PM"
       ]
     },
     "notFor": {
-      "title": "Not a fit if",
-      "body": "You want generic advice.",
+      "title": "This probably isn't for you if",
+      "body": "We work with experienced TPMs.",
       "items": [
-        "No role targeting",
-        "Entry\u2011level only"
+        "You're new to technical program management",
+        "You want project management training",
+        "You're looking for Agile certifications"
       ]
     },
     "deliverables": {
-      "title": "What you get",
-      "subtitle": "Ops\u2011specific positioning.",
+      "title": "What you actually get",
+      "subtitle": "TPM-specific career support.",
       "items": [
         {
-          "title": "Ops narrative",
-          "tag": "Core",
-          "body": "Story aligned to process impact.",
+          "title": "Complexity Mapping",
+          "tag": "Foundation",
+          "body": "Quantify the programs you've delivered.",
           "bullets": [
-            "Process outcomes",
-            "Scope clarity",
-            "Leadership signal"
+            "Scope measurement",
+            "Risk articulation",
+            "Impact attribution"
+          ]
+        },
+        {
+          "title": "Leadership Story",
+          "tag": "Visibility",
+          "body": "Resume and LinkedIn that show leadership without direct reports.",
+          "bullets": [
+            "Influence proof",
+            "Technical judgment",
+            "Delivery outcomes"
+          ]
+        },
+        {
+          "title": "Interview Prep",
+          "tag": "Execution",
+          "body": "TPM interview readiness.",
+          "bullets": [
+            "Stakeholder scenarios",
+            "Execution stories",
+            "Negotiation strategy"
           ]
         }
       ]
     },
     "related": {
-      "title": "Pair with resume writing",
-      "body": "Ops roles require clear impact in the resume.",
-      "primaryLabel": "Resume Writing",
-      "primaryLink": "/resume-writing/",
-      "secondaryLabel": "Interview Prep",
-      "secondaryLink": "/interview-prep/"
+      "title": "Ready to be recognized?",
+      "body": "Let's talk about the programs you've delivered.",
+      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/"
     },
     "faq": {
-      "title": "Product ops FAQs",
-      "subtitle": "Quick answers.",
+      "title": "Questions TPMs usually ask",
+      "subtitle": "Straight talk.",
       "items": [
         {
-          "question": "Is this for non\u2011product ops?",
-          "answer": "Yes, for adjacent ops roles too."
+          "question": "How do I explain what a TPM does?",
+          "answer": "We help you articulate it: you make complex technical initiatives actually ship. That's valuable."
         },
         {
-          "question": "Do you help with negotiation?",
-          "answer": "Yes."
+          "question": "Can I transition to EM or PM?",
+          "answer": "Yes. Your program experience transfers. We help you position it."
         },
         {
-          "question": "Is this for senior roles?",
-          "answer": "Yes."
-        },
-        {
-          "question": "Can this be bundled?",
-          "answer": "Yes."
+          "question": "What makes TPM interviews different?",
+          "answer": "They vary a lot by company. We prep you for the most common patterns and help you adapt."
         }
       ]
     },
     "cta": {
-      "title": "Ready to elevate your ops role?",
-      "body": "Book a call and map your path.",
-      "label": "Book a Call",
+      "title": "You made it ship. Let's make sure people know.",
+      "body": "Book a call. Let's talk about your TPM career.",
+      "label": "Book Your Free Strategy Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Product Operations Coaching for Enablement | Askia",
-    "metaDescription": "Product ops coaching focused on process clarity, enablement, and cross\u2011functional leverage."
+    "metaTitle": "TPM Career Coaching | Technical Program Manager Interview Prep | Askia",
+    "metaDescription": "Career coaching for technical program managers. Articulate program complexity and land senior TPM roles."
   },
-  "projectProgramManagement": {
-    "eyebrow": "Project & program management coaching",
-    "h1": "Program & Project Management Coaching for Cross-Org Delivery",
-    "subtitle": "Positioning and interview prep for project and program roles.",
-    "supporting": "We translate delivery leadership into executive\u2011ready signal.",
+  "salesEngineer": {
+    "eyebrow": "For sales engineers caught between quotas and code",
+    "h1": "You're the reason the deal closed. Sales got the commission.",
+    "subtitle": "Time for your career to match your contribution.",
+    "supporting": "You've demoed, architected, and handled every tough technical question. You've been the difference between won and lost. But SE careers feel stuck — not enough credit from sales, not technical enough for engineering. Let's change that.",
     "highlights": [
-      "Delivery impact",
-      "Stakeholder signal",
-      "Interview readiness"
+      "Attribute your revenue influence",
+      "Position for SE leadership or engineering transitions",
+      "Interview prep for hybrid roles"
     ],
-    "ctaLabel": "Book a Call",
+    "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for PMs, PgMs, and delivery leaders.",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
+    "ctaProof": "For Sales Engineers, Pre-Sales Consultants, and Technical Sales.",
+    "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
       "style": "signal",
-      "accent": "rgba(255, 214, 102, 0.6)",
+      "accent": "rgba(87, 207, 196, 0.65)",
       "accent2": "rgba(114, 214, 255, 0.25)"
     },
     "heroCard": {
-      "title": "Delivery signal",
-      "body": "Show execution leadership and program outcomes.",
+      "title": "What changes",
+      "body": "Own your deal influence.",
       "bullets": [
-        "Delivery wins",
-        "Risk management",
-        "Leadership signal"
+        "Revenue attribution",
+        "Technical credibility proof",
+        "Career path clarity"
       ]
     },
     "proof": {
-      "title": "Outcomes for project/program roles",
-      "subtitle": "Make delivery impact clear.",
+      "title": "SEs have moved to leadership, PM, and senior engineering with major comp increases",
+      "subtitle": "Here's what worked:",
       "items": [
         {
-          "title": "Delivery impact",
-          "body": "Tie projects to outcomes."
+          "title": "You influenced revenue",
+          "body": "The deals you touched closed. We help you quantify it."
         },
         {
-          "title": "Scope signal",
-          "body": "Demonstrate cross\u2011org influence."
+          "title": "Technical depth counts",
+          "body": "Demos and POCs are engineering. We help you frame it that way."
         },
         {
-          "title": "Offer leverage",
-          "body": "Negotiation strategy included."
+          "title": "Hybrid is an advantage",
+          "body": "Few people can do technical AND sales. We make it your edge."
         }
       ]
     },
     "focus": {
-      "eyebrow": "Delivery impact",
-      "title": "Turn delivery into leadership signal",
-      "subtitle": "We frame program leadership clearly.",
+      "eyebrow": "The problem",
+      "title": "Sales engineers are stuck in the middle",
+      "subtitle": "Sales thinks you're support. Engineering thinks you're sales. Neither is true.",
       "items": [
         {
-          "tag": "Impact",
-          "title": "Outcome narratives",
-          "body": "Show results and risk mitigation."
+          "tag": "The Gap",
+          "title": "Credit goes to sales",
+          "body": "You made the deal technically possible. They got the commission."
         },
         {
-          "tag": "Scope",
-          "title": "Stakeholder influence",
-          "body": "Demonstrate leadership across teams."
+          "tag": "The Struggle",
+          "title": "Career path is unclear",
+          "body": "SE manager? Engineering? PM? Sales leadership? The options are confusing."
         },
         {
-          "tag": "Execution",
-          "title": "Interview prep",
-          "body": "Behavioral + case prep."
+          "tag": "The Doubt",
+          "title": "Is this even technical?",
+          "body": "You wonder if SE 'counts' as engineering experience. (It does.)"
         }
       ]
     },
     "steps": {
-      "title": "How PM/PgM coaching works",
-      "subtitle": "Positioning \u2192 prep \u2192 offers.",
+      "title": "How we get you there",
+      "subtitle": "From technical sales to technical leadership.",
       "items": [
         {
-          "title": "Define",
-          "body": "Target role and level."
+          "title": "Claim your wins",
+          "body": "We quantify deals influenced, competitive wins, and technical contributions."
         },
         {
-          "title": "Position",
-          "body": "Build delivery narrative."
+          "title": "Choose your path",
+          "body": "SE leadership, engineering, PM, or sales leadership? We help you decide."
         },
         {
-          "title": "Execute",
-          "body": "Interview + negotiation prep."
+          "title": "Tell the story",
+          "body": "Resume, LinkedIn, and interview prep for hybrid success."
         }
       ]
     },
     "for": {
-      "title": "This is for",
-      "body": "Project and program managers.",
+      "title": "This is for you if",
+      "body": "You've enabled real revenue and want a real career path.",
       "items": [
-        "Project managers",
-        "Program managers",
-        "Delivery leaders"
+        "Your resume sounds like a product pitch",
+        "You can't quantify your deal influence",
+        "You're unclear on career direction",
+        "You want SE leadership or want to transition out"
       ]
     },
     "notFor": {
-      "title": "Not a fit if",
-      "body": "You want generic advice.",
+      "title": "This probably isn't for you if",
+      "body": "We work with experienced SEs.",
       "items": [
-        "No role targeting",
-        "Entry\u2011level only"
+        "You're new to sales engineering",
+        "You want sales methodology training",
+        "You're looking for demo coaching"
       ]
     },
     "deliverables": {
-      "title": "What you get",
-      "subtitle": "Delivery\u2011specific positioning.",
+      "title": "What you actually get",
+      "subtitle": "SE-specific career support.",
       "items": [
         {
-          "title": "Delivery narrative",
-          "tag": "Core",
-          "body": "Story aligned to outcomes.",
+          "title": "Revenue Attribution",
+          "tag": "Foundation",
+          "body": "Quantify your deal influence.",
           "bullets": [
-            "Risk mitigation",
-            "Stakeholder signal",
-            "Outcome framing"
+            "Win attribution",
+            "Technical contribution",
+            "Competitive impact"
+          ]
+        },
+        {
+          "title": "Hybrid Positioning",
+          "tag": "Visibility",
+          "body": "Resume and LinkedIn for technical + revenue roles.",
+          "bullets": [
+            "Technical credibility",
+            "Revenue influence",
+            "Career direction"
+          ]
+        },
+        {
+          "title": "Interview Prep",
+          "tag": "Execution",
+          "body": "Hybrid role interview readiness.",
+          "bullets": [
+            "Technical scenarios",
+            "Deal stories",
+            "Negotiation strategy"
           ]
         }
       ]
     },
     "related": {
-      "title": "Pair with resume writing",
-      "body": "Project roles require clear delivery signal.",
-      "primaryLabel": "Resume Writing",
-      "primaryLink": "/resume-writing/",
-      "secondaryLabel": "Interview Prep",
-      "secondaryLink": "/interview-prep/"
+      "title": "Ready for career clarity?",
+      "body": "Let's talk about where SE takes you next.",
+      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/"
     },
     "faq": {
-      "title": "Project/program FAQs",
-      "subtitle": "Quick answers.",
+      "title": "Questions SEs usually ask",
+      "subtitle": "Real talk.",
       "items": [
         {
-          "question": "Do you cover non\u2011technical PM roles?",
-          "answer": "Yes."
+          "question": "How do I quantify my deal influence?",
+          "answer": "We look at win rates, competitive displacement, and deals where your POC was decisive."
         },
         {
-          "question": "Is this for senior roles?",
-          "answer": "Yes."
+          "question": "Can SE experience count toward engineering roles?",
+          "answer": "Yes. POCs, demos, and technical solutions are engineering work. We help you frame it."
         },
         {
-          "question": "Do you help with negotiation?",
-          "answer": "Yes."
-        },
-        {
-          "question": "Can this be bundled?",
-          "answer": "Yes."
+          "question": "What's the SE career path?",
+          "answer": "SE leadership, solution architecture, PM, engineering, or sales leadership. We help you pick."
         }
       ]
     },
     "cta": {
-      "title": "Ready to elevate your program role?",
-      "body": "Book a call and map your path.",
-      "label": "Book a Call",
+      "title": "You made the deal work. Time for your career to work.",
+      "body": "Book a call. Let's figure out your SE trajectory.",
+      "label": "Book Your Free Strategy Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Program & Project Management Coaching for Cross\u2011Org Delivery | Askia",
-    "metaDescription": "Program and project management coaching focused on delivery cadence, risk management, and executive communication."
+    "metaTitle": "Sales Engineer Career Coaching | Revenue Attribution & Career Growth | Askia",
+    "metaDescription": "Career coaching for sales engineers. Quantify your deal influence and find your career path."
+  },
+  "customerSuccess": {
+    "eyebrow": "For customer success professionals who keep clients but lose recognition",
+    "h1": "You saved the account. Renewals went up. Nobody noticed.",
+    "subtitle": "Turn retention into recognition.",
+    "supporting": "You've prevented churn, expanded accounts, and turned angry customers into advocates. But 'managed customer relationships' doesn't capture the revenue you saved. CS is often seen as support when it's really revenue protection. Let's change that perception — starting with your own career materials.",
+    "highlights": [
+      "Quantify retention revenue and expansion influence",
+      "Position for CS leadership or transitions to Sales/PM",
+      "Interview prep for customer-facing leadership roles"
+    ],
+    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "For CSMs, Account Managers, and Customer Success Leaders.",
+    "secondaryCtaLabel": "Take the Career Assessment",
+    "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(114, 214, 255, 0.6)",
+      "accent2": "rgba(87, 207, 196, 0.25)"
+    },
+    "heroCard": {
+      "title": "What changes",
+      "body": "Show retention as revenue.",
+      "bullets": [
+        "Churn prevention = saved revenue",
+        "Expansion influence attribution",
+        "Strategic account thinking"
+      ]
+    },
+    "proof": {
+      "title": "CS pros have moved to leadership, sales, and PM with major comp increases",
+      "subtitle": "Here's what shifted:",
+      "items": [
+        {
+          "title": "Retention has a dollar value",
+          "body": "Every saved account is revenue. We help you calculate and articulate it."
+        },
+        {
+          "title": "Expansion is sales",
+          "body": "Upsells and cross-sells from your accounts? That's revenue you influenced."
+        },
+        {
+          "title": "Customer insight is strategy",
+          "body": "You know what customers actually want. That's valuable beyond CS."
+        }
+      ]
+    },
+    "focus": {
+      "eyebrow": "The problem",
+      "title": "Customer success is revenue. But it doesn't feel that way.",
+      "subtitle": "Let's change the narrative.",
+      "items": [
+        {
+          "tag": "The Gap",
+          "title": "Retention is invisible",
+          "body": "'Maintained customer relationships' doesn't show the $2M account you saved."
+        },
+        {
+          "tag": "The Struggle",
+          "title": "CS feels like support",
+          "body": "You're not support. You're revenue protection. But the title doesn't help."
+        },
+        {
+          "tag": "The Doubt",
+          "title": "Is there a career path?",
+          "body": "You wonder if CS leads anywhere or if you need to switch functions entirely."
+        }
+      ]
+    },
+    "steps": {
+      "title": "How we get you there",
+      "subtitle": "From relationship manager to revenue leader.",
+      "items": [
+        {
+          "title": "Quantify your impact",
+          "body": "We calculate retained revenue, expansion influence, and advocacy wins."
+        },
+        {
+          "title": "Choose your path",
+          "body": "CS leadership, sales, PM? We help you position for what you want."
+        },
+        {
+          "title": "Tell the story",
+          "body": "Resume, LinkedIn, and interview prep that shows strategic thinking."
+        }
+      ]
+    },
+    "for": {
+      "title": "This is for you if",
+      "body": "You've protected revenue and want career protection.",
+      "items": [
+        "Your resume sounds like a help desk",
+        "You can't quantify your retention impact",
+        "You want CS leadership or to transition out",
+        "You feel undervalued relative to sales"
+      ]
+    },
+    "notFor": {
+      "title": "This probably isn't for you if",
+      "body": "We work with experienced CS pros.",
+      "items": [
+        "You're new to customer success",
+        "You want customer service training",
+        "You're looking for CS certifications"
+      ]
+    },
+    "deliverables": {
+      "title": "What you actually get",
+      "subtitle": "CS-specific career support.",
+      "items": [
+        {
+          "title": "Revenue Attribution",
+          "tag": "Foundation",
+          "body": "Quantify your retention and expansion impact.",
+          "bullets": [
+            "Retention calculation",
+            "Expansion attribution",
+            "Advocacy wins"
+          ]
+        },
+        {
+          "title": "Strategic Positioning",
+          "tag": "Visibility",
+          "body": "Resume and LinkedIn that show revenue thinking.",
+          "bullets": [
+            "Revenue language",
+            "Strategic framing",
+            "Leadership signals"
+          ]
+        },
+        {
+          "title": "Interview Prep",
+          "tag": "Execution",
+          "body": "CS leadership and transition interview readiness.",
+          "bullets": [
+            "Revenue stories",
+            "Strategic scenarios",
+            "Negotiation strategy"
+          ]
+        }
+      ]
+    },
+    "related": {
+      "title": "Ready to get recognized?",
+      "body": "Let's talk about the revenue you've protected.",
+      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/"
+    },
+    "faq": {
+      "title": "Questions CS pros usually ask",
+      "subtitle": "Direct answers.",
+      "items": [
+        {
+          "question": "How do I quantify retention impact?",
+          "answer": "We calculate ARR saved, accounts rescued, and churn prevented with dollar values."
+        },
+        {
+          "question": "Can I transition to sales or PM?",
+          "answer": "Yes. Your customer knowledge is an asset. We help you position it."
+        },
+        {
+          "question": "Is there a CS leadership path?",
+          "answer": "Absolutely. VP of CS, CCO — these roles are growing. We help you get there."
+        }
+      ]
+    },
+    "cta": {
+      "title": "You saved the revenue. Now save your career.",
+      "body": "Book a call. Let's quantify your CS impact.",
+      "label": "Book Your Free Strategy Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "Customer Success Career Coaching | Retention Revenue & Career Growth | Askia",
+    "metaDescription": "Career coaching for customer success professionals. Quantify retention impact and advance your career."
+  },
+  "productOps": {
+    "eyebrow": "For product ops professionals who enable everything but get credit for nothing",
+    "h1": "You made product actually work. Nobody knows.",
+    "subtitle": "Turn operational excellence into career advancement.",
+    "supporting": "You've built the processes, tracked the metrics, and kept everything running smoothly. But 'product operations' is so behind-the-scenes that even you sometimes struggle to explain what you do. The work is essential. The visibility is not. Let's fix that.",
+    "highlights": [
+      "Quantify operational impact and productivity gains",
+      "Position for Product Ops leadership or PM transitions",
+      "Interview prep for ops roles"
+    ],
+    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "For Product Operations, BizOps, and Ops leads.",
+    "secondaryCtaLabel": "Take the Career Assessment",
+    "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(87, 207, 196, 0.6)",
+      "accent2": "rgba(114, 214, 255, 0.3)"
+    },
+    "heroCard": {
+      "title": "What changes",
+      "body": "Make operational impact visible.",
+      "bullets": [
+        "Productivity multiplier metrics",
+        "Process improvement outcomes",
+        "Strategic ops thinking"
+      ]
+    },
+    "proof": {
+      "title": "Ops pros have moved to leadership and PM roles with significant comp increases",
+      "subtitle": "Here's what clicked:",
+      "items": [
+        {
+          "title": "Ops has a productivity multiplier",
+          "body": "You made the team faster. We help you quantify how much."
+        },
+        {
+          "title": "Process is strategy",
+          "body": "Good processes don't happen by accident. You designed them."
+        },
+        {
+          "title": "Ops sees everything",
+          "body": "You have cross-functional visibility that PMs and leaders need. That's valuable."
+        }
+      ]
+    },
+    "focus": {
+      "eyebrow": "The problem",
+      "title": "Product ops is essential infrastructure. And infrastructure is invisible.",
+      "subtitle": "Let's change that.",
+      "items": [
+        {
+          "tag": "The Gap",
+          "title": "Your work is the plumbing",
+          "body": "'Managed product operations' doesn't show that you made the team 30% more productive."
+        },
+        {
+          "tag": "The Struggle",
+          "title": "Ops isn't well understood",
+          "body": "Different companies define it differently. Explaining your role is exhausting."
+        },
+        {
+          "tag": "The Doubt",
+          "title": "Is this a career?",
+          "body": "You wonder if Ops leads anywhere or if you need to switch to 'real' product work."
+        }
+      ]
+    },
+    "steps": {
+      "title": "How we get you there",
+      "subtitle": "From behind-the-scenes to leadership.",
+      "items": [
+        {
+          "title": "Quantify your impact",
+          "body": "We measure productivity gains, process improvements, and operational wins."
+        },
+        {
+          "title": "Define your path",
+          "body": "Ops leadership, PM, or something else? We help you decide and position."
+        },
+        {
+          "title": "Tell the story",
+          "body": "Resume, LinkedIn, and interview prep that shows strategic ops thinking."
+        }
+      ]
+    },
+    "for": {
+      "title": "This is for you if",
+      "body": "You've enabled operational excellence and want recognition.",
+      "items": [
+        "Your resume sounds like a tool list",
+        "You can't articulate your operational impact",
+        "You want Ops leadership or PM transition",
+        "You feel invisible despite doing essential work"
+      ]
+    },
+    "notFor": {
+      "title": "This probably isn't for you if",
+      "body": "We work with experienced ops professionals.",
+      "items": [
+        "You're new to product operations",
+        "You want operations process training",
+        "You're looking for tool certifications"
+      ]
+    },
+    "deliverables": {
+      "title": "What you actually get",
+      "subtitle": "Ops-specific career support.",
+      "items": [
+        {
+          "title": "Impact Mapping",
+          "tag": "Foundation",
+          "body": "Quantify your operational contributions.",
+          "bullets": [
+            "Productivity metrics",
+            "Process outcomes",
+            "Strategic influence"
+          ]
+        },
+        {
+          "title": "Strategic Positioning",
+          "tag": "Visibility",
+          "body": "Resume and LinkedIn that show strategic ops thinking.",
+          "bullets": [
+            "Systems thinking",
+            "Process design",
+            "Leadership signals"
+          ]
+        },
+        {
+          "title": "Interview Prep",
+          "tag": "Execution",
+          "body": "Ops interview readiness.",
+          "bullets": [
+            "Process scenarios",
+            "Cross-functional stories",
+            "Negotiation strategy"
+          ]
+        }
+      ]
+    },
+    "related": {
+      "title": "Ready to be visible?",
+      "body": "Let's talk about the operations you've built.",
+      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/"
+    },
+    "faq": {
+      "title": "Questions ops pros usually ask",
+      "subtitle": "Straight answers.",
+      "items": [
+        {
+          "question": "How do I quantify ops impact?",
+          "answer": "We look at team velocity improvements, process efficiency gains, and time saved."
+        },
+        {
+          "question": "Can I transition to PM?",
+          "answer": "Yes. Your cross-functional view is an asset. We help you position it."
+        },
+        {
+          "question": "What's the ops career path?",
+          "answer": "Head of Product Ops, Chief of Staff, COO-track — these roles exist and grow. We help you get there."
+        }
+      ]
+    },
+    "cta": {
+      "title": "You made it work. Time for recognition.",
+      "body": "Book a call. Let's talk about your ops career.",
+      "label": "Book Your Free Strategy Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "Product Operations Career Coaching | Strategic Ops & Career Growth | Askia",
+    "metaDescription": "Career coaching for product operations professionals. Quantify ops impact and advance your career."
+  },
+  "projectProgram": {
+    "eyebrow": "For project managers who deliver on time but don't get promoted",
+    "h1": "You shipped the project. Someone else got the title.",
+    "subtitle": "Turn delivery into career advancement.",
+    "supporting": "You've managed timelines, budgets, and stakeholders. You've delivered projects that others couldn't. But project management often feels like a stepping stone, not a destination. Whether you want to advance in PM or transition elsewhere, we help you show the leadership you've already demonstrated.",
+    "highlights": [
+      "Frame project delivery as leadership",
+      "Position for PM leadership or function transitions",
+      "Interview prep for delivery-focused roles"
+    ],
+    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "For Project Managers, Program Managers, and Delivery leads.",
+    "secondaryCtaLabel": "Take the Career Assessment",
+    "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
+    "visual": {
+      "style": "blueprint",
+      "accent": "rgba(114, 214, 255, 0.6)",
+      "accent2": "rgba(87, 207, 196, 0.25)"
+    },
+    "heroCard": {
+      "title": "What changes",
+      "body": "Delivery = Leadership. Let's prove it.",
+      "bullets": [
+        "Project complexity as leadership proof",
+        "Stakeholder navigation stories",
+        "Budget and timeline outcomes"
+      ]
+    },
+    "proof": {
+      "title": "PMs have moved to senior roles, PMO leadership, and function transitions",
+      "subtitle": "Here's what made the difference:",
+      "items": [
+        {
+          "title": "Delivery is leadership",
+          "body": "Making a project happen despite obstacles is exactly what leaders do."
+        },
+        {
+          "title": "Stakeholder work is influence",
+          "body": "Managing up, down, and across without authority? That's rare."
+        },
+        {
+          "title": "Scope is measurable",
+          "body": "Budget, timeline, team size — these are quantifiable leadership indicators."
+        }
+      ]
+    },
+    "focus": {
+      "eyebrow": "The problem",
+      "title": "Project management is seen as execution, not leadership",
+      "subtitle": "That perception is wrong. Let's change it.",
+      "items": [
+        {
+          "tag": "The Gap",
+          "title": "PM = overhead in some minds",
+          "body": "Some people think PMs just send status emails. You know that's not true."
+        },
+        {
+          "tag": "The Struggle",
+          "title": "Career path is unclear",
+          "body": "PMO Director? Product PM? Transition to another function? Options are confusing."
+        },
+        {
+          "tag": "The Doubt",
+          "title": "Is PM a career?",
+          "body": "You wonder if you should stay in PM or if it's time to pivot."
+        }
+      ]
+    },
+    "steps": {
+      "title": "How we get you there",
+      "subtitle": "From project delivery to career advancement.",
+      "items": [
+        {
+          "title": "Quantify your scope",
+          "body": "We measure project complexity, budget, timeline, and stakeholder scope."
+        },
+        {
+          "title": "Define your direction",
+          "body": "PMO leadership, Product PM, or transition? We help you decide and position."
+        },
+        {
+          "title": "Tell the leadership story",
+          "body": "Resume, LinkedIn, and interview prep that shows strategic delivery."
+        }
+      ]
+    },
+    "for": {
+      "title": "This is for you if",
+      "body": "You've delivered complex projects and want recognition.",
+      "items": [
+        "Your resume is a timeline of projects",
+        "You can't articulate PM leadership",
+        "You want PMO leadership or want to transition",
+        "You feel stuck at the same PM level"
+      ]
+    },
+    "notFor": {
+      "title": "This probably isn't for you if",
+      "body": "We work with experienced PMs.",
+      "items": [
+        "You're new to project management",
+        "You want methodology training",
+        "You're looking for PMP prep"
+      ]
+    },
+    "deliverables": {
+      "title": "What you actually get",
+      "subtitle": "PM-specific career support.",
+      "items": [
+        {
+          "title": "Scope Mapping",
+          "tag": "Foundation",
+          "body": "Quantify your project leadership.",
+          "bullets": [
+            "Complexity measurement",
+            "Budget/timeline outcomes",
+            "Stakeholder scope"
+          ]
+        },
+        {
+          "title": "Leadership Story",
+          "tag": "Visibility",
+          "body": "Resume and LinkedIn that show strategic delivery.",
+          "bullets": [
+            "Leadership framing",
+            "Influence proof",
+            "Outcome focus"
+          ]
+        },
+        {
+          "title": "Interview Prep",
+          "tag": "Execution",
+          "body": "PM leadership interview readiness.",
+          "bullets": [
+            "Delivery scenarios",
+            "Stakeholder stories",
+            "Negotiation strategy"
+          ]
+        }
+      ]
+    },
+    "related": {
+      "title": "Ready for recognition?",
+      "body": "Let's talk about the projects you've delivered.",
+      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/"
+    },
+    "faq": {
+      "title": "Questions PMs usually ask",
+      "subtitle": "Honest answers.",
+      "items": [
+        {
+          "question": "How do I show PM as leadership?",
+          "answer": "We focus on influence, stakeholder management, and outcomes under constraints."
+        },
+        {
+          "question": "Can I transition to Product Management?",
+          "answer": "Yes. Your delivery experience is an asset. We help you bridge the gap."
+        },
+        {
+          "question": "What's the PM career path?",
+          "answer": "PMO Director, VP of Delivery, Chief of Staff — these roles exist. We help you get there."
+        }
+      ]
+    },
+    "cta": {
+      "title": "You delivered. Time for your career to deliver.",
+      "body": "Book a call. Let's talk about your PM advancement.",
+      "label": "Book Your Free Strategy Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "Project & Program Management Career Coaching | Leadership & Advancement | Askia",
+    "metaDescription": "Career coaching for project managers. Frame delivery as leadership and advance your career."
   },
   "aiMl": {
-    "eyebrow": "AI / ML career coaching",
-    "h1": "AI & ML Coaching for Applied Impact",
-    "subtitle": "Positioning, interview prep, and offer strategy for AI/ML roles.",
-    "supporting": "We translate model work into business impact and leadership signal.",
+    "eyebrow": "For ML engineers who build models but struggle to show value",
+    "h1": "Your model works. Your career is stuck.",
+    "subtitle": "Bridge the gap between technical brilliance and business impact.",
+    "supporting": "You've trained models, optimized pipelines, and shipped ML to production. But explaining why it matters — in a way non-technical people understand — is surprisingly hard. The technical work is solid. The story isn't landing. Let's fix that.",
     "highlights": [
-      "Model impact",
-      "System signal",
-      "Interview readiness"
+      "Translate model performance into business outcomes",
+      "Position for ML leadership or research transitions",
+      "Interview prep for ML/AI roles"
     ],
-    "ctaLabel": "Book a Call",
+    "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "Built for ML engineers, applied scientists, and AI leads.",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
+    "ctaProof": "For ML Engineers, AI Researchers, and Data Scientists.",
+    "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
       "style": "radar",
-      "accent": "rgba(114, 214, 255, 0.75)",
-      "accent2": "rgba(255, 214, 255, 0.3)"
+      "accent": "rgba(255, 214, 102, 0.65)",
+      "accent2": "rgba(114, 214, 255, 0.3)"
     },
     "heroCard": {
-      "title": "AI/ML signal",
-      "body": "Show how models drive real outcomes.",
+      "title": "What changes",
+      "body": "Connect models to money.",
       "bullets": [
-        "Model impact",
-        "System narratives",
-        "Leadership signal"
+        "Business outcome attribution",
+        "Technical depth without jargon",
+        "Research-to-product story"
       ]
     },
     "proof": {
-      "title": "Outcomes for AI/ML roles",
-      "subtitle": "Make model impact visible.",
+      "title": "ML engineers have landed at top AI companies with significant comp increases",
+      "subtitle": "Here's what made it work:",
       "items": [
         {
-          "title": "Impact",
-          "body": "Tie models to business outcomes."
+          "title": "Models have ROI",
+          "body": "Revenue generated, costs saved, efficiency gained — we help you find the numbers."
         },
         {
-          "title": "Scope",
-          "body": "Show system ownership."
+          "title": "Production is harder than research",
+          "body": "Shipping ML to prod is engineering. We help you show that."
         },
         {
-          "title": "Offer leverage",
-          "body": "Negotiation strategy included."
+          "title": "Technical depth is an asset",
+          "body": "You don't need to dumb it down. You need to translate it."
         }
       ]
     },
     "focus": {
-      "eyebrow": "Model impact",
-      "title": "Translate models into outcomes",
-      "subtitle": "We frame AI/ML work for decision\u2011makers.",
+      "eyebrow": "The problem",
+      "title": "ML work is often invisible to non-technical stakeholders",
+      "subtitle": "And they're the ones making hiring and promotion decisions.",
       "items": [
         {
-          "tag": "Impact",
-          "title": "Outcome framing",
-          "body": "Show how models change metrics."
+          "tag": "The Gap",
+          "title": "Accuracy doesn't mean impact",
+          "body": "'Improved model accuracy by 5%' doesn't show that you saved $2M in fraud."
         },
         {
-          "tag": "Scope",
-          "title": "System signal",
-          "body": "Demonstrate end\u2011to\u2011end ownership."
+          "tag": "The Struggle",
+          "title": "ML interviews are all over the place",
+          "body": "Some want LeetCode. Some want system design. Some want research. It's chaotic."
         },
         {
-          "tag": "Execution",
-          "title": "Interview prep",
-          "body": "System design + ML case prep."
+          "tag": "The Doubt",
+          "title": "Is research or production the path?",
+          "body": "The AI career landscape is confusing. Industry vs academia? Research vs applied?"
         }
       ]
     },
     "steps": {
-      "title": "How AI/ML coaching works",
-      "subtitle": "Positioning \u2192 prep \u2192 offers.",
+      "title": "How we get you there",
+      "subtitle": "From model builder to business driver.",
       "items": [
         {
-          "title": "Define",
-          "body": "Target role and level."
+          "title": "Find your impact",
+          "body": "We trace your ML work to business outcomes and quantify what it enabled."
         },
         {
-          "title": "Position",
-          "body": "Build AI narrative."
+          "title": "Choose your path",
+          "body": "Research, applied ML, leadership? We help you clarify and position."
         },
         {
-          "title": "Execute",
-          "body": "Interview + negotiation prep."
+          "title": "Tell the story",
+          "body": "Resume, LinkedIn, and interview prep that shows business-aware ML thinking."
         }
       ]
     },
     "for": {
-      "title": "This is for",
-      "body": "AI/ML professionals.",
+      "title": "This is for you if",
+      "body": "You've built real ML systems and want real recognition.",
       "items": [
-        "ML engineers",
-        "Applied scientists",
-        "AI leads"
+        "Your resume sounds like a research paper",
+        "You can't explain ML impact to non-technical people",
+        "You want to move to ML leadership or research",
+        "ML interviews confuse you with their inconsistency"
       ]
     },
     "notFor": {
-      "title": "Not a fit if",
-      "body": "You want generic advice.",
+      "title": "This probably isn't for you if",
+      "body": "We work with experienced ML practitioners.",
       "items": [
-        "No role targeting",
-        "Entry\u2011level only"
+        "You're learning ML fundamentals",
+        "You want technical ML training",
+        "You're looking for algorithm prep"
       ]
     },
     "deliverables": {
-      "title": "What you get",
-      "subtitle": "AI/ML positioning and prep.",
+      "title": "What you actually get",
+      "subtitle": "ML-specific career support.",
       "items": [
         {
-          "title": "AI narrative",
-          "tag": "Core",
-          "body": "Story aligned to outcomes.",
+          "title": "Impact Translation",
+          "tag": "Foundation",
+          "body": "Connect ML work to business outcomes.",
           "bullets": [
-            "Model impact",
-            "System scope",
-            "Leadership signal"
+            "ROI calculation",
+            "Production impact",
+            "Research translation"
+          ]
+        },
+        {
+          "title": "Business Story",
+          "tag": "Visibility",
+          "body": "Resume and LinkedIn that shows ML business thinking.",
+          "bullets": [
+            "Outcome framing",
+            "Technical credibility",
+            "Leadership signals"
+          ]
+        },
+        {
+          "title": "Interview Prep",
+          "tag": "Execution",
+          "body": "ML interview readiness across formats.",
+          "bullets": [
+            "ML design questions",
+            "Research presentations",
+            "Negotiation strategy"
           ]
         }
       ]
     },
     "related": {
-      "title": "Pair with interview prep",
-      "body": "AI roles require clear system stories.",
-      "primaryLabel": "Interview Prep",
-      "primaryLink": "/interview-prep/",
-      "secondaryLabel": "Resume Writing",
-      "secondaryLink": "/resume-writing/"
+      "title": "Ready to show your ML impact?",
+      "body": "Let's talk about the models you've built.",
+      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/"
     },
     "faq": {
-      "title": "AI/ML FAQs",
-      "subtitle": "Quick answers.",
+      "title": "Questions ML engineers usually ask",
+      "subtitle": "Direct answers.",
       "items": [
         {
-          "question": "Do you cover ML system design?",
-          "answer": "Yes."
+          "question": "How do I quantify ML impact?",
+          "answer": "We look for revenue influenced, costs saved, efficiency gained, and user outcomes improved."
         },
         {
-          "question": "Is this for senior roles?",
-          "answer": "Yes, $140K\u2013$350K focus."
+          "question": "Research or industry?",
+          "answer": "Depends on your goals. We help you think through the trade-offs and position accordingly."
         },
         {
-          "question": "Do you help with negotiation?",
-          "answer": "Yes."
-        },
-        {
-          "question": "Can this be bundled?",
-          "answer": "Yes."
+          "question": "How do I explain ML to non-technical interviewers?",
+          "answer": "We practice translating technical work into business language without losing the depth."
         }
       ]
     },
     "cta": {
-      "title": "Ready to elevate your AI/ML role?",
-      "body": "Book a call and map your path.",
-      "label": "Book a Call",
+      "title": "Your models work. Let's make your career work.",
+      "body": "Book a call. Let's talk about your ML trajectory.",
+      "label": "Book Your Free Strategy Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "AI & ML Coaching for Applied Impact | Askia",
-    "metaDescription": "AI/ML coaching focused on model impact, MLOps readiness, and applied outcomes."
+    "metaTitle": "ML/AI Career Coaching | Business Impact & Career Growth | Askia",
+    "metaDescription": "Career coaching for ML engineers. Translate model performance into business outcomes and career advancement."
   }
 }

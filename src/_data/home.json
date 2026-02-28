@@ -1,72 +1,72 @@
 {
   "hero": {
-    "eyebrow": "Land your next high‑impact role",
-    "titleLead": "Land a next‑level",
-    "titleEmphasis": "$100K–$350K",
-    "titleTail": "role",
-    "titleAccent": "faster",
-    "subtitle": "Private coaching for ambitious professionals and leaders.",
-    "supporting": "We help you define the right roles, present a standout brand, and close interviews with leverage — so you can land the offer that fits your goals.",
+    "eyebrow": "For professionals who know they're worth more",
+    "titleLead": "You're not getting ignored because you lack talent.",
+    "titleEmphasis": "You're getting ignored because your story isn't landing.",
+    "titleTail": "",
+    "titleAccent": "Let's fix that.",
+    "subtitle": "Private coaching for ambitious professionals ready to stop spinning and start closing.",
+    "supporting": "You've got the experience. The skills. The track record. But somehow, your resume isn't opening doors, recruiters aren't responding, and interviews feel like you're speaking a different language. We help you translate what you've done into what they need to hear — so the right roles finally come to you.",
     "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "highlight": [
-      "Role targeting and compensation positioning",
-      "Resume + LinkedIn that get decision‑maker replies",
-      "Interview prep and negotiation support"
+      "Finally get clarity on what roles actually fit you",
+      "A resume that makes recruiters reach out first",
+      "Walk into interviews with a plan, not a prayer"
     ],
-    "proof": "Avg. client first-round in 2–6 weeks • Outcomes across tech, finance, healthcare, operations, sales, and leadership roles"
+    "proof": "Most clients land their first interview within 3 weeks of working together"
   },
   "stats": [
     {
       "title": "8 seconds",
-      "body": "The average time a recruiter spends scanning a resume. We make every second count."
+      "body": "That's how long a recruiter looks at your resume. If your value isn't obvious immediately, you're invisible."
     },
     {
-      "title": "75% of roles",
-      "body": "Are filled through referrals and warm networks. We show you how to access the hidden market."
+      "title": "75% of jobs",
+      "body": "Never get posted publicly. They're filled through networks and referrals. We show you how to access them."
     },
     {
-      "title": "1 in 4 offers",
-      "body": "Are negotiated. We help you secure the compensation you actually deserve."
+      "title": "Most people don't negotiate",
+      "body": "They take the first number. Our clients don't. They walk in with leverage and walk out with more."
     }
   ],
   "pillars": {
-    "title": "Built for high performers",
-    "subtitle": "A focused system that turns experience into market signal — without the noise.",
+    "title": "This isn't about working harder. It's about working smarter.",
+    "subtitle": "You've probably been told to 'just apply more' or 'network harder.' That advice is exhausting and mostly wrong. Here's what actually moves the needle:",
     "items": [
       {
-        "title": "Positioning",
-        "body": "Translate your impact into a narrative recruiters instantly recognize."
+        "title": "Get clear on what you actually want",
+        "body": "Stop applying to everything. We help you identify the exact roles where your experience translates to 'obviously qualified.'"
       },
       {
-        "title": "Signal",
-        "body": "Engineer inbound interest with a resume, LinkedIn, and outreach strategy that converts."
+        "title": "Make your value impossible to miss",
+        "body": "Your resume and LinkedIn should make recruiters think 'I need to talk to this person.' Not 'maybe.' Not 'let me think about it.'"
       },
       {
-        "title": "Momentum",
-        "body": "Replace random applying with a targeted pipeline and interview execution plan."
+        "title": "Stop hoping and start executing",
+        "body": "No more sending applications into the void. We build you a focused system that creates real conversations with real decision-makers."
       }
     ]
   },
   "proof": {
-    "title": "Outcomes that compound",
+    "title": "What changes when your story finally lands",
     "items": [
       {
-        "title": "Offer growth",
-        "body": "Stronger offers achieved across high‑impact roles in tech, business, and healthcare."
+        "title": "Inbox looks different",
+        "body": "Recruiters reach out to you. Hiring managers respond. Your calendar fills up with conversations that matter."
       },
       {
-        "title": "2–6 weeks",
-        "body": "Typical time to see interview momentum when your positioning is right."
+        "title": "Interviews feel different",
+        "body": "You walk in knowing exactly what to say. No more rambling. No more hoping you said the right thing."
       },
       {
-        "title": "Hiring‑insider coaching",
-        "body": "Guidance from a former engineering leader who built and hired top teams."
+        "title": "Offers look different",
+        "body": "You negotiate from strength, not desperation. You choose the role — it doesn't choose you."
       }
     ]
   },
   "logos": {
-    "title": "Top companies love hiring our candidates",
+    "title": "Our clients have landed at",
     "companies": [
       { "name": "Google", "logo": "/assets/logos/google.svg", "accent": "rgba(66,133,244,0.35)" },
       { "name": "Amazon", "logo": "/assets/logos/amazon.svg", "accent": "rgba(255,153,0,0.35)" },
@@ -81,9 +81,9 @@
     ]
   },
   "success": {
-    "title": "They didn’t just land offers — they leveled up",
-    "subtitle": "Real people. Real momentum. Real confidence.",
-    "body": "These are the moments we build toward. Clarity, confidence, and the kind of offers that change your trajectory.",
+    "title": "Real people. Real breakthroughs.",
+    "subtitle": "These aren't stock photos. These are people who were stuck, frustrated, and ready to give up — until something clicked.",
+    "body": "Every one of them had the experience. What they needed was the right way to talk about it.",
     "items": [
       {
         "name": "Patel",
@@ -124,65 +124,65 @@
     ]
   },
   "about": {
-    "title": "About Askia",
-    "subtitle": "Helping top talent secure high‑impact roles.",
-    "body": "This program is about more than just landing a job. It’s about unlocking your potential, telling your story with confidence, and building a career that excites you and pays what you’re worth. With insights from the hiring table, we position you as the standout candidate without wasting months on cold applications."
+    "title": "Why Askia exists",
+    "subtitle": "Because talented people shouldn't feel invisible.",
+    "body": "Here's what we've seen: smart, capable professionals who've led projects, shipped products, and solved real problems — completely stuck in their job search. Not because they lack skills. Because no one taught them how to talk about what they've done in a way that lands. That's the gap we close. We don't just polish your resume. We rebuild how you see yourself, how you talk about your work, and how you show up in every conversation."
   },
   "coach": {
-    "title": "Meet Steve, Your Career Coach",
-    "credential": "Former engineering leader turned career strategist",
-    "body": "Steve brings real-world hiring experience and a tactical, human approach to career transitions. You’ll work directly with him to build clarity, confidence, and a repeatable system that lands interviews.",
+    "title": "Meet Steve",
+    "credential": "Former engineering leader. Now career strategist.",
+    "body": "I've sat on the other side of the table. I've reviewed thousands of resumes, interviewed hundreds of candidates, and made hiring decisions at every level. I know exactly what makes someone stand out — and what makes them forgettable. I built Askia because I kept seeing the same pattern: incredible people getting passed over because they didn't know how to tell their story. Now I help them fix that.",
     "bullets": [
       "10+ years leading engineering teams",
-      "Hundreds of successful career transitions",
-      "Millions in negotiated salary increases"
+      "Helped hundreds of professionals land roles they actually wanted",
+      "Direct experience hiring across tech, product, and leadership"
     ]
   },
   "program": {
-    "title": "The Askia Method",
+    "title": "Here's how we get you there",
     "steps": [
       {
-        "title": "Find the Roles That Pay What You’re Worth",
-        "body": "Define your target roles and compensation band with data‑backed positioning."
+        "title": "Get crystal clear on what you're going after",
+        "body": "No more applying to 50 different roles hoping something sticks. We figure out exactly where your experience translates to 'perfect fit.'"
       },
       {
-        "title": "Build a Resume & LinkedIn That Get Noticed",
-        "body": "Craft a concise, high‑impact narrative recruiters actually respond to."
+        "title": "Rebuild how you present yourself",
+        "body": "Your resume and LinkedIn aren't working because they're listing tasks, not telling a story. We fix that."
       },
       {
-        "title": "Land Interviews Faster With Smart Search",
-        "body": "Replace scattershot applying with focused outreach and referral strategy."
+        "title": "Stop spraying and praying",
+        "body": "Cold applications rarely work. We build you a focused outreach system that gets actual responses."
       },
       {
-        "title": "Ace the Interviews & Negotiate Top Offers",
-        "body": "Master behavioral + technical interviews, then negotiate with confidence."
+        "title": "Walk into interviews ready to win",
+        "body": "No more winging it. You'll have stories prepared, questions anticipated, and confidence that comes from actually being ready."
       }
     ]
   },
   "timeline": {
-    "title": "How the program works",
+    "title": "What working together looks like",
     "steps": [
       {
-        "title": "Week 1 · Strategy",
-        "body": "Clarify target roles, compensation, and a focused search plan."
+        "title": "Week 1: Strategy",
+        "body": "We get clear on exactly what you want, what you're worth, and what's been holding you back."
       },
       {
-        "title": "Week 2 · Positioning",
-        "body": "Ship a standout resume, LinkedIn profile, and outreach assets."
+        "title": "Week 2: Rebuild",
+        "body": "Your resume, LinkedIn, and pitch get completely overhauled. You'll barely recognize them."
       },
       {
-        "title": "Weeks 3–4 · Interviews",
-        "body": "Practice interviews, refine stories, and build confidence."
+        "title": "Weeks 3-4: Launch",
+        "body": "You start having real conversations. We prep you for every interview and adjust as you go."
       },
       {
-        "title": "Weeks 4–6 · Offers",
-        "body": "Negotiate, compare offers, and close strong."
+        "title": "Weeks 4-6: Close",
+        "body": "Offers come in. We help you evaluate, negotiate, and choose the right one."
       }
     ]
   },
   "cta": {
-    "title": "Get Ready to Rewrite Your Story",
-    "body": "If you’re ready to move from vague goals to a clear plan and real offers, we’ll help you get there.",
+    "title": "Ready to stop being overlooked?",
+    "body": "Let's talk. In 15 minutes, we'll figure out what's been getting in your way and map out exactly how to fix it. No pressure, no pitch — just clarity.",
     "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity"
   }

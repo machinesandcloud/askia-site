@@ -1,39 +1,39 @@
 {
   "hero": {
-    "title": "Coaching services that move your next role",
-    "subtitle": "Three clear packages plus a la carte options for focused help across tech, business, and healthcare roles.",
-    "ctaLabel": "Book a Call",
+    "title": "Choose your path to landing the right role",
+    "subtitle": "Whether you need a quick refresh or full support from strategy to offer, we've got you covered.",
+    "ctaLabel": "Not Sure? Let's Talk",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "metaTitle": "Coaching Services That Move Your Next Role | Askia",
-    "metaDescription": "Outcome‑focused coaching services across resume, LinkedIn, interviews, and offer strategy."
+    "metaTitle": "Career Coaching Services | Askia",
+    "metaDescription": "Career coaching packages from resume overhaul to full job search support. Find the right fit for where you are."
   },
   "tiers": [
     {
-      "tag": "Starter",
+      "tag": "Quick Start",
       "title": "Starter",
       "price": "$699",
       "buyLink": "https://bookings.askia.tech/#/clarity",
-      "body": "Core positioning upgrades to get your story and signal right.",
-      "ideal": "Best for: early momentum + clean signal",
-      "turnaround": "Timeline: 2–3 weeks",
+      "body": "Your resume and LinkedIn aren't working. Let's fix that fast.",
+      "ideal": "Best for: You have the experience but aren't getting callbacks",
+      "turnaround": "Delivered in 2-3 weeks",
       "bullets": [
         {
-          "label": "Career consulting",
-          "detailTitle": "Career consulting",
-          "detailBody": "A focused strategy session to align role targets, level, and narrative direction.",
-          "detailPoints": ["Role targeting", "Level calibration", "90‑day plan"]
+          "label": "1:1 Strategy Session",
+          "detailTitle": "1:1 Strategy Session",
+          "detailBody": "We'll dig into your background, identify your strongest angles, and get clear on exactly what roles you should be targeting.",
+          "detailPoints": ["Identify your best-fit roles", "Understand what's been holding you back", "Create a clear action plan"]
         },
         {
-          "label": "Resume revision",
-          "detailTitle": "Resume revision",
-          "detailBody": "We rebuild your resume to read senior, clear, and outcome-driven.",
-          "detailPoints": ["Impact-first bullets", "Scope and ownership", "ATS-ready format"]
+          "label": "Complete Resume Overhaul",
+          "detailTitle": "Complete Resume Overhaul",
+          "detailBody": "We'll rebuild your resume from the ground up so it actually shows what you've accomplished — not just what you were responsible for.",
+          "detailPoints": ["Results-focused language", "Clear demonstration of your level", "Format that passes ATS and impresses humans"]
         },
         {
-          "label": "LinkedIn profile revision",
-          "detailTitle": "LinkedIn profile revision",
-          "detailBody": "Sharper headline, summary, and experience to drive inbound interest.",
-          "detailPoints": ["Headline + About rewrite", "Keyword targeting", "Recruiter scan flow"]
+          "label": "LinkedIn Profile Transformation",
+          "detailTitle": "LinkedIn Profile Transformation",
+          "detailBody": "Your headline, about section, and experience rewritten so recruiters actually reach out.",
+          "detailPoints": ["Headline that stops the scroll", "About section that tells your story", "Experience that proves your value"]
         }
       ]
     },
@@ -42,166 +42,136 @@
       "title": "Land the Job",
       "price": "$999",
       "buyLink": "https://bookings.askia.tech/#/clarity",
-      "body": "Everything in Starter plus search execution support to convert faster.",
-      "ideal": "Best for: active search + interview momentum",
-      "turnaround": "Timeline: 3–4 weeks",
+      "body": "Everything in Starter, plus ongoing support while you're actively searching.",
+      "ideal": "Best for: You're ready to search now and want guidance through the process",
+      "turnaround": "3-4 weeks of active support",
       "bullets": [
         {
-          "label": "Career consulting",
-          "detailTitle": "Career consulting",
-          "detailBody": "A focused strategy session to align role targets, level, and narrative direction.",
-          "detailPoints": ["Role targeting", "Level calibration", "90‑day plan"]
+          "label": "Everything in Starter",
+          "detailTitle": "Everything in Starter",
+          "detailBody": "Strategy session, complete resume overhaul, and LinkedIn transformation — the foundation you need.",
+          "detailPoints": ["Strategy clarity", "Resume that converts", "LinkedIn that attracts"]
         },
         {
-          "label": "Resume revision",
-          "detailTitle": "Resume revision",
-          "detailBody": "We rebuild your resume to read senior, clear, and outcome-driven.",
-          "detailPoints": ["Impact-first bullets", "Scope and ownership", "ATS-ready format"]
+          "label": "Job Search Game Plan",
+          "detailTitle": "Job Search Game Plan",
+          "detailBody": "A practical, week-by-week system for finding opportunities and getting in front of the right people — not just applying and hoping.",
+          "detailPoints": ["Where to focus your energy", "How to reach decision-makers", "Building momentum that compounds"]
         },
         {
-          "label": "LinkedIn profile revision",
-          "detailTitle": "LinkedIn profile revision",
-          "detailBody": "Sharper headline, summary, and experience to drive inbound interest.",
-          "detailPoints": ["Headline + About rewrite", "Keyword targeting", "Recruiter scan flow"]
-        },
-        {
-          "label": "Job search strategy",
-          "detailTitle": "Job search strategy",
-          "detailBody": "A practical search plan covering targeting, outreach, and referral motion.",
-          "detailPoints": ["Search channels", "Weekly cadence", "Referral plan"]
-        },
-        {
-          "label": "Continued support",
-          "detailTitle": "Continued support",
-          "detailBody": "Ongoing guidance while you execute the plan and start interviewing.",
-          "detailPoints": ["Check‑ins", "Feedback loop", "Adjustments as needed"]
+          "label": "Ongoing Check-ins",
+          "detailTitle": "Ongoing Check-ins",
+          "detailBody": "As you start getting responses, we're there to help you navigate. Adjustments, prep, feedback — whatever you need.",
+          "detailPoints": ["Weekly touchpoints", "Real-time adjustments", "Never feel stuck alone"]
         }
       ]
     },
     {
-      "tag": "Ultimate",
+      "tag": "Full Support",
       "title": "Ultimate",
       "price": "$1299",
       "buyLink": "https://bookings.askia.tech/#/clarity",
-      "body": "Full end‑to‑end support from positioning to interviews and offers.",
-      "ideal": "Best for: high‑stakes transitions",
-      "turnaround": "Timeline: 4–6 weeks",
+      "body": "End-to-end partnership from first strategy call to signed offer letter.",
+      "ideal": "Best for: High-stakes transitions where you can't afford to wing it",
+      "turnaround": "4-6 weeks of intensive support",
       "bullets": [
         {
-          "label": "Career consulting",
-          "detailTitle": "Career consulting",
-          "detailBody": "A focused strategy session to align role targets, level, and narrative direction.",
-          "detailPoints": ["Role targeting", "Level calibration", "90‑day plan"]
+          "label": "Everything in Land the Job",
+          "detailTitle": "Everything in Land the Job",
+          "detailBody": "Strategy, resume, LinkedIn, search plan, and ongoing support — the full foundation.",
+          "detailPoints": ["Complete brand overhaul", "Active search support", "Continuous guidance"]
         },
         {
-          "label": "Resume revision",
-          "detailTitle": "Resume revision",
-          "detailBody": "We rebuild your resume to read senior, clear, and outcome-driven.",
-          "detailPoints": ["Impact-first bullets", "Scope and ownership", "ATS-ready format"]
+          "label": "Interview Preparation",
+          "detailTitle": "Interview Preparation",
+          "detailBody": "We build your story bank, run mock interviews, and make sure you walk in ready to perform — not just participate.",
+          "detailPoints": ["Stories that stick", "Mock interviews with real feedback", "Confidence that shows"]
         },
         {
-          "label": "LinkedIn profile revision",
-          "detailTitle": "LinkedIn profile revision",
-          "detailBody": "Sharper headline, summary, and experience to drive inbound interest.",
-          "detailPoints": ["Headline + About rewrite", "Keyword targeting", "Recruiter scan flow"]
-        },
-        {
-          "label": "Job search strategy",
-          "detailTitle": "Job search strategy",
-          "detailBody": "A practical search plan covering targeting, outreach, and referral motion.",
-          "detailPoints": ["Search channels", "Weekly cadence", "Referral plan"]
-        },
-        {
-          "label": "Interview preparation",
-          "detailTitle": "Interview preparation",
-          "detailBody": "Structured mock interviews and story practice to improve performance.",
-          "detailPoints": ["Story bank", "Mock interview", "Feedback + iteration"]
-        },
-        {
-          "label": "Continued support",
-          "detailTitle": "Continued support",
-          "detailBody": "Ongoing guidance through interviews and offer stages.",
-          "detailPoints": ["Check‑ins", "Offer prep", "Decision support"]
+          "label": "Offer & Negotiation Strategy",
+          "detailTitle": "Offer & Negotiation Strategy",
+          "detailBody": "When offers come in, we help you evaluate, compare, and negotiate. Most clients leave money on the table. You won't.",
+          "detailPoints": ["Know your worth", "Negotiate with confidence", "Choose the right role, not just the first one"]
         }
       ]
     }
   ],
   "alaCarte": {
-    "title": "A la carte",
-    "subtitle": "Pick individual services when you only need one specific upgrade.",
+    "title": "Just need one thing?",
+    "subtitle": "Pick exactly what you need. No packages, no extras.",
     "items": [
       {
-        "title": "Career Consulting",
+        "title": "Strategy Session",
         "price": "$299",
-        "body": "One focused strategy session to align role, level, and next steps.",
+        "body": "One focused conversation to get clear on your next move.",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       },
       {
-        "title": "Resume Revision",
+        "title": "Resume Overhaul",
         "price": "$299",
-        "body": "Impact‑first resume rebuild with ATS‑ready formatting.",
+        "body": "A complete rebuild that shows what you've actually accomplished.",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       },
       {
-        "title": "LinkedIn Profile Revision",
+        "title": "LinkedIn Transformation",
         "price": "$149",
-        "body": "Headline, summary, and experience rewrite for inbound interest.",
+        "body": "Headline, about, and experience rewritten to attract the right opportunities.",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       },
       {
-        "title": "Full‑Service Apply to Jobs",
+        "title": "Done-For-You Applications",
         "price": "$499",
-        "body": "Targeted application support to keep execution consistent.",
+        "body": "We handle the applications so you can focus on preparation.",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       },
       {
-        "title": "Job Search Strategy",
+        "title": "Job Search Game Plan",
         "price": "$299",
-        "body": "Search plan covering targeting, outreach, and referral motion.",
+        "body": "A clear system for finding opportunities and getting responses.",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       },
       {
-        "title": "Interview Preparation",
+        "title": "Interview Prep Session",
         "price": "$349",
-        "body": "Mock interview plus feedback to sharpen delivery.",
+        "body": "Mock interview with detailed feedback and story refinement.",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       },
       {
-        "title": "Continued Support",
+        "title": "Ongoing Support",
         "price": "$199",
-        "body": "Ongoing check‑ins to keep momentum and adjust strategy.",
+        "body": "Weekly check-ins to keep you moving and adjust as needed.",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       }
     ]
   },
   "faq": {
-    "title": "Common Questions",
+    "title": "Questions before you decide",
     "items": [
       {
-        "question": "Which package is right for me?",
-        "answer": "Starter is best for a clean signal upgrade. Land the Job is best if you’re actively searching. Ultimate is best for high‑stakes transitions or tighter timelines."
+        "question": "How do I know which package is right for me?",
+        "answer": "If you're just getting started and need your materials fixed, go with Starter. If you're actively searching and want support along the way, Land the Job is the move. If this is a major career transition and you want us in your corner through every step, Ultimate is worth it. Still not sure? Book a call and we'll help you figure it out."
       },
       {
-        "question": "Do you work with senior and executive candidates?",
-        "answer": "Yes. We support senior ICs, managers, and leaders. Scope is confirmed on the call."
+        "question": "Do you work with senior people or just early career?",
+        "answer": "Most of our clients are mid-to-senior level — people with real experience who aren't being seen for what they're worth. We work with senior ICs, managers, directors, and executives across tech, finance, healthcare, and operations."
       },
       {
-        "question": "How long does the process take?",
-        "answer": "Most packages run 2–6 weeks depending on scope and timing."
+        "question": "What if I'm not sure what role I want?",
+        "answer": "That's actually more common than you'd think. Our strategy session helps you get clear on where your experience translates best. We figure it out together."
       },
       {
-        "question": "Do you help with interviews and negotiation?",
-        "answer": "Interview preparation is included in Ultimate. Negotiation guidance is included when you’re near offers."
+        "question": "Do you help with interviews?",
+        "answer": "Full interview prep is included in Ultimate. If you're on another package, you can add it a la carte."
       },
       {
-        "question": "Can I buy a la carte instead of a package?",
-        "answer": "Yes. If you only need one specific upgrade, choose a la carte and we’ll scope it fast."
+        "question": "What about negotiation?",
+        "answer": "Negotiation strategy is part of Ultimate. We help you understand your leverage, prepare your ask, and handle the back-and-forth."
       }
     ]
   },
   "cta": {
-    "title": "Not sure which path fits?",
-    "body": "Book a quick call and we’ll help you choose the best option for your goals.",
+    "title": "Not sure where to start?",
+    "body": "Let's talk. We'll figure out where you are, where you want to be, and the fastest way to get there.",
     "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity"
   }

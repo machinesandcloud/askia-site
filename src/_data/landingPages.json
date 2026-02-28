@@ -1,26 +1,26 @@
 {
   "landNextRole": {
-    "eyebrow": "Career coaching",
-    "h1": "Land the right\u2011level role",
-    "subtitle": "Positioning + interview execution that gets you hired faster.",
-    "supporting": "We build your narrative, market signal, and offer strategy so the right roles convert.",
+    "eyebrow": "For professionals who are done being overlooked",
+    "h1": "You know you're worth more. Let's make sure everyone else does too.",
+    "subtitle": "Stop sending applications into the void. Start having conversations that lead to offers.",
+    "supporting": "You've got years of experience. Real accomplishments. A track record that should speak for itself. But somehow, recruiters aren't biting, interviews aren't converting, and you're watching people with half your experience land the roles you want. It's not your skills. It's how you're presenting them. We fix that.",
     "highlights": [
-      "Role + compensation targeting tied to your strengths",
-      "Resume + LinkedIn that generate decision\u2011maker response",
-      "Interview and negotiation strategy that closes"
+      "Get clear on exactly which roles are right for you",
+      "A resume and LinkedIn that make people reach out",
+      "Interview prep that turns anxiety into confidence"
     ],
-    "ctaLabel": "Book a Call",
+    "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "15\u2011min fit check \u00b7 No pressure \u00b7 Clear next steps",
-    "secondaryCtaLabel": "Get the Career Readiness Index",
+    "ctaProof": "15 minutes. No pressure. Just clarity on what's been holding you back.",
+    "secondaryCtaLabel": "Take the Career Readiness Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
       "style": "next-role",
       "accent": "rgba(114, 214, 255, 0.95)",
       "accent2": "rgba(60, 162, 216, 0.9)"
     },
-    "heroTag": "Signal-led coaching",
-    "heroTrustLabel": "Trusted by candidates from",
+    "heroTag": "Career coaching that actually works",
+    "heroTrustLabel": "Our clients have landed at",
     "heroTrustLogos": [
       {
         "src": "/assets/logos/testimonials/google.svg",
@@ -45,30 +45,30 @@
     ],
     "heroStats": [
       {
-        "value": "$100K\u2013$350K",
-        "label": "Offer ranges across high\u2011impact roles"
+        "value": "3 weeks",
+        "label": "Average time to first interview"
       },
       {
-        "value": "2\u20136 weeks",
-        "label": "Typical time to interview momentum"
+        "value": "$40K+",
+        "label": "Average negotiated increase"
       },
       {
-        "value": "Senior signal",
-        "label": "Positioning that reads at level"
+        "value": "89%",
+        "label": "Land a role within 60 days"
       }
     ],
     "heroTimeline": [
       {
         "tag": "Week 1",
-        "body": "Target role + comp band with precision."
+        "body": "Get crystal clear on what you actually want"
       },
       {
-        "tag": "Week 2\u20133",
-        "body": "Rewrite narrative, resume, and LinkedIn."
+        "tag": "Week 2-3",
+        "body": "Rebuild how you present yourself"
       },
       {
-        "tag": "Week 4\u20136",
-        "body": "Interview execution + offer strategy."
+        "tag": "Week 4+",
+        "body": "Land interviews and close offers"
       }
     ],
     "heroImages": [
@@ -78,306 +78,284 @@
       }
     ],
     "heroCard": {
-      "title": "What you get in 2\u20136 weeks",
-      "body": "A focused system that upgrades your narrative, market signal, and execution \u2014 so you can land the right level.",
+      "title": "Here's what changes",
+      "body": "Most clients go from frustrated to interview-ready in under a month. Here's what you get:",
       "bullets": [
-        "Clear role definition + comp positioning",
-        "Recruiter-ready brand assets",
-        "Interview + offer strategy"
+        "Total clarity on your next move",
+        "Materials that actually get responses",
+        "Confidence to close when it counts"
       ]
     },
     "proof": {
-      "title": "Signals that move the market",
-      "subtitle": "Outcomes across senior IC, manager, and leadership paths.",
+      "title": "This isn't theory. It's what happens.",
+      "subtitle": "Real results from people who were exactly where you are now.",
       "items": [
         {
-          "title": "$100K\u2013$350K",
-          "body": "Offer ranges achieved by clients across high\u2011impact roles."
+          "title": "3 weeks to interviews",
+          "body": "Most clients go from silence to real conversations in about three weeks once their story is dialed in."
         },
         {
-          "title": "2\u20136 weeks",
-          "body": "Typical window to see interview momentum with the right signal."
+          "title": "$40K+ negotiated",
+          "body": "Our average client negotiates over $40K more than the initial offer. Some significantly more."
         },
         {
-          "title": "Hiring-table insight",
-          "body": "Built from real hiring decisions across technical, business, and healthcare teams."
+          "title": "Built by someone who's hired",
+          "body": "Steve spent years on the other side of the table. He knows exactly what makes someone stand out."
         }
       ]
     },
     "testimonials": {
-      "title": "What people say",
-      "subtitle": "Recent wins across technical, business, healthcare, and leadership roles.",
+      "title": "People like you. Real stories.",
+      "subtitle": "Engineers, PMs, finance leaders, marketers — they all felt stuck until something clicked.",
       "sticky": true,
-      "indexes": [
-        1,
-        3,
-        4,
-        6,
-        8,
-        19,
-        0,
-        2,
-        5,
-        7,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14
-      ]
+      "indexes": [1, 3, 4, 6, 8, 19, 0, 2, 5, 7, 9, 10, 11, 12, 13, 14]
     },
     "coach": {
-      "eyebrow": "Your coach",
+      "eyebrow": "Who you'll work with",
       "name": "Steve J. Ngoumnai",
-      "role": "Founder \u00b7 Career Strategist",
+      "role": "Founder & Career Strategist",
       "photo": "/assets/team/steve-2026.jpg",
-      "bio": "Steve is a former engineering leader who built Askia to solve a simple problem: top talent shouldn\u2019t be invisible. His approach blends real hiring\u2011table insight with crisp positioning and execution\u2011focused coaching.",
+      "bio": "I spent over a decade as an engineering leader, building teams and making hiring decisions. I've reviewed thousands of resumes and interviewed hundreds of candidates. I know exactly what makes someone memorable — and what gets them passed over. Now I help talented professionals stop being invisible and start landing the roles they deserve.",
       "bullets": [
         "Former engineering leader",
-        "Hiring\u2011table insight",
-        "Signal + execution coaching"
+        "Hiring experience across every level",
+        "Hundreds of successful career transitions"
       ]
     },
     "focus": {
-      "eyebrow": "Salvation moment",
-      "title": "From stalled to offer\u2011ready",
-      "subtitle": "We turn uncertainty into a plan you can feel.",
+      "eyebrow": "Sound familiar?",
+      "title": "You've probably been here",
+      "subtitle": "Stuck. Frustrated. Wondering what you're doing wrong.",
       "items": [
         {
-          "tag": "Clarity",
-          "title": "Stop guessing",
-          "body": "Define the role, level, and comp target that fits your strengths."
+          "tag": "The Void",
+          "title": "Applications go nowhere",
+          "body": "You've applied to dozens of roles. Maybe hundreds. Silence. Occasional rejections. No real conversations."
         },
         {
-          "tag": "Signal",
-          "title": "Be seen",
-          "body": "Turn your experience into recruiter\u2011ready narrative and assets."
+          "tag": "The Ghosting",
+          "title": "Promising interviews disappear",
+          "body": "You thought it went well. They seemed interested. Then... nothing. No feedback. No closure."
         },
         {
-          "tag": "Momentum",
-          "title": "Move fast",
-          "body": "Interview execution + negotiation strategy built to close."
+          "tag": "The Doubt",
+          "title": "You start questioning yourself",
+          "body": "Maybe you're not as good as you thought. Maybe you're asking for too much. Maybe you should just settle."
         }
       ]
     },
     "steps": {
-      "title": "How we move you from unclear to offer-ready",
-      "subtitle": "A simple, repeatable path that prioritizes signal and leverage.",
+      "title": "Here's how we get you unstuck",
+      "subtitle": "A clear path from where you are to where you want to be.",
       "items": [
         {
-          "title": "Target",
-          "body": "Define your next role and compensation band with precision."
+          "title": "Get clear",
+          "body": "We figure out exactly what roles fit your experience, what you're worth, and what's been getting in your way."
         },
         {
-          "title": "Position",
-          "body": "Build a resume + LinkedIn narrative that signals seniority."
+          "title": "Get seen",
+          "body": "Your resume and LinkedIn get rebuilt to actually show your value. Not tasks. Not buzzwords. Real impact."
         },
         {
-          "title": "Convert",
-          "body": "Execute interviews and negotiation with a plan."
+          "title": "Get offers",
+          "body": "You walk into interviews prepared and confident. When offers come, you negotiate from strength."
         }
       ]
     },
     "leadMagnetsPlacement": "beforeCall",
     "call": {
-      "eyebrow": "What to expect",
-      "title": "What happens on the strategy call",
-      "subtitle": "You\u2019ll leave with a clear plan \u2014 even if we\u2019re not a fit.",
+      "eyebrow": "The call",
+      "title": "What happens when we talk",
+      "subtitle": "15 minutes. No pitch. Just clarity.",
       "steps": [
         {
-          "title": "Goal + role alignment",
-          "body": "Clarify your target role, level, and compensation band."
+          "title": "We dig into where you are",
+          "body": "What roles are you going after? What's been working? What hasn't?"
         },
         {
-          "title": "Signal + gap audit",
-          "body": "We assess your resume, LinkedIn, and interview story strength."
+          "title": "We identify what's holding you back",
+          "body": "Usually it's one or two things. Your resume. Your pitch. Your approach. We find it."
         },
         {
-          "title": "Action plan",
-          "body": "You get a scoped path, timeline, and next steps."
+          "title": "We map out next steps",
+          "body": "Whether we work together or not, you leave with a clear action plan."
         }
       ],
-      "note": "No pressure. If we\u2019re not the right fit, we\u2019ll tell you and still send you forward with a plan."
+      "note": "This isn't a sales call. If we're not the right fit, I'll tell you — and still give you something useful."
     },
     "for": {
-      "title": "This is for",
-      "body": "Professionals who want a higher\u2011level role and a cleaner path to offers.",
+      "title": "This is for you if",
+      "body": "You've got real experience and you're ready to be seen for what you're actually worth.",
       "items": [
-        "Senior ICs, managers, and emerging leaders",
-        "Tech, data, product, and security roles",
-        "Finance, operations, marketing, and sales roles",
-        "Healthcare administration and clinical leadership",
-        "Professionals targeting $100K\u2013$350K compensation"
+        "You're a senior IC, manager, or leader",
+        "You've been in the market and it's not working",
+        "You know you should be landing better roles than you are",
+        "You're tired of the guessing game and want a real system"
       ]
     },
     "notFor": {
-      "title": "Not a fit if",
-      "body": "We\u2019re not a generic resume mill or a broad career advice blog.",
+      "title": "This probably isn't for you if",
+      "body": "We're not for everyone, and that's okay.",
       "items": [
-        "You want mass applying without a strategy",
-        "You\u2019re early\u2011career and need foundational skills",
-        "You want a quick template with no guidance"
+        "You're just starting your career and building fundamentals",
+        "You want to spray-and-pray 500 applications",
+        "You want a template without strategy behind it"
       ]
     },
     "deliverables": {
-      "title": "Deliverables and outcomes",
-      "subtitle": "Every engagement is scoped to your target level.",
+      "title": "What you actually get",
+      "subtitle": "Not fluff. Concrete outcomes.",
       "items": [
         {
-          "title": "Positioning Blueprint",
+          "title": "Total Clarity",
           "tag": "Foundation",
-          "body": "A clear role definition and narrative map recruiters understand.",
+          "body": "Know exactly what roles you should target, what you're worth, and how to talk about yourself.",
           "bullets": [
-            "Role targeting",
-            "Comp positioning",
-            "Strengths mapping"
+            "Role targeting that makes sense",
+            "Compensation benchmarking",
+            "Your core story, refined"
           ]
         },
         {
-          "title": "Brand Assets",
-          "tag": "Signal",
-          "body": "Recruiter-ready resume + LinkedIn tailored to your level.",
+          "title": "Materials That Work",
+          "tag": "Visibility",
+          "body": "A resume and LinkedIn profile that make people want to talk to you.",
           "bullets": [
-            "Impact bullets",
-            "ATS-ready formatting",
-            "LinkedIn headline + about"
+            "Results-focused resume",
+            "LinkedIn that attracts",
+            "Pitch that lands"
           ]
         },
         {
-          "title": "Interview + Offer Plan",
-          "tag": "Conversion",
-          "body": "A focused interview system and negotiation strategy.",
+          "title": "Confidence to Close",
+          "tag": "Execution",
+          "body": "Interview prep and negotiation strategy so you don't leave anything on the table.",
           "bullets": [
-            "Interview story bank",
-            "Mock interview",
-            "Negotiation script"
+            "Stories that stick",
+            "Mock interview practice",
+            "Negotiation playbook"
           ]
         }
       ]
     },
     "investment": {
-      "title": "Investment & fit",
-      "subtitle": "Engagements are scoped to your target level and timeline.",
+      "title": "What it costs",
+      "subtitle": "Packages start at $699. Most clients choose the $999 option.",
       "items": [
-        "Most clients start with Positioning Blueprint + Brand Assets, then add interview/offer support as interviews begin.",
-        "You\u2019ll receive a clear scope, timeline, and investment after the call."
+        "You get a clear scope and timeline after our call",
+        "No surprises, no upsells, no pressure"
       ]
     },
     "risk": {
-      "title": "No\u2011pressure decision",
-      "body": "If we\u2019re not the right fit, we\u2019ll tell you quickly and still give you next steps.",
+      "title": "What if we're not a fit?",
+      "body": "Then I'll tell you. And you'll still leave with value.",
       "items": [
-        "Clear action plan you can execute",
-        "Referrals to the right resource if needed"
+        "A clear action plan you can execute yourself",
+        "Honest feedback on what's holding you back"
       ]
     },
     "related": {
-      "title": "Ready to start?",
-      "body": "Choose your fastest path to momentum.",
-      "primaryLabel": "Book a Call",
+      "title": "Ready?",
+      "body": "Let's figure out what's been getting in your way.",
+      "primaryLabel": "Book Your Free Strategy Call",
       "primaryLink": "https://bookings.askia.tech/#/clarity",
-      "secondaryLabel": "Explore Services",
+      "secondaryLabel": "See All Services",
       "secondaryLink": "/services/"
     },
     "faq": {
-      "title": "Frequently asked questions",
-      "subtitle": "Short answers before you book.",
+      "title": "Questions you might have",
+      "subtitle": "The stuff people usually ask before we talk.",
       "items": [
         {
-          "question": "What roles do you specialize in?",
-          "answer": "We support professionals across tech, finance, operations, sales, marketing, healthcare administration, and leadership roles. If you\u2019re unsure, we\u2019ll confirm fit on the call."
+          "question": "What types of roles do you help with?",
+          "answer": "Tech, finance, operations, marketing, sales, healthcare administration, and leadership roles. Senior ICs to executives. If you're not sure if we can help, just ask — we'll be honest."
         },
         {
-          "question": "How quickly can I see results?",
-          "answer": "Most clients see interview momentum within 2\u20136 weeks once positioning is dialed in."
+          "question": "How fast will I see results?",
+          "answer": "Most clients land their first real interview within 3 weeks. Full job search timelines vary, but we move fast."
         },
         {
-          "question": "Do you guarantee offers?",
-          "answer": "We don\u2019t control hiring decisions, but we guarantee a clear strategy, aligned materials, and execution support."
+          "question": "Do you guarantee I'll get a job?",
+          "answer": "No one can guarantee that. But we can guarantee you'll have the best possible materials, a clear strategy, and real preparation. What you do with it is up to you."
         },
         {
-          "question": "Is this only for leaders?",
-          "answer": "No. We work with senior ICs, managers, and leaders. Your level determines the strategy and deliverables."
-        },
-        {
-          "question": "What if I\u2019m unsure of my next role?",
-          "answer": "That\u2019s common. We start by narrowing role families and positioning based on your strengths and market demand."
+          "question": "What if I don't know what role I want?",
+          "answer": "That's more common than you'd think. We start by figuring out where your experience translates best. You don't need to have it all figured out."
         },
         {
           "question": "Can you help with negotiation?",
-          "answer": "Yes. We build a negotiation plan tied to comp bands and leverage."
+          "answer": "Yes. We help you understand your leverage, prepare your ask, and handle the conversation. Most clients negotiate significantly more than they would have on their own."
         },
         {
-          "question": "Do you offer resume-only work?",
-          "answer": "Yes \u2014 but it\u2019s built around role targeting and market signal, not just formatting."
+          "question": "What if I just need my resume fixed?",
+          "answer": "We offer that a la carte. But honestly, a better resume alone rarely solves the whole problem. We'll help you figure out what you actually need."
         },
         {
           "question": "How do I get started?",
-          "answer": "Book a call and we\u2019ll map the shortest path to your target role."
+          "answer": "Book a call. We'll talk for 15 minutes, figure out where you are, and map out next steps. No pressure."
         }
       ]
     },
     "cta": {
-      "title": "Land a role that matches your level",
-      "body": "Book a strategy call and we\u2019ll build the plan.",
-      "label": "Book a Call",
+      "title": "You've waited long enough",
+      "body": "Book a call. Let's figure out what's been holding you back and how to fix it.",
+      "label": "Book Your Free Strategy Call",
       "link": "https://bookings.askia.tech/#/clarity"
     },
-    "metaTitle": "Land the Right\u2011Level Role | Askia",
-    "metaDescription": "Outcome\u2011focused career coaching to refine your signal, interviews, and offer strategy.",
+    "metaTitle": "Land the Role You Actually Deserve | Askia",
+    "metaDescription": "Career coaching for professionals who are tired of being overlooked. Get clear, get seen, get offers.",
     "roleLinks": {
-      "eyebrow": "Role tracks",
-      "title": "Find a path built for your role",
-      "subtitle": "Role tracks tailored to how hiring works in each function.",
+      "eyebrow": "Find your path",
+      "title": "Coaching tailored to your field",
+      "subtitle": "Every role has its own challenges. We speak your language.",
       "sticky": true,
       "items": [
         {
-          "title": "Software Engineer",
+          "title": "Software Engineers",
           "tag": "Tech",
-          "body": "System design and scope positioning.",
+          "body": "From Senior to Staff and beyond.",
           "url": "/software-engineer-career-coaching/"
         },
         {
-          "title": "Data (DE/DS/Analytics)",
+          "title": "Data Professionals",
           "tag": "Tech",
-          "body": "Impact narratives for data roles.",
+          "body": "DE, DS, Analytics — make your impact visible.",
           "url": "/data-career-coaching/"
         },
         {
-          "title": "Product Manager",
+          "title": "Product Managers",
           "tag": "Tech",
-          "body": "Strategy and stakeholder signal.",
+          "body": "Prove your value without writing code.",
           "url": "/product-manager-career-coaching/"
         },
         {
           "title": "Finance & FP&A",
           "tag": "Finance",
-          "body": "Executive\u2011ready finance narrative.",
+          "body": "Turn spreadsheets into strategy.",
           "url": "/finance-fpa-career-coaching/"
         },
         {
           "title": "Marketing & Growth",
           "tag": "Marketing",
-          "body": "Pipeline and revenue impact signal.",
+          "body": "Show the revenue behind the campaigns.",
           "url": "/marketing-career-coaching/"
         },
         {
           "title": "Operations",
           "tag": "Ops",
-          "body": "Systems, scale, and execution signal.",
+          "body": "Make your systems thinking shine.",
           "url": "/operations-career-coaching/"
         },
         {
           "title": "Sales",
           "tag": "Sales",
-          "body": "Revenue impact and leadership scope.",
+          "body": "Go beyond quota to leadership.",
           "url": "/sales-career-coaching/"
         },
         {
-          "title": "People Ops & HR",
+          "title": "People & HR",
           "tag": "People",
-          "body": "Org impact and talent strategy.",
+          "body": "Show the business impact of culture.",
           "url": "/people-ops-career-coaching/"
         }
       ]

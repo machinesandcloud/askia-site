@@ -1,63 +1,63 @@
 {
   "hero": {
-    "title": "About Askia — Career coaching built for signal",
-    "subtitle": "We turn high‑potential careers into clear, decisive narratives — then help you execute with confidence.",
-    "ctaLabel": "Book a Call",
+    "title": "We exist because talented people shouldn't feel invisible",
+    "subtitle": "You've done the work. Built the things. Led the teams. But somehow, the job market doesn't see it. We're here to change that.",
+    "ctaLabel": "Let's Talk",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "proof": "Built for ambitious professionals across tech, business, and healthcare."
+    "proof": "Helping professionals across tech, finance, healthcare, and operations land roles they actually deserve."
   },
   "stats": [
-    { "label": "Clients coached", "value": "300+" },
-    { "label": "Offer strategies shipped", "value": "1,200+" },
-    { "label": "Avg. timeline", "value": "2–6 weeks" }
+    { "label": "Professionals coached", "value": "300+" },
+    { "label": "Career transformations", "value": "1,200+" },
+    { "label": "Average time to first interview", "value": "3 weeks" }
   ],
   "values": [
     {
-      "title": "Signal over noise",
-      "body": "We remove the fluff and build a narrative that recruiters and hiring managers can feel immediately."
+      "title": "Clarity over noise",
+      "body": "The job market is full of generic advice that doesn't work. We cut through it. Every conversation, every edit, every strategy is focused on what actually moves the needle for you."
     },
     {
-      "title": "Momentum is engineered",
-      "body": "We don’t leave outcomes to chance. Every step is designed to convert to interviews and offers."
+      "title": "Momentum is built, not wished for",
+      "body": "Hope is not a strategy. We build systems that create real conversations with real decision-makers. When you follow the process, results follow."
     },
     {
-      "title": "Confidence is a system",
-      "body": "Interview performance isn’t a vibe — it’s a repeatable framework you can trust under pressure."
+      "title": "Confidence comes from preparation",
+      "body": "That calm, assured presence in interviews? It's not a personality trait. It's what happens when you've done the work and you know exactly what you're going to say."
     }
   ],
   "story": {
-    "title": "Why Askia exists",
-    "body": "Most talented people aren’t losing because they lack skill — they’re losing because they lack signal. Askia exists to change that. We help you translate your experience into a compelling narrative, build a smart search strategy, and execute interviews with calm, confident precision."
+    "title": "Why we built Askia",
+    "body": "Here's a pattern we kept seeing: brilliant professionals — people who'd shipped products, led teams, solved hard problems — completely stuck in their job search. Sending applications into the void. Getting ghosted after promising interviews. Watching less qualified people land the roles they wanted.\n\nThe problem was never their talent. It was how they talked about it.\n\nThey'd list responsibilities instead of results. They'd undersell their impact. They'd walk into interviews without a clear story and hope for the best.\n\nAskia exists to fix that gap. We help you see your own value clearly, articulate it powerfully, and present it in a way that makes the right people pay attention."
   },
   "founder": {
     "name": "Steve J. Ngoumnai",
-    "role": "Founder · Career Strategist",
+    "role": "Founder & Career Strategist",
     "photo": "/assets/team/steve-2026.jpg",
-    "body": "Steve is a former engineering leader who built Askia to solve a simple problem: top talent shouldn’t be invisible. His approach blends real hiring‑table insight with crisp positioning and execution‑focused coaching."
+    "body": "I spent over a decade as an engineering leader. I've built teams, reviewed thousands of resumes, and made hiring decisions at every level. I know exactly what makes someone memorable in an interview — and what makes them forgettable.\n\nI started Askia because I kept meeting talented people who had no idea how good they were. They'd downplay their accomplishments, stumble through interviews, and settle for roles beneath them. I wanted to change that.\n\nNow I help professionals see themselves the way hiring managers should see them — and make sure that's exactly what comes across."
   },
   "team": [
     {
       "name": "Maya Lopez",
       "role": "Interview Coach",
       "photo": "/assets/team/sophia.jpg",
-      "bio": "Former hiring manager turned interview strategist. Maya is known for turning scattered answers into crisp, memorable stories."
+      "bio": "Former hiring manager with a gift for turning scattered thoughts into memorable stories. Maya has helped hundreds of candidates walk into interviews with confidence and walk out with offers."
     },
     {
       "name": "Derek Tran",
       "role": "Resume Strategist",
       "photo": "/assets/team/derek.jpg",
-      "bio": "Ex‑recruiter who obsesses over signal. Derek rebuilds resumes and LinkedIn profiles so they read like a decision‑maker wrote them."
+      "bio": "Ex-recruiter who spent years watching good candidates get overlooked because of bad resumes. Now he rebuilds them to be impossible to ignore."
     },
     {
       "name": "Sophia Reed",
       "role": "Career Operations",
       "photo": "/assets/team/maya.jpg",
-      "bio": "Process architect behind the scenes. Sophia keeps every engagement fast, clear, and on track from day one."
+      "bio": "The engine behind every engagement. Sophia makes sure nothing falls through the cracks and every client gets exactly what they need, exactly when they need it."
     }
   ],
   "cta": {
-    "title": "Ready to build your momentum?",
-    "body": "Let’s map the fastest path to interviews and offers that match your value.",
+    "title": "Ready to be seen for what you're actually worth?",
+    "body": "Let's have a conversation. We'll figure out what's been holding you back and map out a clear path forward.",
     "ctaLabel": "Book Your Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity"
   }

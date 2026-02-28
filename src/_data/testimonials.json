@@ -1,8 +1,8 @@
 {
   "hero": {
-    "title": "Client Success Stories for $100K–$350K Roles",
-    "subtitle": "Trusted by professionals to land $100K\u2013$350K roles.",
-    "ctaLabel": "Book a Call",
+    "title": "Real people. Real results.",
+    "subtitle": "They were stuck, frustrated, and wondering if they'd ever land the right role. Then something clicked.",
+    "ctaLabel": "Start Your Story",
     "ctaLink": "https://bookings.askia.tech/#/clarity"
   },
   "items": [
@@ -278,9 +278,9 @@
     }
   ],
   "cta": {
-    "title": "Book your free strategy call",
-    "body": "Ready to take the next step? Let\u2019s build a plan that gets results.",
-    "ctaLabel": "Book Your Free Strategy Call",
+    "title": "Your story could be next",
+    "body": "Every one of these people was exactly where you are now. Let's talk about what's holding you back.",
+    "ctaLabel": "Book a Free Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity"
   }
 }
