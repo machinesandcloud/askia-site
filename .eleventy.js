@@ -18,6 +18,12 @@ module.exports = function (eleventyConfig) {
     return date.toUTCString();
   });
 
+  eleventyConfig.addFilter("isoDate", (value) => {
+    if (!value) return "";
+    const date = value instanceof Date ? value : new Date(value);
+    return date.toISOString().split("T")[0];
+  });
+
   eleventyConfig.addTransform("stripHallucinatedSections", (content, outputPath) => {
     if (!outputPath || !outputPath.endsWith(".html")) return content;
     const visibilityRe = new RegExp("<h2>Visibility signals that convert<\\\\/h2>\\\\s*<p>[\\\\s\\\\S]*?<\\\\/p>", "gi");
