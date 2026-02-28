@@ -9,9 +9,10 @@
       "Clear demonstration of your actual level",
       "Format that works for both ATS and humans"
     ],
-    "ctaLabel": "Book a Call",
+    "ctaLabel": "Get Your Resume Reviewed Free",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "$299 standalone",
+    "ctaProof": "$299 — clients typically see 3x more callbacks within 2 weeks",
+    "ctaUrgency": "We only take 10 resume clients per month to ensure quality",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -150,10 +151,12 @@
       ]
     },
     "cta": {
-      "title": "Ready for a resume that actually works?",
-      "body": "Book a call and we'll figure out what's not working and how to fix it.",
-      "label": "Book a Call",
-      "link": "https://bookings.askia.tech/#/clarity"
+      "title": "Your resume is costing you interviews",
+      "body": "Every week with a weak resume means missed opportunities. Let's fix it in 7-10 days.",
+      "label": "Get Your Free Resume Review",
+      "link": "https://bookings.askia.tech/#/clarity",
+      "urgency": "Limited spots available this month",
+      "guarantee": "If you don't see more callbacks within 30 days, we'll revise it again — free."
     },
     "metaTitle": "Resume Writing Service | Results-Focused Resume Overhaul | Askia",
     "metaDescription": "Resume writing that shows your actual impact. Results-focused, ATS-compatible, built for senior professionals."

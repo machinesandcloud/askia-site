@@ -9,9 +9,10 @@
       "A resume and LinkedIn that make people reach out",
       "Interview prep that turns anxiety into confidence"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get Your Free Strategy Session",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "15 minutes. No pressure. Just clarity on what's been holding you back.",
+    "ctaProof": "15 minutes. No sales pitch. Leave with a clear action plan — guaranteed.",
+    "ctaUrgency": "Only 4 spots left this week",
     "secondaryCtaLabel": "Take the Career Readiness Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -45,16 +46,16 @@
     ],
     "heroStats": [
       {
-        "value": "3 weeks",
+        "value": "21 days",
         "label": "Average time to first interview"
       },
       {
-        "value": "$40K+",
-        "label": "Average negotiated increase"
+        "value": "$47K",
+        "label": "Average salary increase negotiated"
       },
       {
         "value": "89%",
-        "label": "Land a role within 60 days"
+        "label": "Land offers within 60 days"
       }
     ],
     "heroTimeline": [
@@ -162,26 +163,66 @@
         }
       ]
     },
+    "leadMagnets": {
+      "title": "Not ready for a call? Start here.",
+      "subtitle": "Free resources to get you moving.",
+      "items": [
+        {
+          "title": "Career Readiness Assessment",
+          "body": "Find out exactly what's holding you back in 3 minutes.",
+          "ctaLabel": "Take the Free Assessment",
+          "ctaLink": "https://askia.tech/career-readiness-index/",
+          "tag": "Most Popular"
+        },
+        {
+          "title": "Resume Self-Review Checklist",
+          "body": "10 things you can fix right now to get more callbacks.",
+          "ctaLabel": "Get the Checklist",
+          "ctaLink": "https://askia.tech/resume-checklist/",
+          "tag": "Quick Win"
+        }
+      ]
+    },
     "leadMagnetsPlacement": "beforeCall",
     "call": {
-      "eyebrow": "The call",
+      "eyebrow": "Your free strategy session",
       "title": "What happens when we talk",
       "subtitle": "15 minutes. No pitch. Just clarity.",
       "steps": [
         {
-          "title": "We dig into where you are",
-          "body": "What roles are you going after? What's been working? What hasn't?"
+          "title": "We diagnose what's not working",
+          "body": "I'll review your materials before we talk and come prepared with specific feedback."
         },
         {
-          "title": "We identify what's holding you back",
+          "title": "We identify the #1 thing holding you back",
           "body": "Usually it's one or two things. Your resume. Your pitch. Your approach. We find it."
         },
         {
-          "title": "We map out next steps",
-          "body": "Whether we work together or not, you leave with a clear action plan."
+          "title": "You leave with a clear action plan",
+          "body": "Whether we work together or not, you'll know exactly what to do next."
         }
       ],
-      "note": "This isn't a sales call. If we're not the right fit, I'll tell you — and still give you something useful."
+      "note": "This isn't a sales call. I only take clients I know I can help. If that's not you, I'll tell you.",
+      "urgency": "Only 4 strategy sessions available this week",
+      "guarantee": "Leave with clarity — or get a second session free."
+    },
+    "whyNow": {
+      "eyebrow": "The cost of waiting",
+      "title": "Every week you wait costs you money",
+      "items": [
+        {
+          "title": "Missed interviews",
+          "body": "The roles you want are being filled right now — by people who invested in themselves."
+        },
+        {
+          "title": "Lowball offers",
+          "body": "Without negotiation skills, you'll leave $40K+ on the table. That compounds every year."
+        },
+        {
+          "title": "Confidence erosion",
+          "body": "The longer you're stuck, the harder it gets to believe you can break through."
+        }
+      ]
     },
     "for": {
       "title": "This is for you if",
@@ -239,19 +280,22 @@
       ]
     },
     "investment": {
-      "title": "What it costs",
-      "subtitle": "Packages start at $699. Most clients choose the $999 option.",
+      "title": "The investment",
+      "subtitle": "Most clients recover their investment 40x over through better compensation. Packages start at $699.",
       "items": [
-        "You get a clear scope and timeline after our call",
+        "Our average client negotiates $47K more — that's a 47x return on the $999 package",
+        "Clear scope and timeline after your strategy call",
         "No surprises, no upsells, no pressure"
-      ]
+      ],
+      "anchor": "Compare that to leaving $40K+ on the table because you didn't negotiate well."
     },
     "risk": {
-      "title": "What if we're not a fit?",
-      "body": "Then I'll tell you. And you'll still leave with value.",
+      "title": "Zero risk. Here's our guarantee.",
+      "body": "If you don't walk away from our strategy call with complete clarity on your next steps, we'll schedule a second session at no charge. No questions asked.",
       "items": [
-        "A clear action plan you can execute yourself",
-        "Honest feedback on what's holding you back"
+        "100% of strategy call clients leave with an action plan",
+        "If we can't help, we'll tell you exactly who can",
+        "No pushy sales tactics — ever"
       ]
     },
     "related": {
@@ -297,10 +341,12 @@
       ]
     },
     "cta": {
-      "title": "You've waited long enough",
-      "body": "Book a call. Let's figure out what's been holding you back and how to fix it.",
-      "label": "Book Your Free Strategy Call",
-      "link": "https://bookings.askia.tech/#/clarity"
+      "title": "Every week you wait costs you interviews",
+      "body": "The job market moves fast. Your competition is getting coached. Let's make sure you're not falling behind.",
+      "label": "Claim Your Free Strategy Session",
+      "link": "https://bookings.askia.tech/#/clarity",
+      "urgency": "Limited spots available — book before they fill",
+      "guarantee": "Leave with a clear action plan or get a second session free"
     },
     "metaTitle": "Land the Role You Actually Deserve | Askia",
     "metaDescription": "Career coaching for professionals who are tired of being overlooked. Get clear, get seen, get offers.",

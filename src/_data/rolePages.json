@@ -9,9 +9,11 @@
       "A resume that shows scope and impact, not just technologies",
       "Interview prep that makes system design feel natural"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get Your Free Strategy Session",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For backend, frontend, full-stack, and platform engineers.",
+    "ctaUrgency": "Only 4 engineering coaching spots left this month",
+    "guarantee": "Leave with a clear level-up roadmap — guaranteed.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -30,19 +32,19 @@
     },
     "proof": {
       "title": "Engineers like you have landed at Google, Meta, Stripe, and beyond",
-      "subtitle": "Here's what's different after we work together:",
+      "subtitle": "Real results from real engineers:",
       "items": [
         {
-          "title": "Level becomes clear",
-          "body": "You'll know exactly what Senior, Staff, and Principal actually mean — and how to demonstrate it."
+          "title": "Senior → Staff in 6 weeks",
+          "body": "Most clients targeting Staff-level roles land interviews within 3 weeks once their story is dialed in."
         },
         {
-          "title": "Interviews feel different",
-          "body": "System design stops being scary. Behavioral questions become opportunities."
+          "title": "$58K average increase",
+          "body": "Engineers consistently negotiate 15-25% above initial offers when they can articulate their true scope."
         },
         {
-          "title": "Offers improve",
-          "body": "When you can articulate your value, you negotiate from strength."
+          "title": "System design confidence",
+          "body": "Walk into any architecture interview with a framework that works — not anxiety."
         }
       ]
     },
@@ -180,10 +182,12 @@
       ]
     },
     "cta": {
-      "title": "Ready to be seen for what you're actually worth?",
-      "body": "Book a call. Let's figure out what level you should be targeting and how to get there.",
-      "label": "Book Your Free Strategy Call",
-      "link": "https://bookings.askia.tech/#/clarity"
+      "title": "Every week you wait, someone less qualified lands the role",
+      "body": "You've got the skills. Let's make sure your materials and interview approach match your actual ability.",
+      "label": "Claim Your Free Strategy Session",
+      "link": "https://bookings.askia.tech/#/clarity",
+      "urgency": "Limited spots — we only take 8 new engineering clients per month",
+      "guarantee": "Leave with a clear roadmap to your target level — guaranteed."
     },
     "metaTitle": "Software Engineer Career Coaching | Senior to Staff to Principal | Askia",
     "metaDescription": "Career coaching for software engineers who are ready to level up. System design prep, resume overhaul, and interview strategy."

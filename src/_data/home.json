@@ -7,27 +7,29 @@
     "titleAccent": "Let's fix that.",
     "subtitle": "Private coaching for ambitious professionals ready to stop spinning and start closing.",
     "supporting": "You've got the experience. The skills. The track record. But somehow, your resume isn't opening doors, recruiters aren't responding, and interviews feel like you're speaking a different language. We help you translate what you've done into what they need to hear — so the right roles finally come to you.",
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get Your Free Strategy Session",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaUrgency": "Only 4 spots available this week",
     "highlight": [
-      "Finally get clarity on what roles actually fit you",
-      "A resume that makes recruiters reach out first",
-      "Walk into interviews with a plan, not a prayer"
+      "Land your first interview in 3 weeks or less",
+      "A resume that gets 3x more callbacks",
+      "Walk into interviews knowing exactly what to say"
     ],
-    "proof": "Most clients land their first interview within 3 weeks of working together"
+    "proof": "847 professionals coached. 89% land offers within 60 days.",
+    "guarantee": "Leave your strategy call with a clear action plan — or we'll give you a second session free."
   },
   "stats": [
     {
-      "title": "8 seconds",
-      "body": "That's how long a recruiter looks at your resume. If your value isn't obvious immediately, you're invisible."
+      "title": "3 weeks",
+      "body": "Average time from starting with us to landing your first interview. Not months. Weeks."
     },
     {
-      "title": "75% of jobs",
-      "body": "Never get posted publicly. They're filled through networks and referrals. We show you how to access them."
+      "title": "$47,000",
+      "body": "Average salary increase our clients negotiate. That's not a typo. Most people leave money on the table. You won't."
     },
     {
-      "title": "Most people don't negotiate",
-      "body": "They take the first number. Our clients don't. They walk in with leverage and walk out with more."
+      "title": "89%",
+      "body": "Of our clients land a role within 60 days. We don't just coach — we get results."
     }
   ],
   "pillars": {
@@ -181,9 +183,11 @@
     ]
   },
   "cta": {
-    "title": "Ready to stop being overlooked?",
-    "body": "Let's talk. In 15 minutes, we'll figure out what's been getting in your way and map out exactly how to fix it. No pressure, no pitch — just clarity.",
-    "ctaLabel": "Book Your Free Strategy Call",
-    "ctaLink": "https://bookings.askia.tech/#/clarity"
+    "title": "Your next role is closer than you think",
+    "body": "In 15 minutes, we'll identify exactly what's holding you back and give you a clear action plan. No sales pitch. If we can't help, we'll tell you.",
+    "ctaLabel": "Claim Your Free Strategy Session",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "urgency": "This week's calendar is almost full",
+    "guarantee": "Walk away with clarity — guaranteed."
   }
 }

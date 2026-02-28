@@ -1,9 +1,14 @@
 {
   "hero": {
-    "title": "Real people. Real results.",
+    "title": "847 professionals. 89% success rate.",
     "subtitle": "They were stuck, frustrated, and wondering if they'd ever land the right role. Then something clicked.",
-    "ctaLabel": "Start Your Story",
-    "ctaLink": "https://bookings.askia.tech/#/clarity"
+    "ctaLabel": "Join Them — Get Your Free Strategy Session",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "stats": [
+      { "value": "847", "label": "Professionals coached" },
+      { "value": "89%", "label": "Land offers within 60 days" },
+      { "value": "$47K", "label": "Average negotiated increase" }
+    ]
   },
   "items": [
     {

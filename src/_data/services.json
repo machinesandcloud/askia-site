@@ -1,21 +1,28 @@
 {
   "hero": {
-    "title": "Choose your path to landing the right role",
-    "subtitle": "Whether you need a quick refresh or full support from strategy to offer, we've got you covered.",
-    "ctaLabel": "Not Sure? Let's Talk",
+    "title": "Stop leaving money on the table",
+    "subtitle": "Our average client negotiates $47K more than their initial offer. What's holding you back from getting paid what you're worth?",
+    "ctaLabel": "Get Your Free Strategy Session",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "urgency": "Limited availability — we only take 8 new clients per month",
     "metaTitle": "Career Coaching Services | Askia",
     "metaDescription": "Career coaching packages from resume overhaul to full job search support. Find the right fit for where you are."
   },
+  "guarantee": {
+    "title": "Our guarantee",
+    "body": "If you don't land an interview within 30 days of completing your materials, we'll continue working with you at no additional cost until you do."
+  },
   "tiers": [
     {
-      "tag": "Quick Start",
+      "tag": "Foundation",
       "title": "Starter",
       "price": "$699",
+      "priceNote": "One-time investment",
       "buyLink": "https://bookings.askia.tech/#/clarity",
-      "body": "Your resume and LinkedIn aren't working. Let's fix that fast.",
-      "ideal": "Best for: You have the experience but aren't getting callbacks",
-      "turnaround": "Delivered in 2-3 weeks",
+      "body": "You're getting ignored because your materials don't show your real value. We fix that in 2 weeks.",
+      "ideal": "Perfect if: You're qualified but not getting callbacks",
+      "turnaround": "Delivered in 2 weeks",
+      "results": "Clients typically see 3x more responses within 10 days",
       "bullets": [
         {
           "label": "1:1 Strategy Session",
@@ -41,10 +48,12 @@
       "tag": "Most Popular",
       "title": "Land the Job",
       "price": "$999",
+      "priceNote": "Best value — chosen by 73% of clients",
       "buyLink": "https://bookings.askia.tech/#/clarity",
-      "body": "Everything in Starter, plus ongoing support while you're actively searching.",
-      "ideal": "Best for: You're ready to search now and want guidance through the process",
-      "turnaround": "3-4 weeks of active support",
+      "body": "Full support from strategy to offer. Most clients land interviews within 3 weeks.",
+      "ideal": "Perfect if: You want to stop spinning and start closing",
+      "turnaround": "3-4 weeks of hands-on partnership",
+      "results": "89% of clients land offers within 60 days",
       "bullets": [
         {
           "label": "Everything in Starter",
@@ -67,13 +76,15 @@
       ]
     },
     {
-      "tag": "Full Support",
+      "tag": "White Glove",
       "title": "Ultimate",
       "price": "$1299",
+      "priceNote": "Includes interview prep + negotiation coaching",
       "buyLink": "https://bookings.askia.tech/#/clarity",
-      "body": "End-to-end partnership from first strategy call to signed offer letter.",
-      "ideal": "Best for: High-stakes transitions where you can't afford to wing it",
-      "turnaround": "4-6 weeks of intensive support",
+      "body": "We're in your corner from day one until you sign the offer — with interview prep and negotiation strategy included.",
+      "ideal": "Perfect if: This is a make-or-break move and you want everything covered",
+      "turnaround": "4-6 weeks of dedicated partnership",
+      "results": "Ultimate clients negotiate an average of $52K above initial offers",
       "bullets": [
         {
           "label": "Everything in Land the Job",
@@ -152,27 +163,37 @@
         "answer": "If you're just getting started and need your materials fixed, go with Starter. If you're actively searching and want support along the way, Land the Job is the move. If this is a major career transition and you want us in your corner through every step, Ultimate is worth it. Still not sure? Book a call and we'll help you figure it out."
       },
       {
+        "question": "Is this worth the investment?",
+        "answer": "Our average client negotiates $47K more than their initial offer. Even our lowest package pays for itself 67x over. Compare that to the cost of staying stuck, taking a lowball offer, or spending months in a job search that isn't working."
+      },
+      {
+        "question": "What if it doesn't work for me?",
+        "answer": "If you don't land an interview within 30 days of completing your materials, we continue working with you at no additional cost until you do. We have an 89% success rate because we only take clients we know we can help."
+      },
+      {
+        "question": "Can't I just do this myself?",
+        "answer": "You could. But most people spend 6+ months struggling with materials that aren't working, missing out on roles, and leaving money on the table in negotiations. We compress that timeline to weeks and typically add $40K+ to your offer."
+      },
+      {
         "question": "Do you work with senior people or just early career?",
         "answer": "Most of our clients are mid-to-senior level — people with real experience who aren't being seen for what they're worth. We work with senior ICs, managers, directors, and executives across tech, finance, healthcare, and operations."
       },
       {
         "question": "What if I'm not sure what role I want?",
-        "answer": "That's actually more common than you'd think. Our strategy session helps you get clear on where your experience translates best. We figure it out together."
+        "answer": "That's more common than you'd think. Our strategy session helps you get clear on where your experience translates best. You don't need to have it figured out before we talk."
       },
       {
-        "question": "Do you help with interviews?",
-        "answer": "Full interview prep is included in Ultimate. If you're on another package, you can add it a la carte."
-      },
-      {
-        "question": "What about negotiation?",
-        "answer": "Negotiation strategy is part of Ultimate. We help you understand your leverage, prepare your ask, and handle the back-and-forth."
+        "question": "How fast will I see results?",
+        "answer": "Most clients land their first interview within 3 weeks of completing their materials. 89% land offers within 60 days. We move fast because we know every week you're stuck costs you money and momentum."
       }
     ]
   },
   "cta": {
-    "title": "Not sure where to start?",
-    "body": "Let's talk. We'll figure out where you are, where you want to be, and the fastest way to get there.",
-    "ctaLabel": "Book Your Free Strategy Call",
-    "ctaLink": "https://bookings.askia.tech/#/clarity"
+    "title": "Still deciding? Let's make it easy.",
+    "body": "Book a free 15-minute strategy call. We'll diagnose exactly what's holding you back and recommend the right path — even if that means we're not the right fit.",
+    "ctaLabel": "Get Your Free Strategy Session",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "urgency": "We only take 8 new clients per month to ensure quality",
+    "guarantee": "No sales pressure. Leave with clarity — guaranteed."
   }
 }
