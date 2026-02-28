@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "eleventy --serve --config=.eleventy.js",
     "build": "eleventy --config=.eleventy.js",
-    "serve": "eleventy --serve --config=.eleventy.js"
+    "serve": "eleventy --serve --config=.eleventy.js",
+    "indexnow": "node scripts/indexnow-submit.js",
+    "deploy": "npm run build && npm run indexnow"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"

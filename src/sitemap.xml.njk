@@ -8,6 +8,12 @@ layout: null
     {% if entry.url and entry.data.sitemap != false and entry.url != "/sitemap.xml" and entry.url != "/robots.txt" %}
   <url>
     <loc>{{ site.url }}{{ entry.url }}</loc>
+    {% if entry.date %}<lastmod>{{ entry.date | date: "%Y-%m-%d" }}</lastmod>{% endif %}
+    {% if entry.url == "/" %}<changefreq>weekly</changefreq><priority>1.0</priority>
+    {% elif entry.url == "/services/" or entry.url == "/land-your-next-role/" %}<changefreq>weekly</changefreq><priority>0.9</priority>
+    {% elif entry.url == "/blog/" %}<changefreq>daily</changefreq><priority>0.8</priority>
+    {% elif entry.url and entry.url.startsWith("/blog/") %}<changefreq>monthly</changefreq><priority>0.7</priority>
+    {% else %}<changefreq>monthly</changefreq><priority>0.6</priority>{% endif %}
   </url>
     {% endif %}
   {% endfor %}
