@@ -1,0 +1,613 @@
+{
+  "roles": {
+    "softwareEngineer": {
+      "eyebrow": "Role Hub",
+      "title": "Software Engineer Career Resources",
+      "subtitle": "System design narratives, scope ladders, and impact metrics for Senior, Staff, and Principal roles.",
+      "shortAnswer": "To land senior SWE roles, lead with system-level impact, show ownership of ambiguous problems, and demonstrate cross-team influence. Your resume should read like a technical decision log, not a task list.",
+      "decisionRules": {
+        "doFirst": [
+          "You're targeting Senior, Staff, or Principal IC roles",
+          "Your current resume lists technologies but not impact",
+          "You've led technical decisions but struggle to articulate them"
+        ],
+        "skip": [
+          "You're just starting your engineering career (< 2 years)",
+          "You're targeting management roles (see Engineering Manager hub)",
+          "Your current materials are already landing interviews"
+        ]
+      },
+      "checklist": {
+        "title": "Senior SWE Signal Checklist",
+        "subtitle": "What hiring teams look for at senior+ levels",
+        "items": [
+          {"title": "System ownership", "body": "Show you owned a system end-to-end, not just features within it."},
+          {"title": "Technical decision-making", "body": "Document tradeoffs you evaluated and why you chose your approach."},
+          {"title": "Scope and scale metrics", "body": "Include QPS, data volume, team size, or revenue impact where relevant."},
+          {"title": "Cross-team influence", "body": "Show how you aligned with product, design, or other engineering teams."},
+          {"title": "Mentorship signals", "body": "Even as an IC, show how you elevated others through code reviews or design docs."}
+        ]
+      },
+      "example": {
+        "before": "Built microservices using Go and Kubernetes.",
+        "after": "Designed and shipped a real-time event processing system handling 50K events/sec, reducing latency by 40% and enabling a new $2M product line.",
+        "note": "The 'after' version shows system ownership, scale, and business impact—all senior-level signals."
+      },
+      "evidence": [
+        {"stat": "3 weeks", "body": "Average time to first interview for SWE clients with optimized positioning", "source": "Askia client data"},
+        {"stat": "40%", "body": "Of senior SWE roles are filled through referrals, not applications", "source": "Industry research"},
+        {"stat": "$47K", "body": "Average compensation increase negotiated for SWE clients", "source": "Askia client outcomes"}
+      ],
+      "faq": [
+        {"question": "How long should a senior SWE resume be?", "answer": "One to two pages. The first page should do most of the work—put your strongest impact bullets there."},
+        {"question": "Should I list all technologies I know?", "answer": "No. Lead with impact and context. Technologies should support your story, not replace it."},
+        {"question": "How do I show Staff-level signal without the title?", "answer": "Emphasize cross-team projects, technical direction, and decisions that affected multiple systems or teams."},
+        {"question": "Do I need a portfolio or GitHub for SWE roles?", "answer": "For senior roles, your resume impact matters more. GitHub helps for early-career or if you have notable open-source work."},
+        {"question": "How do I prepare for system design interviews?", "answer": "Practice articulating tradeoffs. Draw from real systems you've built and focus on 'why' over 'what'."},
+        {"question": "What's the difference between Senior and Staff expectations?", "answer": "Senior owns features and systems. Staff owns technical direction across systems and influences org-wide decisions."}
+      ],
+      "cta": {
+        "title": "Ready to land your next SWE role?",
+        "body": "Book a strategy call and get personalized feedback on your positioning."
+      }
+    },
+    "devopsSre": {
+      "eyebrow": "Role Hub",
+      "title": "DevOps & SRE Career Resources",
+      "subtitle": "Incident stories, reliability scorecards, and infrastructure scope maps for platform and reliability roles.",
+      "shortAnswer": "DevOps and SRE roles require showing operational impact, incident leadership, and platform ownership. Quantify reliability improvements, cost savings, and developer velocity gains.",
+      "decisionRules": {
+        "doFirst": [
+          "You're targeting Senior DevOps, SRE, or Platform Engineering roles",
+          "Your resume focuses on tools rather than outcomes",
+          "You've improved reliability metrics but haven't articulated the business impact"
+        ],
+        "skip": [
+          "You're looking for pure software engineering roles (see SWE hub)",
+          "You're early-career without production ownership experience",
+          "You're targeting management (see Engineering Manager hub)"
+        ]
+      },
+      "checklist": {
+        "title": "DevOps/SRE Signal Checklist",
+        "subtitle": "Signals that hiring teams evaluate at senior levels",
+        "items": [
+          {"title": "Reliability metrics ownership", "body": "Show SLO/SLI improvements, incident reduction, or MTTR gains with numbers."},
+          {"title": "Platform scale", "body": "Include cluster sizes, request volumes, or infrastructure cost under management."},
+          {"title": "Incident leadership", "body": "Document how you led incident response, post-mortems, and systemic fixes."},
+          {"title": "Developer velocity impact", "body": "Show how your platform work accelerated other teams' delivery."},
+          {"title": "Cost optimization", "body": "Quantify infrastructure cost savings or efficiency improvements."}
+        ]
+      },
+      "example": {
+        "before": "Managed Kubernetes clusters and implemented CI/CD pipelines.",
+        "after": "Led platform team supporting 200+ engineers across 15 services. Reduced deployment time from 45 min to 8 min and improved P99 latency by 35% through observability improvements.",
+        "note": "The 'after' version shows scope, developer impact, and measurable reliability gains."
+      },
+      "evidence": [
+        {"stat": "89%", "body": "Of Askia DevOps/SRE clients land offers within 60 days", "source": "Askia client data"},
+        {"stat": "$165K", "body": "Median base salary for Senior SRE roles in major tech markets", "source": "Industry data"},
+        {"stat": "2x", "body": "Response rate improvement with infrastructure-focused positioning", "source": "Askia A/B testing"}
+      ],
+      "faq": [
+        {"question": "How do I differentiate DevOps vs SRE on my resume?", "answer": "DevOps emphasizes CI/CD and delivery velocity. SRE emphasizes reliability, SLOs, and incident response. Tailor based on the role."},
+        {"question": "Should I list every tool I've used?", "answer": "No. Group tools by category and lead with impact. Hiring teams care about what you achieved, not your tool inventory."},
+        {"question": "How do I show platform engineering scope?", "answer": "Quantify: how many services, engineers, or deployments per day your platform supports."},
+        {"question": "What's the best way to describe incident response experience?", "answer": "Lead with the outcome (systems stabilized, root cause found), then describe your role in the response."},
+        {"question": "How important are certifications for DevOps/SRE roles?", "answer": "Certifications can help for early-career. For senior roles, proven production experience matters more."}
+      ],
+      "cta": {
+        "title": "Ready to land your next DevOps/SRE role?",
+        "body": "Book a strategy call and get personalized feedback on your positioning."
+      }
+    },
+    "data": {
+      "eyebrow": "Role Hub",
+      "title": "Data Career Resources",
+      "subtitle": "Decision impact frameworks and pipeline ownership maps for Data Engineers, Data Scientists, and Analytics roles.",
+      "shortAnswer": "Data roles require showing business decision impact, not just technical execution. Lead with the decisions your work enabled and the revenue, cost, or strategic outcomes that followed.",
+      "decisionRules": {
+        "doFirst": [
+          "You're targeting Senior DE, DS, or Analytics roles",
+          "Your resume reads like a technical spec instead of a business impact summary",
+          "You've built pipelines or models but struggle to articulate their business value"
+        ],
+        "skip": [
+          "You're looking for pure ML/AI research roles",
+          "You're early-career without production data system ownership",
+          "Your current materials are already getting callbacks"
+        ]
+      },
+      "checklist": {
+        "title": "Data Role Signal Checklist",
+        "subtitle": "What hiring teams evaluate at senior levels",
+        "items": [
+          {"title": "Decision enablement", "body": "Show which business decisions your data work enabled and their outcomes."},
+          {"title": "Pipeline scale and reliability", "body": "Include data volumes, processing times, and reliability metrics."},
+          {"title": "Cross-functional impact", "body": "Show how you worked with product, engineering, or business teams."},
+          {"title": "Model or analysis outcomes", "body": "Quantify the business impact of your models or analyses (revenue, efficiency, accuracy)."},
+          {"title": "Data quality ownership", "body": "Show how you improved data quality, freshness, or trustworthiness."}
+        ]
+      },
+      "example": {
+        "before": "Built data pipelines using Spark and Airflow to process customer data.",
+        "after": "Designed customer segmentation pipeline processing 50M records daily, enabling personalized pricing that increased conversion by 12% ($3M annual impact).",
+        "note": "The 'after' version connects technical work to business outcomes."
+      },
+      "evidence": [
+        {"stat": "21 days", "body": "Average time to first interview for data clients", "source": "Askia client data"},
+        {"stat": "$52K", "body": "Average compensation increase for data role clients", "source": "Askia client outcomes"},
+        {"stat": "3x", "body": "More callbacks with outcome-focused data resumes", "source": "Askia A/B testing"}
+      ],
+      "faq": [
+        {"question": "Should I focus on tools or outcomes on my resume?", "answer": "Outcomes first. Mention tools as context, but lead with the business impact of your work."},
+        {"question": "How do I show Senior Data Engineer scope?", "answer": "Quantify pipeline scale (records, latency), reliability (uptime, SLAs), and team impact (users, decisions enabled)."},
+        {"question": "How do I describe ML model impact?", "answer": "Lead with the business metric improved (revenue, efficiency, accuracy), then describe the model approach."},
+        {"question": "What's the difference between DE and DS positioning?", "answer": "DE emphasizes infrastructure, scale, and reliability. DS emphasizes analysis, modeling, and decision support."},
+        {"question": "Do I need to know both Python and SQL?", "answer": "For most senior data roles, yes. Demonstrate proficiency through impact examples, not tool lists."}
+      ],
+      "cta": {
+        "title": "Ready to land your next data role?",
+        "body": "Book a strategy call and get personalized feedback on your positioning."
+      }
+    },
+    "productManager": {
+      "eyebrow": "Role Hub",
+      "title": "Product Manager Career Resources",
+      "subtitle": "Case study templates, metrics maps, and exec summary guides for PM roles at all levels.",
+      "shortAnswer": "PM roles require demonstrating business judgment, cross-functional leadership, and measurable product outcomes. Your resume should read like a portfolio of bets you made and how they paid off.",
+      "decisionRules": {
+        "doFirst": [
+          "You're targeting Senior PM, Group PM, or Director of Product roles",
+          "Your resume lists features shipped but not business outcomes",
+          "You've made product decisions but struggle to articulate your reasoning"
+        ],
+        "skip": [
+          "You're transitioning from engineering and need to establish PM fundamentals first",
+          "You're targeting technical PM roles (those lean more engineering)",
+          "Your current materials are already landing PM interviews"
+        ]
+      },
+      "checklist": {
+        "title": "PM Signal Checklist",
+        "subtitle": "What hiring teams evaluate at senior PM levels",
+        "items": [
+          {"title": "Business outcomes", "body": "Show revenue, retention, efficiency, or strategic metrics your products drove."},
+          {"title": "Product judgment", "body": "Document decisions you made, tradeoffs you considered, and why you chose your path."},
+          {"title": "Cross-functional leadership", "body": "Show how you aligned engineering, design, marketing, and other teams."},
+          {"title": "Customer insight", "body": "Demonstrate how you gathered and applied customer feedback to product decisions."},
+          {"title": "Strategic thinking", "body": "Show how your product work connected to company strategy or market positioning."}
+        ]
+      },
+      "example": {
+        "before": "Led development of mobile checkout feature with engineering team.",
+        "after": "Identified 40% cart abandonment on mobile checkout. Led cross-functional team to redesign flow, resulting in 22% conversion increase ($4.2M annual revenue).",
+        "note": "The 'after' version shows problem identification, leadership, and measurable business impact."
+      },
+      "evidence": [
+        {"stat": "3 weeks", "body": "Average time to first PM interview with optimized positioning", "source": "Askia client data"},
+        {"stat": "$45K", "body": "Average compensation increase for PM clients", "source": "Askia client outcomes"},
+        {"stat": "89%", "body": "Of PM clients land offers within 60 days", "source": "Askia client data"}
+      ],
+      "faq": [
+        {"question": "How do I show PM impact without revenue numbers?", "answer": "Use efficiency, engagement, or strategic metrics. If you can't share exact numbers, use percentages or directional results."},
+        {"question": "Should I include technical details on a PM resume?", "answer": "Only if relevant to the role. Lead with business outcomes and mention technical context where it adds credibility."},
+        {"question": "How many stories do I need for PM behavioral interviews?", "answer": "Prepare 6-8 strong stories that can flex across different question types (leadership, conflict, failure, etc.)."},
+        {"question": "How do I transition from engineering to PM?", "answer": "Emphasize product judgment you've shown as an engineer, customer empathy, and cross-functional work."},
+        {"question": "What's the difference between PM and TPM positioning?", "answer": "PM emphasizes business outcomes and product judgment. TPM emphasizes program execution and technical coordination."}
+      ],
+      "cta": {
+        "title": "Ready to land your next PM role?",
+        "body": "Book a strategy call and get personalized feedback on your positioning."
+      }
+    },
+    "engineeringManager": {
+      "eyebrow": "Role Hub",
+      "title": "Engineering Manager Career Resources",
+      "subtitle": "Scope mapping, org impact narratives, and leadership signal for EM, Director, and VP roles.",
+      "shortAnswer": "EM roles require showing team outcomes, hiring and retention success, and organizational impact. Your resume should demonstrate that your teams shipped because of how you led, not despite it.",
+      "decisionRules": {
+        "doFirst": [
+          "You're targeting EM, Director, or VP of Engineering roles",
+          "Your resume still reads like an IC listing your own technical contributions",
+          "You've led teams but struggle to articulate your leadership impact"
+        ],
+        "skip": [
+          "You're exploring IC vs management and want to stay flexible",
+          "You're a new manager with < 1 year of experience",
+          "You're targeting Staff+ IC roles (see SWE hub)"
+        ]
+      },
+      "checklist": {
+        "title": "EM Signal Checklist",
+        "subtitle": "What hiring teams evaluate for management roles",
+        "items": [
+          {"title": "Team outcomes", "body": "Show what your team delivered and the business impact of their work."},
+          {"title": "Team building", "body": "Document hiring, retention, and how you grew team capabilities."},
+          {"title": "Process improvement", "body": "Show how you improved delivery velocity, quality, or team health."},
+          {"title": "Cross-org influence", "body": "Demonstrate how you worked with product, design, and other engineering teams."},
+          {"title": "Strategic contribution", "body": "Show how you contributed to technical or organizational strategy."}
+        ]
+      },
+      "example": {
+        "before": "Managed a team of 8 engineers working on payment systems.",
+        "after": "Built and led payments team from 3 to 12 engineers over 18 months. Team shipped PCI-compliant checkout reducing payment failures by 60% and enabling $50M in annual transaction volume.",
+        "note": "The 'after' version shows team building, outcomes, and business impact."
+      },
+      "evidence": [
+        {"stat": "2 weeks", "body": "Average time to first EM interview with optimized positioning", "source": "Askia client data"},
+        {"stat": "$55K", "body": "Average compensation increase for EM clients", "source": "Askia client outcomes"},
+        {"stat": "85%", "body": "Of EM clients receive multiple offers", "source": "Askia client data"}
+      ],
+      "faq": [
+        {"question": "Should I still include technical contributions?", "answer": "Include technical context for credibility, but lead with team outcomes and leadership impact."},
+        {"question": "How do I show leadership without a big team?", "answer": "Emphasize influence: mentoring, cross-team coordination, process improvements, hiring contributions."},
+        {"question": "How do I prepare for EM behavioral interviews?", "answer": "Prepare stories around team building, conflict resolution, underperformers, cross-functional challenges, and delivery under pressure."},
+        {"question": "What's the difference between EM and Director expectations?", "answer": "EM leads a team directly. Directors lead managers, set org-level direction, and have broader strategic scope."},
+        {"question": "How do I handle the 'IC vs Manager' question?", "answer": "Be clear about your preference and why. Show self-awareness about what energizes you and where you add the most value."}
+      ],
+      "cta": {
+        "title": "Ready to land your next leadership role?",
+        "body": "Book a strategy call and get personalized feedback on your positioning."
+      }
+    },
+    "financeFpa": {
+      "eyebrow": "Role Hub",
+      "title": "Finance & FP&A Career Resources",
+      "subtitle": "Executive-ready finance narratives and proof points for FP&A, Controller, and Finance leadership roles.",
+      "shortAnswer": "Finance roles require showing business partnership, strategic analysis, and decision influence. Lead with the decisions you enabled and the business outcomes that followed.",
+      "decisionRules": {
+        "doFirst": [
+          "You're targeting Senior FP&A, Finance Manager, or Controller roles",
+          "Your resume lists accounting tasks but not strategic contributions",
+          "You've influenced business decisions but struggle to quantify your impact"
+        ],
+        "skip": [
+          "You're early-career in accounting without business partnership experience",
+          "You're targeting pure accounting compliance roles",
+          "Your current materials are already landing interviews"
+        ]
+      },
+      "checklist": {
+        "title": "Finance Signal Checklist",
+        "subtitle": "What hiring teams evaluate at senior finance levels",
+        "items": [
+          {"title": "Business partnership", "body": "Show how you partnered with operations, sales, or product to drive decisions."},
+          {"title": "Forecast accuracy", "body": "Quantify improvements in forecast accuracy or planning cycle efficiency."},
+          {"title": "Cost and efficiency impact", "body": "Document cost savings, margin improvements, or working capital optimization."},
+          {"title": "Executive communication", "body": "Show how you presented to leadership and influenced strategy."},
+          {"title": "Process improvement", "body": "Demonstrate how you improved close times, reporting quality, or automation."}
+        ]
+      },
+      "example": {
+        "before": "Prepared monthly financial reports and variance analyses.",
+        "after": "Led FP&A for $200M revenue division. Built driver-based model that improved forecast accuracy from 85% to 94%, identified $3M in cost optimization opportunities, and presented quarterly business reviews to executive team.",
+        "note": "The 'after' version shows scope, accuracy improvement, and executive presence."
+      },
+      "evidence": [
+        {"stat": "$48K", "body": "Average compensation increase for finance clients", "source": "Askia client outcomes"},
+        {"stat": "3 weeks", "body": "Average time to first interview with optimized positioning", "source": "Askia client data"},
+        {"stat": "92%", "body": "Of finance clients land offers within 60 days", "source": "Askia client data"}
+      ],
+      "faq": [
+        {"question": "How do I show strategic impact in FP&A?", "answer": "Lead with decisions you influenced, not reports you created. Show the business outcomes of your analyses."},
+        {"question": "Should I list accounting software on my resume?", "answer": "Mention tools briefly but lead with outcomes. Your impact matters more than your tool proficiency."},
+        {"question": "How do I position for Controller vs FP&A roles?", "answer": "Controller emphasizes accuracy, compliance, and team management. FP&A emphasizes analysis, forecasting, and business partnership."},
+        {"question": "How do I show executive presence on a resume?", "answer": "Document presentations to leadership, board materials you created, and strategic decisions you influenced."},
+        {"question": "What's the path from FP&A to CFO?", "answer": "Build breadth across FP&A, accounting, and treasury. Show strategic influence and enterprise-wide perspective."}
+      ],
+      "cta": {
+        "title": "Ready to land your next finance role?",
+        "body": "Book a strategy call and get personalized feedback on your positioning."
+      }
+    }
+  },
+  "topics": {
+    "ats": {
+      "eyebrow": "Topic Hub",
+      "title": "ATS Optimization Guide",
+      "subtitle": "How to format your resume so it actually gets read by humans.",
+      "shortAnswer": "ATS systems parse resumes into structured data. Use standard section headings, avoid tables and graphics, include relevant keywords from job descriptions, and save as PDF or .docx. The goal isn't to 'beat' the ATS—it's to ensure your resume is readable when it reaches humans.",
+      "decisionRules": {
+        "doFirst": [
+          "You're applying through company career portals (not referrals)",
+          "Your resume uses creative formatting, tables, or graphics",
+          "You're getting few callbacks despite strong qualifications"
+        ],
+        "skip": [
+          "You're primarily getting interviews through referrals",
+          "Your current resume is already generating callbacks",
+          "You're targeting executive roles where recruiters review directly"
+        ]
+      },
+      "checklist": {
+        "title": "ATS Formatting Checklist",
+        "subtitle": "Technical requirements for ATS readability",
+        "items": [
+          {"title": "Standard section headings", "body": "Use 'Experience', 'Education', 'Skills'—not creative alternatives."},
+          {"title": "Simple formatting", "body": "Avoid tables, text boxes, columns, headers/footers, and images."},
+          {"title": "Standard fonts", "body": "Use Arial, Calibri, Times New Roman, or similar system fonts."},
+          {"title": "PDF or .docx format", "body": "Most ATS handle both, but check job posting requirements."},
+          {"title": "Keyword alignment", "body": "Include relevant terms from the job description naturally in your content."}
+        ]
+      },
+      "example": {
+        "before": "Creative two-column resume with graphics and custom fonts.",
+        "after": "Single-column resume with standard headings, bullet points, and keywords integrated naturally into achievement statements.",
+        "note": "The 'after' format ensures ATS can parse your content correctly and humans see a clean, professional document."
+      },
+      "evidence": [
+        {"stat": "75%", "body": "Of resumes are filtered out before human review", "source": "Industry research"},
+        {"stat": "3x", "body": "Higher callback rate with ATS-optimized formatting", "source": "Askia A/B testing"},
+        {"stat": "6 seconds", "body": "Average time recruiters spend on initial resume scan", "source": "Eye-tracking studies"}
+      ],
+      "faq": [
+        {"question": "What is an ATS and how does it screen resumes?", "answer": "ATS (Applicant Tracking System) parses resumes into structured data and helps recruiters filter candidates. It extracts text from your resume and matches keywords to job requirements."},
+        {"question": "Should I use a different resume for each job?", "answer": "Tailor the top third and keywords for each role, but keep your core achievements consistent."},
+        {"question": "Do I need exact keyword matches?", "answer": "Close matches often work, but exact matches for key skills and tools help ensure you're not filtered out."},
+        {"question": "Is PDF or Word better for ATS?", "answer": "Both work for most modern ATS. PDF ensures consistent formatting, but check job posting requirements."},
+        {"question": "How do I know if my resume is ATS-friendly?", "answer": "Copy your resume into a plain text editor. If it reads clearly with proper structure, it will likely parse well."},
+        {"question": "Do fancy designs hurt my chances?", "answer": "Yes, for most applications. Creative formatting can break ATS parsing and distract from your content."}
+      ],
+      "cta": {
+        "title": "Want your resume reviewed?",
+        "body": "Book a strategy call and get expert feedback on your ATS optimization."
+      }
+    },
+    "resume": {
+      "eyebrow": "Topic Hub",
+      "title": "Resume Writing Guide",
+      "subtitle": "How to write impact-first bullets that get senior-level callbacks.",
+      "shortAnswer": "Senior resumes lead with impact, not responsibilities. Start each bullet with a measurable outcome, then explain how you achieved it. Your resume should answer 'so what?' for every line.",
+      "decisionRules": {
+        "doFirst": [
+          "Your resume lists responsibilities instead of achievements",
+          "You're not getting callbacks despite applying to relevant roles",
+          "You're targeting a higher level than your current title"
+        ],
+        "skip": [
+          "Your current resume is generating interviews",
+          "You're early-career and still building foundational experience",
+          "You're focusing on networking and referrals over applications"
+        ]
+      },
+      "checklist": {
+        "title": "Resume Impact Checklist",
+        "subtitle": "Elements that drive senior-level callbacks",
+        "items": [
+          {"title": "Lead with impact", "body": "Start bullets with outcomes: revenue, efficiency, scale, or strategic results."},
+          {"title": "Quantify everything possible", "body": "Add numbers: percentages, dollar amounts, team sizes, volumes."},
+          {"title": "Show scope and ownership", "body": "Clarify what you owned vs. contributed to. Scope signals seniority."},
+          {"title": "Connect to business value", "body": "Link technical work to business outcomes that executives care about."},
+          {"title": "Tailor for target roles", "body": "Align your top bullets with what your target roles prioritize."}
+        ]
+      },
+      "example": {
+        "before": "Responsible for developing backend services and maintaining database systems.",
+        "after": "Designed and shipped event processing service handling 100K req/sec with 99.99% uptime, enabling real-time analytics that drove 15% increase in user engagement.",
+        "note": "The 'after' version shows scale, reliability, and business impact in one sentence."
+      },
+      "evidence": [
+        {"stat": "3x", "body": "Higher callback rate with impact-first resume bullets", "source": "Askia A/B testing"},
+        {"stat": "21 days", "body": "Average time to first interview with optimized resume", "source": "Askia client data"},
+        {"stat": "89%", "body": "Of clients land offers within 60 days", "source": "Askia client data"}
+      ],
+      "faq": [
+        {"question": "How long should my resume be?", "answer": "One to two pages for most roles. Senior and executive roles can go to two pages if the content is strong."},
+        {"question": "Should I include all my jobs?", "answer": "Focus on the last 10-15 years. Summarize or omit early-career roles that don't support your current target."},
+        {"question": "How do I quantify impact without exact numbers?", "answer": "Use estimates with qualifiers ('approximately', 'over'), percentages, or directional indicators ('reduced by 30%+')."},
+        {"question": "Should I use a summary section?", "answer": "Yes for senior roles. Make it specific to your target: role, level, and top 2-3 differentiators."},
+        {"question": "How often should I update my resume?", "answer": "Update quarterly with new achievements. Always refresh before starting an active job search."},
+        {"question": "Do I need different versions for different roles?", "answer": "Tailor the top third for each role type. Core achievements can stay consistent across versions."}
+      ],
+      "cta": {
+        "title": "Want help with your resume?",
+        "body": "Book a strategy call and get expert feedback on your positioning."
+      }
+    },
+    "linkedin": {
+      "eyebrow": "Topic Hub",
+      "title": "LinkedIn Optimization Guide",
+      "subtitle": "How to make recruiters reach out to you.",
+      "shortAnswer": "LinkedIn is a magnet, not a resume. Optimize your headline and About section for searchability, lead with outcomes recruiters care about, and stay active enough to signal availability. The goal is inbound interest, not outbound applications.",
+      "decisionRules": {
+        "doFirst": [
+          "Recruiters aren't reaching out despite strong experience",
+          "Your headline is just your job title",
+          "Your About section is empty or reads like a resume summary"
+        ],
+        "skip": [
+          "You're already getting strong inbound recruiter interest",
+          "You're primarily using referrals rather than recruiter outreach",
+          "You're in a confidential search and can't update your profile"
+        ]
+      },
+      "checklist": {
+        "title": "LinkedIn Signal Checklist",
+        "subtitle": "Elements that drive recruiter outreach",
+        "items": [
+          {"title": "Searchable headline", "body": "Include your target role title and 2-3 key skills recruiters search for."},
+          {"title": "Compelling About section", "body": "Lead with what you're known for and your top outcomes. End with what you're looking for."},
+          {"title": "Impact-first experience", "body": "Mirror your resume with outcome-focused bullets in each role."},
+          {"title": "Skills endorsements", "body": "List skills that match your target roles. Get endorsements for your top 5."},
+          {"title": "Open to Work settings", "body": "Use recruiter-only visibility if you need confidentiality."}
+        ]
+      },
+      "example": {
+        "before": "Software Engineer at TechCorp",
+        "after": "Senior Software Engineer | Distributed Systems | Building real-time data platforms at scale",
+        "note": "The 'after' headline tells recruiters your level, specialty, and what you build—making you findable for relevant roles."
+      },
+      "evidence": [
+        {"stat": "4x", "body": "More recruiter messages with optimized headline and About section", "source": "Askia A/B testing"},
+        {"stat": "70%", "body": "Of recruiters use LinkedIn as primary sourcing tool", "source": "Industry research"},
+        {"stat": "2 weeks", "body": "Average time to first recruiter outreach after LinkedIn optimization", "source": "Askia client data"}
+      ],
+      "faq": [
+        {"question": "Should my LinkedIn match my resume exactly?", "answer": "Core achievements should align, but LinkedIn can be slightly more conversational and forward-looking."},
+        {"question": "How do I signal I'm open to opportunities confidentially?", "answer": "Use LinkedIn's 'Open to Work' with recruiter-only visibility. Update your headline subtly without explicitly saying 'seeking'."},
+        {"question": "How important is the About section?", "answer": "Very. Recruiters read it to decide whether to reach out. Lead with impact and be specific about your target."},
+        {"question": "Should I connect with recruiters?", "answer": "Yes, especially those who work with your target companies or roles. Personalize connection requests."},
+        {"question": "How often should I post on LinkedIn?", "answer": "Activity signals engagement but quality matters more than quantity. 1-2 thoughtful posts per month is plenty."},
+        {"question": "Do skills and endorsements matter?", "answer": "They affect search rankings. List skills matching your target roles and get endorsements for your top 5."}
+      ],
+      "cta": {
+        "title": "Want help with your LinkedIn?",
+        "body": "Book a strategy call and get expert feedback on your profile."
+      }
+    },
+    "interviewPrep": {
+      "eyebrow": "Topic Hub",
+      "title": "Interview Preparation Guide",
+      "subtitle": "How to walk into interviews knowing exactly what to say.",
+      "shortAnswer": "Interview prep is about having the right stories ready, not memorizing scripts. Build a story bank with 6-8 STAR examples that flex across question types, practice articulating trade-offs for technical rounds, and research each company well enough to ask informed questions.",
+      "decisionRules": {
+        "doFirst": [
+          "You're landing interviews but not converting them to offers",
+          "You feel unprepared or anxious going into interviews",
+          "You struggle to articulate your experience clearly under pressure"
+        ],
+        "skip": [
+          "You're not getting interviews yet (focus on resume first)",
+          "You're consistently converting interviews to offers",
+          "You're in the offer stage (focus on negotiation instead)"
+        ]
+      },
+      "checklist": {
+        "title": "Interview Prep Checklist",
+        "subtitle": "What to prepare before any interview",
+        "items": [
+          {"title": "Story bank", "body": "Prepare 6-8 STAR examples covering leadership, conflict, failure, collaboration, and wins."},
+          {"title": "Company research", "body": "Know their products, recent news, challenges, and who you're meeting with."},
+          {"title": "Role-specific prep", "body": "Review the job description and prepare examples that address their priorities."},
+          {"title": "Questions to ask", "body": "Prepare 3-5 thoughtful questions that show you've done your homework."},
+          {"title": "Logistics", "body": "Confirm time, format (video/phone/onsite), and who you're speaking with."}
+        ]
+      },
+      "example": {
+        "before": "I worked on the checkout project and helped improve conversion.",
+        "after": "I identified that our checkout flow had a 40% cart abandonment rate on mobile. I proposed a redesign, led a cross-functional team through a 6-week sprint, and we increased conversion by 22%—about $4M in annual revenue.",
+        "note": "The 'after' version follows STAR structure and quantifies impact—this is what interviewers remember."
+      },
+      "evidence": [
+        {"stat": "2x", "body": "Higher offer rate with structured interview preparation", "source": "Askia client data"},
+        {"stat": "6-8", "body": "Number of stories needed to handle most behavioral interview questions", "source": "Interview coaching research"},
+        {"stat": "89%", "body": "Of prepared candidates advance past phone screens", "source": "Askia client data"}
+      ],
+      "faq": [
+        {"question": "How many stories do I need for behavioral interviews?", "answer": "6-8 strong stories that can flex across different question types. Quality matters more than quantity."},
+        {"question": "How do I prepare for system design interviews?", "answer": "Practice articulating trade-offs, draw from real systems you've built, and focus on 'why' over 'what'."},
+        {"question": "What if I don't have a perfect STAR example?", "answer": "Partial examples work. Be honest about outcomes and emphasize what you learned or would do differently."},
+        {"question": "How do I handle 'tell me about yourself'?", "answer": "Give a 60-90 second summary: where you are, how you got here, and what you're looking for. End with why this role."},
+        {"question": "Should I ask about compensation in the first interview?", "answer": "Usually wait until they bring it up or until later stages. Focus on fit and interest in early rounds."},
+        {"question": "How do I follow up after an interview?", "answer": "Send a thank-you email within 24 hours. Reference specific topics discussed and reiterate your interest."}
+      ],
+      "cta": {
+        "title": "Want interview coaching?",
+        "body": "Book a strategy call and get personalized mock interviews and feedback."
+      }
+    },
+    "salaryNegotiation": {
+      "eyebrow": "Topic Hub",
+      "title": "Salary Negotiation Guide",
+      "subtitle": "How to negotiate offers without risking the deal.",
+      "shortAnswer": "Negotiation is expected and rarely risks an offer. Get the full package in writing before negotiating, research comparable compensation, make a specific ask with rationale, and be prepared to negotiate multiple components (base, equity, sign-on, start date).",
+      "decisionRules": {
+        "doFirst": [
+          "You have a verbal or written offer",
+          "You haven't negotiated offers before or feel uncertain",
+          "You suspect the offer is below market rate"
+        ],
+        "skip": [
+          "You're still in interview stages (negotiate after you have an offer)",
+          "You're completely satisfied with the initial offer",
+          "The role has fixed, non-negotiable compensation (rare)"
+        ]
+      },
+      "checklist": {
+        "title": "Negotiation Checklist",
+        "subtitle": "Steps to negotiate effectively",
+        "items": [
+          {"title": "Get it in writing", "body": "Request the full offer details before negotiating: base, equity, bonus, benefits, start date."},
+          {"title": "Research market rates", "body": "Use Levels.fyi, Glassdoor, Blind, and your network to benchmark compensation."},
+          {"title": "Make a specific ask", "body": "Request a specific number (e.g., '$180K base') rather than vague requests for 'more'."},
+          {"title": "Provide rationale", "body": "Explain why your ask is reasonable: market data, competing offers, or unique value you bring."},
+          {"title": "Negotiate multiple levers", "body": "If base is stuck, negotiate equity, sign-on bonus, title, start date, or remote work."}
+        ]
+      },
+      "example": {
+        "before": "The offer looks good but I was hoping for a bit more.",
+        "after": "I'm excited about this opportunity. Based on my research and the scope of the role, I'd like to request a base of $175K. Given my experience with [specific relevant skill], I believe this reflects the value I'll bring. Is there flexibility here?",
+        "note": "The 'after' version is specific, provides rationale, and invites discussion without ultimatums."
+      },
+      "evidence": [
+        {"stat": "$47K", "body": "Average compensation increase negotiated by Askia clients", "source": "Askia client outcomes"},
+        {"stat": "85%", "body": "Of offers have room for negotiation", "source": "Industry data"},
+        {"stat": "0%", "body": "Of Askia clients have had offers rescinded due to professional negotiation", "source": "Askia client data"}
+      ],
+      "faq": [
+        {"question": "Will negotiating risk my offer?", "answer": "Almost never. Professional negotiation is expected. Offers are rarely rescinded for reasonable asks."},
+        {"question": "When should I negotiate?", "answer": "After you have a written offer. Don't negotiate until you have the full package details."},
+        {"question": "How much should I ask for?", "answer": "10-20% above the initial offer is typical. Base your ask on market research and your unique value."},
+        {"question": "What if they say no?", "answer": "Ask about other levers: equity, sign-on bonus, title, start date, review timing, or remote flexibility."},
+        {"question": "Should I mention competing offers?", "answer": "If genuine, yes. It provides market context. Never fabricate competing offers."},
+        {"question": "How do I negotiate via email vs. phone?", "answer": "Email gives you time to craft your message. Phone allows real-time discussion. Both work—choose what feels comfortable."}
+      ],
+      "cta": {
+        "title": "Have an offer to negotiate?",
+        "body": "Book a strategy call and get personalized negotiation coaching."
+      }
+    },
+    "coverLetters": {
+      "eyebrow": "Topic Hub",
+      "title": "Cover Letter Guide",
+      "subtitle": "When you need one and how to write it.",
+      "shortAnswer": "Most applications don't require cover letters, but when they do (or when you're going around normal channels), a good cover letter connects your experience to their specific needs and shows you've done your homework. Keep it to 3-4 paragraphs max.",
+      "decisionRules": {
+        "doFirst": [
+          "The application specifically requires a cover letter",
+          "You're reaching out directly to a hiring manager",
+          "You're making a career change and need to explain your pivot"
+        ],
+        "skip": [
+          "The application doesn't have a cover letter field",
+          "You're applying through a referral who can vouch for you",
+          "You're mass-applying and a generic letter would hurt more than help"
+        ]
+      },
+      "checklist": {
+        "title": "Cover Letter Checklist",
+        "subtitle": "Elements of an effective cover letter",
+        "items": [
+          {"title": "Specific opening", "body": "Reference the role and something specific about the company that resonates with you."},
+          {"title": "Bridge statement", "body": "Connect your experience to their needs with 1-2 concrete examples."},
+          {"title": "Evidence of research", "body": "Show you've looked at their product, challenges, or recent news."},
+          {"title": "Clear ask", "body": "State what you want (interview, conversation) and make it easy to follow up."},
+          {"title": "Brevity", "body": "Keep it to 3-4 paragraphs. Hiring managers skim—respect their time."}
+        ]
+      },
+      "example": {
+        "before": "I am writing to apply for the Software Engineer position at your company. I have 5 years of experience and strong skills in Python and AWS.",
+        "after": "Your recent blog post on scaling recommendation systems caught my attention—I solved a similar challenge at TechCorp, reducing latency by 60% while doubling throughput. I'd love to bring that experience to your team as you expand into real-time personalization.",
+        "note": "The 'after' version shows research, relevant experience, and specific value—all in two sentences."
+      },
+      "evidence": [
+        {"stat": "26%", "body": "Of hiring managers say cover letters influence their decision", "source": "Industry research"},
+        {"stat": "3x", "body": "Higher response rate for personalized cover letters vs. generic ones", "source": "Application A/B testing"},
+        {"stat": "150 words", "body": "Optimal cover letter length based on hiring manager preferences", "source": "Readability research"}
+      ],
+      "faq": [
+        {"question": "Do I always need a cover letter?", "answer": "No. Only write one if it's required, you're reaching out directly, or you have something important to explain (career change, relocation)."},
+        {"question": "How long should a cover letter be?", "answer": "3-4 paragraphs, under 200 words. Hiring managers skim—get to the point quickly."},
+        {"question": "Should I repeat my resume in the cover letter?", "answer": "No. The cover letter should add context or connect dots that the resume doesn't, not repeat it."},
+        {"question": "How do I address a career change in a cover letter?", "answer": "Focus on transferable skills and genuine interest in the new field. Explain 'why' you're changing, not just 'what'."},
+        {"question": "Should I mention salary expectations?", "answer": "Generally no, unless the posting specifically asks for it. Save compensation discussion for later stages."},
+        {"question": "How do I find the hiring manager's name?", "answer": "Check LinkedIn, company About pages, or the job posting. If you can't find it, 'Dear Hiring Team' works."}
+      ],
+      "cta": {
+        "title": "Need help with your cover letter?",
+        "body": "Book a strategy call and get expert feedback on your application materials."
+      }
+    }
+  }
+}

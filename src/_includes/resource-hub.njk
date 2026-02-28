@@ -1,0 +1,170 @@
+{% set hubData = hub %}
+<section class="resource-hub-hero">
+  <div class="container">
+    <p class="hero-eyebrow">{{ hubData.eyebrow }}</p>
+    <h1 class="resource-hub-title">{{ hubData.title }}</h1>
+    <p class="resource-hub-subtitle">{{ hubData.subtitle }}</p>
+    {% if hubData.shortAnswer %}
+    <div class="resource-hub-answer">
+      <strong>Short answer:</strong> {{ hubData.shortAnswer }}
+    </div>
+    {% endif %}
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="{{ site.cta.link }}">{{ site.cta.label }}</a>
+      <a class="btn btn-ghost" href="/resources/">Back to Resources</a>
+    </div>
+  </div>
+</section>
+
+{% if hubData.decisionRules %}
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">When to use this</h2>
+    <div class="resource-hub-rules">
+      <div class="rule-card rule-do">
+        <h3>Do this first if:</h3>
+        <ul>
+          {% for rule in hubData.decisionRules.doFirst %}
+          <li>{{ rule }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="rule-card rule-skip">
+        <h3>Skip this if:</h3>
+        <ul>
+          {% for rule in hubData.decisionRules.skip %}
+          <li>{{ rule }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if hubData.checklist %}
+<section class="section section-soft">
+  <div class="container">
+    <h2 class="section-title">{{ hubData.checklist.title }}</h2>
+    <p class="section-subtitle">{{ hubData.checklist.subtitle }}</p>
+    <div class="resource-checklist">
+      {% for item in hubData.checklist.items %}
+      <div class="checklist-item">
+        <span class="checklist-icon">{{ loop.index }}</span>
+        <div>
+          <strong>{{ item.title }}</strong>
+          <p>{{ item.body }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if hubData.example %}
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Example</h2>
+    <div class="resource-example">
+      <div class="example-before">
+        <span class="example-label">Before</span>
+        <p>{{ hubData.example.before }}</p>
+      </div>
+      <div class="example-after">
+        <span class="example-label">After</span>
+        <p>{{ hubData.example.after }}</p>
+      </div>
+    </div>
+    {% if hubData.example.note %}
+    <p class="example-note">{{ hubData.example.note }}</p>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
+{% if hubData.evidence %}
+<section class="section section-soft">
+  <div class="container">
+    <h2 class="section-title">Evidence</h2>
+    <div class="resource-evidence">
+      {% for item in hubData.evidence %}
+      <div class="evidence-card">
+        <span class="evidence-stat">{{ item.stat }}</span>
+        <p>{{ item.body }}</p>
+        {% if item.source %}<cite>{{ item.source }}</cite>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if hubData.relatedPosts %}
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Related guides</h2>
+    <p class="section-subtitle">Deep dives on specific topics</p>
+    <div class="resource-posts-grid">
+      {% for postUrl in hubData.relatedPosts %}
+        {% for post in collections.blog %}
+          {% if post.url == postUrl %}
+          <a class="resource-post-card" href="{{ post.url }}">
+            <h3>{{ post.data.title }}</h3>
+            <p>{{ post.data.description }}</p>
+            <span>{{ post.data.readTime }}</span>
+          </a>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if hubData.faq %}
+<section class="section">
+  <div class="container faq-stage">
+    <h2 class="section-title">Frequently asked questions</h2>
+    <div class="faq-grid">
+      {% for item in hubData.faq %}
+      <details class="faq-card">
+        <summary>{{ item.question }}</summary>
+        <p>{{ item.answer }}</p>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="section">
+  <div class="container cta-band">
+    <div>
+      <h2 class="section-title">{{ hubData.cta.title or "Ready to take action?" }}</h2>
+      <p class="section-subtitle">{{ hubData.cta.body or "Book a strategy call and get personalized guidance." }}</p>
+    </div>
+    <a class="btn btn-primary" href="{{ site.cta.link }}">{{ site.cta.label }}</a>
+  </div>
+</section>
+
+{% if hubData.faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in hubData.faq %}
+    {
+      "@type": "Question",
+      "name": "{{ item.question | escape }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ item.answer | escape }}"
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

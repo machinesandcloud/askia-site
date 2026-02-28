@@ -27,7 +27,21 @@ const DEFAULT_URLS = [
   'https://askia.tech/operations-career-coaching/',
   'https://askia.tech/sales-career-coaching/',
   'https://askia.tech/people-ops-career-coaching/',
-  'https://askia.tech/career-readiness-index/'
+  'https://askia.tech/career-readiness-index/',
+  // Resource hub pages (GEO-optimized)
+  'https://askia.tech/resources/',
+  'https://askia.tech/resources/ats/',
+  'https://askia.tech/resources/resume/',
+  'https://askia.tech/resources/linkedin/',
+  'https://askia.tech/resources/interview-prep/',
+  'https://askia.tech/resources/salary-negotiation/',
+  'https://askia.tech/resources/cover-letters/',
+  'https://askia.tech/resources/software-engineer/',
+  'https://askia.tech/resources/devops-sre/',
+  'https://askia.tech/resources/data/',
+  'https://askia.tech/resources/product-manager/',
+  'https://askia.tech/resources/engineering-manager/',
+  'https://askia.tech/resources/finance-fpa/'
 ];
 
 async function submitToIndexNow(urls) {
