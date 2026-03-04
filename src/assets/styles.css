@@ -2503,6 +2503,8 @@ body.pricing-focus {
   position: relative;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: inherit;
+  text-decoration: none;
 }
 
 .services-core-card-top {

@@ -930,5 +930,449 @@
     },
     "metaTitle": "Offer Strategy | Compare Offers & Choose Wisely | Askia",
     "metaDescription": "Offer strategy and decision support. Compare offers on total comp, growth, and fit to make a confident choice."
+  },
+  "doneForYouApplications": {
+    "eyebrow": "Applying should not be your full-time job.",
+    "h1": "Done-For-You Applications",
+    "subtitle": "We apply. You prepare.",
+    "supporting": "Your time is better spent on interviews and preparation than filling out the same forms over and over. We run a targeted application engine built around your role targets, with quality control and weekly reporting so you always know what is moving.",
+    "highlights": [
+      "Targeted roles aligned to your level",
+      "Consistent weekly application volume",
+      "Clear tracking and weekly updates"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "Starts at $499",
+    "secondaryCtaLabel": "See How We Work",
+    "secondaryCtaLink": "/services/",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(114, 214, 255, 0.6)",
+      "accent2": "rgba(114, 214, 255, 0.2)"
+    },
+    "theme": "ats",
+    "heroGraphic": "ats",
+    "heroGraphicLabel": "Application engine",
+    "heroModules": [
+      { "title": "Target list", "body": "We align on roles, levels, and companies.", "meta": "Focus" },
+      { "title": "Application execution", "body": "We handle the submission flow and tracking.", "meta": "Execution" },
+      { "title": "Weekly reporting", "body": "See what is moving and where to adjust.", "meta": "Momentum" }
+    ],
+    "heroStats": [
+      { "value": "Weekly", "label": "Consistent submissions" },
+      { "value": "Tracked", "label": "Clear visibility" },
+      { "value": "Targeted", "label": "No spray-and-pray" }
+    ],
+    "heroTrustLabel": "Our clients have landed at",
+    "heroTrustLogos": [
+      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
+      { "src": "/assets/logos/testimonials/amazon.svg", "alt": "Amazon logo" },
+      { "src": "/assets/logos/testimonials/stripe.svg", "alt": "Stripe logo" },
+      { "src": "/assets/logos/testimonials/airbnb.svg", "alt": "Airbnb logo" }
+    ],
+    "snapshot": {
+      "eyebrow": "The outcome",
+      "title": "What changes when we run your applications",
+      "subtitle": "More focus, more consistency, less noise.",
+      "items": [
+        { "tag": "Focus", "title": "Targeted pipeline", "body": "No more random roles or scattered effort." },
+        { "tag": "Consistency", "title": "Weekly volume", "body": "A steady cadence that creates momentum." },
+        { "tag": "Visibility", "title": "Clear tracking", "body": "Know what is submitted and what is next." }
+      ]
+    },
+    "mistakes": {
+      "eyebrow": "Common mistakes",
+      "title": "Why most application efforts stall",
+      "subtitle": "We fix the gaps that kill momentum.",
+      "items": [
+        { "title": "Spray-and-pray", "body": "Random applications without a role target." },
+        { "title": "Inconsistent volume", "body": "Two busy weeks, then nothing for a month." },
+        { "title": "No tracking", "body": "No system to see what is working." }
+      ]
+    },
+    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "steps", "for", "related", "faq", "cta"],
+    "heroCard": {
+      "title": "What you get",
+      "body": "A consistent, targeted application system.",
+      "bullets": ["Targeted submissions", "Weekly reporting", "Momentum without the admin"]
+    },
+    "proof": {
+      "title": "Why this works",
+      "subtitle": "Consistency and targeting beat volume alone.",
+      "items": [
+        { "title": "Targeted roles", "body": "We align the role and level before we apply." },
+        { "title": "Process-driven", "body": "A repeatable system with weekly cadence." },
+        { "title": "Visibility", "body": "You always know what is moving." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "The approach",
+      "title": "Targeted execution",
+      "subtitle": "Built around roles that actually fit.",
+      "items": [
+        { "tag": "Target", "title": "Role alignment", "body": "We focus on roles where your experience fits." },
+        { "tag": "Execute", "title": "Submission system", "body": "We handle the applications and tracking." },
+        { "tag": "Adjust", "title": "Weekly review", "body": "We refine based on response signals." }
+      ]
+    },
+    "steps": {
+      "title": "How it works",
+      "subtitle": "Set up once, then we run it.",
+      "items": [
+        { "title": "Kickoff", "body": "Confirm role targets, level, and constraints." },
+        { "title": "Execution", "body": "We submit applications and track activity." },
+        { "title": "Weekly review", "body": "We share a report and adjust the plan." }
+      ]
+    },
+    "for": {
+      "title": "This is for you if",
+      "body": "You want momentum without losing time to admin.",
+      "items": [
+        "You are too busy to apply consistently",
+        "You want a targeted, repeatable system",
+        "You already have strong materials"
+      ]
+    },
+    "notFor": {
+      "title": "This probably is not for you if",
+      "body": "You still need clarity or materials first.",
+      "items": [
+        "You do not know your target role",
+        "Your resume and LinkedIn need a rebuild",
+        "You want mass, untargeted volume"
+      ]
+    },
+    "deliverables": {
+      "title": "What you receive",
+      "subtitle": "A system you can track and trust.",
+      "items": [
+        { "title": "Target list", "tag": "Focus", "body": "Role targets and search constraints.", "bullets": ["Role families", "Level targets", "Company criteria"] },
+        { "title": "Submission engine", "tag": "Execution", "body": "Weekly applications handled for you.", "bullets": ["Consistent cadence", "Quality control", "Tracking"] },
+        { "title": "Weekly report", "tag": "Visibility", "body": "Clear summary of activity and next steps.", "bullets": ["Submitted roles", "Responses", "Adjustments"] }
+      ]
+    },
+    "related": {
+      "title": "Need stronger materials first?",
+      "body": "We can rebuild your resume and LinkedIn before we run applications.",
+      "primaryLabel": "Resume Overhaul",
+      "primaryLink": "/resume-writing/",
+      "secondaryLabel": "LinkedIn Transformation",
+      "secondaryLink": "/linkedin-optimization/"
+    },
+    "faq": {
+      "title": "Questions about done-for-you applications",
+      "subtitle": "Common questions.",
+      "items": [
+        { "question": "How many applications do you submit?", "answer": "We focus on consistent weekly volume, calibrated to your target roles and quality standards." },
+        { "question": "Do you apply everywhere?", "answer": "No. We only apply to roles aligned to your targets and level." },
+        { "question": "Do I need strong materials first?", "answer": "Yes. If your resume or LinkedIn needs work, we should fix those first." },
+        { "question": "Can I review the roles?", "answer": "Yes. We align on targets and you can weigh in on the list." }
+      ]
+    },
+    "cta": {
+      "title": "Want to stop spending hours applying?",
+      "body": "Book a call and we will set up your application engine.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "Done-For-You Applications | Targeted Job Applications | Askia",
+    "metaDescription": "We run targeted applications with tracking and weekly reporting so you can focus on interviews."
+  },
+  "jobSearchGamePlan": {
+    "eyebrow": "A job search without a system is just stress.",
+    "h1": "Job Search Game Plan",
+    "subtitle": "A focused system to build momentum fast.",
+    "supporting": "Most job searches fail because there is no strategy behind them. We build a clear plan: your target roles, a weekly outreach cadence, and a response-driven loop so you know what to do every week and why it matters.",
+    "highlights": [
+      "Clear role targeting and level calibration",
+      "Weekly outreach and networking cadence",
+      "Metrics that show what is working"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "$299 standalone",
+    "secondaryCtaLabel": "See All Services",
+    "secondaryCtaLink": "/services/",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(255, 214, 102, 0.6)",
+      "accent2": "rgba(114, 214, 255, 0.2)"
+    },
+    "theme": "executive",
+    "heroGraphic": "executive",
+    "heroGraphicLabel": "Search plan",
+    "heroModules": [
+      { "title": "Role targeting", "body": "We define the exact roles and levels.", "meta": "Focus" },
+      { "title": "Outreach system", "body": "A weekly cadence that builds momentum.", "meta": "Execution" },
+      { "title": "Feedback loop", "body": "Adjust based on responses and signals.", "meta": "Optimization" }
+    ],
+    "heroStats": [
+      { "value": "1-2 weeks", "label": "Plan built fast" },
+      { "value": "Weekly", "label": "Clear cadence" },
+      { "value": "Measured", "label": "Track what works" }
+    ],
+    "heroTrustLabel": "Our clients have landed at",
+    "heroTrustLogos": [
+      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
+      { "src": "/assets/logos/testimonials/microsoft.svg", "alt": "Microsoft logo" },
+      { "src": "/assets/logos/testimonials/spotify.svg", "alt": "Spotify logo" },
+      { "src": "/assets/logos/testimonials/shopify.svg", "alt": "Shopify logo" }
+    ],
+    "snapshot": {
+      "eyebrow": "The outcome",
+      "title": "What you leave with",
+      "subtitle": "A plan you can execute every week.",
+      "items": [
+        { "tag": "Focus", "title": "Target roles", "body": "You know exactly what you are going after." },
+        { "tag": "System", "title": "Weekly cadence", "body": "Clear outreach and application rhythm." },
+        { "tag": "Metrics", "title": "Signal tracking", "body": "See what is working and adjust fast." }
+      ]
+    },
+    "mistakes": {
+      "eyebrow": "Common mistakes",
+      "title": "Why most searches stall",
+      "subtitle": "These gaps kill momentum.",
+      "items": [
+        { "title": "No target", "body": "Applying without a clear role or level." },
+        { "title": "No cadence", "body": "Inconsistent outreach and follow-through." },
+        { "title": "No feedback loop", "body": "No data to tell you what to fix." }
+      ]
+    },
+    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "steps", "for", "related", "faq", "cta"],
+    "heroCard": {
+      "title": "What you get",
+      "body": "A repeatable search system.",
+      "bullets": ["Role targeting", "Weekly cadence", "Metrics and adjustments"]
+    },
+    "proof": {
+      "title": "Why this works",
+      "subtitle": "Structure creates momentum.",
+      "items": [
+        { "title": "Clear targets", "body": "You focus on roles that actually fit." },
+        { "title": "Weekly execution", "body": "Cadence beats bursts of effort." },
+        { "title": "Fast adjustments", "body": "We fix what is not working early." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "The approach",
+      "title": "Build momentum with structure",
+      "subtitle": "A plan you can run every week.",
+      "items": [
+        { "tag": "Target", "title": "Role and level", "body": "Define what you are actually going after." },
+        { "tag": "Execute", "title": "Weekly cadence", "body": "Outreach, applications, and follow-ups." },
+        { "tag": "Adjust", "title": "Signal review", "body": "Use responses to refine your plan." }
+      ]
+    },
+    "steps": {
+      "title": "How it works",
+      "subtitle": "A focused plan built around you.",
+      "items": [
+        { "title": "Clarify targets", "body": "Define role, level, and constraints." },
+        { "title": "Build the plan", "body": "Create a weekly cadence and tracking." },
+        { "title": "Launch", "body": "Start executing with a clear system." }
+      ]
+    },
+    "for": {
+      "title": "This is for you if",
+      "body": "You want a clear system instead of guesswork.",
+      "items": [
+        "You are unsure where to focus your search",
+        "You need a consistent weekly plan",
+        "You want to move faster with structure"
+      ]
+    },
+    "notFor": {
+      "title": "This probably is not for you if",
+      "body": "You already have a system you trust.",
+      "items": [
+        "You already have a consistent cadence",
+        "You are getting steady interviews",
+        "You only want resume edits"
+      ]
+    },
+    "deliverables": {
+      "title": "What you receive",
+      "subtitle": "A playbook for execution.",
+      "items": [
+        { "title": "Target profile", "tag": "Focus", "body": "Defined role targets and criteria.", "bullets": ["Role families", "Level calibration", "Company filters"] },
+        { "title": "Weekly plan", "tag": "Execution", "body": "A cadence you can run every week.", "bullets": ["Outreach plan", "Application rhythm", "Follow-up timing"] },
+        { "title": "Tracking system", "tag": "Metrics", "body": "Simple metrics to see progress.", "bullets": ["Pipeline tracking", "Response rates", "Adjustment triggers"] }
+      ]
+    },
+    "related": {
+      "title": "Need help with execution too?",
+      "body": "We can handle applications or support you weekly.",
+      "primaryLabel": "Done-For-You Applications",
+      "primaryLink": "/done-for-you-applications/",
+      "secondaryLabel": "Ongoing Support",
+      "secondaryLink": "/ongoing-support/"
+    },
+    "faq": {
+      "title": "Questions about the game plan",
+      "subtitle": "Common questions.",
+      "items": [
+        { "question": "How fast can we build the plan?", "answer": "We typically build it within one to two weeks." },
+        { "question": "Is this just for tech roles?", "answer": "No. The system works across tech, finance, healthcare, and operations." },
+        { "question": "Will this replace coaching?", "answer": "It gives you structure; coaching adds ongoing support and feedback." },
+        { "question": "Can you help execute the plan?", "answer": "Yes. We can add done-for-you applications or ongoing support." }
+      ]
+    },
+    "cta": {
+      "title": "Want a clear plan?",
+      "body": "Book a call and we will map your job search system.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "Job Search Game Plan | Structured Search Strategy | Askia",
+    "metaDescription": "A focused job search plan with role targeting, outreach systems, and a weekly cadence."
+  },
+  "ongoingSupport": {
+    "eyebrow": "Momentum dies without real support.",
+    "h1": "Ongoing Support",
+    "subtitle": "Weekly check-ins to keep you moving.",
+    "supporting": "Job searches change fast. Interviews appear, timelines shift, and momentum stalls without feedback. We stay close with weekly check-ins, adjustments, and prep so you keep moving toward the right offer.",
+    "highlights": [
+      "Weekly check-ins and real-time adjustments",
+      "Support through interviews and offers",
+      "Keep momentum without getting stuck"
+    ],
+    "ctaLabel": "Book a Call",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "Starts at $199",
+    "secondaryCtaLabel": "See All Services",
+    "secondaryCtaLink": "/services/",
+    "visual": {
+      "style": "signal",
+      "accent": "rgba(87, 207, 196, 0.6)",
+      "accent2": "rgba(114, 214, 255, 0.2)"
+    },
+    "theme": "offer",
+    "heroGraphic": "offer",
+    "heroGraphicLabel": "Weekly support",
+    "heroModules": [
+      { "title": "Weekly check-in", "body": "Review pipeline, priorities, and blockers.", "meta": "Cadence" },
+      { "title": "Adjustments", "body": "Tighten messaging and tactics fast.", "meta": "Optimization" },
+      { "title": "Prep support", "body": "Interview prep as opportunities appear.", "meta": "Confidence" }
+    ],
+    "heroStats": [
+      { "value": "Weekly", "label": "Support cadence" },
+      { "value": "Real-time", "label": "Fast adjustments" },
+      { "value": "Momentum", "label": "Keep moving" }
+    ],
+    "heroTrustLabel": "Our clients have landed at",
+    "heroTrustLogos": [
+      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
+      { "src": "/assets/logos/testimonials/stripe.svg", "alt": "Stripe logo" },
+      { "src": "/assets/logos/testimonials/uber.svg", "alt": "Uber logo" },
+      { "src": "/assets/logos/testimonials/airbnb.svg", "alt": "Airbnb logo" }
+    ],
+    "snapshot": {
+      "eyebrow": "The outcome",
+      "title": "What ongoing support changes",
+      "subtitle": "Less uncertainty, more momentum.",
+      "items": [
+        { "tag": "Clarity", "title": "Weekly focus", "body": "You always know what to do next." },
+        { "tag": "Speed", "title": "Fast adjustments", "body": "We fix issues before they stall you." },
+        { "tag": "Confidence", "title": "Interview ready", "body": "Prep stays aligned to real opportunities." }
+      ]
+    },
+    "mistakes": {
+      "eyebrow": "Common mistakes",
+      "title": "Why searches lose momentum",
+      "subtitle": "We keep you out of the stall.",
+      "items": [
+        { "title": "No feedback loop", "body": "You do not know what to fix when responses slow." },
+        { "title": "Scattered effort", "body": "Too many tactics with no clear priority." },
+        { "title": "Interview drift", "body": "Prep does not match the role you are targeting." }
+      ]
+    },
+    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "steps", "for", "related", "faq", "cta"],
+    "heroCard": {
+      "title": "What you get",
+      "body": "A weekly partner to keep momentum.",
+      "bullets": ["Weekly check-ins", "Tactical adjustments", "Interview support"]
+    },
+    "proof": {
+      "title": "Why this works",
+      "subtitle": "Consistency and feedback win.",
+      "items": [
+        { "title": "Weekly cadence", "body": "Momentum builds with steady effort." },
+        { "title": "Fast fixes", "body": "We adjust before small issues become stalls." },
+        { "title": "Aligned prep", "body": "Prep stays tied to real roles and interviews." }
+      ]
+    },
+    "focus": {
+      "eyebrow": "The approach",
+      "title": "Stay in motion",
+      "subtitle": "A weekly loop that keeps you sharp.",
+      "items": [
+        { "tag": "Review", "title": "Weekly pipeline", "body": "We review responses and next steps." },
+        { "tag": "Adjust", "title": "Messaging and tactics", "body": "We tighten the approach based on signals." },
+        { "tag": "Prepare", "title": "Interview readiness", "body": "We prep around the roles in motion." }
+      ]
+    },
+    "steps": {
+      "title": "How it works",
+      "subtitle": "Weekly support built around your search.",
+      "items": [
+        { "title": "Kickoff", "body": "Align on goals, targets, and current pipeline." },
+        { "title": "Weekly sessions", "body": "Review progress and adjust priorities." },
+        { "title": "On-demand prep", "body": "Interview support when you need it." }
+      ]
+    },
+    "for": {
+      "title": "This is for you if",
+      "body": "You want consistent support during the search.",
+      "items": [
+        "You are already searching and need momentum",
+        "You want accountability and fast adjustments",
+        "You want interview prep as roles progress"
+      ]
+    },
+    "notFor": {
+      "title": "This probably is not for you if",
+      "body": "You are not searching yet.",
+      "items": [
+        "You need clarity on your target role first",
+        "You only want a one-time deliverable",
+        "You are not ready to start the search"
+      ]
+    },
+    "deliverables": {
+      "title": "What you receive",
+      "subtitle": "Support that keeps you moving.",
+      "items": [
+        { "title": "Weekly check-ins", "tag": "Cadence", "body": "Structured reviews of progress.", "bullets": ["Pipeline review", "Next-step planning", "Priority focus"] },
+        { "title": "Tactical adjustments", "tag": "Optimization", "body": "Refine strategy based on signals.", "bullets": ["Messaging tweaks", "Target updates", "Outreach adjustments"] },
+        { "title": "Interview support", "tag": "Prep", "body": "Prep that matches the roles in motion.", "bullets": ["Story refinement", "Mock questions", "Feedback"] }
+      ]
+    },
+    "related": {
+      "title": "Need a stronger system first?",
+      "body": "Start with a game plan or let us run applications.",
+      "primaryLabel": "Job Search Game Plan",
+      "primaryLink": "/job-search-game-plan/",
+      "secondaryLabel": "Done-For-You Applications",
+      "secondaryLink": "/done-for-you-applications/"
+    },
+    "faq": {
+      "title": "Questions about ongoing support",
+      "subtitle": "Common questions.",
+      "items": [
+        { "question": "How often do we meet?", "answer": "Typically weekly, with flexibility as interviews progress." },
+        { "question": "Can you help with interview prep?", "answer": "Yes. We integrate interview prep as opportunities appear." },
+        { "question": "Is this a monthly plan?", "answer": "We will align on cadence and duration during the call." },
+        { "question": "Do I need a game plan first?", "answer": "If you do not have a clear plan, we recommend starting there." }
+      ]
+    },
+    "cta": {
+      "title": "Want weekly support?",
+      "body": "Book a call and we will keep your search moving.",
+      "label": "Book a Call",
+      "link": "https://bookings.askia.tech/#/clarity"
+    },
+    "metaTitle": "Ongoing Support | Weekly Job Search Coaching | Askia",
+    "metaDescription": "Weekly check-ins, adjustments, and prep to keep momentum through interviews and offers."
   }
 }

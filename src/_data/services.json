@@ -115,42 +115,49 @@
         "title": "Strategy Session",
         "price": "$299",
         "body": "One focused conversation to get clear on your next move.",
+        "pageLink": "/career-clarity/",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       },
       {
         "title": "Resume Overhaul",
         "price": "$299",
         "body": "A complete rebuild that shows what you've actually accomplished.",
+        "pageLink": "/resume-writing/",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       },
       {
         "title": "LinkedIn Transformation",
         "price": "$149",
         "body": "Headline, about, and experience rewritten to attract the right opportunities.",
+        "pageLink": "/linkedin-optimization/",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       },
       {
         "title": "Done-For-You Applications",
         "price": "$499",
         "body": "We handle the applications so you can focus on preparation.",
+        "pageLink": "/done-for-you-applications/",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       },
       {
         "title": "Job Search Game Plan",
         "price": "$299",
         "body": "A clear system for finding opportunities and getting responses.",
+        "pageLink": "/job-search-game-plan/",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       },
       {
         "title": "Interview Prep Session",
         "price": "$349",
         "body": "Mock interview with detailed feedback and story refinement.",
+        "pageLink": "/interview-prep/",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       },
       {
         "title": "Ongoing Support",
         "price": "$199",
         "body": "Weekly check-ins to keep you moving and adjust as needed.",
+        "pageLink": "/ongoing-support/",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       }
     ]

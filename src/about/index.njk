@@ -16,7 +16,7 @@ breadcrumbs:
       <p class="hero-eyebrow">About Askia</p>
       <h1 class="about-hero-title">{{ about.hero.title }}</h1>
       <p class="about-hero-subtitle">{{ about.hero.subtitle }}</p>
-      <p class="about-hero-supporting">{{ about.story.body }}</p>
+      {% if about.hero.supporting %}<p class="about-hero-supporting">{{ about.hero.supporting }}</p>{% endif %}
       <div class="hero-cta">
         <a class="btn btn-primary" href="{{ about.hero.ctaLink }}">{{ about.hero.ctaLabel }}</a>
         <a class="btn btn-ghost" href="/services/">Explore services</a>

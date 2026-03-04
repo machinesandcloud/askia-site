@@ -142,12 +142,12 @@ breadcrumbs:
     </div>
     <div class="services-core-grid">
       {% for item in services.alaCarte.items %}
-        <div class="services-core-card">
+        <a class="services-core-card" href="{{ item.pageLink or item.buyLink }}">
           <div class="services-core-card-top">
             <h3>{{ item.title }}</h3>
           </div>
           <p>{{ item.body }}</p>
-        </div>
+        </a>
       {% endfor %}
     </div>
     <div class="services-core-orbit" aria-hidden="true">
