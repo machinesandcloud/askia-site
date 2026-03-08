@@ -1,70 +1,19 @@
 {
   "hero": {
     "eyebrow": "Career coaching for $150K–$350K roles",
-    "titleLead": "You're not getting ignored because you lack talent.",
-    "titleEmphasis": "Your story isn't landing.",
-    "titleTail": "",
-    "titleAccent": "We fix that.",
-    "subtitle": "Land the role you deserve. Stop being overlooked.",
-    "supporting": "You've got the experience. But your resume isn't opening doors and interviews aren't converting. We help you translate what you've done into what they need to hear.",
-    "ctaLabel": "Get Your Free Strategy Session",
+    "title": "Let experts run your job search",
+    "subtitle": "We built the system that gets you hired. Then hired world-class strategists. Now they run your career transition.",
+    "ctaLabel": "Get started",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaUrgency": "Only 4 spots available this week",
-    "highlight": [
-      "Land your first interview in 3 weeks or less",
-      "A resume that gets 3x more callbacks",
-      "Walk into interviews knowing exactly what to say"
-    ],
-    "proof": "847 professionals coached. 89% land offers within 60 days.",
-    "guarantee": "Leave your strategy call with a clear action plan — or we'll give you a second session free."
+    "secondaryLabel": "See how it works",
+    "secondaryLink": "#how-we-work"
   },
-  "stats": [
-    {
-      "title": "3 weeks",
-      "body": "Average time from starting with us to landing your first interview. Not months. Weeks."
-    },
-    {
-      "title": "$47,000",
-      "body": "Average salary increase our clients negotiate. That's not a typo. Most people leave money on the table. You won't."
-    },
-    {
-      "title": "89%",
-      "body": "Of our clients land a role within 60 days. We don't just coach — we get results."
-    }
-  ],
-  "pillars": {
-    "title": "This isn't about working harder. It's about working smarter.",
-    "subtitle": "You've probably been told to 'just apply more' or 'network harder.' That advice is exhausting and mostly wrong. Here's what actually moves the needle:",
+  "statsBanner": {
     "items": [
-      {
-        "title": "Get clear on what you actually want",
-        "body": "Stop applying to everything. We help you identify the exact roles where your experience translates to 'obviously qualified.'"
-      },
-      {
-        "title": "Make your value impossible to miss",
-        "body": "Your resume and LinkedIn should make recruiters think 'I need to talk to this person.' Not 'maybe.' Not 'let me think about it.'"
-      },
-      {
-        "title": "Stop hoping and start executing",
-        "body": "No more sending applications into the void. We build you a focused system that creates real conversations with real decision-makers."
-      }
-    ]
-  },
-  "proof": {
-    "title": "What changes when your story finally lands",
-    "items": [
-      {
-        "title": "Inbox looks different",
-        "body": "Recruiters reach out to you. Hiring managers respond. Your calendar fills up with conversations that matter."
-      },
-      {
-        "title": "Interviews feel different",
-        "body": "You walk in knowing exactly what to say. No more rambling. No more hoping you said the right thing."
-      },
-      {
-        "title": "Offers look different",
-        "body": "You negotiate from strength, not desperation. You choose the role — it doesn't choose you."
-      }
+      "847+ PROFESSIONALS COACHED",
+      "89% LAND IN 60 DAYS",
+      "$47K AVG SALARY INCREASE",
+      "3 WEEKS TO FIRST INTERVIEW"
     ]
   },
   "logos": {
@@ -82,112 +31,110 @@
       { "name": "Shopify", "logo": "/assets/logos/shopify.svg", "accent": "rgba(149,191,71,0.3)" }
     ]
   },
-  "success": {
-    "title": "Real people. Real breakthroughs.",
-    "subtitle": "These aren't stock photos. These are people who were stuck, frustrated, and ready to give up — until something clicked.",
-    "body": "Every one of them had the experience. What they needed was the right way to talk about it.",
-    "items": [
-      {
-        "name": "Patel",
-        "role": "Product Designer",
-        "company": "Fintech",
-        "image": "/assets/success/happy-1.jpg"
-      },
-      {
-        "name": "Derrick",
-        "role": "Senior Engineer",
-        "company": "Big Tech",
-        "image": "/assets/success/happy-2.jpg"
-      },
-      {
-        "name": "Alyssa",
-        "role": "Data Scientist",
-        "company": "AI Startup",
-        "image": "/assets/success/happy-3.jpg"
-      },
-      {
-        "name": "Marco",
-        "role": "Engineering Manager",
-        "company": "Enterprise",
-        "image": "/assets/success/happy-4.jpg"
-      },
-      {
-        "name": "Tirrell",
-        "role": "Product Manager",
-        "company": "Growth",
-        "image": "/assets/success/happy-5.jpg"
-      },
-      {
-        "name": "Noah",
-        "role": "Platform Engineer",
-        "company": "Cloud",
-        "image": "/assets/success/happy-6.jpg"
-      }
+  "visualDemo": {
+    "title": "See your transformation",
+    "subtitle": "Real results from real professionals",
+    "metrics": [
+      { "label": "Resume callbacks", "before": "2%", "after": "18%" },
+      { "label": "Interview rate", "before": "1 in 50", "after": "1 in 8" },
+      { "label": "Time to offer", "before": "6 months", "after": "6 weeks" }
     ]
   },
-  "about": {
-    "title": "Why Askia exists",
-    "subtitle": "Because talented people shouldn't feel invisible.",
-    "body": "Here's what we've seen: smart, capable professionals who've led projects, shipped products, and solved real problems — completely stuck in their job search. Not because they lack skills. Because no one taught them how to talk about what they've done in a way that lands. That's the gap we close. We don't just polish your resume. We rebuild how you see yourself, how you talk about your work, and how you show up in every conversation."
+  "comparison": {
+    "title": "Why work with us?",
+    "columns": ["DIY Job Search", "Askia Coaching"],
+    "rows": [
+      { "label": "Time to interview", "diy": "3-6 months", "askia": "3 weeks" },
+      { "label": "Resume callbacks", "diy": "2-5%", "askia": "15-25%" },
+      { "label": "Interview prep", "diy": "YouTube + guesswork", "askia": "1:1 mock interviews" },
+      { "label": "Negotiation", "diy": "None", "askia": "Expert strategy" },
+      { "label": "Salary increase", "diy": "$0-10K", "askia": "$47K+" },
+      { "label": "Accountability", "diy": "Self-managed", "askia": "Dedicated strategist" }
+    ]
+  },
+  "howWeWork": {
+    "title": "How we work",
+    "items": [
+      { "title": "Strategy first", "body": "We map your target roles, identify gaps, and build a focused plan." },
+      { "title": "Assets that convert", "body": "Resume, LinkedIn, and pitch rebuilt to create real signal." },
+      { "title": "Interview-ready", "body": "Mock interviews, story prep, and live feedback before every call." },
+      { "title": "Offer negotiation", "body": "We help you evaluate, negotiate, and close the right deal." }
+    ]
+  },
+  "wallOfLove": {
+    "title": "Wall of Love",
+    "subtitle": "What our clients say",
+    "reviews": [
+      {
+        "name": "Marcus Chen",
+        "role": "Senior Engineer",
+        "company": "Google",
+        "photo": "/assets/success/happy-2.jpg",
+        "quote": "Went from 2% callback rate to landing 4 interviews in 2 weeks. The resume rewrite alone was worth it.",
+        "metric": "+$65K salary increase",
+        "platform": "linkedin"
+      },
+      {
+        "name": "Sarah Martinez",
+        "role": "Product Manager",
+        "company": "Meta",
+        "photo": "/assets/success/happy-3.jpg",
+        "quote": "Steve helped me articulate my impact in a way I never could. Every interviewer mentioned my resume stood out.",
+        "metric": "Hired in 5 weeks",
+        "platform": "linkedin"
+      },
+      {
+        "name": "David Park",
+        "role": "Engineering Manager",
+        "company": "Stripe",
+        "photo": "/assets/success/happy-4.jpg",
+        "quote": "The mock interviews were intense but exactly what I needed. Walked into my final round feeling fully prepared.",
+        "metric": "3 competing offers",
+        "platform": "linkedin"
+      },
+      {
+        "name": "Priya Sharma",
+        "role": "Data Scientist",
+        "company": "Netflix",
+        "photo": "/assets/success/happy-1.jpg",
+        "quote": "Negotiated $40K more than my initial offer. The scripts and strategy Steve gave me made all the difference.",
+        "metric": "+$40K negotiated",
+        "platform": "linkedin"
+      },
+      {
+        "name": "Alex Thompson",
+        "role": "Staff Engineer",
+        "company": "Airbnb",
+        "photo": "/assets/success/happy-5.jpg",
+        "quote": "Was stuck for 8 months. 3 weeks with Askia and I had multiple interviews lined up. Game changer.",
+        "metric": "Landed in 6 weeks",
+        "platform": "linkedin"
+      },
+      {
+        "name": "Jennifer Wu",
+        "role": "Design Lead",
+        "company": "Shopify",
+        "photo": "/assets/success/happy-6.jpg",
+        "quote": "The portfolio review transformed how I present my work. Finally feel like my experience matches my story.",
+        "metric": "+$52K total comp",
+        "platform": "linkedin"
+      }
+    ]
   },
   "coach": {
     "title": "Meet Steve",
     "credential": "Former engineering leader. Now career strategist.",
-    "body": "I've sat on the other side of the table. I've reviewed thousands of resumes, interviewed hundreds of candidates, and made hiring decisions at every level. I know exactly what makes someone stand out — and what makes them forgettable. I built Askia because I kept seeing the same pattern: incredible people getting passed over because they didn't know how to tell their story. Now I help them fix that.",
+    "body": "I've reviewed thousands of resumes, interviewed hundreds of candidates, and made hiring decisions at every level. I built Askia because I kept seeing the same pattern: incredible people getting passed over because they didn't know how to tell their story.",
     "bullets": [
       "10+ years leading engineering teams",
-      "Helped hundreds of professionals land roles they actually wanted",
-      "Direct experience hiring across tech, product, and leadership"
-    ]
-  },
-  "program": {
-    "title": "Here's how we get you there",
-    "steps": [
-      {
-        "title": "Get crystal clear on what you're going after",
-        "body": "No more applying to 50 different roles hoping something sticks. We figure out exactly where your experience translates to 'perfect fit.'"
-      },
-      {
-        "title": "Rebuild how you present yourself",
-        "body": "Your resume and LinkedIn aren't working because they're listing tasks, not telling a story. We fix that."
-      },
-      {
-        "title": "Stop spraying and praying",
-        "body": "Cold applications rarely work. We build you a focused outreach system that gets actual responses."
-      },
-      {
-        "title": "Walk into interviews ready to win",
-        "body": "No more winging it. You'll have stories prepared, questions anticipated, and confidence that comes from actually being ready."
-      }
-    ]
-  },
-  "timeline": {
-    "title": "What working together looks like",
-    "steps": [
-      {
-        "title": "Week 1: Strategy",
-        "body": "We get clear on exactly what you want, what you're worth, and what's been holding you back."
-      },
-      {
-        "title": "Week 2: Rebuild",
-        "body": "Your resume, LinkedIn, and pitch get completely overhauled. You'll barely recognize them."
-      },
-      {
-        "title": "Weeks 3-4: Launch",
-        "body": "You start having real conversations. We prep you for every interview and adjust as you go."
-      },
-      {
-        "title": "Weeks 4-6: Close",
-        "body": "Offers come in. We help you evaluate, negotiate, and choose the right one."
-      }
+      "Hired across tech, product, and leadership",
+      "Now helps you land the role you deserve"
     ]
   },
   "cta": {
-    "title": "Your next role is closer than you think",
-    "body": "In 15 minutes, we'll identify exactly what's holding you back and give you a clear action plan. No sales pitch. If we can't help, we'll tell you.",
-    "ctaLabel": "Claim Your Free Strategy Session",
-    "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "urgency": "This week's calendar is almost full",
-    "guarantee": "Walk away with clarity — guaranteed."
+    "title": "Ready to stop being overlooked?",
+    "body": "15 minutes. Leave with a clear action plan. No sales pitch.",
+    "ctaLabel": "Get started",
+    "ctaLink": "https://bookings.askia.tech/#/clarity"
   }
 }
