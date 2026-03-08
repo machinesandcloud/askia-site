@@ -1,0 +1,148 @@
+---
+layout: layout.njk
+title: Sitemap
+metaTitle: "Sitemap | Askia"
+metaDescription: "Browse the key Askia pages across services, role tracks, industries, locations, resources, and the latest blog posts."
+---
+{% set pathsNav = null %}
+{% set servicesNav = null %}
+{% for item in site.nav %}
+  {% if item.label == "Paths" %}
+    {% set pathsNav = item %}
+  {% endif %}
+  {% if item.label == "Services" %}
+    {% set servicesNav = item %}
+  {% endif %}
+{% endfor %}
+
+<section class="section sitemap-hero">
+  <div class="container">
+    <p class="hero-eyebrow">Directory</p>
+    <h1 class="section-title section-title-glow">Askia sitemap</h1>
+    <p class="section-subtitle">Find the right coaching path, service, location, or resource in one place.</p>
+    <div class="sitemap-meta">
+      <a class="btn btn-ghost" href="/sitemap.xml">XML sitemap</a>
+      <a class="btn btn-ghost" href="/sitemap.txt">Text sitemap</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container sitemap-grid">
+    <div class="sitemap-block">
+      <h2>Start here</h2>
+      <ul class="sitemap-list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/land-your-next-role/">Land your next role</a></li>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/resources/">Resources</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/testimonials/">Testimonials</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/career-readiness-index/">Career Readiness Index</a></li>
+        <li><a href="/locations/">Locations</a></li>
+        <li><a href="/industries/">Industries</a></li>
+      </ul>
+    </div>
+
+    <div class="sitemap-block">
+      <h2>Role tracks</h2>
+      <ul class="sitemap-list">
+        {% if pathsNav and pathsNav.groups %}
+          {% for group in pathsNav.groups %}
+            {% for link in group.items %}
+              {% if link.url != "/land-your-next-role/" and link.url != "/resources/" %}
+                <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </div>
+
+    <div class="sitemap-block">
+      <h2>Services</h2>
+      <ul class="sitemap-list">
+        {% if servicesNav and servicesNav.groups %}
+          {% for group in servicesNav.groups %}
+            {% for link in group.items %}
+              {% if link.url != "/services/" %}
+                <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        {% endif %}
+        <li><a href="/done-for-you-applications/">Done-for-you applications</a></li>
+        <li><a href="/job-search-game-plan/">Job search game plan</a></li>
+        <li><a href="/ongoing-support/">Ongoing support</a></li>
+        <li><a href="/mock-interviews/">Mock interviews</a></li>
+        <li><a href="/executive-coaching/">Executive coaching</a></li>
+        <li><a href="/cover-letter-writing/">Cover letter writing</a></li>
+        <li><a href="/ats-audit/">ATS audit</a></li>
+        <li><a href="/career-index/">Career index</a></li>
+      </ul>
+    </div>
+
+    <div class="sitemap-block">
+      <h2>Industries</h2>
+      <ul class="sitemap-list">
+        <li><a href="/industries/">All industries</a></li>
+        {% for entry in collections.all %}
+          {% if entry.url and entry.url.startsWith("/industries/") and entry.url != "/industries/" %}
+            <li><a href="{{ entry.url }}">{{ entry.data.title or entry.data.metaTitle or entry.url }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="sitemap-block">
+      <h2>Resources</h2>
+      <ul class="sitemap-list">
+        <li><a href="/resources/">All resources</a></li>
+        {% for entry in collections.all %}
+          {% if entry.url and entry.url.startsWith("/resources/") and entry.url != "/resources/" %}
+            <li><a href="{{ entry.url }}">{{ entry.data.title or entry.data.metaTitle or entry.url }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="sitemap-block">
+      <h2>Locations</h2>
+      <ul class="sitemap-list">
+        <li><a href="/locations/">All locations</a></li>
+        {% for entry in collections.all | sort(attribute="url") %}
+          {% if entry.data.breadcrumbs and entry.data.breadcrumbs[1] and entry.data.breadcrumbs[1].name == "Locations" %}
+            <li><a href="{{ entry.url }}">{{ entry.data.title or entry.data.metaTitle or entry.url }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="sitemap-block sitemap-block-wide">
+      <h2>Latest from the blog</h2>
+      <ul class="sitemap-list sitemap-list-columns">
+        {% if collections.blog %}
+          {% set blogCount = 0 %}
+          {% for entry in collections.blog | reverse %}
+            {% if blogCount < 24 %}
+            <li><a href="{{ entry.url }}">{{ entry.data.title or entry.url }}</a></li>
+              {% set blogCount = blogCount + 1 %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </ul>
+      <p class="sitemap-note"><a href="/blog/">Browse all blog posts →</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container cta-band">
+    <div>
+      <h2 class="section-title">Not sure which page you need?</h2>
+      <p class="section-subtitle">Book a call and we’ll point you to the right path.</p>
+    </div>
+    <a class="btn btn-primary" href="{{ site.cta.link }}">{{ site.cta.label }}</a>
+  </div>
+</section>

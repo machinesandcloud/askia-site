@@ -1,0 +1,9 @@
+---
+permalink: /sitemap.txt
+layout: null
+---
+{% for entry in collections.all %}
+  {% if entry.url and entry.data.sitemap != false and entry.data.noindex != true and entry.url != "/sitemap.xml" and entry.url != "/sitemap.txt" and entry.url != "/robots.txt" %}
+{{ site.url }}{{ entry.url }}
+  {% endif %}
+{% endfor %}
