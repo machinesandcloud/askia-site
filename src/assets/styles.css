@@ -789,7 +789,7 @@ a {
 .hero-visual-v2 .hero-photo {
   width: 100%;
   max-width: 380px;
-  border-radius: 58% 42% 48% 52% / 50% 58% 42% 50%;
+  border-radius: 62% 38% 48% 52% / 55% 45% 60% 40%;
   box-shadow: 0 35px 80px rgba(7, 10, 15, 0.55);
   background: linear-gradient(135deg, rgba(114, 214, 255, 0.2), transparent);
   padding: 2px;
@@ -910,6 +910,12 @@ a {
 .hero-v2 .hero-photo {
   border-radius: 20px;
   box-shadow: 0 30px 60px rgba(7, 10, 15, 0.5);
+}
+
+.hero-v2 .hero-visual-v2 .hero-photo {
+  border-radius: 62% 38% 48% 52% / 55% 45% 60% 40%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 @media (max-width: 768px) {
