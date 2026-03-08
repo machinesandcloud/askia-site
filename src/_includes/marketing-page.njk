@@ -24,22 +24,10 @@
         {% endfor %}
       </div>
       {% endif %}
-      <div class="hero-next-cta-stack">
-        <div class="hero-next-cta-row">
-          <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
-          {% if page.secondaryCtaLabel %}
-            <a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a>
-          {% endif %}
-        </div>
-        {% if page.ctaUrgency or page.call.guarantee %}
-        <div class="hero-next-cta-meta">
-          {% if page.ctaUrgency %}
-            <span class="hero-urgency">{{ page.ctaUrgency }}</span>
-          {% endif %}
-          {% if page.call.guarantee %}
-            <span class="hero-guarantee">{{ page.call.guarantee }}</span>
-          {% endif %}
-        </div>
+      <div class="hero-next-cta">
+        <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
+        {% if page.secondaryCtaLabel %}
+          <a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a>
         {% endif %}
       </div>
       {% if page.heroTrustLogos and page.heroTrustLogos.length %}
@@ -251,18 +239,6 @@
         </article>
         {% endif %}
       {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="section-cta-mid">
-  <div class="container">
-    <div class="cta-mid-content">
-      <h3>Ready to stop being overlooked?</h3>
-      <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
-      {% if page.ctaUrgency %}
-        <span class="hero-urgency">{{ page.ctaUrgency }}</span>
-      {% endif %}
     </div>
   </div>
 </section>
