@@ -615,12 +615,6 @@
         {% if page.secondaryCtaLabel %}
           <a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a>
         {% endif %}
-        {% if page.ctaUrgency or page.guarantee %}
-        <div class="hero-cta-meta">
-          {% if page.ctaUrgency %}<span class="hero-urgency">{{ page.ctaUrgency }}</span>{% endif %}
-          {% if page.guarantee %}<span class="hero-guarantee">{{ page.guarantee }}</span>{% endif %}
-        </div>
-        {% endif %}
       </div>
       {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
     </div>
@@ -940,12 +934,6 @@
     <div>
       <h2 class="section-title">{{ page.cta.title }}</h2>
       <p class="section-subtitle">{{ page.cta.body }}</p>
-      {% if page.cta.urgency or page.cta.guarantee %}
-      <div class="cta-band-meta">
-        {% if page.cta.urgency %}<span class="hero-urgency">{{ page.cta.urgency }}</span>{% endif %}
-        {% if page.cta.guarantee %}<span class="hero-guarantee">{{ page.cta.guarantee }}</span>{% endif %}
-      </div>
-      {% endif %}
     </div>
     <a class="btn btn-primary" href="{{ page.cta.link or site.cta.link }}">{{ page.cta.label or site.cta.label }}</a>
   </div>
