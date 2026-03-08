@@ -787,9 +787,11 @@ a {
 
 .hero-visual-v2 .hero-photo {
   width: 100%;
-  max-width: 320px;
-  border-radius: 20px;
-  box-shadow: 0 30px 60px rgba(7, 10, 15, 0.5);
+  max-width: 380px;
+  border-radius: 30% 70% 35% 65% / 55% 40% 60% 45%;
+  box-shadow: 0 35px 80px rgba(7, 10, 15, 0.55);
+  background: linear-gradient(135deg, rgba(114, 214, 255, 0.2), transparent);
+  padding: 2px;
 }
 
 /* Stats Sidebar - Stacked Below Photo */
@@ -845,7 +847,7 @@ a {
   }
 
   .hero-visual-v2 .hero-photo {
-    max-width: 200px;
+    max-width: 260px;
   }
 
   .hero-stats-sidebar {
@@ -7571,6 +7573,7 @@ body.pricing-focus {
 
 .timeline-node {
   padding: 14px 0;
+  position: relative;
 }
 
 .timeline-node strong {
@@ -9092,4 +9095,306 @@ body.pricing-focus {
     animation: none !important;
     transition: none !important;
   }
+}
+
+/* ============================================
+   ANIMATED PROCESS VISUALIZATIONS
+   ============================================ */
+
+/* Timeline Animated Flow */
+.timeline-rail {
+  position: relative;
+}
+
+.timeline-rail::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(114, 214, 255, 0.1) 10%,
+    rgba(114, 214, 255, 0.4) 50%,
+    rgba(114, 214, 255, 0.1) 90%,
+    transparent 100%
+  );
+  animation: flowLine 3s ease-in-out infinite;
+}
+
+@keyframes flowLine {
+  0%, 100% {
+    background-position: -200% 0;
+    opacity: 0.6;
+  }
+  50% {
+    background-position: 200% 0;
+    opacity: 1;
+  }
+}
+
+.timeline-node {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: nodeReveal 0.6s ease-out forwards;
+}
+
+.timeline-node:nth-child(1) { animation-delay: 0.1s; }
+.timeline-node:nth-child(2) { animation-delay: 0.25s; }
+.timeline-node:nth-child(3) { animation-delay: 0.4s; }
+.timeline-node:nth-child(4) { animation-delay: 0.55s; }
+
+@keyframes nodeReveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Timeline Node Pulse Indicator */
+.timeline-node::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(114, 214, 255, 0.15);
+  animation: nodePulse 2s ease-in-out infinite;
+}
+
+.timeline-node:nth-child(1)::before { animation-delay: 0s; }
+.timeline-node:nth-child(2)::before { animation-delay: 0.5s; }
+.timeline-node:nth-child(3)::before { animation-delay: 1s; }
+.timeline-node:nth-child(4)::before { animation-delay: 1.5s; }
+
+@keyframes nodePulse {
+  0%, 100% {
+    box-shadow: 0 0 0 4px rgba(114, 214, 255, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(114, 214, 255, 0.3), 0 0 20px rgba(114, 214, 255, 0.4);
+  }
+}
+
+/* Pillar Cards Animated Entry */
+.pillar-card {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: pillarReveal 0.7s ease-out forwards;
+}
+
+.pillar-card:nth-child(1) { animation-delay: 0.15s; }
+.pillar-card:nth-child(2) { animation-delay: 0.3s; }
+.pillar-card:nth-child(3) { animation-delay: 0.45s; }
+
+@keyframes pillarReveal {
+  to {
+    opacity: 1;
+    transform: translateY(var(--pillar-offset, 0));
+  }
+}
+
+/* Pillar Card Glow Effect */
+.pillar-card::after {
+  background: radial-gradient(
+    circle at 30% 20%,
+    rgba(114, 214, 255, 0.12) 0%,
+    transparent 50%
+  );
+  animation: pillarGlow 4s ease-in-out infinite;
+}
+
+@keyframes pillarGlow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.1); }
+}
+
+/* Pillar Tag Number Animation */
+.pillar-tag {
+  position: relative;
+  overflow: hidden;
+}
+
+.pillar-tag::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.2) 50%, transparent 70%);
+  animation: tagShine 3s ease-in-out infinite;
+}
+
+@keyframes tagShine {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* Outcome Cards Animated Border */
+.outcome-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.outcome-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(114, 214, 255, 0.3) 0%,
+    transparent 30%,
+    transparent 70%,
+    rgba(114, 214, 255, 0.3) 100%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: borderRotate 6s linear infinite;
+}
+
+@keyframes borderRotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Outcome Number Counter Animation */
+.outcome-number {
+  background: linear-gradient(135deg, var(--accent) 0%, rgba(83, 166, 255, 1) 100%);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientShift 3s ease-in-out infinite;
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Coach Section Photo Float */
+.coach-photo img {
+  animation: coachFloat 6s ease-in-out infinite;
+}
+
+@keyframes coachFloat {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25% { transform: translateY(-8px) rotate(0.5deg); }
+  75% { transform: translateY(4px) rotate(-0.5deg); }
+}
+
+/* Stats Items Counting Animation */
+.hero-stat-item strong {
+  animation: statPulse 3s ease-in-out infinite;
+}
+
+.hero-stat-item:nth-child(1) strong { animation-delay: 0s; }
+.hero-stat-item:nth-child(2) strong { animation-delay: 1s; }
+.hero-stat-item:nth-child(3) strong { animation-delay: 2s; }
+
+@keyframes statPulse {
+  0%, 100% {
+    transform: scale(1);
+    text-shadow: 0 0 0 transparent;
+  }
+  50% {
+    transform: scale(1.05);
+    text-shadow: 0 0 20px rgba(114, 214, 255, 0.5);
+  }
+}
+
+/* Service Tiles Stagger Animation */
+.service-tile {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: tileSlideIn 0.5s ease-out forwards;
+}
+
+.service-tile:nth-child(1) { animation-delay: 0.1s; }
+.service-tile:nth-child(2) { animation-delay: 0.2s; }
+.service-tile:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes tileSlideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* CTA Band Pulse */
+.cta-band {
+  position: relative;
+}
+
+.cta-band::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(114, 214, 255, 0.1) 25%,
+    rgba(114, 214, 255, 0.2) 50%,
+    rgba(114, 214, 255, 0.1) 75%,
+    transparent 100%
+  );
+  border-radius: inherit;
+  z-index: -1;
+  animation: ctaPulse 4s ease-in-out infinite;
+}
+
+@keyframes ctaPulse {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.01); }
+}
+
+/* Guarantee Badge Animation */
+.hero-guarantee-badge {
+  animation: badgeFloat 4s ease-in-out infinite;
+}
+
+@keyframes badgeFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+/* Intersection Observer Animation Classes */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Process Flow Connector Lines */
+.timeline-track::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 10px,
+    rgba(114, 214, 255, 0.2) 10px,
+    rgba(114, 214, 255, 0.2) 20px
+  );
+  animation: flowDots 1s linear infinite;
+  z-index: 0;
+}
+
+@keyframes flowDots {
+  to { background-position: 20px 0; }
 }
