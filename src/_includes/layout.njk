@@ -1125,52 +1125,74 @@
     <script>
       // Testimonials carousel with random dramatic pauses
       document.addEventListener('DOMContentLoaded', function() {
-        const carousel = document.querySelector('[data-testimonials-carousel]');
-        const track = document.querySelector('[data-testimonials-track]');
-        if (!carousel || !track) return;
+        const carousels = Array.from(document.querySelectorAll('[data-testimonials-carousel]'));
+        if (!carousels.length) return;
         if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-        const cards = Array.from(track.querySelectorAll('[data-testimonial-card]'));
-        if (!cards.length) return;
+        carousels.forEach((carousel) => {
+          const track = carousel.querySelector('[data-testimonials-track]');
+          if (!track) return;
+          const cards = Array.from(track.querySelectorAll('[data-testimonial-card]'));
+          if (!cards.length) return;
 
-        const uniqueCount = Math.floor(cards.length / 2) || cards.length;
-        const baseDuration = 14;
+          const uniqueCount = Math.floor(cards.length / 2) || cards.length;
+          const baseDuration = 10;
+          track.style.animationDuration = `${baseDuration}s`;
 
-        track.style.animationDuration = `${baseDuration}s`;
+          let stopTimer;
+          let resumeTimer;
 
-        let stopTimer;
-        let resumeTimer;
+          const clearHighlight = () => {
+            cards.forEach(card => card.classList.remove('is-highlighted'));
+          };
 
-        const clearHighlight = () => {
-          cards.forEach(card => card.classList.remove('is-highlighted'));
-        };
+          const getClosestCard = () => {
+            const carouselRect = carousel.getBoundingClientRect();
+            const centerX = carouselRect.left + carouselRect.width / 2;
+            let closest = null;
+            let closestDistance = Infinity;
+            cards.forEach((card, index) => {
+              if (index >= uniqueCount) return;
+              const rect = card.getBoundingClientRect();
+              if (rect.right < carouselRect.left || rect.left > carouselRect.right) return;
+              const cardCenter = rect.left + rect.width / 2;
+              const distance = Math.abs(centerX - cardCenter);
+              if (distance < closestDistance) {
+                closestDistance = distance;
+                closest = card;
+              }
+            });
+            return closest;
+          };
 
-        const scheduleStop = () => {
-          const spinTime = 1800 + Math.random() * 2800;
-          stopTimer = setTimeout(() => {
-            carousel.classList.add('is-paused');
-            track.style.animationPlayState = 'paused';
+          const scheduleStop = () => {
+            const spinTime = 1400 + Math.random() * 2600;
+            stopTimer = setTimeout(() => {
+              carousel.classList.add('is-paused');
+              track.style.animationPlayState = 'paused';
 
-            const highlightIndex = Math.floor(Math.random() * uniqueCount);
-            const highlight = cards[highlightIndex];
-            clearHighlight();
-            if (highlight) highlight.classList.add('is-highlighted');
+              requestAnimationFrame(() => {
+                const highlight = getClosestCard() || cards[Math.floor(Math.random() * uniqueCount)];
+                clearHighlight();
+                if (highlight) highlight.classList.add('is-highlighted');
+              });
 
-            const pauseTime = 1600 + Math.random() * 1400;
-            resumeTimer = setTimeout(() => {
-              clearHighlight();
-              carousel.classList.remove('is-paused');
-              track.style.animationPlayState = 'running';
-              scheduleStop();
-            }, pauseTime);
-          }, spinTime);
-        };
+              const pauseTime = 2000 + Math.random() * 2200;
+              resumeTimer = setTimeout(() => {
+                clearHighlight();
+                carousel.classList.remove('is-paused');
+                track.style.animationPlayState = 'running';
+                scheduleStop();
+              }, pauseTime);
+            }, spinTime);
+          };
 
-        scheduleStop();
+          scheduleStop();
 
-        window.addEventListener('beforeunload', () => {
-          clearTimeout(stopTimer);
-          clearTimeout(resumeTimer);
+          window.addEventListener('beforeunload', () => {
+            clearTimeout(stopTimer);
+            clearTimeout(resumeTimer);
+          });
         });
       });
     </script>

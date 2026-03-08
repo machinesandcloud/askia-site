@@ -1517,12 +1517,131 @@ a {
   backdrop-filter: blur(10px);
 }
 
+.hero-stats-animated {
+  gap: 18px;
+}
+
 .hero-stat-row {
   display: flex;
   align-items: baseline;
   gap: 12px;
 }
 
+.hero-stats-animated .hero-stat-row {
+  align-items: center;
+  gap: 16px;
+}
+
+.hero-stat-visual {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: rgba(10, 15, 22, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-stat-copy {
+  display: grid;
+  gap: 4px;
+}
+
+.hero-stats-animated .hero-stat-row strong {
+  min-width: auto;
+}
+
+.stat-calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 6px);
+  gap: 4px;
+}
+
+.stat-calendar span {
+  width: 6px;
+  height: 6px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.12);
+  animation: calendarFill 3s ease-in-out infinite;
+}
+
+.stat-calendar span:nth-child(1) { animation-delay: 0s; }
+.stat-calendar span:nth-child(2) { animation-delay: 0.1s; }
+.stat-calendar span:nth-child(3) { animation-delay: 0.2s; }
+.stat-calendar span:nth-child(4) { animation-delay: 0.3s; }
+.stat-calendar span:nth-child(5) { animation-delay: 0.4s; }
+.stat-calendar span:nth-child(6) { animation-delay: 0.5s; }
+.stat-calendar span:nth-child(7) { animation-delay: 0.6s; }
+.stat-calendar span:nth-child(8) { animation-delay: 0.7s; }
+.stat-calendar span:nth-child(9) { animation-delay: 0.8s; }
+.stat-calendar span:nth-child(10) { animation-delay: 0.9s; }
+.stat-calendar span:nth-child(11) { animation-delay: 1s; }
+.stat-calendar span:nth-child(12) { animation-delay: 1.1s; }
+.stat-calendar span:nth-child(13) { animation-delay: 1.2s; }
+.stat-calendar span:nth-child(14) { animation-delay: 1.3s; }
+.stat-calendar span:nth-child(15) { animation-delay: 1.4s; }
+.stat-calendar span:nth-child(16) { animation-delay: 1.5s; }
+.stat-calendar span:nth-child(17) { animation-delay: 1.6s; }
+.stat-calendar span:nth-child(18) { animation-delay: 1.7s; }
+.stat-calendar span:nth-child(19) { animation-delay: 1.8s; }
+.stat-calendar span:nth-child(20) { animation-delay: 1.9s; }
+.stat-calendar span:nth-child(21) { animation-delay: 2s; }
+
+.stat-salary {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  height: 28px;
+}
+
+.stat-salary span {
+  width: 6px;
+  border-radius: 4px 4px 2px 2px;
+  background: linear-gradient(180deg, rgba(114, 214, 255, 0.95), rgba(114, 214, 255, 0.25));
+  animation: salaryRise 2.6s ease-in-out infinite;
+}
+
+.stat-salary span:nth-child(1) { height: 12px; animation-delay: 0s; }
+.stat-salary span:nth-child(2) { height: 20px; animation-delay: 0.3s; }
+.stat-salary span:nth-child(3) { height: 28px; animation-delay: 0.6s; }
+
+.stat-offer {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid rgba(52, 211, 153, 0.6);
+  position: relative;
+  animation: offerPulse 2.8s ease-in-out infinite;
+}
+
+.stat-offer span {
+  position: absolute;
+  width: 10px;
+  height: 6px;
+  border-left: 2px solid rgba(52, 211, 153, 0.9);
+  border-bottom: 2px solid rgba(52, 211, 153, 0.9);
+  transform: rotate(-45deg);
+  left: 7px;
+  top: 8px;
+}
+
+@keyframes calendarFill {
+  0%, 30% { background: rgba(255, 255, 255, 0.12); }
+  45%, 100% { background: rgba(114, 214, 255, 0.75); }
+}
+
+@keyframes salaryRise {
+  0%, 100% { transform: scaleY(0.85); opacity: 0.8; }
+  50% { transform: scaleY(1.1); opacity: 1; }
+}
+
+@keyframes offerPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.2); }
+  50% { box-shadow: 0 0 0 10px rgba(52, 211, 153, 0.05); }
+}
 .hero-stat-row strong {
   font-family: "Sora", sans-serif;
   font-size: 1.5rem;
@@ -4850,6 +4969,13 @@ body.pricing-focus {
   font-weight: 600;
 }
 
+.application-name {
+  font-size: 0.8rem;
+  color: rgba(244, 247, 251, 0.65);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 .application-status {
   justify-self: start;
   padding: 6px 10px;
@@ -5281,7 +5407,7 @@ body.pricing-focus {
   display: flex;
   gap: 18px;
   width: max-content;
-  animation: carouselScroll 18s linear infinite;
+  animation: carouselScroll 12s linear infinite;
   will-change: transform;
 }
 
@@ -5292,19 +5418,31 @@ body.pricing-focus {
 .testimonials-carousel.is-paused .testimonial-card-home {
   opacity: 0.45;
   transform: scale(0.96);
+  filter: blur(1px) grayscale(0.2);
 }
 
 .testimonials-carousel .testimonial-card-home.is-highlighted {
   opacity: 1;
-  transform: scale(1.05);
-  box-shadow: 0 30px 80px rgba(114, 214, 255, 0.35);
-  border-color: rgba(114, 214, 255, 0.4);
+  transform: scale(1.08);
+  box-shadow: 0 40px 120px rgba(114, 214, 255, 0.45);
+  border-color: rgba(114, 214, 255, 0.6);
+  filter: none;
+}
+
+.testimonials-carousel .testimonial-card-home.is-highlighted::after {
+  content: "";
+  position: absolute;
+  inset: -12%;
+  border-radius: 22px;
+  border: 1px solid rgba(114, 214, 255, 0.4);
+  box-shadow: 0 0 40px rgba(114, 214, 255, 0.35);
+  pointer-events: none;
 }
 
 .testimonials-focus-glow {
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 50% 50%, rgba(114, 214, 255, 0.12), transparent 55%);
+  background: radial-gradient(circle at 50% 50%, rgba(114, 214, 255, 0.25), transparent 60%);
   opacity: 0;
   transition: opacity 0.4s ease;
   pointer-events: none;
@@ -5315,6 +5453,7 @@ body.pricing-focus {
 }
 
 .testimonial-card-home {
+  position: relative;
   background: linear-gradient(135deg, rgba(18, 26, 38, 0.7), rgba(8, 12, 18, 0.4));
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 16px;
