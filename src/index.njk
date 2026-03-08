@@ -81,26 +81,72 @@ breadcrumbs:
       <p class="section-subtitle">{{ home.pillars.subtitle }}</p>
       <div class="application-visual" aria-hidden="true">
         <div class="application-track">
-          <div class="application-card">
-            <span class="application-title">Application #012</span>
-            <span class="application-role">Product Manager</span>
-            <span class="application-status denied">Denied</span>
+          <div class="application-phase phase-1">
+            <div class="application-card">
+              <span class="application-title">Application #012</span>
+              <span class="application-role">Product Manager</span>
+              <span class="application-status denied">Denied</span>
+            </div>
+            <div class="application-card">
+              <span class="application-title">Application #013</span>
+              <span class="application-role">Senior Analyst</span>
+              <span class="application-status denied">No response</span>
+            </div>
+            <div class="application-card">
+              <span class="application-title">Application #014</span>
+              <span class="application-role">Engineering Lead</span>
+              <span class="application-status denied">Rejected</span>
+            </div>
+            <div class="application-stamps">
+              <span class="stamp stamp-1">Rejected</span>
+              <span class="stamp stamp-2">Denied</span>
+              <span class="stamp stamp-3">No response</span>
+            </div>
           </div>
-          <div class="application-card">
-            <span class="application-title">Application #013</span>
-            <span class="application-role">Senior Analyst</span>
-            <span class="application-status denied">No response</span>
+          <div class="application-phase phase-2">
+            <div class="application-card">
+              <span class="application-title">Resume</span>
+              <span class="application-role">Signal + story rebuilt</span>
+              <span class="application-status progress">In progress</span>
+            </div>
+            <div class="application-card">
+              <span class="application-title">Job Search Strategy</span>
+              <span class="application-role">Targeted outreach + pipeline</span>
+              <span class="application-status progress">Focused</span>
+            </div>
+            <div class="application-card">
+              <span class="application-title">Interview Prep</span>
+              <span class="application-role">Stories, hooks, confidence</span>
+              <span class="application-status progress">Ready</span>
+            </div>
+            <div class="application-stamps">
+              <span class="stamp stamp-1 stamp-progress">Rebuilt</span>
+              <span class="stamp stamp-2 stamp-progress">Strategic</span>
+              <span class="stamp stamp-3 stamp-progress">Prepared</span>
+            </div>
           </div>
-          <div class="application-card">
-            <span class="application-title">Application #014</span>
-            <span class="application-role">Engineering Lead</span>
-            <span class="application-status denied">Rejected</span>
+          <div class="application-phase phase-3">
+            <div class="application-card">
+              <span class="application-title">First interview</span>
+              <span class="application-role">Calendars fill fast</span>
+              <span class="application-status success">Booked</span>
+            </div>
+            <div class="application-card">
+              <span class="application-title">Offer landed</span>
+              <span class="application-role">Decision on your terms</span>
+              <span class="application-status success">Offer</span>
+            </div>
+            <div class="application-card">
+              <span class="application-title">Salary increase</span>
+              <span class="application-role">Negotiate from strength</span>
+              <span class="application-status success">+$47K</span>
+            </div>
+            <div class="application-stamps">
+              <span class="stamp stamp-1 stamp-success">Interviewed</span>
+              <span class="stamp stamp-2 stamp-success">Hired</span>
+              <span class="stamp stamp-3 stamp-success">Raised</span>
+            </div>
           </div>
-        </div>
-        <div class="application-stamps">
-          <span class="stamp stamp-1">Rejected</span>
-          <span class="stamp stamp-2">Denied</span>
-          <span class="stamp stamp-3">No response</span>
         </div>
       </div>
     </div>
@@ -208,11 +254,10 @@ breadcrumbs:
         <span>from 147+ professionals</span>
       </div>
     </div>
-    <div class="testimonials-grid">
-      {% for index in [0, 1, 2, 3, 5, 6] %}
-        {% set item = testimonials.items[index] %}
-        {% if item %}
-        <article class="testimonial-card-home">
+    <div class="testimonials-carousel" data-testimonials-carousel>
+      <div class="testimonials-track" data-testimonials-track>
+        {% for item in testimonials.items %}
+        <article class="testimonial-card-home" data-testimonial-card>
           <div class="testimonial-card-header">
             <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
             <div>
@@ -223,8 +268,22 @@ breadcrumbs:
           <div class="testimonial-card-rating">★★★★★</div>
           <p class="testimonial-card-quote">"{{ item.quote | truncate(180) }}"</p>
         </article>
-        {% endif %}
-      {% endfor %}
+        {% endfor %}
+        {% for item in testimonials.items %}
+        <article class="testimonial-card-home" data-testimonial-card>
+          <div class="testimonial-card-header">
+            <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
+            <div>
+              <strong>{{ item.name }}</strong>
+              <span>{{ item.role }}{% if item.company %} · {{ item.company }}{% endif %}</span>
+            </div>
+          </div>
+          <div class="testimonial-card-rating">★★★★★</div>
+          <p class="testimonial-card-quote">"{{ item.quote | truncate(180) }}"</p>
+        </article>
+        {% endfor %}
+      </div>
+      <div class="testimonials-focus-glow" aria-hidden="true"></div>
     </div>
     <div class="testimonials-cta">
       <a class="btn btn-ghost" href="/testimonials/">Read all testimonials</a>

@@ -1123,6 +1123,58 @@
       });
     </script>
     <script>
+      // Testimonials carousel with random dramatic pauses
+      document.addEventListener('DOMContentLoaded', function() {
+        const carousel = document.querySelector('[data-testimonials-carousel]');
+        const track = document.querySelector('[data-testimonials-track]');
+        if (!carousel || !track) return;
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+        const cards = Array.from(track.querySelectorAll('[data-testimonial-card]'));
+        if (!cards.length) return;
+
+        const uniqueCount = Math.floor(cards.length / 2) || cards.length;
+        const baseDuration = 14;
+
+        track.style.animationDuration = `${baseDuration}s`;
+
+        let stopTimer;
+        let resumeTimer;
+
+        const clearHighlight = () => {
+          cards.forEach(card => card.classList.remove('is-highlighted'));
+        };
+
+        const scheduleStop = () => {
+          const spinTime = 1800 + Math.random() * 2800;
+          stopTimer = setTimeout(() => {
+            carousel.classList.add('is-paused');
+            track.style.animationPlayState = 'paused';
+
+            const highlightIndex = Math.floor(Math.random() * uniqueCount);
+            const highlight = cards[highlightIndex];
+            clearHighlight();
+            if (highlight) highlight.classList.add('is-highlighted');
+
+            const pauseTime = 1600 + Math.random() * 1400;
+            resumeTimer = setTimeout(() => {
+              clearHighlight();
+              carousel.classList.remove('is-paused');
+              track.style.animationPlayState = 'running';
+              scheduleStop();
+            }, pauseTime);
+          }, spinTime);
+        };
+
+        scheduleStop();
+
+        window.addEventListener('beforeunload', () => {
+          clearTimeout(stopTimer);
+          clearTimeout(resumeTimer);
+        });
+      });
+    </script>
+    <script>
       window.$zoho = window.$zoho || {};
       $zoho.salesiq = $zoho.salesiq || { ready: function () {} };
       $zoho.salesiq.ready = function () {
