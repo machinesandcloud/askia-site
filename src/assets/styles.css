@@ -4768,6 +4768,76 @@ body.pricing-focus {
   text-align: center;
 }
 
+.pillar-visual {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  margin: 20px auto 0;
+  display: grid;
+  place-items: center;
+}
+
+.pillar-visual::before,
+.pillar-visual::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 1px solid rgba(114, 214, 255, 0.15);
+  box-shadow: 0 0 30px rgba(114, 214, 255, 0.1);
+}
+
+.pillar-visual::after {
+  inset: 14px;
+  border-color: rgba(114, 214, 255, 0.25);
+}
+
+.pillar-core {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 18px rgba(114, 214, 255, 0.7);
+}
+
+.pillar-orbit {
+  position: absolute;
+  inset: 26px;
+  border-radius: 50%;
+  border: 1px dashed rgba(114, 214, 255, 0.25);
+  animation: orbitSpin 16s linear infinite;
+}
+
+.pillar-orbit::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(114, 214, 255, 0.9);
+  transform: translateX(-50%);
+  box-shadow: 0 0 12px rgba(114, 214, 255, 0.7);
+}
+
+.pillar-orbit.orbit-two {
+  inset: 42px;
+  animation-duration: 20s;
+}
+
+.pillar-orbit.orbit-three {
+  inset: 58px;
+  animation-duration: 24s;
+  animation-direction: reverse;
+}
+
+@keyframes orbitSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .pillar-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -4888,6 +4958,72 @@ body.pricing-focus {
   max-width: 560px;
   margin: 0 auto;
   text-align: center;
+}
+
+.outcome-visual {
+  margin: 24px auto 0;
+  max-width: 320px;
+  height: 140px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 14px;
+}
+
+.outcome-bar {
+  position: relative;
+  width: 62px;
+  border-radius: 18px;
+  background: linear-gradient(160deg, rgba(114, 214, 255, 0.85), rgba(41, 98, 255, 0.7));
+  box-shadow: 0 18px 40px rgba(7, 10, 15, 0.5);
+  overflow: hidden;
+  transform-origin: bottom;
+  animation: barRise 4s ease-in-out infinite;
+}
+
+.outcome-bar::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 20%, rgba(255, 255, 255, 0.25) 50%, transparent 80%);
+  transform: translateX(-120%);
+  animation: barSweep 3.5s ease-in-out infinite;
+}
+
+.outcome-bar:nth-child(1) {
+  height: 70px;
+  animation-delay: 0s;
+}
+
+.outcome-bar:nth-child(2) {
+  height: 100px;
+  animation-delay: 0.4s;
+}
+
+.outcome-bar:nth-child(3) {
+  height: 125px;
+  animation-delay: 0.8s;
+}
+
+@keyframes barRise {
+  0%, 100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.08);
+  }
+}
+
+@keyframes barSweep {
+  0% {
+    transform: translateX(-120%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(120%);
+  }
 }
 
 .outcome-grid {
@@ -9198,39 +9334,6 @@ body.pricing-focus {
   }
 }
 
-/* Pillar Cards Animated Entry */
-.pillar-card {
-  opacity: 0;
-  transform: translateY(30px);
-  animation: pillarReveal 0.7s ease-out forwards;
-}
-
-.pillar-card:nth-child(1) { animation-delay: 0.15s; }
-.pillar-card:nth-child(2) { animation-delay: 0.3s; }
-.pillar-card:nth-child(3) { animation-delay: 0.45s; }
-
-@keyframes pillarReveal {
-  to {
-    opacity: 1;
-    transform: translateY(var(--pillar-offset, 0));
-  }
-}
-
-/* Pillar Card Glow Effect */
-.pillar-card::after {
-  background: radial-gradient(
-    circle at 30% 20%,
-    rgba(114, 214, 255, 0.12) 0%,
-    transparent 50%
-  );
-  animation: pillarGlow 4s ease-in-out infinite;
-}
-
-@keyframes pillarGlow {
-  0%, 100% { opacity: 0.4; transform: scale(1); }
-  50% { opacity: 0.8; transform: scale(1.1); }
-}
-
 /* Pillar Tag Number Animation */
 .pillar-tag {
   position: relative;
@@ -9248,37 +9351,6 @@ body.pricing-focus {
 @keyframes tagShine {
   0% { transform: translateX(-100%); }
   100% { transform: translateX(100%); }
-}
-
-/* Outcome Cards Animated Border */
-.outcome-card {
-  position: relative;
-  overflow: hidden;
-}
-
-.outcome-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  padding: 1px;
-  background: linear-gradient(
-    135deg,
-    rgba(114, 214, 255, 0.3) 0%,
-    transparent 30%,
-    transparent 70%,
-    rgba(114, 214, 255, 0.3) 100%
-  );
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  animation: borderRotate 6s linear infinite;
-}
-
-@keyframes borderRotate {
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 /* Outcome Number Counter Animation */

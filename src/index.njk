@@ -79,6 +79,12 @@ breadcrumbs:
       <p class="hero-eyebrow">Askia System</p>
       <h2 class="section-title section-title-glow">{{ home.pillars.title }}</h2>
       <p class="section-subtitle">{{ home.pillars.subtitle }}</p>
+      <div class="pillar-visual" aria-hidden="true">
+        <span class="pillar-core"></span>
+        <span class="pillar-orbit orbit-one"></span>
+        <span class="pillar-orbit orbit-two"></span>
+        <span class="pillar-orbit orbit-three"></span>
+      </div>
     </div>
     <div class="pillar-grid">
       {% for item in home.pillars.items %}
@@ -97,6 +103,11 @@ breadcrumbs:
     <div class="outcome-header">
       <h2 class="section-title section-title-accent section-title-glow">{{ home.proof.title }}</h2>
       <p class="section-subtitle">Measured wins across compensation, momentum, and leadership signal.</p>
+      <div class="outcome-visual" aria-hidden="true">
+        <span class="outcome-bar"></span>
+        <span class="outcome-bar"></span>
+        <span class="outcome-bar"></span>
+      </div>
     </div>
     <div class="outcome-grid">
       {% for item in home.proof.items %}
