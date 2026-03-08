@@ -12,10 +12,12 @@
       "A resume and LinkedIn that make people reach out",
       "Interview prep that turns anxiety into confidence"
     ],
-    "ctaLabel": "Get Your Free Strategy Session",
+    "ctaLabel": "Claim My Free Strategy Session",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "15 minutes. No sales pitch. Leave with a clear action plan — guaranteed.",
     "ctaUrgency": "Only 4 spots left this week",
+    "ctaRating": "4.9",
+    "ctaRatingCount": "847+",
     "secondaryCtaLabel": "Take the Career Readiness Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -304,10 +306,16 @@
     "related": {
       "title": "Ready?",
       "body": "Let's figure out what's been getting in your way.",
-      "primaryLabel": "Book Your Free Strategy Call",
+      "primaryLabel": "Book My Free Strategy Call",
       "primaryLink": "https://bookings.askia.tech/#/clarity",
       "secondaryLabel": "See All Services",
-      "secondaryLink": "/services/"
+      "secondaryLink": "/services/",
+      "miniTestimonial": {
+        "quote": "Within 3 weeks I had 4 interviews lined up. Steve completely changed how I talk about my work.",
+        "name": "Marcus T.",
+        "role": "Senior Engineer → Staff at FAANG",
+        "rating": 5
+      }
     },
     "faq": {
       "title": "Questions you might have",
@@ -346,10 +354,11 @@
     "cta": {
       "title": "Every week you wait costs you interviews",
       "body": "The job market moves fast. Your competition is getting coached. Let's make sure you're not falling behind.",
-      "label": "Claim Your Free Strategy Session",
+      "label": "Claim My Free Strategy Session",
       "link": "https://bookings.askia.tech/#/clarity",
-      "urgency": "Limited spots available — book before they fill",
-      "guarantee": "Leave with a clear action plan or get a second session free"
+      "urgency": "Only 4 spots left this week",
+      "guarantee": "Leave with a clear action plan or get a second session free",
+      "proofSnippet": "Join 847+ professionals who've accelerated their careers"
     },
     "metaTitle": "Land the Role You Actually Deserve | Askia",
     "metaDescription": "Career coaching for professionals who are tired of being overlooked. Get clear, get seen, get offers.",

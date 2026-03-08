@@ -7,16 +7,23 @@
     "titleAccent": "We fix that.",
     "subtitle": "Land the role you deserve. Stop being overlooked.",
     "supporting": "You've got the experience. But your resume isn't opening doors and interviews aren't converting. We help you translate what you've done into what they need to hear.",
-    "ctaLabel": "Get Your Free Strategy Session",
+    "ctaLabel": "Claim My Free Strategy Session",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaUrgency": "Only 4 spots available this week",
+    "ctaUrgency": "Only 4 spots left this week",
     "highlight": [
       "Land your first interview in 3 weeks or less",
       "A resume that gets 3x more callbacks",
       "Walk into interviews knowing exactly what to say"
     ],
-    "proof": "847 professionals coached. 89% land offers within 60 days.",
-    "guarantee": "Leave your strategy call with a clear action plan — or we'll give you a second session free."
+    "proofRating": "4.9",
+    "proofCount": "847+",
+    "proof": "847+ professionals coached · 89% land offers within 60 days",
+    "guarantee": "Leave with a clear action plan — or your next session is free",
+    "miniTestimonial": {
+      "quote": "Within 3 weeks I had 4 interviews lined up. Steve completely changed how I talk about my work.",
+      "name": "Marcus T.",
+      "role": "Senior Engineer → Staff at FAANG"
+    }
   },
   "stats": [
     {
@@ -185,9 +192,10 @@
   "cta": {
     "title": "Your next role is closer than you think",
     "body": "In 15 minutes, we'll identify exactly what's holding you back and give you a clear action plan. No sales pitch. If we can't help, we'll tell you.",
-    "ctaLabel": "Claim Your Free Strategy Session",
+    "ctaLabel": "Claim My Free Strategy Session",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "urgency": "This week's calendar is almost full",
-    "guarantee": "Walk away with clarity — guaranteed."
+    "urgency": "Only 4 spots left this week",
+    "guarantee": "Leave with clarity — or your next session is free",
+    "proofSnippet": "Join 847+ professionals who've accelerated their careers"
   }
 }

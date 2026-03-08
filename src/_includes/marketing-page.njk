@@ -30,6 +30,7 @@
           <a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a>
         {% endif %}
       </div>
+      {% if page.ctaUrgency %}<p class="hero-urgency">{{ page.ctaUrgency }}</p>{% endif %}
       {% if page.heroTrustLogos and page.heroTrustLogos.length %}
       <div class="hero-next-trust">
         <span>{{ page.heroTrustLabel or "Trusted by candidates from" }}</span>
@@ -40,7 +41,10 @@
         </div>
       </div>
       {% endif %}
-      {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
+      <div class="hero-trust-bar">
+        {% if page.ctaRating %}<span class="hero-proof-rating">★ {{ page.ctaRating }} from {{ page.ctaRatingCount }} clients</span>{% endif %}
+        {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
+      </div>
     </div>
     {% set heroImages = page.heroImages or site.heroImages %}
     <div class="hero-next-visual">
@@ -331,6 +335,25 @@
 </section>
 {% endif %}
 
+{% if page.whyNow %}
+<section class="section section-urgency">
+  <div class="container">
+    <div class="pillar-header">
+      {% if page.whyNow.eyebrow %}<p class="hero-eyebrow urgency-eyebrow">{{ page.whyNow.eyebrow }}</p>{% endif %}
+      <h2 class="section-title section-title-glow">{{ page.whyNow.title }}</h2>
+    </div>
+    <div class="urgency-grid">
+      {% for item in page.whyNow.items %}
+        <article class="urgency-card">
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.body }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
 <section class="section">
   <div class="container services-preview">
     <div class="card card-soft">
@@ -574,21 +597,6 @@
 </script>
 {% endif %}
 
-{% if not page.hideLeadMagnets and page.leadMagnetsPlacement != "beforeCall" %}
-{% include "lead-magnets.njk" %}
-{% endif %}
-
-<section class="section">
-  <div class="container card">
-    <h2 class="section-title">{{ page.related.title }}</h2>
-    <p class="section-subtitle">{{ page.related.body }}</p>
-    <div class="hero-cta">
-      <a class="btn btn-primary" href="{{ page.related.primaryLink }}">{{ page.related.primaryLabel }}</a>
-      <a class="btn btn-ghost" href="{{ page.related.secondaryLink }}">{{ page.related.secondaryLabel }}</a>
-    </div>
-  </div>
-</section>
-
 <section class="section">
   <div class="container faq-stage">
     <div class="faq-header">
@@ -607,13 +615,26 @@
 </section>
 
 
-<section class="section">
-  <div class="container cta-band">
-    <div>
-      <h2 class="section-title">{{ page.cta.title }}</h2>
-      <p class="section-subtitle">{{ page.cta.body }}</p>
+<section class="section section-cta-final">
+  <div class="container">
+    {% if page.related.miniTestimonial %}
+    <div class="cta-testimonial">
+      <p>"{{ page.related.miniTestimonial.quote }}"</p>
+      <span>{% if page.related.miniTestimonial.rating %}{{ "★" | repeat(page.related.miniTestimonial.rating) }} {% endif %}— {{ page.related.miniTestimonial.name }}, {{ page.related.miniTestimonial.role }}</span>
     </div>
-    <a class="btn btn-primary" href="{{ page.cta.link or site.cta.link }}">{{ page.cta.label or site.cta.label }}</a>
+    {% endif %}
+    <div class="cta-band">
+      <div>
+        <h2 class="section-title">{{ page.cta.title }}</h2>
+        <p class="section-subtitle">{{ page.cta.body }}</p>
+        {% if page.cta.proofSnippet %}<p class="cta-proof">{{ page.cta.proofSnippet }}</p>{% endif %}
+      </div>
+      <div class="cta-action">
+        <a class="btn btn-primary" href="{{ page.cta.link or site.cta.link }}">{{ page.cta.label or site.cta.label }}</a>
+        {% if page.cta.urgency %}<span class="cta-urgency">{{ page.cta.urgency }}</span>{% endif %}
+        {% if page.cta.guarantee %}<span class="cta-guarantee">✓ {{ page.cta.guarantee }}</span>{% endif %}
+      </div>
+    </div>
   </div>
 </section>
 

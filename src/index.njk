@@ -27,9 +27,20 @@ breadcrumbs:
       </ul>
       <div class="hero-cta">
         <a class="btn btn-primary" href="{{ home.hero.ctaLink }}">{{ home.hero.ctaLabel }}</a>
-        <a class="btn btn-ghost" href="https://askia.tech/career-readiness-index/">Get the Career Readiness Index</a>
+        <a class="btn btn-ghost" href="https://askia.tech/career-readiness-index/">Take the Career Readiness Index</a>
+      </div>
+      <div class="hero-trust-bar">
+        <span class="hero-proof-rating">★ {{ home.hero.proofRating }} from {{ home.hero.proofCount }} clients</span>
         <span class="hero-proof">{{ home.hero.proof }}</span>
       </div>
+      <p class="hero-urgency">{{ home.hero.ctaUrgency }}</p>
+      <p class="hero-guarantee">✓ {{ home.hero.guarantee }}</p>
+      {% if home.hero.miniTestimonial %}
+      <div class="hero-mini-testimonial">
+        <p>"{{ home.hero.miniTestimonial.quote }}"</p>
+        <span>— {{ home.hero.miniTestimonial.name }}, {{ home.hero.miniTestimonial.role }}</span>
+      </div>
+      {% endif %}
     </div>
     <div class="hero-photo">
       <img src="/assets/steve-headshot.jpg" alt="Steve, Askia Career Coach" />
@@ -54,17 +65,6 @@ breadcrumbs:
         {% endfor %}
       </div>
     </div>
-  </div>
-</section>
-
-<section class="section section-soft">
-  <div class="container stats-grid">
-    {% for stat in home.stats %}
-      <div class="stat-card">
-        <h3>{{ stat.title }}</h3>
-        <p>{{ stat.body }}</p>
-      </div>
-    {% endfor %}
   </div>
 </section>
 
@@ -168,8 +168,6 @@ breadcrumbs:
   </div>
 </section>
 
-{% include "lead-magnets.njk" %}
-
 <section class="section">
   <div class="container success-wrap">
     <div class="success-copy">
@@ -227,8 +225,12 @@ breadcrumbs:
 </section>
 
 <section class="section">
-  <div class="container feature-split">
-    <div class="feature-copy">
+  <div class="container coach-section">
+    <div class="coach-photo">
+      <img src="/assets/steve-headshot.jpg" alt="Steve, Askia Career Coach" />
+    </div>
+    <div class="coach-copy">
+      <p class="hero-eyebrow">Your Coach</p>
       <h3 class="section-title">{{ home.coach.title }}</h3>
       <p class="section-subtitle">{{ home.coach.credential }}</p>
       <p>{{ home.coach.body }}</p>
@@ -237,20 +239,7 @@ breadcrumbs:
           <li>{{ item }}</li>
         {% endfor %}
       </ul>
-    </div>
-    <div class="feature-flow">
-      <h3 class="section-title">{{ home.program.title }}</h3>
-      <div class="flow-list">
-        {% for step in home.program.steps %}
-          <div class="flow-item">
-            <span class="flow-index">0{{ loop.index }}</span>
-            <div>
-              <h4>{{ step.title }}</h4>
-              <p>{{ step.body }}</p>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
+      <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call with Steve</a>
     </div>
   </div>
 </section>
@@ -275,7 +264,12 @@ breadcrumbs:
     <div>
       <h2 class="section-title">{{ home.cta.title }}</h2>
       <p class="section-subtitle">{{ home.cta.body }}</p>
+      {% if home.cta.proofSnippet %}<p class="cta-proof">{{ home.cta.proofSnippet }}</p>{% endif %}
     </div>
-    <a class="btn btn-primary" href="{{ home.cta.ctaLink }}">{{ home.cta.ctaLabel }}</a>
+    <div class="cta-action">
+      <a class="btn btn-primary" href="{{ home.cta.ctaLink }}">{{ home.cta.ctaLabel }}</a>
+      {% if home.cta.urgency %}<span class="cta-urgency">{{ home.cta.urgency }}</span>{% endif %}
+      {% if home.cta.guarantee %}<span class="cta-guarantee">✓ {{ home.cta.guarantee }}</span>{% endif %}
+    </div>
   </div>
 </section>
