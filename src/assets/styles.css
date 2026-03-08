@@ -789,7 +789,7 @@ a {
 .hero-visual-v2 .hero-photo {
   width: 100%;
   max-width: 380px;
-  border-radius: 26px;
+  border-radius: 52% 48% 46% 54% / 58% 46% 54% 42%;
   box-shadow: 0 35px 80px rgba(7, 10, 15, 0.55);
   background: linear-gradient(135deg, rgba(114, 214, 255, 0.2), transparent);
   padding: 2px;
@@ -5153,6 +5153,13 @@ body.pricing-focus {
 .services-copy {
   text-align: center;
   margin: 0 auto;
+}
+
+.services-copy .hero-eyebrow,
+.services-copy .section-title,
+.services-copy .section-subtitle {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .services-copy .btn {

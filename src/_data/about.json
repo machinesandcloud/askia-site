@@ -8,7 +8,7 @@
     "proof": "Helping professionals across tech, finance, healthcare, and operations land roles they actually deserve."
   },
   "stats": [
-    { "label": "Professionals coached", "value": "847" },
+    { "label": "Professionals coached", "value": "147+" },
     { "label": "Success rate", "value": "89%" },
     { "label": "Average negotiated increase", "value": "$47K" },
     { "label": "Average time to first interview", "value": "21 days" }
@@ -58,7 +58,7 @@
     }
   ],
   "cta": {
-    "title": "Join the 847 professionals who stopped being invisible",
+    "title": "Join the 147+ professionals who stopped being invisible",
     "body": "15 minutes. No sales pitch. Just clarity on what's holding you back and exactly how to fix it.",
     "ctaLabel": "Get Your Free Strategy Session",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
