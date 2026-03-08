@@ -104,7 +104,10 @@
       <button class="nudge-close" type="button" aria-label="Dismiss notification">x</button>
     </div>
     <div class="mobile-cta">
-      <a class="btn btn-primary" href="{{ site.cta.link }}">{{ site.cta.label }}</a>
+      <div class="mobile-cta-wrap">
+        <a class="btn btn-primary" href="{{ site.cta.link }}">{{ site.cta.label }}</a>
+        <span class="mobile-cta-urgency">Limited spots available this week</span>
+      </div>
     </div>
     {% endif %}
 
