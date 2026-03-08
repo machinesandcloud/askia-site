@@ -15,7 +15,6 @@ breadcrumbs:
       <h1 class="hero-title">
         <span class="hero-title-lead">{{ home.hero.titleLead }}</span>
         <span class="hero-title-emphasis">{{ home.hero.titleEmphasis }}</span>
-        <span class="hero-title-tail">{{ home.hero.titleTail }}</span>
         <span class="hero-title-accent">{{ home.hero.titleAccent }}</span>
       </h1>
       <p class="hero-subtitle">{{ home.hero.subtitle }}</p>
@@ -27,7 +26,10 @@ breadcrumbs:
       </ul>
       <div class="hero-cta">
         <a class="btn btn-primary" href="{{ home.hero.ctaLink }}">{{ home.hero.ctaLabel }}</a>
-        <a class="btn btn-ghost" href="https://askia.tech/career-readiness-index/">Get the Career Readiness Index</a>
+        <div class="hero-cta-meta">
+          <span class="hero-urgency">{{ home.hero.ctaUrgency }}</span>
+          <span class="hero-guarantee">{{ home.hero.guarantee }}</span>
+        </div>
         <span class="hero-proof">{{ home.hero.proof }}</span>
       </div>
     </div>
@@ -104,76 +106,10 @@ breadcrumbs:
   </div>
 </section>
 
-<section class="section section-soft">
-  <div class="container assessment">
-    <div class="assessment-header">
-      <p class="hero-eyebrow">Career Readiness Index™</p>
-      <h2 class="section-title">For Ambitious Professionals & Leaders</h2>
-      <p class="section-subtitle">“This assessment measures how ready your career is for the role you actually want — not the one you’re settling for.”</p>
-      <p class="assessment-meta">⏱ 3–4 minutes · No email required until results</p>
-    </div>
-    <div class="assessment-form" data-assessment>
-      <div class="assessment-progress">
-        <span data-assessment-step>1</span> / <span data-assessment-total>10</span>
-        <div class="assessment-bar"><div data-assessment-bar></div></div>
-      </div>
-      <div class="assessment-panel">
-        <p class="assessment-section" data-assessment-section></p>
-        <h3 class="assessment-question-title" data-assessment-question></h3>
-        <p class="assessment-question-sub" data-assessment-sub></p>
-        <div class="assessment-options" data-assessment-options></div>
-        <p class="assessment-note" data-assessment-note></p>
-      </div>
-      <div class="assessment-actions">
-        <button type="button" class="btn btn-ghost" data-assessment-prev>Back</button>
-        <button type="button" class="btn btn-primary" data-assessment-next>Next</button>
-        <span class="assessment-hint">Maximum score: 48 · Minimum score: 1</span>
-      </div>
-      <p class="assessment-footnote">“The Career Readiness Index™ is based on real hiring patterns across senior, leadership, and cross‑functional roles — not generic career advice.”</p>
-      <div class="assessment-overlay" data-assessment-overlay hidden>
-        <div class="assessment-result" data-assessment-result>
-          <button class="assessment-close" type="button" data-assessment-close>Close</button>
-          <p class="assessment-score" data-assessment-score></p>
-          <h3 data-assessment-title></h3>
-          <p data-assessment-message></p>
-          <ul data-assessment-recommendation></ul>
-          <div class="assessment-email">
-            <p class="assessment-email-title">Want your score + action plan emailed?</p>
-            <form name="career-readiness" method="POST" action="/" data-netlify="true" class="assessment-email-form" data-assessment-form>
-              <input type="hidden" name="form-name" value="career-readiness" />
-              <input type="hidden" name="score" value="" data-assessment-score-field />
-              <input type="hidden" name="bucket" value="" data-assessment-bucket-field />
-              <input type="hidden" name="source" value="" data-assessment-source-field />
-              <label>
-                <span>Full name</span>
-                <input type="text" name="name" placeholder="Your name" />
-              </label>
-              <label>
-                <span>Email</span>
-                <input type="email" name="email" placeholder="you@company.com" required />
-              </label>
-              <label>
-                <span>Target role</span>
-                <input type="text" name="role" placeholder="Senior SWE, EM, DevOps, PM..." />
-              </label>
-              <button class="btn btn-primary" type="submit">Email my results</button>
-              <p class="assessment-submit-message" data-assessment-submit-message></p>
-            </form>
-          </div>
-          <a class="btn btn-ghost" href="{{ site.cta.link }}" data-assessment-book>Book a Strategy Call</a>
-          <p class="assessment-cta" data-assessment-cta></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-{% include "lead-magnets.njk" %}
-
 <section class="section">
   <div class="container success-wrap">
     <div class="success-copy">
-      <p class="hero-eyebrow">Success Carousel</p>
+      <p class="hero-eyebrow">Success Stories</p>
       <h2 class="section-title">{{ home.success.title }}</h2>
       <p class="section-subtitle">{{ home.success.subtitle }}</p>
       <p>{{ home.success.body }}</p>
@@ -199,37 +135,44 @@ breadcrumbs:
   </div>
 </section>
 
-<section class="section">
-  <div class="container services-preview">
-    <div class="services-copy">
-      <p class="hero-eyebrow">Services</p>
-      <h2 class="section-title section-title-glow">Choose the support level that fits your goals</h2>
-      <p class="section-subtitle">From focused strategy to full transformation, each pathway is built to get you hired faster.</p>
-      <a class="btn btn-ghost" href="/services/">See all services</a>
+<section class="section-cta-mid">
+  <div class="container">
+    <div class="cta-mid-content">
+      <h3>Ready to stop being overlooked?</h3>
+      <a class="btn btn-primary" href="{{ home.hero.ctaLink }}">{{ home.hero.ctaLabel }}</a>
+      <span class="hero-urgency">{{ home.hero.ctaUrgency }}</span>
     </div>
-    <div class="service-stack">
-      {% for item in services.services %}
-        <div class="service-tile">
-          <div class="service-header">
-            <h3>{{ item.title }}</h3>
-            <span class="service-tag">Premium</span>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container flow-section">
+    <div class="flow-header">
+      <p class="hero-eyebrow">How It Works</p>
+      <h2 class="section-title">{{ home.program.title }}</h2>
+    </div>
+    <div class="flow-list">
+      {% for step in home.program.steps %}
+        <div class="flow-item">
+          <span class="flow-index">0{{ loop.index }}</span>
+          <div>
+            <h4>{{ step.title }}</h4>
+            <p>{{ step.body }}</p>
           </div>
-          <p>{{ item.body }}</p>
-          <ul>
-            {% for bullet in item.bullets %}
-              <li>{{ bullet }}</li>
-            {% endfor %}
-          </ul>
         </div>
       {% endfor %}
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="container feature-split">
-    <div class="feature-copy">
-      <h3 class="section-title">{{ home.coach.title }}</h3>
+<section class="section section-soft">
+  <div class="container coach-section">
+    <div class="coach-photo">
+      <img src="/assets/steve-headshot.jpg" alt="Steve, Career Coach" />
+    </div>
+    <div class="coach-copy">
+      <p class="hero-eyebrow">Your Coach</p>
+      <h2 class="section-title">{{ home.coach.title }}</h2>
       <p class="section-subtitle">{{ home.coach.credential }}</p>
       <p>{{ home.coach.body }}</p>
       <ul class="highlight-list">
@@ -238,43 +181,18 @@ breadcrumbs:
         {% endfor %}
       </ul>
     </div>
-    <div class="feature-flow">
-      <h3 class="section-title">{{ home.program.title }}</h3>
-      <div class="flow-list">
-        {% for step in home.program.steps %}
-          <div class="flow-item">
-            <span class="flow-index">0{{ loop.index }}</span>
-            <div>
-              <h4>{{ step.title }}</h4>
-              <p>{{ step.body }}</p>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
   </div>
 </section>
-
-<section class="section">
-  <div class="container timeline-track">
-    <h2 class="section-title">{{ home.timeline.title }}</h2>
-    <div class="timeline-rail">
-      {% for step in home.timeline.steps %}
-        <div class="timeline-node">
-          <strong>{{ step.title }}</strong>
-          <p>{{ step.body }}</p>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
 
 <section class="section">
   <div class="container cta-band">
     <div>
       <h2 class="section-title">{{ home.cta.title }}</h2>
       <p class="section-subtitle">{{ home.cta.body }}</p>
+      <div class="cta-band-meta">
+        <span class="hero-urgency">{{ home.cta.urgency }}</span>
+        <span class="hero-guarantee">{{ home.cta.guarantee }}</span>
+      </div>
     </div>
     <a class="btn btn-primary" href="{{ home.cta.ctaLink }}">{{ home.cta.ctaLabel }}</a>
   </div>
