@@ -3,30 +3,30 @@
   <div class="container hero-next-grid">
     <div class="hero-next-copy">
       {% if page.eyebrow and (page.eyebrow | lower) != (page.h1 | lower) and (page.eyebrow | length) < 36 %}
-        <p class="hero-eyebrow">{{ page.eyebrow }}</p>
+        <p class="hero-eyebrow animate-fade-up">{{ page.eyebrow }}</p>
       {% endif %}
       {% if page.titleLead %}
-      <h1 class="hero-title">
+      <h1 class="hero-title animate-fade-up delay-1">
         <span class="hero-title-lead">{{ page.titleLead }}</span>
         <span class="hero-title-emphasis">{{ page.titleEmphasis }}</span>
         <span class="hero-title-tail">{{ page.titleTail }}</span>
         <span class="hero-title-accent">{{ page.titleAccent }}</span>
       </h1>
       {% else %}
-      <h1 class="hero-next-title">{{ page.h1 }}</h1>
+      <h1 class="hero-next-title animate-fade-up delay-1">{{ page.h1 }}</h1>
       {% endif %}
-      {% if page.subtitle %}<p class="hero-next-subtitle">{{ page.subtitle }}</p>{% endif %}
-      {% if page.supporting %}<p class="hero-next-supporting">{{ page.supporting }}</p>{% endif %}
+      {% if page.subtitle %}<p class="hero-next-subtitle animate-fade-up delay-2">{{ page.subtitle }}</p>{% endif %}
+      {% if page.supporting %}<p class="hero-next-supporting animate-fade-up delay-2">{{ page.supporting }}</p>{% endif %}
       {% if page.highlights and page.highlights.length %}
-      <div class="hero-next-chips">
+      <div class="hero-next-chips animate-fade-up delay-3">
         {% for item in page.highlights %}
           <span>{{ item }}</span>
         {% endfor %}
       </div>
       {% endif %}
-      <div class="hero-next-cta-stack">
+      <div class="hero-next-cta-stack animate-fade-up delay-3">
         <div class="hero-next-cta-row">
-          <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
+          <a class="btn btn-primary btn-lg" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
           {% if page.secondaryCtaLabel %}
             <a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a>
           {% endif %}
@@ -43,19 +43,19 @@
         {% endif %}
       </div>
       {% if page.heroTrustLogos and page.heroTrustLogos.length %}
-      <div class="hero-next-trust">
+      <div class="hero-next-trust animate-pop-in delay-4">
         <span>{{ page.heroTrustLabel or "Trusted by candidates from" }}</span>
         <div class="hero-next-logos">
           {% for item in page.heroTrustLogos %}
-            <img src="{{ item.src }}" alt="{{ item.alt }}" loading="lazy" />
+            <img src="{{ item.src }}" alt="{{ item.alt }}" loading="lazy" class="hero-logo-icon" style="--pop-delay: {{ loop.index0 * 0.1 }}s;" />
           {% endfor %}
         </div>
       </div>
       {% endif %}
-      {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
+      {% if page.ctaProof %}<span class="hero-proof animate-fade-up delay-4">{{ page.ctaProof }}</span>{% endif %}
     </div>
     {% set heroImages = page.heroImages or site.heroImages %}
-    <div class="hero-next-visual">
+    <div class="hero-next-visual animate-fade-up delay-2">
       <div class="hero-next-panel">
         <div class="hero-next-image">
           {% if heroImages[0] %}
@@ -87,16 +87,6 @@
         {% endfor %}
       </div>
       {% endif %}
-      {% if page.heroTimeline and page.heroTimeline.length %}
-      <div class="hero-next-timeline">
-        {% for item in page.heroTimeline %}
-          <div class="hero-next-step">
-            <span>{{ item.tag }}</span>
-            <p>{{ item.body }}</p>
-          </div>
-        {% endfor %}
-      </div>
-      {% endif %}
     </div>
   </div>
 </section>
@@ -105,20 +95,20 @@
   <div class="container hero-grid">
     <div>
       {% if page.eyebrow and (page.eyebrow | lower) != (page.h1 | lower) and (page.eyebrow | length) < 36 %}
-        <p class="hero-eyebrow">{{ page.eyebrow }}</p>
+        <p class="hero-eyebrow animate-fade-up">{{ page.eyebrow }}</p>
       {% endif %}
-      <h1 class="hero-title section-title-glow">{{ page.h1 }}</h1>
-      {% if page.subtitle %}<p class="hero-subtitle">{{ page.subtitle }}</p>{% endif %}
-      {% if page.supporting %}<p class="hero-supporting">{{ page.supporting }}</p>{% endif %}
+      <h1 class="hero-title section-title-glow animate-fade-up delay-1">{{ page.h1 }}</h1>
+      {% if page.subtitle %}<p class="hero-subtitle animate-fade-up delay-2">{{ page.subtitle }}</p>{% endif %}
+      {% if page.supporting %}<p class="hero-supporting animate-fade-up delay-2">{{ page.supporting }}</p>{% endif %}
       {% if page.highlights and page.highlights.length %}
-      <ul class="highlight-list">
+      <ul class="highlight-list animate-fade-up delay-3">
         {% for item in page.highlights %}
           <li>{{ item }}</li>
         {% endfor %}
       </ul>
       {% endif %}
-      <div class="hero-cta">
-        <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
+      <div class="hero-cta animate-fade-up delay-3">
+        <a class="btn btn-primary btn-lg" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
         {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
       </div>
       {% if page.secondaryCtaLabel %}
@@ -126,7 +116,7 @@
       {% endif %}
     </div>
     {% set heroImages = page.heroImages or site.heroImages %}
-    <div class="hero-visual{% if page.visual and page.visual.style == 'signal-focus' %} hero-visual-focus{% elif page.visual and page.visual.style == 'signal-min' %} hero-visual-min{% else %} hero-visual-montage{% endif %}"{% if page.visual %} style="--visual-accent: {{ page.visual.accent }}; --visual-accent-2: {{ page.visual.accent2 }};"{% endif %}>
+    <div class="hero-visual animate-fade-up delay-2{% if page.visual and page.visual.style == 'signal-focus' %} hero-visual-focus{% elif page.visual and page.visual.style == 'signal-min' %} hero-visual-min{% else %} hero-visual-montage{% endif %}"{% if page.visual %} style="--visual-accent: {{ page.visual.accent }}; --visual-accent-2: {{ page.visual.accent2 }};"{% endif %}>
       {% if page.visual and page.visual.style == 'signal-focus' %}
         <div class="focus-main">
           {% if heroImages[0] %}
@@ -203,15 +193,28 @@
 </section>
 {% endif %}
 
+<div class="stats-ticker">
+  <div class="stats-ticker-track">
+    <span class="stats-ticker-item">847+ PROFESSIONALS COACHED</span>
+    <span class="stats-ticker-item">89% LAND IN 60 DAYS</span>
+    <span class="stats-ticker-item">$47K AVG SALARY INCREASE</span>
+    <span class="stats-ticker-item">3 WEEKS TO FIRST INTERVIEW</span>
+    <span class="stats-ticker-item">847+ PROFESSIONALS COACHED</span>
+    <span class="stats-ticker-item">89% LAND IN 60 DAYS</span>
+    <span class="stats-ticker-item">$47K AVG SALARY INCREASE</span>
+    <span class="stats-ticker-item">3 WEEKS TO FIRST INTERVIEW</span>
+  </div>
+</div>
+
 <section class="section section-soft">
   <div class="container">
-    <div class="outcome-header">
+    <div class="outcome-header animate-fade-up">
       <h2 class="section-title section-title-accent section-title-glow">{{ page.proof.title }}</h2>
       {% if page.proof.subtitle %}<p class="section-subtitle">{{ page.proof.subtitle }}</p>{% endif %}
     </div>
     <div class="outcome-grid">
       {% for item in page.proof.items %}
-        <div class="outcome-card">
+        <div class="outcome-card animate-fade-up" style="--delay: {{ loop.index0 * 0.1 }}s;">
           <span class="outcome-number">{{ item.title }}</span>
           <p>{{ item.body }}</p>
         </div>
@@ -221,33 +224,46 @@
 </section>
 
 {% if page.testimonials %}
-<section class="section">
-  <div class="container testimonial-wall{% if page.testimonials.sticky %} is-sticky{% endif %}">
-    <div class="testimonial-wall-header">
-      <h2 class="section-title section-title-glow">{{ page.testimonials.title }}</h2>
+<section class="section wall-of-love">
+  <div class="container">
+    <div class="wall-header animate-fade-up">
+      <h2 class="section-title section-title-glow section-title-accent">{{ page.testimonials.title }}</h2>
       {% if page.testimonials.subtitle %}<p class="section-subtitle">{{ page.testimonials.subtitle }}</p>{% endif %}
     </div>
-    <div class="testimonial-grid">
+  </div>
+  <div class="wall-carousel" data-wall-carousel>
+    <div class="wall-track">
       {% for index in page.testimonials.indexes %}
         {% set item = testimonials.items[index] %}
         {% if item %}
-        <article class="testimonial-card" style="--stack-index: {{ loop.index }};">
-          <div class="testimonial-header">
-            <img class="avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
-            <div>
+        <article class="wall-card">
+          <div class="wall-card-header">
+            <img src="{{ item.photo }}" alt="{{ item.name }}" class="wall-avatar" />
+            <div class="wall-meta">
               <strong>{{ item.name }}</strong>
-              <span class="section-subtitle">
-                {{ item.role }}
-                {% if item.company and item.logo %}
-                  <span class="company-line"><span class="company-sep">·</span><img class="company-logo" src="{{ item.logo }}" alt="{{ item.company }} logo" />{{ item.company }}</span>
-                {% elseif item.company %}
-                  · {{ item.company }}
-                {% endif %}
-              </span>
-              {% if item.rating %}<div class="rating">{{ "★" | repeat(item.rating) }}</div>{% endif %}
+              <span>{{ item.role }}{% if item.company %} · {{ item.company }}{% endif %}</span>
             </div>
+            <span class="wall-platform wall-platform-linkedin">in</span>
           </div>
-          <p>{{ item.quote }}</p>
+          <p class="wall-quote">"{{ item.quote }}"</p>
+          {% if item.rating %}<span class="wall-metric">{{ "★" | repeat(item.rating) }}</span>{% endif %}
+        </article>
+        {% endif %}
+      {% endfor %}
+      {% for index in page.testimonials.indexes %}
+        {% set item = testimonials.items[index] %}
+        {% if item %}
+        <article class="wall-card">
+          <div class="wall-card-header">
+            <img src="{{ item.photo }}" alt="" class="wall-avatar" />
+            <div class="wall-meta">
+              <strong>{{ item.name }}</strong>
+              <span>{{ item.role }}{% if item.company %} · {{ item.company }}{% endif %}</span>
+            </div>
+            <span class="wall-platform wall-platform-linkedin">in</span>
+          </div>
+          <p class="wall-quote">"{{ item.quote }}"</p>
+          {% if item.rating %}<span class="wall-metric">{{ "★" | repeat(item.rating) }}</span>{% endif %}
         </article>
         {% endif %}
       {% endfor %}
@@ -257,9 +273,9 @@
 
 <section class="section-cta-mid">
   <div class="container">
-    <div class="cta-mid-content">
+    <div class="cta-mid-content animate-fade-up">
       <h3>Ready to stop being overlooked?</h3>
-      <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
+      <a class="btn btn-primary btn-lg" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
       {% if page.ctaUrgency %}
         <span class="hero-urgency">{{ page.ctaUrgency }}</span>
       {% endif %}
@@ -270,21 +286,21 @@
 
 {% if page.coach %}
 <section class="section">
-  <div class="container founder-grid">
-    <div class="founder-photo">
+  <div class="container coach-section">
+    <div class="coach-photo animate-fade-up">
       <img src="{{ page.coach.photo }}" alt="{{ page.coach.name }}" />
     </div>
-    <div class="founder-copy">
+    <div class="coach-copy animate-fade-up delay-1">
       {% if page.coach.eyebrow %}<p class="hero-eyebrow">{{ page.coach.eyebrow }}</p>{% endif %}
-      <h2 class="section-title section-title-glow">{{ page.coach.name }}</h2>
+      <h2 class="section-title section-title-glow section-title-accent">{{ page.coach.name }}</h2>
       {% if page.coach.role %}<p class="section-subtitle">{{ page.coach.role }}</p>{% endif %}
       <p>{{ page.coach.bio }}</p>
       {% if page.coach.bullets and page.coach.bullets.length %}
-      <div class="founder-badges">
+      <ul class="highlight-list">
         {% for item in page.coach.bullets %}
-          <span>{{ item }}</span>
+          <li>{{ item }}</li>
         {% endfor %}
-      </div>
+      </ul>
       {% endif %}
     </div>
   </div>
@@ -294,15 +310,15 @@
 {% if page.focus %}
 <section class="section">
   <div class="container">
-    <div class="pillar-header">
+    <div class="pillar-header animate-fade-up">
       <p class="hero-eyebrow">{{ page.focus.eyebrow }}</p>
-      <h2 class="section-title section-title-glow">{{ page.focus.title }}</h2>
+      <h2 class="section-title section-title-glow section-title-accent">{{ page.focus.title }}</h2>
       {% if page.focus.subtitle %}<p class="section-subtitle">{{ page.focus.subtitle }}</p>{% endif %}
     </div>
-    <div class="focus-grid">
+    <div class="how-grid">
       {% for item in page.focus.items %}
-        <article class="focus-card">
-          <span class="focus-tag">{{ item.tag }}</span>
+        <article class="how-card animate-fade-up" style="--delay: {{ loop.index0 * 0.1 }}s;">
+          <span class="how-index">0{{ loop.index }}</span>
           <h3>{{ item.title }}</h3>
           <p>{{ item.body }}</p>
         </article>
@@ -312,17 +328,17 @@
 </section>
 {% endif %}
 
-<section class="section">
-  <div class="container service-journey">
-    <div>
-      <h2 class="section-title section-title-glow">{{ page.steps.title }}</h2>
-      {% if page.steps.subtitle %}<p class="section-subtitle">{{ page.steps.subtitle }}</p>{% endif %}
+<section class="section section-soft">
+  <div class="container">
+    <div class="animate-fade-up">
+      <h2 class="section-title section-title-glow section-title-accent section-title-center">{{ page.steps.title }}</h2>
+      {% if page.steps.subtitle %}<p class="section-subtitle" style="text-align:center;">{{ page.steps.subtitle }}</p>{% endif %}
     </div>
-    <div class="journey-steps">
+    <div class="how-grid">
       {% for step in page.steps.items %}
-        <div class="journey-step">
-          <span>0{{ loop.index }}</span>
-          <h4>{{ step.title }}</h4>
+        <div class="how-card animate-fade-up" style="--delay: {{ loop.index0 * 0.1 }}s;">
+          <span class="how-index">0{{ loop.index }}</span>
+          <h3>{{ step.title }}</h3>
           <p>{{ step.body }}</p>
         </div>
       {% endfor %}
@@ -337,27 +353,28 @@
 {% if page.call %}
 <section class="section">
   <div class="container">
-    <div class="pillar-header">
+    <div class="pillar-header animate-fade-up">
       {% if page.call.eyebrow %}<p class="hero-eyebrow">{{ page.call.eyebrow }}</p>{% endif %}
-      <h2 class="section-title section-title-glow">{{ page.call.title }}</h2>
+      <h2 class="section-title section-title-glow section-title-accent">{{ page.call.title }}</h2>
       {% if page.call.subtitle %}<p class="section-subtitle">{{ page.call.subtitle }}</p>{% endif %}
     </div>
-    <div class="steps">
+    <div class="how-grid">
       {% for step in page.call.steps %}
-        <div class="step">
-          <h4>{{ step.title }}</h4>
+        <div class="how-card animate-fade-up" style="--delay: {{ loop.index0 * 0.1 }}s;">
+          <span class="how-index">0{{ loop.index }}</span>
+          <h3>{{ step.title }}</h3>
           <p>{{ step.body }}</p>
         </div>
       {% endfor %}
     </div>
-    {% if page.call.note %}<p class="assessment-footnote">{{ page.call.note }}</p>{% endif %}
+    {% if page.call.note %}<p class="assessment-footnote animate-fade-up">{{ page.call.note }}</p>{% endif %}
   </div>
 </section>
 {% endif %}
 
 <section class="section">
   <div class="container services-preview">
-    <div class="card card-soft">
+    <div class="card card-soft animate-fade-up">
       <strong>{{ page.for.title }}</strong>
       <p>{{ page.for.body }}</p>
       {% if page.for.items and page.for.items.length %}
@@ -368,7 +385,7 @@
       </ul>
       {% endif %}
     </div>
-    <div class="card">
+    <div class="card animate-fade-up delay-1">
       <strong>{{ page.notFor.title }}</strong>
       <p>{{ page.notFor.body }}</p>
       {% if page.notFor.items and page.notFor.items.length %}
@@ -382,20 +399,19 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section section-soft">
   <div class="container">
-    <div class="pillar-header">
+    <div class="pillar-header animate-fade-up">
       <p class="hero-eyebrow">Deliverables</p>
-      <h2 class="section-title section-title-glow">{{ page.deliverables.title }}</h2>
+      <h2 class="section-title section-title-glow section-title-accent">{{ page.deliverables.title }}</h2>
       {% if page.deliverables.subtitle %}<p class="section-subtitle">{{ page.deliverables.subtitle }}</p>{% endif %}
     </div>
-    {% if page.stackedSections %}
-    <div class="stacked-list">
+    <div class="how-grid">
       {% for item in page.deliverables.items %}
-        <div class="stacked-card" style="--stack-index: {{ loop.index0 }};">
-          <div class="stacked-card-header">
+        <div class="how-card animate-fade-up" style="--delay: {{ loop.index0 * 0.1 }}s;">
+          <div class="how-card-header">
             <h3>{{ item.title }}</h3>
-            {% if item.tag %}<span class="service-tag">{{ item.tag }}</span>{% endif %}
+            {% if item.tag %}<span class="how-tag">{{ item.tag }}</span>{% endif %}
           </div>
           <p>{{ item.body }}</p>
           {% if item.bullets and item.bullets.length %}
@@ -408,45 +424,21 @@
         </div>
       {% endfor %}
     </div>
-    {% else %}
-    <div class="service-stack">
-      {% for item in page.deliverables.items %}
-        <div class="service-tile">
-          <div class="service-header">
-            <h3>{{ item.title }}</h3>
-            {% if item.tag %}<span class="service-tag">{{ item.tag }}</span>{% endif %}
-          </div>
-          <p>{{ item.body }}</p>
-          {% if item.bullets and item.bullets.length %}
-          <ul>
-            {% for bullet in item.bullets %}
-              <li>{{ bullet }}</li>
-            {% endfor %}
-          </ul>
-          {% endif %}
-        </div>
-      {% endfor %}
-    </div>
-    {% endif %}
   </div>
 </section>
 
 {% if page.samples %}
 <section class="section">
   <div class="container">
-    <div class="pillar-header">
+    <div class="pillar-header animate-fade-up">
       <p class="hero-eyebrow">{{ page.samples.eyebrow }}</p>
-      <h2 class="section-title section-title-glow">{{ page.samples.title }}</h2>
+      <h2 class="section-title section-title-glow section-title-accent">{{ page.samples.title }}</h2>
       {% if page.samples.subtitle %}<p class="section-subtitle">{{ page.samples.subtitle }}</p>{% endif %}
     </div>
-    {% if page.stackedSections %}
-    <div class="stacked-list">
+    <div class="how-grid">
       {% for item in page.samples.items %}
-        <div class="stacked-card" style="--stack-index: {{ loop.index0 }};">
-          <div class="stacked-card-header">
-            <h3>{{ item.title }}</h3>
-            {% if item.tag %}<span class="service-tag">{{ item.tag }}</span>{% endif %}
-          </div>
+        <div class="how-card animate-fade-up" style="--delay: {{ loop.index0 * 0.1 }}s;">
+          <h3>{{ item.title }}</h3>
           <p>{{ item.body }}</p>
           {% if item.bullets and item.bullets.length %}
           <ul>
@@ -458,26 +450,6 @@
         </div>
       {% endfor %}
     </div>
-    {% else %}
-    <div class="service-stack">
-      {% for item in page.samples.items %}
-        <div class="service-tile">
-          <div class="service-header">
-            <h3>{{ item.title }}</h3>
-            {% if item.tag %}<span class="service-tag">{{ item.tag }}</span>{% endif %}
-          </div>
-          <p>{{ item.body }}</p>
-          {% if item.bullets and item.bullets.length %}
-          <ul>
-            {% for bullet in item.bullets %}
-              <li>{{ bullet }}</li>
-            {% endfor %}
-          </ul>
-          {% endif %}
-        </div>
-      {% endfor %}
-    </div>
-    {% endif %}
   </div>
 </section>
 {% endif %}
@@ -485,7 +457,7 @@
 {% if page.investment %}
 <section class="section">
   <div class="container services-preview">
-    <div class="card card-soft">
+    <div class="card card-soft animate-fade-up">
       <strong>{{ page.investment.title }}</strong>
       <p>{{ page.investment.subtitle }}</p>
       {% if page.investment.items and page.investment.items.length %}
@@ -497,7 +469,7 @@
       {% endif %}
     </div>
     {% if page.risk %}
-    <div class="card">
+    <div class="card animate-fade-up delay-1">
       <strong>{{ page.risk.title }}</strong>
       <p>{{ page.risk.body }}</p>
       {% if page.risk.items and page.risk.items.length %}
@@ -514,16 +486,16 @@
 {% endif %}
 
 {% if page.roleLinks %}
-<section class="section">
+<section class="section section-soft">
   <div class="container">
     <div class="role-atlas">
-      <div class="role-atlas-head">
+      <div class="role-atlas-head animate-fade-up">
         <p class="hero-eyebrow">{{ page.roleLinks.eyebrow }}</p>
-        <h2 class="section-title section-title-glow">{{ page.roleLinks.title }}</h2>
+        <h2 class="section-title section-title-glow section-title-accent">{{ page.roleLinks.title }}</h2>
         {% if page.roleLinks.subtitle %}<p class="section-subtitle">{{ page.roleLinks.subtitle }}</p>{% endif %}
       </div>
       <div class="role-atlas-grid">
-        <div class="role-atlas-feature">
+        <div class="role-atlas-feature animate-fade-up">
           <div class="role-atlas-card">
             <span class="role-atlas-kicker">Role Tracks</span>
             <h3>Pick the track that mirrors your function</h3>
@@ -535,7 +507,7 @@
         </div>
         <div class="role-atlas-list{% if page.roleLinks.sticky %} is-sticky{% endif %}">
           {% for item in page.roleLinks.items %}
-            <a class="role-atlas-item" href="{{ item.url }}" style="--stack-index: {{ loop.index0 }};">
+            <a class="role-atlas-item animate-fade-up" href="{{ item.url }}" style="--delay: {{ loop.index0 * 0.05 }}s;">
               <div>
                 <strong>{{ item.title }}</strong>
                 <span>{{ item.body }}</span>
@@ -553,12 +525,12 @@
 {% if page.roleShowcase %}
 <section class="section role-showcase" data-role-showcase>
   <div class="container">
-    <div class="pillar-header">
+    <div class="pillar-header animate-fade-up">
       <p class="hero-eyebrow">{{ page.roleShowcase.eyebrow }}</p>
-      <h2 class="section-title section-title-glow">{{ page.roleShowcase.title }}</h2>
+      <h2 class="section-title section-title-glow section-title-accent">{{ page.roleShowcase.title }}</h2>
       {% if page.roleShowcase.subtitle %}<p class="section-subtitle">{{ page.roleShowcase.subtitle }}</p>{% endif %}
     </div>
-    <div class="role-showcase-panel">
+    <div class="role-showcase-panel animate-fade-up delay-1">
       <div class="role-tabs" role="tablist">
         {% for group in page.roleShowcase.groups %}
           <button class="role-tab{% if loop.first %} is-active{% endif %}" type="button" data-role-tab="{{ loop.index0 }}" role="tab" aria-selected="{{ 'true' if loop.first else 'false' }}">
@@ -579,20 +551,21 @@
   </div>
 </section>
 <script>
-  document.addEventListener(\"DOMContentLoaded\", () => {
-    const showcase = document.querySelector(\"[data-role-showcase]\");
+  document.addEventListener("DOMContentLoaded", () => {
+    const showcase = document.querySelector("[data-role-showcase]");
     if (!showcase) return;
-    const tabs = showcase.querySelectorAll(\"[data-role-tab]\");
-    const groups = showcase.querySelectorAll(\"[data-role-group]\");
+    const tabs = showcase.querySelectorAll("[data-role-tab]");
+    const groups = showcase.querySelectorAll("[data-role-group]");
     tabs.forEach((tab) => {
-      tab.addEventListener(\"click\", () => {
+      tab.addEventListener("click", () => {
         const index = tab.dataset.roleTab;
-        tabs.forEach((t) => t.classList.remove(\"is-active\"));
-        groups.forEach((g) => g.classList.remove(\"is-active\"));
-        tab.classList.add(\"is-active\");
-        const group = showcase.querySelector(`[data-role-group=\"${index}\"]`);
-        if (group) group.classList.add(\"is-active\");
-        tabs.forEach((t) => t.setAttribute(\"aria-selected\", t === tab ? \"true\" : \"false\"));\n      });
+        tabs.forEach((t) => t.classList.remove("is-active"));
+        groups.forEach((g) => g.classList.remove("is-active"));
+        tab.classList.add("is-active");
+        const group = showcase.querySelector(`[data-role-group="${index}"]`);
+        if (group) group.classList.add("is-active");
+        tabs.forEach((t) => t.setAttribute("aria-selected", t === tab ? "true" : "false"));
+      });
     });
   });
 </script>
@@ -603,25 +576,25 @@
 {% endif %}
 
 <section class="section">
-  <div class="container card">
-    <h2 class="section-title">{{ page.related.title }}</h2>
+  <div class="container card animate-fade-up">
+    <h2 class="section-title section-title-glow section-title-accent">{{ page.related.title }}</h2>
     <p class="section-subtitle">{{ page.related.body }}</p>
     <div class="hero-cta">
-      <a class="btn btn-primary" href="{{ page.related.primaryLink }}">{{ page.related.primaryLabel }}</a>
+      <a class="btn btn-primary btn-lg" href="{{ page.related.primaryLink }}">{{ page.related.primaryLabel }}</a>
       <a class="btn btn-ghost" href="{{ page.related.secondaryLink }}">{{ page.related.secondaryLabel }}</a>
     </div>
   </div>
 </section>
 
-<section class="section">
+<section class="section section-soft">
   <div class="container faq-stage">
-    <div class="faq-header">
-      <h2 class="section-title section-title-glow">{{ page.faq.title }}</h2>
+    <div class="faq-header animate-fade-up">
+      <h2 class="section-title section-title-glow section-title-accent">{{ page.faq.title }}</h2>
       {% if page.faq.subtitle %}<p class="section-subtitle">{{ page.faq.subtitle }}</p>{% endif %}
     </div>
     <div class="faq-grid">
       {% for item in page.faq.items %}
-        <details class="faq-card">
+        <details class="faq-card animate-fade-up" style="--delay: {{ loop.index0 * 0.05 }}s;">
           <summary>{{ item.question }}</summary>
           <p>{{ item.answer }}</p>
         </details>
@@ -630,11 +603,10 @@
   </div>
 </section>
 
-
 <section class="section">
-  <div class="container cta-band">
+  <div class="container cta-band animate-fade-up">
     <div>
-      <h2 class="section-title">{{ page.cta.title }}</h2>
+      <h2 class="section-title section-title-glow section-title-accent">{{ page.cta.title }}</h2>
       <p class="section-subtitle">{{ page.cta.body }}</p>
       {% if page.cta.urgency or page.cta.guarantee %}
       <div class="cta-band-meta">
@@ -643,7 +615,7 @@
       </div>
       {% endif %}
     </div>
-    <a class="btn btn-primary" href="{{ page.cta.link or site.cta.link }}">{{ page.cta.label or site.cta.label }}</a>
+    <a class="btn btn-primary btn-lg" href="{{ page.cta.link or site.cta.link }}">{{ page.cta.label or site.cta.label }}</a>
   </div>
 </section>
 

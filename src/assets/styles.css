@@ -352,6 +352,11 @@ a {
   gap: 10px;
 }
 
+.hero-title-nowrap {
+  display: inline-block;
+  white-space: nowrap;
+}
+
 .hero-title-emphasis {
   color: #ffffff;
   position: relative;
@@ -7399,7 +7404,9 @@ body.pricing-focus {
 
 .coach-photo img {
   width: 100%;
-  border-radius: 18px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 58% 42% 63% 37% / 55% 45% 55% 45%;
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
 }
 

@@ -11,7 +11,7 @@ breadcrumbs:
 <section class="hero hero-minimal">
   <div class="container hero-minimal-inner">
     <p class="hero-eyebrow animate-fade-up">{{ home.hero.eyebrow }}</p>
-    <h1 class="hero-minimal-title animate-fade-up delay-1">{{ home.hero.title }}</h1>
+    <h1 class="hero-minimal-title animate-fade-up delay-1">{{ home.hero.title | safe }}</h1>
     <p class="hero-minimal-subtitle animate-fade-up delay-2">{{ home.hero.subtitle }}</p>
     <div class="hero-minimal-cta animate-fade-up delay-3">
       <a class="btn btn-primary btn-lg" href="{{ home.hero.ctaLink }}">{{ home.hero.ctaLabel }}</a>
@@ -60,7 +60,7 @@ breadcrumbs:
   <div class="container">
     <div class="visual-demo">
       <div class="visual-demo-header animate-fade-up">
-        <h2 class="section-title">{{ home.visualDemo.title }}</h2>
+        <h2 class="section-title section-title-glow section-title-accent">{{ home.visualDemo.title }}</h2>
         <p class="section-subtitle">{{ home.visualDemo.subtitle }}</p>
       </div>
       <div class="visual-demo-grid">
@@ -89,7 +89,7 @@ breadcrumbs:
 
 <section class="section section-soft" id="how-we-work">
   <div class="container">
-    <h2 class="section-title section-title-center animate-fade-up">{{ home.howWeWork.title }}</h2>
+    <h2 class="section-title section-title-glow section-title-accent section-title-center animate-fade-up">{{ home.howWeWork.title }}</h2>
     <div class="how-grid">
       {% for item in home.howWeWork.items %}
         <div class="how-card animate-fade-up" style="--delay: {{ loop.index0 * 0.1 }}s;">
@@ -105,7 +105,7 @@ breadcrumbs:
 <section class="section">
   <div class="container">
     <div class="comparison-header animate-fade-up">
-      <h2 class="section-title">{{ home.comparison.title }}</h2>
+      <h2 class="section-title section-title-glow section-title-accent">{{ home.comparison.title }}</h2>
     </div>
     <div class="comparison-table animate-fade-up delay-1">
       <div class="comparison-head">
@@ -127,7 +127,7 @@ breadcrumbs:
 <section class="section section-soft wall-of-love">
   <div class="container">
     <div class="wall-header animate-fade-up">
-      <h2 class="section-title">{{ home.wallOfLove.title }}</h2>
+    <h2 class="section-title section-title-glow section-title-accent">{{ home.wallOfLove.title }}</h2>
       <p class="section-subtitle">{{ home.wallOfLove.subtitle }}</p>
     </div>
   </div>
@@ -185,8 +185,8 @@ breadcrumbs:
       <img src="/assets/steve-headshot.jpg" alt="Steve, Career Coach" />
     </div>
     <div class="coach-copy animate-fade-up delay-1">
-      <p class="hero-eyebrow">Your Coach</p>
-      <h2 class="section-title">{{ home.coach.title }}</h2>
+      <p class="hero-eyebrow">Founder, Head Coach</p>
+      <h2 class="section-title section-title-glow section-title-accent">{{ home.coach.title }}</h2>
       <p class="section-subtitle">{{ home.coach.credential }}</p>
       <p>{{ home.coach.body }}</p>
       <ul class="highlight-list">
@@ -201,7 +201,7 @@ breadcrumbs:
 <section class="section">
   <div class="container cta-band animate-fade-up">
     <div>
-      <h2 class="section-title">{{ home.cta.title }}</h2>
+      <h2 class="section-title section-title-glow section-title-accent">{{ home.cta.title }}</h2>
       <p class="section-subtitle">{{ home.cta.body }}</p>
     </div>
     <a class="btn btn-primary btn-lg" href="{{ home.cta.ctaLink }}">{{ home.cta.ctaLabel }}</a>
