@@ -4774,6 +4774,148 @@ body.pricing-focus {
   text-align: center;
 }
 
+.application-visual {
+  position: relative;
+  margin: 26px auto 0;
+  max-width: 520px;
+  display: grid;
+  place-items: center;
+}
+
+.application-track {
+  position: relative;
+  width: 100%;
+  height: 170px;
+}
+
+.application-card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: min(380px, 90%);
+  padding: 16px 18px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(18, 26, 38, 0.85), rgba(8, 12, 18, 0.5));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 24px 60px rgba(7, 10, 15, 0.45);
+  transform: translate(-50%, -50%);
+  display: grid;
+  gap: 6px;
+  text-align: left;
+}
+
+.application-card:nth-child(1) {
+  transform: translate(-50%, -50%) rotate(-2deg);
+  animation: applicationSlide 7.5s ease-in-out infinite;
+}
+
+.application-card:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(1deg);
+  animation: applicationSlide 7.5s ease-in-out infinite 2.5s;
+}
+
+.application-card:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(-1deg);
+  animation: applicationSlide 7.5s ease-in-out infinite 5s;
+}
+
+.application-title {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(114, 214, 255, 0.7);
+  font-weight: 600;
+}
+
+.application-role {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.application-status {
+  justify-self: start;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+}
+
+.application-status.denied {
+  color: #f87171;
+  background: rgba(248, 113, 113, 0.12);
+  border: 1px solid rgba(248, 113, 113, 0.3);
+}
+
+.application-stamps {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.stamp {
+  position: absolute;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px dashed rgba(248, 113, 113, 0.6);
+  color: rgba(248, 113, 113, 0.9);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.65rem;
+  font-weight: 700;
+  opacity: 0;
+  animation: stampPulse 7.5s ease-in-out infinite;
+}
+
+.stamp-1 {
+  top: 12px;
+  left: 24px;
+  animation-delay: 0.6s;
+}
+
+.stamp-2 {
+  top: 44px;
+  right: 32px;
+  animation-delay: 3.1s;
+}
+
+.stamp-3 {
+  bottom: 18px;
+  left: 40%;
+  animation-delay: 5.6s;
+}
+
+@keyframes applicationSlide {
+  0%, 20% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.96);
+  }
+  30%, 65% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  80%, 100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translateX(20px) scale(0.98);
+  }
+}
+
+@keyframes stampPulse {
+  0%, 20% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  30%, 55% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  80%, 100% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
+
 .pillar-header .section-subtitle,
 .outcome-header .section-subtitle,
 .assessment-header .section-subtitle,
