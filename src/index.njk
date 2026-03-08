@@ -8,37 +8,40 @@ breadcrumbs:
   - name: "Home"
     url: "/"
 ---
-<section class="hero hero-minimal">
-  <div class="container hero-minimal-inner">
-    <p class="hero-eyebrow animate-fade-up">{{ home.hero.eyebrow }}</p>
-    <h1 class="hero-minimal-title animate-fade-up delay-1">{{ home.hero.title }}</h1>
-    <p class="hero-minimal-subtitle animate-fade-up delay-2">{{ home.hero.subtitle }}</p>
-    <div class="hero-minimal-cta animate-fade-up delay-3">
-      <a class="btn btn-primary btn-lg" href="{{ home.hero.ctaLink }}">{{ home.hero.ctaLabel }}</a>
-      <a class="btn btn-ghost" href="{{ home.hero.secondaryLink }}">{{ home.hero.secondaryLabel }}</a>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="hero-eyebrow">{{ home.hero.eyebrow }}</p>
+      <h1 class="hero-title">
+        <span class="hero-title-lead">{{ home.hero.titleLead }}</span>
+        <span class="hero-title-emphasis">{{ home.hero.titleEmphasis }}</span>
+        <span class="hero-title-accent">{{ home.hero.titleAccent }}</span>
+      </h1>
+      <p class="hero-subtitle">{{ home.hero.subtitle }}</p>
+      <p class="hero-supporting">{{ home.hero.supporting }}</p>
+      <ul class="highlight-list">
+        {% for item in home.hero.highlight %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ home.hero.ctaLink }}">{{ home.hero.ctaLabel }}</a>
+        <div class="hero-cta-meta">
+          <span class="hero-urgency">{{ home.hero.ctaUrgency }}</span>
+          <span class="hero-guarantee">{{ home.hero.guarantee }}</span>
+        </div>
+        <span class="hero-proof">{{ home.hero.proof }}</span>
+      </div>
     </div>
-    <div class="hero-logos animate-pop-in delay-4">
-      {% for company in home.logos.companies | slice(0, 6) %}
-        <img src="{{ company.logo }}" alt="{{ company.name }}" class="hero-logo-icon" style="--pop-delay: {{ loop.index0 * 0.1 }}s;" />
-      {% endfor %}
+    <div class="hero-photo">
+      <img src="/assets/steve-headshot.jpg" alt="Steve, Askia Career Coach" />
     </div>
   </div>
 </section>
 
-<div class="stats-ticker">
-  <div class="stats-ticker-track">
-    {% for item in home.statsBanner.items %}
-      <span class="stats-ticker-item">{{ item }}</span>
-    {% endfor %}
-    {% for item in home.statsBanner.items %}
-      <span class="stats-ticker-item">{{ item }}</span>
-    {% endfor %}
-  </div>
-</div>
-
 <section class="section section-tight">
   <div class="container">
-    <p class="logos-label">{{ home.logos.title }}</p>
+    <h3 class="section-title section-title-center">{{ home.logos.title }}</h3>
     <div class="logo-carousel">
       <div class="logo-track">
         {% for company in home.logos.companies %}
@@ -56,45 +59,46 @@ breadcrumbs:
   </div>
 </section>
 
-<section class="section" id="visual-demo">
-  <div class="container">
-    <div class="visual-demo">
-      <div class="visual-demo-header animate-fade-up">
-        <h2 class="section-title">{{ home.visualDemo.title }}</h2>
-        <p class="section-subtitle">{{ home.visualDemo.subtitle }}</p>
+<section class="section section-soft">
+  <div class="container stats-grid">
+    {% for stat in home.stats %}
+      <div class="stat-card">
+        <h3>{{ stat.title }}</h3>
+        <p>{{ stat.body }}</p>
       </div>
-      <div class="visual-demo-grid">
-        {% for metric in home.visualDemo.metrics %}
-          <div class="visual-demo-card animate-fade-up" style="--delay: {{ loop.index0 * 0.15 }}s;">
-            <span class="visual-demo-label">{{ metric.label }}</span>
-            <div class="visual-demo-compare">
-              <div class="visual-demo-before">
-                <span class="visual-demo-tag">Before</span>
-                <span class="visual-demo-value visual-demo-value-muted">{{ metric.before }}</span>
-              </div>
-              <svg class="visual-demo-arrow" viewBox="0 0 24 24" width="24" height="24">
-                <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-              <div class="visual-demo-after">
-                <span class="visual-demo-tag">After</span>
-                <span class="visual-demo-value visual-demo-value-accent">{{ metric.after }}</span>
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container pillar-wrap">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Askia System</p>
+      <h2 class="section-title section-title-glow">{{ home.pillars.title }}</h2>
+      <p class="section-subtitle">{{ home.pillars.subtitle }}</p>
+    </div>
+    <div class="pillar-grid">
+      {% for item in home.pillars.items %}
+        <div class="pillar-card">
+          <div class="pillar-tag">0{{ loop.index }}</div>
+          <h3 class="pillar-title">{{ item.title }}</h3>
+          <p class="pillar-body">{{ item.body }}</p>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </section>
 
-<section class="section section-soft" id="how-we-work">
+<section class="section section-soft">
   <div class="container">
-    <h2 class="section-title section-title-center animate-fade-up">{{ home.howWeWork.title }}</h2>
-    <div class="how-grid">
-      {% for item in home.howWeWork.items %}
-        <div class="how-card animate-fade-up" style="--delay: {{ loop.index0 * 0.1 }}s;">
-          <span class="how-index">0{{ loop.index }}</span>
-          <h3>{{ item.title }}</h3>
+    <div class="outcome-header">
+      <h2 class="section-title section-title-accent section-title-glow">{{ home.proof.title }}</h2>
+      <p class="section-subtitle">Measured wins across compensation, momentum, and leadership signal.</p>
+    </div>
+    <div class="outcome-grid">
+      {% for item in home.proof.items %}
+        <div class="outcome-card">
+          <span class="outcome-number">{{ item.title }}</span>
           <p>{{ item.body }}</p>
         </div>
       {% endfor %}
@@ -103,88 +107,70 @@ breadcrumbs:
 </section>
 
 <section class="section">
-  <div class="container">
-    <div class="comparison-header animate-fade-up">
-      <h2 class="section-title">{{ home.comparison.title }}</h2>
+  <div class="container success-wrap">
+    <div class="success-copy">
+      <p class="hero-eyebrow">Success Stories</p>
+      <h2 class="section-title">{{ home.success.title }}</h2>
+      <p class="section-subtitle">{{ home.success.subtitle }}</p>
+      <p>{{ home.success.body }}</p>
     </div>
-    <div class="comparison-table animate-fade-up delay-1">
-      <div class="comparison-head">
-        <div class="comparison-label"></div>
-        <div class="comparison-col comparison-col-diy">{{ home.comparison.columns[0] }}</div>
-        <div class="comparison-col comparison-col-askia">{{ home.comparison.columns[1] }}</div>
+    <div class="success-carousel" data-success-carousel>
+      <div class="success-viewport">
+        {% for item in home.success.items %}
+          <div class="success-slide{% if loop.first %} is-active{% endif %}">
+            <img src="{{ item.image }}" alt="{{ item.name }} - {{ item.role }}" />
+            <div class="success-caption">
+              <strong>{{ item.name }}</strong>
+              <span>{{ item.role }} · {{ item.company }}</span>
+            </div>
+          </div>
+        {% endfor %}
       </div>
-      {% for row in home.comparison.rows %}
-        <div class="comparison-row">
-          <div class="comparison-label">{{ row.label }}</div>
-          <div class="comparison-col comparison-col-diy">{{ row.diy }}</div>
-          <div class="comparison-col comparison-col-askia">{{ row.askia }}</div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="section section-soft wall-of-love">
-  <div class="container">
-    <div class="wall-header animate-fade-up">
-      <h2 class="section-title">{{ home.wallOfLove.title }}</h2>
-      <p class="section-subtitle">{{ home.wallOfLove.subtitle }}</p>
-    </div>
-  </div>
-  <div class="wall-carousel" data-wall-carousel>
-    <div class="wall-track">
-      {% for review in home.wallOfLove.reviews %}
-        <article class="wall-card">
-          <div class="wall-card-header">
-            <img src="{{ review.photo }}" alt="{{ review.name }}" class="wall-avatar" />
-            <div class="wall-meta">
-              <strong>{{ review.name }}</strong>
-              <span>{{ review.role }} · {{ review.company }}</span>
-            </div>
-            <span class="wall-platform wall-platform-{{ review.platform }}">
-              {% if review.platform == "linkedin" %}in{% endif %}
-            </span>
-          </div>
-          <p class="wall-quote">"{{ review.quote }}"</p>
-          <span class="wall-metric">{{ review.metric }}</span>
-        </article>
-      {% endfor %}
-      {% for review in home.wallOfLove.reviews %}
-        <article class="wall-card">
-          <div class="wall-card-header">
-            <img src="{{ review.photo }}" alt="" class="wall-avatar" />
-            <div class="wall-meta">
-              <strong>{{ review.name }}</strong>
-              <span>{{ review.role }} · {{ review.company }}</span>
-            </div>
-            <span class="wall-platform wall-platform-{{ review.platform }}">
-              {% if review.platform == "linkedin" %}in{% endif %}
-            </span>
-          </div>
-          <p class="wall-quote">"{{ review.quote }}"</p>
-          <span class="wall-metric">{{ review.metric }}</span>
-        </article>
-      {% endfor %}
+      <div class="success-dots">
+        {% for item in home.success.items %}
+          <span{% if loop.first %} class="is-active"{% endif %}></span>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>
 
 <section class="section-cta-mid">
   <div class="container">
-    <div class="cta-mid-content animate-fade-up">
-      <h3>{{ home.cta.title }}</h3>
-      <p>{{ home.cta.body }}</p>
-      <a class="btn btn-primary btn-lg" href="{{ home.cta.ctaLink }}">{{ home.cta.ctaLabel }}</a>
+    <div class="cta-mid-content">
+      <h3>Ready to stop being overlooked?</h3>
+      <a class="btn btn-primary" href="{{ home.hero.ctaLink }}">{{ home.hero.ctaLabel }}</a>
+      <span class="hero-urgency">{{ home.hero.ctaUrgency }}</span>
     </div>
   </div>
 </section>
 
 <section class="section">
+  <div class="container flow-section">
+    <div class="flow-header">
+      <p class="hero-eyebrow">How It Works</p>
+      <h2 class="section-title">{{ home.program.title }}</h2>
+    </div>
+    <div class="flow-list">
+      {% for step in home.program.steps %}
+        <div class="flow-item">
+          <span class="flow-index">0{{ loop.index }}</span>
+          <div>
+            <h4>{{ step.title }}</h4>
+            <p>{{ step.body }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft">
   <div class="container coach-section">
-    <div class="coach-photo animate-fade-up">
+    <div class="coach-photo">
       <img src="/assets/steve-headshot.jpg" alt="Steve, Career Coach" />
     </div>
-    <div class="coach-copy animate-fade-up delay-1">
+    <div class="coach-copy">
       <p class="hero-eyebrow">Your Coach</p>
       <h2 class="section-title">{{ home.coach.title }}</h2>
       <p class="section-subtitle">{{ home.coach.credential }}</p>
@@ -199,30 +185,15 @@ breadcrumbs:
 </section>
 
 <section class="section">
-  <div class="container cta-band animate-fade-up">
+  <div class="container cta-band">
     <div>
       <h2 class="section-title">{{ home.cta.title }}</h2>
       <p class="section-subtitle">{{ home.cta.body }}</p>
+      <div class="cta-band-meta">
+        <span class="hero-urgency">{{ home.cta.urgency }}</span>
+        <span class="hero-guarantee">{{ home.cta.guarantee }}</span>
+      </div>
     </div>
-    <a class="btn btn-primary btn-lg" href="{{ home.cta.ctaLink }}">{{ home.cta.ctaLabel }}</a>
+    <a class="btn btn-primary" href="{{ home.cta.ctaLink }}">{{ home.cta.ctaLabel }}</a>
   </div>
 </section>
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-  // Intersection Observer for fade-up animations
-  const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('is-visible');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, observerOptions);
-
-  document.querySelectorAll('.animate-fade-up, .animate-pop-in').forEach(el => {
-    observer.observe(el);
-  });
-});
-</script>
