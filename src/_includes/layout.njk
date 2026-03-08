@@ -1049,6 +1049,51 @@
       });
     </script>
     <script>
+      // Dynamic urgency - updates based on day of week
+      (function() {
+        const now = new Date();
+        const day = now.getDay(); // 0=Sun, 1=Mon, etc.
+        const hour = now.getHours();
+
+        // Spots decrease through the week, reset on Monday
+        const baseSpots = {
+          0: 2, // Sunday - very limited
+          1: 6, // Monday - fresh week
+          2: 5, // Tuesday
+          3: 4, // Wednesday
+          4: 3, // Thursday
+          5: 2, // Friday - almost gone
+          6: 2  // Saturday - weekend limited
+        };
+
+        let spots = baseSpots[day];
+        // Reduce by 1 in afternoon/evening
+        if (hour >= 14) spots = Math.max(1, spots - 1);
+
+        // Days until Friday (end of work week)
+        const daysUntilFriday = day <= 5 ? 5 - day : 6;
+
+        // Generate urgency message
+        let urgencyText;
+        if (spots <= 2) {
+          urgencyText = `Only ${spots} spot${spots === 1 ? '' : 's'} left this week`;
+        } else if (day === 1) {
+          urgencyText = `${spots} spots available this week — book early`;
+        } else if (daysUntilFriday <= 2) {
+          urgencyText = `Only ${spots} spots left before the weekend`;
+        } else {
+          urgencyText = `${spots} spots remaining this week`;
+        }
+
+        // Update all urgency elements
+        document.addEventListener('DOMContentLoaded', function() {
+          document.querySelectorAll('.hero-urgency, .cta-urgency').forEach(function(el) {
+            el.textContent = urgencyText;
+          });
+        });
+      })();
+    </script>
+    <script>
       window.$zoho = window.$zoho || {};
       $zoho.salesiq = $zoho.salesiq || { ready: function () {} };
       $zoho.salesiq.ready = function () {

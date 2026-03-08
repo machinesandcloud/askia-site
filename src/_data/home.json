@@ -1,28 +1,30 @@
 {
   "hero": {
-    "eyebrow": "Career coaching for $150K–$350K roles",
-    "titleLead": "You're not getting ignored because you lack talent.",
-    "titleEmphasis": "Your story isn't landing.",
+    "eyebrow": "Career coaching for $150K–$350K professionals",
+    "titleLead": "Land interviews in 3 weeks.",
+    "titleEmphasis": "Negotiate $40K+ more.",
     "titleTail": "",
-    "titleAccent": "We fix that.",
-    "subtitle": "Land the role you deserve. Stop being overlooked.",
-    "supporting": "You've got the experience. But your resume isn't opening doors and interviews aren't converting. We help you translate what you've done into what they need to hear.",
-    "ctaLabel": "Claim My Free Strategy Session",
+    "titleAccent": "89% success rate.",
+    "subtitle": "Stop sending applications into the void. Start getting callbacks.",
+    "supporting": "You have the experience. We help you tell the story that gets you hired.",
+    "ctaLabel": "Get My Free Strategy Session",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaUrgency": "Only 4 spots left this week",
-    "highlight": [
-      "Land your first interview in 3 weeks or less",
-      "A resume that gets 3x more callbacks",
-      "Walk into interviews knowing exactly what to say"
+    "ctaSubtext": "15 min call · No commitment · Leave with a clear plan",
+    "heroStats": [
+      { "value": "3 weeks", "label": "to first interview" },
+      { "value": "$47K", "label": "avg. salary increase" },
+      { "value": "89%", "label": "land offers in 60 days" }
     ],
     "proofRating": "4.9",
     "proofCount": "847+",
-    "proof": "847+ professionals coached · 89% land offers within 60 days",
+    "proof": "Rated 4.9/5 by 847+ professionals",
     "guarantee": "Leave with a clear action plan — or your next session is free",
     "miniTestimonial": {
       "quote": "Within 3 weeks I had 4 interviews lined up. Steve completely changed how I talk about my work.",
       "name": "Marcus T.",
-      "role": "Senior Engineer → Staff at FAANG"
+      "role": "Senior Engineer → Staff at FAANG",
+      "rating": 5
     }
   },
   "stats": [

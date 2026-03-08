@@ -10,40 +10,52 @@ breadcrumbs:
 ---
 <section class="hero">
   <div class="container hero-grid">
-    <div>
+    <div class="hero-content">
       <p class="hero-eyebrow">{{ home.hero.eyebrow }}</p>
       <h1 class="hero-title">
         <span class="hero-title-lead">{{ home.hero.titleLead }}</span>
         <span class="hero-title-emphasis">{{ home.hero.titleEmphasis }}</span>
-        <span class="hero-title-tail">{{ home.hero.titleTail }}</span>
         <span class="hero-title-accent">{{ home.hero.titleAccent }}</span>
       </h1>
       <p class="hero-subtitle">{{ home.hero.subtitle }}</p>
       <p class="hero-supporting">{{ home.hero.supporting }}</p>
-      <ul class="highlight-list">
-        {% for item in home.hero.highlight %}
-          <li>{{ item }}</li>
+
+      {% if home.hero.heroStats %}
+      <div class="hero-stats">
+        {% for stat in home.hero.heroStats %}
+          <div class="hero-stat">
+            <strong>{{ stat.value }}</strong>
+            <span>{{ stat.label }}</span>
+          </div>
         {% endfor %}
-      </ul>
-      <div class="hero-cta">
-        <a class="btn btn-primary" href="{{ home.hero.ctaLink }}">{{ home.hero.ctaLabel }}</a>
-        <a class="btn btn-ghost" href="https://askia.tech/career-readiness-index/">Take the Career Readiness Index</a>
       </div>
-      <div class="hero-trust-bar">
-        <span class="hero-proof-rating">★ {{ home.hero.proofRating }} from {{ home.hero.proofCount }} clients</span>
-        <span class="hero-proof">{{ home.hero.proof }}</span>
+      {% endif %}
+
+      <div class="hero-cta-block">
+        <a class="btn btn-primary btn-lg" href="{{ home.hero.ctaLink }}">{{ home.hero.ctaLabel }}</a>
+        {% if home.hero.ctaSubtext %}<span class="hero-cta-subtext">{{ home.hero.ctaSubtext }}</span>{% endif %}
+        <span class="hero-urgency">{{ home.hero.ctaUrgency }}</span>
       </div>
-      <p class="hero-urgency">{{ home.hero.ctaUrgency }}</p>
-      <p class="hero-guarantee">✓ {{ home.hero.guarantee }}</p>
+
+      <div class="hero-proof-bar">
+        <span class="hero-proof-rating">★ {{ home.hero.proofRating }}/5</span>
+        <span class="hero-proof-text">{{ home.hero.proof }}</span>
+      </div>
+
       {% if home.hero.miniTestimonial %}
-      <div class="hero-mini-testimonial">
+      <div class="hero-testimonial">
+        <div class="hero-testimonial-stars">★★★★★</div>
         <p>"{{ home.hero.miniTestimonial.quote }}"</p>
-        <span>— {{ home.hero.miniTestimonial.name }}, {{ home.hero.miniTestimonial.role }}</span>
+        <span class="hero-testimonial-author">{{ home.hero.miniTestimonial.name }} · {{ home.hero.miniTestimonial.role }}</span>
       </div>
       {% endif %}
     </div>
-    <div class="hero-photo">
-      <img src="/assets/steve-headshot.jpg" alt="Steve, Askia Career Coach" />
+    <div class="hero-visual">
+      <img src="/assets/steve-headshot.jpg" alt="Steve, Askia Career Coach" class="hero-photo" />
+      <div class="hero-guarantee-badge">
+        <span>✓</span>
+        {{ home.hero.guarantee }}
+      </div>
     </div>
   </div>
 </section>
@@ -168,31 +180,37 @@ breadcrumbs:
   </div>
 </section>
 
-<section class="section">
-  <div class="container success-wrap">
-    <div class="success-copy">
-      <p class="hero-eyebrow">Success Carousel</p>
-      <h2 class="section-title">{{ home.success.title }}</h2>
+<section class="section section-testimonials">
+  <div class="container">
+    <div class="testimonials-header">
+      <p class="hero-eyebrow">Client Results</p>
+      <h2 class="section-title section-title-glow">{{ home.success.title }}</h2>
       <p class="section-subtitle">{{ home.success.subtitle }}</p>
-      <p>{{ home.success.body }}</p>
+      <div class="testimonials-summary">
+        <span class="testimonials-rating">★★★★★ 4.9/5</span>
+        <span>from 847+ professionals</span>
+      </div>
     </div>
-    <div class="success-carousel" data-success-carousel>
-      <div class="success-viewport">
-        {% for item in home.success.items %}
-          <div class="success-slide{% if loop.first %} is-active{% endif %}">
-            <img src="{{ item.image }}" alt="{{ item.name }} - {{ item.role }}" />
-            <div class="success-caption">
+    <div class="testimonials-grid">
+      {% for index in [0, 1, 2, 3, 5, 6] %}
+        {% set item = testimonials.items[index] %}
+        {% if item %}
+        <article class="testimonial-card-home">
+          <div class="testimonial-card-header">
+            <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
+            <div>
               <strong>{{ item.name }}</strong>
-              <span>{{ item.role }} · {{ item.company }}</span>
+              <span>{{ item.role }}{% if item.company %} · {{ item.company }}{% endif %}</span>
             </div>
           </div>
-        {% endfor %}
-      </div>
-      <div class="success-dots">
-        {% for item in home.success.items %}
-          <span{% if loop.first %} class="is-active"{% endif %}></span>
-        {% endfor %}
-      </div>
+          <div class="testimonial-card-rating">★★★★★</div>
+          <p class="testimonial-card-quote">"{{ item.quote | truncate(180) }}"</p>
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="testimonials-cta">
+      <a class="btn btn-ghost" href="/testimonials/">Read all testimonials</a>
     </div>
   </div>
 </section>
