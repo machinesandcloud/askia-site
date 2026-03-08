@@ -26,39 +26,29 @@ breadcrumbs:
       <div class="hero-cta-block">
         <a class="btn btn-primary btn-lg btn-glow" href="{{ home.hero.ctaLink }}">{{ home.hero.ctaLabel }}</a>
         <span class="hero-microcopy">{{ home.hero.ctaMicrocopy }}</span>
+        <span class="hero-urgency" data-urgency>{{ home.hero.ctaUrgency }}</span>
       </div>
 
-      <div class="hero-trust">
+      <div class="hero-proof-simple">
         <span class="hero-trust-rating">{{ home.hero.trustLabel }}</span>
-        <span class="hero-trust-divider">·</span>
-        <span class="hero-trust-logos-label">{{ home.hero.trustLogosLabel }}</span>
-        <div class="hero-trust-logos">
-          {% for company in home.hero.trustLogos %}
-            <img src="{{ company.logo }}" alt="{{ company.name }}" loading="lazy" />
-          {% endfor %}
-        </div>
       </div>
-
-      {% if home.hero.lossAversion %}
-      <p class="hero-loss-aversion">{{ home.hero.lossAversion }}</p>
-      {% endif %}
     </div>
-    <div class="hero-visual">
+    <div class="hero-visual-v2">
       <img src="/assets/steve-headshot.jpg" alt="Steve, Askia Career Coach" class="hero-photo" />
-      <div class="hero-guarantee-badge">
-        <span>✓</span>
-        {{ home.hero.guarantee }}
-      </div>
       {% if home.hero.heroStats %}
-      <div class="hero-stats-floating">
+      <div class="hero-stats-sidebar">
         {% for stat in home.hero.heroStats %}
-          <div class="hero-stat-pill">
+          <div class="hero-stat-item">
             <strong>{{ stat.value }}</strong>
             <span>{{ stat.label }}</span>
           </div>
         {% endfor %}
       </div>
       {% endif %}
+      <div class="hero-guarantee-badge">
+        <span>✓</span>
+        {{ home.hero.guarantee }}
+      </div>
     </div>
   </div>
 </section>

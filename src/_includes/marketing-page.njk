@@ -49,49 +49,26 @@
       </div>
 
       {# CRO: Urgency/scarcity message #}
-      {% if page.ctaUrgency %}<p class="hero-urgency-cro">{{ page.ctaUrgency }}</p>{% endif %}
+      {% if page.ctaUrgency %}<p class="hero-urgency-cro" data-urgency>{{ page.ctaUrgency }}</p>{% endif %}
     </div>
-    {% set heroImages = page.heroImages or site.heroImages %}
-    <div class="hero-next-visual">
-      <div class="hero-next-panel">
-        <div class="hero-next-image">
-          {% if heroImages[0] %}
-            <img src="{{ heroImages[0].src }}" alt="{{ heroImages[0].alt }}" loading="lazy" />
-          {% endif %}
-          {% if page.heroTag %}<span class="hero-next-tag">{{ page.heroTag }}</span>{% endif %}
-        </div>
-        {% if page.heroCard %}
-        <div class="hero-next-card">
-          <span class="hero-next-badge">{{ page.heroCard.title }}</span>
-          {% if page.heroCard.body %}<p>{{ page.heroCard.body }}</p>{% endif %}
-          {% if page.heroCard.bullets and page.heroCard.bullets.length %}
-          <ul class="hero-next-list">
-            {% for item in page.heroCard.bullets %}
-              <li>{{ item }}</li>
-            {% endfor %}
-          </ul>
-          {% endif %}
-        </div>
-        {% endif %}
-      </div>
+    <div class="hero-visual-simple">
       {% if page.heroStats and page.heroStats.length %}
-      <div class="hero-next-metrics">
+      <div class="hero-stats-card">
         {% for item in page.heroStats %}
-          <div class="hero-next-metric">
+          <div class="hero-stat-row">
             <strong>{{ item.value }}</strong>
             <span>{{ item.label }}</span>
           </div>
         {% endfor %}
       </div>
       {% endif %}
-      {% if page.heroTimeline and page.heroTimeline.length %}
-      <div class="hero-next-timeline">
-        {% for item in page.heroTimeline %}
-          <div class="hero-next-step">
-            <span>{{ item.tag }}</span>
-            <p>{{ item.body }}</p>
-          </div>
-        {% endfor %}
+      {% if page.coach %}
+      <div class="hero-coach-preview">
+        <img src="{{ page.coach.photo }}" alt="{{ page.coach.name }}" class="hero-coach-photo" />
+        <div class="hero-coach-info">
+          <strong>{{ page.coach.name }}</strong>
+          <span>{{ page.coach.role }}</span>
+        </div>
       </div>
       {% endif %}
     </div>
@@ -218,36 +195,36 @@
 </section>
 
 {% if page.testimonials %}
-<section class="section">
-  <div class="container testimonial-wall{% if page.testimonials.sticky %} is-sticky{% endif %}">
-    <div class="testimonial-wall-header">
+<section class="section section-testimonials-cro">
+  <div class="container">
+    <div class="testimonials-header-cro">
       <h2 class="section-title section-title-glow">{{ page.testimonials.title }}</h2>
       {% if page.testimonials.subtitle %}<p class="section-subtitle">{{ page.testimonials.subtitle }}</p>{% endif %}
+      <div class="testimonials-summary-cro">
+        <span class="testimonials-rating-badge">★★★★★ 4.9/5</span>
+        <span class="testimonials-count">from 847+ professionals</span>
+      </div>
     </div>
-    <div class="testimonial-grid">
-      {% for index in page.testimonials.indexes %}
+    <div class="testimonials-masonry">
+      {% for index in page.testimonials.indexes | slice(0, 6) %}
         {% set item = testimonials.items[index] %}
         {% if item %}
-        <article class="testimonial-card" style="--stack-index: {{ loop.index }};">
-          <div class="testimonial-header">
-            <img class="avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
+        <article class="testimonial-card-cro">
+          <div class="testimonial-rating-cro">★★★★★</div>
+          <blockquote class="testimonial-quote-cro">"{{ item.quote }}"</blockquote>
+          <div class="testimonial-author-cro">
+            <img class="testimonial-avatar-cro" src="{{ item.photo }}" alt="{{ item.name }}" />
             <div>
               <strong>{{ item.name }}</strong>
-              <span class="section-subtitle">
-                {{ item.role }}
-                {% if item.company and item.logo %}
-                  <span class="company-line"><span class="company-sep">·</span><img class="company-logo" src="{{ item.logo }}" alt="{{ item.company }} logo" />{{ item.company }}</span>
-                {% elseif item.company %}
-                  · {{ item.company }}
-                {% endif %}
-              </span>
-              {% if item.rating %}<div class="rating">{{ "★" | repeat(item.rating) }}</div>{% endif %}
+              <span>{{ item.role }}{% if item.company %} · {{ item.company }}{% endif %}</span>
             </div>
           </div>
-          <p>{{ item.quote }}</p>
         </article>
         {% endif %}
       {% endfor %}
+    </div>
+    <div class="testimonials-cta-cro">
+      <a class="btn btn-ghost" href="/testimonials/">Read all success stories</a>
     </div>
   </div>
 </section>

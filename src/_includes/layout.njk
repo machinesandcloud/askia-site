@@ -1085,9 +1085,15 @@
           urgencyText = `${spots} spots remaining this week`;
         }
 
-        // Update all urgency elements
+        // Update all urgency elements across all pages
         document.addEventListener('DOMContentLoaded', function() {
-          document.querySelectorAll('.hero-urgency, .cta-urgency').forEach(function(el) {
+          const urgencySelectors = [
+            '.hero-urgency',
+            '.hero-urgency-cro',
+            '.cta-urgency',
+            '[data-urgency]'
+          ].join(', ');
+          document.querySelectorAll(urgencySelectors).forEach(function(el) {
             el.textContent = urgencyText;
           });
         });
