@@ -789,7 +789,7 @@ a {
 .hero-visual-v2 .hero-photo {
   width: 100%;
   max-width: 380px;
-  border-radius: 62% 38% 48% 52% / 55% 45% 60% 40%;
+  border-radius: 30% 70% 35% 65% / 55% 40% 60% 45%;
   box-shadow: 0 35px 80px rgba(7, 10, 15, 0.55);
   background: linear-gradient(135deg, rgba(114, 214, 255, 0.2), transparent);
   padding: 2px;
@@ -913,9 +913,7 @@ a {
 }
 
 .hero-v2 .hero-visual-v2 .hero-photo {
-  border-radius: 62% 38% 48% 52% / 55% 45% 60% 40%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+  border-radius: 30% 70% 35% 65% / 55% 40% 60% 45%;
 }
 
 @media (max-width: 768px) {
@@ -4774,105 +4772,145 @@ body.pricing-focus {
   text-align: center;
 }
 
-.journey-visual {
+.application-visual {
   position: relative;
   margin: 26px auto 0;
-  max-width: 560px;
+  max-width: 520px;
   display: grid;
-  gap: 18px;
   place-items: center;
 }
 
-.journey-stage {
-  display: grid;
-  gap: 14px;
-  width: min(520px, 100%);
+.application-track {
+  position: relative;
+  width: 100%;
+  height: 170px;
 }
 
-.journey-card {
+.application-card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: min(380px, 90%);
   padding: 16px 18px;
   border-radius: 18px;
   background: linear-gradient(135deg, rgba(18, 26, 38, 0.85), rgba(8, 12, 18, 0.5));
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 24px 60px rgba(7, 10, 15, 0.45);
+  transform: translate(-50%, -50%);
   display: grid;
   gap: 6px;
   text-align: left;
-  opacity: 0;
-  transform: translateY(12px);
-  animation: journeyReveal 9s ease-in-out infinite;
 }
 
-.journey-card:nth-child(1) {
-  animation-delay: 0s;
+.application-card:nth-child(1) {
+  transform: translate(-50%, -50%) rotate(-2deg);
+  animation: applicationSlide 7.5s ease-in-out infinite;
 }
 
-.journey-card:nth-child(2) {
-  animation-delay: 1.2s;
+.application-card:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(1deg);
+  animation: applicationSlide 7.5s ease-in-out infinite 2.5s;
 }
 
-.journey-card:nth-child(3) {
-  animation-delay: 2.4s;
+.application-card:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(-1deg);
+  animation: applicationSlide 7.5s ease-in-out infinite 5s;
 }
 
-.journey-title {
-  font-size: 0.85rem;
+.application-title {
+  font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: rgba(114, 214, 255, 0.7);
   font-weight: 600;
 }
 
-.journey-detail {
+.application-role {
   font-size: 1.05rem;
   font-weight: 600;
 }
 
-.journey-progress {
-  display: flex;
-  gap: 8px;
-}
-
-.journey-dot {
-  width: 10px;
-  height: 10px;
+.application-status {
+  justify-self: start;
+  padding: 6px 10px;
   border-radius: 999px;
-  background: rgba(114, 214, 255, 0.2);
-  border: 1px solid rgba(114, 214, 255, 0.35);
-  animation: journeyPulse 3s ease-in-out infinite;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 600;
 }
 
-.journey-dot:nth-child(2) {
-  animation-delay: 0.4s;
+.application-status.denied {
+  color: #f87171;
+  background: rgba(248, 113, 113, 0.12);
+  border: 1px solid rgba(248, 113, 113, 0.3);
 }
 
-.journey-dot:nth-child(3) {
-  animation-delay: 0.8s;
+.application-stamps {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
 }
 
-@keyframes journeyReveal {
-  0%, 15% {
+.stamp {
+  position: absolute;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px dashed rgba(248, 113, 113, 0.6);
+  color: rgba(248, 113, 113, 0.9);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.65rem;
+  font-weight: 700;
+  opacity: 0;
+  animation: stampPulse 7.5s ease-in-out infinite;
+}
+
+.stamp-1 {
+  top: 12px;
+  left: 24px;
+  animation-delay: 0.6s;
+}
+
+.stamp-2 {
+  top: 44px;
+  right: 32px;
+  animation-delay: 3.1s;
+}
+
+.stamp-3 {
+  bottom: 18px;
+  left: 40%;
+  animation-delay: 5.6s;
+}
+
+@keyframes applicationSlide {
+  0%, 20% {
     opacity: 0;
-    transform: translateY(12px);
+    transform: translate(-50%, -50%) scale(0.96);
   }
-  25%, 70% {
+  30%, 65% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate(-50%, -50%) scale(1);
   }
-  90%, 100% {
+  80%, 100% {
     opacity: 0;
-    transform: translateY(6px);
+    transform: translate(-50%, -50%) translateX(20px) scale(0.98);
   }
 }
 
-@keyframes journeyPulse {
-  0%, 100% {
+@keyframes stampPulse {
+  0%, 20% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  30%, 55% {
+    opacity: 1;
     transform: scale(1);
-    opacity: 0.6;
   }
-  50% {
-    transform: scale(1.2);
-    opacity: 1;
+  80%, 100% {
+    opacity: 0;
+    transform: scale(0.95);
   }
 }
 
