@@ -8,46 +8,39 @@ breadcrumbs:
   - name: "Home"
     url: "/"
 ---
-<section class="hero">
+<section class="hero hero-v2">
   <div class="container hero-grid">
     <div class="hero-content">
       <p class="hero-eyebrow">{{ home.hero.eyebrow }}</p>
-      <h1 class="hero-title">
-        <span class="hero-title-lead">{{ home.hero.titleLead }}</span>
-        <span class="hero-title-emphasis">{{ home.hero.titleEmphasis }}</span>
-        <span class="hero-title-accent">{{ home.hero.titleAccent }}</span>
-      </h1>
-      <p class="hero-subtitle">{{ home.hero.subtitle }}</p>
-      <p class="hero-supporting">{{ home.hero.supporting }}</p>
+      <h1 class="hero-headline">{{ home.hero.headline }}</h1>
+      <p class="hero-subheadline">{{ home.hero.subheadline }}</p>
 
-      {% if home.hero.heroStats %}
-      <div class="hero-stats">
-        {% for stat in home.hero.heroStats %}
-          <div class="hero-stat">
-            <strong>{{ stat.value }}</strong>
-            <span>{{ stat.label }}</span>
-          </div>
+      {% if home.hero.benefits %}
+      <ul class="hero-benefits">
+        {% for benefit in home.hero.benefits %}
+          <li>{{ benefit }}</li>
         {% endfor %}
-      </div>
+      </ul>
       {% endif %}
 
       <div class="hero-cta-block">
-        <a class="btn btn-primary btn-lg" href="{{ home.hero.ctaLink }}">{{ home.hero.ctaLabel }}</a>
-        {% if home.hero.ctaSubtext %}<span class="hero-cta-subtext">{{ home.hero.ctaSubtext }}</span>{% endif %}
-        <span class="hero-urgency">{{ home.hero.ctaUrgency }}</span>
+        <a class="btn btn-primary btn-lg btn-glow" href="{{ home.hero.ctaLink }}">{{ home.hero.ctaLabel }}</a>
+        <span class="hero-microcopy">{{ home.hero.ctaMicrocopy }}</span>
       </div>
 
-      <div class="hero-proof-bar">
-        <span class="hero-proof-rating">★ {{ home.hero.proofRating }}/5</span>
-        <span class="hero-proof-text">{{ home.hero.proof }}</span>
+      <div class="hero-trust">
+        <span class="hero-trust-rating">{{ home.hero.trustLabel }}</span>
+        <span class="hero-trust-divider">·</span>
+        <span class="hero-trust-logos-label">{{ home.hero.trustLogosLabel }}</span>
+        <div class="hero-trust-logos">
+          {% for company in home.hero.trustLogos %}
+            <img src="{{ company.logo }}" alt="{{ company.name }}" loading="lazy" />
+          {% endfor %}
+        </div>
       </div>
 
-      {% if home.hero.miniTestimonial %}
-      <div class="hero-testimonial">
-        <div class="hero-testimonial-stars">★★★★★</div>
-        <p>"{{ home.hero.miniTestimonial.quote }}"</p>
-        <span class="hero-testimonial-author">{{ home.hero.miniTestimonial.name }} · {{ home.hero.miniTestimonial.role }}</span>
-      </div>
+      {% if home.hero.lossAversion %}
+      <p class="hero-loss-aversion">{{ home.hero.lossAversion }}</p>
       {% endif %}
     </div>
     <div class="hero-visual">
@@ -56,6 +49,16 @@ breadcrumbs:
         <span>✓</span>
         {{ home.hero.guarantee }}
       </div>
+      {% if home.hero.heroStats %}
+      <div class="hero-stats-floating">
+        {% for stat in home.hero.heroStats %}
+          <div class="hero-stat-pill">
+            <strong>{{ stat.value }}</strong>
+            <span>{{ stat.label }}</span>
+          </div>
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
   </div>
 </section>

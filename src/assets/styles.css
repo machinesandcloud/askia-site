@@ -628,6 +628,242 @@ a {
   text-shadow: 0 12px 28px rgba(114, 214, 255, 0.35);
 }
 
+/* ========================================
+   HERO V2 - CRO Optimized Structure
+   Based on conversion research best practices
+   ======================================== */
+
+.hero-v2 {
+  padding: 100px 0 70px;
+}
+
+.hero-v2 .hero-grid {
+  align-items: start;
+}
+
+.hero-v2 .hero-content {
+  max-width: 600px;
+}
+
+.hero-headline {
+  font-family: "Sora", "Segoe UI", system-ui, sans-serif;
+  font-size: clamp(2.4rem, 4.5vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 18px;
+  color: #fff;
+  text-shadow: 0 4px 40px rgba(0, 0, 0, 0.3);
+}
+
+.hero-subheadline {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: rgba(244, 247, 251, 0.85);
+  margin-bottom: 24px;
+}
+
+/* Benefit Bullets - What they GET */
+.hero-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hero-benefits li {
+  position: relative;
+  padding-left: 28px;
+  font-size: 1rem;
+  color: rgba(244, 247, 251, 0.9);
+  line-height: 1.5;
+}
+
+.hero-benefits li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #34d399;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+/* Single Focused CTA */
+.hero-v2 .hero-cta-block {
+  margin: 0 0 24px;
+}
+
+.btn-glow {
+  box-shadow: 0 0 0 0 rgba(114, 214, 255, 0.5);
+  animation: btn-glow-pulse 2s ease-in-out infinite;
+}
+
+@keyframes btn-glow-pulse {
+  0%, 100% { box-shadow: 0 4px 20px rgba(114, 214, 255, 0.3); }
+  50% { box-shadow: 0 6px 30px rgba(114, 214, 255, 0.5); }
+}
+
+.hero-microcopy {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: rgba(244, 247, 251, 0.6);
+}
+
+/* Trust Bar with Logos */
+.hero-trust {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 16px;
+  padding: 16px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hero-trust-rating {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #fbbf24;
+}
+
+.hero-trust-divider {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.hero-trust-logos-label {
+  font-size: 0.8rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hero-trust-logos {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero-trust-logos img {
+  height: 20px;
+  width: auto;
+  opacity: 0.7;
+  filter: grayscale(100%) brightness(1.5);
+  transition: opacity 0.2s, filter 0.2s;
+}
+
+.hero-trust-logos img:hover {
+  opacity: 1;
+  filter: grayscale(0%) brightness(1);
+}
+
+/* Loss Aversion Message */
+.hero-loss-aversion {
+  font-size: 0.9rem;
+  color: #f97316;
+  font-style: italic;
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: rgba(249, 115, 22, 0.08);
+  border-left: 3px solid #f97316;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Floating Stats on Visual */
+.hero-stats-floating {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 2;
+}
+
+.hero-stat-pill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+  background: rgba(14, 20, 28, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.hero-stat-pill strong {
+  font-family: "Sora", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.hero-stat-pill span {
+  font-size: 0.65rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-top: 4px;
+  text-align: center;
+  max-width: 70px;
+}
+
+/* Visual adjustments for v2 */
+.hero-v2 .hero-visual {
+  position: relative;
+}
+
+.hero-v2 .hero-photo {
+  border-radius: 20px;
+  box-shadow: 0 30px 60px rgba(7, 10, 15, 0.5);
+}
+
+@media (max-width: 768px) {
+  .hero-v2 {
+    padding: 80px 0 50px;
+  }
+
+  .hero-headline {
+    font-size: 2rem;
+  }
+
+  .hero-trust {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .hero-trust-logos {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .hero-stats-floating {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    margin-top: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-v2 .hero-visual {
+    order: -1;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .hero-v2 .hero-photo {
+    max-width: 180px;
+    margin: 0 auto;
+  }
+}
+
+/* ======================================== */
+
 .hero-next-role {
   position: relative;
   overflow: hidden;
@@ -1025,6 +1261,148 @@ a {
     min-height: 180px;
   }
 }
+
+/* ========================================
+   CRO Hero Styles for Marketing Pages
+   ======================================== */
+
+.hero-cro .hero-next-copy {
+  max-width: 580px;
+}
+
+.hero-headline-cro {
+  font-family: "Sora", "Segoe UI", system-ui, sans-serif;
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 16px;
+  color: #fff;
+}
+
+.hero-headline-emphasis {
+  color: #fff;
+  display: inline;
+}
+
+.hero-headline-accent {
+  display: block;
+  color: var(--accent);
+  font-size: 0.85em;
+  margin-top: 8px;
+  text-shadow: 0 8px 24px rgba(114, 214, 255, 0.3);
+}
+
+.hero-subheadline-cro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(244, 247, 251, 0.85);
+  margin-bottom: 20px;
+}
+
+/* CRO Benefit Bullets */
+.hero-benefits-cro {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-benefits-cro li {
+  position: relative;
+  padding-left: 26px;
+  font-size: 0.98rem;
+  color: rgba(244, 247, 251, 0.9);
+  line-height: 1.5;
+}
+
+.hero-benefits-cro li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #34d399;
+  font-weight: 700;
+}
+
+/* CRO Single Focused CTA */
+.hero-cta-cro {
+  margin: 0 0 20px;
+}
+
+.hero-cta-cro .btn {
+  margin-bottom: 8px;
+}
+
+.hero-microcopy-cro {
+  display: block;
+  font-size: 0.82rem;
+  color: rgba(244, 247, 251, 0.6);
+  margin-top: 6px;
+}
+
+/* CRO Trust Bar */
+.hero-trust-cro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+  padding: 14px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hero-trust-rating-cro {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #fbbf24;
+}
+
+.hero-trust-logos-cro {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.hero-trust-logos-cro img {
+  height: 18px;
+  width: auto;
+  opacity: 0.65;
+  filter: grayscale(100%) brightness(1.4);
+}
+
+/* CRO Urgency */
+.hero-urgency-cro {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #f97316;
+  margin-top: 12px;
+  padding: 8px 14px;
+  background: rgba(249, 115, 22, 0.1);
+  border: 1px solid rgba(249, 115, 22, 0.2);
+  border-radius: 8px;
+  display: inline-block;
+  animation: pulse-urgency 2s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+  .hero-headline-cro {
+    font-size: 1.9rem;
+  }
+
+  .hero-trust-cro {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-trust-logos-cro {
+    flex-wrap: wrap;
+  }
+}
+
+/* ======================================== */
 
 .service-hero {
   position: relative;

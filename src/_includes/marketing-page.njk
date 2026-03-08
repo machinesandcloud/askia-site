@@ -1,50 +1,55 @@
 {% if page.visual and page.visual.style == 'next-role' %}
-<section class="hero hero-themed hero-next-role" style="--hero-next-accent: {{ page.visual.accent }}; --hero-next-accent-2: {{ page.visual.accent2 }};">
+<section class="hero hero-themed hero-next-role hero-cro" style="--hero-next-accent: {{ page.visual.accent }}; --hero-next-accent-2: {{ page.visual.accent2 }};">
   <div class="container hero-next-grid">
     <div class="hero-next-copy">
       {% if page.eyebrow and (page.eyebrow | lower) != (page.h1 | lower) and (page.eyebrow | length) < 36 %}
         <p class="hero-eyebrow">{{ page.eyebrow }}</p>
       {% endif %}
+
+      {# CRO: Single benefit-focused headline #}
       {% if page.titleLead %}
-      <h1 class="hero-title">
-        <span class="hero-title-lead">{{ page.titleLead }}</span>
-        <span class="hero-title-emphasis">{{ page.titleEmphasis }}</span>
-        <span class="hero-title-tail">{{ page.titleTail }}</span>
-        <span class="hero-title-accent">{{ page.titleAccent }}</span>
+      <h1 class="hero-headline-cro">
+        {{ page.titleLead }}<br>
+        <span class="hero-headline-emphasis">{{ page.titleEmphasis }}</span>
+        {% if page.titleAccent %}<span class="hero-headline-accent">{{ page.titleAccent }}</span>{% endif %}
       </h1>
       {% else %}
-      <h1 class="hero-next-title">{{ page.h1 }}</h1>
+      <h1 class="hero-headline-cro">{{ page.h1 }}</h1>
       {% endif %}
-      {% if page.subtitle %}<p class="hero-next-subtitle">{{ page.subtitle }}</p>{% endif %}
-      {% if page.supporting %}<p class="hero-next-supporting">{{ page.supporting }}</p>{% endif %}
+
+      {# CRO: Clear subheadline #}
+      {% if page.subtitle %}<p class="hero-subheadline-cro">{{ page.subtitle }}</p>{% endif %}
+
+      {# CRO: Benefit bullets (not chips) - what they GET #}
       {% if page.highlights and page.highlights.length %}
-      <div class="hero-next-chips">
+      <ul class="hero-benefits-cro">
         {% for item in page.highlights %}
-          <span>{{ item }}</span>
+          <li>{{ item }}</li>
         {% endfor %}
-      </div>
+      </ul>
       {% endif %}
-      <div class="hero-next-cta">
-        <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
-        {% if page.secondaryCtaLabel %}
-          <a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a>
-        {% endif %}
+
+      {# CRO: Single focused CTA with microcopy #}
+      <div class="hero-cta-cro">
+        <a class="btn btn-primary btn-lg btn-glow" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
+        {% if page.ctaProof %}<span class="hero-microcopy-cro">{{ page.ctaProof }}</span>{% endif %}
       </div>
-      {% if page.ctaUrgency %}<p class="hero-urgency">{{ page.ctaUrgency }}</p>{% endif %}
-      {% if page.heroTrustLogos and page.heroTrustLogos.length %}
-      <div class="hero-next-trust">
-        <span>{{ page.heroTrustLabel or "Trusted by candidates from" }}</span>
-        <div class="hero-next-logos">
+
+      {# CRO: Trust bar with rating + logos #}
+      <div class="hero-trust-cro">
+        {% if page.ctaRating %}<span class="hero-trust-rating-cro">★ {{ page.ctaRating }}/5 from {{ page.ctaRatingCount }} clients</span>{% endif %}
+        {% if page.heroTrustLogos and page.heroTrustLogos.length %}
+        <div class="hero-trust-logos-cro">
+          <span>{{ page.heroTrustLabel or "Clients land at" }}</span>
           {% for item in page.heroTrustLogos %}
             <img src="{{ item.src }}" alt="{{ item.alt }}" loading="lazy" />
           {% endfor %}
         </div>
+        {% endif %}
       </div>
-      {% endif %}
-      <div class="hero-trust-bar">
-        {% if page.ctaRating %}<span class="hero-proof-rating">★ {{ page.ctaRating }} from {{ page.ctaRatingCount }} clients</span>{% endif %}
-        {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
-      </div>
+
+      {# CRO: Urgency/scarcity message #}
+      {% if page.ctaUrgency %}<p class="hero-urgency-cro">{{ page.ctaUrgency }}</p>{% endif %}
     </div>
     {% set heroImages = page.heroImages or site.heroImages %}
     <div class="hero-next-visual">

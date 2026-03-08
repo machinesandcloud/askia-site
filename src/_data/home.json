@@ -1,31 +1,35 @@
 {
   "hero": {
-    "eyebrow": "Career coaching for $150K–$350K professionals",
-    "titleLead": "Land interviews in 3 weeks.",
-    "titleEmphasis": "Negotiate $40K+ more.",
-    "titleTail": "",
-    "titleAccent": "89% success rate.",
-    "subtitle": "Stop sending applications into the void. Start getting callbacks.",
-    "supporting": "You have the experience. We help you tell the story that gets you hired.",
-    "ctaLabel": "Get My Free Strategy Session",
+    "eyebrow": "For $150K–$350K professionals",
+    "headline": "Land Your Dream Role in 90 Days",
+    "subheadline": "Expert 1-on-1 coaching, resume strategy, and interview prep that gets you hired faster.",
+    "benefits": [
+      "Get crystal clear on exactly which roles fit your experience",
+      "A resume and LinkedIn that make recruiters reach out to you",
+      "Walk into interviews confident and close with $40K+ more"
+    ],
+    "ctaLabel": "Book My Free Strategy Call",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaMicrocopy": "Free 15-min call · No credit card · No commitment",
     "ctaUrgency": "Only 4 spots left this week",
-    "ctaSubtext": "15 min call · No commitment · Leave with a clear plan",
+    "trustRating": "4.9",
+    "trustCount": "847+",
+    "trustLabel": "★ 4.9/5 from 847+ professionals",
+    "trustLogos": [
+      { "name": "Google", "logo": "/assets/logos/google.svg" },
+      { "name": "Amazon", "logo": "/assets/logos/amazon.svg" },
+      { "name": "Meta", "logo": "/assets/logos/meta.svg" },
+      { "name": "Microsoft", "logo": "/assets/logos/microsoft.svg" },
+      { "name": "Apple", "logo": "/assets/logos/apple.svg" }
+    ],
+    "trustLogosLabel": "Our clients land at",
     "heroStats": [
-      { "value": "3 weeks", "label": "to first interview" },
+      { "value": "21 days", "label": "avg. to first interview" },
       { "value": "$47K", "label": "avg. salary increase" },
       { "value": "89%", "label": "land offers in 60 days" }
     ],
-    "proofRating": "4.9",
-    "proofCount": "847+",
-    "proof": "Rated 4.9/5 by 847+ professionals",
     "guarantee": "Leave with a clear action plan — or your next session is free",
-    "miniTestimonial": {
-      "quote": "Within 3 weeks I had 4 interviews lined up. Steve completely changed how I talk about my work.",
-      "name": "Marcus T.",
-      "role": "Senior Engineer → Staff at FAANG",
-      "rating": 5
-    }
+    "lossAversion": "Every week you wait, someone else lands the role you want."
   },
   "stats": [
     {
