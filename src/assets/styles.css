@@ -655,6 +655,24 @@ a {
   text-shadow: 0 4px 40px rgba(0, 0, 0, 0.3);
 }
 
+.hero-highlight {
+  color: var(--accent);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.hero-highlight::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(114, 214, 255, 0.9), rgba(114, 214, 255, 0.25));
+}
+
 .hero-subheadline {
   font-size: 1.15rem;
   line-height: 1.6;
@@ -1386,6 +1404,20 @@ a {
   font-size: 0.85em;
   margin-top: 8px;
   text-shadow: 0 8px 24px rgba(114, 214, 255, 0.3);
+  position: relative;
+  padding-bottom: 8px;
+  width: fit-content;
+}
+
+.hero-headline-accent::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), rgba(114, 214, 255, 0.25));
 }
 
 .hero-subheadline-cro {
