@@ -112,22 +112,22 @@
     "subtitle": "Pick exactly what you need. No packages, no extras.",
     "items": [
       {
-        "title": "Strategy Session",
-        "price": "$299",
+        "title": "Career Clarity Session",
+        "price": "$300",
         "body": "One focused conversation to get clear on your next move.",
         "pageLink": "/career-clarity/",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       },
       {
-        "title": "Resume Overhaul",
-        "price": "$299",
+        "title": "Resume Revision",
+        "price": "$300",
         "body": "A complete rebuild that shows what you've actually accomplished.",
         "pageLink": "/resume-writing/",
         "buyLink": "https://bookings.askia.tech/#/clarity"
       },
       {
         "title": "LinkedIn Transformation",
-        "price": "$149",
+        "price": "$150",
         "body": "Headline, about, and experience rewritten to attract the right opportunities.",
         "pageLink": "/linkedin-optimization/",
         "buyLink": "https://bookings.askia.tech/#/clarity"
@@ -148,7 +148,7 @@
       },
       {
         "title": "Interview Prep Session",
-        "price": "$349",
+        "price": "$300",
         "body": "Mock interview with detailed feedback and story refinement.",
         "pageLink": "/interview-prep/",
         "buyLink": "https://bookings.askia.tech/#/clarity"

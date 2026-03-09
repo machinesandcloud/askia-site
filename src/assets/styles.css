@@ -5380,6 +5380,12 @@ body.pricing-focus {
   margin-bottom: 40px;
 }
 
+.testimonials-header .section-subtitle {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 .testimonials-summary {
   display: flex;
   justify-content: center;
@@ -9611,23 +9617,10 @@ body.pricing-focus {
   }
 }
 
-/* Pillar Tag Number Animation */
+/* Pillar Tag Number - no glow */
 .pillar-tag {
   position: relative;
   overflow: hidden;
-}
-
-.pillar-tag::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.2) 50%, transparent 70%);
-  animation: tagShine 3s ease-in-out infinite;
-}
-
-@keyframes tagShine {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(100%); }
 }
 
 /* Outcome Number Counter Animation */
