@@ -18,8 +18,17 @@ breadcrumbs:
       <p class="services-hero-subtitle">{{ services.hero.subtitle }}</p>
       <p class="services-hero-supporting">Pick a focused upgrade or build a full system. We’ll help you choose the fastest path.</p>
       <div class="hero-cta">
-        <a class="btn btn-primary" href="{{ services.hero.ctaLink }}">{{ services.hero.ctaLabel }}</a>
+        <a class="btn btn-primary btn-cta-experiment" href="{{ services.hero.ctaLink }}">{{ services.hero.ctaLabel }}</a>
         <a class="btn btn-ghost" href="/resources/">View resources</a>
+      </div>
+      <p class="hero-microcopy">15 minutes. No sales pitch. Leave with a clear action plan.</p>
+      <div class="services-hero-trust">
+        <span class="services-hero-rating">★★★★★ 4.9/5 from 147+ professionals</span>
+        <div class="services-hero-logos">
+          {% for company in home.logos.companies | slice(0, 5) %}
+            <img src="{{ company.logo }}" alt="{{ company.name }}" />
+          {% endfor %}
+        </div>
       </div>
       <div class="services-hero-metrics">
         <div><strong>7–14 days</strong><span>Typical delivery</span></div>
@@ -137,14 +146,19 @@ breadcrumbs:
         <p class="hero-eyebrow">Core Services</p>
         <h2 class="section-title section-title-glow">Choose a focused upgrade</h2>
         <p class="section-subtitle">Clear, high‑impact services that stack together when you want more support.</p>
+        <div class="services-core-proof">
+          <span>★★★★★ 4.9/5 from 147+ professionals</span>
+          <span>No credit card. No commitment.</span>
+        </div>
       </div>
-      <a class="btn btn-primary" href="{{ services.cta.ctaLink }}">Get a recommendation</a>
+      <a class="btn btn-primary btn-cta-experiment" href="{{ services.cta.ctaLink }}">Get a recommendation</a>
     </div>
     <div class="services-core-grid">
       {% for item in services.alaCarte.items %}
         <a class="services-core-card" href="{{ item.pageLink or item.buyLink }}">
           <div class="services-core-card-top">
             <h3>{{ item.title }}</h3>
+            {% if item.price %}<span class="services-core-price">{{ item.price }}</span>{% endif %}
           </div>
           <p>{{ item.body }}</p>
         </a>
@@ -282,12 +296,16 @@ breadcrumbs:
 </section>
 
 <section class="section">
-  <div class="container cta-band">
+    <div class="container cta-band">
     <div>
       <h2 class="section-title">{{ services.cta.title }}</h2>
       <p class="section-subtitle">{{ services.cta.body }}</p>
+      <div class="cta-proof">
+        <span>★★★★★ 4.9/5 from 147+ professionals</span>
+        <span>“Clear plan, better interviews, higher offer.”</span>
+      </div>
     </div>
-    <a class="btn btn-primary" href="{{ services.cta.ctaLink }}">{{ services.cta.ctaLabel }}</a>
+    <a class="btn btn-primary btn-cta-experiment" href="{{ services.cta.ctaLink }}">{{ services.cta.ctaLabel }}</a>
   </div>
 </section>
 

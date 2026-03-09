@@ -2806,6 +2806,73 @@ a {
   margin-bottom: 16px;
 }
 
+.services-hero-new .hero-microcopy {
+  display: block;
+  margin-top: 10px;
+  color: rgba(214, 226, 243, 0.7);
+  font-size: 0.9rem;
+}
+
+.services-hero-trust {
+  display: grid;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.services-hero-rating {
+  color: #fbbf24;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.service-hero-proof {
+  display: grid;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.service-hero-rating {
+  color: #fbbf24;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.service-hero-urgency {
+  color: rgba(244, 153, 76, 0.95);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.service-hero-testimonial {
+  margin-top: 10px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(10, 16, 24, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: rgba(214, 226, 243, 0.85);
+  display: grid;
+  gap: 6px;
+  font-size: 0.9rem;
+}
+
+.service-hero-testimonial .testimonial-author {
+  color: rgba(214, 226, 243, 0.65);
+  font-size: 0.8rem;
+}
+
+.services-hero-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.services-hero-logos img {
+  height: 20px;
+  opacity: 0.75;
+  filter: grayscale(1) brightness(1.2);
+}
+
 .services-hero-metrics {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -3405,6 +3472,34 @@ body.pricing-focus {
   gap: 24px;
   margin-bottom: 24px;
   position: relative;
+}
+
+.services-core-proof {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin-top: 10px;
+  color: rgba(214, 226, 243, 0.75);
+  font-size: 0.9rem;
+}
+
+.section-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.7rem;
+  color: rgba(114, 214, 255, 0.7);
+  margin: 0 0 6px;
+}
+
+.btn-cta-experiment {
+  background: linear-gradient(135deg, #ff6b35, #ff3d5a);
+  color: #1a0b12;
+  box-shadow: 0 16px 36px rgba(255, 85, 90, 0.35);
+}
+
+.btn-cta-experiment:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 20px 44px rgba(255, 85, 90, 0.45);
 }
 
 .services-core-grid {
@@ -5166,8 +5261,8 @@ body.pricing-focus {
   width: 42px;
   height: 42px;
   border-radius: 14px;
-  background: rgba(114, 214, 255, 0.15);
-  border: 1px solid rgba(114, 214, 255, 0.35);
+  background: rgba(114, 214, 255, 0.08);
+  border: 1px solid rgba(114, 214, 255, 0.25);
   font-family: "Sora", "Segoe UI", system-ui, sans-serif;
   color: rgba(114, 214, 255, 0.9);
   font-weight: 600;
@@ -5518,6 +5613,21 @@ body.pricing-focus {
 .testimonials-cta {
   text-align: center;
   margin-top: 32px;
+}
+
+.cta-proof {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin-top: 12px;
+  color: rgba(214, 226, 243, 0.75);
+  font-size: 0.9rem;
+}
+
+.cta-testimonial {
+  margin-top: 10px;
+  color: rgba(214, 226, 243, 0.8);
+  font-size: 0.9rem;
 }
 
 @media (max-width: 768px) {

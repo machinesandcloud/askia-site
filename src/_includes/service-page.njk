@@ -108,12 +108,23 @@
       </div>
       {% endif %}
       <div class="service-hero-cta">
-        <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
+        <a class="btn btn-primary btn-cta-experiment" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
         {% if page.secondaryCtaLabel %}
           <a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a>
         {% endif %}
       </div>
       {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
+      <div class="service-hero-proof">
+        <span class="service-hero-rating">★★★★★ 4.9/5 from 147+ professionals</span>
+        {% if page.ctaUrgency %}<span class="service-hero-urgency" data-urgency>{{ page.ctaUrgency }}</span>{% endif %}
+      </div>
+      {% if testimonials and testimonials.items and testimonials.items.length %}
+      {% set heroTestimonial = testimonials.items[0] %}
+      <div class="service-hero-testimonial">
+        <span class="testimonial-quote">"{{ heroTestimonial.quote | truncate(140) }}"</span>
+        <span class="testimonial-author">— {{ heroTestimonial.name }}, {{ heroTestimonial.role }}</span>
+      </div>
+      {% endif %}
       {% if page.heroTrustLogos and page.heroTrustLogos.length %}
       <div class="service-hero-trust">
         <span>{{ page.heroTrustLabel or "Trusted by candidates from" }}</span>
@@ -161,6 +172,7 @@
     <div class="container">
       <div class="pillar-header">
         <p class="hero-eyebrow">{{ page.snapshot.eyebrow }}</p>
+        <p class="section-kicker">Before/after that hiring teams notice fast.</p>
         <h2 class="section-title section-title-glow">{{ page.snapshot.title }}</h2>
         {% if page.snapshot.subtitle %}<p class="section-subtitle">{{ page.snapshot.subtitle }}</p>{% endif %}
       </div>
@@ -182,6 +194,7 @@
     <div class="container">
       <div class="pillar-header">
         <p class="hero-eyebrow">{{ page.signalMap.eyebrow if page.signalMap else "Signal map" }}</p>
+        <p class="section-kicker">The 3 levers we tune to accelerate interviews.</p>
         <h2 class="section-title section-title-glow">{{ page.signalMap.title if page.signalMap else "How this service creates signal" }}</h2>
         {% if page.signalMap and page.signalMap.subtitle %}<p class="section-subtitle">{{ page.signalMap.subtitle }}</p>{% elif not page.signalMap %}<p class="section-subtitle">The three levers we tune to move you faster.</p>{% endif %}
       </div>
@@ -218,6 +231,7 @@
   <section class="section section-soft">
     <div class="container">
       <div class="outcome-header">
+        <p class="section-kicker">Proof, not promises.</p>
         <h2 class="section-title section-title-accent section-title-glow">{{ page.proof.title }}</h2>
         {% if page.proof.subtitle %}<p class="section-subtitle">{{ page.proof.subtitle }}</p>{% endif %}
       </div>
@@ -238,6 +252,7 @@
     <div class="container">
       <div class="pillar-header">
         <p class="hero-eyebrow">{{ page.focus.eyebrow }}</p>
+        <p class="section-kicker">Why it feels stuck—and how we fix it.</p>
         <h2 class="section-title section-title-glow">{{ page.focus.title }}</h2>
         {% if page.focus.subtitle %}<p class="section-subtitle">{{ page.focus.subtitle }}</p>{% endif %}
       </div>
@@ -289,6 +304,7 @@
     <div class="container">
       <div class="pillar-header">
         <p class="hero-eyebrow">{{ page.mistakes.eyebrow }}</p>
+        <p class="section-kicker">Avoid the traps that slow offers.</p>
         <h2 class="section-title section-title-glow">{{ page.mistakes.title }}</h2>
         {% if page.mistakes.subtitle %}<p class="section-subtitle">{{ page.mistakes.subtitle }}</p>{% endif %}
       </div>
@@ -308,6 +324,7 @@
   <section class="section service-process">
     <div class="container service-journey">
       <div>
+        <p class="section-kicker">A simple path to momentum.</p>
         <h2 class="section-title section-title-glow">{{ page.steps.title }}</h2>
         {% if page.steps.subtitle %}<p class="section-subtitle">{{ page.steps.subtitle }}</p>{% endif %}
       </div>
@@ -329,6 +346,7 @@
     <div class="container">
       <div class="pillar-header">
         <p class="hero-eyebrow">Deliverables</p>
+        <p class="section-kicker">Clear outputs. No ambiguity.</p>
         <h2 class="section-title section-title-glow">{{ page.deliverables.title }}</h2>
         {% if page.deliverables.subtitle %}<p class="section-subtitle">{{ page.deliverables.subtitle }}</p>{% endif %}
       </div>
@@ -412,6 +430,7 @@
     <div class="container services-preview">
       <div class="card card-soft">
         <strong>{{ page.for.title }}</strong>
+        <p class="section-kicker">Fit check before you book.</p>
         <p>{{ page.for.body }}</p>
         {% if page.for.items and page.for.items.length %}
         <ul class="highlight-list">
@@ -423,6 +442,7 @@
       </div>
       <div class="card">
         <strong>{{ page.notFor.title }}</strong>
+        <p class="section-kicker">If this isn't you, we'll say so.</p>
         <p>{{ page.notFor.body }}</p>
         {% if page.notFor.items and page.notFor.items.length %}
         <ul class="highlight-list">
@@ -441,11 +461,16 @@
     <div class="container mid-cta">
       <div>
         {% if page.midCta and page.midCta.eyebrow %}<p class="hero-eyebrow">{{ page.midCta.eyebrow }}</p>{% endif %}
+        <p class="section-kicker">Short call. Clear next steps.</p>
         <h2 class="section-title">{{ page.midCta.title if page.midCta else "Ready to move faster?" }}</h2>
         {% if page.midCta and page.midCta.subtitle %}<p class="section-subtitle">{{ page.midCta.subtitle }}</p>{% elif not page.midCta %}<p class="section-subtitle">Let’s map the shortest path to the outcome you want.</p>{% endif %}
+        <div class="cta-proof">
+          <span>★★★★★ 4.9/5 from 147+ professionals</span>
+          <span>No credit card. No commitment.</span>
+        </div>
       </div>
       <div class="mid-cta-actions">
-        <a class="btn btn-primary" href="{{ page.midCta.primaryLink if page.midCta else (page.cta.link or page.ctaLink or site.cta.link) }}">{{ page.midCta.primaryLabel if page.midCta else (page.cta.label or page.ctaLabel or site.cta.label) }}</a>
+        <a class="btn btn-primary btn-cta-experiment" href="{{ page.midCta.primaryLink if page.midCta else (page.cta.link or page.ctaLink or site.cta.link) }}">{{ page.midCta.primaryLabel if page.midCta else (page.cta.label or page.ctaLabel or site.cta.label) }}</a>
         {% if page.midCta and page.midCta.secondaryLabel %}
           <a class="btn btn-ghost" href="{{ page.midCta.secondaryLink }}">{{ page.midCta.secondaryLabel }}</a>
         {% elif page.secondaryCtaLabel %}
@@ -478,10 +503,11 @@
   {% if key == "related" and page.related %}
   <section class="section">
     <div class="container card">
+      <p class="section-kicker">Fastest next step.</p>
       <h2 class="section-title">{{ page.related.title }}</h2>
       <p class="section-subtitle">{{ page.related.body }}</p>
       <div class="hero-cta">
-        <a class="btn btn-primary" href="{{ page.related.primaryLink }}">{{ page.related.primaryLabel }}</a>
+        <a class="btn btn-primary btn-cta-experiment" href="{{ page.related.primaryLink }}">{{ page.related.primaryLabel }}</a>
         <a class="btn btn-ghost" href="{{ page.related.secondaryLink }}">{{ page.related.secondaryLabel }}</a>
       </div>
     </div>
@@ -492,10 +518,19 @@
   <section class="section">
     <div class="container cta-band">
       <div>
+        <p class="section-kicker">This is the moment to move.</p>
         <h2 class="section-title">{{ page.cta.title }}</h2>
         <p class="section-subtitle">{{ page.cta.body }}</p>
+        <div class="cta-proof">
+          <span>★★★★★ 4.9/5 from 147+ professionals</span>
+          {% if page.cta.urgency %}<span>{{ page.cta.urgency }}</span>{% endif %}
+        </div>
+        {% if testimonials and testimonials.items and testimonials.items.length %}
+        {% set ctaTestimonial = testimonials.items[1] if testimonials.items.length > 1 else testimonials.items[0] %}
+        <p class="cta-testimonial">“{{ ctaTestimonial.quote | truncate(140) }}” — {{ ctaTestimonial.name }}</p>
+        {% endif %}
       </div>
-      <a class="btn btn-primary" href="{{ page.cta.link or site.cta.link }}">{{ page.cta.label or site.cta.label }}</a>
+      <a class="btn btn-primary btn-cta-experiment" href="{{ page.cta.link or site.cta.link }}">{{ page.cta.label or site.cta.label }}</a>
     </div>
   </section>
   {% endif %}
