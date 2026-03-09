@@ -11,7 +11,7 @@
       <h1 class="hero-headline-cro">
         {{ page.titleLead }}<br>
         <span class="hero-headline-emphasis">{{ page.titleEmphasis }}</span>
-        {% if page.titleAccent %}<span class="hero-headline-accent">{{ page.titleAccent }}</span>{% endif %}
+        {% if page.titleAccent %}<span class="hero-headline-accent"><span class="title-strike title-accent">{{ page.titleAccent }}</span></span>{% endif %}
       </h1>
       {% else %}
       <h1 class="hero-headline-cro">{{ page.h1 }}</h1>
