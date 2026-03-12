@@ -3360,32 +3360,35 @@ a {
 
 @media (max-width: 640px) {
   .lead-magnets {
-    padding-bottom: 64px;
+    padding-bottom: 96px;
   }
 
   .lead-magnets-list {
-    padding-bottom: 32px;
+    padding-bottom: 140px;
   }
 
   .lead-magnet-card {
     padding: 18px;
     gap: 16px;
-    position: relative;
-    top: auto;
-    z-index: 1;
+    position: sticky;
+    top: calc(84px + (var(--magnet-index) * 10px));
+    z-index: calc(120 + var(--magnet-index));
+    padding-bottom: 26px;
   }
 
   .lead-magnet-card + .lead-magnet-card {
-    margin-top: 0;
+    margin-top: -8px;
   }
 
   .lead-magnet-cover img {
-    max-width: 220px;
+    max-width: 200px;
   }
 
   .lead-magnet-cover .btn {
     width: 100%;
     max-width: 240px;
+    position: relative;
+    z-index: 2;
   }
 }
 
