@@ -3400,12 +3400,24 @@ a {
   .lead-magnet-card {
     --lead-magnet-top: 96px;
     --lead-magnet-step: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: clamp(560px, 74vh, 640px);
     padding: 18px;
     gap: 16px;
     position: -webkit-sticky;
     position: sticky;
     z-index: calc(120 + var(--magnet-index));
     padding-bottom: 26px;
+  }
+
+  .lead-magnet-copy {
+    flex: 1;
+  }
+
+  .lead-magnet-cover {
+    margin-top: auto;
   }
 
   .lead-magnet-card:last-child {
