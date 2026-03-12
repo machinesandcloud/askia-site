@@ -1,560 +1,342 @@
-{% macro heroGraphic(name) %}
-  {% if name == "resume" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <rect x="34" y="26" width="120" height="150" rx="16" />
-    <rect x="54" y="54" width="80" height="10" rx="5" />
-    <rect x="54" y="78" width="60" height="8" rx="4" />
-    <rect x="54" y="98" width="86" height="8" rx="4" />
-    <rect x="54" y="118" width="70" height="8" rx="4" />
-    <circle cx="148" cy="148" r="18" />
-  </svg>
-  {% elif name == "linkedin" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <rect x="30" y="30" width="140" height="140" rx="28" />
-    <circle cx="70" cy="78" r="12" />
-    <rect x="92" y="70" width="58" height="16" rx="8" />
-    <rect x="58" y="102" width="92" height="10" rx="5" />
-    <rect x="58" y="122" width="72" height="10" rx="5" />
-  </svg>
-  {% elif name == "interview" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <rect x="24" y="40" width="152" height="96" rx="22" />
-    <circle cx="70" cy="86" r="16" />
-    <circle cx="130" cy="86" r="16" />
-    <rect x="56" y="120" width="88" height="10" rx="5" />
-    <rect x="88" y="136" width="24" height="16" rx="6" />
-  </svg>
-  {% elif name == "mock" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <rect x="26" y="36" width="148" height="108" rx="22" />
-    <rect x="52" y="62" width="72" height="12" rx="6" />
-    <rect x="52" y="84" width="96" height="10" rx="5" />
-    <rect x="52" y="104" width="84" height="10" rx="5" />
-    <circle cx="150" cy="130" r="12" />
-  </svg>
-  {% elif name == "cover" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <path d="M40 60h120v92a18 18 0 0 1-18 18H58a18 18 0 0 1-18-18V60z" />
-    <path d="M40 60l60 36 60-36" />
-    <rect x="60" y="112" width="80" height="10" rx="5" />
-    <rect x="60" y="130" width="60" height="8" rx="4" />
-  </svg>
-  {% elif name == "executive" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <path d="M36 150l44-66 34 42 30-26 46 50" />
-    <circle cx="80" cy="74" r="10" />
-    <circle cx="114" cy="96" r="10" />
-    <circle cx="144" cy="74" r="10" />
-  </svg>
-  {% elif name == "salary" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <rect x="44" y="40" width="112" height="52" rx="14" />
-    <rect x="36" y="90" width="128" height="56" rx="16" />
-    <circle cx="100" cy="118" r="14" />
-    <path d="M100 110v16" />
-  </svg>
-  {% elif name == "ats" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <rect x="34" y="30" width="132" height="140" rx="20" />
-    <rect x="56" y="60" width="88" height="10" rx="5" />
-    <rect x="56" y="82" width="64" height="8" rx="4" />
-    <rect x="56" y="102" width="88" height="8" rx="4" />
-    <circle cx="146" cy="138" r="16" />
-    <path d="M156 150l18 18" />
-  </svg>
-  {% elif name == "clarity" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <circle cx="100" cy="96" r="54" />
-    <circle cx="100" cy="96" r="8" />
-    <path d="M100 42v24M100 126v24M46 96h24M130 96h24" />
-  </svg>
-  {% elif name == "offer" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <rect x="30" y="46" width="140" height="100" rx="18" />
-    <rect x="52" y="70" width="96" height="12" rx="6" />
-    <rect x="52" y="94" width="78" height="10" rx="5" />
-    <rect x="52" y="114" width="60" height="10" rx="5" />
-    <circle cx="150" cy="128" r="10" />
-  </svg>
-  {% endif %}
-{% endmacro %}
+{# CRO-Optimized Service Page Template #}
+{# Streamlined for maximum conversion following Executive Summary principles #}
 
-{% macro miniIcon(name) %}
-  {% if name == "resume" %}{{ heroGraphic("resume") }}
-  {% elif name == "linkedin" %}{{ heroGraphic("linkedin") }}
-  {% elif name == "interview" %}{{ heroGraphic("interview") }}
-  {% elif name == "mock" %}{{ heroGraphic("mock") }}
-  {% elif name == "cover" %}{{ heroGraphic("cover") }}
-  {% elif name == "executive" %}{{ heroGraphic("executive") }}
-  {% elif name == "salary" %}{{ heroGraphic("salary") }}
-  {% elif name == "ats" %}{{ heroGraphic("ats") }}
-  {% elif name == "clarity" %}{{ heroGraphic("clarity") }}
-  {% elif name == "offer" %}{{ heroGraphic("offer") }}
-  {% endif %}
-{% endmacro %}
+<div class="service-page" style="--theme-accent: {{ page.visual.accent }}; --theme-accent-2: {{ page.visual.accent2 }};">
 
-<section class="service-hero service-theme-{{ page.theme }}" style="--theme-accent: {{ page.visual.accent }}; --theme-accent-2: {{ page.visual.accent2 }};">
-  <div class="container service-hero-grid">
-    <div class="service-hero-copy">
+{# HERO SECTION - Benefit-focused with trust signals #}
+<section class="hero hero-service">
+  <div class="container hero-service-grid">
+    <div class="hero-service-content">
       {% if page.eyebrow %}<p class="hero-eyebrow">{{ page.eyebrow }}</p>{% endif %}
-      <h1 class="service-hero-title">{{ page.h1 }}</h1>
-      {% if page.subtitle %}<p class="service-hero-subtitle">{{ page.subtitle }}</p>{% endif %}
-      {% if page.supporting %}<p class="service-hero-supporting">{{ page.supporting }}</p>{% endif %}
+
+      <h1 class="hero-headline-cro">{{ page.h1 }}</h1>
+
+      {% if page.subtitle %}<p class="hero-subheadline-cro">{{ page.subtitle }}</p>{% endif %}
+
       {% if page.highlights and page.highlights.length %}
-      <div class="service-hero-chips">
+      <ul class="hero-benefits-cro">
         {% for item in page.highlights %}
-          <span>{{ item }}</span>
+          <li>{{ item }}</li>
         {% endfor %}
-      </div>
+      </ul>
       {% endif %}
-      <div class="service-hero-cta">
-        <a class="btn btn-primary btn-cta-experiment" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
-        {% if page.secondaryCtaLabel %}
-          <a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a>
+
+      <div class="hero-cta-cro">
+        <a class="btn btn-primary btn-lg btn-glow" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or "Get My Free Strategy Session" }}</a>
+        <span class="hero-microcopy-cro">{{ page.ctaProof or "15 minutes. No sales pitch. Leave with a clear action plan." }}</span>
+      </div>
+
+      <div class="hero-trust-cro">
+        <span class="hero-trust-rating-cro">★ 4.9/5 from 147+ professionals</span>
+      </div>
+
+      <p class="hero-urgency-cro" data-urgency>{{ page.ctaUrgency or "Only 4 spots left this week" }}</p>
+    </div>
+
+    <div class="hero-service-visual">
+      <div class="hero-stats-card">
+        {% if page.proof and page.proof.items %}
+          {% for item in page.proof.items | slice(0, 3) %}
+            <div class="hero-stat-row">
+              <strong>{{ item.title }}</strong>
+              <span>{{ item.body }}</span>
+            </div>
+          {% endfor %}
+        {% else %}
+          <div class="hero-stat-row">
+            <strong>21 days</strong>
+            <span>avg. to first interview</span>
+          </div>
+          <div class="hero-stat-row">
+            <strong>$47K</strong>
+            <span>avg. salary increase</span>
+          </div>
+          <div class="hero-stat-row">
+            <strong>89%</strong>
+            <span>land offers in 60 days</span>
+          </div>
         {% endif %}
       </div>
-      {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
-      <div class="service-hero-proof">
-        <span class="service-hero-rating">★★★★★ 4.9/5 from 147+ professionals</span>
-        {% if page.ctaUrgency %}<span class="service-hero-urgency" data-urgency>{{ page.ctaUrgency }}</span>{% endif %}
+      <div class="hero-guarantee-badge">
+        <span>✓</span>
+        Leave with a clear action plan — guaranteed
       </div>
-      {% if testimonials and testimonials.items and testimonials.items.length %}
-      {% set heroTestimonial = testimonials.items[0] %}
-      <div class="service-hero-testimonial">
-        <span class="testimonial-quote">"{{ heroTestimonial.quote | truncate(140) }}"</span>
-        <span class="testimonial-author">— {{ heroTestimonial.name }}, {{ heroTestimonial.role }}</span>
-      </div>
-      {% endif %}
-      {% if page.heroTrustLogos and page.heroTrustLogos.length %}
-      <div class="service-hero-trust">
-        <span>{{ page.heroTrustLabel or "Trusted by candidates from" }}</span>
-        <div class="service-hero-logos">
-          {% for item in page.heroTrustLogos %}
-            <img src="{{ item.src }}" alt="{{ item.alt }}" loading="lazy" />
-          {% endfor %}
-        </div>
-      </div>
-      {% endif %}
-    </div>
-    <div class="service-hero-canvas">
-      <div class="service-hero-graphic">
-        {{ heroGraphic(page.heroGraphic) }}
-        {% if page.heroGraphicLabel %}<span>{{ page.heroGraphicLabel }}</span>{% endif %}
-      </div>
-      {% if page.heroModules and page.heroModules.length %}
-      <div class="service-hero-stack">
-        {% for module in page.heroModules %}
-          <div class="service-hero-module">
-            <strong>{{ module.title }}</strong>
-            <p>{{ module.body }}</p>
-            {% if module.meta %}<span>{{ module.meta }}</span>{% endif %}
-          </div>
-        {% endfor %}
-      </div>
-      {% endif %}
-      {% if page.heroStats and page.heroStats.length %}
-      <div class="service-hero-stats">
-        {% for stat in page.heroStats %}
-          <div class="service-hero-stat">
-            <strong>{{ stat.value }}</strong>
-            <span>{{ stat.label }}</span>
-          </div>
-        {% endfor %}
-      </div>
-      {% endif %}
     </div>
   </div>
 </section>
 
-{% macro renderSection(key) %}
-  {% if key == "snapshot" and page.snapshot %}
-  <section class="section service-snapshot">
-    <div class="container">
-      <div class="pillar-header">
-        <p class="hero-eyebrow">{{ page.snapshot.eyebrow }}</p>
-        <p class="section-kicker">Before/after that hiring teams notice fast.</p>
-        <h2 class="section-title section-title-glow">{{ page.snapshot.title }}</h2>
-        {% if page.snapshot.subtitle %}<p class="section-subtitle">{{ page.snapshot.subtitle }}</p>{% endif %}
+{# SOCIAL PROOF BAR #}
+<section class="section section-tight">
+  <div class="container">
+    <div class="category-proof-bar">
+      <div class="proof-item">
+        <strong>147+</strong>
+        <span>professionals coached</span>
       </div>
-      <div class="snapshot-grid">
-        {% for item in page.snapshot.items %}
-          <article class="snapshot-card">
-            {% if item.tag %}<span class="snapshot-tag">{{ item.tag }}</span>{% endif %}
-            <h3>{{ item.title }}</h3>
-            <p>{{ item.body }}</p>
-          </article>
-        {% endfor %}
+      <div class="proof-item">
+        <strong>4.9★</strong>
+        <span>average rating</span>
+      </div>
+      <div class="proof-item">
+        <strong>89%</strong>
+        <span>land offers in 60 days</span>
+      </div>
+      <div class="proof-item">
+        <strong>$47K</strong>
+        <span>avg. salary increase</span>
       </div>
     </div>
-  </section>
-  {% endif %}
+  </div>
+</section>
 
-  {% if key == "signalMap" and (page.signalMap or page.highlights) %}
-  <section class="section service-signal-map">
-    <div class="container">
-      <div class="pillar-header">
-        <p class="hero-eyebrow">{{ page.signalMap.eyebrow if page.signalMap else "Signal map" }}</p>
-        <p class="section-kicker">The 3 levers we tune to accelerate interviews.</p>
-        <h2 class="section-title section-title-glow">{{ page.signalMap.title if page.signalMap else "How this service creates signal" }}</h2>
-        {% if page.signalMap and page.signalMap.subtitle %}<p class="section-subtitle">{{ page.signalMap.subtitle }}</p>{% elif not page.signalMap %}<p class="section-subtitle">The three levers we tune to move you faster.</p>{% endif %}
+{# WHAT YOU GET - Simplified benefits #}
+{% if page.focus %}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header" style="text-align: center;">
+      <p class="hero-eyebrow">{{ page.focus.eyebrow or "What You Get" }}</p>
+      <h2 class="section-title section-title-glow">{{ page.focus.title }}</h2>
+      {% if page.focus.subtitle %}<p class="section-subtitle">{{ page.focus.subtitle }}</p>{% endif %}
+    </div>
+    <div class="focus-grid">
+      {% for item in page.focus.items | slice(0, 3) %}
+        <article class="focus-card">
+          <span class="focus-tag">{{ item.tag }}</span>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.body }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{# HOW IT WORKS - Simple 3-step process #}
+{% if page.steps %}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header" style="text-align: center;">
+      <p class="hero-eyebrow">How It Works</p>
+      <h2 class="section-title section-title-glow">{{ page.steps.title or "From stuck to hired in 3 steps" }}</h2>
+    </div>
+    <div class="category-process">
+      {% for step in page.steps.items | slice(0, 3) %}
+        <div class="process-step">
+          <div class="process-number">{{ loop.index }}</div>
+          <h3>{{ step.title }}</h3>
+          <p>{{ step.body }}</p>
+        </div>
+        {% if not loop.last %}<div class="process-connector" aria-hidden="true"></div>{% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{# TESTIMONIALS - Social proof near CTA #}
+<section class="section section-testimonials">
+  <div class="container">
+    <div class="testimonials-header" style="text-align: center;">
+      <p class="hero-eyebrow">Success Stories</p>
+      <h2 class="section-title section-title-glow">People who made the leap</h2>
+      <div class="testimonials-summary">
+        <span class="testimonials-rating">★★★★★ 4.9/5</span>
+        <span>from 147+ professionals</span>
       </div>
-      <div class="signal-map-grid">
-        {% for item in (page.signalMap.items if page.signalMap else page.highlights) %}
-          <article class="signal-map-card">
-            <div class="signal-icon">
-              {% if page.signalMap and item.icon %}
-                {{ miniIcon(item.icon) }}
-              {% else %}
-                {{ miniIcon(page.heroGraphic) }}
-              {% endif %}
-            </div>
+    </div>
+    <div class="testimonials-carousel" data-testimonials-carousel>
+      <div class="testimonials-track" data-testimonials-track>
+        {% for item in testimonials.items | slice(0, 6) %}
+        <article class="testimonial-card-home" data-testimonial-card>
+          <div class="testimonial-card-header">
+            <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" loading="lazy" />
             <div>
-              {% if page.signalMap %}
-                <h3>{{ item.title }}</h3>
-                <p>{{ item.body }}</p>
-                {% if item.meta %}<span>{{ item.meta }}</span>{% endif %}
-              {% else %}
-                {% set focusItem = page.focus.items[loop.index0] if page.focus and page.focus.items and page.focus.items.length > loop.index0 else null %}
-                <h3>{{ item }}</h3>
-                <p>{{ focusItem.body if focusItem else page.supporting }}</p>
-                {% if focusItem and focusItem.tag %}<span>{{ focusItem.tag }}</span>{% endif %}
-              {% endif %}
+              <strong>{{ item.name }}</strong>
+              <span>{{ item.role }}{% if item.company %} · {{ item.company }}{% endif %}</span>
             </div>
-          </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
-  {% if key == "proof" and page.proof %}
-  <section class="section section-soft">
-    <div class="container">
-      <div class="outcome-header">
-        <p class="section-kicker">Proof, not promises.</p>
-        <h2 class="section-title section-title-accent section-title-glow">{{ page.proof.title }}</h2>
-        {% if page.proof.subtitle %}<p class="section-subtitle">{{ page.proof.subtitle }}</p>{% endif %}
-      </div>
-      <div class="outcome-grid">
-        {% for item in page.proof.items %}
-          <div class="outcome-card">
-            <span class="outcome-number">{{ item.title }}</span>
-            <p>{{ item.body }}</p>
           </div>
+          <div class="testimonial-card-rating">★★★★★</div>
+          <p class="testimonial-card-quote">"{{ item.quote | truncate(180) }}"</p>
+        </article>
         {% endfor %}
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
-  {% if key == "focus" and page.focus %}
-  <section class="section service-focus">
-    <div class="container">
-      <div class="pillar-header">
-        <p class="hero-eyebrow">{{ page.focus.eyebrow }}</p>
-        <p class="section-kicker">Why it feels stuck—and how we fix it.</p>
-        <h2 class="section-title section-title-glow">{{ page.focus.title }}</h2>
-        {% if page.focus.subtitle %}<p class="section-subtitle">{{ page.focus.subtitle }}</p>{% endif %}
-      </div>
-      <div class="focus-grid">
-        {% for item in page.focus.items %}
-          <article class="focus-card">
-            <span class="focus-tag">{{ item.tag }}</span>
-            <h3>{{ item.title }}</h3>
-            <p>{{ item.body }}</p>
-          </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
-  {% if key == "artifacts" and page.artifacts %}
-  <section class="section service-artifacts">
-    <div class="container">
-      <div class="pillar-header">
-        <p class="hero-eyebrow">{{ page.artifacts.eyebrow }}</p>
-        <h2 class="section-title section-title-glow">{{ page.artifacts.title }}</h2>
-        {% if page.artifacts.subtitle %}<p class="section-subtitle">{{ page.artifacts.subtitle }}</p>{% endif %}
-      </div>
-      <div class="artifact-grid">
-        {% for item in page.artifacts.items %}
-          <article class="artifact-card">
-            <div class="artifact-top">
-              <strong>{{ item.title }}</strong>
-              {% if item.tag %}<span>{{ item.tag }}</span>{% endif %}
+        {% for item in testimonials.items | slice(0, 6) %}
+        <article class="testimonial-card-home" data-testimonial-card>
+          <div class="testimonial-card-header">
+            <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" loading="lazy" />
+            <div>
+              <strong>{{ item.name }}</strong>
+              <span>{{ item.role }}{% if item.company %} · {{ item.company }}{% endif %}</span>
             </div>
-            <p>{{ item.body }}</p>
-            {% if item.bullets and item.bullets.length %}
-            <ul>
-              {% for bullet in item.bullets %}
-                <li>{{ bullet }}</li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-          </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
-  {% if key == "mistakes" and page.mistakes %}
-  <section class="section service-mistakes">
-    <div class="container">
-      <div class="pillar-header">
-        <p class="hero-eyebrow">{{ page.mistakes.eyebrow }}</p>
-        <p class="section-kicker">Avoid the traps that slow offers.</p>
-        <h2 class="section-title section-title-glow">{{ page.mistakes.title }}</h2>
-        {% if page.mistakes.subtitle %}<p class="section-subtitle">{{ page.mistakes.subtitle }}</p>{% endif %}
-      </div>
-      <div class="mistakes-grid">
-        {% for item in page.mistakes.items %}
-          <article class="mistake-card">
-            <span>{{ item.title }}</span>
-            <p>{{ item.body }}</p>
-          </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
-  {% if key == "steps" and page.steps %}
-  <section class="section service-process">
-    <div class="container service-journey">
-      <div>
-        <p class="section-kicker">A simple path to momentum.</p>
-        <h2 class="section-title section-title-glow">{{ page.steps.title }}</h2>
-        {% if page.steps.subtitle %}<p class="section-subtitle">{{ page.steps.subtitle }}</p>{% endif %}
-      </div>
-      <div class="journey-steps">
-        {% for step in page.steps.items %}
-          <div class="journey-step">
-            <span>0{{ loop.index }}</span>
-            <h4>{{ step.title }}</h4>
-            <p>{{ step.body }}</p>
           </div>
+          <div class="testimonial-card-rating">★★★★★</div>
+          <p class="testimonial-card-quote">"{{ item.quote | truncate(180) }}"</p>
+        </article>
         {% endfor %}
       </div>
+      <div class="testimonials-focus-glow" aria-hidden="true"></div>
     </div>
-  </section>
-  {% endif %}
+  </div>
+</section>
 
-  {% if key == "deliverables" and page.deliverables %}
-  <section class="section">
-    <div class="container">
-      <div class="pillar-header">
-        <p class="hero-eyebrow">Deliverables</p>
-        <p class="section-kicker">Clear outputs. No ambiguity.</p>
-        <h2 class="section-title section-title-glow">{{ page.deliverables.title }}</h2>
-        {% if page.deliverables.subtitle %}<p class="section-subtitle">{{ page.deliverables.subtitle }}</p>{% endif %}
+{# MID-PAGE CTA - Capture convinced visitors #}
+<section class="section section-mid-cta">
+  <div class="container">
+    <div class="mid-cta-band">
+      <div class="mid-cta-content">
+        <h3>Ready to accelerate your career?</h3>
+        <p>Book a free strategy call and leave with a clear action plan.</p>
       </div>
-      <div class="service-stack">
-        {% for item in page.deliverables.items %}
-          <div class="service-tile">
-            <div class="service-header">
-              <h3>{{ item.title }}</h3>
-              {% if item.tag %}<span class="service-tag">{{ item.tag }}</span>{% endif %}
-            </div>
-            <p>{{ item.body }}</p>
-            {% if item.bullets and item.bullets.length %}
-            <ul>
-              {% for bullet in item.bullets %}
-                <li>{{ bullet }}</li>
-              {% endfor %}
-            </ul>
-            {% endif %}
+      <a class="btn btn-primary btn-lg btn-glow" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or "Book My Free Strategy Call" }}</a>
+    </div>
+  </div>
+</section>
+
+{# DELIVERABLES - What you'll get #}
+{% if page.deliverables %}
+<section class="section section-soft">
+  <div class="container">
+    <div class="pillar-header" style="text-align: center;">
+      <p class="hero-eyebrow">Deliverables</p>
+      <h2 class="section-title section-title-glow">{{ page.deliverables.title }}</h2>
+      {% if page.deliverables.subtitle %}<p class="section-subtitle">{{ page.deliverables.subtitle }}</p>{% endif %}
+    </div>
+    <div class="role-category-grid-enhanced">
+      {% for item in page.deliverables.items %}
+        <div class="role-card-enhanced" style="display: block; cursor: default;">
+          <div class="role-card-content">
+            <strong>{{ item.title }}</strong>
+            <p style="margin-top: 8px; color: var(--muted); font-size: 0.9rem;">{{ item.body }}</p>
           </div>
-        {% endfor %}
-      </div>
+        </div>
+      {% endfor %}
     </div>
-  </section>
-  {% endif %}
+  </div>
+</section>
+{% endif %}
 
-  {% if key == "roleLinks" and page.roleLinks %}
-  <section class="section">
-    <div class="container">
-      <div class="pillar-header">
-        <p class="hero-eyebrow">{{ page.roleLinks.eyebrow }}</p>
-        <h2 class="section-title section-title-glow">{{ page.roleLinks.title }}</h2>
-        {% if page.roleLinks.subtitle %}<p class="section-subtitle">{{ page.roleLinks.subtitle }}</p>{% endif %}
-      </div>
-      <div class="service-stack">
-        {% for item in page.roleLinks.items %}
-          <a class="service-tile" href="{{ item.url }}">
-            <div class="service-header">
-              <h3>{{ item.title }}</h3>
-              {% if item.tag %}<span class="service-tag">{{ item.tag }}</span>{% endif %}
-            </div>
-            <p>{{ item.body }}</p>
-          </a>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
-  {% if key == "samples" and page.samples %}
-  <section class="section">
-    <div class="container">
-      <div class="pillar-header">
-        <p class="hero-eyebrow">{{ page.samples.eyebrow }}</p>
-        <h2 class="section-title section-title-glow">{{ page.samples.title }}</h2>
-        {% if page.samples.subtitle %}<p class="section-subtitle">{{ page.samples.subtitle }}</p>{% endif %}
-      </div>
-      <div class="service-stack">
-        {% for item in page.samples.items %}
-          <div class="service-tile">
-            <div class="service-header">
-              <h3>{{ item.title }}</h3>
-              {% if item.tag %}<span class="service-tag">{{ item.tag }}</span>{% endif %}
-            </div>
-            <p>{{ item.body }}</p>
-            {% if item.bullets and item.bullets.length %}
-            <ul>
-              {% for bullet in item.bullets %}
-                <li>{{ bullet }}</li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
-  {% if key == "for" and page.for and page.notFor %}
-  <section class="section">
-    <div class="container services-preview">
-      <div class="card card-soft">
-        <strong>{{ page.for.title }}</strong>
-        <p class="section-kicker">Fit check before you book.</p>
-        <p>{{ page.for.body }}</p>
-        {% if page.for.items and page.for.items.length %}
-        <ul class="highlight-list">
-          {% for item in page.for.items %}
-            <li>{{ item }}</li>
-          {% endfor %}
-        </ul>
-        {% endif %}
-      </div>
-      <div class="card">
-        <strong>{{ page.notFor.title }}</strong>
-        <p class="section-kicker">If this isn't you, we'll say so.</p>
-        <p>{{ page.notFor.body }}</p>
-        {% if page.notFor.items and page.notFor.items.length %}
-        <ul class="highlight-list">
-          {% for item in page.notFor.items %}
-            <li>{{ item }}</li>
-          {% endfor %}
-        </ul>
-        {% endif %}
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
-  {% if key == "midCta" and (page.midCta or page.cta) %}
-  <section class="section">
-    <div class="container mid-cta">
-      <div>
-        {% if page.midCta and page.midCta.eyebrow %}<p class="hero-eyebrow">{{ page.midCta.eyebrow }}</p>{% endif %}
-        <p class="section-kicker">Short call. Clear next steps.</p>
-        <h2 class="section-title">{{ page.midCta.title if page.midCta else "Ready to move faster?" }}</h2>
-        {% if page.midCta and page.midCta.subtitle %}<p class="section-subtitle">{{ page.midCta.subtitle }}</p>{% elif not page.midCta %}<p class="section-subtitle">Let’s map the shortest path to the outcome you want.</p>{% endif %}
-        <div class="cta-proof">
-          <span>★★★★★ 4.9/5 from 147+ professionals</span>
-          <span>No credit card. No commitment.</span>
+{# COACH SECTION - Build trust #}
+<section class="section">
+  <div class="container">
+    <div class="category-coach-preview">
+      <img src="/assets/steve-headshot.jpg" alt="Steve, Askia Career Coach" class="category-coach-photo" />
+      <div class="category-coach-content">
+        <p class="hero-eyebrow">Your Coach</p>
+        <h3 class="section-title">Steve knows your field</h3>
+        <p>10+ years leading teams across tech companies. Hundreds of professionals coached into roles at Google, Amazon, Meta, and high-growth startups. I've sat on the other side of the table — I know exactly what makes someone stand out.</p>
+        <div class="category-coach-stats">
+          <span><strong>10+</strong> years experience</span>
+          <span><strong>147+</strong> professionals coached</span>
+          <span><strong>$47K</strong> avg. raise negotiated</span>
         </div>
       </div>
-      <div class="mid-cta-actions">
-        <a class="btn btn-primary btn-cta-experiment" href="{{ page.midCta.primaryLink if page.midCta else (page.cta.link or page.ctaLink or site.cta.link) }}">{{ page.midCta.primaryLabel if page.midCta else (page.cta.label or page.ctaLabel or site.cta.label) }}</a>
-        {% if page.midCta and page.midCta.secondaryLabel %}
-          <a class="btn btn-ghost" href="{{ page.midCta.secondaryLink }}">{{ page.midCta.secondaryLabel }}</a>
-        {% elif page.secondaryCtaLabel %}
-          <a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a>
-        {% endif %}
-      </div>
     </div>
-  </section>
-  {% endif %}
+  </div>
+</section>
 
-  {% if key == "faq" and page.faq %}
-  <section class="section">
-    <div class="container faq-stage">
-      <div class="faq-header">
-        <h2 class="section-title section-title-glow">{{ page.faq.title }}</h2>
-        {% if page.faq.subtitle %}<p class="section-subtitle">{{ page.faq.subtitle }}</p>{% endif %}
-      </div>
-      <div class="faq-grid">
-        {% for item in page.faq.items %}
-          <details class="faq-card">
-            <summary>{{ item.question }}</summary>
-            <p>{{ item.answer }}</p>
-          </details>
+{# WHO THIS IS FOR / NOT FOR #}
+{% if page.for and page.notFor %}
+<section class="section">
+  <div class="container services-preview">
+    <div class="card card-soft">
+      <strong>{{ page.for.title }}</strong>
+      <p>{{ page.for.body }}</p>
+      {% if page.for.items and page.for.items.length %}
+      <ul class="highlight-list">
+        {% for item in page.for.items %}
+          <li>{{ item }}</li>
         {% endfor %}
-      </div>
+      </ul>
+      {% endif %}
     </div>
-  </section>
-  {% endif %}
-
-  {% if key == "related" and page.related %}
-  <section class="section">
-    <div class="container card">
-      <p class="section-kicker">Fastest next step.</p>
-      <h2 class="section-title">{{ page.related.title }}</h2>
-      <p class="section-subtitle">{{ page.related.body }}</p>
-      <div class="hero-cta">
-        <a class="btn btn-primary btn-cta-experiment" href="{{ page.related.primaryLink }}">{{ page.related.primaryLabel }}</a>
-        <a class="btn btn-ghost" href="{{ page.related.secondaryLink }}">{{ page.related.secondaryLabel }}</a>
-      </div>
+    <div class="card">
+      <strong>{{ page.notFor.title }}</strong>
+      <p>{{ page.notFor.body }}</p>
+      {% if page.notFor.items and page.notFor.items.length %}
+      <ul class="highlight-list">
+        {% for item in page.notFor.items %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
     </div>
-  </section>
-  {% endif %}
+  </div>
+</section>
+{% endif %}
 
-  {% if key == "cta" and page.cta %}
-  <section class="section">
-    <div class="container cta-band">
+{# FAQ - Handle objections #}
+{% if page.faq %}
+<section class="section">
+  <div class="container faq-stage">
+    <div class="faq-header">
+      <h2 class="section-title section-title-glow">{{ page.faq.title }}</h2>
+      {% if page.faq.subtitle %}<p class="section-subtitle">{{ page.faq.subtitle }}</p>{% endif %}
+    </div>
+    <div class="faq-grid">
+      {% for item in page.faq.items %}
+        <details class="faq-card">
+          <summary>{{ item.question }}</summary>
+          <p>{{ item.answer }}</p>
+        </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{# FINAL CTA - With testimonial and urgency #}
+<section class="section section-cta-final">
+  <div class="container">
+    {% if page.related and page.related.miniTestimonial %}
+    <div class="cta-testimonial-mini">
+      <p>"{{ page.related.miniTestimonial.quote }}"</p>
+      <span>★★★★★ — {{ page.related.miniTestimonial.name }}, {{ page.related.miniTestimonial.role }}</span>
+    </div>
+    {% elif testimonials and testimonials.items and testimonials.items.length %}
+    {% set ctaTestimonial = testimonials.items[0] %}
+    <div class="cta-testimonial-mini">
+      <p>"{{ ctaTestimonial.quote | truncate(140) }}"</p>
+      <span>★★★★★ — {{ ctaTestimonial.name }}, {{ ctaTestimonial.role }}</span>
+    </div>
+    {% else %}
+    <div class="cta-testimonial-mini">
+      <p>"Within 3 weeks I had 4 interviews lined up. Steve completely changed how I talk about my work."</p>
+      <span>★★★★★ — Marcus T., Senior Engineer → Staff at FAANG</span>
+    </div>
+    {% endif %}
+    <div class="cta-band">
       <div>
-        <p class="section-kicker">This is the moment to move.</p>
-        <h2 class="section-title">{{ page.cta.title }}</h2>
-        <p class="section-subtitle">{{ page.cta.body }}</p>
-        <div class="cta-proof">
-          <span>★★★★★ 4.9/5 from 147+ professionals</span>
-          {% if page.cta.urgency %}<span>{{ page.cta.urgency }}</span>{% endif %}
-        </div>
-        {% if testimonials and testimonials.items and testimonials.items.length %}
-        {% set ctaTestimonial = testimonials.items[1] if testimonials.items.length > 1 else testimonials.items[0] %}
-        <p class="cta-testimonial">“{{ ctaTestimonial.quote | truncate(140) }}” — {{ ctaTestimonial.name }}</p>
-        {% endif %}
+        <h2 class="section-title">{{ page.cta.title if page.cta else "Ready to accelerate your career?" }}</h2>
+        <p class="section-subtitle">{{ page.cta.body if page.cta else "Book your free strategy session and leave with a clear action plan." }}</p>
+        <p class="cta-proof">Join 147+ professionals who've accelerated their careers</p>
       </div>
-      <a class="btn btn-primary btn-cta-experiment" href="{{ page.cta.link or site.cta.link }}">{{ page.cta.label or site.cta.label }}</a>
+      <div class="cta-action">
+        <a class="btn btn-primary btn-lg btn-glow" href="{{ page.cta.link if page.cta else (page.ctaLink or site.cta.link) }}">{{ page.cta.label if page.cta else "Claim My Free Strategy Session" }}</a>
+        <span class="cta-urgency" data-urgency>Only 4 spots left this week</span>
+        <span class="cta-guarantee">✓ Leave with a clear action plan or get a second session free</span>
+      </div>
     </div>
-  </section>
-  {% endif %}
-{% endmacro %}
+  </div>
+</section>
 
-{% if page.sectionOrder and page.sectionOrder.length %}
-  {% set orderString = page.sectionOrder | join(',') %}
-  {% for key in page.sectionOrder %}
-    {{ renderSection(key) }}
-  {% endfor %}
-  {% if (page.signalMap or page.highlights) and ("signalMap" not in orderString) %}{{ renderSection("signalMap") }}{% endif %}
-  {% if page.artifacts and ("artifacts" not in orderString) %}{{ renderSection("artifacts") }}{% endif %}
-  {% if (page.midCta or page.cta) and ("midCta" not in orderString) %}{{ renderSection("midCta") }}{% endif %}
-{% else %}
-  {{ renderSection("snapshot") }}
-  {{ renderSection("signalMap") }}
-  {{ renderSection("proof") }}
-  {{ renderSection("focus") }}
-  {{ renderSection("mistakes") }}
-  {{ renderSection("steps") }}
-  {{ renderSection("deliverables") }}
-  {{ renderSection("artifacts") }}
-  {{ renderSection("midCta") }}
-  {{ renderSection("for") }}
-  {{ renderSection("faq") }}
-  {{ renderSection("cta") }}
+</div>
+
+{% if page.faq and page.faq.items %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in page.faq.items %}
+    {
+      "@type": "Question",
+      "name": "{{ item.question | escape }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ item.answer | escape }}"
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
 {% endif %}

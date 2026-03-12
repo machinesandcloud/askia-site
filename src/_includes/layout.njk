@@ -52,7 +52,7 @@
     <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png" />
     <link rel="stylesheet" href="/assets/styles.css" />
   </head>
-  <body{% if page.url == "/" or page.url == "/services/" or page.url == "/land-your-next-role/" or page.url == "/blog/" or (page.url and page.url.startsWith("/blog/")) %} class="has-mobile-cta"{% endif %}>
+  <body class="has-mobile-cta">
     <div class="bg-layer"></div>
     <header class="site-header">
       <div class="container nav">
@@ -94,7 +94,6 @@
       {{ content | safe }}
     </main>
 
-    {% if page.url == "/" or page.url == "/services/" or page.url == "/land-your-next-role/" or page.url == "/blog/" or (page.url and page.url.startsWith("/blog/")) %}
     <div class="nudge-toast" data-service-nudge aria-live="polite">
       <div class="nudge-icon" aria-hidden="true">A</div>
       <div class="nudge-body">
@@ -106,7 +105,6 @@
     <div class="mobile-cta">
       <a class="btn btn-primary" href="{{ site.cta.link }}">{{ site.cta.label }}</a>
     </div>
-    {% endif %}
 
     <footer class="site-footer">
       <div class="container footer-inner">
@@ -119,9 +117,8 @@
           <span>{{ site.contact.email }}</span>
         </div>
         <div class="footer-links">
+          <a href="/privacy/">Privacy</a>
           <a href="/sitemap/">Sitemap</a>
-          <a href="/sitemap.xml">XML</a>
-          <a href="/sitemap.txt">Text</a>
         </div>
         <p class="footer-note">{{ site.footer.note }}</p>
         {% if site.footer.subnote %}
@@ -213,7 +210,16 @@
             "opens": "09:00",
             "closes": "17:00"
           }
-        ]
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "147",
+          "reviewCount": "147"
+        },
+        "priceRange": "$$"
       }
     </script>
     <script type="application/ld+json">
@@ -525,7 +531,22 @@
           };
 
           if (!localStorage.getItem(storageKey)) {
-            setTimeout(openModal, 2000);
+            // Exit-intent detection (desktop only)
+            let exitShown = false;
+            const handleMouseLeave = (e) => {
+              if (e.clientY <= 0 && !exitShown) {
+                exitShown = true;
+                openModal();
+                document.removeEventListener('mouseout', handleMouseLeave);
+              }
+            };
+            // Only on desktop - mobile gets timed popup
+            if (window.innerWidth > 768) {
+              document.addEventListener('mouseout', handleMouseLeave);
+            } else {
+              // Mobile: show after 8 seconds of engagement
+              setTimeout(openModal, 8000);
+            }
           }
 
           closeButtons.forEach((btn) => btn.addEventListener("click", closeModal));
@@ -1201,7 +1222,7 @@
       window.$zoho = window.$zoho || {};
       $zoho.salesiq = $zoho.salesiq || { ready: function () {} };
       $zoho.salesiq.ready = function () {
-        $zoho.salesiq.floatbutton.visible("hide");
+        $zoho.salesiq.floatbutton.visible("show");
         $zoho.salesiq.tracking.on();
       };
     </script>

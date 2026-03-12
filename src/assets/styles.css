@@ -10627,3 +10627,234 @@ body.pricing-focus {
     font-size: 1rem;
   }
 }
+
+/* ============================================
+   CRO Role & Service Page Layouts
+   ============================================ */
+
+/* Role Page Hero Grid */
+.hero-role {
+  padding: 130px 0 80px;
+  background: linear-gradient(135deg, rgba(114, 214, 255, 0.04) 0%, transparent 50%);
+}
+
+.hero-role-grid {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 60px;
+  align-items: start;
+}
+
+.hero-role-content {
+  max-width: 620px;
+}
+
+.hero-role-visual {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.hero-role-visual .hero-stats-card {
+  position: relative;
+}
+
+.hero-role-visual .hero-guarantee-badge {
+  position: relative;
+  bottom: auto;
+  left: auto;
+  transform: none;
+}
+
+/* Service Page Hero Grid */
+.hero-service {
+  padding: 130px 0 80px;
+  background: linear-gradient(135deg, rgba(114, 214, 255, 0.04) 0%, transparent 50%);
+}
+
+.hero-service-grid {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 60px;
+  align-items: start;
+}
+
+.hero-service-content {
+  max-width: 620px;
+}
+
+.hero-service-visual {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.hero-service-visual .hero-stats-card {
+  position: relative;
+}
+
+.hero-service-visual .hero-guarantee-badge {
+  position: relative;
+  bottom: auto;
+  left: auto;
+  transform: none;
+}
+
+/* Final CTA Section */
+.section-cta-final {
+  padding: 80px 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(114, 214, 255, 0.03) 100%);
+}
+
+/* Role & Service Page Responsive */
+@media (max-width: 980px) {
+  .hero-role-grid,
+  .hero-service-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .hero-role-visual,
+  .hero-service-visual {
+    order: -1;
+    align-items: center;
+  }
+
+  .hero-role-visual .hero-stats-card,
+  .hero-service-visual .hero-stats-card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    max-width: 500px;
+  }
+
+  .hero-role-visual .hero-stat-row,
+  .hero-service-visual .hero-stat-row {
+    flex: 1;
+    min-width: 140px;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .hero-role-content,
+  .hero-service-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hero-role-content .hero-benefits-cro,
+  .hero-service-content .hero-benefits-cro {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto 24px;
+  }
+}
+
+@media (max-width: 680px) {
+  .hero-role,
+  .hero-service {
+    padding: 100px 0 60px;
+  }
+
+  .hero-role-visual .hero-stats-card,
+  .hero-service-visual .hero-stats-card {
+    padding: 20px;
+  }
+
+  .hero-role-visual .hero-stat-row,
+  .hero-service-visual .hero-stat-row {
+    padding: 12px;
+  }
+
+  .hero-role-visual .hero-stat-row strong,
+  .hero-service-visual .hero-stat-row strong {
+    font-size: 1.25rem;
+  }
+
+  .section-cta-final {
+    padding: 60px 0;
+  }
+}
+
+/* ============================================
+   Mid-Page CTA Component
+   ============================================ */
+.section-mid-cta {
+  padding: 60px 0;
+  background: linear-gradient(135deg, rgba(114, 214, 255, 0.06) 0%, rgba(87, 207, 196, 0.04) 100%);
+}
+
+.mid-cta-band {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 40px 48px;
+  background: rgba(14, 20, 28, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+.mid-cta-content h3 {
+  font-family: "Sora", "Segoe UI", system-ui, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: var(--text);
+}
+
+.mid-cta-content p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .mid-cta-band {
+    flex-direction: column;
+    text-align: center;
+    padding: 32px 24px;
+    gap: 24px;
+  }
+
+  .mid-cta-content h3 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Legal Content (Privacy, Terms) */
+.legal-content {
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.legal-content h2 {
+  font-family: "Sora", "Segoe UI", system-ui, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 2rem 0 1rem;
+}
+
+.legal-content h2:first-child {
+  margin-top: 1rem;
+}
+
+.legal-content p {
+  margin: 0 0 1rem;
+}
+
+.legal-content ul {
+  margin: 0 0 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.legal-content li {
+  margin-bottom: 0.5rem;
+}

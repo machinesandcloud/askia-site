@@ -1,878 +1,235 @@
-{% macro roleIcon(key) %}
-  {% if key == "swe" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <rect x="32" y="40" width="136" height="90" rx="20" />
-    <rect x="54" y="66" width="92" height="10" rx="5" />
-    <rect x="54" y="86" width="70" height="8" rx="4" />
-    <rect x="54" y="104" width="58" height="8" rx="4" />
-    <path d="M70 150l18-12 12 8 18-14" />
-  </svg>
-  {% elif key == "devops" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <circle cx="70" cy="96" r="28" />
-    <circle cx="130" cy="96" r="28" />
-    <path d="M98 96h4" />
-    <rect x="54" y="56" width="32" height="12" rx="6" />
-    <rect x="114" y="124" width="32" height="12" rx="6" />
-  </svg>
-  {% elif key == "data" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <ellipse cx="100" cy="52" rx="48" ry="18" />
-    <path d="M52 52v72c0 10 22 18 48 18s48-8 48-18V52" />
-    <path d="M52 88c0 10 22 18 48 18s48-8 48-18" />
-    <path d="M52 120c0 10 22 18 48 18s48-8 48-18" />
-  </svg>
-  {% elif key == "pm" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <rect x="36" y="48" width="128" height="92" rx="20" />
-    <path d="M58 78h84" />
-    <path d="M58 98h64" />
-    <circle cx="144" cy="114" r="10" />
-    <path d="M68 148l24-18 18 12 22-20" />
-  </svg>
-  {% elif key == "design" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <rect x="40" y="44" width="120" height="112" rx="22" />
-    <path d="M70 78h60" />
-    <path d="M70 96h40" />
-    <circle cx="124" cy="120" r="16" />
-    <path d="M76 136h48" />
-  </svg>
-  {% elif key == "em" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <circle cx="70" cy="84" r="16" />
-    <circle cx="130" cy="84" r="16" />
-    <rect x="50" y="112" width="100" height="30" rx="15" />
-    <path d="M100 52v18" />
-  </svg>
-  {% elif key == "security" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <path d="M100 40l56 22v40c0 34-24 58-56 70-32-12-56-36-56-70V62z" />
-    <circle cx="100" cy="96" r="16" />
-    <path d="M100 96v26" />
-  </svg>
-  {% elif key == "ai" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <rect x="52" y="56" width="96" height="88" rx="20" />
-    <circle cx="78" cy="92" r="10" />
-    <circle cx="122" cy="92" r="10" />
-    <path d="M84 120h32" />
-    <path d="M100 56v-16" />
-  </svg>
-  {% elif key == "qa" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <rect x="36" y="48" width="128" height="92" rx="20" />
-    <path d="M64 84l14 14 30-30" />
-    <path d="M64 114h72" />
-  </svg>
-  {% elif key == "tp" or key == "ppm" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <circle cx="62" cy="88" r="16" />
-    <circle cx="138" cy="88" r="16" />
-    <path d="M78 88h44" />
-    <rect x="54" y="116" width="92" height="20" rx="10" />
-  </svg>
-  {% elif key == "cs" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <rect x="40" y="54" width="120" height="72" rx="18" />
-    <path d="M70 86h60" />
-    <path d="M82 126l18 18 18-18" />
-  </svg>
-  {% elif key == "se" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <rect x="36" y="56" width="128" height="80" rx="20" />
-    <path d="M70 86h60" />
-    <path d="M70 106h44" />
-    <circle cx="144" cy="112" r="8" />
-  </svg>
-  {% elif key == "sa" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <path d="M48 140l40-54 28 34 36-44" />
-    <circle cx="88" cy="86" r="10" />
-    <circle cx="116" cy="120" r="10" />
-    <circle cx="152" cy="76" r="10" />
-  </svg>
-  {% elif key == "pops" %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <rect x="40" y="52" width="120" height="84" rx="20" />
-    <path d="M70 84h60" />
-    <path d="M70 104h44" />
-    <path d="M70 124h34" />
-  </svg>
-  {% else %}
-  <svg viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-    <circle cx="100" cy="100" r="56" />
-    <path d="M72 100h56" />
-    <path d="M100 72v56" />
-  </svg>
-  {% endif %}
-{% endmacro %}
-
-{% set roleKey = "default" %}
-{% if "Software Engineer" in page.h1 %}{% set roleKey = "swe" %}
-{% elif "DevOps" in page.h1 %}{% set roleKey = "devops" %}
-{% elif "Data" in page.h1 %}{% set roleKey = "data" %}
-{% elif "Product Manager" in page.h1 %}{% set roleKey = "pm" %}
-{% elif "Product Design" in page.h1 %}{% set roleKey = "design" %}
-{% elif "Engineering Manager" in page.h1 %}{% set roleKey = "em" %}
-{% elif "Cybersecurity" in page.h1 %}{% set roleKey = "security" %}
-{% elif "AI" in page.h1 or "ML" in page.h1 %}{% set roleKey = "ai" %}
-{% elif "QA" in page.h1 %}{% set roleKey = "qa" %}
-{% elif "Technical Program Manager" in page.h1 %}{% set roleKey = "tp" %}
-{% elif "Customer Success" in page.h1 %}{% set roleKey = "cs" %}
-{% elif "Sales Engineer" in page.h1 %}{% set roleKey = "se" %}
-{% elif "Solutions Architect" in page.h1 %}{% set roleKey = "sa" %}
-{% elif "Product Ops" in page.h1 %}{% set roleKey = "pops" %}
-{% elif "Project Program" in page.h1 %}{% set roleKey = "ppm" %}
-{% endif %}
-
-{% set roleHomeTitle = "Feel at home in this track" %}
-{% set roleHomeBody = "We tailor positioning to your role scope, tools, and hiring signals." %}
-{% set roleHomeBullets = ["Role-specific narrative", "Level and scope clarity", "Interview-ready signal"] %}
-{% set roleStackTitle = "Role stack" %}
-{% set roleStack = ["Impact framing", "Role keywords", "Hiring signal"] %}
-{% set roleLoopTitle = "Typical interview loop" %}
-{% set roleLoopItems = ["Role targeting + scope map", "Signal assets + story bank", "Interview + offer execution"] %}
-{% set roleArtifactsTitle = "Artifacts for this track" %}
-{% set roleArtifacts = [
-  { "title": "Role signal map", "tag": "Signal", "body": "A clear map of role scope and outcomes.", "bullets": ["Scope cues", "Impact framing", "Level signals"] },
-  { "title": "Story system", "tag": "Narrative", "body": "Stories aligned to what interviewers look for.", "bullets": ["Trade-offs", "Outcomes", "Leadership"] },
-  { "title": "Decision-ready assets", "tag": "Conversion", "body": "Materials that convert interviews to offers.", "bullets": ["Resume signal", "LinkedIn clarity", "Negotiation prep"] }
-] %}
-{% set roleMetricsTitle = "Typical wins in this track" %}
-{% set roleMetrics = [
-  { "value": "Higher signal", "label": "Role + level clarity" },
-  { "value": "Faster loops", "label": "Interview momentum" },
-  { "value": "Stronger offers", "label": "Negotiation leverage" }
-] %}
-{% set rolePreviewsTitle = "Preview what you’ll build" %}
-{% set rolePreviews = [
-  { "title": "Role scope map", "body": "A one‑page scope summary tailored to your track.", "chips": ["Scope", "Impact", "Level"] },
-  { "title": "Interview story map", "body": "Reusable stories mapped to signals.", "chips": ["STAR", "Trade-offs", "Outcomes"] },
-  { "title": "Offer decision view", "body": "A simple way to compare offers.", "chips": ["Total comp", "Role fit", "Growth"] }
-] %}
-{% set roleBadges = roleHomeBullets %}
-{% set roleScoreTitle = "Role signal scorecard" %}
-{% set roleScore = [
-  { "label": "Scope + ownership", "value": "Primary signal" },
-  { "label": "Impact metrics", "value": "Proof signal" },
-  { "label": "Decision-making", "value": "Level signal" }
-] %}
-
-{% if roleKey == "swe" %}
-  {% set roleHomeTitle = "Built for Senior, Staff, and Principal SWE tracks" %}
-  {% set roleHomeBody = "We translate systems work, ownership, and technical leadership into clear level signal." %}
-  {% set roleHomeBullets = ["System design narrative", "Scope and ownership framing", "Impact metrics that read senior"] %}
-  {% set roleStackTitle = "SWE stack" %}
-  {% set roleStack = ["Distributed systems", "APIs + services", "Performance + reliability", "Mentorship + ownership"] %}
-  {% set roleLoopItems = ["Role + scope mapping", "Resume + LinkedIn signal", "System design + behavioral prep"] %}
-  {% set roleArtifactsTitle = "Artifacts for SWE interviews" %}
-  {% set roleArtifacts = [
-    { "title": "System design story map", "tag": "Architecture", "body": "A structured story for scale and trade-offs.", "bullets": ["Constraints", "Trade-offs", "Impact"] },
-    { "title": "Impact metrics sheet", "tag": "Signal", "body": "Quantify outcomes that read senior.", "bullets": ["Latency", "Reliability", "Cost"] },
-    { "title": "Scope ladder", "tag": "Leveling", "body": "Senior → Staff → Principal signal cues.", "bullets": ["Ownership", "Influence", "Complexity"] }
-  ] %}
-  {% set roleMetricsTitle = "SWE outcomes we target" %}
-  {% set roleMetrics = [
-    { "value": "Senior → Staff", "label": "Level-up readiness" },
-    { "value": "System design", "label": "Clear architecture signal" },
-    { "value": "Offer leverage", "label": "Comp + scope strategy" }
-  ] %}
-  {% set rolePreviewsTitle = "SWE preview kit" %}
-  {% set rolePreviews = [
-    { "title": "System design brief", "body": "A structured design narrative for interviews.", "chips": ["Constraints", "Trade-offs", "Scale"] },
-    { "title": "Impact metric bank", "body": "Metrics that prove scope and ownership.", "chips": ["Latency", "Cost", "Reliability"] },
-    { "title": "Scope ladder", "body": "Senior/Staff/Principal signal checklist.", "chips": ["Ownership", "Influence", "Complexity"] }
-  ] %}
-  {% set roleScoreTitle = "SWE signal scorecard" %}
-  {% set roleScore = [
-    { "label": "System design", "value": "Core signal" },
-    { "label": "Scope + ownership", "value": "Level signal" },
-    { "label": "Impact metrics", "value": "Proof signal" }
-  ] %}
-{% elif roleKey == "devops" %}
-  {% set roleHomeTitle = "DevOps/SRE signal that reads at scale" %}
-  {% set roleHomeBody = "We position reliability, infrastructure ownership, and incident leadership the way top teams expect." %}
-  {% set roleHomeBullets = ["Reliability impact", "Infra scope and scale", "Incident leadership stories"] %}
-  {% set roleStackTitle = "DevOps/SRE stack" %}
-  {% set roleStack = ["Kubernetes", "Terraform", "Observability", "CI/CD", "On-call ownership"] %}
-  {% set roleLoopItems = ["Scope + reliability map", "Resume + LinkedIn upgrade", "Scenario + system design prep"] %}
-  {% set roleArtifactsTitle = "Artifacts for DevOps/SRE roles" %}
-  {% set roleArtifacts = [
-    { "title": "Reliability scorecard", "tag": "SLOs", "body": "SLO/SLA impact and uptime story.", "bullets": ["SLO targets", "Incident impact", "Recovery time"] },
-    { "title": "Incident narrative", "tag": "Leadership", "body": "Postmortem story that shows ownership.", "bullets": ["Root cause", "Mitigation", "Prevention"] },
-    { "title": "Infra scope map", "tag": "Scale", "body": "Systems and services you own.", "bullets": ["Stack", "Blast radius", "Automation"] }
-  ] %}
-  {% set roleMetricsTitle = "DevOps/SRE outcomes we target" %}
-  {% set roleMetrics = [
-    { "value": "Reliability signal", "label": "SLO + incident clarity" },
-    { "value": "Infra scope", "label": "Ownership at scale" },
-    { "value": "On-call leadership", "label": "Decision-making under pressure" }
-  ] %}
-  {% set rolePreviewsTitle = "DevOps/SRE preview kit" %}
-  {% set rolePreviews = [
-    { "title": "Incident narrative", "body": "Postmortem story that shows leadership.", "chips": ["Root cause", "Mitigation", "Prevention"] },
-    { "title": "SLO impact sheet", "body": "Reliability outcomes mapped to business impact.", "chips": ["SLOs", "Downtime", "Cost"] },
-    { "title": "Infra scope map", "body": "Your ownership across systems.", "chips": ["Kubernetes", "CI/CD", "Observability"] }
-  ] %}
-  {% set roleScoreTitle = "DevOps/SRE signal scorecard" %}
-  {% set roleScore = [
-    { "label": "Reliability impact", "value": "Core signal" },
-    { "label": "Incident leadership", "value": "Decision signal" },
-    { "label": "Infra scope", "value": "Level signal" }
-  ] %}
-{% elif roleKey == "data" %}
-  {% set roleHomeTitle = "Data roles with real business signal" %}
-  {% set roleHomeBody = "We turn pipelines, models, and analytics into outcomes and decision impact." %}
-  {% set roleHomeBullets = ["Business impact framing", "Data scope clarity", "Stakeholder narrative"] %}
-  {% set roleStackTitle = "Data stack" %}
-  {% set roleStack = ["SQL + pipelines", "Modeling", "Experimentation", "Metrics strategy", "Data storytelling"] %}
-  {% set roleLoopItems = ["Role + level definition", "Signal assets + portfolio framing", "Case + technical prep"] %}
-  {% set roleArtifactsTitle = "Artifacts for data roles" %}
-  {% set roleArtifacts = [
-    { "title": "Impact narrative", "tag": "Story", "body": "Tie analysis to business decisions.", "bullets": ["Outcome", "Decision", "Stakeholder"] },
-    { "title": "Pipeline impact map", "tag": "Systems", "body": "Show scale, reliability, and ownership.", "bullets": ["Volume", "Latency", "Cost"] },
-    { "title": "Metrics strategy doc", "tag": "Clarity", "body": "Define north-star and guardrails.", "bullets": ["KPIs", "Trade-offs", "Monitoring"] }
-  ] %}
-  {% set roleMetricsTitle = "Data outcomes we target" %}
-  {% set roleMetrics = [
-    { "value": "Decision impact", "label": "Metrics tied to outcomes" },
-    { "value": "Pipeline scope", "label": "Ownership and scale" },
-    { "value": "Stakeholder signal", "label": "Business alignment" }
-  ] %}
-  {% set rolePreviewsTitle = "Data preview kit" %}
-  {% set rolePreviews = [
-    { "title": "Impact narrative", "body": "Decision stories with measurable impact.", "chips": ["Outcome", "Decision", "KPIs"] },
-    { "title": "Pipeline scope map", "body": "Scale and reliability signal.", "chips": ["Volume", "Latency", "Cost"] },
-    { "title": "Metrics map", "body": "North-star + guardrails.", "chips": ["KPIs", "Inputs", "Trade-offs"] }
-  ] %}
-  {% set roleScoreTitle = "Data signal scorecard" %}
-  {% set roleScore = [
-    { "label": "Business impact", "value": "Primary signal" },
-    { "label": "Data scope", "value": "Level signal" },
-    { "label": "Decision framing", "value": "Proof signal" }
-  ] %}
-{% elif roleKey == "pm" %}
-  {% set roleHomeTitle = "PM positioning for strategy and execution" %}
-  {% set roleHomeBody = "We highlight product judgment, roadmap ownership, and cross-functional impact." %}
-  {% set roleHomeBullets = ["Roadmap and strategy signal", "Customer + market insight", "Execution and metrics"] %}
-  {% set roleStackTitle = "PM stack" %}
-  {% set roleStack = ["Discovery", "Roadmaps", "Metrics", "Stakeholder alignment", "Launch ownership"] %}
-  {% set roleLoopItems = ["Role + scope alignment", "Case study narrative", "Product sense + execution prep"] %}
-  {% set roleArtifactsTitle = "Artifacts for PM roles" %}
-  {% set roleArtifacts = [
-    { "title": "Product narrative", "tag": "Strategy", "body": "Story that connects vision to impact.", "bullets": ["Problem", "Solution", "Outcome"] },
-    { "title": "Metrics map", "tag": "KPIs", "body": "Tie roadmap to measurable results.", "bullets": ["North-star", "Inputs", "Guardrails"] },
-    { "title": "Exec summary", "tag": "Leadership", "body": "One-page update that reads senior.", "bullets": ["Decision", "Trade-off", "Next steps"] }
-  ] %}
-  {% set roleMetricsTitle = "PM outcomes we target" %}
-  {% set roleMetrics = [
-    { "value": "Product signal", "label": "Strategy + execution clarity" },
-    { "value": "Metrics focus", "label": "Business impact framing" },
-    { "value": "Stakeholder trust", "label": "Cross-functional alignment" }
-  ] %}
-  {% set rolePreviewsTitle = "PM preview kit" %}
-  {% set rolePreviews = [
-    { "title": "Product narrative", "body": "Story that ties vision to outcomes.", "chips": ["Problem", "Solution", "Impact"] },
-    { "title": "Metrics map", "body": "KPIs and guardrails for the roadmap.", "chips": ["North-star", "Inputs", "Trade-offs"] },
-    { "title": "Exec update", "body": "Concise leadership communication.", "chips": ["Decision", "Risk", "Next steps"] }
-  ] %}
-  {% set roleScoreTitle = "PM signal scorecard" %}
-  {% set roleScore = [
-    { "label": "Product sense", "value": "Primary signal" },
-    { "label": "Metrics impact", "value": "Proof signal" },
-    { "label": "Stakeholder alignment", "value": "Level signal" }
-  ] %}
-{% elif roleKey == "design" %}
-  {% set roleHomeTitle = "Product design signal that feels senior" %}
-  {% set roleHomeBody = "We align portfolio story, product impact, and collaboration signal." %}
-  {% set roleHomeBullets = ["Portfolio narrative", "Product impact framing", "Cross-functional leadership"] %}
-  {% set roleStackTitle = "Design stack" %}
-  {% set roleStack = ["UX strategy", "Systems thinking", "Prototyping", "Research insights", "Design leadership"] %}
-  {% set roleLoopItems = ["Target role + scope", "Portfolio story build", "Case study + critique prep"] %}
-  {% set roleArtifactsTitle = "Artifacts for design roles" %}
-  {% set roleArtifacts = [
-    { "title": "Portfolio story arc", "tag": "Narrative", "body": "A clear arc across case studies.", "bullets": ["Problem", "Process", "Impact"] },
-    { "title": "Case study template", "tag": "Structure", "body": "Consistent, recruiter-friendly format.", "bullets": ["Goal", "Trade-offs", "Results"] },
-    { "title": "Impact metrics", "tag": "Signal", "body": "Quantify the product outcomes.", "bullets": ["Conversion", "Retention", "Efficiency"] }
-  ] %}
-  {% set roleMetricsTitle = "Design outcomes we target" %}
-  {% set roleMetrics = [
-    { "value": "Portfolio clarity", "label": "Case studies that read senior" },
-    { "value": "Product impact", "label": "Metrics tied to outcomes" },
-    { "value": "Collaboration signal", "label": "Cross-functional influence" }
-  ] %}
-  {% set rolePreviewsTitle = "Design preview kit" %}
-  {% set rolePreviews = [
-    { "title": "Portfolio arc", "body": "Narrative flow across case studies.", "chips": ["Problem", "Process", "Impact"] },
-    { "title": "Case study template", "body": "Consistent structure for hiring teams.", "chips": ["Goal", "Trade-offs", "Results"] },
-    { "title": "Impact metrics", "body": "Measured outcomes tied to design work.", "chips": ["Conversion", "Retention", "Efficiency"] }
-  ] %}
-  {% set roleScoreTitle = "Design signal scorecard" %}
-  {% set roleScore = [
-    { "label": "Portfolio narrative", "value": "Primary signal" },
-    { "label": "Product impact", "value": "Proof signal" },
-    { "label": "Collaboration scope", "value": "Level signal" }
-  ] %}
-{% elif roleKey == "em" %}
-  {% set roleHomeTitle = "Engineering manager signal at the right scope" %}
-  {% set roleHomeBody = "We position team leadership, delivery systems, and org impact." %}
-  {% set roleHomeBullets = ["People leadership", "Delivery systems", "Org-level impact"] %}
-  {% set roleStackTitle = "EM stack" %}
-  {% set roleStack = ["Team health", "Execution cadence", "Stakeholder management", "Hiring + org design"] %}
-  {% set roleLoopItems = ["Leadership scope map", "Executive narrative build", "Leadership interview prep"] %}
-  {% set roleArtifactsTitle = "Artifacts for EM roles" %}
-  {% set roleArtifacts = [
-    { "title": "Leadership scope map", "tag": "Scope", "body": "Span, impact, and org outcomes.", "bullets": ["Team size", "Roadmap", "Impact"] },
-    { "title": "Operating system", "tag": "Execution", "body": "Cadence, rituals, and delivery signal.", "bullets": ["Planning", "Metrics", "Retros"] },
-    { "title": "Org impact narrative", "tag": "Leadership", "body": "Decisions that moved the org.", "bullets": ["Trade-offs", "Results", "Influence"] }
-  ] %}
-  {% set roleMetricsTitle = "EM outcomes we target" %}
-  {% set roleMetrics = [
-    { "value": "Leadership scope", "label": "Team + org impact" },
-    { "value": "Delivery signal", "label": "Execution cadence clarity" },
-    { "value": "Hiring signal", "label": "Org design readiness" }
-  ] %}
-  {% set rolePreviewsTitle = "EM preview kit" %}
-  {% set rolePreviews = [
-    { "title": "Leadership scope map", "body": "Span, outcomes, and impact.", "chips": ["Team size", "Roadmap", "Impact"] },
-    { "title": "Operating system", "body": "Cadence that shows scale.", "chips": ["Planning", "Metrics", "Retros"] },
-    { "title": "Org impact story", "body": "Decisions tied to outcomes.", "chips": ["Trade-offs", "Results", "Influence"] }
-  ] %}
-  {% set roleScoreTitle = "EM signal scorecard" %}
-  {% set roleScore = [
-    { "label": "Leadership scope", "value": "Primary signal" },
-    { "label": "Delivery systems", "value": "Proof signal" },
-    { "label": "Org influence", "value": "Level signal" }
-  ] %}
-{% elif roleKey == "security" %}
-  {% set roleHomeTitle = "Security roles with clear risk signal" %}
-  {% set roleHomeBody = "We translate security work into risk reduction, compliance, and business protection." %}
-  {% set roleHomeBullets = ["Risk framing", "Security scope", "Incident response leadership"] %}
-  {% set roleStackTitle = "Security stack" %}
-  {% set roleStack = ["Threat modeling", "GRC", "Security engineering", "Incident response", "Policy design"] %}
-  {% set roleLoopItems = ["Role + risk scope", "Signal assets", "Scenario + leadership prep"] %}
-  {% set roleArtifactsTitle = "Artifacts for security roles" %}
-  {% set roleArtifacts = [
-    { "title": "Risk narrative", "tag": "GRC", "body": "Translate security work to business risk.", "bullets": ["Threats", "Controls", "Impact"] },
-    { "title": "Incident response story", "tag": "IR", "body": "Lead incident narrative with outcomes.", "bullets": ["Detection", "Response", "Recovery"] },
-    { "title": "Control impact map", "tag": "Signal", "body": "How controls changed posture.", "bullets": ["Coverage", "Gaps", "Results"] }
-  ] %}
-  {% set roleMetricsTitle = "Security outcomes we target" %}
-  {% set roleMetrics = [
-    { "value": "Risk signal", "label": "Business risk framing" },
-    { "value": "Incident leadership", "label": "Response + recovery clarity" },
-    { "value": "Control impact", "label": "Posture improvements" }
-  ] %}
-  {% set rolePreviewsTitle = "Security preview kit" %}
-  {% set rolePreviews = [
-    { "title": "Risk narrative", "body": "Risk → control → outcome story.", "chips": ["Threats", "Controls", "Impact"] },
-    { "title": "IR story map", "body": "Incident response leadership.", "chips": ["Detection", "Response", "Recovery"] },
-    { "title": "Control impact map", "body": "Security posture changes.", "chips": ["Coverage", "Gaps", "Results"] }
-  ] %}
-  {% set roleScoreTitle = "Security signal scorecard" %}
-  {% set roleScore = [
-    { "label": "Risk framing", "value": "Primary signal" },
-    { "label": "Incident leadership", "value": "Decision signal" },
-    { "label": "Control impact", "value": "Proof signal" }
-  ] %}
-{% elif roleKey == "ai" %}
-  {% set roleHomeTitle = "AI/ML roles with applied impact" %}
-  {% set roleHomeBody = "We frame models and pipelines in terms of business outcomes and deployment scope." %}
-  {% set roleHomeBullets = ["Model impact", "Production readiness", "Data + infra scope"] %}
-  {% set roleStackTitle = "AI/ML stack" %}
-  {% set roleStack = ["Modeling", "MLOps", "Experimentation", "Data pipelines", "Deployment impact"] %}
-  {% set roleLoopItems = ["Role + research/applied split", "Signal assets + case framing", "Technical + behavioral prep"] %}
-  {% set roleArtifactsTitle = "Artifacts for AI/ML roles" %}
-  {% set roleArtifacts = [
-    { "title": "Model impact brief", "tag": "Impact", "body": "Tie model performance to business outcomes.", "bullets": ["KPIs", "Lift", "Trade-offs"] },
-    { "title": "MLOps readiness", "tag": "Production", "body": "Show deployment and monitoring scope.", "bullets": ["Pipelines", "Monitoring", "Retraining"] },
-    { "title": "Applied vs research map", "tag": "Positioning", "body": "Clarify your target track.", "bullets": ["Scope", "Depth", "Outcomes"] }
-  ] %}
-  {% set roleMetricsTitle = "AI/ML outcomes we target" %}
-  {% set roleMetrics = [
-    { "value": "Model impact", "label": "Business outcomes" },
-    { "value": "Production signal", "label": "MLOps readiness" },
-    { "value": "Data scope", "label": "Pipeline ownership" }
-  ] %}
-  {% set rolePreviewsTitle = "AI/ML preview kit" %}
-  {% set rolePreviews = [
-    { "title": "Model impact brief", "body": "Performance tied to outcomes.", "chips": ["Lift", "KPIs", "Trade-offs"] },
-    { "title": "MLOps scope map", "body": "Deployment and monitoring signal.", "chips": ["Pipelines", "Monitoring", "Retraining"] },
-    { "title": "Track positioning", "body": "Applied vs research clarity.", "chips": ["Scope", "Depth", "Impact"] }
-  ] %}
-  {% set roleScoreTitle = "AI/ML signal scorecard" %}
-  {% set roleScore = [
-    { "label": "Model impact", "value": "Primary signal" },
-    { "label": "Production readiness", "value": "Level signal" },
-    { "label": "Data scope", "value": "Proof signal" }
-  ] %}
-{% elif roleKey == "qa" %}
-  {% set roleHomeTitle = "QA roles with automation and quality signal" %}
-  {% set roleHomeBody = "We position quality strategy, automation scope, and reliability impact." %}
-  {% set roleHomeBullets = ["Automation scope", "Quality strategy", "Reliability outcomes"] %}
-  {% set roleStackTitle = "QA stack" %}
-  {% set roleStack = ["Test automation", "CI/CD quality gates", "Test strategy", "Defect metrics", "Reliability"] %}
-  {% set roleLoopItems = ["Role + automation scope", "Signal assets", "Scenario + process prep"] %}
-  {% set roleArtifactsTitle = "Artifacts for QA roles" %}
-  {% set roleArtifacts = [
-    { "title": "Automation coverage map", "tag": "Automation", "body": "Coverage and gaps made visible.", "bullets": ["E2E", "Integration", "Unit"] },
-    { "title": "Quality strategy brief", "tag": "Strategy", "body": "How quality is managed at scale.", "bullets": ["Gates", "Metrics", "Risk"] },
-    { "title": "Defect impact story", "tag": "Impact", "body": "Reliability and business outcomes.", "bullets": ["Severity", "Cost", "Prevention"] }
-  ] %}
-  {% set roleMetricsTitle = "QA outcomes we target" %}
-  {% set roleMetrics = [
-    { "value": "Automation signal", "label": "Coverage at scale" },
-    { "value": "Quality strategy", "label": "Gates + metrics clarity" },
-    { "value": "Reliability impact", "label": "Defect prevention" }
-  ] %}
-  {% set rolePreviewsTitle = "QA preview kit" %}
-  {% set rolePreviews = [
-    { "title": "Coverage map", "body": "Automation scope and gaps.", "chips": ["E2E", "Integration", "Unit"] },
-    { "title": "Quality strategy", "body": "Process signal at scale.", "chips": ["Gates", "Metrics", "Risk"] },
-    { "title": "Defect impact", "body": "Business outcomes from quality work.", "chips": ["Severity", "Cost", "Prevention"] }
-  ] %}
-  {% set roleScoreTitle = "QA signal scorecard" %}
-  {% set roleScore = [
-    { "label": "Automation scope", "value": "Primary signal" },
-    { "label": "Quality strategy", "value": "Level signal" },
-    { "label": "Reliability impact", "value": "Proof signal" }
-  ] %}
-{% elif roleKey == "tp" or roleKey == "ppm" %}
-  {% set roleHomeTitle = "Program leadership that reads at scale" %}
-  {% set roleHomeBody = "We highlight planning, execution cadence, and cross-org influence." %}
-  {% set roleHomeBullets = ["Program scope", "Stakeholder orchestration", "Delivery signal"] %}
-  {% set roleStackTitle = "Program stack" %}
-  {% set roleStack = ["Roadmaps", "Milestones", "Risk management", "Cross-functional alignment", "Executive reporting"] %}
-  {% set roleLoopItems = ["Program scope map", "Signal assets", "Scenario + leadership prep"] %}
-  {% set roleArtifactsTitle = "Artifacts for program roles" %}
-  {% set roleArtifacts = [
-    { "title": "Program charter", "tag": "Scope", "body": "Clear goals, owners, and milestones.", "bullets": ["Objectives", "Timeline", "Owners"] },
-    { "title": "Risk narrative", "tag": "RAID", "body": "Risk and dependency management story.", "bullets": ["Risks", "Mitigations", "Status"] },
-    { "title": "Exec update", "tag": "Leadership", "body": "Concise status and decisions.", "bullets": ["Progress", "Blockers", "Next steps"] }
-  ] %}
-  {% set roleMetricsTitle = "Program outcomes we target" %}
-  {% set roleMetrics = [
-    { "value": "Delivery signal", "label": "Milestones + cadence" },
-    { "value": "Risk control", "label": "RAID clarity" },
-    { "value": "Executive trust", "label": "Stakeholder alignment" }
-  ] %}
-  {% set rolePreviewsTitle = "Program preview kit" %}
-  {% set rolePreviews = [
-    { "title": "Program charter", "body": "Scope and objectives at a glance.", "chips": ["Objectives", "Timeline", "Owners"] },
-    { "title": "Risk narrative", "body": "RAID and mitigation story.", "chips": ["Risks", "Mitigations", "Status"] },
-    { "title": "Exec update", "body": "Concise leadership report.", "chips": ["Progress", "Blockers", "Decisions"] }
-  ] %}
-  {% set roleScoreTitle = "Program signal scorecard" %}
-  {% set roleScore = [
-    { "label": "Delivery cadence", "value": "Primary signal" },
-    { "label": "Risk management", "value": "Proof signal" },
-    { "label": "Executive alignment", "value": "Level signal" }
-  ] %}
-{% elif roleKey == "cs" %}
-  {% set roleHomeTitle = "Customer success with retention signal" %}
-  {% set roleHomeBody = "We frame renewal impact, account growth, and customer outcomes." %}
-  {% set roleHomeBullets = ["Retention impact", "Expansion strategy", "Customer health metrics"] %}
-  {% set roleStackTitle = "CS stack" %}
-  {% set roleStack = ["Renewals", "QBRs", "Adoption strategy", "Customer health", "Escalation leadership"] %}
-  {% set roleLoopItems = ["Role + account scope", "Signal assets", "Scenario + stakeholder prep"] %}
-  {% set roleArtifactsTitle = "Artifacts for CS roles" %}
-  {% set roleArtifacts = [
-    { "title": "Renewal impact map", "tag": "Retention", "body": "Show retention and expansion wins.", "bullets": ["Renewal rate", "Expansion", "Churn risk"] },
-    { "title": "QBR narrative", "tag": "Story", "body": "Account story tied to outcomes.", "bullets": ["Goals", "Results", "Next steps"] },
-    { "title": "Customer health plan", "tag": "Signal", "body": "Metrics and interventions.", "bullets": ["Health score", "Triggers", "Actions"] }
-  ] %}
-  {% set roleMetricsTitle = "CS outcomes we target" %}
-  {% set roleMetrics = [
-    { "value": "Retention signal", "label": "Renewal clarity" },
-    { "value": "Expansion impact", "label": "Growth narrative" },
-    { "value": "Customer health", "label": "Risk management" }
-  ] %}
-  {% set rolePreviewsTitle = "CS preview kit" %}
-  {% set rolePreviews = [
-    { "title": "Renewal map", "body": "Retention and expansion wins.", "chips": ["Renewal", "Expansion", "Churn risk"] },
-    { "title": "QBR narrative", "body": "Account story tied to outcomes.", "chips": ["Goals", "Results", "Next steps"] },
-    { "title": "Health plan", "body": "Metrics + interventions.", "chips": ["Scores", "Triggers", "Actions"] }
-  ] %}
-  {% set roleScoreTitle = "CS signal scorecard" %}
-  {% set roleScore = [
-    { "label": "Retention impact", "value": "Primary signal" },
-    { "label": "Expansion growth", "value": "Proof signal" },
-    { "label": "Customer health", "value": "Level signal" }
-  ] %}
-{% elif roleKey == "se" %}
-  {% set roleHomeTitle = "Sales engineering that converts" %}
-  {% set roleHomeBody = "We position technical depth, deal influence, and customer problem solving." %}
-  {% set roleHomeBullets = ["Technical depth", "Deal influence", "Storytelling for buyers"] %}
-  {% set roleStackTitle = "SE stack" %}
-  {% set roleStack = ["Discovery", "Demos", "POCs", "ROI framing", "Stakeholder influence"] %}
-  {% set roleLoopItems = ["Role + territory scope", "Signal assets", "Demo + scenario prep"] %}
-  {% set roleArtifactsTitle = "Artifacts for SE roles" %}
-  {% set roleArtifacts = [
-    { "title": "Demo narrative", "tag": "Pre‑sales", "body": "A story that connects value to product.", "bullets": ["Discovery", "Value", "Objections"] },
-    { "title": "ROI framing sheet", "tag": "Value", "body": "Quantify outcomes for buyers.", "bullets": ["Cost", "Savings", "Impact"] },
-    { "title": "Stakeholder map", "tag": "Influence", "body": "Who matters and why.", "bullets": ["Champion", "Economic buyer", "Risk"] }
-  ] %}
-  {% set roleMetricsTitle = "SE outcomes we target" %}
-  {% set roleMetrics = [
-    { "value": "Deal influence", "label": "Pre‑sales impact" },
-    { "value": "Technical signal", "label": "Depth + clarity" },
-    { "value": "ROI framing", "label": "Value storytelling" }
-  ] %}
-  {% set rolePreviewsTitle = "SE preview kit" %}
-  {% set rolePreviews = [
-    { "title": "Demo narrative", "body": "Story that connects value to product.", "chips": ["Discovery", "Value", "Objections"] },
-    { "title": "ROI sheet", "body": "Quantified value framing.", "chips": ["Savings", "Impact", "Cost"] },
-    { "title": "Stakeholder map", "body": "Decision-makers and risks.", "chips": ["Champion", "Buyer", "Risk"] }
-  ] %}
-  {% set roleScoreTitle = "SE signal scorecard" %}
-  {% set roleScore = [
-    { "label": "Demo narrative", "value": "Primary signal" },
-    { "label": "Technical depth", "value": "Proof signal" },
-    { "label": "Deal influence", "value": "Level signal" }
-  ] %}
-{% elif roleKey == "sa" %}
-  {% set roleHomeTitle = "Solutions architecture with system impact" %}
-  {% set roleHomeBody = "We frame architectural decisions, trade-offs, and business outcomes." %}
-  {% set roleHomeBullets = ["Architecture signal", "Trade-off decisions", "Business impact"] %}
-  {% set roleStackTitle = "SA stack" %}
-  {% set roleStack = ["Architecture design", "Cloud systems", "Stakeholder alignment", "Migration strategy", "Security + scale"] %}
-  {% set roleLoopItems = ["Role + system scope", "Signal assets", "Architecture + leadership prep"] %}
-  {% set roleArtifactsTitle = "Artifacts for solutions architects" %}
-  {% set roleArtifacts = [
-    { "title": "Architecture decision record", "tag": "ADR", "body": "Trade-offs and rationale in one view.", "bullets": ["Constraints", "Decision", "Impact"] },
-    { "title": "Migration plan", "tag": "Strategy", "body": "Scope and sequencing for migration.", "bullets": ["Phases", "Risks", "Mitigations"] },
-    { "title": "System trade-off map", "tag": "Signal", "body": "Show judgment and scale.", "bullets": ["Performance", "Cost", "Security"] }
-  ] %}
-  {% set roleMetricsTitle = "SA outcomes we target" %}
-  {% set roleMetrics = [
-    { "value": "Architecture signal", "label": "Trade-off clarity" },
-    { "value": "Scale impact", "label": "System scope" },
-    { "value": "Stakeholder trust", "label": "Business alignment" }
-  ] %}
-  {% set rolePreviewsTitle = "SA preview kit" %}
-  {% set rolePreviews = [
-    { "title": "ADR summary", "body": "Trade-offs and rationale.", "chips": ["Constraints", "Decision", "Impact"] },
-    { "title": "Migration plan", "body": "Phases and risk controls.", "chips": ["Phases", "Risks", "Mitigations"] },
-    { "title": "Trade-off map", "body": "Scale and security decisions.", "chips": ["Performance", "Cost", "Security"] }
-  ] %}
-  {% set roleScoreTitle = "SA signal scorecard" %}
-  {% set roleScore = [
-    { "label": "Architecture trade-offs", "value": "Primary signal" },
-    { "label": "Scale impact", "value": "Proof signal" },
-    { "label": "Stakeholder alignment", "value": "Level signal" }
-  ] %}
-{% elif roleKey == "pops" %}
-  {% set roleHomeTitle = "Product ops that accelerates teams" %}
-  {% set roleHomeBody = "We highlight systems thinking, process design, and product enablement." %}
-  {% set roleHomeBullets = ["Process clarity", "Product enablement", "Cross-functional leverage"] %}
-  {% set roleStackTitle = "Product ops stack" %}
-  {% set roleStack = ["Process design", "Metrics ops", "Tooling", "Stakeholder alignment", "Roadmap support"] %}
-  {% set roleLoopItems = ["Role + scope map", "Signal assets", "Scenario + ops prep"] %}
-  {% set roleArtifactsTitle = "Artifacts for product ops" %}
-  {% set roleArtifacts = [
-    { "title": "Process enablement map", "tag": "Ops", "body": "How you remove friction for teams.", "bullets": ["Workflows", "Tooling", "Metrics"] },
-    { "title": "Metrics cadence", "tag": "Signal", "body": "Operating rhythm and reporting.", "bullets": ["KPIs", "Cadence", "Insights"] },
-    { "title": "Enablement plan", "tag": "Impact", "body": "Roadmap support and outcomes.", "bullets": ["Alignment", "Execution", "Results"] }
-  ] %}
-  {% set roleMetricsTitle = "Product ops outcomes we target" %}
-  {% set roleMetrics = [
-    { "value": "Enablement signal", "label": "Process leverage" },
-    { "value": "Ops clarity", "label": "Metrics + tooling" },
-    { "value": "Team velocity", "label": "Execution impact" }
-  ] %}
-  {% set rolePreviewsTitle = "Product ops preview kit" %}
-  {% set rolePreviews = [
-    { "title": "Process map", "body": "Workflows that remove friction.", "chips": ["Workflow", "Tooling", "Metrics"] },
-    { "title": "Metrics cadence", "body": "Operating rhythm and insights.", "chips": ["KPIs", "Cadence", "Insights"] },
-    { "title": "Enablement plan", "body": "Support that accelerates teams.", "chips": ["Alignment", "Execution", "Results"] }
-  ] %}
-  {% set roleScoreTitle = "Product ops signal scorecard" %}
-  {% set roleScore = [
-    { "label": "Process leverage", "value": "Primary signal" },
-    { "label": "Enablement impact", "value": "Proof signal" },
-    { "label": "Ops clarity", "value": "Level signal" }
-  ] %}
-{% endif %}
+{# CRO-Optimized Role Page Template #}
+{# Streamlined for maximum conversion following Executive Summary principles #}
 
 <div class="role-page" style="--role-accent: {{ page.visual.accent }}; --role-accent-2: {{ page.visual.accent2 }};">
-<section class="role-hero role-theme-{{ roleKey }}">
-  <div class="container role-hero-grid">
-    <div class="role-hero-copy">
+
+{# HERO SECTION - Benefit-focused with trust signals #}
+<section class="hero hero-role">
+  <div class="container hero-role-grid">
+    <div class="hero-role-content">
       {% if page.eyebrow %}<p class="hero-eyebrow">{{ page.eyebrow }}</p>{% endif %}
-      <h1 class="role-hero-title">{{ page.h1 }}</h1>
-      {% if page.subtitle %}<p class="role-hero-subtitle">{{ page.subtitle }}</p>{% endif %}
-      {% if page.supporting %}<p class="role-hero-supporting">{{ page.supporting }}</p>{% endif %}
+
+      <h1 class="hero-headline-cro">{{ page.h1 }}</h1>
+
+      {% if page.subtitle %}<p class="hero-subheadline-cro">{{ page.subtitle }}</p>{% endif %}
+
       {% if page.highlights and page.highlights.length %}
-      <div class="role-hero-chips">
+      <ul class="hero-benefits-cro">
         {% for item in page.highlights %}
-          <span>{{ item }}</span>
-        {% endfor %}
-      </div>
-      {% endif %}
-      <div class="role-hero-cta">
-        <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
-        {% if page.secondaryCtaLabel %}
-          <a class="btn btn-ghost" href="{{ page.secondaryCtaLink }}">{{ page.secondaryCtaLabel }}</a>
-        {% endif %}
-      </div>
-      {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
-    </div>
-    <div class="role-hero-canvas">
-      <div class="role-hero-graphic">
-        {{ roleIcon(roleKey) }}
-        <span>{{ page.heroLabel or "Role track" }}</span>
-      </div>
-      {% if page.heroCard %}
-      <div class="role-hero-card">
-        <strong>{{ page.heroCard.title }}</strong>
-        {% if page.heroCard.body %}<p>{{ page.heroCard.body }}</p>{% endif %}
-        {% if page.heroCard.bullets and page.heroCard.bullets.length %}
-          <ul>
-            {% for item in page.heroCard.bullets %}
-              <li>{{ item }}</li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-        {% if roleBadges %}
-        <div class="role-hero-badges">
-          {% for item in roleBadges %}
-            <span>{{ item }}</span>
-          {% endfor %}
-        </div>
-        {% endif %}
-      </div>
-      {% endif %}
-      {% if page.proof and page.proof.items %}
-      <div class="role-hero-stats">
-        {% for item in page.proof.items %}
-          <div class="role-hero-stat">
-            <strong>{{ item.title }}</strong>
-            <span>{{ item.body }}</span>
-          </div>
-        {% endfor %}
-      </div>
-      {% endif %}
-    </div>
-  </div>
-</section>
-
-<section class="section role-signal">
-  <div class="container">
-    <div class="pillar-header">
-      <p class="hero-eyebrow">Role signal</p>
-      <h2 class="section-title section-title-glow">{{ page.focus.title }}</h2>
-      {% if page.focus.subtitle %}<p class="section-subtitle">{{ page.focus.subtitle }}</p>{% endif %}
-    </div>
-    <div class="role-signal-grid">
-      {% for item in page.focus.items %}
-        <article class="role-signal-card">
-          <div class="role-signal-icon">{{ roleIcon(roleKey) }}</div>
-          <div>
-            <span>{{ item.tag }}</span>
-            <h3>{{ item.title }}</h3>
-            <p>{{ item.body }}</p>
-          </div>
-        </article>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="section role-home">
-  <div class="container role-home-grid">
-    <div class="role-home-copy">
-      <p class="hero-eyebrow">Role home base</p>
-      <h2 class="section-title section-title-glow">{{ roleHomeTitle }}</h2>
-      <p class="section-subtitle">{{ roleHomeBody }}</p>
-      <ul class="highlight-list">
-        {% for item in roleHomeBullets %}
           <li>{{ item }}</li>
         {% endfor %}
       </ul>
-    </div>
-    <div class="role-home-panels">
-      <div class="role-stack">
-        <strong>{{ roleStackTitle }}</strong>
-        <div class="role-stack-chips">
-          {% for item in roleStack %}
-            <span><span class="chip-icon">{{ roleIcon(roleKey) }}</span>{{ item }}</span>
-          {% endfor %}
-        </div>
+      {% endif %}
+
+      <div class="hero-cta-cro">
+        <a class="btn btn-primary btn-lg btn-glow" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or "Get My Free Strategy Session" }}</a>
+        <span class="hero-microcopy-cro">{{ page.ctaProof or "15 minutes. No sales pitch. Leave with a clear action plan." }}</span>
       </div>
-      <div class="role-loop">
-        <strong>{{ roleLoopTitle }}</strong>
-        {% for item in roleLoopItems %}
-          <div class="role-loop-item">{{ item }}</div>
+
+      <div class="hero-trust-cro">
+        <span class="hero-trust-rating-cro">★ 4.9/5 from 147+ professionals</span>
+      </div>
+
+      <p class="hero-urgency-cro" data-urgency>{{ page.ctaUrgency or "Only 4 spots left this week" }}</p>
+    </div>
+
+    <div class="hero-role-visual">
+      <div class="hero-stats-card">
+        {% if page.proof and page.proof.items %}
+          {% for item in page.proof.items %}
+            <div class="hero-stat-row">
+              <strong>{{ item.title }}</strong>
+              <span>{{ item.body }}</span>
+            </div>
+          {% endfor %}
+        {% else %}
+          <div class="hero-stat-row">
+            <strong>21 days</strong>
+            <span>avg. to first interview</span>
+          </div>
+          <div class="hero-stat-row">
+            <strong>$47K</strong>
+            <span>avg. salary increase</span>
+          </div>
+          <div class="hero-stat-row">
+            <strong>89%</strong>
+            <span>land offers in 60 days</span>
+          </div>
+        {% endif %}
+      </div>
+      <div class="hero-guarantee-badge">
+        <span>✓</span>
+        Leave with a clear action plan — guaranteed
+      </div>
+    </div>
+  </div>
+</section>
+
+{# SOCIAL PROOF BAR #}
+<section class="section section-tight">
+  <div class="container">
+    <div class="category-proof-bar">
+      <div class="proof-item">
+        <strong>147+</strong>
+        <span>professionals coached</span>
+      </div>
+      <div class="proof-item">
+        <strong>4.9★</strong>
+        <span>average rating</span>
+      </div>
+      <div class="proof-item">
+        <strong>89%</strong>
+        <span>land offers in 60 days</span>
+      </div>
+      <div class="proof-item">
+        <strong>$47K</strong>
+        <span>avg. salary increase</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# WHAT YOU GET - Simplified benefits #}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header" style="text-align: center;">
+      <p class="hero-eyebrow">{{ page.focus.eyebrow or "What You Get" }}</p>
+      <h2 class="section-title section-title-glow">{{ page.focus.title }}</h2>
+      {% if page.focus.subtitle %}<p class="section-subtitle">{{ page.focus.subtitle }}</p>{% endif %}
+    </div>
+    <div class="focus-grid">
+      {% for item in page.focus.items | slice(0, 3) %}
+        <article class="focus-card">
+          <span class="focus-tag">{{ item.tag }}</span>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.body }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# TESTIMONIALS - Social proof near CTA #}
+<section class="section section-testimonials">
+  <div class="container">
+    <div class="testimonials-header" style="text-align: center;">
+      <p class="hero-eyebrow">Success Stories</p>
+      <h2 class="section-title section-title-glow">People who made the leap</h2>
+      <div class="testimonials-summary">
+        <span class="testimonials-rating">★★★★★ 4.9/5</span>
+        <span>from 147+ professionals</span>
+      </div>
+    </div>
+    <div class="testimonials-carousel" data-testimonials-carousel>
+      <div class="testimonials-track" data-testimonials-track>
+        {% for item in testimonials.items | slice(0, 6) %}
+        <article class="testimonial-card-home" data-testimonial-card>
+          <div class="testimonial-card-header">
+            <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" loading="lazy" />
+            <div>
+              <strong>{{ item.name }}</strong>
+              <span>{{ item.role }}{% if item.company %} · {{ item.company }}{% endif %}</span>
+            </div>
+          </div>
+          <div class="testimonial-card-rating">★★★★★</div>
+          <p class="testimonial-card-quote">"{{ item.quote | truncate(180) }}"</p>
+        </article>
+        {% endfor %}
+        {% for item in testimonials.items | slice(0, 6) %}
+        <article class="testimonial-card-home" data-testimonial-card>
+          <div class="testimonial-card-header">
+            <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" loading="lazy" />
+            <div>
+              <strong>{{ item.name }}</strong>
+              <span>{{ item.role }}{% if item.company %} · {{ item.company }}{% endif %}</span>
+            </div>
+          </div>
+          <div class="testimonial-card-rating">★★★★★</div>
+          <p class="testimonial-card-quote">"{{ item.quote | truncate(180) }}"</p>
+        </article>
         {% endfor %}
       </div>
+      <div class="testimonials-focus-glow" aria-hidden="true"></div>
     </div>
   </div>
 </section>
 
-{% if roleArtifacts %}
-<section class="section role-artifacts">
+{# MID-PAGE CTA - Capture convinced visitors #}
+<section class="section section-mid-cta">
   <div class="container">
-    <div class="pillar-header">
-      <p class="hero-eyebrow">Artifacts</p>
-      <h2 class="section-title section-title-glow">{{ roleArtifactsTitle }}</h2>
-      <p class="section-subtitle">Concrete outputs you can reuse in interviews and recruiter screens.</p>
-    </div>
-    <div class="artifact-grid">
-      {% for item in roleArtifacts %}
-        <article class="artifact-card">
-          <div class="artifact-top">
-            <div class="artifact-icon">{{ roleIcon(roleKey) }}</div>
-            <strong>{{ item.title }}</strong>
-            <span>{{ item.tag }}</span>
-          </div>
-          <p>{{ item.body }}</p>
-          <ul>
-            {% for bullet in item.bullets %}
-              <li>{{ bullet }}</li>
-            {% endfor %}
-          </ul>
-        </article>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-{% endif %}
-
-{% if roleScore %}
-<section class="section role-score">
-  <div class="container">
-    <div class="pillar-header">
-      <p class="hero-eyebrow">Signal scorecard</p>
-      <h2 class="section-title section-title-glow">{{ roleScoreTitle }}</h2>
-      <p class="section-subtitle">How hiring teams evaluate this role.</p>
-    </div>
-    <div class="role-score-grid">
-      {% for item in roleScore %}
-        <div class="role-score-card">
-          <div class="role-score-icon">{{ roleIcon(roleKey) }}</div>
-          <div>
-            <strong>{{ item.label }}</strong>
-            <span>{{ item.value }}</span>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-{% endif %}
-
-{% if rolePreviews %}
-<section class="section role-previews">
-  <div class="container">
-    <div class="pillar-header">
-      <p class="hero-eyebrow">Preview</p>
-      <h2 class="section-title section-title-glow">{{ rolePreviewsTitle }}</h2>
-      <p class="section-subtitle">What the artifacts look like in practice.</p>
-    </div>
-    <div class="role-preview-grid">
-      {% for item in rolePreviews %}
-        <article class="role-preview-card">
-          <div class="preview-head">
-            <div class="preview-icon">{{ roleIcon(roleKey) }}</div>
-            <strong>{{ item.title }}</strong>
-          </div>
-          <p>{{ item.body }}</p>
-          <div class="preview-chips">
-            {% for chip in item.chips %}
-              <span>{{ chip }}</span>
-            {% endfor %}
-          </div>
-        </article>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-{% endif %}
-
-<section class="section section-soft">
-  <div class="container">
-    <div class="outcome-header">
-      <h2 class="section-title section-title-accent section-title-glow">{{ page.proof.title }}</h2>
-      {% if page.proof.subtitle %}<p class="section-subtitle">{{ page.proof.subtitle }}</p>{% endif %}
-    </div>
-    <div class="outcome-grid">
-      {% for item in page.proof.items %}
-        <div class="outcome-card">
-          <span class="outcome-number">{{ item.title }}</span>
-          <p>{{ item.body }}</p>
-        </div>
-      {% endfor %}
+    <div class="mid-cta-band">
+      <div class="mid-cta-content">
+        <h3>Ready to accelerate your career?</h3>
+        <p>Book a free strategy call and leave with a clear action plan.</p>
+      </div>
+      <a class="btn btn-primary btn-lg btn-glow" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or "Book My Free Strategy Call" }}</a>
     </div>
   </div>
 </section>
 
-{% if roleMetrics %}
-<section class="section role-metrics">
-  <div class="container">
-    <div class="pillar-header">
-      <p class="hero-eyebrow">Outcomes</p>
-      <h2 class="section-title section-title-glow">{{ roleMetricsTitle }}</h2>
-      <p class="section-subtitle">Signals that show up in recruiter response and interviews.</p>
-    </div>
-    <div class="role-metric-grid">
-      {% for item in roleMetrics %}
-        <div class="role-metric-card">
-          <strong>{{ item.value }}</strong>
-          <span>{{ item.label }}</span>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-{% endif %}
-
+{# HOW IT WORKS - Simple 3-step process #}
 <section class="section">
-  <div class="container role-journey">
-    <div>
-      <h2 class="section-title section-title-glow">{{ page.steps.title }}</h2>
-      {% if page.steps.subtitle %}<p class="section-subtitle">{{ page.steps.subtitle }}</p>{% endif %}
+  <div class="container">
+    <div class="pillar-header" style="text-align: center;">
+      <p class="hero-eyebrow">How It Works</p>
+      <h2 class="section-title section-title-glow">{{ page.steps.title or "From stuck to hired in 3 steps" }}</h2>
     </div>
-    <div class="role-journey-steps">
-      {% for step in page.steps.items %}
-        <div class="journey-step">
-          <span>0{{ loop.index }}</span>
-          <h4>{{ step.title }}</h4>
+    <div class="category-process">
+      {% for step in page.steps.items | slice(0, 3) %}
+        <div class="process-step">
+          <div class="process-number">{{ loop.index }}</div>
+          <h3>{{ step.title }}</h3>
           <p>{{ step.body }}</p>
         </div>
+        {% if not loop.last %}<div class="process-connector" aria-hidden="true"></div>{% endif %}
       {% endfor %}
     </div>
   </div>
 </section>
 
-<section class="section">
+{# DELIVERABLES - What you'll get #}
+{% if page.deliverables %}
+<section class="section section-soft">
   <div class="container">
-    <div class="pillar-header">
+    <div class="pillar-header" style="text-align: center;">
       <p class="hero-eyebrow">Deliverables</p>
       <h2 class="section-title section-title-glow">{{ page.deliverables.title }}</h2>
       {% if page.deliverables.subtitle %}<p class="section-subtitle">{{ page.deliverables.subtitle }}</p>{% endif %}
     </div>
-    <div class="service-stack">
+    <div class="role-category-grid-enhanced">
       {% for item in page.deliverables.items %}
-        <div class="service-tile">
-          <div class="service-header">
-            <h3>{{ item.title }}</h3>
-            {% if item.tag %}<span class="service-tag">{{ item.tag }}</span>{% endif %}
+        <div class="role-card-enhanced" style="display: block; cursor: default;">
+          <div class="role-card-content">
+            <strong>{{ item.title }}</strong>
+            <p style="margin-top: 8px; color: var(--muted); font-size: 0.9rem;">{{ item.body }}</p>
           </div>
-          <p>{{ item.body }}</p>
-          {% if item.bullets and item.bullets.length %}
-          <ul>
-            {% for bullet in item.bullets %}
-              <li>{{ bullet }}</li>
-            {% endfor %}
-          </ul>
-          {% endif %}
         </div>
       {% endfor %}
     </div>
   </div>
 </section>
+{% endif %}
 
+{# COACH SECTION - Build trust #}
+<section class="section">
+  <div class="container">
+    <div class="category-coach-preview">
+      <img src="/assets/steve-headshot.jpg" alt="Steve, Askia Career Coach" class="category-coach-photo" />
+      <div class="category-coach-content">
+        <p class="hero-eyebrow">Your Coach</p>
+        <h3 class="section-title">Steve knows your field</h3>
+        <p>10+ years leading teams across tech companies. Hundreds of professionals coached into roles at Google, Amazon, Meta, and high-growth startups. I've sat on the other side of the table — I know exactly what makes someone stand out.</p>
+        <div class="category-coach-stats">
+          <span><strong>10+</strong> years experience</span>
+          <span><strong>147+</strong> professionals coached</span>
+          <span><strong>$47K</strong> avg. raise negotiated</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# WHO THIS IS FOR / NOT FOR #}
 <section class="section">
   <div class="container services-preview">
     <div class="card card-soft">
@@ -900,17 +257,7 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container card">
-    <h2 class="section-title">{{ page.related.title }}</h2>
-    <p class="section-subtitle">{{ page.related.body }}</p>
-    <div class="hero-cta">
-      <a class="btn btn-primary" href="{{ page.related.primaryLink }}">{{ page.related.primaryLabel }}</a>
-      <a class="btn btn-ghost" href="{{ page.related.secondaryLink }}">{{ page.related.secondaryLabel }}</a>
-    </div>
-  </div>
-</section>
-
+{# FAQ - Handle objections #}
 <section class="section">
   <div class="container faq-stage">
     <div class="faq-header">
@@ -928,14 +275,54 @@
   </div>
 </section>
 
-
-<section class="section">
-  <div class="container cta-band">
-    <div>
-      <h2 class="section-title">{{ page.cta.title }}</h2>
-      <p class="section-subtitle">{{ page.cta.body }}</p>
+{# FINAL CTA - With testimonial and urgency #}
+<section class="section section-cta-final">
+  <div class="container">
+    {% if page.related and page.related.miniTestimonial %}
+    <div class="cta-testimonial-mini">
+      <p>"{{ page.related.miniTestimonial.quote }}"</p>
+      <span>★★★★★ — {{ page.related.miniTestimonial.name }}, {{ page.related.miniTestimonial.role }}</span>
     </div>
-    <a class="btn btn-primary" href="{{ page.cta.link or site.cta.link }}">{{ page.cta.label or site.cta.label }}</a>
+    {% else %}
+    <div class="cta-testimonial-mini">
+      <p>"Within 3 weeks I had 4 interviews lined up. Steve completely changed how I talk about my work."</p>
+      <span>★★★★★ — Marcus T., Senior Engineer → Staff at FAANG</span>
+    </div>
+    {% endif %}
+    <div class="cta-band">
+      <div>
+        <h2 class="section-title">{{ page.cta.title }}</h2>
+        <p class="section-subtitle">{{ page.cta.body }}</p>
+        <p class="cta-proof">Join 147+ professionals who've accelerated their careers</p>
+      </div>
+      <div class="cta-action">
+        <a class="btn btn-primary btn-lg btn-glow" href="{{ page.cta.link or site.cta.link }}">{{ page.cta.label or "Claim My Free Strategy Session" }}</a>
+        <span class="cta-urgency" data-urgency>Only 4 spots left this week</span>
+        <span class="cta-guarantee">✓ Leave with a clear action plan or get a second session free</span>
+      </div>
+    </div>
   </div>
 </section>
+
 </div>
+
+{% if page.faq and page.faq.items %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in page.faq.items %}
+    {
+      "@type": "Question",
+      "name": "{{ item.question | escape }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ item.answer | escape }}"
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
