@@ -35,6 +35,11 @@ body {
   .section {
     overflow-x: hidden;
   }
+
+  .section-home-pillars,
+  .section-focus-mobile-hide {
+    display: none;
+  }
 }
 
 body.assessment-focus {
@@ -3369,7 +3374,7 @@ a {
     grid-template-columns: 1fr;
     position: sticky;
     top: calc(88px + (var(--magnet-index) * 12px));
-    z-index: calc(120 + var(--magnet-index));
+    z-index: calc(200 - var(--magnet-index));
   }
 }
 
@@ -3387,7 +3392,7 @@ a {
     gap: 16px;
     position: sticky;
     top: calc(84px + (var(--magnet-index) * 10px));
-    z-index: calc(120 + var(--magnet-index));
+    z-index: calc(200 - var(--magnet-index));
     padding-bottom: 48px;
   }
 
