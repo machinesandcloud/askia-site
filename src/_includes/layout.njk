@@ -1128,6 +1128,7 @@
         const carousels = Array.from(document.querySelectorAll('[data-testimonials-carousel]'));
         if (!carousels.length) return;
         if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        if (window.matchMedia('(max-width: 768px)').matches) return;
 
         carousels.forEach((carousel) => {
           const track = carousel.querySelector('[data-testimonials-track]');

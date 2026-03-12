@@ -3364,19 +3364,19 @@ a {
   }
 
   .lead-magnets-list {
-    padding-bottom: 140px;
+    padding-bottom: 32px;
   }
 
   .lead-magnet-card {
     padding: 18px;
     gap: 16px;
-    position: sticky;
-    top: calc(84px + (var(--magnet-index) * 10px));
-    z-index: calc(120 + var(--magnet-index));
+    position: relative;
+    top: auto;
+    z-index: 1;
   }
 
   .lead-magnet-card + .lead-magnet-card {
-    margin-top: -8px;
+    margin-top: 0;
   }
 
   .lead-magnet-cover img {

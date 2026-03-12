@@ -1,6 +1,6 @@
 {
   "landNextRole": {
-    "eyebrow": "For $150K–$350K professionals",
+    "eyebrow": "For $150K\u2013$350K professionals",
     "titleLead": "Land interviews in 3 weeks.",
     "titleEmphasis": "Negotiate $40K+ more.",
     "titleTail": "",
@@ -14,7 +14,7 @@
     ],
     "ctaLabel": "Claim My Free Strategy Session",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "15 minutes. No sales pitch. Leave with a clear action plan — guaranteed.",
+    "ctaProof": "15 minutes. No sales pitch. Leave with a clear action plan \u2014 guaranteed.",
     "ctaUrgency": "Only 4 spots left this week",
     "ctaRating": "4.9",
     "ctaRatingCount": "147+",
@@ -112,16 +112,33 @@
     },
     "testimonials": {
       "title": "People like you. Real stories.",
-      "subtitle": "Engineers, PMs, finance leaders, marketers — they all felt stuck until something clicked.",
+      "subtitle": "Engineers, PMs, finance leaders, marketers \u2014 they all felt stuck until something clicked.",
       "sticky": true,
-      "indexes": [1, 3, 4, 6, 8, 19, 0, 2, 5, 7, 9, 10, 11, 12, 13, 14]
+      "indexes": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        19,
+        0,
+        2,
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
     },
     "coach": {
       "eyebrow": "Who you'll work with",
       "name": "Steve J. Ngoumnai",
       "role": "Founder, Head Career Coach",
       "photo": "/assets/team/steve-2026.jpg",
-      "bio": "I spent over a decade as an engineering leader, building teams and making hiring decisions. I've reviewed thousands of resumes and interviewed hundreds of candidates. I know exactly what makes someone memorable — and what gets them passed over. Now I help talented professionals stop being invisible and start landing the roles they deserve.",
+      "bio": "I spent over a decade as an engineering leader, building teams and making hiring decisions. I've reviewed thousands of resumes and interviewed hundreds of candidates. I know exactly what makes someone memorable \u2014 and what gets them passed over. Now I help talented professionals stop being invisible and start landing the roles they deserve.",
       "bullets": [
         "Former engineering leader",
         "Hiring experience across every level",
@@ -209,7 +226,7 @@
       ],
       "note": "This isn't a sales call. I only take clients I know I can help. If that's not you, I'll tell you.",
       "urgency": "Only 4 strategy sessions available this week",
-      "guarantee": "Leave with clarity — or get a second session free."
+      "guarantee": "Leave with clarity \u2014 or get a second session free."
     },
     "whyNow": {
       "eyebrow": "The cost of waiting",
@@ -217,7 +234,7 @@
       "items": [
         {
           "title": "Missed interviews",
-          "body": "The roles you want are being filled right now — by people who invested in themselves."
+          "body": "The roles you want are being filled right now \u2014 by people who invested in themselves."
         },
         {
           "title": "Lowball offers",
@@ -288,7 +305,7 @@
       "title": "The investment",
       "subtitle": "Most clients recover their investment 40x over through better compensation.",
       "items": [
-        "Our average client negotiates $47K more — that's a 47x return on some of of our packages",
+        "Our average client negotiates $47K more \u2014 that's a 47x return on some of our packages",
         "Clear scope and timeline after your strategy call",
         "No surprises, no upsells, no pressure"
       ],
@@ -300,7 +317,7 @@
       "items": [
         "100% of strategy call clients leave with an action plan",
         "If we can't help, we'll tell you exactly who can",
-        "No pushy sales tactics — ever"
+        "No pushy sales tactics \u2014 ever"
       ]
     },
     "related": {
@@ -313,7 +330,7 @@
       "miniTestimonial": {
         "quote": "Within 3 weeks I had 4 interviews lined up. Steve completely changed how I talk about my work.",
         "name": "Marcus T.",
-        "role": "Senior Engineer → Staff at FAANG",
+        "role": "Senior Engineer \u2192 Staff at FAANG",
         "rating": 5
       }
     },
@@ -323,7 +340,7 @@
       "items": [
         {
           "question": "What types of roles do you help with?",
-          "answer": "Tech, finance, operations, marketing, sales, healthcare administration, and leadership roles. Senior ICs to executives. If you're not sure if we can help, just ask — we'll be honest."
+          "answer": "Tech, finance, operations, marketing, sales, healthcare administration, and leadership roles. Senior ICs to executives. If you're not sure if we can help, just ask \u2014 we'll be honest."
         },
         {
           "question": "How fast will I see results?",
@@ -365,59 +382,2034 @@
     "roleLinks": {
       "eyebrow": "Find your path",
       "title": "Coaching tailored to your field",
-      "subtitle": "Every role has its own challenges. We speak your language.",
+      "subtitle": "Choose the category that matches how you\u2019re hired.",
       "sticky": true,
       "items": [
         {
-          "title": "Software Engineers",
+          "title": "Tech & Data",
           "tag": "Tech",
-          "body": "From Senior to Staff and beyond.",
-          "url": "/software-engineer-career-coaching/"
+          "body": "Engineering, product, data, and technical leadership roles.",
+          "url": "/tech-data-career-coaching/"
         },
         {
-          "title": "Data Professionals",
-          "tag": "Tech",
-          "body": "DE, DS, Analytics — make your impact visible.",
-          "url": "/data-career-coaching/"
+          "title": "Sales & Marketing",
+          "tag": "Revenue",
+          "body": "Go-to-market, growth, sales, and customer success roles.",
+          "url": "/sales-marketing-career-coaching/"
         },
         {
-          "title": "Product Managers",
-          "tag": "Tech",
-          "body": "Prove your value without writing code.",
-          "url": "/product-manager-career-coaching/"
+          "title": "Business & Finance",
+          "tag": "Business",
+          "body": "Finance, strategy, operations, and supply chain roles.",
+          "url": "/business-finance-career-coaching/"
         },
         {
-          "title": "Finance & FP&A",
-          "tag": "Finance",
-          "body": "Turn spreadsheets into strategy.",
-          "url": "/finance-fpa-career-coaching/"
-        },
-        {
-          "title": "Marketing & Growth",
-          "tag": "Marketing",
-          "body": "Show the revenue behind the campaigns.",
-          "url": "/marketing-career-coaching/"
-        },
-        {
-          "title": "Operations",
-          "tag": "Ops",
-          "body": "Make your systems thinking shine.",
-          "url": "/operations-career-coaching/"
-        },
-        {
-          "title": "Sales",
-          "tag": "Sales",
-          "body": "Go beyond quota to leadership.",
-          "url": "/sales-career-coaching/"
-        },
-        {
-          "title": "People & HR",
+          "title": "People",
           "tag": "People",
-          "body": "Show the business impact of culture.",
-          "url": "/people-ops-career-coaching/"
+          "body": "HR, people ops, and program leadership roles.",
+          "url": "/people-career-coaching/"
+        },
+        {
+          "title": "Legal & Healthcare",
+          "tag": "Compliance",
+          "body": "Legal, compliance, and healthcare administration roles.",
+          "url": "/legal-healthcare-career-coaching/"
         }
       ]
     },
     "stackedSections": true
+  },
+  "roleTechData": {
+    "eyebrow": "For Tech & Data professionals",
+    "titleLead": "Land interviews without guesswork.",
+    "titleEmphasis": "Prove impact beyond your stack.",
+    "titleTail": "",
+    "titleAccent": "Get offers at the right level.",
+    "subtitle": "We translate technical work into hiring signal that gets callbacks fast.",
+    "supporting": "Build a narrative that hiring managers can immediately trust \u2014 across engineering, data, and product roles.",
+    "highlights": [
+      "Pinpoint role level and scope so you stop underselling yourself",
+      "Rewrite your resume/LinkedIn for technical signal and business impact",
+      "Interview prep for system, product, and behavioral loops"
+    ],
+    "ctaLabel": "Claim My Free Strategy Session",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "15 minutes. No sales pitch. Leave with a clear action plan \u2014 guaranteed.",
+    "ctaUrgency": "Only 4 spots left this week",
+    "ctaRating": "4.9",
+    "ctaRatingCount": "147+",
+    "secondaryCtaLabel": "Take the Career Readiness Assessment",
+    "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
+    "visual": {
+      "style": "next-role",
+      "accent": "rgba(114, 214, 255, 0.95)",
+      "accent2": "rgba(60, 162, 216, 0.9)"
+    },
+    "heroTag": "Career coaching that actually works",
+    "heroTrustLabel": "Our clients have landed at",
+    "heroTrustLogos": [
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/microsoft.svg",
+        "alt": "Microsoft logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/figma.svg",
+        "alt": "Figma logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/shopify.svg",
+        "alt": "Shopify logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/uber.svg",
+        "alt": "Uber logo"
+      }
+    ],
+    "heroStats": [
+      {
+        "value": "21 days",
+        "label": "Average time to first interview"
+      },
+      {
+        "value": "$47K",
+        "label": "Average salary increase negotiated"
+      },
+      {
+        "value": "89%",
+        "label": "Land offers within 60 days"
+      }
+    ],
+    "heroTimeline": [
+      {
+        "tag": "Week 1",
+        "body": "Get crystal clear on what you actually want"
+      },
+      {
+        "tag": "Week 2-3",
+        "body": "Rebuild how you present yourself"
+      },
+      {
+        "tag": "Week 4+",
+        "body": "Land interviews and close offers"
+      }
+    ],
+    "heroImages": [
+      {
+        "src": "/assets/hero/askia-hero-1.jpg",
+        "alt": "A coaching conversation focused on career positioning."
+      }
+    ],
+    "heroCard": {
+      "title": "Here's what changes",
+      "body": "Most clients go from frustrated to interview-ready in under a month. Here's what you get:",
+      "bullets": [
+        "Total clarity on your next move",
+        "Materials that actually get responses",
+        "Confidence to close when it counts"
+      ]
+    },
+    "proof": {
+      "title": "What changes when your story lands",
+      "subtitle": "Specific wins we drive for this role family.",
+      "items": [
+        {
+          "title": "3 weeks to interviews",
+          "body": "Most tech clients move from silence to real screens within three weeks once their signal is clear."
+        },
+        {
+          "title": "Role-level clarity",
+          "body": "We calibrate level, scope, and story so you can target senior/staff+ roles with confidence."
+        },
+        {
+          "title": "Offer leverage",
+          "body": "Negotiation prep that protects upside and positions you as a high-signal hire."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Tech & data leaders who got unstuck",
+      "subtitle": "Engineers, PMs, data leaders \u2014 they all felt stuck until something clicked.",
+      "sticky": true,
+      "indexes": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        19,
+        0,
+        2,
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    "coach": {
+      "eyebrow": "Who you'll work with",
+      "name": "Steve J. Ngoumnai",
+      "role": "Founder, Head Career Coach",
+      "photo": "/assets/team/steve-2026.jpg",
+      "bio": "I spent over a decade as an engineering leader, building teams and making hiring decisions. I've reviewed thousands of resumes and interviewed hundreds of candidates. I know exactly what makes someone memorable \u2014 and what gets them passed over. Now I help talented professionals stop being invisible and start landing the roles they deserve.",
+      "bullets": [
+        "Former engineering leader",
+        "Hiring experience across every level",
+        "Hundreds of successful career transitions"
+      ]
+    },
+    "focus": {
+      "eyebrow": "Sound familiar?",
+      "title": "You've probably been here",
+      "subtitle": "Stuck. Frustrated. Wondering what you're doing wrong.",
+      "items": [
+        {
+          "tag": "The Void",
+          "title": "Applications go nowhere",
+          "body": "You've applied to dozens of roles. Maybe hundreds. Silence. Occasional rejections. No real conversations."
+        },
+        {
+          "tag": "The Ghosting",
+          "title": "Promising interviews disappear",
+          "body": "You thought it went well. They seemed interested. Then... nothing. No feedback. No closure."
+        },
+        {
+          "tag": "The Doubt",
+          "title": "You start questioning yourself",
+          "body": "Maybe you're not as good as you thought. Maybe you're asking for too much. Maybe you should just settle."
+        }
+      ]
+    },
+    "steps": {
+      "title": "Here's how we get you unstuck",
+      "subtitle": "A clear path from where you are to where you want to be.",
+      "items": [
+        {
+          "title": "Get clear",
+          "body": "We figure out exactly what roles fit your experience, what you're worth, and what's been getting in your way."
+        },
+        {
+          "title": "Get seen",
+          "body": "Your resume and LinkedIn get rebuilt to actually show your value. Not tasks. Not buzzwords. Real impact."
+        },
+        {
+          "title": "Get offers",
+          "body": "You walk into interviews prepared and confident. When offers come, you negotiate from strength."
+        }
+      ]
+    },
+    "leadMagnets": {
+      "title": "Not ready for a call? Start here.",
+      "subtitle": "Free resources to get you moving.",
+      "items": [
+        {
+          "title": "Career Readiness Assessment",
+          "body": "Find out exactly what's holding you back in 3 minutes.",
+          "ctaLabel": "Take the Free Assessment",
+          "ctaLink": "https://askia.tech/career-readiness-index/",
+          "tag": "Most Popular"
+        },
+        {
+          "title": "Resume Self-Review Checklist",
+          "body": "10 things you can fix right now to get more callbacks.",
+          "ctaLabel": "Get the Checklist",
+          "ctaLink": "https://askia.tech/resume-checklist/",
+          "tag": "Quick Win"
+        }
+      ]
+    },
+    "leadMagnetsPlacement": "beforeCall",
+    "call": {
+      "eyebrow": "Your free strategy session",
+      "title": "What happens when we talk",
+      "subtitle": "15 minutes. No pitch. Just clarity.",
+      "steps": [
+        {
+          "title": "We diagnose what's not working",
+          "body": "I'll review your materials before we talk and come prepared with specific feedback."
+        },
+        {
+          "title": "We identify the #1 thing holding you back",
+          "body": "Usually it's one or two things. Your resume. Your pitch. Your approach. We find it."
+        },
+        {
+          "title": "You leave with a clear action plan",
+          "body": "Whether we work together or not, you'll know exactly what to do next."
+        }
+      ],
+      "note": "This isn't a sales call. I only take clients I know I can help. If that's not you, I'll tell you.",
+      "urgency": "Only 4 strategy sessions available this week",
+      "guarantee": "Leave with clarity \u2014 or get a second session free."
+    },
+    "whyNow": {
+      "eyebrow": "The cost of waiting",
+      "title": "Every week you wait costs you money",
+      "items": [
+        {
+          "title": "Missed interviews",
+          "body": "The roles you want are being filled right now \u2014 by people who invested in themselves."
+        },
+        {
+          "title": "Lowball offers",
+          "body": "Without negotiation skills, you'll leave $40K+ on the table. That compounds every year."
+        },
+        {
+          "title": "Confidence erosion",
+          "body": "The longer you're stuck, the harder it gets to believe you can break through."
+        }
+      ]
+    },
+    "for": {
+      "title": "This is for you if",
+      "body": "You've got real experience and you're ready to be seen for what you're actually worth.",
+      "items": [
+        "You're a senior IC, manager, or leader",
+        "You've been in the market and it's not working",
+        "You know you should be landing better roles than you are",
+        "You're tired of the guessing game and want a real system"
+      ]
+    },
+    "notFor": {
+      "title": "This probably isn't for you if",
+      "body": "We're not for everyone, and that's okay.",
+      "items": [
+        "You're just starting your career and building fundamentals",
+        "You want to spray-and-pray 500 applications",
+        "You want a template without strategy behind it"
+      ]
+    },
+    "deliverables": {
+      "title": "What you actually get",
+      "subtitle": "Not fluff. Concrete outcomes.",
+      "items": [
+        {
+          "title": "Total Clarity",
+          "tag": "Foundation",
+          "body": "Know exactly what roles you should target, what you're worth, and how to talk about yourself.",
+          "bullets": [
+            "Role targeting that makes sense",
+            "Compensation benchmarking",
+            "Your core story, refined"
+          ]
+        },
+        {
+          "title": "Materials That Work",
+          "tag": "Visibility",
+          "body": "A resume and LinkedIn profile that make people want to talk to you.",
+          "bullets": [
+            "Results-focused resume",
+            "LinkedIn that attracts",
+            "Pitch that lands"
+          ]
+        },
+        {
+          "title": "Confidence to Close",
+          "tag": "Execution",
+          "body": "Interview prep and negotiation strategy so you don't leave anything on the table.",
+          "bullets": [
+            "Stories that stick",
+            "Mock interview practice",
+            "Negotiation playbook"
+          ]
+        }
+      ]
+    },
+    "investment": {
+      "title": "The investment",
+      "subtitle": "Most clients recover their investment 40x over through better compensation.",
+      "items": [
+        "Our average client negotiates $47K more \u2014 that's a 47x return on some of our packages",
+        "Clear scope and timeline after your strategy call",
+        "No surprises, no upsells, no pressure"
+      ],
+      "anchor": "Compare that to leaving $40K+ on the table because you didn't negotiate well."
+    },
+    "risk": {
+      "title": "Zero risk. Here's our guarantee.",
+      "body": "If you don't walk away from our strategy call with complete clarity on your next steps, we'll schedule a second session at no charge. No questions asked.",
+      "items": [
+        "100% of strategy call clients leave with an action plan",
+        "If we can't help, we'll tell you exactly who can",
+        "No pushy sales tactics \u2014 ever"
+      ]
+    },
+    "related": {
+      "title": "Ready?",
+      "body": "Let's figure out what's been getting in your way.",
+      "primaryLabel": "Book My Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/",
+      "miniTestimonial": {
+        "quote": "Within 3 weeks I had 4 interviews lined up. Steve completely changed how I talk about my work.",
+        "name": "Marcus T.",
+        "role": "Senior Engineer \u2192 Staff at FAANG",
+        "rating": 5
+      }
+    },
+    "faq": {
+      "title": "Questions you might have",
+      "subtitle": "The stuff people usually ask before we talk.",
+      "items": [
+        {
+          "question": "What types of roles do you help with?",
+          "answer": "Tech, finance, operations, marketing, sales, healthcare administration, and leadership roles. Senior ICs to executives. If you're not sure if we can help, just ask \u2014 we'll be honest."
+        },
+        {
+          "question": "How fast will I see results?",
+          "answer": "Most clients land their first real interview within 3 weeks. Full job search timelines vary, but we move fast."
+        },
+        {
+          "question": "Do you guarantee I'll get a job?",
+          "answer": "No one can guarantee that. But we can guarantee you'll have the best possible materials, a clear strategy, and real preparation. What you do with it is up to you."
+        },
+        {
+          "question": "What if I don't know what role I want?",
+          "answer": "That's more common than you'd think. We start by figuring out where your experience translates best. You don't need to have it all figured out."
+        },
+        {
+          "question": "Can you help with negotiation?",
+          "answer": "Yes. We help you understand your leverage, prepare your ask, and handle the conversation. Most clients negotiate significantly more than they would have on their own."
+        },
+        {
+          "question": "What if I just need my resume fixed?",
+          "answer": "We offer that a la carte. But honestly, a better resume alone rarely solves the whole problem. We'll help you figure out what you actually need."
+        },
+        {
+          "question": "How do I get started?",
+          "answer": "Book a call. We'll talk for 15 minutes, figure out where you are, and map out next steps. No pressure."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Every week you wait costs you interviews",
+      "body": "The job market moves fast. Your competition is getting coached. Let's make sure you're not falling behind.",
+      "label": "Claim My Free Strategy Session",
+      "link": "https://bookings.askia.tech/#/clarity",
+      "urgency": "Only 4 spots left this week",
+      "guarantee": "Leave with a clear action plan or get a second session free",
+      "proofSnippet": "Join 147+ professionals who've accelerated their careers"
+    },
+    "metaTitle": "Tech & Data Career Coaching | Askia",
+    "metaDescription": "Career coaching for software, data, product, and engineering leaders targeting $100K\u2013$350K roles.",
+    "stackedSections": true,
+    "roleShowcase": {
+      "eyebrow": "Role tracks",
+      "title": "Find your exact role track",
+      "subtitle": "Pick the path that mirrors how hiring decisions are made in your function.",
+      "groups": [
+        {
+          "title": "Roles we support",
+          "items": [
+            "Software Engineer",
+            "DevOps & SRE",
+            "Data (DE/DS/Analytics)",
+            "Product Manager",
+            "Engineering Manager",
+            "Cybersecurity",
+            "Product Design",
+            "Solutions Architect",
+            "Technical Program Manager",
+            "AI / ML Engineer"
+          ]
+        }
+      ]
+    }
+  },
+  "roleSalesMarketing": {
+    "eyebrow": "For Sales & Marketing professionals",
+    "titleLead": "Turn pipeline wins into offers.",
+    "titleEmphasis": "Prove revenue impact fast.",
+    "titleTail": "",
+    "titleAccent": "Get hired at the right level.",
+    "subtitle": "We position your growth and revenue impact so hiring teams can\u2019t ignore you.",
+    "supporting": "From GTM leaders to sales operators, we convert performance into a story that closes.",
+    "highlights": [
+      "Translate quotas, revenue, and growth into executive-ready signal",
+      "Target the right market segments and team fit",
+      "Interview prep that shows leadership and commercial judgment"
+    ],
+    "ctaLabel": "Claim My Free Strategy Session",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "15 minutes. No sales pitch. Leave with a clear action plan \u2014 guaranteed.",
+    "ctaUrgency": "Only 4 spots left this week",
+    "ctaRating": "4.9",
+    "ctaRatingCount": "147+",
+    "secondaryCtaLabel": "Take the Career Readiness Assessment",
+    "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
+    "visual": {
+      "style": "next-role",
+      "accent": "rgba(114, 214, 255, 0.95)",
+      "accent2": "rgba(60, 162, 216, 0.9)"
+    },
+    "heroTag": "Career coaching that actually works",
+    "heroTrustLabel": "Our clients have landed at",
+    "heroTrustLogos": [
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/microsoft.svg",
+        "alt": "Microsoft logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/figma.svg",
+        "alt": "Figma logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/shopify.svg",
+        "alt": "Shopify logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/uber.svg",
+        "alt": "Uber logo"
+      }
+    ],
+    "heroStats": [
+      {
+        "value": "21 days",
+        "label": "Average time to first interview"
+      },
+      {
+        "value": "$47K",
+        "label": "Average salary increase negotiated"
+      },
+      {
+        "value": "89%",
+        "label": "Land offers within 60 days"
+      }
+    ],
+    "heroTimeline": [
+      {
+        "tag": "Week 1",
+        "body": "Get crystal clear on what you actually want"
+      },
+      {
+        "tag": "Week 2-3",
+        "body": "Rebuild how you present yourself"
+      },
+      {
+        "tag": "Week 4+",
+        "body": "Land interviews and close offers"
+      }
+    ],
+    "heroImages": [
+      {
+        "src": "/assets/hero/askia-hero-1.jpg",
+        "alt": "A coaching conversation focused on career positioning."
+      }
+    ],
+    "heroCard": {
+      "title": "Here's what changes",
+      "body": "Most clients go from frustrated to interview-ready in under a month. Here's what you get:",
+      "bullets": [
+        "Total clarity on your next move",
+        "Materials that actually get responses",
+        "Confidence to close when it counts"
+      ]
+    },
+    "proof": {
+      "title": "What changes when your story lands",
+      "subtitle": "Specific wins we drive for this role family.",
+      "items": [
+        {
+          "title": "Pipeline clarity",
+          "body": "We surface your real impact so you stop getting stuck in generic marketing/sales buckets."
+        },
+        {
+          "title": "Decision-maker signal",
+          "body": "Position your wins in the language hiring managers care about: growth, margin, and retention."
+        },
+        {
+          "title": "Offer-ready confidence",
+          "body": "Negotiation prep so you protect comp upside and role scope."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Sales & marketing pros who landed faster",
+      "subtitle": "Revenue leaders, growth marketers, and sellers \u2014 they all felt stuck until something clicked.",
+      "sticky": true,
+      "indexes": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        19,
+        0,
+        2,
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    "coach": {
+      "eyebrow": "Who you'll work with",
+      "name": "Steve J. Ngoumnai",
+      "role": "Founder, Head Career Coach",
+      "photo": "/assets/team/steve-2026.jpg",
+      "bio": "I spent over a decade as an engineering leader, building teams and making hiring decisions. I've reviewed thousands of resumes and interviewed hundreds of candidates. I know exactly what makes someone memorable \u2014 and what gets them passed over. Now I help talented professionals stop being invisible and start landing the roles they deserve.",
+      "bullets": [
+        "Former engineering leader",
+        "Hiring experience across every level",
+        "Hundreds of successful career transitions"
+      ]
+    },
+    "focus": {
+      "eyebrow": "Sound familiar?",
+      "title": "You've probably been here",
+      "subtitle": "Stuck. Frustrated. Wondering what you're doing wrong.",
+      "items": [
+        {
+          "tag": "The Void",
+          "title": "Applications go nowhere",
+          "body": "You've applied to dozens of roles. Maybe hundreds. Silence. Occasional rejections. No real conversations."
+        },
+        {
+          "tag": "The Ghosting",
+          "title": "Promising interviews disappear",
+          "body": "You thought it went well. They seemed interested. Then... nothing. No feedback. No closure."
+        },
+        {
+          "tag": "The Doubt",
+          "title": "You start questioning yourself",
+          "body": "Maybe you're not as good as you thought. Maybe you're asking for too much. Maybe you should just settle."
+        }
+      ]
+    },
+    "steps": {
+      "title": "Here's how we get you unstuck",
+      "subtitle": "A clear path from where you are to where you want to be.",
+      "items": [
+        {
+          "title": "Get clear",
+          "body": "We figure out exactly what roles fit your experience, what you're worth, and what's been getting in your way."
+        },
+        {
+          "title": "Get seen",
+          "body": "Your resume and LinkedIn get rebuilt to actually show your value. Not tasks. Not buzzwords. Real impact."
+        },
+        {
+          "title": "Get offers",
+          "body": "You walk into interviews prepared and confident. When offers come, you negotiate from strength."
+        }
+      ]
+    },
+    "leadMagnets": {
+      "title": "Not ready for a call? Start here.",
+      "subtitle": "Free resources to get you moving.",
+      "items": [
+        {
+          "title": "Career Readiness Assessment",
+          "body": "Find out exactly what's holding you back in 3 minutes.",
+          "ctaLabel": "Take the Free Assessment",
+          "ctaLink": "https://askia.tech/career-readiness-index/",
+          "tag": "Most Popular"
+        },
+        {
+          "title": "Resume Self-Review Checklist",
+          "body": "10 things you can fix right now to get more callbacks.",
+          "ctaLabel": "Get the Checklist",
+          "ctaLink": "https://askia.tech/resume-checklist/",
+          "tag": "Quick Win"
+        }
+      ]
+    },
+    "leadMagnetsPlacement": "beforeCall",
+    "call": {
+      "eyebrow": "Your free strategy session",
+      "title": "What happens when we talk",
+      "subtitle": "15 minutes. No pitch. Just clarity.",
+      "steps": [
+        {
+          "title": "We diagnose what's not working",
+          "body": "I'll review your materials before we talk and come prepared with specific feedback."
+        },
+        {
+          "title": "We identify the #1 thing holding you back",
+          "body": "Usually it's one or two things. Your resume. Your pitch. Your approach. We find it."
+        },
+        {
+          "title": "You leave with a clear action plan",
+          "body": "Whether we work together or not, you'll know exactly what to do next."
+        }
+      ],
+      "note": "This isn't a sales call. I only take clients I know I can help. If that's not you, I'll tell you.",
+      "urgency": "Only 4 strategy sessions available this week",
+      "guarantee": "Leave with clarity \u2014 or get a second session free."
+    },
+    "whyNow": {
+      "eyebrow": "The cost of waiting",
+      "title": "Every week you wait costs you money",
+      "items": [
+        {
+          "title": "Missed interviews",
+          "body": "The roles you want are being filled right now \u2014 by people who invested in themselves."
+        },
+        {
+          "title": "Lowball offers",
+          "body": "Without negotiation skills, you'll leave $40K+ on the table. That compounds every year."
+        },
+        {
+          "title": "Confidence erosion",
+          "body": "The longer you're stuck, the harder it gets to believe you can break through."
+        }
+      ]
+    },
+    "for": {
+      "title": "This is for you if",
+      "body": "You've got real experience and you're ready to be seen for what you're actually worth.",
+      "items": [
+        "You're a senior IC, manager, or leader",
+        "You've been in the market and it's not working",
+        "You know you should be landing better roles than you are",
+        "You're tired of the guessing game and want a real system"
+      ]
+    },
+    "notFor": {
+      "title": "This probably isn't for you if",
+      "body": "We're not for everyone, and that's okay.",
+      "items": [
+        "You're just starting your career and building fundamentals",
+        "You want to spray-and-pray 500 applications",
+        "You want a template without strategy behind it"
+      ]
+    },
+    "deliverables": {
+      "title": "What you actually get",
+      "subtitle": "Not fluff. Concrete outcomes.",
+      "items": [
+        {
+          "title": "Total Clarity",
+          "tag": "Foundation",
+          "body": "Know exactly what roles you should target, what you're worth, and how to talk about yourself.",
+          "bullets": [
+            "Role targeting that makes sense",
+            "Compensation benchmarking",
+            "Your core story, refined"
+          ]
+        },
+        {
+          "title": "Materials That Work",
+          "tag": "Visibility",
+          "body": "A resume and LinkedIn profile that make people want to talk to you.",
+          "bullets": [
+            "Results-focused resume",
+            "LinkedIn that attracts",
+            "Pitch that lands"
+          ]
+        },
+        {
+          "title": "Confidence to Close",
+          "tag": "Execution",
+          "body": "Interview prep and negotiation strategy so you don't leave anything on the table.",
+          "bullets": [
+            "Stories that stick",
+            "Mock interview practice",
+            "Negotiation playbook"
+          ]
+        }
+      ]
+    },
+    "investment": {
+      "title": "The investment",
+      "subtitle": "Most clients recover their investment 40x over through better compensation.",
+      "items": [
+        "Our average client negotiates $47K more \u2014 that's a 47x return on some of our packages",
+        "Clear scope and timeline after your strategy call",
+        "No surprises, no upsells, no pressure"
+      ],
+      "anchor": "Compare that to leaving $40K+ on the table because you didn't negotiate well."
+    },
+    "risk": {
+      "title": "Zero risk. Here's our guarantee.",
+      "body": "If you don't walk away from our strategy call with complete clarity on your next steps, we'll schedule a second session at no charge. No questions asked.",
+      "items": [
+        "100% of strategy call clients leave with an action plan",
+        "If we can't help, we'll tell you exactly who can",
+        "No pushy sales tactics \u2014 ever"
+      ]
+    },
+    "related": {
+      "title": "Ready?",
+      "body": "Let's figure out what's been getting in your way.",
+      "primaryLabel": "Book My Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/",
+      "miniTestimonial": {
+        "quote": "Within 3 weeks I had 4 interviews lined up. Steve completely changed how I talk about my work.",
+        "name": "Marcus T.",
+        "role": "Senior Engineer \u2192 Staff at FAANG",
+        "rating": 5
+      }
+    },
+    "faq": {
+      "title": "Questions you might have",
+      "subtitle": "The stuff people usually ask before we talk.",
+      "items": [
+        {
+          "question": "What types of roles do you help with?",
+          "answer": "Tech, finance, operations, marketing, sales, healthcare administration, and leadership roles. Senior ICs to executives. If you're not sure if we can help, just ask \u2014 we'll be honest."
+        },
+        {
+          "question": "How fast will I see results?",
+          "answer": "Most clients land their first real interview within 3 weeks. Full job search timelines vary, but we move fast."
+        },
+        {
+          "question": "Do you guarantee I'll get a job?",
+          "answer": "No one can guarantee that. But we can guarantee you'll have the best possible materials, a clear strategy, and real preparation. What you do with it is up to you."
+        },
+        {
+          "question": "What if I don't know what role I want?",
+          "answer": "That's more common than you'd think. We start by figuring out where your experience translates best. You don't need to have it all figured out."
+        },
+        {
+          "question": "Can you help with negotiation?",
+          "answer": "Yes. We help you understand your leverage, prepare your ask, and handle the conversation. Most clients negotiate significantly more than they would have on their own."
+        },
+        {
+          "question": "What if I just need my resume fixed?",
+          "answer": "We offer that a la carte. But honestly, a better resume alone rarely solves the whole problem. We'll help you figure out what you actually need."
+        },
+        {
+          "question": "How do I get started?",
+          "answer": "Book a call. We'll talk for 15 minutes, figure out where you are, and map out next steps. No pressure."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Every week you wait costs you interviews",
+      "body": "The job market moves fast. Your competition is getting coached. Let's make sure you're not falling behind.",
+      "label": "Claim My Free Strategy Session",
+      "link": "https://bookings.askia.tech/#/clarity",
+      "urgency": "Only 4 spots left this week",
+      "guarantee": "Leave with a clear action plan or get a second session free",
+      "proofSnippet": "Join 147+ professionals who've accelerated their careers"
+    },
+    "metaTitle": "Sales & Marketing Career Coaching | Askia",
+    "metaDescription": "Career coaching for sales, growth, and marketing leaders targeting $100K\u2013$350K roles.",
+    "stackedSections": true,
+    "roleShowcase": {
+      "eyebrow": "Role tracks",
+      "title": "Find your exact role track",
+      "subtitle": "Pick the path that mirrors how hiring decisions are made in your function.",
+      "groups": [
+        {
+          "title": "Roles we support",
+          "items": [
+            "Sales",
+            "Sales Engineer",
+            "Customer Success",
+            "Marketing & Growth"
+          ]
+        }
+      ]
+    }
+  },
+  "roleBusinessFinance": {
+    "eyebrow": "For Business & Finance professionals",
+    "titleLead": "Turn analysis into leadership signal.",
+    "titleEmphasis": "Show strategic impact, not just tasks.",
+    "titleTail": "",
+    "titleAccent": "Land the role you deserve.",
+    "subtitle": "We translate finance and ops work into executive-level narratives that win offers.",
+    "supporting": "From FP&A to strategy, we make your decision-making visible and valuable.",
+    "highlights": [
+      "Clarify scope, level, and business impact for senior roles",
+      "Rewrite your materials to highlight strategic outcomes",
+      "Interview prep for case, stakeholder, and leadership loops"
+    ],
+    "ctaLabel": "Claim My Free Strategy Session",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "15 minutes. No sales pitch. Leave with a clear action plan \u2014 guaranteed.",
+    "ctaUrgency": "Only 4 spots left this week",
+    "ctaRating": "4.9",
+    "ctaRatingCount": "147+",
+    "secondaryCtaLabel": "Take the Career Readiness Assessment",
+    "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
+    "visual": {
+      "style": "next-role",
+      "accent": "rgba(114, 214, 255, 0.95)",
+      "accent2": "rgba(60, 162, 216, 0.9)"
+    },
+    "heroTag": "Career coaching that actually works",
+    "heroTrustLabel": "Our clients have landed at",
+    "heroTrustLogos": [
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/microsoft.svg",
+        "alt": "Microsoft logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/figma.svg",
+        "alt": "Figma logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/shopify.svg",
+        "alt": "Shopify logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/uber.svg",
+        "alt": "Uber logo"
+      }
+    ],
+    "heroStats": [
+      {
+        "value": "21 days",
+        "label": "Average time to first interview"
+      },
+      {
+        "value": "$47K",
+        "label": "Average salary increase negotiated"
+      },
+      {
+        "value": "89%",
+        "label": "Land offers within 60 days"
+      }
+    ],
+    "heroTimeline": [
+      {
+        "tag": "Week 1",
+        "body": "Get crystal clear on what you actually want"
+      },
+      {
+        "tag": "Week 2-3",
+        "body": "Rebuild how you present yourself"
+      },
+      {
+        "tag": "Week 4+",
+        "body": "Land interviews and close offers"
+      }
+    ],
+    "heroImages": [
+      {
+        "src": "/assets/hero/askia-hero-1.jpg",
+        "alt": "A coaching conversation focused on career positioning."
+      }
+    ],
+    "heroCard": {
+      "title": "Here's what changes",
+      "body": "Most clients go from frustrated to interview-ready in under a month. Here's what you get:",
+      "bullets": [
+        "Total clarity on your next move",
+        "Materials that actually get responses",
+        "Confidence to close when it counts"
+      ]
+    },
+    "proof": {
+      "title": "What changes when your story lands",
+      "subtitle": "Specific wins we drive for this role family.",
+      "items": [
+        {
+          "title": "Visible business impact",
+          "body": "We connect your analysis to revenue, margin, and risk outcomes."
+        },
+        {
+          "title": "Leadership signal",
+          "body": "Position yourself for director+ roles by showing decision ownership."
+        },
+        {
+          "title": "Comp leverage",
+          "body": "We help you anchor offers with data and role-level benchmarks."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Business & finance leaders who broke through",
+      "subtitle": "Finance, ops, and strategy leaders \u2014 they all felt stuck until something clicked.",
+      "sticky": true,
+      "indexes": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        19,
+        0,
+        2,
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    "coach": {
+      "eyebrow": "Who you'll work with",
+      "name": "Steve J. Ngoumnai",
+      "role": "Founder, Head Career Coach",
+      "photo": "/assets/team/steve-2026.jpg",
+      "bio": "I spent over a decade as an engineering leader, building teams and making hiring decisions. I've reviewed thousands of resumes and interviewed hundreds of candidates. I know exactly what makes someone memorable \u2014 and what gets them passed over. Now I help talented professionals stop being invisible and start landing the roles they deserve.",
+      "bullets": [
+        "Former engineering leader",
+        "Hiring experience across every level",
+        "Hundreds of successful career transitions"
+      ]
+    },
+    "focus": {
+      "eyebrow": "Sound familiar?",
+      "title": "You've probably been here",
+      "subtitle": "Stuck. Frustrated. Wondering what you're doing wrong.",
+      "items": [
+        {
+          "tag": "The Void",
+          "title": "Applications go nowhere",
+          "body": "You've applied to dozens of roles. Maybe hundreds. Silence. Occasional rejections. No real conversations."
+        },
+        {
+          "tag": "The Ghosting",
+          "title": "Promising interviews disappear",
+          "body": "You thought it went well. They seemed interested. Then... nothing. No feedback. No closure."
+        },
+        {
+          "tag": "The Doubt",
+          "title": "You start questioning yourself",
+          "body": "Maybe you're not as good as you thought. Maybe you're asking for too much. Maybe you should just settle."
+        }
+      ]
+    },
+    "steps": {
+      "title": "Here's how we get you unstuck",
+      "subtitle": "A clear path from where you are to where you want to be.",
+      "items": [
+        {
+          "title": "Get clear",
+          "body": "We figure out exactly what roles fit your experience, what you're worth, and what's been getting in your way."
+        },
+        {
+          "title": "Get seen",
+          "body": "Your resume and LinkedIn get rebuilt to actually show your value. Not tasks. Not buzzwords. Real impact."
+        },
+        {
+          "title": "Get offers",
+          "body": "You walk into interviews prepared and confident. When offers come, you negotiate from strength."
+        }
+      ]
+    },
+    "leadMagnets": {
+      "title": "Not ready for a call? Start here.",
+      "subtitle": "Free resources to get you moving.",
+      "items": [
+        {
+          "title": "Career Readiness Assessment",
+          "body": "Find out exactly what's holding you back in 3 minutes.",
+          "ctaLabel": "Take the Free Assessment",
+          "ctaLink": "https://askia.tech/career-readiness-index/",
+          "tag": "Most Popular"
+        },
+        {
+          "title": "Resume Self-Review Checklist",
+          "body": "10 things you can fix right now to get more callbacks.",
+          "ctaLabel": "Get the Checklist",
+          "ctaLink": "https://askia.tech/resume-checklist/",
+          "tag": "Quick Win"
+        }
+      ]
+    },
+    "leadMagnetsPlacement": "beforeCall",
+    "call": {
+      "eyebrow": "Your free strategy session",
+      "title": "What happens when we talk",
+      "subtitle": "15 minutes. No pitch. Just clarity.",
+      "steps": [
+        {
+          "title": "We diagnose what's not working",
+          "body": "I'll review your materials before we talk and come prepared with specific feedback."
+        },
+        {
+          "title": "We identify the #1 thing holding you back",
+          "body": "Usually it's one or two things. Your resume. Your pitch. Your approach. We find it."
+        },
+        {
+          "title": "You leave with a clear action plan",
+          "body": "Whether we work together or not, you'll know exactly what to do next."
+        }
+      ],
+      "note": "This isn't a sales call. I only take clients I know I can help. If that's not you, I'll tell you.",
+      "urgency": "Only 4 strategy sessions available this week",
+      "guarantee": "Leave with clarity \u2014 or get a second session free."
+    },
+    "whyNow": {
+      "eyebrow": "The cost of waiting",
+      "title": "Every week you wait costs you money",
+      "items": [
+        {
+          "title": "Missed interviews",
+          "body": "The roles you want are being filled right now \u2014 by people who invested in themselves."
+        },
+        {
+          "title": "Lowball offers",
+          "body": "Without negotiation skills, you'll leave $40K+ on the table. That compounds every year."
+        },
+        {
+          "title": "Confidence erosion",
+          "body": "The longer you're stuck, the harder it gets to believe you can break through."
+        }
+      ]
+    },
+    "for": {
+      "title": "This is for you if",
+      "body": "You've got real experience and you're ready to be seen for what you're actually worth.",
+      "items": [
+        "You're a senior IC, manager, or leader",
+        "You've been in the market and it's not working",
+        "You know you should be landing better roles than you are",
+        "You're tired of the guessing game and want a real system"
+      ]
+    },
+    "notFor": {
+      "title": "This probably isn't for you if",
+      "body": "We're not for everyone, and that's okay.",
+      "items": [
+        "You're just starting your career and building fundamentals",
+        "You want to spray-and-pray 500 applications",
+        "You want a template without strategy behind it"
+      ]
+    },
+    "deliverables": {
+      "title": "What you actually get",
+      "subtitle": "Not fluff. Concrete outcomes.",
+      "items": [
+        {
+          "title": "Total Clarity",
+          "tag": "Foundation",
+          "body": "Know exactly what roles you should target, what you're worth, and how to talk about yourself.",
+          "bullets": [
+            "Role targeting that makes sense",
+            "Compensation benchmarking",
+            "Your core story, refined"
+          ]
+        },
+        {
+          "title": "Materials That Work",
+          "tag": "Visibility",
+          "body": "A resume and LinkedIn profile that make people want to talk to you.",
+          "bullets": [
+            "Results-focused resume",
+            "LinkedIn that attracts",
+            "Pitch that lands"
+          ]
+        },
+        {
+          "title": "Confidence to Close",
+          "tag": "Execution",
+          "body": "Interview prep and negotiation strategy so you don't leave anything on the table.",
+          "bullets": [
+            "Stories that stick",
+            "Mock interview practice",
+            "Negotiation playbook"
+          ]
+        }
+      ]
+    },
+    "investment": {
+      "title": "The investment",
+      "subtitle": "Most clients recover their investment 40x over through better compensation.",
+      "items": [
+        "Our average client negotiates $47K more \u2014 that's a 47x return on some of our packages",
+        "Clear scope and timeline after your strategy call",
+        "No surprises, no upsells, no pressure"
+      ],
+      "anchor": "Compare that to leaving $40K+ on the table because you didn't negotiate well."
+    },
+    "risk": {
+      "title": "Zero risk. Here's our guarantee.",
+      "body": "If you don't walk away from our strategy call with complete clarity on your next steps, we'll schedule a second session at no charge. No questions asked.",
+      "items": [
+        "100% of strategy call clients leave with an action plan",
+        "If we can't help, we'll tell you exactly who can",
+        "No pushy sales tactics \u2014 ever"
+      ]
+    },
+    "related": {
+      "title": "Ready?",
+      "body": "Let's figure out what's been getting in your way.",
+      "primaryLabel": "Book My Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/",
+      "miniTestimonial": {
+        "quote": "Within 3 weeks I had 4 interviews lined up. Steve completely changed how I talk about my work.",
+        "name": "Marcus T.",
+        "role": "Senior Engineer \u2192 Staff at FAANG",
+        "rating": 5
+      }
+    },
+    "faq": {
+      "title": "Questions you might have",
+      "subtitle": "The stuff people usually ask before we talk.",
+      "items": [
+        {
+          "question": "What types of roles do you help with?",
+          "answer": "Tech, finance, operations, marketing, sales, healthcare administration, and leadership roles. Senior ICs to executives. If you're not sure if we can help, just ask \u2014 we'll be honest."
+        },
+        {
+          "question": "How fast will I see results?",
+          "answer": "Most clients land their first real interview within 3 weeks. Full job search timelines vary, but we move fast."
+        },
+        {
+          "question": "Do you guarantee I'll get a job?",
+          "answer": "No one can guarantee that. But we can guarantee you'll have the best possible materials, a clear strategy, and real preparation. What you do with it is up to you."
+        },
+        {
+          "question": "What if I don't know what role I want?",
+          "answer": "That's more common than you'd think. We start by figuring out where your experience translates best. You don't need to have it all figured out."
+        },
+        {
+          "question": "Can you help with negotiation?",
+          "answer": "Yes. We help you understand your leverage, prepare your ask, and handle the conversation. Most clients negotiate significantly more than they would have on their own."
+        },
+        {
+          "question": "What if I just need my resume fixed?",
+          "answer": "We offer that a la carte. But honestly, a better resume alone rarely solves the whole problem. We'll help you figure out what you actually need."
+        },
+        {
+          "question": "How do I get started?",
+          "answer": "Book a call. We'll talk for 15 minutes, figure out where you are, and map out next steps. No pressure."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Every week you wait costs you interviews",
+      "body": "The job market moves fast. Your competition is getting coached. Let's make sure you're not falling behind.",
+      "label": "Claim My Free Strategy Session",
+      "link": "https://bookings.askia.tech/#/clarity",
+      "urgency": "Only 4 spots left this week",
+      "guarantee": "Leave with a clear action plan or get a second session free",
+      "proofSnippet": "Join 147+ professionals who've accelerated their careers"
+    },
+    "metaTitle": "Business & Finance Career Coaching | Askia",
+    "metaDescription": "Career coaching for finance, operations, and strategy leaders targeting $100K\u2013$350K roles.",
+    "stackedSections": true,
+    "roleShowcase": {
+      "eyebrow": "Role tracks",
+      "title": "Find your exact role track",
+      "subtitle": "Pick the path that mirrors how hiring decisions are made in your function.",
+      "groups": [
+        {
+          "title": "Roles we support",
+          "items": [
+            "Finance & FP&A",
+            "Accounting & Controller",
+            "Operations",
+            "Supply Chain",
+            "Strategy & Consulting"
+          ]
+        }
+      ]
+    }
+  },
+  "rolePeople": {
+    "eyebrow": "For People & HR leaders",
+    "titleLead": "Make culture work visible.",
+    "titleEmphasis": "Translate people ops into business impact.",
+    "titleTail": "",
+    "titleAccent": "Land leadership roles.",
+    "subtitle": "We help HR and people leaders show strategic impact \u2014 not just support work.",
+    "supporting": "Build a clear narrative that proves you shape outcomes, not just processes.",
+    "highlights": [
+      "Show the business outcomes behind people programs",
+      "Clarify level, scope, and leadership signal",
+      "Interview prep for executive and stakeholder conversations"
+    ],
+    "ctaLabel": "Claim My Free Strategy Session",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "15 minutes. No sales pitch. Leave with a clear action plan \u2014 guaranteed.",
+    "ctaUrgency": "Only 4 spots left this week",
+    "ctaRating": "4.9",
+    "ctaRatingCount": "147+",
+    "secondaryCtaLabel": "Take the Career Readiness Assessment",
+    "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
+    "visual": {
+      "style": "next-role",
+      "accent": "rgba(114, 214, 255, 0.95)",
+      "accent2": "rgba(60, 162, 216, 0.9)"
+    },
+    "heroTag": "Career coaching that actually works",
+    "heroTrustLabel": "Our clients have landed at",
+    "heroTrustLogos": [
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/microsoft.svg",
+        "alt": "Microsoft logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/figma.svg",
+        "alt": "Figma logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/shopify.svg",
+        "alt": "Shopify logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/uber.svg",
+        "alt": "Uber logo"
+      }
+    ],
+    "heroStats": [
+      {
+        "value": "21 days",
+        "label": "Average time to first interview"
+      },
+      {
+        "value": "$47K",
+        "label": "Average salary increase negotiated"
+      },
+      {
+        "value": "89%",
+        "label": "Land offers within 60 days"
+      }
+    ],
+    "heroTimeline": [
+      {
+        "tag": "Week 1",
+        "body": "Get crystal clear on what you actually want"
+      },
+      {
+        "tag": "Week 2-3",
+        "body": "Rebuild how you present yourself"
+      },
+      {
+        "tag": "Week 4+",
+        "body": "Land interviews and close offers"
+      }
+    ],
+    "heroImages": [
+      {
+        "src": "/assets/hero/askia-hero-1.jpg",
+        "alt": "A coaching conversation focused on career positioning."
+      }
+    ],
+    "heroCard": {
+      "title": "Here's what changes",
+      "body": "Most clients go from frustrated to interview-ready in under a month. Here's what you get:",
+      "bullets": [
+        "Total clarity on your next move",
+        "Materials that actually get responses",
+        "Confidence to close when it counts"
+      ]
+    },
+    "proof": {
+      "title": "What changes when your story lands",
+      "subtitle": "Specific wins we drive for this role family.",
+      "items": [
+        {
+          "title": "Strategic credibility",
+          "body": "We translate culture and talent work into measurable business outcomes."
+        },
+        {
+          "title": "Role-level clarity",
+          "body": "Position for director, VP, and CHRO-track roles with the right scope."
+        },
+        {
+          "title": "Executive-ready story",
+          "body": "Interview prep that proves you lead outcomes across the org."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "People leaders who moved up fast",
+      "subtitle": "People ops, HRBPs, and program leaders \u2014 they all felt stuck until something clicked.",
+      "sticky": true,
+      "indexes": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        19,
+        0,
+        2,
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    "coach": {
+      "eyebrow": "Who you'll work with",
+      "name": "Steve J. Ngoumnai",
+      "role": "Founder, Head Career Coach",
+      "photo": "/assets/team/steve-2026.jpg",
+      "bio": "I spent over a decade as an engineering leader, building teams and making hiring decisions. I've reviewed thousands of resumes and interviewed hundreds of candidates. I know exactly what makes someone memorable \u2014 and what gets them passed over. Now I help talented professionals stop being invisible and start landing the roles they deserve.",
+      "bullets": [
+        "Former engineering leader",
+        "Hiring experience across every level",
+        "Hundreds of successful career transitions"
+      ]
+    },
+    "focus": {
+      "eyebrow": "Sound familiar?",
+      "title": "You've probably been here",
+      "subtitle": "Stuck. Frustrated. Wondering what you're doing wrong.",
+      "items": [
+        {
+          "tag": "The Void",
+          "title": "Applications go nowhere",
+          "body": "You've applied to dozens of roles. Maybe hundreds. Silence. Occasional rejections. No real conversations."
+        },
+        {
+          "tag": "The Ghosting",
+          "title": "Promising interviews disappear",
+          "body": "You thought it went well. They seemed interested. Then... nothing. No feedback. No closure."
+        },
+        {
+          "tag": "The Doubt",
+          "title": "You start questioning yourself",
+          "body": "Maybe you're not as good as you thought. Maybe you're asking for too much. Maybe you should just settle."
+        }
+      ]
+    },
+    "steps": {
+      "title": "Here's how we get you unstuck",
+      "subtitle": "A clear path from where you are to where you want to be.",
+      "items": [
+        {
+          "title": "Get clear",
+          "body": "We figure out exactly what roles fit your experience, what you're worth, and what's been getting in your way."
+        },
+        {
+          "title": "Get seen",
+          "body": "Your resume and LinkedIn get rebuilt to actually show your value. Not tasks. Not buzzwords. Real impact."
+        },
+        {
+          "title": "Get offers",
+          "body": "You walk into interviews prepared and confident. When offers come, you negotiate from strength."
+        }
+      ]
+    },
+    "leadMagnets": {
+      "title": "Not ready for a call? Start here.",
+      "subtitle": "Free resources to get you moving.",
+      "items": [
+        {
+          "title": "Career Readiness Assessment",
+          "body": "Find out exactly what's holding you back in 3 minutes.",
+          "ctaLabel": "Take the Free Assessment",
+          "ctaLink": "https://askia.tech/career-readiness-index/",
+          "tag": "Most Popular"
+        },
+        {
+          "title": "Resume Self-Review Checklist",
+          "body": "10 things you can fix right now to get more callbacks.",
+          "ctaLabel": "Get the Checklist",
+          "ctaLink": "https://askia.tech/resume-checklist/",
+          "tag": "Quick Win"
+        }
+      ]
+    },
+    "leadMagnetsPlacement": "beforeCall",
+    "call": {
+      "eyebrow": "Your free strategy session",
+      "title": "What happens when we talk",
+      "subtitle": "15 minutes. No pitch. Just clarity.",
+      "steps": [
+        {
+          "title": "We diagnose what's not working",
+          "body": "I'll review your materials before we talk and come prepared with specific feedback."
+        },
+        {
+          "title": "We identify the #1 thing holding you back",
+          "body": "Usually it's one or two things. Your resume. Your pitch. Your approach. We find it."
+        },
+        {
+          "title": "You leave with a clear action plan",
+          "body": "Whether we work together or not, you'll know exactly what to do next."
+        }
+      ],
+      "note": "This isn't a sales call. I only take clients I know I can help. If that's not you, I'll tell you.",
+      "urgency": "Only 4 strategy sessions available this week",
+      "guarantee": "Leave with clarity \u2014 or get a second session free."
+    },
+    "whyNow": {
+      "eyebrow": "The cost of waiting",
+      "title": "Every week you wait costs you money",
+      "items": [
+        {
+          "title": "Missed interviews",
+          "body": "The roles you want are being filled right now \u2014 by people who invested in themselves."
+        },
+        {
+          "title": "Lowball offers",
+          "body": "Without negotiation skills, you'll leave $40K+ on the table. That compounds every year."
+        },
+        {
+          "title": "Confidence erosion",
+          "body": "The longer you're stuck, the harder it gets to believe you can break through."
+        }
+      ]
+    },
+    "for": {
+      "title": "This is for you if",
+      "body": "You've got real experience and you're ready to be seen for what you're actually worth.",
+      "items": [
+        "You're a senior IC, manager, or leader",
+        "You've been in the market and it's not working",
+        "You know you should be landing better roles than you are",
+        "You're tired of the guessing game and want a real system"
+      ]
+    },
+    "notFor": {
+      "title": "This probably isn't for you if",
+      "body": "We're not for everyone, and that's okay.",
+      "items": [
+        "You're just starting your career and building fundamentals",
+        "You want to spray-and-pray 500 applications",
+        "You want a template without strategy behind it"
+      ]
+    },
+    "deliverables": {
+      "title": "What you actually get",
+      "subtitle": "Not fluff. Concrete outcomes.",
+      "items": [
+        {
+          "title": "Total Clarity",
+          "tag": "Foundation",
+          "body": "Know exactly what roles you should target, what you're worth, and how to talk about yourself.",
+          "bullets": [
+            "Role targeting that makes sense",
+            "Compensation benchmarking",
+            "Your core story, refined"
+          ]
+        },
+        {
+          "title": "Materials That Work",
+          "tag": "Visibility",
+          "body": "A resume and LinkedIn profile that make people want to talk to you.",
+          "bullets": [
+            "Results-focused resume",
+            "LinkedIn that attracts",
+            "Pitch that lands"
+          ]
+        },
+        {
+          "title": "Confidence to Close",
+          "tag": "Execution",
+          "body": "Interview prep and negotiation strategy so you don't leave anything on the table.",
+          "bullets": [
+            "Stories that stick",
+            "Mock interview practice",
+            "Negotiation playbook"
+          ]
+        }
+      ]
+    },
+    "investment": {
+      "title": "The investment",
+      "subtitle": "Most clients recover their investment 40x over through better compensation.",
+      "items": [
+        "Our average client negotiates $47K more \u2014 that's a 47x return on some of our packages",
+        "Clear scope and timeline after your strategy call",
+        "No surprises, no upsells, no pressure"
+      ],
+      "anchor": "Compare that to leaving $40K+ on the table because you didn't negotiate well."
+    },
+    "risk": {
+      "title": "Zero risk. Here's our guarantee.",
+      "body": "If you don't walk away from our strategy call with complete clarity on your next steps, we'll schedule a second session at no charge. No questions asked.",
+      "items": [
+        "100% of strategy call clients leave with an action plan",
+        "If we can't help, we'll tell you exactly who can",
+        "No pushy sales tactics \u2014 ever"
+      ]
+    },
+    "related": {
+      "title": "Ready?",
+      "body": "Let's figure out what's been getting in your way.",
+      "primaryLabel": "Book My Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/",
+      "miniTestimonial": {
+        "quote": "Within 3 weeks I had 4 interviews lined up. Steve completely changed how I talk about my work.",
+        "name": "Marcus T.",
+        "role": "Senior Engineer \u2192 Staff at FAANG",
+        "rating": 5
+      }
+    },
+    "faq": {
+      "title": "Questions you might have",
+      "subtitle": "The stuff people usually ask before we talk.",
+      "items": [
+        {
+          "question": "What types of roles do you help with?",
+          "answer": "Tech, finance, operations, marketing, sales, healthcare administration, and leadership roles. Senior ICs to executives. If you're not sure if we can help, just ask \u2014 we'll be honest."
+        },
+        {
+          "question": "How fast will I see results?",
+          "answer": "Most clients land their first real interview within 3 weeks. Full job search timelines vary, but we move fast."
+        },
+        {
+          "question": "Do you guarantee I'll get a job?",
+          "answer": "No one can guarantee that. But we can guarantee you'll have the best possible materials, a clear strategy, and real preparation. What you do with it is up to you."
+        },
+        {
+          "question": "What if I don't know what role I want?",
+          "answer": "That's more common than you'd think. We start by figuring out where your experience translates best. You don't need to have it all figured out."
+        },
+        {
+          "question": "Can you help with negotiation?",
+          "answer": "Yes. We help you understand your leverage, prepare your ask, and handle the conversation. Most clients negotiate significantly more than they would have on their own."
+        },
+        {
+          "question": "What if I just need my resume fixed?",
+          "answer": "We offer that a la carte. But honestly, a better resume alone rarely solves the whole problem. We'll help you figure out what you actually need."
+        },
+        {
+          "question": "How do I get started?",
+          "answer": "Book a call. We'll talk for 15 minutes, figure out where you are, and map out next steps. No pressure."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Every week you wait costs you interviews",
+      "body": "The job market moves fast. Your competition is getting coached. Let's make sure you're not falling behind.",
+      "label": "Claim My Free Strategy Session",
+      "link": "https://bookings.askia.tech/#/clarity",
+      "urgency": "Only 4 spots left this week",
+      "guarantee": "Leave with a clear action plan or get a second session free",
+      "proofSnippet": "Join 147+ professionals who've accelerated their careers"
+    },
+    "metaTitle": "People & HR Career Coaching | Askia",
+    "metaDescription": "Career coaching for HR, people ops, and program leaders targeting $100K\u2013$350K roles.",
+    "stackedSections": true,
+    "roleShowcase": {
+      "eyebrow": "Role tracks",
+      "title": "Find your exact role track",
+      "subtitle": "Pick the path that mirrors how hiring decisions are made in your function.",
+      "groups": [
+        {
+          "title": "Roles we support",
+          "items": [
+            "People Ops & HR",
+            "Project / Program Manager"
+          ]
+        }
+      ]
+    }
+  },
+  "roleLegalHealthcare": {
+    "eyebrow": "For Legal & Healthcare professionals",
+    "titleLead": "Turn compliance into confidence.",
+    "titleEmphasis": "Show the business outcomes behind the work.",
+    "titleTail": "",
+    "titleAccent": "Secure the right-level role.",
+    "subtitle": "We help legal and healthcare leaders translate expertise into hiring signal.",
+    "supporting": "Make your risk, compliance, and operational impact easy to understand and hard to ignore.",
+    "highlights": [
+      "Clarify scope, regulatory impact, and business risk reduction",
+      "Rewrite your materials to show outcomes and leadership signal",
+      "Interview prep for stakeholder, ethics, and decision-making loops"
+    ],
+    "ctaLabel": "Claim My Free Strategy Session",
+    "ctaLink": "https://bookings.askia.tech/#/clarity",
+    "ctaProof": "15 minutes. No sales pitch. Leave with a clear action plan \u2014 guaranteed.",
+    "ctaUrgency": "Only 4 spots left this week",
+    "ctaRating": "4.9",
+    "ctaRatingCount": "147+",
+    "secondaryCtaLabel": "Take the Career Readiness Assessment",
+    "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
+    "visual": {
+      "style": "next-role",
+      "accent": "rgba(114, 214, 255, 0.95)",
+      "accent2": "rgba(60, 162, 216, 0.9)"
+    },
+    "heroTag": "Career coaching that actually works",
+    "heroTrustLabel": "Our clients have landed at",
+    "heroTrustLogos": [
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/microsoft.svg",
+        "alt": "Microsoft logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/figma.svg",
+        "alt": "Figma logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/shopify.svg",
+        "alt": "Shopify logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/uber.svg",
+        "alt": "Uber logo"
+      }
+    ],
+    "heroStats": [
+      {
+        "value": "21 days",
+        "label": "Average time to first interview"
+      },
+      {
+        "value": "$47K",
+        "label": "Average salary increase negotiated"
+      },
+      {
+        "value": "89%",
+        "label": "Land offers within 60 days"
+      }
+    ],
+    "heroTimeline": [
+      {
+        "tag": "Week 1",
+        "body": "Get crystal clear on what you actually want"
+      },
+      {
+        "tag": "Week 2-3",
+        "body": "Rebuild how you present yourself"
+      },
+      {
+        "tag": "Week 4+",
+        "body": "Land interviews and close offers"
+      }
+    ],
+    "heroImages": [
+      {
+        "src": "/assets/hero/askia-hero-1.jpg",
+        "alt": "A coaching conversation focused on career positioning."
+      }
+    ],
+    "heroCard": {
+      "title": "Here's what changes",
+      "body": "Most clients go from frustrated to interview-ready in under a month. Here's what you get:",
+      "bullets": [
+        "Total clarity on your next move",
+        "Materials that actually get responses",
+        "Confidence to close when it counts"
+      ]
+    },
+    "proof": {
+      "title": "What changes when your story lands",
+      "subtitle": "Specific wins we drive for this role family.",
+      "items": [
+        {
+          "title": "Risk and outcome clarity",
+          "body": "We make your compliance and care impact measurable and defensible."
+        },
+        {
+          "title": "Leadership signal",
+          "body": "Position for senior roles with clear ownership and decision-making proof."
+        },
+        {
+          "title": "Offer confidence",
+          "body": "Negotiation prep tailored to regulated environments."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Legal & healthcare leaders who landed offers",
+      "subtitle": "Compliance, healthcare, and program leaders \u2014 they all felt stuck until something clicked.",
+      "sticky": true,
+      "indexes": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        19,
+        0,
+        2,
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    "coach": {
+      "eyebrow": "Who you'll work with",
+      "name": "Steve J. Ngoumnai",
+      "role": "Founder, Head Career Coach",
+      "photo": "/assets/team/steve-2026.jpg",
+      "bio": "I spent over a decade as an engineering leader, building teams and making hiring decisions. I've reviewed thousands of resumes and interviewed hundreds of candidates. I know exactly what makes someone memorable \u2014 and what gets them passed over. Now I help talented professionals stop being invisible and start landing the roles they deserve.",
+      "bullets": [
+        "Former engineering leader",
+        "Hiring experience across every level",
+        "Hundreds of successful career transitions"
+      ]
+    },
+    "focus": {
+      "eyebrow": "Sound familiar?",
+      "title": "You've probably been here",
+      "subtitle": "Stuck. Frustrated. Wondering what you're doing wrong.",
+      "items": [
+        {
+          "tag": "The Void",
+          "title": "Applications go nowhere",
+          "body": "You've applied to dozens of roles. Maybe hundreds. Silence. Occasional rejections. No real conversations."
+        },
+        {
+          "tag": "The Ghosting",
+          "title": "Promising interviews disappear",
+          "body": "You thought it went well. They seemed interested. Then... nothing. No feedback. No closure."
+        },
+        {
+          "tag": "The Doubt",
+          "title": "You start questioning yourself",
+          "body": "Maybe you're not as good as you thought. Maybe you're asking for too much. Maybe you should just settle."
+        }
+      ]
+    },
+    "steps": {
+      "title": "Here's how we get you unstuck",
+      "subtitle": "A clear path from where you are to where you want to be.",
+      "items": [
+        {
+          "title": "Get clear",
+          "body": "We figure out exactly what roles fit your experience, what you're worth, and what's been getting in your way."
+        },
+        {
+          "title": "Get seen",
+          "body": "Your resume and LinkedIn get rebuilt to actually show your value. Not tasks. Not buzzwords. Real impact."
+        },
+        {
+          "title": "Get offers",
+          "body": "You walk into interviews prepared and confident. When offers come, you negotiate from strength."
+        }
+      ]
+    },
+    "leadMagnets": {
+      "title": "Not ready for a call? Start here.",
+      "subtitle": "Free resources to get you moving.",
+      "items": [
+        {
+          "title": "Career Readiness Assessment",
+          "body": "Find out exactly what's holding you back in 3 minutes.",
+          "ctaLabel": "Take the Free Assessment",
+          "ctaLink": "https://askia.tech/career-readiness-index/",
+          "tag": "Most Popular"
+        },
+        {
+          "title": "Resume Self-Review Checklist",
+          "body": "10 things you can fix right now to get more callbacks.",
+          "ctaLabel": "Get the Checklist",
+          "ctaLink": "https://askia.tech/resume-checklist/",
+          "tag": "Quick Win"
+        }
+      ]
+    },
+    "leadMagnetsPlacement": "beforeCall",
+    "call": {
+      "eyebrow": "Your free strategy session",
+      "title": "What happens when we talk",
+      "subtitle": "15 minutes. No pitch. Just clarity.",
+      "steps": [
+        {
+          "title": "We diagnose what's not working",
+          "body": "I'll review your materials before we talk and come prepared with specific feedback."
+        },
+        {
+          "title": "We identify the #1 thing holding you back",
+          "body": "Usually it's one or two things. Your resume. Your pitch. Your approach. We find it."
+        },
+        {
+          "title": "You leave with a clear action plan",
+          "body": "Whether we work together or not, you'll know exactly what to do next."
+        }
+      ],
+      "note": "This isn't a sales call. I only take clients I know I can help. If that's not you, I'll tell you.",
+      "urgency": "Only 4 strategy sessions available this week",
+      "guarantee": "Leave with clarity \u2014 or get a second session free."
+    },
+    "whyNow": {
+      "eyebrow": "The cost of waiting",
+      "title": "Every week you wait costs you money",
+      "items": [
+        {
+          "title": "Missed interviews",
+          "body": "The roles you want are being filled right now \u2014 by people who invested in themselves."
+        },
+        {
+          "title": "Lowball offers",
+          "body": "Without negotiation skills, you'll leave $40K+ on the table. That compounds every year."
+        },
+        {
+          "title": "Confidence erosion",
+          "body": "The longer you're stuck, the harder it gets to believe you can break through."
+        }
+      ]
+    },
+    "for": {
+      "title": "This is for you if",
+      "body": "You've got real experience and you're ready to be seen for what you're actually worth.",
+      "items": [
+        "You're a senior IC, manager, or leader",
+        "You've been in the market and it's not working",
+        "You know you should be landing better roles than you are",
+        "You're tired of the guessing game and want a real system"
+      ]
+    },
+    "notFor": {
+      "title": "This probably isn't for you if",
+      "body": "We're not for everyone, and that's okay.",
+      "items": [
+        "You're just starting your career and building fundamentals",
+        "You want to spray-and-pray 500 applications",
+        "You want a template without strategy behind it"
+      ]
+    },
+    "deliverables": {
+      "title": "What you actually get",
+      "subtitle": "Not fluff. Concrete outcomes.",
+      "items": [
+        {
+          "title": "Total Clarity",
+          "tag": "Foundation",
+          "body": "Know exactly what roles you should target, what you're worth, and how to talk about yourself.",
+          "bullets": [
+            "Role targeting that makes sense",
+            "Compensation benchmarking",
+            "Your core story, refined"
+          ]
+        },
+        {
+          "title": "Materials That Work",
+          "tag": "Visibility",
+          "body": "A resume and LinkedIn profile that make people want to talk to you.",
+          "bullets": [
+            "Results-focused resume",
+            "LinkedIn that attracts",
+            "Pitch that lands"
+          ]
+        },
+        {
+          "title": "Confidence to Close",
+          "tag": "Execution",
+          "body": "Interview prep and negotiation strategy so you don't leave anything on the table.",
+          "bullets": [
+            "Stories that stick",
+            "Mock interview practice",
+            "Negotiation playbook"
+          ]
+        }
+      ]
+    },
+    "investment": {
+      "title": "The investment",
+      "subtitle": "Most clients recover their investment 40x over through better compensation.",
+      "items": [
+        "Our average client negotiates $47K more \u2014 that's a 47x return on some of our packages",
+        "Clear scope and timeline after your strategy call",
+        "No surprises, no upsells, no pressure"
+      ],
+      "anchor": "Compare that to leaving $40K+ on the table because you didn't negotiate well."
+    },
+    "risk": {
+      "title": "Zero risk. Here's our guarantee.",
+      "body": "If you don't walk away from our strategy call with complete clarity on your next steps, we'll schedule a second session at no charge. No questions asked.",
+      "items": [
+        "100% of strategy call clients leave with an action plan",
+        "If we can't help, we'll tell you exactly who can",
+        "No pushy sales tactics \u2014 ever"
+      ]
+    },
+    "related": {
+      "title": "Ready?",
+      "body": "Let's figure out what's been getting in your way.",
+      "primaryLabel": "Book My Free Strategy Call",
+      "primaryLink": "https://bookings.askia.tech/#/clarity",
+      "secondaryLabel": "See All Services",
+      "secondaryLink": "/services/",
+      "miniTestimonial": {
+        "quote": "Within 3 weeks I had 4 interviews lined up. Steve completely changed how I talk about my work.",
+        "name": "Marcus T.",
+        "role": "Senior Engineer \u2192 Staff at FAANG",
+        "rating": 5
+      }
+    },
+    "faq": {
+      "title": "Questions you might have",
+      "subtitle": "The stuff people usually ask before we talk.",
+      "items": [
+        {
+          "question": "What types of roles do you help with?",
+          "answer": "Tech, finance, operations, marketing, sales, healthcare administration, and leadership roles. Senior ICs to executives. If you're not sure if we can help, just ask \u2014 we'll be honest."
+        },
+        {
+          "question": "How fast will I see results?",
+          "answer": "Most clients land their first real interview within 3 weeks. Full job search timelines vary, but we move fast."
+        },
+        {
+          "question": "Do you guarantee I'll get a job?",
+          "answer": "No one can guarantee that. But we can guarantee you'll have the best possible materials, a clear strategy, and real preparation. What you do with it is up to you."
+        },
+        {
+          "question": "What if I don't know what role I want?",
+          "answer": "That's more common than you'd think. We start by figuring out where your experience translates best. You don't need to have it all figured out."
+        },
+        {
+          "question": "Can you help with negotiation?",
+          "answer": "Yes. We help you understand your leverage, prepare your ask, and handle the conversation. Most clients negotiate significantly more than they would have on their own."
+        },
+        {
+          "question": "What if I just need my resume fixed?",
+          "answer": "We offer that a la carte. But honestly, a better resume alone rarely solves the whole problem. We'll help you figure out what you actually need."
+        },
+        {
+          "question": "How do I get started?",
+          "answer": "Book a call. We'll talk for 15 minutes, figure out where you are, and map out next steps. No pressure."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Every week you wait costs you interviews",
+      "body": "The job market moves fast. Your competition is getting coached. Let's make sure you're not falling behind.",
+      "label": "Claim My Free Strategy Session",
+      "link": "https://bookings.askia.tech/#/clarity",
+      "urgency": "Only 4 spots left this week",
+      "guarantee": "Leave with a clear action plan or get a second session free",
+      "proofSnippet": "Join 147+ professionals who've accelerated their careers"
+    },
+    "metaTitle": "Legal & Healthcare Career Coaching | Askia",
+    "metaDescription": "Career coaching for legal, compliance, and healthcare leaders targeting $100K\u2013$350K roles.",
+    "stackedSections": true,
+    "roleShowcase": {
+      "eyebrow": "Role tracks",
+      "title": "Find your exact role track",
+      "subtitle": "Pick the path that mirrors how hiring decisions are made in your function.",
+      "groups": [
+        {
+          "title": "Roles we support",
+          "items": [
+            "Legal & Compliance",
+            "Healthcare Admin"
+          ]
+        }
+      ]
+    }
   }
 }
