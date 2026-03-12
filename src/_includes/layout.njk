@@ -1273,6 +1273,34 @@
         $zoho.salesiq.floatbutton.visible("hide");
         $zoho.salesiq.tracking.on();
       };
+
+      const hideSalesIqUi = () => {
+        const selectors = [
+          "#zsiq_float",
+          "#zsiq_floatmain",
+          "#zsiq_agtpic",
+          "#zsiq_floatmain iframe",
+          "iframe[id*='zsiq']",
+          "[class*='zsiq']",
+          "[id*='zsiq']",
+          ".siq_bR",
+          ".siq_zC"
+        ];
+        selectors.forEach((selector) => {
+          document.querySelectorAll(selector).forEach((el) => {
+            el.style.display = "none";
+            el.style.visibility = "hidden";
+            el.style.opacity = "0";
+            el.style.pointerEvents = "none";
+          });
+        });
+      };
+
+      window.addEventListener("load", () => {
+        hideSalesIqUi();
+        setTimeout(hideSalesIqUi, 1500);
+        setTimeout(hideSalesIqUi, 4000);
+      });
     </script>
     <script id="zsiqscript" src="https://salesiq.zohopublic.com/widget?wc=siq29135e41693b031f9054bf47902f5149302960359bdb70b2e88993011f5c9229" defer></script>
   </body>
