@@ -137,15 +137,25 @@ breadcrumbs:
       <h2 class="section-title section-title-glow">The people behind the outcomes</h2>
       <p class="section-subtitle">A lean team of specialists focused on signal, strategy, and execution.</p>
     </div>
-    <div class="team-grid">
-      {% for person in about.team %}
-        <div class="team-card">
-          <img src="{{ person.photo }}" alt="{{ person.name }}" />
-          <strong>{{ person.name }}</strong>
-          <span>{{ person.role }}</span>
-          <p>{{ person.bio }}</p>
-        </div>
-      {% endfor %}
+    <div class="team-carousel" data-team-carousel>
+      <div class="team-track" data-team-track>
+        {% for person in about.team %}
+          <div class="team-card">
+            <img src="{{ person.photo }}" alt="{{ person.name }}" loading="lazy" />
+            <strong>{{ person.name }}</strong>
+            <span>{{ person.role }}</span>
+            <p>{{ person.bio }}</p>
+          </div>
+        {% endfor %}
+        {% for person in about.team %}
+          <div class="team-card">
+            <img src="{{ person.photo }}" alt="{{ person.name }}" loading="lazy" />
+            <strong>{{ person.name }}</strong>
+            <span>{{ person.role }}</span>
+            <p>{{ person.bio }}</p>
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>

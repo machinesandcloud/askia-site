@@ -36,7 +36,7 @@
     <div class="hero-service-visual">
       <div class="hero-stats-card">
         {% if serviceData.proof and serviceData.proof.items %}
-          {% for item in serviceData.proof.items | slice(0, 3) %}
+          {% for item in serviceData.proof.items %}
             <div class="hero-stat-row">
               <strong>{{ item.title }}</strong>
               <span>{{ item.body }}</span>
@@ -100,7 +100,7 @@
     </div>
     <div class="focus-grid">
       {% if serviceData.focus.items %}
-        {% for item in serviceData.focus.items | slice(0, 3) %}
+        {% for item in serviceData.focus.items %}
           <article class="focus-card">
             <span class="focus-tag">{{ item.tag }}</span>
             <h3>{{ item.title }}</h3>
@@ -123,7 +123,7 @@
     </div>
     <div class="category-process">
       {% if serviceData.steps.items %}
-        {% for step in serviceData.steps.items | slice(0, 3) %}
+        {% for step in serviceData.steps.items %}
           <div class="process-step">
             <div class="process-number">{{ loop.index }}</div>
             <h3>{{ step.title }}</h3>
@@ -151,7 +151,7 @@
     <div class="testimonials-carousel" data-testimonials-carousel>
       <div class="testimonials-track" data-testimonials-track>
         {% if testimonials and testimonials.items %}
-          {% for item in testimonials.items | slice(0, 6) %}
+          {% for item in testimonials.items %}
           <article class="testimonial-card-home" data-testimonial-card>
             <div class="testimonial-card-header">
               <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" loading="lazy" />
@@ -164,7 +164,7 @@
             <p class="testimonial-card-quote">"{{ item.quote | truncate(180) }}"</p>
           </article>
           {% endfor %}
-          {% for item in testimonials.items | slice(0, 6) %}
+          {% for item in testimonials.items %}
           <article class="testimonial-card-home" data-testimonial-card>
             <div class="testimonial-card-header">
               <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" loading="lazy" />
@@ -305,7 +305,7 @@
       <p>"{{ serviceData.related.miniTestimonial.quote }}"</p>
       <span>★★★★★ — {{ serviceData.related.miniTestimonial.name }}, {{ serviceData.related.miniTestimonial.role }}</span>
     </div>
-    {% elif testimonials and testimonials.items and testimonials.items.length %}
+    {% elif testimonials and testimonials.items %}
     {% set ctaTestimonial = testimonials.items[0] %}
     <div class="cta-testimonial-mini">
       <p>"{{ ctaTestimonial.quote | truncate(140) }}"</p>

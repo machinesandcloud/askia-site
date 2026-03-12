@@ -99,7 +99,7 @@
     </div>
     <div class="focus-grid">
       {% if roleData.focus and roleData.focus.items %}
-        {% for item in roleData.focus.items | slice(0, 3) %}
+        {% for item in roleData.focus.items %}
           <article class="focus-card">
             <span class="focus-tag">{{ item.tag }}</span>
             <h3>{{ item.title }}</h3>
@@ -110,6 +110,33 @@
     </div>
   </div>
 </section>
+
+{# YOUR REALITY - Personalized pain points #}
+{% if roleData.reality %}
+<section class="section section-reality">
+  <div class="container">
+    <div class="pillar-header" style="text-align: center;">
+      <p class="hero-eyebrow">{{ roleData.reality.eyebrow or "Sound familiar?" }}</p>
+      <h2 class="section-title section-title-glow">{{ roleData.reality.title }}</h2>
+      {% if roleData.reality.subtitle %}<p class="section-subtitle">{{ roleData.reality.subtitle }}</p>{% endif %}
+    </div>
+    <div class="reality-grid">
+      {% for item in roleData.reality.items %}
+        <div class="reality-card">
+          <div class="reality-icon" aria-hidden="true">{{ item.icon or "→" }}</div>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.body }}</p>
+        </div>
+      {% endfor %}
+    </div>
+    {% if roleData.reality.callout %}
+    <div class="reality-callout">
+      <p>{{ roleData.reality.callout }}</p>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
 
 {# TESTIMONIALS - Social proof near CTA #}
 <section class="section section-testimonials">
@@ -125,7 +152,7 @@
     <div class="testimonials-carousel" data-testimonials-carousel>
       <div class="testimonials-track" data-testimonials-track>
         {% if testimonials and testimonials.items %}
-          {% for item in testimonials.items | slice(0, 6) %}
+          {% for item in testimonials.items %}
           <article class="testimonial-card-home" data-testimonial-card>
             <div class="testimonial-card-header">
               <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" loading="lazy" />
@@ -138,7 +165,7 @@
             <p class="testimonial-card-quote">"{{ item.quote | truncate(180) }}"</p>
           </article>
           {% endfor %}
-          {% for item in testimonials.items | slice(0, 6) %}
+          {% for item in testimonials.items %}
           <article class="testimonial-card-home" data-testimonial-card>
             <div class="testimonial-card-header">
               <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" loading="lazy" />
@@ -180,7 +207,7 @@
     </div>
     <div class="category-process">
       {% if roleData.steps and roleData.steps.items %}
-        {% for step in roleData.steps.items | slice(0, 3) %}
+        {% for step in roleData.steps.items %}
           <div class="process-step">
             <div class="process-number">{{ loop.index }}</div>
             <h3>{{ step.title }}</h3>

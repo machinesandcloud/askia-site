@@ -137,7 +137,7 @@
     </div>
     <div class="testimonials-carousel" data-testimonials-carousel>
       <div class="testimonials-track" data-testimonials-track>
-        {% for item in testimonials.items | slice(0, 6) %}
+        {% for item in testimonials.items %}
         <article class="testimonial-card-home" data-testimonial-card>
           <div class="testimonial-card-header">
             <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
@@ -150,7 +150,7 @@
           <p class="testimonial-card-quote">"{{ item.quote | truncate(180) }}"</p>
         </article>
         {% endfor %}
-        {% for item in testimonials.items | slice(0, 6) %}
+        {% for item in testimonials.items %}
         <article class="testimonial-card-home" data-testimonial-card>
           <div class="testimonial-card-header">
             <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" />

@@ -151,33 +151,95 @@
       "secondaryLabel": "See All Services",
       "secondaryLink": "/services/"
     },
+    "reality": {
+      "eyebrow": "Sound familiar?",
+      "title": "The engineer's job search reality",
+      "subtitle": "These are the conversations we have every day with engineers just like you.",
+      "items": [
+        {
+          "icon": "💬",
+          "title": "\"I've been at this level for 3 years\"",
+          "body": "You watch engineers with half your experience get promoted. You're delivering, but somehow your impact isn't visible to the people making decisions. You know you're operating at the next level — you just can't prove it on paper."
+        },
+        {
+          "icon": "📄",
+          "title": "\"My resume is just a list of technologies\"",
+          "body": "React, TypeScript, AWS, Kubernetes. You've listed every framework and tool. But so has everyone else. Your resume looks like every other Senior Engineer's — and that's the problem."
+        },
+        {
+          "icon": "🎤",
+          "title": "\"I freeze in system design interviews\"",
+          "body": "At work, you design systems confidently. But in interviews, with someone watching you draw boxes, your mind goes blank. You second-guess everything and run out of time before getting to the good stuff."
+        },
+        {
+          "icon": "🤷",
+          "title": "\"I don't know how to describe my impact\"",
+          "body": "You shipped a feature that millions use. You refactored a codebase that saved the team hours every week. But when someone asks 'what did you accomplish?', you draw a blank or undersell it completely."
+        },
+        {
+          "icon": "💰",
+          "title": "\"I always take the first offer\"",
+          "body": "You've never negotiated a job offer. The thought of asking for more makes you uncomfortable. So you accept what's given — even when you suspect it's below market."
+        },
+        {
+          "icon": "🎯",
+          "title": "\"I'm not sure if I'm Staff material\"",
+          "body": "Imposter syndrome is loud. You've seen Staff engineers and wonder if you're really at that level. Maybe you got lucky. Maybe you're not ready. That doubt is holding you back from even trying."
+        }
+      ],
+      "callout": "If any of this sounds like you — you're not alone. This is exactly what we help engineers fix, every single day."
+    },
     "faq": {
       "title": "Questions engineers usually ask",
       "subtitle": "Straight answers.",
       "items": [
         {
           "question": "Do you help with system design interviews?",
-          "answer": "Yes. We build frameworks for approaching any problem and practice until you can walk through designs confidently."
+          "answer": "Yes. We build frameworks for approaching any problem — not memorized solutions, but actual thinking patterns. We practice until you can walk through designs confidently, handle follow-ups, and make trade-offs out loud without freezing."
         },
         {
           "question": "Can you help me go from Senior to Staff?",
-          "answer": "That's one of our most common engagements. We focus on demonstrating scope, influence, and technical leadership."
+          "answer": "That's one of our most common engagements. The jump from Senior to Staff is about demonstrating scope, influence, and technical leadership — not just writing more code. We help you identify the Staff-level work you're already doing and articulate it clearly."
         },
         {
-          "question": "What about LeetCode?",
-          "answer": "We don't do algorithm prep — there are great resources for that. We focus on everything else: positioning, system design, behavioral, and negotiation."
+          "question": "What about LeetCode and algorithm prep?",
+          "answer": "We don't do algorithm prep — there are great resources for that (LeetCode, NeetCode, etc.). We focus on everything else that determines whether you get the offer: positioning, system design, behavioral interviews, and negotiation. Those areas are often the difference between a rejection and a $400K offer."
         },
         {
           "question": "I'm a frontend/backend/full-stack engineer. Does that matter?",
-          "answer": "The principles are the same. We tailor the specifics to your domain."
+          "answer": "The principles are the same across specialties. We tailor the specifics to your domain — a frontend system design interview is different from a distributed systems interview. We meet you where you are."
         },
         {
           "question": "How long until I see results?",
-          "answer": "Most clients land interviews within 3 weeks once their materials are dialed in. Full search timelines vary."
+          "answer": "Most clients start landing interviews within 2-3 weeks once their materials are dialed in. The full search timeline depends on your target (FAANG vs. startup, etc.) and how aggressively you're searching. We help you build a sustainable system, not a desperate spray-and-pray approach."
         },
         {
-          "question": "Do you help with negotiation?",
-          "answer": "Yes. We help you understand your leverage and prepare for the compensation conversation."
+          "question": "Do you help with salary negotiation?",
+          "answer": "Yes, and this is often where we add the most value. Engineers routinely leave $50-100K on the table because they don't know their leverage or how to ask. We help you understand the comp bands, prepare your ask, and handle the back-and-forth with confidence."
+        },
+        {
+          "question": "What if I'm not sure if I should be targeting Senior or Staff?",
+          "answer": "That's exactly what our initial strategy call is for. We'll look at your actual work, scope, and influence to calibrate where you should be targeting. Many engineers are surprised to learn they're already operating at the next level — they just need to prove it."
+        },
+        {
+          "question": "I keep getting rejected after final rounds. Can you help?",
+          "answer": "Final round rejections are usually about leveling or culture fit signals, not technical ability. We dig into your interview stories, how you're presenting yourself, and what signals you might be unintentionally sending. Often it's a fixable positioning problem."
+        },
+        {
+          "question": "Do you work with engineers at FAANG companies?",
+          "answer": "About 40% of our clients are currently at or targeting FAANG. We understand the leveling systems, interview processes, and what it takes to stand out in those environments. We also work with engineers at startups, mid-size companies, and those making the transition between."
+        },
+        {
+          "question": "What's different about your approach vs. other coaching?",
+          "answer": "I spent a decade as an engineering leader doing the actual hiring. I know what separates a candidate we fight to hire from one who gets passed over. This isn't theory — it's pattern matching from hundreds of hiring decisions and interviews."
+        },
+        {
+          "question": "How much does this cost?",
+          "answer": "Coaching engagements range from focused resume work to comprehensive search support. The free strategy call is where we figure out what you actually need. Most clients see ROI of 10-50x their investment in their first negotiated offer."
+        },
+        {
+          "question": "What if I'm an international engineer / need visa sponsorship?",
+          "answer": "We work with engineers globally. The positioning principles are the same, though we adapt for regional market differences. For visa sponsorship, we help you navigate which companies sponsor and how to position yourself to be worth the extra paperwork."
         }
       ]
     },
@@ -362,25 +424,87 @@
       "secondaryLabel": "See All Services",
       "secondaryLink": "/services/"
     },
+    "reality": {
+      "eyebrow": "Sound familiar?",
+      "title": "The DevOps engineer's job search reality",
+      "subtitle": "These are the conversations we have every day with platform engineers just like you.",
+      "items": [
+        {
+          "icon": "👻",
+          "title": "\"Nobody notices until it breaks\"",
+          "body": "99.99% uptime? 'That's expected.' One outage? 'What happened?!' The best infrastructure work is invisible — which means you get blamed for failures but not credited for success."
+        },
+        {
+          "icon": "📉",
+          "title": "\"My resume is just a list of tools\"",
+          "body": "Kubernetes, Terraform, AWS, Datadog, Prometheus... You've listed every tool in your stack. But so has everyone else. Nothing shows the impact of your work."
+        },
+        {
+          "icon": "💰",
+          "title": "\"I don't know how to talk about cost savings\"",
+          "body": "You optimized cloud spend by 40%. You reduced infrastructure costs by $500K. But it feels like bragging, and you're not sure how to frame it without the exact numbers."
+        },
+        {
+          "icon": "🚨",
+          "title": "\"Incident stories feel risky\"",
+          "body": "Your best stories involve incidents. But you worry talking about them will make you look bad. How do you show crisis leadership without implying you caused problems?"
+        },
+        {
+          "icon": "🔄",
+          "title": "\"DevOps vs SRE vs Platform — I'm not sure what to target\"",
+          "body": "Job titles are all over the place. You're not sure whether to position yourself as DevOps, SRE, Platform Engineer, or Cloud Engineer. Different companies mean different things."
+        },
+        {
+          "icon": "📈",
+          "title": "\"I want to move into management but don't know how\"",
+          "body": "You've mentored junior engineers. You've led initiatives. But transitioning to EM or Platform Lead feels like a different career path that nobody explains."
+        }
+      ],
+      "callout": "If any of this sounds like you — you're not alone. This is exactly what we help DevOps and platform engineers fix, every single day."
+    },
     "faq": {
       "title": "Questions DevOps engineers usually ask",
       "subtitle": "Real answers.",
       "items": [
         {
           "question": "How do I quantify reliability work?",
-          "answer": "We look for uptime improvements, incident frequency reduction, MTTR, deployment velocity, cost savings — the numbers are there, we just need to find them."
+          "answer": "We look for uptime improvements, incident frequency reduction, MTTR, deployment velocity, cost savings. The numbers are there — we help you find them and frame them as business impact, not just technical metrics."
         },
         {
           "question": "Do you help with platform engineering roles specifically?",
-          "answer": "Yes. Platform, SRE, and DevOps all have nuances. We tailor to your target."
+          "answer": "Yes. Platform, SRE, and DevOps all have nuances. We tailor positioning to your target — internal developer platform, external reliability, cloud infrastructure, whatever matches your experience and goals."
         },
         {
           "question": "What about cloud certifications?",
-          "answer": "Certifications can help, but they're not the focus. We focus on demonstrating real impact."
+          "answer": "Certifications can help, but they're not what gets you hired. Impact gets you hired. We focus on demonstrating real results. If you have certs, great. If you don't, it rarely matters for experienced engineers."
         },
         {
           "question": "How do I talk about incidents without looking bad?",
-          "answer": "It's all about framing. We help you tell incident stories that show leadership, not blame."
+          "answer": "Incident stories are your best leadership stories. We help you frame them to show crisis response, decision-making under pressure, and post-incident improvement. Interviewers want to know how you handle chaos, not that you've never seen any."
+        },
+        {
+          "question": "DevOps vs SRE vs Platform — what should I target?",
+          "answer": "It depends on what you actually want to do. SRE emphasizes reliability and operational excellence. Platform engineering focuses on internal developer experience. DevOps is broader. We help you figure out what fits your experience and goals."
+        },
+        {
+          "question": "How do I show scale without big company names?",
+          "answer": "Scale isn't just about traffic. It's about complexity, reliability requirements, and business impact. We help you articulate the real challenges you've solved, regardless of company size."
+        },
+        {
+          "question": "I want to move from DevOps to SRE at a FAANG. Is that realistic?",
+          "answer": "Yes, if your experience matches. We help you identify the gaps and frame your experience in SRE terms. The core skills often translate — it's the framing and interview prep that matter."
+        },
+        {
+          "question": "Can you help me transition into management?",
+          "answer": "Yes. We work with platform engineers moving into EM or Platform Lead roles. The transition requires reframing your experience around team leadership and organizational impact, not just technical work."
+        },
+        {
+          "question": "What's your experience with infrastructure roles?",
+          "answer": "I've led platform teams and hired extensively in the space. I understand the challenge of making invisible work visible and can help you translate operational excellence into career advancement."
+        },
+        {
+          "question": "How do you help with system design interviews?",
+          "answer": "Infrastructure system design is different from app system design. We practice reliability-focused architecture, trade-off discussions, and capacity planning scenarios that show your operational thinking."
         }
       ]
     },
@@ -565,25 +689,87 @@
       "secondaryLabel": "See All Services",
       "secondaryLink": "/services/"
     },
+    "reality": {
+      "eyebrow": "Sound familiar?",
+      "title": "The data professional's job search reality",
+      "subtitle": "These are the conversations we have every day with data folks just like you.",
+      "items": [
+        {
+          "icon": "📊",
+          "title": "\"They see me as 'just the SQL person'\"",
+          "body": "You've influenced million-dollar decisions. But stakeholders remember the dashboard, not the insight that changed their strategy. You're seen as the person who makes charts, not the one who drives outcomes."
+        },
+        {
+          "icon": "🤷",
+          "title": "\"I don't know if I'm DE, DS, or Analytics\"",
+          "body": "You've built pipelines, trained models, AND made dashboards. Your title says one thing, your work says another. You don't fit neatly into job postings and don't know how to position yourself."
+        },
+        {
+          "icon": "📉",
+          "title": "\"My resume is all tools and technologies\"",
+          "body": "Python, SQL, Spark, Tableau, dbt... You've listed every tool in your stack. But 'built dashboard' and 'created pipeline' don't show that your work changed how the company operates."
+        },
+        {
+          "icon": "🎯",
+          "title": "\"Case interviews make me freeze\"",
+          "body": "You solve data problems every day. But in an interview, being asked to size a market or design an A/B test on the spot, you panic. You know this stuff — but the interview format throws you off."
+        },
+        {
+          "icon": "💼",
+          "title": "\"I want to move to Senior but don't know what's different\"",
+          "body": "You've been an analyst or data scientist for years. Senior feels close but fuzzy. You're not sure what actually separates Senior from mid-level in data roles."
+        },
+        {
+          "icon": "🔄",
+          "title": "\"Should I go deeper technical or more business?\"",
+          "body": "Data Engineering pays well but feels removed from decisions. Analytics is strategic but feels less 'technical.' You're not sure which path matches what you actually want."
+        }
+      ],
+      "callout": "If any of this sounds like you — you're not alone. This is exactly what we help data professionals figure out, every single day."
+    },
     "faq": {
       "title": "Questions data professionals usually ask",
       "subtitle": "Direct answers.",
       "items": [
         {
           "question": "I do a mix of DE/DS/Analytics. How do I position myself?",
-          "answer": "We help you pick the angle that serves your goals and tell a coherent story around it."
+          "answer": "We help you pick the angle that serves your goals and tell a coherent story around it. The key is choosing a clear lane for your job search, even if your actual work spans multiple areas."
         },
         {
           "question": "Do you help with case interviews?",
-          "answer": "Yes. We build frameworks for approaching data problems and practice until you're confident."
+          "answer": "Yes. We build frameworks for approaching data problems — metric design, A/B testing, product analytics, SQL logic problems. We practice until you can think through cases confidently and structure your answers clearly."
         },
         {
           "question": "My work was technical (pipelines, models). Does that count as impact?",
-          "answer": "Absolutely. We help you connect technical work to business outcomes."
+          "answer": "Absolutely. Technical work has business impact — it just needs translation. Faster pipelines mean faster decisions. Better models mean better predictions. We help you connect the technical to the business outcome."
         },
         {
           "question": "How do I show leadership if I don't manage people?",
-          "answer": "Leadership is about influence, not headcount. We help you demonstrate cross-functional impact."
+          "answer": "Leadership is about influence, not headcount. Cross-functional projects, mentoring, driving data strategy, establishing best practices — all of this is leadership. We help you identify and articulate it."
+        },
+        {
+          "question": "What's the difference between Senior and mid-level in data?",
+          "answer": "Senior means scope, ambiguity, and influence. You own larger problems, work with less guidance, and influence decisions beyond your immediate work. We help you identify where you're already doing this."
+        },
+        {
+          "question": "Should I focus on Data Engineering or Data Science?",
+          "answer": "Depends on what you want. DE is about building reliable data infrastructure. DS is about extracting insights and building models. We help you think through which path matches your interests and goals."
+        },
+        {
+          "question": "How do I show business impact from technical pipeline work?",
+          "answer": "Pipelines enable decisions. What decisions? How fast? What was the business value? We help you trace your technical work to the business outcomes it enabled — even if you weren't the one making the final call."
+        },
+        {
+          "question": "I want to transition from Analytics to Data Science. Can you help?",
+          "answer": "Yes. The transition is about showing you can do more than reporting — you can build models, run experiments, and think statistically. We help you position your analytical experience as a foundation for DS."
+        },
+        {
+          "question": "Do you help with salary negotiation for data roles?",
+          "answer": "Yes. Data comp varies wildly by company and role type. We help you understand market rates, negotiate confidently, and avoid leaving money on the table."
+        },
+        {
+          "question": "What if I'm not sure whether to stay technical or move to management?",
+          "answer": "That's a common crossroads. We help you think through what you actually want — the day-to-day of IC work vs management, the tradeoffs, and what each path looks like. Then we help you position for whichever you choose."
         }
       ]
     },
@@ -768,25 +954,87 @@
       "secondaryLabel": "See All Services",
       "secondaryLink": "/services/"
     },
+    "reality": {
+      "eyebrow": "Sound familiar?",
+      "title": "The product manager's job search reality",
+      "subtitle": "These are the conversations we have every day with PMs just like you.",
+      "items": [
+        {
+          "icon": "🤷",
+          "title": "\"I can't take credit for the numbers\"",
+          "body": "The revenue grew 40%, but you didn't write the code or close the deals. How do you claim that win without sounding like you're taking credit for others' work? You end up underselling everything."
+        },
+        {
+          "icon": "📊",
+          "title": "\"My resume is all vague strategy words\"",
+          "body": "'Drove product strategy' and 'managed stakeholders' sound like every other PM. Nothing concrete. Nothing that shows the hard decisions you actually made."
+        },
+        {
+          "icon": "🎯",
+          "title": "\"Case interviews make me freeze\"",
+          "body": "You do product thinking every day. But in an interview, being watched while you estimate market size or design a feature, your brain goes blank. You forget frameworks you know."
+        },
+        {
+          "icon": "🔄",
+          "title": "\"They think I'm just a project manager\"",
+          "body": "You've owned strategy, said no to executives, and made calls that shaped the roadmap. But your experience reads like coordination, not leadership."
+        },
+        {
+          "icon": "💼",
+          "title": "\"I don't know if I'm Senior PM material\"",
+          "body": "You've shipped products. But Senior PM or Group PM feels like it requires something you don't have. You're not sure what separates 'Senior' from just... experienced."
+        },
+        {
+          "icon": "💰",
+          "title": "\"I accepted the first offer again\"",
+          "body": "Negotiating feels pushy. You don't know the PM comp bands. So you accept what's offered and wonder later if you left money on the table."
+        }
+      ],
+      "callout": "If any of this sounds like you — you're not alone. This is exactly what we help PMs fix, every single day."
+    },
     "faq": {
       "title": "Questions PMs usually ask",
       "subtitle": "Honest answers.",
       "items": [
         {
           "question": "How do I quantify impact when I didn't write the code?",
-          "answer": "You made the decisions. You prioritized. You aligned. We help you trace outcomes back to your work."
+          "answer": "You made the decisions. You prioritized. You aligned. We help you trace outcomes back to your work — revenue influence, user growth, feature adoption, team velocity. Your decisions had numbers attached. We find them."
         },
         {
           "question": "Do you help with PM case interviews?",
-          "answer": "Yes. We build frameworks and practice until you can think out loud confidently."
+          "answer": "Yes. We build frameworks for product sense, estimation, and strategic thinking. We practice until you can think out loud confidently, structure problems clearly, and handle follow-up questions without freezing."
         },
         {
           "question": "I'm a PO trying to become a PM. Can you help?",
-          "answer": "Yes. We help reframe your experience to show PM-relevant skills."
+          "answer": "Yes. Product Owners often do PM work without the title. We help reframe your experience to show PM-relevant skills — strategic thinking, prioritization, and business impact — not just backlog management."
         },
         {
           "question": "What about Technical PM roles?",
-          "answer": "We cover all PM flavors — technical, growth, platform, core product."
+          "answer": "We cover all PM flavors — technical, growth, platform, core product. The positioning differs, but the principles are the same: show strategic impact, demonstrate cross-functional influence, quantify outcomes."
+        },
+        {
+          "question": "How do I show leadership without direct reports?",
+          "answer": "Cross-functional influence IS leadership. We help you articulate how you've aligned engineering, design, marketing, and sales. How you've made hard calls. How you've influenced without authority."
+        },
+        {
+          "question": "What if I'm transitioning from a different role into PM?",
+          "answer": "We've helped engineers, designers, consultants, and analysts make the switch. The key is mapping your existing skills to PM requirements and showing product thinking in your current work."
+        },
+        {
+          "question": "How is Senior PM different from PM?",
+          "answer": "Senior PM is about scope and autonomy. You own larger problem spaces, influence strategy, mentor others, and operate with less guidance. We help you identify where you're already doing this and articulate it clearly."
+        },
+        {
+          "question": "Do you help with salary negotiation?",
+          "answer": "Yes. PM comp can be opaque, especially at smaller companies. We help you research market rates, understand comp bands, and negotiate confidently. Most clients add $30-60K to their offers."
+        },
+        {
+          "question": "What if I'm not sure which PM role I should target?",
+          "answer": "That's what the strategy call is for. We look at your experience and help you identify which PM flavors (consumer, B2B, platform, growth, technical) match your background and goals."
+        },
+        {
+          "question": "How long until I see results?",
+          "answer": "Most clients start landing interviews within 2-3 weeks once their positioning is clear. The full search timeline depends on your targets and how actively you're searching. We help you build momentum, not desperation."
         }
       ]
     },
@@ -971,25 +1219,87 @@
       "secondaryLabel": "See All Services",
       "secondaryLink": "/services/"
     },
+    "reality": {
+      "eyebrow": "Sound familiar?",
+      "title": "The engineering manager's job search reality",
+      "subtitle": "These are the conversations we have every day with EMs just like you.",
+      "items": [
+        {
+          "icon": "👥",
+          "title": "\"My team gets the credit\"",
+          "body": "Your engineers shipped the feature, got the bonuses, got promoted. You created the environment that made it happen. But when you interview, it feels weird to claim their wins as yours."
+        },
+        {
+          "icon": "💻",
+          "title": "\"I haven't coded in years\"",
+          "body": "You worry you're losing your technical edge. In interviews, you dread the 'are you still technical?' question. You're not sure how to prove technical credibility without coding."
+        },
+        {
+          "icon": "📊",
+          "title": "\"My resume sounds like a job description\"",
+          "body": "'Led team of 8 engineers.' 'Managed sprint planning.' 'Conducted 1:1s.' It's all true. And it sounds exactly like every other EM's resume."
+        },
+        {
+          "icon": "🎭",
+          "title": "\"Leadership interviews feel different\"",
+          "body": "It's not about system design or algorithms. It's scenario questions and strategy discussions. You're not sure how to prepare for that, and winging it hasn't worked."
+        },
+        {
+          "icon": "🔄",
+          "title": "\"I'm stuck at the EM level\"",
+          "body": "You've been an EM for years. Director feels close but out of reach. You're not sure what separates a Director from a good EM, or how to demonstrate you're ready for more scope."
+        },
+        {
+          "icon": "🤷",
+          "title": "\"Should I even stay in management?\"",
+          "body": "Sometimes you wonder if you should go back to IC. You loved building. You're not sure management is your path. You need clarity on what you actually want."
+        }
+      ],
+      "callout": "If any of this sounds like you — you're not alone. This is exactly what we help engineering managers figure out, every single day."
+    },
     "faq": {
       "title": "Questions EMs usually ask",
       "subtitle": "Real talk.",
       "items": [
         {
           "question": "How do I take credit for team work without being arrogant?",
-          "answer": "It's not arrogance. You built the team. You created the conditions. We help you frame it properly."
+          "answer": "It's not arrogance — it's accurate attribution. You built the team. You created the conditions. You made decisions that enabled the outcomes. We help you frame your leadership as the multiplier it is, not as stealing credit."
         },
         {
           "question": "Do you help with Director/VP roles?",
-          "answer": "Yes. The principles scale. The scope of impact just gets bigger."
+          "answer": "Yes. The principles scale. Directors demonstrate org-level impact, influence across teams, and strategic thinking. We help you identify where you're already operating at that level and articulate it clearly."
         },
         {
           "question": "I'm a Staff IC considering management. Can you help?",
-          "answer": "Yes. We help you articulate transferable leadership and make the case for management."
+          "answer": "Yes. We help you articulate transferable leadership — the mentorship, the technical direction, the influence without authority. And we help you think through whether management is actually what you want."
         },
         {
           "question": "What about technical credibility?",
-          "answer": "We help you demonstrate technical judgment without needing to code in interviews."
+          "answer": "You don't need to code in interviews. You need to show technical judgment — architecture decisions, trade-off reasoning, technical strategy. We help you demonstrate you can lead technical work without doing all of it yourself."
+        },
+        {
+          "question": "How do I prepare for leadership scenario questions?",
+          "answer": "We build a library of your real stories — conflict resolution, difficult conversations, team building, navigating ambiguity. We practice framing them to show leadership thinking, not just outcomes."
+        },
+        {
+          "question": "What's the difference between EM and Director?",
+          "answer": "Directors own multiple teams or org-level initiatives. They influence strategy, not just execution. We help you identify where you're already doing Director-level work and frame it properly."
+        },
+        {
+          "question": "I'm not sure if I should stay in management or go back to IC. Can you help?",
+          "answer": "Yes. This is a common crossroads. We help you think through what you actually want, not just what's expected. Sometimes the answer is management. Sometimes it's Staff+ IC. Sometimes it's something else entirely."
+        },
+        {
+          "question": "Do you help with salary negotiation for leadership roles?",
+          "answer": "Yes. Leadership comp is often more negotiable than IC comp, but also more complex. We help you understand the full package — base, bonus, equity, scope — and negotiate confidently."
+        },
+        {
+          "question": "I've only managed one team. Am I ready for Director?",
+          "answer": "Team count isn't the only measure. Directors demonstrate cross-team influence, strategic thinking, and organizational impact. We help you identify whether you're ready and what gaps you might need to address."
+        },
+        {
+          "question": "How do I show executive presence in interviews?",
+          "answer": "Executive presence isn't about personality — it's about clarity of thought, confident communication, and strategic framing. We practice until your answers sound like a leader's, not like an IC's."
         }
       ]
     },
@@ -1027,6 +1337,44 @@
     "h1": "You stopped the breach. Nobody noticed.",
     "subtitle": "Make your defense work into career offense.",
     "supporting": "You've hardened systems, responded to incidents, and kept the company out of the headlines. But 'managed security' doesn't exactly scream impact. The best security work is invisible — and that's a career problem. Let's make your protection visible.",
+    "reality": {
+      "eyebrow": "Sound familiar?",
+      "title": "The cybersecurity job search reality",
+      "subtitle": "These are the conversations we have every day with security pros just like you.",
+      "items": [
+        {
+          "icon": "🛡️",
+          "title": "\"My biggest win is the breach that never happened\"",
+          "body": "You prevented a $10M incident, but how do you prove something didn't occur? You can't point to the attack that never got through — yet that's exactly why they hired you."
+        },
+        {
+          "icon": "🔥",
+          "title": "\"The incident I handled makes me look bad\"",
+          "body": "You responded to a breach, contained it in hours, and saved the company. But now you're worried interviewers will think you caused it — or that your previous employer was negligent."
+        },
+        {
+          "icon": "📋",
+          "title": "\"I'm seen as the person who says no\"",
+          "body": "Every project you've protected, every corner you wouldn't let them cut — it saved the company. But internally, you're known as the roadblock, not the enabler."
+        },
+        {
+          "icon": "🔧",
+          "title": "\"My resume reads like a tools list\"",
+          "body": "Splunk, CrowdStrike, Nessus, Wireshark... You've mastered them all, but your resume looks like a vendor catalog, not a story of business impact."
+        },
+        {
+          "icon": "📊",
+          "title": "\"Compliance work sounds boring\"",
+          "body": "You achieved SOC 2, passed PCI audits, implemented GDPR controls. But 'maintained compliance' doesn't convey that you enabled $50M in enterprise deals."
+        },
+        {
+          "icon": "🚀",
+          "title": "\"I don't know if I can make it to CISO\"",
+          "body": "You've done the technical work for years, but leadership roles seem to go to people who can 'speak to the business.' You can protect them — can you lead them?"
+        }
+      ],
+      "callout": "If any of this sounds like you — you're not alone, and you're not stuck. We've helped dozens of security professionals translate risk prevention into career advancement."
+    },
     "highlights": [
       "Quantify risk reduction and incident response",
       "Frame compliance as business enablement",
@@ -1180,15 +1528,43 @@
       "items": [
         {
           "question": "How do I quantify prevention?",
-          "answer": "We estimate what incidents would have cost and attribute prevention to your work."
+          "answer": "We estimate what incidents would have cost and attribute prevention to your work. Industry benchmarks show average breach costs of $4.5M — if you hardened systems and prevented exposure, that's your impact story."
         },
         {
-          "question": "How do I talk about incidents?",
-          "answer": "We frame them as leadership moments, not failures. You handled it. That's the story."
+          "question": "How do I talk about incidents without looking bad?",
+          "answer": "Incidents happen. What matters is how you responded. We frame them as leadership moments: you detected quickly, contained effectively, communicated transparently, and implemented improvements. That's exactly what hiring managers want to see."
         },
         {
-          "question": "Is there a path to security leadership?",
-          "answer": "Absolutely. CISO, security directors, and VP roles all need people who've done the work."
+          "question": "Is there a path from SOC analyst to CISO?",
+          "answer": "Absolutely. The path typically goes: analyst → senior analyst → security engineer → security manager → director → CISO. The key is developing business communication skills alongside technical depth. We help you make that transition."
+        },
+        {
+          "question": "My resume is just a list of tools. How do I fix that?",
+          "answer": "Tools are table stakes. We restructure your resume around outcomes: what threats you detected, what attacks you prevented, what compliance you enabled. 'Implemented Splunk' becomes 'Reduced incident detection time from 72 hours to 4 hours, preventing $2M in potential breach costs.'"
+        },
+        {
+          "question": "How do I transition from technical security to security leadership?",
+          "answer": "Leadership requires translating security into business language. You need to quantify risk in dollars, not vulnerabilities. We help you develop the executive communication skills and strategic framing that get you into the room where decisions are made."
+        },
+        {
+          "question": "Do I need certifications like CISSP to advance?",
+          "answer": "Certifications help but aren't sufficient alone. CISSP, CISM, and others show baseline knowledge, but what gets you hired is demonstrable impact. We help you position certifications as credibility enhancers, not your main value proposition."
+        },
+        {
+          "question": "How do I interview for security roles without revealing confidential information?",
+          "answer": "You can discuss approaches, frameworks, and outcomes without disclosing specifics. We teach you to talk about 'a major incident at a Fortune 500 company' with generalized learnings. Interviewers understand confidentiality — they want to see your judgment and process."
+        },
+        {
+          "question": "How do I compete against candidates from bigger-name companies?",
+          "answer": "Candidates from FAANG security teams aren't always better — they had bigger budgets and more support. If you've done security at a smaller company with limited resources, that's actually harder. We help you frame scrappiness as strength."
+        },
+        {
+          "question": "Should I specialize or stay generalist in security?",
+          "answer": "At senior levels, specialization typically pays better: cloud security, AppSec, incident response, or GRC each have distinct career paths. But security leadership requires breadth. We help you choose based on your goals and market demand."
+        },
+        {
+          "question": "How do I explain gaps from burnout or the job market?",
+          "answer": "Security is a high-burnout field. Gaps are common and understandable. We help you frame time off as intentional — studying for certifications, consulting, or simply recovering. Honesty works better than covering it up."
         }
       ]
     },
@@ -1224,6 +1600,44 @@
     "h1": "You ship quality. But your resume says 'wrote test cases.'",
     "subtitle": "Stop being an afterthought. Start being essential.",
     "supporting": "You've caught critical bugs before launch. You've built automation that saves hours every sprint. You've made sure the product actually works. But QA often feels like a second-class engineering citizen. Let's change how people see you — starting with how you see yourself.",
+    "reality": {
+      "eyebrow": "Sound familiar?",
+      "title": "The QA job search reality",
+      "subtitle": "These are the conversations we have every day with QA professionals just like you.",
+      "items": [
+        {
+          "icon": "🐛",
+          "title": "\"I found the bug, but the developer got the credit\"",
+          "body": "You caught the critical issue before release. The developer fixed it and got thanked in the all-hands. You got... another ticket in your queue."
+        },
+        {
+          "icon": "🤖",
+          "title": "\"My automation saves hours but nobody cares\"",
+          "body": "You built a framework that runs 2,000 tests in 20 minutes. Before you, it was manual and took a week. But 'maintained test automation' doesn't exactly pop on a resume."
+        },
+        {
+          "icon": "👻",
+          "title": "\"I'm treated as an afterthought\"",
+          "body": "You're pulled into projects at the last minute, asked to 'just run some tests' before launch, and never invited to architecture discussions. Quality is everyone's job — until it's time to give credit."
+        },
+        {
+          "icon": "🔀",
+          "title": "\"I don't know if I should become a developer\"",
+          "body": "Everyone says QA is a stepping stone to 'real' engineering. But you like quality work. You're just not sure if it's a career or a career detour."
+        },
+        {
+          "icon": "📝",
+          "title": "\"My resume sounds like a test plan\"",
+          "body": "'Wrote test cases, executed test plans, reported defects.' Even you're bored reading it. Where's the strategy? The problem-solving? The engineering?"
+        },
+        {
+          "icon": "💰",
+          "title": "\"I'm underpaid compared to developers\"",
+          "body": "You write code. You debug systems. You solve complex problems. But somehow 'QA' means 30% less salary than 'SWE' for similar work."
+        }
+      ],
+      "callout": "If any of this sounds like you — you're not alone, and you're not stuck. We've helped QA professionals reframe their work and land SDET, lead, and management roles."
+    },
     "highlights": [
       "Frame quality work as risk reduction and speed enablement",
       "Position for SDET, Automation Lead, or Quality Manager roles",
@@ -1377,15 +1791,43 @@
       "items": [
         {
           "question": "How do I quantify bug prevention?",
-          "answer": "We estimate what those bugs would have cost in production — user impact, engineering time, business consequences."
+          "answer": "We estimate what those bugs would have cost in production — user impact, engineering time, and business consequences. A critical bug caught before release might have caused hours of downtime, thousands in lost revenue, or weeks of customer churn. That's your impact."
         },
         {
-          "question": "Is SDET really engineering?",
-          "answer": "Yes. You're writing code, designing systems, solving problems. We help you frame it that way."
+          "question": "Is SDET really considered engineering?",
+          "answer": "Absolutely. You're writing code, designing test architecture, solving complex debugging problems. At top companies, SDETs earn the same as SWEs because they recognize it's equivalent work. We help you frame your work as the engineering it truly is."
         },
         {
-          "question": "Can I transition to 'regular' software engineering?",
-          "answer": "Many do. Your testing experience is actually an asset. We help you position it."
+          "question": "Can I transition from QA to software engineering?",
+          "answer": "Many do successfully. Your testing experience is actually an asset — you understand edge cases, defensive coding, and system reliability better than developers who've never tested. We help you position this experience as a strength, not a limitation."
+        },
+        {
+          "question": "How do I get out of manual testing and into automation?",
+          "answer": "Start by identifying repetitive tests you could automate. Learn a framework (Selenium, Cypress, Playwright). But more importantly, frame the business case: 'I automated X tests, saving Y hours per sprint.' We help you build a portfolio that demonstrates automation engineering skills."
+        },
+        {
+          "question": "Is QA management a real career path?",
+          "answer": "Quality Engineering Manager, Director of QA, VP of Quality — these are senior roles at every major company. The path requires combining technical credibility with strategic thinking about quality processes. We help you develop and demonstrate both."
+        },
+        {
+          "question": "How do I compete against candidates from bigger companies?",
+          "answer": "Candidates from FAANG QA teams had bigger budgets and more established processes. If you've built quality practices from scratch at a smaller company, that's actually harder and more valuable. We help you frame scrappiness as leadership."
+        },
+        {
+          "question": "Should I get ISTQB or other certifications?",
+          "answer": "Certifications help early in your career but become less important at senior levels. What matters more is demonstrable impact: tests automated, bugs prevented, release velocity improved. We help you focus on what actually gets you hired."
+        },
+        {
+          "question": "How do I talk about my work without sounding like I just found bugs?",
+          "answer": "We shift your narrative from 'found X bugs' to 'prevented $X in production incidents' and from 'wrote test cases' to 'designed quality strategy that enabled weekly releases.' It's the same work, framed as business value."
+        },
+        {
+          "question": "Why am I paid less than developers doing similar work?",
+          "answer": "Market perception, unfortunately. But SDET roles at top companies pay equally to SWE roles. The key is positioning: if your resume reads 'QA tester,' you get QA salaries. If it reads 'Quality Engineer' with demonstrated automation and architecture skills, you get engineering compensation."
+        },
+        {
+          "question": "How do I handle 'shift left' when developers do their own testing?",
+          "answer": "Shift left doesn't eliminate QA — it elevates it. Developers do unit tests; you own integration, E2E, performance, and quality strategy. Position yourself as the quality architect who designs the testing approach, not just the person who executes tests."
         }
       ]
     },
@@ -1421,6 +1863,44 @@
     "h1": "Your designs shipped. Your career didn't.",
     "subtitle": "Stop losing to designers with prettier Figma files.",
     "supporting": "You've solved real user problems, shipped to millions, and made measurable impact. But somehow, juniors with fancier portfolios are getting the roles you want. Design hiring is broken. Let's make sure you win anyway.",
+    "reality": {
+      "eyebrow": "Sound familiar?",
+      "title": "The product design job search reality",
+      "subtitle": "These are the conversations we have every day with designers just like you.",
+      "items": [
+        {
+          "icon": "🎨",
+          "title": "\"Juniors with prettier Dribbble shots are getting the roles\"",
+          "body": "You've shipped to millions of users and moved real metrics. But the designer with the fancy case study animations and 3D illustrations got the callback. Design hiring is broken."
+        },
+        {
+          "icon": "📊",
+          "title": "\"I don't have metrics because nobody tracked them\"",
+          "body": "Your design improved the experience, but the company didn't run an A/B test. Now you can't prove impact because there's no before/after data. How do you quantify 'better'?"
+        },
+        {
+          "icon": "😰",
+          "title": "\"Design critiques terrify me\"",
+          "body": "You know your work is good. But presenting it to a panel of designers who are looking for flaws? Your brain goes blank. You forget why you made decisions that made perfect sense at the time."
+        },
+        {
+          "icon": "🔄",
+          "title": "\"My portfolio is outdated but I can't show new work\"",
+          "body": "Your best recent work is under NDA or hasn't shipped yet. You're stuck showing 3-year-old projects that don't represent your current level."
+        },
+        {
+          "icon": "🤔",
+          "title": "\"I did the research, but the PM took credit\"",
+          "body": "You conducted the user interviews, synthesized the insights, and drove the redesign. But in the press release, it's 'Product team shipped X.' Where's your name?"
+        },
+        {
+          "icon": "🎯",
+          "title": "\"I don't know if I should specialize or stay generalist\"",
+          "body": "UX? Product? Interaction? Visual? Research? The job titles keep multiplying. You've done all of it, but job posts want specialists."
+        }
+      ],
+      "callout": "If any of this sounds like you — you're not alone, and you're not stuck. We've helped designers land Staff and Lead roles at Meta, Airbnb, and top startups."
+    },
     "highlights": [
       "Portfolio that tells stories, not just shows screens",
       "Quantify design impact without fabricating metrics",
@@ -1573,16 +2053,44 @@
       "subtitle": "Honest answers.",
       "items": [
         {
-          "question": "How do I quantify design impact?",
-          "answer": "We look for conversion changes, user feedback, engagement metrics, and business outcomes connected to your work."
+          "question": "How do I quantify design impact when nobody tracked metrics?",
+          "answer": "Not every company runs A/B tests. We use proxy metrics: user feedback, support tickets reduced, task completion time, NPS changes, or even business outcomes like deal closure rates. You also frame qualitative wins: 'stakeholders approved this design faster than any previous project' is impact."
         },
         {
-          "question": "What makes a portfolio stand out?",
-          "answer": "Process and impact, not just visual polish. We help you restructure around decision-making and outcomes."
+          "question": "What makes a portfolio stand out to hiring managers?",
+          "answer": "Process and impact, not visual polish. Show your constraints, your research, your iterations, and what changed because of your decisions. Beautiful mockups are table stakes. The story of how you solved the problem is what separates senior designers from juniors."
         },
         {
-          "question": "How do I get better at design critiques?",
-          "answer": "Practice. We run through your case studies until presenting them feels natural."
+          "question": "How do I get better at design critiques and presentations?",
+          "answer": "Practice in low-stakes environments first. We run mock critiques where you present your work and field tough questions. The goal isn't to defend every decision — it's to articulate your thinking and demonstrate how you collaborate under pressure."
+        },
+        {
+          "question": "How do I show NDA work in my portfolio?",
+          "answer": "Several options: anonymize the company and specifics, show process without final visuals, create redesigns of public products using the same methodology, or focus on non-NDA projects. We help you build a portfolio that's both compliant and compelling."
+        },
+        {
+          "question": "Should I specialize (UX, Visual, Research) or stay generalist?",
+          "answer": "It depends on your target companies. Startups want generalists who can do it all. FAANG has specialized tracks. At senior levels, you typically need deep expertise in one area with breadth across others. We help you position based on your goals."
+        },
+        {
+          "question": "How do I transition from visual/UI to product/UX design?",
+          "answer": "You likely already have UX skills — you just frame them as visual skills. We help you reframe: 'designed marketing pages' becomes 'optimized conversion flows through user research and iterative testing.' Same work, different story."
+        },
+        {
+          "question": "How do I compete against designers from bigger-name companies?",
+          "answer": "Designers from FAANG had bigger budgets, established design systems, and more support. If you've designed at a smaller company with scrappy resources, that's actually harder. We help you frame resourcefulness as leadership."
+        },
+        {
+          "question": "What's the difference between Senior and Staff Designer?",
+          "answer": "Senior owns projects. Staff owns outcomes across projects — design systems, team practices, cross-functional influence. It's less about design quality and more about multiplying team impact. We help you build and demonstrate that scope."
+        },
+        {
+          "question": "How do I handle whiteboard design challenges?",
+          "answer": "Whiteboard challenges test process, not perfection. We practice frameworks: clarify constraints, sketch multiple approaches, talk through trade-offs, and pick a direction. Thinking out loud matters more than beautiful drawings."
+        },
+        {
+          "question": "Is design management the only path to senior compensation?",
+          "answer": "No. Individual contributor tracks at top companies (Staff, Principal, Distinguished Designer) pay equally to management. The key is demonstrating scope expansion without reports. We help you build the IC leadership narrative."
         }
       ]
     },
@@ -1620,6 +2128,44 @@
     "h1": "You've designed systems worth millions. Your resume shows 'technical presales.'",
     "subtitle": "Bridge the gap between technical credibility and career advancement.",
     "supporting": "You've architected enterprise solutions, won competitive deals, and been the technical voice that closed business. But SA roles are weird — not quite sales, not quite engineering. That makes positioning tricky. Let's get it right.",
+    "reality": {
+      "eyebrow": "Sound familiar?",
+      "title": "The solutions architect job search reality",
+      "subtitle": "These are the conversations we have every day with SAs just like you.",
+      "items": [
+        {
+          "icon": "🏆",
+          "title": "\"Sales got the commission, I got a thank-you email\"",
+          "body": "You designed the architecture that made the deal possible. You overcame the technical objections that would have killed it. Sales closed it and took home 20%. You got... recognition in a Slack channel."
+        },
+        {
+          "icon": "🤷",
+          "title": "\"Am I technical or am I sales?\"",
+          "body": "Engineering thinks you're too sales-y. Sales thinks you're too technical. Recruiters don't know where to put you. You're a unicorn — but that doesn't make job searching easier."
+        },
+        {
+          "icon": "📋",
+          "title": "\"My resume reads like a product brochure\"",
+          "body": "'Demonstrated product capabilities to enterprise customers.' Cool. But where's the architecture you designed? The objections you overcame? The millions in deals you enabled?"
+        },
+        {
+          "icon": "🔀",
+          "title": "\"I don't know if I should stay SA or switch to PM/engineering\"",
+          "body": "You love the customer-facing work but wonder if you're pigeon-holing yourself. Is SA a career destination or a stepping stone? Can you even go back to pure engineering?"
+        },
+        {
+          "icon": "💻",
+          "title": "\"My technical skills are getting stale\"",
+          "body": "You haven't written production code in years. You design systems, but you don't build them. Imposter syndrome kicks in when engineering interviews ask about your hands-on experience."
+        },
+        {
+          "icon": "📊",
+          "title": "\"I can't claim the revenue directly\"",
+          "body": "You influenced $10M in deals, but you can't say 'I closed $10M' because that's not accurate. How do you show revenue impact without overstating your contribution?"
+        }
+      ],
+      "callout": "If any of this sounds like you — you're not alone, and you're not stuck. We've helped SAs land leadership roles, transition to PM, and earn the recognition their technical work deserves."
+    },
     "highlights": [
       "Quantify deal influence and technical wins",
       "Position for SA leadership or transition to product/engineering",
@@ -1772,16 +2318,44 @@
       "subtitle": "Direct answers.",
       "items": [
         {
-          "question": "How do I quantify deal influence?",
-          "answer": "We look at deals won, technical objections overcome, and competitive displacement you enabled."
+          "question": "How do I quantify deal influence without overstating?",
+          "answer": "Use 'influenced' and 'enabled' language: 'Architected technical solutions that influenced $10M in enterprise deals.' You're not claiming you closed them — you're showing your technical contribution was essential to the close. That's accurate and compelling."
         },
         {
-          "question": "Can I transition to PM or engineering?",
-          "answer": "Many SAs do. Your hybrid experience is actually an asset. We help you position it."
+          "question": "Can I transition from SA to Product Management?",
+          "answer": "SAs make excellent PMs. You already understand customer problems, competitive positioning, and technical constraints. We help you reframe: 'gathered requirements for custom implementations' becomes 'defined product requirements based on customer discovery across 50+ enterprise accounts.'"
         },
         {
-          "question": "Is there an SA leadership path?",
-          "answer": "Yes. SA managers, directors, and CTOs come from SA backgrounds. We help you get there."
+          "question": "Can I go back to engineering after years as an SA?",
+          "answer": "Yes, but you'll need to demonstrate current technical skills. Side projects, open source contributions, or even technical blogging can bridge the gap. Your architecture skills translate — the question is showing you can still build, not just design."
+        },
+        {
+          "question": "Is there an SA leadership career path?",
+          "answer": "Absolutely. SA Manager, Director of Solutions Engineering, VP of Pre-Sales, and even CTO paths exist for senior SAs. The key is demonstrating you can scale technical pre-sales — hire, coach, and systematize what you do individually. We help build that narrative."
+        },
+        {
+          "question": "How do I handle 'Are you technical or are you sales?' in interviews?",
+          "answer": "Reframe it: 'I'm a technical expert who can communicate with business stakeholders.' The hybrid is your superpower, not a weakness. Companies need people who can translate between engineering and customers — that's increasingly rare and valuable."
+        },
+        {
+          "question": "My technical skills feel stale. How do I interview for technical roles?",
+          "answer": "Focus on architecture and system design — that's where your expertise actually is. You may not remember sorting algorithms, but you understand distributed systems, trade-offs, and enterprise-scale challenges better than many engineers. Position accordingly."
+        },
+        {
+          "question": "How do I compete against candidates from bigger tech companies?",
+          "answer": "SAs at FAANG often work on single products with established playbooks. If you've done pre-sales at a startup or smaller company, you've had broader scope and scrappier resources. We help you frame that as an advantage."
+        },
+        {
+          "question": "Should I get AWS/Azure/GCP certifications?",
+          "answer": "Cloud certifications help for cloud-focused SA roles but are table stakes, not differentiators. What sets you apart is deal impact and customer outcomes. Certifications prove knowledge; customer success stories prove application."
+        },
+        {
+          "question": "How do I show technical credibility when I don't write code anymore?",
+          "answer": "Architecture IS technical work. System design, integration patterns, security architecture, performance optimization — these are engineering skills. We help you articulate the technical complexity of what you design, not just what you demo."
+        },
+        {
+          "question": "I'm tired of being on the road. What are my options?",
+          "answer": "Many SA roles are now remote-friendly. You could also transition to technical PM, developer advocacy, or engineering leadership — roles that use your skills with less travel. We help you identify paths that fit your lifestyle goals."
         }
       ]
     },
@@ -1817,6 +2391,44 @@
     "h1": "You herded the cats. The cats got the credit.",
     "subtitle": "Finally get recognized for the chaos you tamed.",
     "supporting": "You've coordinated cross-functional programs, navigated org politics, and delivered massive initiatives on time. But 'program management' sounds vague to most people. They don't see the complexity you handled. Let's fix that.",
+    "reality": {
+      "eyebrow": "Sound familiar?",
+      "title": "The TPM job search reality",
+      "subtitle": "These are the conversations we have every day with TPMs just like you.",
+      "items": [
+        {
+          "icon": "🎪",
+          "title": "\"I coordinated 50 people. Nobody knows what I did.\"",
+          "body": "You aligned 5 teams, navigated 3 exec stakeholders, and delivered a year-long initiative on time. But your resume says 'managed cross-functional program.' Where's the complexity? The leadership? The chaos you tamed?"
+        },
+        {
+          "icon": "🤔",
+          "title": "\"How do I explain what a TPM even does?\"",
+          "body": "Your mom doesn't get it. Recruiters don't get it. Half the companies you interview with don't get it. 'I make complex technical initiatives actually ship' should be enough — but it isn't."
+        },
+        {
+          "icon": "📊",
+          "title": "\"Am I a glorified project manager?\"",
+          "body": "Imposter syndrome kicks in. You wonder if TPM is a 'real' technical role or just scheduling with extra steps. The technical depth you bring feels invisible."
+        },
+        {
+          "icon": "🔀",
+          "title": "\"Every company defines TPM differently\"",
+          "body": "Google TPMs are different from Amazon TPMs are different from startup TPMs. You don't know how to position yourself when the target keeps moving."
+        },
+        {
+          "icon": "👥",
+          "title": "\"The engineers got promoted. I got a thank-you.\"",
+          "body": "You kept the project on track when it was about to go off the rails. The engineers shipped the code and got Staff promotions. You got... a mention in the launch email."
+        },
+        {
+          "icon": "🎯",
+          "title": "\"I don't know if I should become an EM or PM\"",
+          "body": "TPM feels like a stepping stone, but you're not sure to what. Engineering management? Product? Or is there a Principal TPM path you're not seeing?"
+        }
+      ],
+      "callout": "If any of this sounds like you — you're not alone, and you're not stuck. We've helped TPMs land Principal roles and successfully transition to EM and PM positions."
+    },
     "highlights": [
       "Frame program complexity as leadership",
       "Quantify delivery impact and stakeholder influence",
@@ -1969,16 +2581,44 @@
       "subtitle": "Straight talk.",
       "items": [
         {
-          "question": "How do I explain what a TPM does?",
-          "answer": "We help you articulate it: you make complex technical initiatives actually ship. That's valuable."
+          "question": "How do I explain what a TPM does to people who don't get it?",
+          "answer": "Focus on outcomes and complexity: 'I lead large-scale technical initiatives across multiple teams. My job is to make sure complex projects actually ship — on time, with the right tradeoffs, and with aligned stakeholders.' Then give a specific example with numbers."
         },
         {
-          "question": "Can I transition to EM or PM?",
-          "answer": "Yes. Your program experience transfers. We help you position it."
+          "question": "Can I transition from TPM to Engineering Management?",
+          "answer": "Many EMs came from TPM backgrounds. You already understand cross-team coordination, roadmap planning, and stakeholder management. The gap is typically showing technical mentorship and people management skills. We help you bridge that gap in your narrative."
         },
         {
-          "question": "What makes TPM interviews different?",
-          "answer": "They vary a lot by company. We prep you for the most common patterns and help you adapt."
+          "question": "Can I transition from TPM to Product Management?",
+          "answer": "Yes — TPMs often have strong PM skills: stakeholder alignment, prioritization, tradeoff decisions. The difference is PM owns 'what to build' while TPM owns 'how to deliver it.' We help you show the strategic product thinking you've done alongside execution."
+        },
+        {
+          "question": "What makes TPM interviews different from PM or EM interviews?",
+          "answer": "TPM interviews emphasize execution stories (how did you ship something complex?), stakeholder management (how did you handle conflict?), and technical judgment (how did you make tradeoffs?). Different companies weight these differently — we prep you for the specific company's style."
+        },
+        {
+          "question": "How do I show technical credibility when I don't write code?",
+          "answer": "Technical judgment IS technical credibility. You make decisions about architecture tradeoffs, system dependencies, and technical risk. We help you articulate: 'I don't write the code, but I shape the technical strategy and identify risks engineers might miss.'"
+        },
+        {
+          "question": "Is there a Principal TPM career path or do I have to switch to EM/PM?",
+          "answer": "Principal and Staff TPM roles exist at most large tech companies. The path requires showing increasing scope: from single programs to multiple programs to org-wide initiatives. We help you demonstrate the scope expansion that leads to Principal."
+        },
+        {
+          "question": "How do I quantify my impact when the engineers did the actual work?",
+          "answer": "You enabled the work. Without you, the program would have slipped, missed requirements, or had scope conflicts. We frame impact as: 'Delivered X program (scope: Y teams, Z timeline) that achieved [business outcome].' Your role is implied and appropriate."
+        },
+        {
+          "question": "How do I compete against candidates from bigger tech companies?",
+          "answer": "TPMs at FAANG often work on narrower scopes with more support. If you've been a TPM at a smaller company, you've had broader responsibility and scrappier resources. We help you frame that as leadership advantage, not experience gap."
+        },
+        {
+          "question": "Should I get a PMP or other certifications?",
+          "answer": "For senior TPM roles at tech companies, certifications matter less than demonstrated delivery. PMP can help for enterprise/non-tech roles. At tech companies, your programs and their outcomes are your credential."
+        },
+        {
+          "question": "How do I handle 'Tell me about a time you led without authority'?",
+          "answer": "This is THE TPM question. You need 2-3 crisp stories showing how you aligned stakeholders with competing priorities, navigated org politics, and delivered despite resistance. We help you structure these stories with specific, memorable details."
         }
       ]
     },
@@ -2014,6 +2654,44 @@
     "h1": "You're the reason the deal closed. Sales got the commission.",
     "subtitle": "Time for your career to match your contribution.",
     "supporting": "You've demoed, architected, and handled every tough technical question. You've been the difference between won and lost. But SE careers feel stuck — not enough credit from sales, not technical enough for engineering. Let's change that.",
+    "reality": {
+      "eyebrow": "Sound familiar?",
+      "title": "The sales engineer job search reality",
+      "subtitle": "These are the conversations we have every day with SEs just like you.",
+      "items": [
+        {
+          "icon": "💸",
+          "title": "\"I made the deal work. Sales got the commission.\"",
+          "body": "You built the POC that saved the deal. You handled the technical objections that would have killed it. The AE closed it and took home a six-figure commission. You got... a gift card."
+        },
+        {
+          "icon": "🤷",
+          "title": "\"Am I technical enough for engineering?\"",
+          "body": "You haven't written production code in years. Your POCs were demos, not deployable systems. Engineering interviews ask about algorithms, and you're rusty. Imposter syndrome kicks in hard."
+        },
+        {
+          "icon": "📋",
+          "title": "\"My resume sounds like a product brochure\"",
+          "body": "'Demonstrated product capabilities to enterprise accounts.' Cool story. But where's the architecture you designed? The custom integrations you built? The technical objections you overcome?"
+        },
+        {
+          "icon": "🔀",
+          "title": "\"I don't know what my career path is\"",
+          "body": "SE Manager? Solutions Architect? Product Management? Back to engineering? Sales leadership? Everyone has opinions, but no one has YOUR answer."
+        },
+        {
+          "icon": "💻",
+          "title": "\"I'm worried my technical skills are getting stale\"",
+          "body": "You spend all day in slides, demos, and customer calls. Meanwhile, engineers are learning new frameworks you've never touched. Can you even go back to building?"
+        },
+        {
+          "icon": "📊",
+          "title": "\"I can't claim the revenue directly\"",
+          "body": "You influenced $5M in deals, but saying 'I closed $5M' would be a lie. How do you show revenue impact without sounding like you're taking credit you didn't earn?"
+        }
+      ],
+      "callout": "If any of this sounds like you — you're not alone, and you're not stuck. We've helped SEs land leadership roles, transition to PM and engineering, and earn the recognition their technical work deserves."
+    },
     "highlights": [
       "Attribute your revenue influence",
       "Position for SE leadership or engineering transitions",
@@ -2166,16 +2844,44 @@
       "subtitle": "Real talk.",
       "items": [
         {
-          "question": "How do I quantify my deal influence?",
-          "answer": "We look at win rates, competitive displacement, and deals where your POC was decisive."
+          "question": "How do I quantify my deal influence without overstating?",
+          "answer": "Use 'influenced' and 'enabled' language: 'Built POCs and technical solutions that influenced $5M in enterprise deals with 80% win rate.' You're not claiming you closed them — you're showing your technical contribution was essential. That's accurate and compelling."
         },
         {
           "question": "Can SE experience count toward engineering roles?",
-          "answer": "Yes. POCs, demos, and technical solutions are engineering work. We help you frame it."
+          "answer": "Absolutely. POCs, custom integrations, and technical solutions are engineering work. The gap is showing current coding skills — side projects, open source, or recent hands-on work helps bridge that. We help you position your SE experience as engineering adjacent, not engineering separate."
         },
         {
-          "question": "What's the SE career path?",
-          "answer": "SE leadership, solution architecture, PM, engineering, or sales leadership. We help you pick."
+          "question": "What are the SE career paths?",
+          "answer": "SE Manager/Director (lead SE teams), Solutions Architect (deeper technical, less sales), Product Management (your customer insight is valuable), Engineering (requires showing current technical skills), or Sales Leadership (SE → RVP → CRO path). We help you pick based on what you actually want."
+        },
+        {
+          "question": "How do I transition from SE to Product Management?",
+          "answer": "SEs make excellent PMs. You understand customer problems deeply, you've seen competitive positioning firsthand, and you know technical constraints. We help you reframe: 'gathered requirements during demos' becomes 'conducted discovery across 100+ enterprise accounts to inform product roadmap.'"
+        },
+        {
+          "question": "Can I go back to engineering after years as an SE?",
+          "answer": "Yes, but you'll need to demonstrate current technical skills. Your POCs and integrations count as engineering work, but you may need to supplement with recent projects or study. The advantage: you understand customers better than most engineers, which is increasingly valued."
+        },
+        {
+          "question": "How do I compete against candidates from bigger tech companies?",
+          "answer": "SEs at FAANG often work on single products with established playbooks and support. If you've been an SE at a smaller company, you've had broader scope, scrappier resources, and handled more variety. We help you frame that as leadership advantage."
+        },
+        {
+          "question": "How do I handle 'Are you technical or are you sales?' in interviews?",
+          "answer": "Reframe it: 'I'm a technical expert who can translate complex solutions into business value.' The hybrid is your superpower. Companies need people who can bridge engineering and customers — that's rare and valuable. Don't apologize for the combination; emphasize it."
+        },
+        {
+          "question": "My technical skills feel stale. How do I interview for technical roles?",
+          "answer": "Focus on system design and architecture — that's where your actual expertise lies. You understand distributed systems, integrations, and enterprise-scale challenges. You may need to brush up on coding fundamentals, but your architectural thinking is solid."
+        },
+        {
+          "question": "Should I get cloud certifications (AWS, Azure, GCP)?",
+          "answer": "Certifications help for certain roles but are table stakes, not differentiators. What sets you apart is deal impact and customer outcomes. Certifications prove knowledge; customer success stories prove application. Get them if required, but don't lead with them."
+        },
+        {
+          "question": "I'm burned out from constant travel and demos. What are my options?",
+          "answer": "Many SE roles are now remote-first. You could also transition to Product Management (less travel), Solutions Architecture (more depth, less breadth), or Engineering (office-based). We help you find paths that fit your lifestyle goals."
         }
       ]
     },
@@ -2211,6 +2917,44 @@
     "h1": "You saved the account. Renewals went up. Nobody noticed.",
     "subtitle": "Turn retention into recognition.",
     "supporting": "You've prevented churn, expanded accounts, and turned angry customers into advocates. But 'managed customer relationships' doesn't capture the revenue you saved. CS is often seen as support when it's really revenue protection. Let's change that perception — starting with your own career materials.",
+    "reality": {
+      "eyebrow": "Sound familiar?",
+      "title": "The customer success job search reality",
+      "subtitle": "These are the conversations we have every day with CS pros just like you.",
+      "items": [
+        {
+          "icon": "💾",
+          "title": "\"I saved a $2M account. Nobody noticed.\"",
+          "body": "The customer was ready to churn. You rebuilt the relationship, got them to renew, and even expanded the contract. But in the board meeting, it was just 'renewal rate held steady.' Where's your credit?"
+        },
+        {
+          "icon": "📞",
+          "title": "\"People think I'm just support with a fancier title\"",
+          "body": "CS gets lumped in with customer service. Never mind that you manage strategic accounts, drive expansion, and protect millions in ARR. 'Customer Success Manager' sounds like a help desk with better branding."
+        },
+        {
+          "icon": "💸",
+          "title": "\"Sales gets commission on my expansion deals\"",
+          "body": "You built the relationship. You identified the expansion opportunity. You got the champion buy-in. But when the contract signed, the AE got the commission and you got... a mention in Slack."
+        },
+        {
+          "icon": "📊",
+          "title": "\"I can't put numbers on my work\"",
+          "body": "How do you quantify 'prevented churn'? How do you measure 'built customer advocacy'? Your impact is real but proving it feels impossible."
+        },
+        {
+          "icon": "🔀",
+          "title": "\"Is CS a real career or a dead end?\"",
+          "body": "You see Sales reps becoming VPs, PMs becoming CPOs. Where do CSMs go? VP of CS exists, but the path feels unclear. Maybe you should switch to sales or product?"
+        },
+        {
+          "icon": "🤝",
+          "title": "\"I know what customers want. Nobody asks me.\"",
+          "body": "You have more customer insight than anyone in the company. You could improve the product, inform the roadmap, fix the sales process. But somehow you're not in those conversations."
+        }
+      ],
+      "callout": "If any of this sounds like you — you're not alone, and you're not stuck. We've helped CS professionals land VP roles, transition to Sales and PM, and earn compensation that reflects their revenue impact."
+    },
     "highlights": [
       "Quantify retention revenue and expansion influence",
       "Position for CS leadership or transitions to Sales/PM",
@@ -2363,16 +3107,44 @@
       "subtitle": "Direct answers.",
       "items": [
         {
-          "question": "How do I quantify retention impact?",
-          "answer": "We calculate ARR saved, accounts rescued, and churn prevented with dollar values."
+          "question": "How do I quantify retention impact when 'nothing happened'?",
+          "answer": "Frame it as revenue protected: 'Managed $5M book of business with 95% retention rate, preventing $250K in potential churn.' For save situations, document it: 'Rescued 3 at-risk accounts representing $1.2M ARR through executive engagement and service recovery.'"
         },
         {
-          "question": "Can I transition to sales or PM?",
-          "answer": "Yes. Your customer knowledge is an asset. We help you position it."
+          "question": "Can I transition from CS to Sales (AE/AM)?",
+          "answer": "Many AEs came from CS backgrounds. You understand customer problems deeply, you've built relationships, and you've influenced expansion. The gap is typically showing hunting/prospecting skills vs. farming. We help you position your expansion wins as sales experience."
         },
         {
-          "question": "Is there a CS leadership path?",
-          "answer": "Absolutely. VP of CS, CCO — these roles are growing. We help you get there."
+          "question": "Can I transition from CS to Product Management?",
+          "answer": "CS → PM is a natural path. You have more customer insight than most PMs ever will. The key is showing you can translate customer needs into product requirements and prioritize strategically. We help you document the product influence you've already had."
+        },
+        {
+          "question": "Is there a CS leadership career path (VP CS, CCO)?",
+          "answer": "Absolutely — and it's growing. VP of Customer Success, Chief Customer Officer, and Head of Post-Sales roles are becoming standard at SaaS companies. The path requires showing you can scale CS programs, not just manage accounts. We help you demonstrate that strategic scope."
+        },
+        {
+          "question": "How do I get credit for expansion when Sales gets the commission?",
+          "answer": "Document your contribution explicitly: 'Identified expansion opportunity, built champion relationship, and influenced $500K upsell (closed by Sales).' You're not claiming you closed it — you're showing you enabled it. That's accurate and valuable."
+        },
+        {
+          "question": "How do I compete against candidates from bigger SaaS companies?",
+          "answer": "CSMs at large SaaS companies often have narrower scope and more support. If you've been a CSM at a smaller company, you've worn more hats and handled higher-touch accounts. We help you frame that breadth as leadership experience."
+        },
+        {
+          "question": "Should I get CS certifications (Gainsight, SuccessHacker)?",
+          "answer": "Certifications help demonstrate CS methodology knowledge but aren't differentiators for senior roles. What matters more is demonstrable impact: retention rates, NRR, expansion influence. Get certifications if required, but lead with outcomes."
+        },
+        {
+          "question": "How do I handle the perception that CS is just support?",
+          "answer": "Lead with revenue language. Instead of 'managed customer relationships,' say 'protected $10M book of business' or 'drove 120% NRR through proactive expansion.' Position CS as revenue operations, not service delivery."
+        },
+        {
+          "question": "I'm burned out from being reactive to customer fires. What are my options?",
+          "answer": "Burnout is common in CS. You could move to CS Operations (more scalable), Product Management (leverage your insights), or a company with better CS maturity. We help you identify paths that match your energy and goals."
+        },
+        {
+          "question": "How do I show strategic thinking in CS interviews?",
+          "answer": "Have 2-3 stories showing you went beyond reactive account management: customer segmentation you proposed, playbooks you built, cross-functional initiatives you led. Strategic CSMs don't just manage accounts — they systematize success."
         }
       ]
     },
@@ -2408,6 +3180,44 @@
     "h1": "You made product actually work. Nobody knows.",
     "subtitle": "Turn operational excellence into career advancement.",
     "supporting": "You've built the processes, tracked the metrics, and kept everything running smoothly. But 'product operations' is so behind-the-scenes that even you sometimes struggle to explain what you do. The work is essential. The visibility is not. Let's fix that.",
+    "reality": {
+      "eyebrow": "Sound familiar?",
+      "title": "The product ops job search reality",
+      "subtitle": "These are the conversations we have every day with ops pros just like you.",
+      "items": [
+        {
+          "icon": "🔧",
+          "title": "\"I built the system. The PM got the credit.\"",
+          "body": "You created the roadmapping process, the prioritization framework, the analytics dashboards. But when leadership praised 'how well the product team runs,' your name didn't come up."
+        },
+        {
+          "icon": "🤔",
+          "title": "\"I can't explain what I do in 30 seconds\"",
+          "body": "'Product Operations' means something different at every company. You've given up trying to explain it at parties. Even in interviews, you see recruiters' eyes glaze over."
+        },
+        {
+          "icon": "📋",
+          "title": "\"My resume is a list of tools\"",
+          "body": "Jira, Confluence, Notion, Amplitude, Mixpanel, Asana... You've mastered them all. But 'administered Jira for 5 teams' doesn't capture that you increased team velocity by 40%."
+        },
+        {
+          "icon": "👻",
+          "title": "\"Nobody notices when ops works well\"",
+          "body": "When your processes run smoothly, it's invisible. When something breaks, suddenly everyone knows what ops does. You only get attention for failures, never for prevention."
+        },
+        {
+          "icon": "🔀",
+          "title": "\"Is this a real career path?\"",
+          "body": "You see PMs becoming CPOs, engineers becoming CTOs. Where do ops people go? You wonder if you should switch to PM or just keep being the invisible glue."
+        },
+        {
+          "icon": "📊",
+          "title": "\"I have data on everything but I'm never in the room\"",
+          "body": "You track every metric, see every cross-functional friction, know where the bodies are buried. But somehow you're not invited to strategy meetings."
+        }
+      ],
+      "callout": "If any of this sounds like you — you're not alone, and you're not stuck. We've helped ops professionals land Director and VP roles, transition to PM, and finally get recognition for the systems they've built."
+    },
     "highlights": [
       "Quantify operational impact and productivity gains",
       "Position for Product Ops leadership or PM transitions",
@@ -2560,16 +3370,44 @@
       "subtitle": "Straight answers.",
       "items": [
         {
-          "question": "How do I quantify ops impact?",
-          "answer": "We look at team velocity improvements, process efficiency gains, and time saved."
+          "question": "How do I quantify ops impact when it's 'invisible'?",
+          "answer": "Focus on productivity multipliers: 'Reduced sprint planning time by 50%' or 'Increased team velocity by 30%.' Track before/after metrics on any process you touch. If you don't have numbers, estimate conservatively — even rough numbers are better than none."
         },
         {
-          "question": "Can I transition to PM?",
-          "answer": "Yes. Your cross-functional view is an asset. We help you position it."
+          "question": "Can I transition from Product Ops to Product Management?",
+          "answer": "Yes — ops → PM is a natural path. You already understand cross-functional dynamics, roadmap prioritization, and how teams actually ship. The gap is typically showing customer insight and strategic product thinking. We help you highlight the PM work you've already done."
         },
         {
-          "question": "What's the ops career path?",
-          "answer": "Head of Product Ops, Chief of Staff, COO-track — these roles exist and grow. We help you get there."
+          "question": "What's the Product Ops career path?",
+          "answer": "Head/Director of Product Ops, VP of Product Operations, Chief of Staff to CPO, or COO-track roles. Some companies also have strategic ops roles like Head of Strategy & Operations. The path requires showing you can scale systems and influence, not just manage tools."
+        },
+        {
+          "question": "How do I explain Product Ops to people who don't get it?",
+          "answer": "Lead with outcomes: 'I make product teams more effective. I build the processes, tools, and analytics that help PMs and engineers ship faster.' Then give one concrete example: 'I reduced our planning time by 50% and increased our release cadence from monthly to weekly.'"
+        },
+        {
+          "question": "Is Product Ops different from Program Management?",
+          "answer": "They overlap but differ in focus. Program Management is about delivering specific initiatives on time. Product Ops is about improving how the product org operates overall — processes, tools, analytics, cross-functional alignment. We help you position whichever angle serves your target role."
+        },
+        {
+          "question": "How do I compete against candidates from bigger tech companies?",
+          "answer": "Ops at large companies often means narrow scope (one tool, one process). If you've done ops at a smaller company, you've built everything from scratch with scrappy resources. That breadth is leadership experience. We help you frame it that way."
+        },
+        {
+          "question": "Should I get tool certifications (Jira Admin, Notion, etc.)?",
+          "answer": "Tool certifications show you can configure software, not that you can drive outcomes. They're table stakes for some roles but not differentiators. What matters is showing how you used tools to improve team effectiveness — the result, not the certification."
+        },
+        {
+          "question": "How do I show strategic thinking in ops interviews?",
+          "answer": "Have 2-3 stories showing you went beyond tool administration: processes you designed from scratch, metrics frameworks you built, cross-functional problems you solved. Strategic ops isn't about running Jira — it's about making teams more effective."
+        },
+        {
+          "question": "I feel stuck between ops and PM. How do I choose?",
+          "answer": "PM owns 'what to build' and works externally with customers. Ops owns 'how to build effectively' and works internally with teams. If you love customer insight and strategy, consider PM. If you love systems, processes, and team effectiveness, consider scaling in ops."
+        },
+        {
+          "question": "How do I get invited to strategy conversations?",
+          "answer": "Ops often gets excluded from strategy because it's seen as execution. Change this by proactively sharing insights: 'I've noticed X pattern across teams' or 'Our data shows Y opportunity.' Position yourself as the person with cross-functional visibility, not just the process person."
         }
       ]
     },
@@ -2605,6 +3443,44 @@
     "h1": "You shipped the project. Someone else got the title.",
     "subtitle": "Turn delivery into career advancement.",
     "supporting": "You've managed timelines, budgets, and stakeholders. You've delivered projects that others couldn't. But project management often feels like a stepping stone, not a destination. Whether you want to advance in PM or transition elsewhere, we help you show the leadership you've already demonstrated.",
+    "reality": {
+      "eyebrow": "Sound familiar?",
+      "title": "The project manager job search reality",
+      "subtitle": "These are the conversations we have every day with PMs just like you.",
+      "items": [
+        {
+          "icon": "📧",
+          "title": "\"People think I just send status emails\"",
+          "body": "You navigated stakeholder politics, de-risked a failing project, and delivered under impossible constraints. But somehow you're 'the person who runs meetings and updates the Gantt chart.'"
+        },
+        {
+          "icon": "🏆",
+          "title": "\"The team got promoted. I got another project.\"",
+          "body": "You delivered the initiative on time and under budget. The engineers shipped their code and got Staff promotions. You got... assigned to the next fire drill."
+        },
+        {
+          "icon": "📋",
+          "title": "\"My resume is just a list of projects\"",
+          "body": "'Managed X project for Y stakeholders with Z budget.' Repeat 10 times. Where's the leadership? The influence? The strategic thinking that saved the entire initiative?"
+        },
+        {
+          "icon": "🔀",
+          "title": "\"Is project management a career or a stepping stone?\"",
+          "body": "You see Product Managers becoming CPOs and engineers becoming CTOs. Where do project managers go? PMO Director sounds boring. Is it time to switch tracks entirely?"
+        },
+        {
+          "icon": "🤔",
+          "title": "\"I'm not sure if I should get the PMP\"",
+          "body": "Everyone says certification helps, but you've seen certified PMs who can't actually deliver. Will PMP get you a better job, or just check a box?"
+        },
+        {
+          "icon": "👻",
+          "title": "\"I don't have authority, just accountability\"",
+          "body": "You're responsible for delivery but have no direct reports. You influence without control, navigate without power. That's harder than management — but harder to prove."
+        }
+      ],
+      "callout": "If any of this sounds like you — you're not alone, and you're not stuck. We've helped PMs land Director and VP roles, transition to Product, and finally get recognition for the leadership they've been demonstrating all along."
+    },
     "highlights": [
       "Frame project delivery as leadership",
       "Position for PM leadership or function transitions",
@@ -2757,16 +3633,44 @@
       "subtitle": "Honest answers.",
       "items": [
         {
-          "question": "How do I show PM as leadership?",
-          "answer": "We focus on influence, stakeholder management, and outcomes under constraints."
+          "question": "How do I frame project management as leadership?",
+          "answer": "Focus on influence without authority: 'Led cross-functional team of 20 across 4 departments to deliver $5M initiative on time despite shifting requirements.' You didn't have direct reports, but you made it happen. That's leadership."
         },
         {
-          "question": "Can I transition to Product Management?",
-          "answer": "Yes. Your delivery experience is an asset. We help you bridge the gap."
+          "question": "Can I transition from Project Management to Product Management?",
+          "answer": "Yes — project → product is common. You already understand delivery, stakeholders, and cross-functional dynamics. The gap is typically customer insight and strategic product thinking. We help you highlight the product decisions you've influenced through delivery work."
         },
         {
-          "question": "What's the PM career path?",
-          "answer": "PMO Director, VP of Delivery, Chief of Staff — these roles exist. We help you get there."
+          "question": "What's the Project/Program Management career path?",
+          "answer": "Senior PM → Program Manager → PMO Director → VP of Delivery → Chief of Staff → COO. The path requires showing increasing scope: from single projects to programs to organizational delivery capability. We help you demonstrate that progression."
+        },
+        {
+          "question": "Should I get my PMP certification?",
+          "answer": "PMP helps for certain industries (government, consulting, construction) and gets past HR screens. But for tech companies, demonstrated delivery matters more than certification. Get PMP if it's required for your target roles; don't expect it to differentiate you."
+        },
+        {
+          "question": "How is Program Management different from Project Management?",
+          "answer": "PMs deliver individual projects. Program Managers coordinate multiple related projects toward a larger goal. Program work emphasizes cross-project dependencies, resource allocation, and strategic alignment. If you've done this, position yourself as a PgM for bigger scope roles."
+        },
+        {
+          "question": "How do I compete against candidates from bigger companies?",
+          "answer": "PMs at large companies often have narrower scope with more support (dedicated PMO tools, established processes, specialized functions). If you've been a PM at a smaller company, you've worn more hats. That breadth is leadership experience."
+        },
+        {
+          "question": "How do I show impact when 'the project shipped on time'?",
+          "answer": "Context matters: 'Delivered on time despite 3 scope changes and 2 executive sponsor transitions' is more impressive than smooth sailing. Document the obstacles you overcame, the risks you mitigated, and the stakeholder conflicts you navigated."
+        },
+        {
+          "question": "Is Agile experience necessary for PM roles?",
+          "answer": "Most tech PM roles expect Agile familiarity. But methodology is less important than outcomes. Whether you use Scrum, Kanban, or Waterfall, what matters is demonstrating that you delivered effectively. Don't lead with methodology; lead with results."
+        },
+        {
+          "question": "How do I avoid being stuck as 'the Jira person'?",
+          "answer": "Tool administration is not project management. Position yourself around outcomes, not tools: 'Increased team velocity by 30%' not 'Managed Jira board.' If your current role is too tool-focused, seek projects where you drive strategy, not just execution."
+        },
+        {
+          "question": "I'm burned out from constant firefighting. What are my options?",
+          "answer": "PM burnout is common when you're always reactive. You could move to a more mature organization with better processes, transition to Product Ops (more systemic), or move into PMO leadership where you improve delivery capability rather than running individual projects."
         }
       ]
     },
@@ -2802,6 +3706,44 @@
     "h1": "Your model works. Your career is stuck.",
     "subtitle": "Bridge the gap between technical brilliance and business impact.",
     "supporting": "You've trained models, optimized pipelines, and shipped ML to production. But explaining why it matters — in a way non-technical people understand — is surprisingly hard. The technical work is solid. The story isn't landing. Let's fix that.",
+    "reality": {
+      "eyebrow": "Sound familiar?",
+      "title": "The ML/AI job search reality",
+      "subtitle": "These are the conversations we have every day with ML engineers just like you.",
+      "items": [
+        {
+          "icon": "📊",
+          "title": "\"I improved accuracy by 5%. Nobody cared.\"",
+          "body": "That 5% improvement caught $2M in fraud, but your stakeholders' eyes glazed over when you explained it. Model metrics don't translate to business impact — and that's YOUR problem to solve."
+        },
+        {
+          "icon": "🤯",
+          "title": "\"ML interviews are completely unpredictable\"",
+          "body": "One company wants LeetCode. Another wants ML system design. A third wants you to present a paper. There's no standard ML interview format, so you can't prepare for everything."
+        },
+        {
+          "icon": "🔬",
+          "title": "\"I don't know if I should stay in research or go applied\"",
+          "body": "Academic track? Industry research lab? Applied ML at a startup? The AI career landscape is exploding with options, and every path has trade-offs nobody explains clearly."
+        },
+        {
+          "icon": "📝",
+          "title": "\"My resume reads like a research paper\"",
+          "body": "Architectures, loss functions, benchmark results... You've written an abstract, not a resume. Business impact? Nowhere to be found. And that's what hiring managers actually care about."
+        },
+        {
+          "icon": "🚀",
+          "title": "\"Production ML is harder than research, but nobody sees it\"",
+          "body": "Shipping a model to prod — handling drift, latency, scale, monitoring — is engineering. But interviewers focus on the model architecture, not the engineering that made it actually work."
+        },
+        {
+          "icon": "🤖",
+          "title": "\"The LLM hype cycle is confusing my career\"",
+          "body": "Should you pivot to LLMs? Is classical ML still valuable? Will prompt engineering replace ML engineering? The AI hype cycle is making it hard to know where to invest."
+        }
+      ],
+      "callout": "If any of this sounds like you — you're not alone, and you're not stuck. We've helped ML engineers land Staff roles at top AI companies and translate technical brilliance into career advancement."
+    },
     "highlights": [
       "Translate model performance into business outcomes",
       "Position for ML leadership or research transitions",
@@ -2954,16 +3896,44 @@
       "subtitle": "Direct answers.",
       "items": [
         {
-          "question": "How do I quantify ML impact?",
-          "answer": "We look for revenue influenced, costs saved, efficiency gained, and user outcomes improved."
+          "question": "How do I quantify ML impact when my work is 'accuracy improvement'?",
+          "answer": "Trace accuracy to business outcomes: 'Improved fraud detection accuracy by 5%, catching an additional $2M in fraud annually' or 'Reduced model latency by 40%, improving user conversion by 3%.' Every model metric connects to something business cares about — we help you find that connection."
         },
         {
-          "question": "Research or industry?",
-          "answer": "Depends on your goals. We help you think through the trade-offs and position accordingly."
+          "question": "Should I pursue research or applied ML?",
+          "answer": "Research (academia or industry labs) emphasizes novelty and publications. Applied ML emphasizes shipping and business impact. Research typically pays less early but can be prestigious. Applied typically pays more and has clearer career ladders. Choose based on what energizes you, not just comp."
         },
         {
           "question": "How do I explain ML to non-technical interviewers?",
-          "answer": "We practice translating technical work into business language without losing the depth."
+          "answer": "Lead with the problem and outcome, not the solution: 'Our recommendation system was showing irrelevant products. I built a model that personalized recommendations based on user behavior, increasing purchase rate by 15%.' The model is the how, not the what."
+        },
+        {
+          "question": "How do I prepare for ML interviews when every company is different?",
+          "answer": "Most ML interviews have 4 components: coding (LeetCode-style), ML system design (end-to-end), ML fundamentals (theory questions), and behavioral. Weight varies by company. Research target companies on levels.fyi or Glassdoor, and prepare all four areas."
+        },
+        {
+          "question": "Is production ML experience valued more than research experience?",
+          "answer": "Depends on the role. Applied ML roles value production experience highly — deployment, monitoring, scale. Research roles value publication record and novelty. Most industry roles want some production experience. We help you position whatever you have."
+        },
+        {
+          "question": "Should I pivot to LLMs/GenAI or stay in classical ML?",
+          "answer": "Classical ML isn't going away — recommendations, fraud, forecasting still need it. LLM/GenAI skills are hot now but the landscape is volatile. The best strategy: understand both, but don't abandon proven expertise for hype. We help you position your skills for the current market."
+        },
+        {
+          "question": "How do I compete against candidates with PhDs?",
+          "answer": "PhDs signal research depth but aren't required for most applied ML roles. Industry experience shipping ML to production can outweigh academic credentials. If you've built systems that actually work at scale, that's valuable. We help you tell that story effectively."
+        },
+        {
+          "question": "What's the ML career ladder? IC vs management?",
+          "answer": "ML IC tracks typically go: MLE → Senior MLE → Staff MLE → Principal MLE → Distinguished. Management goes: ML Lead → ML Manager → Director of ML → VP of AI. IC track at top companies pays as well as management. Choose based on whether you want to build or lead builders."
+        },
+        {
+          "question": "How do I show production ML skills in interviews?",
+          "answer": "Tell stories about deployment challenges you solved: model serving, latency optimization, data pipeline issues, monitoring/alerting, retraining infrastructure. Production ML is engineering — show you've dealt with the real-world messiness that research ignores."
+        },
+        {
+          "question": "Is it too late to break into ML/AI if I'm coming from software engineering?",
+          "answer": "No — SWE → MLE is common. Your engineering skills are valuable; many MLEs are weak on production systems. Bridge the gap with: online courses, personal projects, or internal transitions. Your SWE background is an asset, not a liability."
         }
       ]
     },
