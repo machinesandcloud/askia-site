@@ -1070,38 +1070,92 @@
       });
     </script>
     <script>
-      // Dynamic urgency - updates based on day of week
+      // Dynamic urgency - realistic countdown that decreases through the week
       (function() {
+        const STORAGE_KEY = 'askia_urgency_state';
         const now = new Date();
         const day = now.getDay(); // 0=Sun, 1=Mon, etc.
         const hour = now.getHours();
+        const minute = now.getMinutes();
 
-        // Spots decrease through the week, reset on Monday
-        const baseSpots = {
-          0: 2, // Sunday - very limited
-          1: 6, // Monday - fresh week
-          2: 5, // Tuesday
-          3: 4, // Wednesday
-          4: 3, // Thursday
-          5: 2, // Friday - almost gone
-          6: 2  // Saturday - weekend limited
+        // Get Monday of current week for consistent weekly reset
+        const monday = new Date(now);
+        monday.setDate(now.getDate() - ((day + 6) % 7));
+        monday.setHours(0, 0, 0, 0);
+        const weekId = monday.toISOString().split('T')[0];
+
+        // Morning slots (starts fresh each day, higher early)
+        const morningSlots = {
+          0: 3, // Sunday
+          1: 7, // Monday - fresh week, most availability
+          2: 6, // Tuesday
+          3: 5, // Wednesday
+          4: 4, // Thursday
+          5: 3, // Friday
+          6: 3  // Saturday
         };
 
-        let spots = baseSpots[day];
-        // Reduce by 1 in afternoon/evening
-        if (hour >= 14) spots = Math.max(1, spots - 1);
+        // Calculate current slots based on time progression
+        function calculateSlots() {
+          let slots = morningSlots[day];
 
-        // Days until Friday (end of work week)
+          // Progressive decrease throughout the day (every ~3 hours drop 1)
+          if (hour >= 10) slots = Math.max(1, slots - 1);
+          if (hour >= 13) slots = Math.max(1, slots - 1);
+          if (hour >= 16) slots = Math.max(1, slots - 1);
+          if (hour >= 19) slots = Math.max(1, slots - 1);
+
+          // Add slight variation based on week number to seem less predictable
+          const weekNum = Math.floor(now.getTime() / (7 * 24 * 60 * 60 * 1000));
+          const variation = (weekNum % 3) - 1; // -1, 0, or +1
+          slots = Math.max(1, Math.min(7, slots + variation));
+
+          return slots;
+        }
+
+        // Session persistence - spots only go down, never up during a session
+        let spots;
+        try {
+          const stored = JSON.parse(sessionStorage.getItem(STORAGE_KEY) || '{}');
+          const calculatedSpots = calculateSlots();
+
+          // Reset if new week or new day with more spots
+          if (stored.weekId !== weekId) {
+            spots = calculatedSpots;
+          } else if (stored.day !== day && calculatedSpots > stored.spots) {
+            // New day and would have more spots - reset
+            spots = calculatedSpots;
+          } else {
+            // Same session - use lower of stored or calculated (spots can only decrease)
+            spots = Math.min(stored.spots || calculatedSpots, calculatedSpots);
+          }
+
+          sessionStorage.setItem(STORAGE_KEY, JSON.stringify({
+            weekId: weekId,
+            day: day,
+            spots: spots,
+            timestamp: now.getTime()
+          }));
+        } catch (e) {
+          spots = calculateSlots();
+        }
+
+        // Generate contextual urgency message
         const daysUntilFriday = day <= 5 ? 5 - day : 6;
-
-        // Generate urgency message
         let urgencyText;
-        if (spots <= 2) {
-          urgencyText = `Only ${spots} spot${spots === 1 ? '' : 's'} left this week`;
-        } else if (day === 1) {
-          urgencyText = `${spots} spots available this week — book early`;
+
+        if (spots === 1) {
+          urgencyText = 'Only 1 spot left this week — act now';
+        } else if (spots === 2) {
+          urgencyText = 'Only 2 spots left this week';
+        } else if (day === 1 && hour < 12) {
+          urgencyText = `${spots} spots available — new week, book early`;
+        } else if (day === 5 || day === 6 || day === 0) {
+          urgencyText = `Only ${spots} spots left before next week`;
         } else if (daysUntilFriday <= 2) {
-          urgencyText = `Only ${spots} spots left before the weekend`;
+          urgencyText = `${spots} spots left before the weekend`;
+        } else if (hour >= 17) {
+          urgencyText = `${spots} spots remaining — filling fast`;
         } else {
           urgencyText = `${spots} spots remaining this week`;
         }
