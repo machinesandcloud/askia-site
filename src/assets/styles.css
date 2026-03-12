@@ -3374,17 +3374,17 @@ a {
     grid-template-columns: 1fr;
     position: sticky;
     top: calc(88px + (var(--magnet-index) * 12px));
-    z-index: calc(200 - var(--magnet-index));
+    z-index: calc(120 + var(--magnet-index));
   }
 }
 
 @media (max-width: 640px) {
   .lead-magnets {
-    padding-bottom: 140px;
+    padding-bottom: 96px;
   }
 
   .lead-magnets-list {
-    padding-bottom: 220px;
+    padding-bottom: 140px;
   }
 
   .lead-magnet-card {
@@ -3392,12 +3392,12 @@ a {
     gap: 16px;
     position: sticky;
     top: calc(84px + (var(--magnet-index) * 10px));
-    z-index: calc(200 - var(--magnet-index));
-    padding-bottom: 48px;
+    z-index: calc(120 + var(--magnet-index));
+    padding-bottom: 26px;
   }
 
   .lead-magnet-card + .lead-magnet-card {
-    margin-top: -2px;
+    margin-top: -8px;
   }
 
   .lead-magnet-cover img {
