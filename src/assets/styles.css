@@ -3394,21 +3394,18 @@ a {
 
   .lead-magnets-list {
     padding-bottom: 200px;
+    gap: 18px;
   }
 
   .lead-magnet-card {
-    --lead-magnet-top: 92px;
-    --lead-magnet-step: 10px;
+    --lead-magnet-top: 96px;
+    --lead-magnet-step: 0px;
     padding: 18px;
     gap: 16px;
     position: -webkit-sticky;
     position: sticky;
     z-index: calc(120 + var(--magnet-index));
     padding-bottom: 26px;
-  }
-
-  .lead-magnet-card + .lead-magnet-card {
-    margin-top: -4px;
   }
 
   .lead-magnet-card:last-child {
