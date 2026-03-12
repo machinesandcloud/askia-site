@@ -1533,6 +1533,7 @@ a {
 }
 
 .hero-stats-animated .hero-stat-row {
+  flex-direction: row;
   align-items: center;
   gap: 16px;
 }
