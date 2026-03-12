@@ -3401,6 +3401,9 @@ a {
     position: -webkit-sticky;
     position: sticky;
     z-index: calc(120 + var(--magnet-index));
+    background:
+      radial-gradient(circle at 10% 10%, rgba(114, 214, 255, 0.12), transparent 45%),
+      linear-gradient(160deg, rgb(10, 16, 24), rgb(7, 12, 18));
   }
 
   .lead-magnet-card:last-child {
