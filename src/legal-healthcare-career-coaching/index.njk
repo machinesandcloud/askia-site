@@ -2,7 +2,7 @@
 layout: layout.njk
 title: Legal & Healthcare Career Coaching
 metaTitle: "Legal & Healthcare Career Coaching | Askia"
-metaDescription: "Career coaching tailored to legal & healthcare roles targeting $100K–$350K positions."
+metaDescription: "Career coaching for legal, compliance, and healthcare leaders targeting $100K–$350K roles."
 schemaType: "Service"
 schemaName: "Legal & Healthcare Career Coaching"
 schemaDescription: "Career coaching for legal & healthcare professionals targeting $100K–$350K roles."
@@ -15,5 +15,23 @@ breadcrumbs:
   - name: "Legal & Healthcare Career Coaching"
     url: "/legal-healthcare-career-coaching/"
 ---
-{% set page = landingPages.roleLegalHealthcare %}
-{% include "marketing-page.njk" %}
+{% set page = {
+  "roleGroupLabel": "Legal & Healthcare",
+  "eyebrow": "For Legal & Healthcare professionals",
+  "h1": "Make compliance and care outcomes visible",
+  "subtitle": "We translate regulated work into clear hiring signal and leadership scope.",
+  "supporting": "From compliance to healthcare operations, we make your impact easy to trust.",
+  "highlights": [
+    "Clarify scope, regulatory impact, and risk reduction",
+    "Rewrite your materials to show outcomes and leadership signal",
+    "Interview prep for stakeholder, ethics, and decision-making loops"
+  ],
+  "ctaLabel": "Claim My Free Strategy Session",
+  "ctaLink": "https://bookings.askia.tech/#/clarity",
+  "ctaProof": "15 minutes. No sales pitch. Leave with a clear action plan — guaranteed.",
+  "ctaUrgency": "Only 4 spots left this week",
+  "ctaTitle": "Ready to target the right legal or healthcare role?",
+  "ctaBody": "Book a free strategy call and leave with a clear plan for your next move.",
+  "ctaGuarantee": "Leave with a clear action plan or get a second session free"
+} %}
+{% include "category-page.njk" %}

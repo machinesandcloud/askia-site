@@ -2,7 +2,7 @@
 layout: layout.njk
 title: Tech & Data Career Coaching
 metaTitle: "Tech & Data Career Coaching | Askia"
-metaDescription: "Career coaching tailored to tech & data roles targeting $100K–$350K positions."
+metaDescription: "Career coaching for software, data, and product leaders targeting $100K–$350K roles."
 schemaType: "Service"
 schemaName: "Tech & Data Career Coaching"
 schemaDescription: "Career coaching for tech & data professionals targeting $100K–$350K roles."
@@ -15,5 +15,23 @@ breadcrumbs:
   - name: "Tech & Data Career Coaching"
     url: "/tech-data-career-coaching/"
 ---
-{% set page = landingPages.roleTechData %}
-{% include "marketing-page.njk" %}
+{% set page = {
+  "roleGroupLabel": "Tech & Data",
+  "eyebrow": "For Tech & Data professionals",
+  "h1": "Find your fastest path to top tech roles",
+  "subtitle": "We help you translate technical work into executive‑level hiring signal.",
+  "supporting": "From engineering to product, we make your impact visible, your scope clear, and your next role realistic.",
+  "highlights": [
+    "Pinpoint the right level and scope so you stop underselling yourself",
+    "Rewrite your resume and LinkedIn for technical + business impact",
+    "Interview prep for system, product, and behavioral loops"
+  ],
+  "ctaLabel": "Claim My Free Strategy Session",
+  "ctaLink": "https://bookings.askia.tech/#/clarity",
+  "ctaProof": "15 minutes. No sales pitch. Leave with a clear action plan — guaranteed.",
+  "ctaUrgency": "Only 4 spots left this week",
+  "ctaTitle": "Ready to target the right tech role?",
+  "ctaBody": "Book a free strategy call and leave with a clear plan for your next move.",
+  "ctaGuarantee": "Leave with a clear action plan or get a second session free"
+} %}
+{% include "category-page.njk" %}

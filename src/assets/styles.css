@@ -5213,6 +5213,53 @@ body.pricing-focus {
   gap: 22px;
 }
 
+/* Category landing pages */
+.hero-category .hero-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.role-category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.role-category-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 20px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(18, 26, 38, 0.7), rgba(8, 12, 18, 0.4));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 18px 40px rgba(7, 10, 15, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.role-category-card strong {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.role-category-card span {
+  color: rgba(214, 226, 243, 0.7);
+  font-size: 0.85rem;
+}
+
+.role-category-cta {
+  font-size: 0.8rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(114, 214, 255, 0.9);
+}
+
+.role-category-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 60px rgba(7, 10, 15, 0.5);
+}
+
 .pillar-card {
   padding: 22px;
   border-radius: 20px;
@@ -9877,6 +9924,26 @@ body.pricing-focus {
   transform: translateY(0);
 }
 
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .application-phase,
+  .application-card,
+  .stamp,
+  .cta-band::before,
+  .hero-guarantee-badge,
+  .timeline-track::after {
+    animation: none !important;
+  }
+}
+
 /* Process Flow Connector Lines */
 .timeline-track::after {
   content: "";
@@ -9898,4 +9965,62 @@ body.pricing-focus {
 
 @keyframes flowDots {
   to { background-position: 20px 0; }
+}
+
+@media (max-width: 900px) {
+  .site-header,
+  .card,
+  .lead-magnet-card,
+  .testimonial-card-home,
+  .hero-stats-card,
+  .role-atlas-card,
+  .journey-step,
+  .focus-card,
+  .outcome-card,
+  .application-card {
+    backdrop-filter: none;
+  }
+
+  .card,
+  .lead-magnet-card,
+  .testimonial-card-home,
+  .application-card,
+  .role-category-card {
+    box-shadow: 0 16px 32px rgba(7, 10, 15, 0.35);
+  }
+
+  .application-track {
+    height: auto;
+  }
+
+  .application-phase {
+    position: relative;
+    inset: auto;
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+
+  .application-phase.phase-2,
+  .application-phase.phase-3 {
+    display: none;
+  }
+
+  .application-card {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    margin-bottom: 12px;
+  }
+
+  .application-card:nth-child(1),
+  .application-card:nth-child(2),
+  .application-card:nth-child(3) {
+    animation: none;
+  }
+
+  .application-stamps {
+    display: none;
+  }
 }

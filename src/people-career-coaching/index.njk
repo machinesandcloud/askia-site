@@ -2,10 +2,10 @@
 layout: layout.njk
 title: People & HR Career Coaching
 metaTitle: "People & HR Career Coaching | Askia"
-metaDescription: "Career coaching tailored to people & hr roles targeting $100K–$350K positions."
+metaDescription: "Career coaching for HR and people leaders targeting $100K–$350K roles."
 schemaType: "Service"
 schemaName: "People & HR Career Coaching"
-schemaDescription: "Career coaching for people & hr professionals targeting $100K–$350K roles."
+schemaDescription: "Career coaching for people & HR professionals targeting $100K–$350K roles."
 schemaServiceType: "Career coaching"
 breadcrumbs:
   - name: "Home"
@@ -15,5 +15,23 @@ breadcrumbs:
   - name: "People & HR Career Coaching"
     url: "/people-career-coaching/"
 ---
-{% set page = landingPages.rolePeople %}
-{% include "marketing-page.njk" %}
+{% set page = {
+  "roleGroupLabel": "People",
+  "eyebrow": "For People & HR leaders",
+  "h1": "Make your people impact impossible to ignore",
+  "subtitle": "We help HR and people leaders show strategic, measurable outcomes.",
+  "supporting": "Translate culture, talent, and org work into business impact hiring teams understand.",
+  "highlights": [
+    "Show the outcomes behind your people programs",
+    "Clarify level, scope, and leadership signal",
+    "Interview prep for executive and stakeholder conversations"
+  ],
+  "ctaLabel": "Claim My Free Strategy Session",
+  "ctaLink": "https://bookings.askia.tech/#/clarity",
+  "ctaProof": "15 minutes. No sales pitch. Leave with a clear action plan — guaranteed.",
+  "ctaUrgency": "Only 4 spots left this week",
+  "ctaTitle": "Ready to target the right people role?",
+  "ctaBody": "Book a free strategy call and leave with a clear plan for your next move.",
+  "ctaGuarantee": "Leave with a clear action plan or get a second session free"
+} %}
+{% include "category-page.njk" %}

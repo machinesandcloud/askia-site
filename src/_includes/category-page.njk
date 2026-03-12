@@ -1,0 +1,66 @@
+{# Category landing page: focused hero + role list + CTA #}
+{% set ns = namespace(items=[]) %}
+{% for group in roleDirectory.groups %}
+  {% if group.label == page.roleGroupLabel %}
+    {% set ns.items = group.items %}
+  {% endif %}
+{% endfor %}
+
+<section class="hero hero-themed hero-category">
+  <div class="container hero-grid">
+    <div>
+      {% if page.eyebrow %}<p class="hero-eyebrow">{{ page.eyebrow }}</p>{% endif %}
+      <h1 class="hero-title section-title-glow">{{ page.h1 }}</h1>
+      {% if page.subtitle %}<p class="hero-subtitle">{{ page.subtitle }}</p>{% endif %}
+      {% if page.supporting %}<p class="hero-supporting">{{ page.supporting }}</p>{% endif %}
+      {% if page.highlights and page.highlights.length %}
+      <ul class="highlight-list">
+        {% for item in page.highlights %}
+          <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
+        {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">{{ page.rolesEyebrow or "Roles we support" }}</p>
+      <h2 class="section-title section-title-glow">{{ page.rolesTitle or "Browse roles in this category" }}</h2>
+      {% if page.rolesSubtitle %}<p class="section-subtitle">{{ page.rolesSubtitle }}</p>{% endif %}
+    </div>
+    <div class="role-category-grid">
+      {% for item in ns.items %}
+      <a class="role-category-card" href="{{ item.url }}">
+        <div>
+          <strong>{{ item.label }}</strong>
+          {% if item.note %}<span>{{ item.note }}</span>{% endif %}
+        </div>
+        <span class="role-category-cta">Explore</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-cta-final">
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h2 class="section-title">{{ page.ctaTitle or "Ready to target the right roles?" }}</h2>
+        <p class="section-subtitle">{{ page.ctaBody or "Book a free strategy call and leave with a clear plan." }}</p>
+      </div>
+      <div class="cta-action">
+        <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
+        {% if page.ctaUrgency %}<span class="cta-urgency">{{ page.ctaUrgency }}</span>{% endif %}
+        {% if page.ctaGuarantee %}<span class="cta-guarantee">✓ {{ page.ctaGuarantee }}</span>{% endif %}
+      </div>
+    </div>
+  </div>
+</section>

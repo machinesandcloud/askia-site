@@ -2,7 +2,7 @@
 layout: layout.njk
 title: Business & Finance Career Coaching
 metaTitle: "Business & Finance Career Coaching | Askia"
-metaDescription: "Career coaching tailored to business & finance roles targeting $100K–$350K positions."
+metaDescription: "Career coaching for finance, operations, and strategy leaders targeting $100K–$350K roles."
 schemaType: "Service"
 schemaName: "Business & Finance Career Coaching"
 schemaDescription: "Career coaching for business & finance professionals targeting $100K–$350K roles."
@@ -15,5 +15,23 @@ breadcrumbs:
   - name: "Business & Finance Career Coaching"
     url: "/business-finance-career-coaching/"
 ---
-{% set page = landingPages.roleBusinessFinance %}
-{% include "marketing-page.njk" %}
+{% set page = {
+  "roleGroupLabel": "Business & Finance",
+  "eyebrow": "For Business & Finance professionals",
+  "h1": "Make your analysis read like leadership",
+  "subtitle": "We turn finance and ops work into executive‑level hiring signal.",
+  "supporting": "From FP&A to strategy, we make your decisions visible and valuable.",
+  "highlights": [
+    "Clarify role scope and leadership signal for senior roles",
+    "Rewrite your materials around outcomes, not tasks",
+    "Interview prep for case, stakeholder, and leadership loops"
+  ],
+  "ctaLabel": "Claim My Free Strategy Session",
+  "ctaLink": "https://bookings.askia.tech/#/clarity",
+  "ctaProof": "15 minutes. No sales pitch. Leave with a clear action plan — guaranteed.",
+  "ctaUrgency": "Only 4 spots left this week",
+  "ctaTitle": "Ready to target the right business role?",
+  "ctaBody": "Book a free strategy call and leave with a clear plan for your next move.",
+  "ctaGuarantee": "Leave with a clear action plan or get a second session free"
+} %}
+{% include "category-page.njk" %}

@@ -2,7 +2,7 @@
 layout: layout.njk
 title: Sales & Marketing Career Coaching
 metaTitle: "Sales & Marketing Career Coaching | Askia"
-metaDescription: "Career coaching tailored to sales & marketing roles targeting $100K–$350K positions."
+metaDescription: "Career coaching for sales, marketing, and revenue leaders targeting $100K–$350K roles."
 schemaType: "Service"
 schemaName: "Sales & Marketing Career Coaching"
 schemaDescription: "Career coaching for sales & marketing professionals targeting $100K–$350K roles."
@@ -15,5 +15,23 @@ breadcrumbs:
   - name: "Sales & Marketing Career Coaching"
     url: "/sales-marketing-career-coaching/"
 ---
-{% set page = landingPages.roleSalesMarketing %}
-{% include "marketing-page.njk" %}
+{% set page = {
+  "roleGroupLabel": "Sales & Marketing",
+  "eyebrow": "For Sales & Marketing professionals",
+  "h1": "Turn revenue wins into executive‑level offers",
+  "subtitle": "We position your growth and pipeline impact so hiring teams can’t ignore you.",
+  "supporting": "From sales to growth to customer success, we make your numbers tell a leadership story.",
+  "highlights": [
+    "Translate quotas and growth into executive‑ready signal",
+    "Target the right market segment, team, and scope",
+    "Interview prep that proves commercial judgment"
+  ],
+  "ctaLabel": "Claim My Free Strategy Session",
+  "ctaLink": "https://bookings.askia.tech/#/clarity",
+  "ctaProof": "15 minutes. No sales pitch. Leave with a clear action plan — guaranteed.",
+  "ctaUrgency": "Only 4 spots left this week",
+  "ctaTitle": "Ready to target the right revenue role?",
+  "ctaBody": "Book a free strategy call and leave with a plan to land your next offer.",
+  "ctaGuarantee": "Leave with a clear action plan or get a second session free"
+} %}
+{% include "category-page.njk" %}
