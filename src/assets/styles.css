@@ -1528,8 +1528,8 @@ a {
 
 .hero-stat-row {
   display: flex;
-  align-items: baseline;
-  gap: 12px;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .hero-stats-animated .hero-stat-row {
