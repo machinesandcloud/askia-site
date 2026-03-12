@@ -3407,6 +3407,19 @@ a {
   display: none;
 }
 
+/* SalesIQ: keep tracking, hide UI */
+#zsiq_float,
+.zsiq_floatmain,
+.zsiq_flt_rel,
+.zsiq_cnt,
+.siq_bR,
+.siq_zC {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
 .resource-modal-overlay {
   position: absolute;
   inset: 0;
