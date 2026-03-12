@@ -3380,11 +3380,11 @@ a {
 
 @media (max-width: 640px) {
   .lead-magnets {
-    padding-bottom: 96px;
+    padding-bottom: 140px;
   }
 
   .lead-magnets-list {
-    padding-bottom: 140px;
+    padding-bottom: 200px;
   }
 
   .lead-magnet-card {
@@ -3397,7 +3397,11 @@ a {
   }
 
   .lead-magnet-card + .lead-magnet-card {
-    margin-top: -8px;
+    margin-top: -4px;
+  }
+
+  .lead-magnet-card:last-child {
+    margin-bottom: 80px;
   }
 
   .lead-magnet-cover img {
