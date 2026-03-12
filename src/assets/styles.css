@@ -3324,6 +3324,8 @@ a {
 }
 
 .lead-magnet-card {
+  --lead-magnet-top: 110px;
+  --lead-magnet-step: 14px;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 0.42fr);
   gap: 24px;
@@ -3335,8 +3337,10 @@ a {
     radial-gradient(circle at 10% 10%, rgba(114, 214, 255, 0.12), transparent 45%),
     linear-gradient(160deg, rgba(10, 16, 24, 0.95), rgba(7, 12, 18, 0.85));
   box-shadow: 0 26px 50px rgba(7, 10, 15, 0.35);
+  position: -webkit-sticky;
   position: sticky;
-  top: calc(110px + (var(--magnet-index) * 14px));
+  top: calc(var(--lead-magnet-top) + (var(--magnet-index) * var(--lead-magnet-step)));
+  align-self: start;
 }
 
 .lead-magnet-copy h3 {
@@ -3371,14 +3375,19 @@ a {
 
 @media (max-width: 980px) {
   .lead-magnet-card {
+    --lead-magnet-top: 96px;
+    --lead-magnet-step: 12px;
     grid-template-columns: 1fr;
     position: sticky;
-    top: calc(88px + (var(--magnet-index) * 12px));
     z-index: calc(120 + var(--magnet-index));
   }
 }
 
 @media (max-width: 640px) {
+  .lead-magnets {
+    overflow: visible;
+  }
+
   .lead-magnets {
     padding-bottom: 140px;
   }
@@ -3388,10 +3397,12 @@ a {
   }
 
   .lead-magnet-card {
+    --lead-magnet-top: 92px;
+    --lead-magnet-step: 10px;
     padding: 18px;
     gap: 16px;
+    position: -webkit-sticky;
     position: sticky;
-    top: calc(84px + (var(--magnet-index) * 10px));
     z-index: calc(120 + var(--magnet-index));
     padding-bottom: 26px;
   }
