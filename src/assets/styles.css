@@ -4343,18 +4343,18 @@ body.pricing-focus {
 @media (max-width: 680px) {
   .stacked-list {
     gap: 16px;
-    padding-bottom: 20px;
+    padding-bottom: 12px;
   }
 
   .stacked-card {
-    position: sticky;
-    top: calc(88px + (var(--stack-index) * 14px));
-    z-index: calc(100 + var(--stack-index));
-    box-shadow: 0 22px 46px rgba(7, 10, 15, 0.35);
+    position: static;
+    top: auto;
+    z-index: auto;
+    box-shadow: 0 18px 38px rgba(7, 10, 15, 0.3);
   }
 
   .stacked-card + .stacked-card {
-    margin-top: -16px;
+    margin-top: 0;
   }
 
   .role-atlas-list {
@@ -4364,13 +4364,13 @@ body.pricing-focus {
   }
 
   .role-atlas-item {
-    position: sticky;
-    top: calc(88px + (var(--stack-index) * 12px));
-    z-index: calc(90 + var(--stack-index));
+    position: static;
+    top: auto;
+    z-index: auto;
   }
 
   .role-atlas-item + .role-atlas-item {
-    margin-top: -14px;
+    margin-top: 0;
   }
 }
 
