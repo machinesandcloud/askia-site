@@ -3399,7 +3399,7 @@ a {
 
   .lead-magnet-card {
     --lead-magnet-top: 96px;
-    --lead-magnet-step: 0px;
+    --lead-magnet-step: 12px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
