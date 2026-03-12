@@ -1,10 +1,4 @@
 {# Category landing page: focused hero + role list + CTA #}
-{% set ns = namespace(items=[]) %}
-{% for group in roleDirectory.groups %}
-  {% if group.label == page.roleGroupLabel %}
-    {% set ns.items = group.items %}
-  {% endif %}
-{% endfor %}
 
 <section class="hero hero-themed hero-category">
   <div class="container hero-grid">
@@ -36,7 +30,7 @@
       {% if page.rolesSubtitle %}<p class="section-subtitle">{{ page.rolesSubtitle }}</p>{% endif %}
     </div>
     <div class="role-category-grid">
-      {% for item in ns.items %}
+      {% for item in page.roles %}
       <a class="role-category-card" href="{{ item.url }}">
         <div>
           <strong>{{ item.label }}</strong>
