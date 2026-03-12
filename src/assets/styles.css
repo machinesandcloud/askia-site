@@ -4358,6 +4358,7 @@ body.pricing-focus {
   .focus-grid,
   .journey-steps {
     grid-template-columns: 1fr;
+    justify-items: center;
   }
 
   .pillar-header,
@@ -4379,10 +4380,32 @@ body.pricing-focus {
     z-index: 1;
   }
 
-  .pillar-card {
-    --pillar-offset: 0px;
+  .pillar-card,
+  .focus-card {
+    --stack-index: 0;
+    position: sticky;
+    top: calc(96px + (var(--stack-index) * 12px));
+    width: min(520px, 100%);
+    margin: 0 auto;
     transform: none;
+    z-index: calc(30 + (10 - var(--stack-index)));
   }
+
+  .pillar-card + .pillar-card,
+  .focus-card + .focus-card {
+    margin-top: -16px;
+  }
+
+  .pillar-card:nth-child(2),
+  .focus-card:nth-child(2) { --stack-index: 1; }
+  .pillar-card:nth-child(3),
+  .focus-card:nth-child(3) { --stack-index: 2; }
+  .pillar-card:nth-child(4),
+  .focus-card:nth-child(4) { --stack-index: 3; }
+  .pillar-card:nth-child(5),
+  .focus-card:nth-child(5) { --stack-index: 4; }
+  .pillar-card:nth-child(6),
+  .focus-card:nth-child(6) { --stack-index: 5; }
 
   .stacked-list {
     gap: 16px;
