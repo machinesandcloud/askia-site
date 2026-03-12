@@ -190,7 +190,25 @@
       "guarantee": "Leave with your exact path to Staff/Principal — guaranteed."
     },
     "metaTitle": "Software Engineer Career Coaching | Senior to Staff to Principal | Askia",
-    "metaDescription": "Career coaching for software engineers who are ready to level up. System design prep, resume overhaul, and interview strategy."
+    "metaDescription": "Career coaching for software engineers who are ready to level up. System design prep, resume overhaul, and interview strategy.",
+    "coach": {
+      "title": "Steve's been in your code reviews",
+      "bio": "I spent a decade as an engineering leader, hiring and promoting engineers at every level. I've reviewed hundreds of system design interviews and know exactly what separates a Senior from a Staff. Now I help engineers stop underselling their scope and land the level they deserve.",
+      "stats": [
+        {
+          "value": "100+",
+          "label": "engineers coached"
+        },
+        {
+          "value": "Staff+",
+          "label": "level-ups this year"
+        },
+        {
+          "value": "$58K",
+          "label": "avg. comp increase"
+        }
+      ]
+    }
   },
   "devops": {
     "eyebrow": "For DevOps & SRE engineers who want recognition for what they actually do",
@@ -375,7 +393,25 @@
       "guarantee": "Leave with your reliability work quantified as business impact."
     },
     "metaTitle": "DevOps & SRE Career Coaching | Make Your Infrastructure Work Visible | Askia",
-    "metaDescription": "Career coaching for DevOps and SRE engineers. Turn reliability, uptime, and platform work into career advancement."
+    "metaDescription": "Career coaching for DevOps and SRE engineers. Turn reliability, uptime, and platform work into career advancement.",
+    "coach": {
+      "title": "Steve understands infrastructure",
+      "bio": "I've led platform teams and seen firsthand how DevOps and SRE work gets overlooked. Uptime, deployment velocity, incident reduction — I know how to translate that into business impact that hiring managers can see. Let's make your infrastructure story land.",
+      "stats": [
+        {
+          "value": "50+",
+          "label": "platform engineers coached"
+        },
+        {
+          "value": "3 weeks",
+          "label": "avg. to first interview"
+        },
+        {
+          "value": "$52K",
+          "label": "avg. comp increase"
+        }
+      ]
+    }
   },
   "data": {
     "eyebrow": "For data professionals who are tired of being seen as 'just analytics'",
@@ -560,7 +596,25 @@
       "guarantee": "Leave knowing exactly how to quantify your data influence."
     },
     "metaTitle": "Data Career Coaching | DE, DS, Analytics | Show Business Impact | Askia",
-    "metaDescription": "Career coaching for data professionals. Turn pipelines, models, and analysis into career advancement."
+    "metaDescription": "Career coaching for data professionals. Turn pipelines, models, and analysis into career advancement.",
+    "coach": {
+      "title": "Steve speaks data",
+      "bio": "From data engineering to data science to analytics, I've worked with teams building pipelines, models, and dashboards. I understand the tension between technical depth and business impact. Let's make your data story clear enough that non-technical hiring managers get excited.",
+      "stats": [
+        {
+          "value": "40+",
+          "label": "data professionals coached"
+        },
+        {
+          "value": "89%",
+          "label": "land offers in 60 days"
+        },
+        {
+          "value": "$55K",
+          "label": "avg. comp increase"
+        }
+      ]
+    }
   },
   "productManager": {
     "eyebrow": "For product managers who are tired of explaining what they actually do",
@@ -745,7 +799,25 @@
       "guarantee": "Leave with your product wins quantified and interview-ready."
     },
     "metaTitle": "Product Manager Career Coaching | Quantify Your Impact | Askia",
-    "metaDescription": "Career coaching for product managers. Turn product decisions into quantifiable impact and land better PM roles."
+    "metaDescription": "Career coaching for product managers. Turn product decisions into quantifiable impact and land better PM roles.",
+    "coach": {
+      "title": "Steve's sat in your product reviews",
+      "bio": "I've hired PMs and worked alongside them for over a decade. I know what makes a PM story resonate — it's not about features shipped, it's about decisions made and outcomes driven. Let's reframe your experience so interviewers see the strategic leader you are.",
+      "stats": [
+        {
+          "value": "60+",
+          "label": "PMs coached"
+        },
+        {
+          "value": "4 weeks",
+          "label": "avg. to offer"
+        },
+        {
+          "value": "$48K",
+          "label": "avg. comp increase"
+        }
+      ]
+    }
   },
   "engineeringManager": {
     "eyebrow": "For engineering managers who've outgrown their title",
@@ -930,7 +1002,25 @@
       "guarantee": "Leave with your team's wins framed as your leadership wins."
     },
     "metaTitle": "Engineering Manager Career Coaching | Move to Director and Beyond | Askia",
-    "metaDescription": "Career coaching for engineering managers. Frame team outcomes as leadership wins and land senior roles."
+    "metaDescription": "Career coaching for engineering managers. Frame team outcomes as leadership wins and land senior roles.",
+    "coach": {
+      "title": "Steve's been in your seat",
+      "bio": "I spent years as an engineering manager and director. I know the challenge of showing leadership impact when your hands aren't on the keyboard. Let's build a story that proves you scale teams, not just manage them.",
+      "stats": [
+        {
+          "value": "35+",
+          "label": "EMs coached to Director+"
+        },
+        {
+          "value": "Director+",
+          "label": "level-ups this year"
+        },
+        {
+          "value": "$65K",
+          "label": "avg. comp increase"
+        }
+      ]
+    }
   },
   "cybersecurity": {
     "eyebrow": "For security professionals who protect companies but can't prove it",
@@ -1109,7 +1199,25 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "Cybersecurity Career Coaching | Show Your Security Impact | Askia",
-    "metaDescription": "Career coaching for cybersecurity professionals. Turn risk reduction and incident response into career advancement."
+    "metaDescription": "Career coaching for cybersecurity professionals. Turn risk reduction and incident response into career advancement.",
+    "coach": {
+      "title": "Steve gets security",
+      "bio": "Security work is often invisible until something breaks. I help security professionals translate risk prevention and compliance into business value that executives understand. Your work has massive impact — let's make it visible.",
+      "stats": [
+        {
+          "value": "25+",
+          "label": "security pros coached"
+        },
+        {
+          "value": "CISO-track",
+          "label": "placements"
+        },
+        {
+          "value": "$50K",
+          "label": "avg. comp increase"
+        }
+      ]
+    }
   },
   "qa": {
     "eyebrow": "For QA professionals who want to be more than 'the bug finder'",
@@ -1288,7 +1396,25 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "QA & Test Automation Career Coaching | SDET & Lead Roles | Askia",
-    "metaDescription": "Career coaching for QA professionals. Turn quality work into engineering credibility and career advancement."
+    "metaDescription": "Career coaching for QA professionals. Turn quality work into engineering credibility and career advancement.",
+    "coach": {
+      "title": "Steve values quality engineers",
+      "bio": "QA and test automation are often undervalued in interviews. I help quality engineers reframe their work as risk management and velocity enablement. You're not just finding bugs — you're protecting the business.",
+      "stats": [
+        {
+          "value": "30+",
+          "label": "QA leads coached"
+        },
+        {
+          "value": "SDET+",
+          "label": "level-ups"
+        },
+        {
+          "value": "$42K",
+          "label": "avg. comp increase"
+        }
+      ]
+    }
   },
   "productDesign": {
     "eyebrow": "For designers who can't seem to get past the portfolio review",
@@ -1469,7 +1595,25 @@
       "guarantee": "Leave with portfolio case studies rebuilt around business impact."
     },
     "metaTitle": "Product Design Career Coaching | Portfolio & Interview Prep | Askia",
-    "metaDescription": "Career coaching for product designers. Turn design work into portfolio stories that land interviews."
+    "metaDescription": "Career coaching for product designers. Turn design work into portfolio stories that land interviews.",
+    "coach": {
+      "title": "Steve understands design impact",
+      "bio": "Design portfolios often focus on process over outcomes. I help product designers connect their work to business metrics — conversion, retention, NPS. Let's build a story that shows you design for impact, not just aesthetics.",
+      "stats": [
+        {
+          "value": "35+",
+          "label": "designers coached"
+        },
+        {
+          "value": "Staff Design+",
+          "label": "level-ups"
+        },
+        {
+          "value": "$45K",
+          "label": "avg. comp increase"
+        }
+      ]
+    }
   },
   "solutionsArchitect": {
     "eyebrow": "For solutions architects who close deals but can't close their next role",
@@ -1648,7 +1792,25 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "Solutions Architect Career Coaching | Deal Attribution & Career Growth | Askia",
-    "metaDescription": "Career coaching for solutions architects. Quantify your deal influence and advance your technical career."
+    "metaDescription": "Career coaching for solutions architects. Quantify your deal influence and advance your technical career.",
+    "coach": {
+      "title": "Steve knows pre-sales",
+      "bio": "Solutions architects often struggle to get credit for deals won. I help SAs quantify their technical influence on pipeline and close rates. Your technical expertise closes deals — let's make sure that shows.",
+      "stats": [
+        {
+          "value": "20+",
+          "label": "SAs coached"
+        },
+        {
+          "value": "$2M+",
+          "label": "deals attributed"
+        },
+        {
+          "value": "$55K",
+          "label": "avg. comp increase"
+        }
+      ]
+    }
   },
   "technicalProgramManager": {
     "eyebrow": "For TPMs who run complex programs but can't explain what they do",
@@ -1827,7 +1989,25 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "TPM Career Coaching | Technical Program Manager Interview Prep | Askia",
-    "metaDescription": "Career coaching for technical program managers. Articulate program complexity and land senior TPM roles."
+    "metaDescription": "Career coaching for technical program managers. Articulate program complexity and land senior TPM roles.",
+    "coach": {
+      "title": "Steve respects program complexity",
+      "bio": "TPMs juggle technical depth, stakeholder alignment, and execution all at once. I help you show that complexity clearly — the cross-functional influence, the risk management, the delivery at scale.",
+      "stats": [
+        {
+          "value": "25+",
+          "label": "TPMs coached"
+        },
+        {
+          "value": "Principal+",
+          "label": "level-ups"
+        },
+        {
+          "value": "$52K",
+          "label": "avg. comp increase"
+        }
+      ]
+    }
   },
   "salesEngineer": {
     "eyebrow": "For sales engineers caught between quotas and code",
@@ -2006,7 +2186,25 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "Sales Engineer Career Coaching | Revenue Attribution & Career Growth | Askia",
-    "metaDescription": "Career coaching for sales engineers. Quantify your deal influence and find your career path."
+    "metaDescription": "Career coaching for sales engineers. Quantify your deal influence and find your career path.",
+    "coach": {
+      "title": "Steve knows revenue impact",
+      "bio": "Sales engineers often get lost between sales and engineering. I help you own your revenue contribution and position for the deals you've actually influenced. Your technical expertise drives pipeline — let's prove it.",
+      "stats": [
+        {
+          "value": "20+",
+          "label": "SEs coached"
+        },
+        {
+          "value": "$1.5M+",
+          "label": "pipeline attributed"
+        },
+        {
+          "value": "$48K",
+          "label": "avg. OTE increase"
+        }
+      ]
+    }
   },
   "customerSuccess": {
     "eyebrow": "For customer success professionals who keep clients but lose recognition",
@@ -2185,7 +2383,25 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "Customer Success Career Coaching | Retention Revenue & Career Growth | Askia",
-    "metaDescription": "Career coaching for customer success professionals. Quantify retention impact and advance your career."
+    "metaDescription": "Career coaching for customer success professionals. Quantify retention impact and advance your career.",
+    "coach": {
+      "title": "Steve values retention",
+      "bio": "Customer success is all about revenue protection and expansion. I help CSMs translate NRR, churn prevention, and expansion into language that proves business impact. You're not support — you're a revenue driver.",
+      "stats": [
+        {
+          "value": "25+",
+          "label": "CS leaders coached"
+        },
+        {
+          "value": "VP CS+",
+          "label": "level-ups"
+        },
+        {
+          "value": "$45K",
+          "label": "avg. comp increase"
+        }
+      ]
+    }
   },
   "productOps": {
     "eyebrow": "For product ops professionals who enable everything but get credit for nothing",
@@ -2364,7 +2580,25 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "Product Operations Career Coaching | Strategic Ops & Career Growth | Askia",
-    "metaDescription": "Career coaching for product operations professionals. Quantify ops impact and advance your career."
+    "metaDescription": "Career coaching for product operations professionals. Quantify ops impact and advance your career.",
+    "coach": {
+      "title": "Steve sees ops impact",
+      "bio": "Product ops work often gets credited to others. I help you show how you scale product teams, improve velocity, and enable better decisions. Your operational leverage deserves visibility.",
+      "stats": [
+        {
+          "value": "15+",
+          "label": "ops leaders coached"
+        },
+        {
+          "value": "Director+",
+          "label": "level-ups"
+        },
+        {
+          "value": "$42K",
+          "label": "avg. comp increase"
+        }
+      ]
+    }
   },
   "projectProgramManagement": {
     "eyebrow": "For project managers who deliver on time but don't get promoted",
@@ -2543,7 +2777,25 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "Project & Program Management Career Coaching | Leadership & Advancement | Askia",
-    "metaDescription": "Career coaching for project managers. Frame delivery as leadership and advance your career."
+    "metaDescription": "Career coaching for project managers. Frame delivery as leadership and advance your career.",
+    "coach": {
+      "title": "Steve respects delivery",
+      "bio": "Program managers deliver results through others. I help you show the complexity you manage — the stakeholders, the risks, the scale. Your execution track record is your biggest asset.",
+      "stats": [
+        {
+          "value": "20+",
+          "label": "PgMs coached"
+        },
+        {
+          "value": "Director+",
+          "label": "level-ups"
+        },
+        {
+          "value": "$48K",
+          "label": "avg. comp increase"
+        }
+      ]
+    }
   },
   "aiMl": {
     "eyebrow": "For ML engineers who build models but struggle to show value",
@@ -2724,6 +2976,24 @@
       "guarantee": "Leave knowing how to translate model metrics into executive language."
     },
     "metaTitle": "ML/AI Career Coaching | Business Impact & Career Growth | Askia",
-    "metaDescription": "Career coaching for ML engineers. Translate model performance into business outcomes and career advancement."
+    "metaDescription": "Career coaching for ML engineers. Translate model performance into business outcomes and career advancement.",
+    "coach": {
+      "title": "Steve understands ML impact",
+      "bio": "ML work can feel abstract in interviews. I help AI/ML engineers connect model improvements to business outcomes — revenue, efficiency, user experience. Your technical depth has massive value. Let's prove it.",
+      "stats": [
+        {
+          "value": "30+",
+          "label": "ML engineers coached"
+        },
+        {
+          "value": "Staff ML+",
+          "label": "level-ups"
+        },
+        {
+          "value": "$62K",
+          "label": "avg. comp increase"
+        }
+      ]
+    }
   }
 }

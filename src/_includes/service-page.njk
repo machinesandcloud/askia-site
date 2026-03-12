@@ -221,12 +221,18 @@
       <img src="/assets/steve-headshot.jpg" alt="Steve, Askia Career Coach" class="category-coach-photo" />
       <div class="category-coach-content">
         <p class="hero-eyebrow">Your Coach</p>
-        <h3 class="section-title">Steve knows your field</h3>
-        <p>10+ years leading teams across tech companies. Hundreds of professionals coached into roles at Google, Amazon, Meta, and high-growth startups. I've sat on the other side of the table — I know exactly what makes someone stand out.</p>
+        <h3 class="section-title">{{ page.coach.title or "Steve gets your challenge" }}</h3>
+        <p>{{ page.coach.bio or "10+ years leading teams across tech companies. Hundreds of professionals coached into roles at Google, Amazon, Meta, and high-growth startups. I've sat on the other side of the table — I know exactly what makes someone stand out." }}</p>
         <div class="category-coach-stats">
-          <span><strong>10+</strong> years experience</span>
-          <span><strong>147+</strong> professionals coached</span>
-          <span><strong>$47K</strong> avg. raise negotiated</span>
+          {% if page.coach.stats %}
+            {% for stat in page.coach.stats %}
+            <span><strong>{{ stat.value }}</strong> {{ stat.label }}</span>
+            {% endfor %}
+          {% else %}
+            <span><strong>10+</strong> years experience</span>
+            <span><strong>147+</strong> professionals coached</span>
+            <span><strong>$47K</strong> avg. raise negotiated</span>
+          {% endif %}
         </div>
       </div>
     </div>

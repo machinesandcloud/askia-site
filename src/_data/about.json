@@ -39,22 +39,52 @@
   },
   "team": [
     {
-      "name": "Maya Lopez",
-      "role": "Interview Coach",
-      "photo": "/assets/team/sophia.jpg",
-      "bio": "Former hiring manager with a gift for turning scattered thoughts into memorable stories. Maya has helped hundreds of candidates walk into interviews with confidence and walk out with offers."
+      "name": "Christine Bedalow",
+      "role": "Leadership Coach & Career Transition Coach",
+      "photo": "/assets/team/christine-bedalow.jpg",
+      "bio": "Expert in guiding professionals through pivotal career transitions and developing leadership capabilities that unlock new opportunities."
     },
     {
-      "name": "Derek Tran",
-      "role": "Resume Strategist",
-      "photo": "/assets/team/derek.jpg",
-      "bio": "Ex-recruiter who spent years watching good candidates get overlooked because of bad resumes. Now he rebuilds them to be impossible to ignore."
+      "name": "Jeannette Patoine",
+      "role": "Bilingual Career Coach",
+      "photo": "/assets/team/jeannette-patoine.jpg",
+      "bio": "Helps professionals navigate their careers in both English and French, bringing a unique perspective to international job markets."
     },
     {
-      "name": "Sophia Reed",
-      "role": "Career Operations",
-      "photo": "/assets/team/maya.jpg",
-      "bio": "The engine behind every engagement. Sophia makes sure nothing falls through the cracks and every client gets exactly what they need, exactly when they need it."
+      "name": "Jeff Neil",
+      "role": "Career Change Specialist",
+      "photo": "/assets/team/jeff-neil.jpg",
+      "bio": "Guides professionals through successful career pivots, helping them leverage transferable skills and land roles in new industries."
+    },
+    {
+      "name": "Karla Mihm",
+      "role": "Career Navigation & Transitions",
+      "photo": "/assets/team/karla-mihm.jpg",
+      "bio": "Specializes in helping professionals navigate complex career decisions and transitions with clarity and confidence."
+    },
+    {
+      "name": "Nahida Coelho",
+      "role": "Mid-Career & Transition Specialist",
+      "photo": "/assets/team/nahida-coelho.jpg",
+      "bio": "Helps mid-career professionals rediscover their value and position themselves for the next chapter of their careers."
+    },
+    {
+      "name": "Nils Van Uffelen",
+      "role": "Executive Coaching",
+      "photo": "/assets/team/nils-van-uffelen.jpg",
+      "bio": "Works with senior leaders and executives to refine their positioning, presence, and strategic career moves."
+    },
+    {
+      "name": "Paul Cecala",
+      "role": "Job Search Strategist & Tactician",
+      "photo": "/assets/team/paul-cecala.jpg",
+      "bio": "A methodical approach to job search that turns scattered efforts into focused campaigns that generate real results."
+    },
+    {
+      "name": "Stephanie S",
+      "role": "Career Counselor & Executive Coach",
+      "photo": "/assets/team/stephanie-s.jpg",
+      "bio": "Combines deep counseling expertise with executive coaching to help professionals at all levels achieve their career goals."
     }
   ],
   "cta": {
