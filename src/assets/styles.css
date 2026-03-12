@@ -4360,13 +4360,23 @@ body.pricing-focus {
     grid-template-columns: 1fr;
   }
 
+  .pillar-header,
+  .outcome-header,
+  .assessment-header {
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 2;
+  }
+
   .pillar-wrap {
     gap: 36px;
   }
 
   .pillar-grid,
   .focus-grid {
-    margin-top: 18px;
+    margin-top: 28px;
+    position: relative;
+    z-index: 1;
   }
 
   .pillar-card {
