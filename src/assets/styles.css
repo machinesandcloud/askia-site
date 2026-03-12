@@ -3386,7 +3386,6 @@ a {
 @media (max-width: 640px) {
   .lead-magnets {
     overflow: visible;
-    padding-bottom: 0;
   }
 
   .lead-magnets .pillar-header {
@@ -3394,74 +3393,66 @@ a {
   }
 
   .lead-magnets-list {
-    gap: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
   }
 
   .lead-magnet-card {
     --lead-magnet-top: 72px;
-    --lead-magnet-step: 10px;
+    --lead-magnet-step: 6px;
     display: flex;
     flex-direction: column;
     grid-template-columns: unset;
-    min-height: calc(100svh - var(--lead-magnet-top) - 20px);
     padding: 24px 20px 28px;
-    gap: 20px;
-    border-radius: 24px 24px 0 0;
+    border-radius: 16px;
     position: -webkit-sticky;
     position: sticky;
     top: calc(var(--lead-magnet-top) + (var(--magnet-index) * var(--lead-magnet-step)));
     z-index: calc(100 + var(--magnet-index));
-    background: linear-gradient(165deg, #0e1620 0%, #080c12 100%);
-    box-shadow:
-      0 -4px 20px rgba(0, 0, 0, 0.4),
-      inset 0 1px 0 rgba(255, 255, 255, 0.06);
-  }
-
-  .lead-magnet-card::before {
-    content: "";
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 36px;
-    height: 4px;
-    background: rgba(255, 255, 255, 0.15);
-    border-radius: 2px;
-  }
-
-  .lead-magnet-copy {
-    flex: 1;
-    padding-top: 8px;
+    background: #0d1318;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
   }
 
   .lead-magnet-copy h3 {
-    font-size: 1.35rem;
-    margin-bottom: 12px;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    line-height: 1.35;
+  }
+
+  .lead-magnet-copy p {
+    font-size: 0.92rem;
+    line-height: 1.55;
   }
 
   .lead-magnet-copy ul {
-    margin-top: 16px;
+    margin: 12px 0 0;
+    padding-left: 18px;
+    font-size: 0.88rem;
+    gap: 5px;
   }
 
   .lead-magnet-cover {
-    margin-top: auto;
-    padding-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    gap: 16px;
   }
 
   .lead-magnet-cover img {
-    max-width: 160px;
-    margin-bottom: 8px;
+    max-width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
   }
 
   .lead-magnet-cover .btn {
     width: 100%;
     max-width: 280px;
-  }
-
-  .lead-magnet-card:last-child {
-    min-height: calc(100svh - var(--lead-magnet-top) - 60px);
-    border-radius: 24px;
-    margin-bottom: 40px;
+    padding: 14px 24px;
+    font-size: 0.95rem;
   }
 }
 
