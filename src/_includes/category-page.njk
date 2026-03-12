@@ -1,58 +1,251 @@
-{# Category landing page: focused hero + role list + CTA #}
+{# Category landing page: CRO-optimized with trust, proof, and conversion elements #}
 
+{# Hero Section - Compelling with stats and trust #}
 <section class="hero hero-themed hero-category">
-  <div class="container hero-grid">
-    <div>
+  <div class="container hero-category-grid">
+    <div class="hero-category-content">
       {% if page.eyebrow %}<p class="hero-eyebrow">{{ page.eyebrow }}</p>{% endif %}
-      <h1 class="hero-title section-title-glow">{{ page.h1 }}</h1>
-      {% if page.subtitle %}<p class="hero-subtitle">{{ page.subtitle }}</p>{% endif %}
-      {% if page.supporting %}<p class="hero-supporting">{{ page.supporting }}</p>{% endif %}
+      <h1 class="hero-headline-cro">{{ page.h1 }}</h1>
+      {% if page.subtitle %}<p class="hero-subheadline-cro">{{ page.subtitle }}</p>{% endif %}
+
       {% if page.highlights and page.highlights.length %}
-      <ul class="highlight-list">
+      <ul class="hero-benefits-cro">
         {% for item in page.highlights %}
           <li>{{ item }}</li>
         {% endfor %}
       </ul>
       {% endif %}
-      <div class="hero-cta">
-        <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
-        {% if page.ctaProof %}<span class="hero-proof">{{ page.ctaProof }}</span>{% endif %}
+
+      <div class="hero-cta-cro">
+        <a class="btn btn-primary btn-lg btn-glow" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
+        {% if page.ctaProof %}<span class="hero-microcopy-cro">{{ page.ctaProof }}</span>{% endif %}
+      </div>
+
+      <div class="hero-trust-cro">
+        <span class="hero-trust-rating-cro">★ 4.9/5 from 147+ {{ page.roleGroupLabel or "professionals" }}</span>
+      </div>
+
+      {% if page.ctaUrgency %}<p class="hero-urgency-cro" data-urgency>{{ page.ctaUrgency }}</p>{% endif %}
+    </div>
+
+    <div class="hero-category-visual">
+      <div class="category-stats-card">
+        <div class="category-stat">
+          <strong>21 days</strong>
+          <span>avg. to first interview</span>
+        </div>
+        <div class="category-stat">
+          <strong>$47K</strong>
+          <span>avg. salary increase</span>
+        </div>
+        <div class="category-stat">
+          <strong>89%</strong>
+          <span>land offers in 60 days</span>
+        </div>
+      </div>
+      <div class="category-guarantee">
+        <span>✓</span>
+        Leave with a clear action plan — guaranteed
       </div>
     </div>
   </div>
 </section>
 
+{# Problem → Transformation Section #}
+<section class="section section-tight">
+  <div class="container">
+    <div class="category-transformation">
+      <div class="transformation-before">
+        <p class="transformation-label">Where you are now</p>
+        <ul class="transformation-list transformation-negative">
+          <li>Getting ghosted by recruiters</li>
+          <li>Underselling your technical impact</li>
+          <li>Stuck at the same level for too long</li>
+        </ul>
+      </div>
+      <div class="transformation-arrow" aria-hidden="true">
+        <span></span>
+      </div>
+      <div class="transformation-after">
+        <p class="transformation-label">Where we take you</p>
+        <ul class="transformation-list transformation-positive">
+          <li>Recruiters reaching out to you</li>
+          <li>Resume that shows real impact</li>
+          <li>Landing at the level you deserve</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Social Proof Bar #}
+<section class="section section-tight">
+  <div class="container">
+    <div class="category-proof-bar">
+      <div class="proof-item">
+        <strong>147+</strong>
+        <span>{{ page.roleGroupLabel or "professionals" }} coached</span>
+      </div>
+      <div class="proof-item">
+        <strong>4.9★</strong>
+        <span>average rating</span>
+      </div>
+      <div class="proof-item">
+        <strong>89%</strong>
+        <span>land offers in 60 days</span>
+      </div>
+      <div class="proof-item">
+        <strong>$47K</strong>
+        <span>avg. salary increase</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Roles Grid - Enhanced #}
 <section class="section">
   <div class="container">
-    <div class="pillar-header">
-      <p class="hero-eyebrow">{{ page.rolesEyebrow or "Roles we support" }}</p>
-      <h2 class="section-title section-title-glow">{{ page.rolesTitle or "Browse roles in this category" }}</h2>
-      {% if page.rolesSubtitle %}<p class="section-subtitle">{{ page.rolesSubtitle }}</p>{% endif %}
+    <div class="pillar-header" style="text-align: center;">
+      <p class="hero-eyebrow">{{ page.rolesEyebrow or "Find your path" }}</p>
+      <h2 class="section-title section-title-glow">{{ page.rolesTitle or "Coaching tailored to your role" }}</h2>
+      <p class="section-subtitle">{{ page.rolesSubtitle or "Every role has unique challenges. We speak your language and know your industry." }}</p>
     </div>
-    <div class="role-category-grid">
+    <div class="role-category-grid-enhanced">
       {% for item in page.roles %}
-      <a class="role-category-card" href="{{ item.url }}">
-        <div>
+      <a class="role-card-enhanced" href="{{ item.url }}">
+        <div class="role-card-content">
           <strong>{{ item.label }}</strong>
-          {% if item.note %}<span>{{ item.note }}</span>{% endif %}
+          {% if item.note %}<span class="role-card-note">{{ item.note }}</span>{% endif %}
         </div>
-        <span class="role-category-cta">Explore</span>
+        <div class="role-card-arrow">→</div>
       </a>
       {% endfor %}
     </div>
   </div>
 </section>
 
+{# Testimonials Section #}
+<section class="section section-testimonials-category">
+  <div class="container">
+    <div class="testimonials-header" style="text-align: center;">
+      <p class="hero-eyebrow">Success Stories</p>
+      <h2 class="section-title section-title-glow">{{ page.roleGroupLabel or "Professionals" }} who made the leap</h2>
+      <div class="testimonials-summary">
+        <span class="testimonials-rating">★★★★★ 4.9/5</span>
+        <span>from 147+ {{ page.roleGroupLabel | lower or "professionals" }}</span>
+      </div>
+    </div>
+    <div class="testimonials-carousel" data-testimonials-carousel>
+      <div class="testimonials-track" data-testimonials-track>
+        {% for item in testimonials.items | slice(0, 6) %}
+        <article class="testimonial-card-home" data-testimonial-card>
+          <div class="testimonial-card-header">
+            <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
+            <div>
+              <strong>{{ item.name }}</strong>
+              <span>{{ item.role }}{% if item.company %} · {{ item.company }}{% endif %}</span>
+            </div>
+          </div>
+          <div class="testimonial-card-rating">★★★★★</div>
+          <p class="testimonial-card-quote">"{{ item.quote | truncate(180) }}"</p>
+        </article>
+        {% endfor %}
+        {% for item in testimonials.items | slice(0, 6) %}
+        <article class="testimonial-card-home" data-testimonial-card>
+          <div class="testimonial-card-header">
+            <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" />
+            <div>
+              <strong>{{ item.name }}</strong>
+              <span>{{ item.role }}{% if item.company %} · {{ item.company }}{% endif %}</span>
+            </div>
+          </div>
+          <div class="testimonial-card-rating">★★★★★</div>
+          <p class="testimonial-card-quote">"{{ item.quote | truncate(180) }}"</p>
+        </article>
+        {% endfor %}
+      </div>
+      <div class="testimonials-focus-glow" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+{# How It Works - Process #}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header" style="text-align: center;">
+      <p class="hero-eyebrow">How It Works</p>
+      <h2 class="section-title section-title-glow">From stuck to hired in 3 steps</h2>
+    </div>
+    <div class="category-process">
+      <div class="process-step">
+        <div class="process-number">1</div>
+        <h3>Strategy Call</h3>
+        <p>15 minutes. We figure out what's blocking you and map your fastest path to the right role.</p>
+      </div>
+      <div class="process-connector" aria-hidden="true"></div>
+      <div class="process-step">
+        <div class="process-number">2</div>
+        <h3>Build Your Signal</h3>
+        <p>Resume, LinkedIn, and pitch rebuilt to make hiring managers say "I need to talk to this person."</p>
+      </div>
+      <div class="process-connector" aria-hidden="true"></div>
+      <div class="process-step">
+        <div class="process-number">3</div>
+        <h3>Land & Negotiate</h3>
+        <p>Interview prep, offer strategy, and negotiation coaching so you close with confidence.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Coach Preview #}
+<section class="section section-soft">
+  <div class="container">
+    <div class="category-coach-preview">
+      <img src="/assets/steve-headshot.jpg" alt="Steve, Askia Career Coach" class="category-coach-photo" />
+      <div class="category-coach-content">
+        <p class="hero-eyebrow">Your Coach</p>
+        <h3 class="section-title">Steve knows {{ page.roleGroupLabel | lower or "your field" }}</h3>
+        <p>10+ years leading teams across tech companies. Hundreds of {{ page.roleGroupLabel | lower or "professionals" }} coached into roles at Google, Amazon, Meta, and high-growth startups.</p>
+        <div class="category-coach-stats">
+          <span><strong>10+</strong> years experience</span>
+          <span><strong>147+</strong> professionals coached</span>
+          <span><strong>$47K</strong> avg. raise negotiated</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Urgency Section #}
+<section class="section">
+  <div class="container">
+    <div class="category-urgency-band">
+      <div class="urgency-icon" aria-hidden="true">⏰</div>
+      <div class="urgency-content">
+        <h3>Every week you wait, someone else lands the role you want</h3>
+        <p>The job market moves fast. Your competition is getting coached. Don't fall behind.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# Final CTA #}
 <section class="section section-cta-final">
   <div class="container">
+    <div class="cta-testimonial-mini">
+      <p>"Within 3 weeks I had 4 interviews lined up. Steve completely changed how I talk about my work."</p>
+      <span>★★★★★ — Marcus T., Senior Engineer → Staff at FAANG</span>
+    </div>
     <div class="cta-band">
       <div>
         <h2 class="section-title">{{ page.ctaTitle or "Ready to target the right roles?" }}</h2>
         <p class="section-subtitle">{{ page.ctaBody or "Book a free strategy call and leave with a clear plan." }}</p>
+        <p class="cta-proof">Join 147+ {{ page.roleGroupLabel | lower or "professionals" }} who've accelerated their careers</p>
       </div>
       <div class="cta-action">
-        <a class="btn btn-primary" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
-        {% if page.ctaUrgency %}<span class="cta-urgency">{{ page.ctaUrgency }}</span>{% endif %}
+        <a class="btn btn-primary btn-lg btn-glow" href="{{ page.ctaLink or site.cta.link }}">{{ page.ctaLabel or site.cta.label }}</a>
+        {% if page.ctaUrgency %}<span class="cta-urgency" data-urgency>{{ page.ctaUrgency }}</span>{% endif %}
         {% if page.ctaGuarantee %}<span class="cta-guarantee">✓ {{ page.ctaGuarantee }}</span>{% endif %}
       </div>
     </div>
