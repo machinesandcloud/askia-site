@@ -4341,6 +4341,17 @@ body.pricing-focus {
 }
 
 @media (max-width: 680px) {
+  .pillar-grid,
+  .focus-grid,
+  .journey-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .pillar-card {
+    --pillar-offset: 0px;
+    transform: none;
+  }
+
   .stacked-list {
     gap: 16px;
     padding-bottom: 12px;
