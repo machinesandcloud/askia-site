@@ -34,32 +34,49 @@
     </div>
 
     <div class="hero-role-visual">
-      <div class="hero-stats-card">
-        {% if roleData.proof and roleData.proof.items %}
-          {% for item in roleData.proof.items %}
-            <div class="hero-stat-row">
-              <strong>{{ item.title }}</strong>
-              <span>{{ item.body }}</span>
+      <div class="hero-stats-card hero-stats-animated">
+        <div class="hero-stat-row stat-1">
+          <div class="hero-stat-visual" aria-hidden="true">
+            <div class="stat-calendar">
+              <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
             </div>
-          {% endfor %}
-        {% else %}
-          <div class="hero-stat-row">
+          </div>
+          <div class="hero-stat-copy">
             <strong>21 days</strong>
-            <span>avg. to first interview</span>
+            <span>Average time to first interview</span>
           </div>
-          <div class="hero-stat-row">
+        </div>
+        <div class="hero-stat-row stat-2">
+          <div class="hero-stat-visual" aria-hidden="true">
+            <div class="stat-salary">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="hero-stat-copy">
             <strong>$47K</strong>
-            <span>avg. salary increase</span>
+            <span>Average salary increase negotiated</span>
           </div>
-          <div class="hero-stat-row">
+        </div>
+        <div class="hero-stat-row stat-3">
+          <div class="hero-stat-visual" aria-hidden="true">
+            <div class="stat-offer">
+              <span></span>
+            </div>
+          </div>
+          <div class="hero-stat-copy">
             <strong>89%</strong>
-            <span>land offers in 60 days</span>
+            <span>Land offers within 60 days</span>
           </div>
-        {% endif %}
+        </div>
       </div>
-      <div class="hero-guarantee-badge">
-        <span>✓</span>
-        Leave with a clear action plan — guaranteed
+      <div class="hero-coach-preview">
+        <img src="/assets/steve-headshot.jpg" alt="Steve J. Ngoumnai" class="hero-coach-photo" />
+        <div class="hero-coach-info">
+          <strong>Steve J. Ngoumnai</strong>
+          <span>Founder, Head Career Coach</span>
+        </div>
       </div>
     </div>
   </div>
