@@ -9,11 +9,11 @@
       "A resume that shows scope and impact, not just technologies",
       "Interview prep that makes system design feel natural"
     ],
-    "ctaLabel": "Get Your Free Strategy Session",
+    "ctaLabel": "Get My Level-Up Strategy",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For backend, frontend, full-stack, and platform engineers.",
-    "ctaUrgency": "Only 4 engineering coaching spots left this month",
-    "guarantee": "Leave with a clear level-up roadmap — guaranteed.",
+    "ctaUrgency": "Only 3 senior/staff engineering spots left this month",
+    "guarantee": "Leave with your exact path to Staff — guaranteed.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -182,12 +182,12 @@
       ]
     },
     "cta": {
-      "title": "Every week you wait, someone less qualified lands the role",
-      "body": "You've got the skills. Let's make sure your materials and interview approach match your actual ability.",
-      "label": "Claim Your Free Strategy Session",
+      "title": "Every week you wait, a junior with better positioning lands the Staff role",
+      "body": "You've already earned it. Let's make sure your resume and interviews prove it.",
+      "label": "Claim My Level-Up Strategy",
       "link": "https://bookings.askia.tech/#/clarity",
-      "urgency": "Limited spots — we only take 8 new engineering clients per month",
-      "guarantee": "Leave with a clear roadmap to your target level — guaranteed."
+      "urgency": "We only take 8 senior/staff engineering clients per month",
+      "guarantee": "Leave with your exact path to Staff/Principal — guaranteed."
     },
     "metaTitle": "Software Engineer Career Coaching | Senior to Staff to Principal | Askia",
     "metaDescription": "Career coaching for software engineers who are ready to level up. System design prep, resume overhaul, and interview strategy."
@@ -202,9 +202,11 @@
       "Show the business impact of your infrastructure work",
       "Interview prep for incident response and system trade-offs"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get My Infrastructure Story",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For DevOps, SRE, Platform, and Infrastructure engineers.",
+    "ctaUrgency": "Only 2 platform engineering spots remaining this month",
+    "guarantee": "Leave with metrics that prove your reliability impact.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -365,10 +367,12 @@
       ]
     },
     "cta": {
-      "title": "Stop being invisible",
-      "body": "Book a call. Let's figure out how to show what you've actually built.",
-      "label": "Book Your Free Strategy Call",
-      "link": "https://bookings.askia.tech/#/clarity"
+      "title": "Your infrastructure runs the company. Time your career ran on the same level.",
+      "body": "You've kept the lights on for everyone else. Let's make sure you get recognized for it.",
+      "label": "Get My Infrastructure Story",
+      "link": "https://bookings.askia.tech/#/clarity",
+      "urgency": "We only take 6 DevOps/SRE clients per month",
+      "guarantee": "Leave with your reliability work quantified as business impact."
     },
     "metaTitle": "DevOps & SRE Career Coaching | Make Your Infrastructure Work Visible | Askia",
     "metaDescription": "Career coaching for DevOps and SRE engineers. Turn reliability, uptime, and platform work into career advancement."
@@ -383,9 +387,11 @@
       "Position yourself for DE, DS, or Analytics leadership",
       "Prep for case interviews that show your thinking"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get My Data Impact Story",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For Data Engineers, Data Scientists, Analytics Engineers, and BI leads.",
+    "ctaUrgency": "Only 3 data career strategy spots left this month",
+    "guarantee": "Leave knowing exactly how to quantify your data impact.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -546,10 +552,12 @@
       ]
     },
     "cta": {
-      "title": "Your data changed outcomes. Let's make sure people know.",
-      "body": "Book a call. Let's figure out how to tell your story.",
-      "label": "Book Your Free Strategy Call",
-      "link": "https://bookings.askia.tech/#/clarity"
+      "title": "Your analysis changed the business. Now change your career.",
+      "body": "You've driven decisions. Let's make sure your resume shows it.",
+      "label": "Get My Data Impact Story",
+      "link": "https://bookings.askia.tech/#/clarity",
+      "urgency": "We only take 6 data career clients per month",
+      "guarantee": "Leave knowing exactly how to quantify your data influence."
     },
     "metaTitle": "Data Career Coaching | DE, DS, Analytics | Show Business Impact | Askia",
     "metaDescription": "Career coaching for data professionals. Turn pipelines, models, and analysis into career advancement."
@@ -564,9 +572,11 @@
       "Tell strategy stories that show your thinking",
       "Prep for PM case interviews with confidence"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get My PM Impact Framework",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For Product Managers, Product Owners, and Program leads.",
+    "ctaUrgency": "Only 4 PM coaching spots available this month",
+    "guarantee": "Leave with your product wins quantified and ready to pitch.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -727,10 +737,12 @@
       ]
     },
     "cta": {
-      "title": "You made the decisions. Let's make sure people know.",
-      "body": "Book a call. Let's figure out how to tell your PM story.",
-      "label": "Book Your Free Strategy Call",
-      "link": "https://bookings.askia.tech/#/clarity"
+      "title": "You shaped the product. Now shape the conversation about your career.",
+      "body": "PMs who can articulate impact get promoted. Let's get you there.",
+      "label": "Get My PM Impact Framework",
+      "link": "https://bookings.askia.tech/#/clarity",
+      "urgency": "We only take 8 PM clients per month",
+      "guarantee": "Leave with your product wins quantified and interview-ready."
     },
     "metaTitle": "Product Manager Career Coaching | Quantify Your Impact | Askia",
     "metaDescription": "Career coaching for product managers. Turn product decisions into quantifiable impact and land better PM roles."
@@ -745,9 +757,11 @@
       "Show org-level impact, not just team management",
       "Prep for leadership interviews with confidence"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get My Leadership Story",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For Engineering Managers, Directors, and leadership-track ICs.",
+    "ctaUrgency": "Only 2 EM-to-Director coaching spots this quarter",
+    "guarantee": "Leave with your team outcomes framed as your leadership wins.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -908,10 +922,12 @@
       ]
     },
     "cta": {
-      "title": "Your teams shipped. Your people grew. That's leadership.",
-      "body": "Book a call. Let's make sure your next role reflects it.",
-      "label": "Book Your Free Strategy Call",
-      "link": "https://bookings.askia.tech/#/clarity"
+      "title": "You built the team that built the product. That's the story.",
+      "body": "EMs who can articulate team outcomes as their outcomes get promoted. Let's get you there.",
+      "label": "Get My Leadership Story",
+      "link": "https://bookings.askia.tech/#/clarity",
+      "urgency": "We only take 4 EM-to-Director clients per quarter",
+      "guarantee": "Leave with your team's wins framed as your leadership wins."
     },
     "metaTitle": "Engineering Manager Career Coaching | Move to Director and Beyond | Askia",
     "metaDescription": "Career coaching for engineering managers. Frame team outcomes as leadership wins and land senior roles."
@@ -926,9 +942,11 @@
       "Frame compliance as business enablement",
       "Prep for security role interviews"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get My Security Impact Story",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For Security Engineers, Analysts, and Security Leaders.",
+    "ctaUrgency": "Only 3 cybersecurity coaching spots this month",
+    "guarantee": "Leave knowing how to quantify the breaches you prevented.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -1103,9 +1121,11 @@
       "Position for SDET, Automation Lead, or Quality Manager roles",
       "Show engineering depth, not just test execution"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get My QA-to-SDET Roadmap",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For QA Engineers, SDETs, and Test Automation specialists.",
+    "ctaUrgency": "Only 4 QA career acceleration spots this month",
+    "guarantee": "Leave with your quality work framed as engineering impact.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -1280,9 +1300,11 @@
       "Quantify design impact without fabricating metrics",
       "Interview prep for design critiques and presentations"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Fix My Portfolio Story",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For Product Designers, UX Designers, and Design Leads.",
+    "ctaUrgency": "Only 3 design career coaching spots this month",
+    "guarantee": "Leave with portfolio case studies that show impact, not just pixels.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -1439,10 +1461,12 @@
       ]
     },
     "cta": {
-      "title": "Your designs worked. Let's make your career work too.",
-      "body": "Book a call. Let's fix your portfolio narrative.",
-      "label": "Book Your Free Strategy Call",
-      "link": "https://bookings.askia.tech/#/clarity"
+      "title": "Your designs shipped to millions. Now let's ship your career.",
+      "body": "Designers who tell stories about impact, not just pixels, get the roles. Let's get you there.",
+      "label": "Fix My Portfolio Story",
+      "link": "https://bookings.askia.tech/#/clarity",
+      "urgency": "We only take 6 design career clients per month",
+      "guarantee": "Leave with portfolio case studies rebuilt around business impact."
     },
     "metaTitle": "Product Design Career Coaching | Portfolio & Interview Prep | Askia",
     "metaDescription": "Career coaching for product designers. Turn design work into portfolio stories that land interviews."
@@ -1457,9 +1481,11 @@
       "Position for SA leadership or transition to product/engineering",
       "Interview prep for hybrid technical/business roles"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get My Deal Attribution Story",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For Solutions Architects, Technical Account Managers, and Pre-Sales Engineers.",
+    "ctaUrgency": "Only 2 SA career strategy spots this month",
+    "guarantee": "Leave knowing how to claim your revenue influence.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -1634,9 +1660,11 @@
       "Quantify delivery impact and stakeholder influence",
       "Prep for TPM interviews with confidence"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get My TPM Complexity Story",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For Technical Program Managers and Program leads.",
+    "ctaUrgency": "Only 3 TPM coaching spots available this quarter",
+    "guarantee": "Leave knowing how to articulate program complexity as leadership.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -1811,9 +1839,11 @@
       "Position for SE leadership or engineering transitions",
       "Interview prep for hybrid roles"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get My Revenue Credit",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For Sales Engineers, Pre-Sales Consultants, and Technical Sales.",
+    "ctaUrgency": "Only 3 SE career acceleration spots this month",
+    "guarantee": "Leave with your deal influence documented and ready to prove.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -1988,9 +2018,11 @@
       "Position for CS leadership or transitions to Sales/PM",
       "Interview prep for customer-facing leadership roles"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get My Retention Revenue Story",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For CSMs, Account Managers, and Customer Success Leaders.",
+    "ctaUrgency": "Only 4 CS career strategy spots this month",
+    "guarantee": "Leave knowing the exact dollar value of accounts you've saved.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -2165,9 +2197,11 @@
       "Position for Product Ops leadership or PM transitions",
       "Interview prep for ops roles"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get My Ops Impact Story",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For Product Operations, BizOps, and Ops leads.",
+    "ctaUrgency": "Only 3 Product Ops career spots this month",
+    "guarantee": "Leave with your operational impact quantified and visible.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -2342,9 +2376,11 @@
       "Position for PM leadership or function transitions",
       "Interview prep for delivery-focused roles"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get My Delivery Leadership Story",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For Project Managers, Program Managers, and Delivery leads.",
+    "ctaUrgency": "Only 4 PM leadership coaching spots this month",
+    "guarantee": "Leave with project delivery framed as strategic leadership.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -2519,9 +2555,11 @@
       "Position for ML leadership or research transitions",
       "Interview prep for ML/AI roles"
     ],
-    "ctaLabel": "Book Your Free Strategy Call",
+    "ctaLabel": "Get My ML Business Story",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
     "ctaProof": "For ML Engineers, AI Researchers, and Data Scientists.",
+    "ctaUrgency": "Only 3 ML/AI career coaching spots this month",
+    "guarantee": "Leave knowing how to translate model metrics into business impact.",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
     "visual": {
@@ -2678,10 +2716,12 @@
       ]
     },
     "cta": {
-      "title": "Your models work. Let's make your career work.",
-      "body": "Book a call. Let's talk about your ML trajectory.",
-      "label": "Book Your Free Strategy Call",
-      "link": "https://bookings.askia.tech/#/clarity"
+      "title": "Your model drove $2M in savings. Does anyone know that?",
+      "body": "ML engineers who can translate accuracy into ROI get promoted. Let's get you there.",
+      "label": "Get My ML Business Story",
+      "link": "https://bookings.askia.tech/#/clarity",
+      "urgency": "We only take 4 ML/AI clients per month",
+      "guarantee": "Leave knowing how to translate model metrics into executive language."
     },
     "metaTitle": "ML/AI Career Coaching | Business Impact & Career Growth | Askia",
     "metaDescription": "Career coaching for ML engineers. Translate model performance into business outcomes and career advancement."
