@@ -3413,10 +3413,7 @@ a {
 .zsiq_flt_rel,
 .zsiq_cnt,
 .siq_bR,
-.siq_zC,
-iframe[id*="zsiq"],
-[id*="zsiq"],
-[class*="zsiq"] {
+.siq_zC {
   display: none !important;
   visibility: hidden !important;
   opacity: 0 !important;
