@@ -23,6 +23,20 @@ body {
   min-height: 100vh;
 }
 
+@media (max-width: 680px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: min(1120px, 92vw);
+  }
+
+  .section {
+    overflow-x: hidden;
+  }
+}
+
 body.assessment-focus {
   overflow: hidden;
 }
@@ -3361,11 +3375,11 @@ a {
 
 @media (max-width: 640px) {
   .lead-magnets {
-    padding-bottom: 96px;
+    padding-bottom: 140px;
   }
 
   .lead-magnets-list {
-    padding-bottom: 140px;
+    padding-bottom: 220px;
   }
 
   .lead-magnet-card {
@@ -3374,11 +3388,11 @@ a {
     position: sticky;
     top: calc(84px + (var(--magnet-index) * 10px));
     z-index: calc(120 + var(--magnet-index));
-    padding-bottom: 26px;
+    padding-bottom: 48px;
   }
 
   .lead-magnet-card + .lead-magnet-card {
-    margin-top: -8px;
+    margin-top: -2px;
   }
 
   .lead-magnet-cover img {
@@ -5775,7 +5789,7 @@ body.pricing-focus {
 
 @media (max-width: 768px) {
   .testimonials-track {
-    animation-duration: 18s;
+    animation-duration: 36s;
     gap: 14px;
   }
 
