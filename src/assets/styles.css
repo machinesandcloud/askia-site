@@ -4363,6 +4363,15 @@ body.pricing-focus {
     grid-template-columns: 1fr;
   }
 
+  .pillar-wrap {
+    gap: 36px;
+  }
+
+  .pillar-grid,
+  .focus-grid {
+    margin-top: 18px;
+  }
+
   .pillar-card {
     --pillar-offset: 0px;
     transform: none;
