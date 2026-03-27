@@ -531,22 +531,7 @@
           };
 
           if (!localStorage.getItem(storageKey)) {
-            // Exit-intent detection (desktop only)
-            let exitShown = false;
-            const handleMouseLeave = (e) => {
-              if (e.clientY <= 0 && !exitShown) {
-                exitShown = true;
-                openModal();
-                document.removeEventListener('mouseout', handleMouseLeave);
-              }
-            };
-            // Only on desktop - mobile gets timed popup
-            if (window.innerWidth > 768) {
-              document.addEventListener('mouseout', handleMouseLeave);
-            } else {
-              // Mobile: show after 8 seconds of engagement
-              setTimeout(openModal, 8000);
-            }
+            setTimeout(openModal, 3000);
           }
 
           closeButtons.forEach((btn) => btn.addEventListener("click", closeModal));
