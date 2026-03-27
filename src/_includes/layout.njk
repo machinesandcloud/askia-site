@@ -1055,99 +1055,64 @@
       });
     </script>
     <script>
-      // Dynamic urgency - realistic countdown that decreases through the week
+      // Dynamic urgency - spots decrease through the week, hitting 1 by Friday
       (function() {
         const STORAGE_KEY = 'askia_urgency_state';
         const now = new Date();
-        const day = now.getDay(); // 0=Sun, 1=Mon, etc.
+        const day = now.getDay(); // 0=Sun, 1=Mon...6=Sat
         const hour = now.getHours();
-        const minute = now.getMinutes();
 
-        // Get Monday of current week for consistent weekly reset
+        // Get Monday of current week for weekly reset tracking
         const monday = new Date(now);
         monday.setDate(now.getDate() - ((day + 6) % 7));
         monday.setHours(0, 0, 0, 0);
         const weekId = monday.toISOString().split('T')[0];
 
-        // Weekly slots - realistic availability that decreases toward weekend
-        const dailySlots = {
-          0: 4, // Sunday
-          1: 8, // Monday - fresh week
-          2: 7, // Tuesday
-          3: 6, // Wednesday
-          4: 5, // Thursday
-          5: 4, // Friday
-          6: 4  // Saturday
-        };
-
-        // Calculate current slots based on day + time
+        // Slots decrease naturally across the week, landing at 1 by Friday
         function calculateSlots() {
-          let slots = dailySlots[day];
-
-          // Slight decrease in afternoon/evening (max -2 by end of day)
-          if (hour >= 14) slots = Math.max(3, slots - 1);
-          if (hour >= 20) slots = Math.max(3, slots - 1);
-
-          // Minimum of 3 spots
-          return Math.max(3, slots);
+          switch (day) {
+            case 1: return hour < 12 ? 6 : 5; // Monday
+            case 2: return hour < 15 ? 5 : 4; // Tuesday
+            case 3: return hour < 15 ? 4 : 3; // Wednesday
+            case 4: return hour < 12 ? 3 : 2; // Thursday
+            case 5: return 1;                  // Friday — last spot
+            case 6: return 1;                  // Saturday
+            case 0: return 1;                  // Sunday
+            default: return 3;
+          }
         }
 
-        // Session persistence - spots only go down, never up during a session
+        // Session persistence — spots only ever go down within a week
         let spots;
         try {
           const stored = JSON.parse(sessionStorage.getItem(STORAGE_KEY) || '{}');
-          const calculatedSpots = calculateSlots();
-
-          // Reset if new week or new day with more spots
+          const calculated = calculateSlots();
           if (stored.weekId !== weekId) {
-            spots = calculatedSpots;
-          } else if (stored.day !== day && calculatedSpots > stored.spots) {
-            // New day and would have more spots - reset
-            spots = calculatedSpots;
+            spots = calculated;
           } else {
-            // Same session - use lower of stored or calculated (spots can only decrease)
-            spots = Math.min(stored.spots || calculatedSpots, calculatedSpots);
+            spots = Math.min(stored.spots || calculated, calculated);
           }
-
-          sessionStorage.setItem(STORAGE_KEY, JSON.stringify({
-            weekId: weekId,
-            day: day,
-            spots: spots,
-            timestamp: now.getTime()
-          }));
+          sessionStorage.setItem(STORAGE_KEY, JSON.stringify({ weekId, day, spots, ts: now.getTime() }));
         } catch (e) {
           spots = calculateSlots();
         }
 
-        // Generate contextual urgency message
-        const daysUntilFriday = day <= 5 ? 5 - day : 6;
+        // Contextual message
         let urgencyText;
-
         if (spots === 1) {
-          urgencyText = 'Only 1 spot left this week — act now';
+          urgencyText = day >= 5 || day === 0
+            ? 'Only 1 spot left before next week — act now'
+            : 'Only 1 spot left this week — act now';
         } else if (spots === 2) {
           urgencyText = 'Only 2 spots left this week';
         } else if (day === 1 && hour < 12) {
-          urgencyText = `${spots} spots available — new week, book early`;
-        } else if (day === 5 || day === 6 || day === 0) {
-          urgencyText = `Only ${spots} spots left before next week`;
-        } else if (daysUntilFriday <= 2) {
-          urgencyText = `${spots} spots left before the weekend`;
-        } else if (hour >= 17) {
-          urgencyText = `${spots} spots remaining — filling fast`;
+          urgencyText = `${spots} spots open — new week, book early`;
         } else {
-          urgencyText = `${spots} spots remaining this week`;
+          urgencyText = `${spots} spots left this week`;
         }
 
-        // Update all urgency elements across all pages
         document.addEventListener('DOMContentLoaded', function() {
-          const urgencySelectors = [
-            '.hero-urgency',
-            '.hero-urgency-cro',
-            '.cta-urgency',
-            '[data-urgency]'
-          ].join(', ');
-          document.querySelectorAll(urgencySelectors).forEach(function(el) {
+          document.querySelectorAll('.hero-urgency, .hero-urgency-cro, .cta-urgency, [data-urgency]').forEach(function(el) {
             el.textContent = urgencyText;
           });
         });
