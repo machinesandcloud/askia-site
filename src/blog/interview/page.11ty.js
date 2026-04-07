@@ -28,66 +28,85 @@ class BlogInterviewPage {
 
   render(data) {
     const { entry } = data;
+    const rolePageMap = {
+      "DevOps Engineer": "/devops-career-coaching/",
+      "Site Reliability Engineer": "/devops-career-coaching/",
+      "Platform Engineer": "/devops-career-coaching/",
+      "Cloud Engineer": "/devops-career-coaching/",
+      "Engineering Manager": "/engineering-manager-coaching/",
+      Kubernetes: "/devops-career-coaching/"
+    };
+    const roleLink = rolePageMap[entry.role] || "/land-your-next-role/";
     const basicsHtml = entry.basics
       .map(
         (item) => `
-### ${item.q}
-
-${item.a}`
+        <article class="focus-card">
+          <h3>${item.q}</h3>
+          <p>${item.a}</p>
+        </article>`
       )
-      .join("\n\n");
+      .join("");
 
     const advancedHtml = entry.advanced
       .map(
         (item) => `
-### ${item.q}
-
-${item.a}`
+        <article class="focus-card">
+          <h3>${item.q}</h3>
+          <p>${item.a}</p>
+        </article>`
       )
-      .join("\n\n");
+      .join("");
 
-    const mistakesHtml = entry.mistakes.map((item) => `- ${item}`).join("\n");
+    const mistakesHtml = entry.mistakes.map((item) => `<li>${item}</li>`).join("");
 
-    return `${entry.intro}
+    return `
+<p>${entry.intro}</p>
 
-## The basic questions that show up first
+<h2>The basic questions that show up first</h2>
+<div class="focus-grid">
+  ${basicsHtml}
+</div>
 
-${basicsHtml}
+<h2>The harder questions that usually separate stronger candidates</h2>
+<div class="focus-grid">
+  ${advancedHtml}
+</div>
 
-## The harder questions that usually separate stronger candidates
+<h2>How to answer these questions better</h2>
+<p>Across most technical interview topics, stronger answers usually:</p>
+<ul>
+  <li>define the real problem before naming tools</li>
+  <li>make the tradeoff visible</li>
+  <li>tie the decision back to reliability, speed, cost, or team impact</li>
+  <li>use one real example from production work when possible</li>
+</ul>
+<p>That matters because interviewers are usually testing judgment, not only memory.</p>
 
-${advancedHtml}
+<h2>Common mistakes</h2>
+<ul>
+  ${mistakesHtml}
+</ul>
 
-## How to answer these questions better
+<h2>Prep strategy for this topic</h2>
+<p>Before the interview, build:</p>
+<ol>
+  <li>Three short answers for the most common question types.</li>
+  <li>Two real production examples you can reuse.</li>
+  <li>One clear explanation of the tradeoff you would optimize for first.</li>
+</ol>
+<p>If you can do that, you stop sounding like you studied the topic and start sounding like you have actually operated in it.</p>
 
-Across most technical interview topics, stronger answers usually:
+<h2>Related career assets</h2>
+<ul>
+  <li><a href="${roleLink}">${entry.role} career coaching</a></li>
+  <li><a href="/interview-prep/">Structured interview support</a></li>
+  <li><a href="/salary-negotiation/">Salary and offer strategy</a></li>
+  <li><a href="/locations/">Local market pages</a></li>
+</ul>
 
-- define the real problem before naming tools
-- make the tradeoff visible
-- tie the decision back to reliability, speed, cost, or team impact
-- use one real example from production work when possible
-
-That matters because interviewers are usually testing judgment, not only memory.
-
-## Common mistakes
-
-${mistakesHtml}
-
-## Prep strategy for this topic
-
-Before the interview, build:
-
-1. Three short answers for the most common question types.
-2. Two real production examples you can reuse.
-3. One clear explanation of the tradeoff you would optimize for first.
-
-If you can do that, you stop sounding like you studied the topic and start sounding like you have actually operated in it.
-
-## Final takeaway
-
-Good answers to ${entry.topic.toLowerCase()} usually sound more structured, more selective, and more grounded in tradeoffs than candidates expect.
-
-If you want help turning raw experience into stronger interview signal, start here: [/interview-prep/](/interview-prep/).
+<h2>Final takeaway</h2>
+<p>Good answers to ${entry.topic.toLowerCase()} usually sound more structured, more selective, and more grounded in tradeoffs than candidates expect.</p>
+<p>If you want help turning raw experience into stronger interview signal, start here: <a href="/interview-prep/">Interview prep</a>.</p>
 `;
   }
 }
