@@ -1,22 +1,23 @@
 ---
 permalink: /sitemap.xml
 layout: null
+eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for entry in collections.all %}
-    {% if entry.url and entry.data.sitemap != false and entry.data.noindex != true and entry.url != "/sitemap.xml" and entry.url != "/sitemap.txt" and entry.url != "/robots.txt" and not ("/blog/" in entry.url and (entry | isConsolidatedBlogEntry)) %}
-  <url>
-    <loc>{{ site.url }}{{ entry.url }}</loc>
-    {% if entry.date %}<lastmod>{{ entry.date | isoDate }}</lastmod>{% endif %}
-    {% if entry.url == "/" %}<changefreq>weekly</changefreq><priority>1.0</priority>
-    {% elif entry.url == "/services/" or entry.url == "/land-your-next-role/" %}<changefreq>weekly</changefreq><priority>0.9</priority>
-    {% elif entry.url == "/locations/" or entry.url == "/blog/" or entry.url == "/blog/salary/" or entry.url == "/blog/interview/" %}<changefreq>weekly</changefreq><priority>0.8</priority>
-    {% elif entry.url.endsWith("-career-coaching/") %}<changefreq>monthly</changefreq><priority>0.75</priority>
-    {% elif "/blog/salary/" in entry.url or "/blog/interview/" in entry.url %}<changefreq>monthly</changefreq><priority>0.75</priority>
-    {% elif "/blog/" in entry.url %}<changefreq>monthly</changefreq><priority>0.7</priority>
-    {% else %}<changefreq>monthly</changefreq><priority>0.6</priority>{% endif %}
-  </url>
-    {% endif %}
-  {% endfor %}
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>{{ site.url }}/sitemaps/core.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>{{ site.url }}/sitemaps/locations.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>{{ site.url }}/sitemaps/blog.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>{{ site.url }}/sitemaps/salary.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>{{ site.url }}/sitemaps/interview.xml</loc>
+  </sitemap>
+</sitemapindex>

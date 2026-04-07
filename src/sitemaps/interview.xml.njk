@@ -1,0 +1,18 @@
+---
+permalink: /sitemaps/interview.xml
+layout: null
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ site.url }}/blog/interview/</loc>
+  </url>
+  {% for entry in collections.publicInterviewBlog | reverse %}
+  <url>
+    <loc>{{ site.url }}{{ entry.url }}</loc>
+    {% set lastModified = entry.data.updatedDateISO or entry.data.publishDateISO or entry.date %}
+    {% if lastModified %}<lastmod>{{ lastModified | isoDate }}</lastmod>{% endif %}
+  </url>
+  {% endfor %}
+</urlset>

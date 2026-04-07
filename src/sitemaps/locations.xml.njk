@@ -1,0 +1,17 @@
+---
+permalink: /sitemaps/locations.xml
+layout: null
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for entry in collections.all | sort(attribute="url") %}
+    {% if entry.url and entry.data.sitemap != false and entry.data.noindex != true and (entry.url == "/locations/" or entry.url.endsWith("-career-coaching/")) %}
+  <url>
+    <loc>{{ site.url }}{{ entry.url }}</loc>
+    {% set lastModified = entry.data.updatedDateISO or entry.data.publishDateISO or entry.date %}
+    {% if lastModified %}<lastmod>{{ lastModified | isoDate }}</lastmod>{% endif %}
+  </url>
+    {% endif %}
+  {% endfor %}
+</urlset>
