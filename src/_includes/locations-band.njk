@@ -18,7 +18,7 @@
       <div class="band-panel" data-collapsible-panel>
         <div class="location-line" aria-label="Top markets">
           {% for item in cities.items %}
-          <span class="location-line-item reveal-item">{{ item.label }}</span>
+          <a class="location-line-item reveal-item" href="/{{ item.slug }}/">{{ item.label }}</a>
           {% endfor %}
         </div>
       </div>
