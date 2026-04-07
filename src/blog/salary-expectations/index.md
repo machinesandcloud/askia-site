@@ -91,6 +91,13 @@ It should not come from panic, past comp alone, or what sounds polite.
 
 ### Giving a range so wide it means nothing
 
+## Related salary guides inside the blog
+
+- [DevOps Engineer salary in remote U.S.](/blog/salary/devops-engineer-remote-us/)
+- [Site Reliability Engineer salary in New York](/blog/salary/site-reliability-engineer-new-york/)
+- [Platform Engineer salary in San Francisco](/blog/salary/platform-engineer-san-francisco/)
+- [Cloud Engineer salary in Austin](/blog/salary/cloud-engineer-austin/)
+
 ## Final takeaway
 
 The salary-expectations question is not only about money.

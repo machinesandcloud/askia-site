@@ -219,6 +219,13 @@ Fast is not the same as clear. The strongest candidates usually slow the first 1
 
 Tools are not strategy. "We used Kubernetes" is weak. "We used Kubernetes because we needed predictable deployment behavior across services, but it increased operational overhead" is stronger.
 
+## Related interview guides inside the blog
+
+- [DevOps Engineer interview questions](/blog/interview/devops-engineer-interview-questions/)
+- [Kubernetes interview questions](/blog/interview/kubernetes-interview-questions/)
+- [SRE system design interview questions](/blog/interview/sre-system-design-interview-questions/)
+- [Platform Engineer interview questions](/blog/interview/platform-engineer-interview-questions/)
+
 ### No assumptions
 
 If the question is ambiguous, say what you are assuming. Interviewers often expect this.

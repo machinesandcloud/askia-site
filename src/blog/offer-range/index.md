@@ -45,6 +45,13 @@ One number leaves less room.
 
 A thoughtful range gives flexibility while still protecting upside.
 
+## Related salary guides inside the blog
+
+- [DevOps Engineer salary in London](/blog/salary/devops-engineer-london/)
+- [Site Reliability Engineer salary in Berlin](/blog/salary/site-reliability-engineer-berlin/)
+- [Platform Engineer salary in Toronto](/blog/salary/platform-engineer-toronto/)
+- [Cloud Engineer salary in remote Europe](/blog/salary/cloud-engineer-remote-europe/)
+
 ## Final takeaway
 
 The right offer range helps you negotiate from a stronger starting point without sounding unrealistic.

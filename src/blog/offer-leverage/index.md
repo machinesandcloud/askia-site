@@ -200,6 +200,13 @@ Your rent, stress, or urgency is real, but it does not strengthen the business c
 
 Even without another offer, you should know whether the role is good enough to accept, reject, or keep negotiating.
 
+## Related salary guides inside the blog
+
+- [Browse all salary guides](/blog/salary/)
+- [DevOps Engineer salary in remote U.S.](/blog/salary/devops-engineer-remote-us/)
+- [Site Reliability Engineer salary in New York](/blog/salary/site-reliability-engineer-new-york/)
+- [Platform Engineer salary in San Francisco](/blog/salary/platform-engineer-san-francisco/)
+
 ## Final takeaway
 
 Offer leverage is not only about having another company in the mix.

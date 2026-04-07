@@ -1,0 +1,230 @@
+---
+layout: layout.njk
+---
+{% set cityName = breadcrumbs[breadcrumbs.length - 1].name %}
+{% set citySlug = page.fileSlug %}
+{% set cityPage = locationCareerPages[citySlug] or {} %}
+{% set cityDefaults = locationCareerPages.default %}
+{% set marketLine = cityPage.marketLine or cityDefaults.marketLine %}
+{% set focusAreas = cityPage.focusAreas or cityDefaults.focusAreas %}
+{% set comparisonLine = cityPage.comparisonLine or cityDefaults.comparisonLine %}
+{% set marketThemes = cityPage.marketThemes or cityDefaults.marketThemes %}
+{% set bestFor = cityPage.bestFor or cityDefaults.bestFor %}
+{% set roleLinks = cityPage.roleLinks or cityDefaults.roleLinks %}
+{% set serviceLinks = cityPage.serviceLinks or cityDefaults.serviceLinks %}
+{% set localKeyword = "career coaching in " + cityName %}
+{% set coachKeyword = "career coach in " + cityName %}
+{% set coachesKeyword = "career coaches in " + cityName %}
+{% set bestKeyword = "best career coach in " + cityName %}
+
+<section class="section">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="hero-eyebrow">Local + Remote Coaching</p>
+      <h1 class="hero-title section-title-glow">Career Coaching in {{ cityName }}</h1>
+      <p class="hero-subtitle">High-signal career coaching in {{ cityName }} for professionals targeting $100K-$350K roles.</p>
+      <p class="hero-support">If you are comparing a {{ coachKeyword }} or trying to find the right fit among {{ coachesKeyword }}, start with signal quality, role targeting, and execution depth. {{ marketLine }}</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+        <a class="btn btn-ghost" href="/land-your-next-role/">Explore role tracks</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <strong>What this page is built to help with</strong>
+      <ul>
+        {% for item in focusAreas %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">What to look for in a {{ coachKeyword }}</h2>
+      <p>If you are searching for {{ localKeyword }}, the best page usually is not the one that promises motivation. It is the one that explains how you move from unclear market signal to clearer interviews, stronger positioning, and better offer leverage.</p>
+      <p>{{ comparisonLine }}</p>
+      <p>The {{ bestKeyword }} for your situation is usually the coach who can pressure-test your next target role, clean up your story, and help you convert that into real interview momentum.</p>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Why professionals compare {{ coachesKeyword }}</h2>
+      <ul class="checklist">
+        {% for item in marketThemes %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Who We Help</p>
+      <h2 class="section-title section-title-glow">Who this fits best in {{ cityName }}</h2>
+      <p class="section-subtitle">Askia is usually the best fit for professionals who already have real experience but need sharper market signal.</p>
+    </div>
+    <div class="faq-grid">
+      {% for item in bestFor %}
+      <div class="faq-card">
+        <p>{{ item }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Popular role tracks in {{ cityName }}</h2>
+      <div class="link-stack">
+        {% for item in roleLinks %}
+        <a class="location-card" href="{{ item.url }}">
+          <strong>{{ item.label }}</strong>
+          <span>Role-specific coaching and positioning support</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Most requested coaching support</h2>
+      <div class="link-stack">
+        {% for item in serviceLinks %}
+        <a class="location-card" href="{{ item.url }}">
+          <strong>{{ item.label }}</strong>
+          <span>High-signal support for faster interviews and stronger offers</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container faq-stage">
+    <div class="faq-header">
+      <h2 class="section-title section-title-glow">{{ cityName }} coaching FAQs</h2>
+      <p class="section-subtitle">Practical answers for professionals comparing career coaching in {{ cityName }}.</p>
+    </div>
+    <div class="faq-grid">
+      <details class="faq-card" open>
+        <summary>Do you work with professionals across industries in {{ cityName }}?</summary>
+        <p>Yes. We work with professionals across tech, business, finance, healthcare, operations, product, and leadership tracks when the goal is a stronger role, better positioning, or a sharper search strategy.</p>
+      </details>
+      <details class="faq-card">
+        <summary>Who should hire a career coach in {{ cityName }}?</summary>
+        <p>The best fit is usually someone with solid experience who needs sharper positioning, a more credible interview story, or a better plan for moving into higher-scope roles locally or remotely.</p>
+      </details>
+      <details class="faq-card">
+        <summary>Is this local or remote {{ localKeyword }}?</summary>
+        <p>Askia works remotely, but the coaching is tailored to the hiring dynamics of {{ cityName }} and to the national or remote opportunities you may also be targeting.</p>
+      </details>
+      <details class="faq-card">
+        <summary>How is Askia different from generic {{ coachesKeyword }}?</summary>
+        <p>The focus is not generic accountability. The focus is role targeting, signal clarity, interview execution, and offer strategy for people aiming higher in the market.</p>
+      </details>
+      <details class="faq-card">
+        <summary>What if I live in {{ cityName }} but want remote or out-of-state roles?</summary>
+        <p>That is common. We help candidates position for both their local market and the broader hiring market without mixing the story so much that it weakens conversions.</p>
+      </details>
+      <details class="faq-card">
+        <summary>How do I get started?</summary>
+        <p>Book a call and we will map the fastest path from your current role to your target role, level, and compensation range.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container cta-band">
+    <div>
+      <h2 class="section-title">Ready to improve your market signal in {{ cityName }}?</h2>
+      <p class="section-subtitle">Book a call and we’ll map the fastest path to the next role you should actually be targeting.</p>
+    </div>
+    <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+  </div>
+</section>
+
+{% include "locations-band.njk" %}
+{% include "industries-band.njk" %}
+{% include "role-directory.njk" %}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}{{ page.url }}",
+    "telephone": "{{ site.contact.phone }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ site.contact.streetAddress }}",
+      "addressLocality": "{{ site.contact.addressLocality }}",
+      "addressRegion": "{{ site.contact.addressRegion }}",
+      "postalCode": "{{ site.contact.postalCode }}",
+      "addressCountry": "{{ site.contact.addressCountry }}"
+    },
+    "areaServed": [{"@type":"Place","name":"{{ cityName }}"}],
+    "serviceType": "Career coaching",
+    "description": "{{ metaDescription }}"
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do you work with professionals across industries in {{ cityName }}?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We work with professionals across tech, business, finance, healthcare, operations, product, and leadership tracks when the goal is a stronger role, better positioning, or a sharper search strategy."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is this local or remote career coaching in {{ cityName }}?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Askia works remotely, but the coaching is tailored to the hiring dynamics of {{ cityName }} and to the national or remote opportunities you may also be targeting."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who should hire a career coach in {{ cityName }}?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The best fit is usually someone with solid experience who needs sharper positioning, a more credible interview story, or a better plan for moving into higher-scope roles locally or remotely."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How is Askia different from generic career coaches in {{ cityName }}?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The focus is not generic accountability. The focus is role targeting, signal clarity, interview execution, and offer strategy for people aiming higher in the market."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What if I live in {{ cityName }} but want remote or out-of-state roles?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "That is common. We help candidates position for both their local market and the broader hiring market without mixing the story so much that it weakens conversions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I get started?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Book a call and we will map the fastest path from your current role to your target role, level, and compensation range."
+        }
+      }
+    ]
+  }
+</script>

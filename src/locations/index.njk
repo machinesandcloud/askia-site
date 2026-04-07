@@ -3,8 +3,6 @@ layout: layout.njk
 title: Locations
 metaTitle: "Career Coaching Locations | Askia"
 metaDescription: "Career coaching in Houston and top U.S. markets for professionals targeting $100K–$350K roles."
-noindex: true
-sitemap: false
 breadcrumbs:
   - name: "Home"
     url: "/"
@@ -16,13 +14,36 @@ breadcrumbs:
     <div class="pillar-header">
       <p class="hero-eyebrow">Locations</p>
       <h1 class="section-title section-title-glow">Career coaching in Houston + top markets</h1>
-      <p class="section-subtitle">We work across all industries with professionals targeting $100K–$350K roles.</p>
+      <p class="section-subtitle">Find career coaching in Houston and other major U.S. markets for professionals targeting $100K-$350K roles.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">How to use these city pages</h2>
+      <p>Each location page is built for professionals comparing career coaching in a specific market. The goal is to help you evaluate fit faster, understand what matters in that city, and connect to the right role-specific or service-specific support.</p>
+      <p>If you are searching for a career coach in Houston, New York City, Austin, Seattle, or another major market, start with the city page first and then move into the role or service track that matches the work you are targeting.</p>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">What these pages are optimized for</h2>
+      <ul class="checklist">
+        <li>career coaching in major U.S. cities</li>
+        <li>career coach and career coaches by market</li>
+        <li>local-intent queries tied to higher-paying roles</li>
+      </ul>
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Markets</p>
+      <h2 class="section-title section-title-glow">Cities we currently target</h2>
+      <p class="section-subtitle">Start with the market you care about most, then branch into role-specific coaching and interview or negotiation support.</p>
+    </div>
     <div class="location-grid">
       {% for item in cities.items %}
       <a class="location-card" href="/{{ item.slug }}/">
@@ -30,6 +51,29 @@ breadcrumbs:
         <span>{{ item.note }}</span>
       </a>
       {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container faq-stage">
+    <div class="faq-header">
+      <h2 class="section-title section-title-glow">Location FAQs</h2>
+      <p class="section-subtitle">A few fast answers for people comparing career coaching by city.</p>
+    </div>
+    <div class="faq-grid">
+      <details class="faq-card" open>
+        <summary>Do I need a city-specific page if coaching is remote?</summary>
+        <p>Yes. Remote coaching can still be tailored to the local hiring market, compensation context, and recruiter expectations of the city you are targeting.</p>
+      </details>
+      <details class="faq-card">
+        <summary>Which city page should I use if I am targeting both local and remote roles?</summary>
+        <p>Start with the city that anchors your current market story, then use the linked role and service pages to build a broader national or remote search strategy.</p>
+      </details>
+      <details class="faq-card">
+        <summary>Are these pages only for tech professionals?</summary>
+        <p>No. Askia works across industries, but many of the strongest assets on the site are built for ambitious professionals in technical, operational, product, and leadership tracks.</p>
+      </details>
     </div>
   </div>
 </section>
@@ -47,3 +91,53 @@ breadcrumbs:
 {% include "locations-band.njk" %}
 {% include "industries-band.njk" %}
 {% include "role-directory.njk" %}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Career coaching locations",
+    "itemListElement": [
+      {% for item in cities.items %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "name": "{{ item.label }}",
+        "url": "{{ site.url }}/{{ item.slug }}/"
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I need a city-specific page if coaching is remote?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Remote coaching can still be tailored to the local hiring market, compensation context, and recruiter expectations of the city you are targeting."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which city page should I use if I am targeting both local and remote roles?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Start with the city that anchors your current market story, then use the linked role and service pages to build a broader national or remote search strategy."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are these pages only for tech professionals?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Askia works across industries, but many of the strongest assets on the site are built for ambitious professionals in technical, operational, product, and leadership tracks."
+        }
+      }
+    ]
+  }
+</script>

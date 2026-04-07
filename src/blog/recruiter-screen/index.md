@@ -136,6 +136,12 @@ Treat compensation like a normal part of calibration.
 
 You should know what likely happens next.
 
+## Related interview guides inside the blog
+
+- [DevOps Engineer interview questions](/blog/interview/devops-engineer-interview-questions/)
+- [Cloud Engineer interview questions](/blog/interview/cloud-engineer-interview-questions/)
+- [Site Reliability Engineer interview questions](/blog/interview/site-reliability-engineer-interview-questions/)
+
 ## Final takeaway
 
 The recruiter screen is not about impressing someone with depth.

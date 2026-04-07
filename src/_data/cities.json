@@ -6,391 +6,541 @@
       "label": "Houston",
       "state": "TX",
       "slug": "houston-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Energy, healthcare, operations, and leadership roles"
     },
     {
       "label": "New York City",
       "state": "NY",
       "slug": "new-york-city-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Finance, strategy, product, and senior leadership"
     },
     {
       "label": "Los Angeles",
       "state": "CA",
       "slug": "los-angeles-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Growth, operations, media, and leadership roles"
     },
     {
       "label": "Chicago",
       "state": "IL",
       "slug": "chicago-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Finance, consulting, and enterprise operations"
     },
     {
-      "label": "Dallas\u2013Fort Worth",
+      "label": "Dallas–Fort Worth",
       "state": "TX",
       "slug": "dallas-fort-worth-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Enterprise, healthcare, finance, and operations"
     },
     {
       "label": "San Francisco Bay Area",
       "state": "CA",
       "slug": "san-francisco-bay-area-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Software, product, AI, and staff-plus roles"
     },
     {
       "label": "Austin",
       "state": "TX",
       "slug": "austin-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Startup, software, product, and growth roles"
     },
     {
       "label": "Seattle",
       "state": "WA",
       "slug": "seattle-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Cloud, platform, product, and engineering leadership"
     },
     {
       "label": "Boston",
       "state": "MA",
       "slug": "boston-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Biotech, healthcare, data, and technical leadership"
     },
     {
       "label": "Washington, DC",
       "state": "DC",
       "slug": "washington-dc-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Cybersecurity, consulting, program, and public-sector roles"
     },
     {
       "label": "Atlanta",
       "state": "GA",
       "slug": "atlanta-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Enterprise, fintech, growth, and operations roles"
     },
     {
       "label": "Miami",
       "state": "FL",
       "slug": "miami-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Growth, startup, finance, and cross-border roles"
     },
     {
       "label": "Denver",
       "state": "CO",
       "slug": "denver-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Software, product, cloud, and growth-stage roles"
     },
     {
       "label": "Phoenix",
       "state": "AZ",
       "slug": "phoenix-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Growth, operations, and leadership-track roles"
     },
     {
       "label": "Philadelphia",
       "state": "PA",
       "slug": "philadelphia-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Healthcare, finance, consulting, and leadership roles"
     },
     {
-      "label": "Minneapolis\u2013St. Paul",
+      "label": "Minneapolis–St. Paul",
       "state": "MN",
       "slug": "minneapolis-st-paul-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Healthcare, data, product, and enterprise leadership"
     },
     {
       "label": "San Diego",
       "state": "CA",
       "slug": "san-diego-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Tech, biotech, product, and leadership roles"
     },
     {
       "label": "Detroit",
       "state": "MI",
       "slug": "detroit-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Enterprise, manufacturing, operations, and program leadership"
     },
     {
-      "label": "Tampa\u2013St. Petersburg",
+      "label": "Tampa–St. Petersburg",
       "state": "FL",
       "slug": "tampa-st-petersburg-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Growth, operations, and commercial leadership roles"
     },
     {
       "label": "Orlando",
       "state": "FL",
       "slug": "orlando-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Operations, growth, product, and leadership roles"
     },
     {
-      "label": "Raleigh\u2013Durham",
+      "label": "Raleigh–Durham",
       "state": "NC",
       "slug": "raleigh-durham-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Tech, data, product, and technical leadership"
     },
     {
       "label": "Charlotte",
       "state": "NC",
       "slug": "charlotte-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Finance, consulting, operations, and leadership roles"
     },
     {
       "label": "Nashville",
       "state": "TN",
       "slug": "nashville-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Healthcare, operations, growth, and leadership roles"
     },
     {
       "label": "Columbus",
       "state": "OH",
       "slug": "columbus-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Enterprise operations, finance, and management roles"
     },
     {
       "label": "Cleveland",
       "state": "OH",
       "slug": "cleveland-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Healthcare, operations, and enterprise leadership roles"
     },
     {
       "label": "Cincinnati",
       "state": "OH",
       "slug": "cincinnati-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Operations, enterprise, and management-track roles"
     },
     {
       "label": "Pittsburgh",
       "state": "PA",
       "slug": "pittsburgh-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Consulting, product, enterprise, and leadership roles"
     },
     {
       "label": "St. Louis",
       "state": "MO",
       "slug": "st-louis-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Enterprise, healthcare, and operations leadership roles"
     },
     {
       "label": "Kansas City",
       "state": "MO",
       "slug": "kansas-city-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Operations, finance, and management-track roles"
     },
     {
       "label": "Indianapolis",
       "state": "IN",
       "slug": "indianapolis-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Enterprise operations, healthcare, and management roles"
     },
     {
       "label": "Milwaukee",
       "state": "WI",
       "slug": "milwaukee-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Manufacturing, finance, and enterprise leadership roles"
     },
     {
       "label": "New Orleans",
       "state": "LA",
       "slug": "new-orleans-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Healthcare, operations, and leadership-track roles"
     },
     {
       "label": "San Antonio",
       "state": "TX",
       "slug": "san-antonio-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Healthcare, enterprise, and operations leadership"
     },
     {
       "label": "Portland",
       "state": "OR",
       "slug": "portland-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Software, product, design, and leadership roles"
     },
     {
       "label": "Sacramento",
       "state": "CA",
       "slug": "sacramento-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Public-sector, healthcare, and program leadership roles"
     },
     {
       "label": "Las Vegas",
       "state": "NV",
       "slug": "las-vegas-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Growth, operations, and commercial leadership roles"
     },
     {
       "label": "Salt Lake City",
       "state": "UT",
       "slug": "salt-lake-city-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Software, product, fintech, and leadership roles"
     },
     {
       "label": "Baltimore",
       "state": "MD",
       "slug": "baltimore-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Cybersecurity, healthcare, consulting, and program roles"
     },
     {
       "label": "Richmond",
       "state": "VA",
       "slug": "richmond-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Consulting, operations, and stakeholder-heavy leadership"
     },
     {
       "label": "Virginia Beach",
       "state": "VA",
       "slug": "virginia-beach-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Operations, defense-adjacent, and program leadership roles"
     },
     {
       "label": "Jacksonville",
       "state": "FL",
       "slug": "jacksonville-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Operations, finance, growth, and leadership roles"
     },
     {
       "label": "Memphis",
       "state": "TN",
       "slug": "memphis-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Operations, healthcare, logistics, and management roles"
     },
     {
       "label": "Oklahoma City",
       "state": "OK",
       "slug": "oklahoma-city-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Operations, energy-adjacent, and leadership roles"
     },
     {
       "label": "Albuquerque",
       "state": "NM",
       "slug": "albuquerque-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Operations, technical, and leadership-track roles"
     },
     {
       "label": "Louisville",
       "state": "KY",
       "slug": "louisville-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Operations, healthcare, and management-track roles"
     },
     {
       "label": "Birmingham",
       "state": "AL",
       "slug": "birmingham-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Healthcare, operations, and enterprise leadership roles"
     },
     {
       "label": "Hartford",
       "state": "CT",
       "slug": "hartford-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Insurance, finance, operations, and leadership roles"
     },
     {
       "label": "Providence",
       "state": "RI",
       "slug": "providence-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Healthcare, education, and leadership-track roles"
     },
     {
       "label": "Buffalo",
       "state": "NY",
       "slug": "buffalo-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Healthcare, finance, and management-track roles"
     },
     {
       "label": "Rochester",
       "state": "NY",
       "slug": "rochester-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Healthcare, data, and knowledge-work leadership roles"
     },
     {
       "label": "Colorado Springs",
       "state": "CO",
       "slug": "colorado-springs-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Program, cybersecurity, and leadership-track roles"
     },
     {
       "label": "Boise",
       "state": "ID",
       "slug": "boise-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Software, product, and technical leadership roles"
     },
     {
       "label": "Reno",
       "state": "NV",
       "slug": "reno-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Tech, operations, and growth-stage leadership roles"
     },
     {
       "label": "Albany",
       "state": "NY",
       "slug": "albany-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Public-sector, consulting, and stakeholder-heavy roles"
     },
     {
       "label": "Omaha",
       "state": "NE",
       "slug": "omaha-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Finance, operations, and enterprise leadership roles"
     },
     {
       "label": "Grand Rapids",
       "state": "MI",
       "slug": "grand-rapids-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Operations, manufacturing, and leadership-track roles"
     },
     {
       "label": "Harrisburg",
       "state": "PA",
       "slug": "harrisburg-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Public-sector, operations, and leadership roles"
     },
     {
       "label": "Portland",
       "state": "ME",
       "slug": "portland-me-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Healthcare, operations, and leadership-track roles"
     },
     {
       "label": "Myrtle Beach",
       "state": "SC",
       "slug": "myrtle-beach-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Growth, operations, and management-track roles"
     },
     {
       "label": "Wilmington",
       "state": "NC",
       "slug": "wilmington-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Operations, healthcare, and leadership-track roles"
     },
     {
-      "label": "Greenville\u2013Spartanburg\u2013Anderson",
+      "label": "Greenville–Spartanburg–Anderson",
       "state": "SC",
       "slug": "greenville-spartanburg-anderson-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Manufacturing, operations, and leadership roles"
     },
     {
       "label": "Fayetteville",
       "state": "AR",
       "slug": "fayetteville-ar-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Operations, supply chain, and management roles"
     },
     {
       "label": "Fort Wayne",
       "state": "IN",
       "slug": "fort-wayne-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Operations, manufacturing, and management roles"
     },
     {
       "label": "Pensacola",
       "state": "FL",
       "slug": "pensacola-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Operations, program, and leadership-track roles"
     },
     {
       "label": "Columbia",
       "state": "SC",
       "slug": "columbia-sc-career-coaching",
-      "note": "Role targeting, positioning, and offer strategy"
+      "note": "Public-sector, operations, and management roles"
+    },
+    {
+      "label": "Bakersfield",
+      "state": "CA",
+      "slug": "bakersfield-career-coaching",
+      "note": "Operations, energy-adjacent, and leadership-track roles"
+    },
+    {
+      "label": "Baton Rouge",
+      "state": "LA",
+      "slug": "baton-rouge-career-coaching",
+      "note": "Operations, healthcare, and leadership-track roles"
+    },
+    {
+      "label": "Charleston",
+      "state": "SC",
+      "slug": "charleston-career-coaching",
+      "note": "Growth, operations, and leadership-track roles"
+    },
+    {
+      "label": "Des Moines",
+      "state": "IA",
+      "slug": "des-moines-career-coaching",
+      "note": "Finance, operations, and leadership-track roles"
+    },
+    {
+      "label": "El Paso",
+      "state": "TX",
+      "slug": "el-paso-career-coaching",
+      "note": "Operations, logistics, and management roles"
+    },
+    {
+      "label": "Fort Lauderdale",
+      "state": "FL",
+      "slug": "fort-lauderdale-career-coaching",
+      "note": "Growth, sales, operations, and leadership roles"
+    },
+    {
+      "label": "Fresno",
+      "state": "CA",
+      "slug": "fresno-career-coaching",
+      "note": "Operations, healthcare, and management-track roles"
+    },
+    {
+      "label": "Greenville",
+      "state": "SC",
+      "slug": "greenville-career-coaching",
+      "note": "Operations, growth, and management-track roles"
+    },
+    {
+      "label": "Honolulu",
+      "state": "HI",
+      "slug": "honolulu-career-coaching",
+      "note": "Operations, hospitality, and leadership-track roles"
+    },
+    {
+      "label": "Jersey City",
+      "state": "NJ",
+      "slug": "jersey-city-career-coaching",
+      "note": "Finance, operations, and senior leadership roles"
+    },
+    {
+      "label": "Long Island",
+      "state": "NY",
+      "slug": "long-island-career-coaching",
+      "note": "Healthcare, finance, and leadership-track roles"
+    },
+    {
+      "label": "Madison",
+      "state": "WI",
+      "slug": "madison-career-coaching",
+      "note": "Healthcare, data, product, and leadership roles"
+    },
+    {
+      "label": "New Haven",
+      "state": "CT",
+      "slug": "new-haven-career-coaching",
+      "note": "Healthcare, education, and leadership-track roles"
+    },
+    {
+      "label": "Newark",
+      "state": "NJ",
+      "slug": "newark-career-coaching",
+      "note": "Finance, operations, and enterprise leadership roles"
+    },
+    {
+      "label": "Norfolk",
+      "state": "VA",
+      "slug": "norfolk-career-coaching",
+      "note": "Operations, logistics, and program leadership roles"
+    },
+    {
+      "label": "Oakland",
+      "state": "CA",
+      "slug": "oakland-career-coaching",
+      "note": "Tech, operations, and leadership-track roles"
+    },
+    {
+      "label": "Riverside-San Bernardino",
+      "state": "CA",
+      "slug": "riverside-san-bernardino-career-coaching",
+      "note": "Growth, operations, and management-track roles"
+    },
+    {
+      "label": "San Jose",
+      "state": "CA",
+      "slug": "san-jose-career-coaching",
+      "note": "Software, product, AI, and leadership roles"
+    },
+    {
+      "label": "San Juan",
+      "state": "PR",
+      "slug": "san-juan-career-coaching",
+      "note": "Operations, growth, and leadership-track roles"
+    },
+    {
+      "label": "Scottsdale",
+      "state": "AZ",
+      "slug": "scottsdale-career-coaching",
+      "note": "Growth, operations, and leadership-track roles"
+    },
+    {
+      "label": "Spokane",
+      "state": "WA",
+      "slug": "spokane-career-coaching",
+      "note": "Operations, healthcare, and management roles"
+    },
+    {
+      "label": "Tucson",
+      "state": "AZ",
+      "slug": "tucson-career-coaching",
+      "note": "Operations, healthcare, and leadership-track roles"
+    },
+    {
+      "label": "Tulsa",
+      "state": "OK",
+      "slug": "tulsa-career-coaching",
+      "note": "Operations, energy-adjacent, and leadership roles"
+    },
+    {
+      "label": "West Palm Beach",
+      "state": "FL",
+      "slug": "west-palm-beach-career-coaching",
+      "note": "Growth, operations, and leadership-track roles"
+    },
+    {
+      "label": "Wichita",
+      "state": "KS",
+      "slug": "wichita-career-coaching",
+      "note": "Operations, manufacturing, and management roles"
     }
   ]
 }

@@ -64,6 +64,10 @@ function isConsolidatedBlogEntry(entryOrValue) {
   return CONSOLIDATED_BLOG_SLUG_PATTERNS.some((pattern) => pattern.test(slug));
 }
 
+function isBlogSectionEntry(item, section) {
+  return item && item.url && item.url.startsWith(`/blog/${section}/`);
+}
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "admin": "admin" });
@@ -98,6 +102,20 @@ module.exports = function (eleventyConfig) {
     return collectionApi
       .getFilteredByTag("blog")
       .filter((item) => !isConsolidatedBlogEntry(item));
+  });
+
+  eleventyConfig.addCollection("publicSalaryBlog", (collectionApi) => {
+    return collectionApi
+      .getFilteredByTag("blog")
+      .filter((item) => !isConsolidatedBlogEntry(item))
+      .filter((item) => isBlogSectionEntry(item, "salary"));
+  });
+
+  eleventyConfig.addCollection("publicInterviewBlog", (collectionApi) => {
+    return collectionApi
+      .getFilteredByTag("blog")
+      .filter((item) => !isConsolidatedBlogEntry(item))
+      .filter((item) => isBlogSectionEntry(item, "interview"));
   });
 
   eleventyConfig.addTransform("stripHallucinatedSections", (content, outputPath) => {

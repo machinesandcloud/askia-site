@@ -80,6 +80,13 @@ Use outcomes, scope, and metrics where possible.
 
 Ten strong-fit applications usually beat fifty vague ones.
 
+## Related guides to sharpen your next round
+
+- [Browse all interview guides](/blog/interview/)
+- [Browse all salary guides](/blog/salary/)
+- [DevOps Engineer interview questions](/blog/interview/devops-engineer-interview-questions/)
+- [Platform Engineer salary in Toronto](/blog/salary/platform-engineer-toronto/)
+
 ## Final takeaway
 
 Interview callbacks improve when your positioning gets sharper, not when your application count gets louder.

@@ -218,6 +218,12 @@ That structure is easier to follow and easier to trust.
 
 ### Too much setup
 
+## Related interview guides inside the blog
+
+- [Engineering Manager behavioral interview questions](/blog/interview/engineering-manager-behavioral-interview-questions/)
+- [DevOps behavioral interview questions](/blog/interview/devops-behavioral-interview-questions/)
+- [Browse all interview guides](/blog/interview/)
+
 If the interviewer is still waiting for the point after 45 seconds, the story is probably too slow.
 
 ### No clear ownership
