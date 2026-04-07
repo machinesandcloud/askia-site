@@ -14,6 +14,9 @@ imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"
+noindex: true
+sitemap: false
+eleventyExcludeFromCollections: true
 ---
 If you are targeting a $100K–$350K role in Rochester, career coaching is about signal, not motivation.
 
