@@ -1,13 +1,13 @@
 ---
 layout: blog-post.njk
 tags: ["blog"]
-title: "Negotiation Breakdown: How One Engineer Increased Their Offer by $85K in Two Emails"
-description: "A line‑by‑line negotiation teardown with a 7‑step playbook to defend your value."
+title: "Negotiation Case Study: How One Engineer Increased an Offer by $85K"
+description: "A practical negotiation case study showing how offer leverage, timing, and package tradeoffs can materially improve compensation."
 author: "Steve Ngoumnai"
 publishDate: "February 8, 2026"
 publishDateISO: "2026-02-08"
-updatedDateISO: "2026-02-08"
-readTime: "6 min read"
+updatedDateISO: "2026-04-07"
+readTime: "8 min read"
 featured: true
 featuredImage: "/assets/blog/negotiation.jpg"
 imageAlt: "Two professionals shaking hands in a business setting."
@@ -15,161 +15,185 @@ categories:
   - "Compensation Mastery"
   - "Strategic Positioning"
 faq:
-  - q: "How much can I negotiate a tech offer?"
-    a: "Most senior roles have 10–25% flexibility. With the right leverage and positioning, $50K–$100K increases are realistic."
-  - q: "Will negotiating hurt my offer?"
-    a: "No, not when done professionally. Companies expect negotiation at senior levels."
-  - q: "What if I don’t have another offer?"
-    a: "You can still negotiate using market data, scope impact, and opportunity cost."
+  - q: "How much can a tech offer move in negotiation?"
+    a: "It varies by level and company, but meaningful movement can happen across base, equity, sign-on, or role scope when the ask is well-timed and clearly justified."
+  - q: "Do you need another offer to negotiate effectively?"
+    a: "No. A second offer helps, but market context, scope, rare skill fit, and strong close probability can also create leverage."
+  - q: "What matters most in an offer negotiation?"
+    a: "Clarity, timing, package awareness, and a credible explanation for why the revised package is more aligned."
 howto:
-  name: "Negotiate a tech offer in 7 steps"
+  name: "Use a case-study approach to negotiate an offer"
   steps:
-    - name: "Anchor on impact"
-      text: "Frame your value in terms of business outcomes, not years of experience."
-    - name: "Validate excitement"
-      text: "Confirm you want the role, then shift to total comp clarity."
-    - name: "Ask for the range"
-      text: "Use a calm, specific request for flexibility on base, equity, and sign‑on."
-    - name: "Present your counter"
-      text: "Counter with a concrete number and a justification tied to scope."
-    - name: "Use silence"
-      text: "Let the recruiter work the internal process. Don’t fill gaps with concessions."
-    - name: "Trade, don’t concede"
-      text: "If base is capped, ask for equity or a sign‑on."
-    - name: "Close with alignment"
-      text: "Reaffirm excitement and timeline to keep momentum."
+    - name: "Understand the package"
+      text: "Break down base, bonus, equity, sign-on, title, and expected scope before making a counter."
+    - name: "Pick the strongest leverage"
+      text: "Use the factors that actually matter: market level, business fit, competing options, and close probability."
+    - name: "Make one clear counter"
+      text: "State a specific number or range and tie it to the level and responsibilities of the role."
+    - name: "Trade across the package"
+      text: "If one component is fixed, move to another lever instead of collapsing the conversation."
 ---
-If you are a tech professional, you already know the work is hard. The challenge is making the signal clear.
+Negotiation advice is usually too abstract.
 
-Use this to focus your effort and get more traction from the same work.
+Candidates hear "know your worth" or "just ask for more," but that is not enough when the numbers are real and the risk feels personal.
 
-## Short answer
+A case study is more useful because it shows what actually moved the offer.
 
-The short answer: tighten your career coaching plan around the exact role, lead with impact, and show proof that matches the level you want. Start by clarifying the target and the top signals you must show.
+## The setup
 
-## Why this matters
+In this case, the candidate was an experienced technical professional moving into a role with larger scope than their previous title suggested.
 
-Hiring teams scan fast. The faster they understand your story, the faster you move forward.
+The initial offer was solid, but still below what the role could reasonably support.
 
-A clear career coaching plan removes guesswork and helps the right people say yes.
+The opportunity to improve it came from four things:
 
-That speed compounds. It shortens the search, improves leverage, and makes the process less exhausting.
+- strong close probability
+- clear role fit
+- differentiated experience
+- enough package flexibility to trade across components
 
-## What strong signal looks like
+The key point is that the increase did not come from aggression. It came from structure.
 
-Strong signal is simple, specific, and easy to verify. Look for these cues:
+## What made the initial offer feel light
 
-- clear goals tied to roles and level
-- measurable outcomes
-- consistent execution and accountability
-- a coach who understands tech roles
+This happens often.
 
-If any of these are missing, the story usually feels vague or junior.
+The company may like the candidate, but the first package still reflects one of these problems:
 
-## Common mistakes
+- conservative internal banding
+- incomplete understanding of level
+- recruiter caution
+- an opening number designed to preserve room
 
-- Vague goals. Define the exact role, level, and timeline. This usually reads as junior even when the work is senior.
-- No proof tracking. Measure response and offer rates. It slows down decision-making because the signal is unclear.
-- Over-consuming content. Execution beats more reading. Recruiters often skip past this when scanning quickly.
-- No feedback loop. Review progress every two weeks. It hides impact behind busy details.
+That is why the first offer should be treated as a starting point for review, not automatically the final outcome.
 
-## Role-specific nuance
+## What actually created leverage
 
-For tech professionals, the bar is not just execution. It is how you explain decisions to cross-functional partners.
+The leverage here did not depend only on another offer.
 
-When you connect your career coaching to cross-team impact, the story lands faster and feels more senior.
+It came from a combination of:
 
-## Deeper context
+### 1. Scope mismatch
 
-In practice, tech professionals often describe the work as tasks because that is how it was assigned. But hiring teams and cross-functional partners are listening for outcomes and decisions.
+The role demanded more than the first number reflected.
 
-Translate the work into impact and scope, and your career coaching becomes a clear signal rather than a summary. That is what turns interest into real conversations.
+### 2. Clear proof
 
-A good test: can a recruiter summarize your story in one sentence after a 10-second scan? If not, simplify and refocus.
+The candidate could point to concrete outcomes and ownership that mapped well to the job.
 
-## The coach's framework
+### 3. Strong mutual interest
 
-1. Clarify the target
-   - Define the role and level you want.
-   - Use metrics where you can to make it concrete.
-2. Build your signal
-   - Align resume, LinkedIn, and stories.
-   - Cut anything that does not support the story.
-3. Execute the search
-   - Run a focused outreach pipeline.
-   - Keep the reader focused on outcomes, not tasks.
-4. Prepare for interviews
-   - Practice stories, technicals, and negotiation.
-   - Validate with a fast read before you move on.
-5. Iterate with data
-   - Adjust based on response rates.
-   - Tie this step back to the target level.
+The company wanted to close. That matters because negotiation works best when both sides still feel momentum.
 
-## Coach's note
+### 4. Willingness to trade
 
-Coach's note: the biggest mistake I see tech professionals make is trying to fix everything at once. Pick one signal tied to career coaching and tighten it first.
+The candidate was not fixated on one component only. That created room.
 
-Test that change for two weeks, look at the results, then decide the next move. This keeps your process calm, measurable, and repeatable.
+## How the counter was framed
 
-## Practical execution this week
+The counter was effective because it was:
 
-- Block 60 minutes to work on your career coaching plan without distractions.
-- Write a one-sentence summary of the outcome you want to be known for.
-- Test your message with a peer and ask what they heard.
-- Track response or performance metrics for two weeks and adjust one thing at a time.
-- Save your strongest proof to reuse across resume, LinkedIn, and interviews.
+- specific
+- calm
+- aligned to role level
+- easy for the recruiter to carry internally
 
-## How to measure progress
+It did not sound like:
 
-- Response rate changes over 30 days.
-- Interview conversions from targeted roles.
-- Offer wins or level increases.
-- Consistency of execution week to week.
+- a complaint
+- a bluff
+- a demand without logic
 
-## If you are stuck
+It sounded like a candidate trying to close at a package that better matched the role.
 
-- Simplify the message to one sentence and rebuild from there.
-- Collect two real outcomes with metrics and anchor the story there.
-- Run one mock or feedback session and adjust immediately.
+## Where the $85K movement came from
 
-## Proof checklist
+Large negotiation gains often do not come from base salary alone.
 
-- A clear target role and level.
-- Three outcomes with metrics and scope.
-- One leadership or ownership example.
-- A CTA that matches the topic.
-- Consistent story across resume, LinkedIn, and interviews.
+They usually come from a combination like:
 
-## Example
+- higher base
+- stronger equity
+- larger sign-on
+- more favorable package structure
 
-Example: A tech professional tightens the message, shows proof, and keeps the story consistent. That is what moves the process forward.
+That is why many candidates underestimate what is possible. They negotiate only one line item instead of the whole package.
 
-## How to talk about it
+## Why the conversation worked
 
-When you talk about career coaching, keep the language concrete and outcome-based.
+Three things usually make these conversations work.
 
-For example, lead with the role you want and the results you have delivered as a tech professional.
+### The ask is clear
 
-People searching for career coaching respond best to specific proof, not generic claims. If you are considering tech career coaching, ask for a structured plan and real examples.
+The recruiter understands exactly what change would make the package feel aligned.
 
-## Next step
+### The rationale is credible
 
-If you want help with this, start here: [/career-coaching/](/career-coaching/).
+The case for movement is tied to:
 
-## FAQ
+- scope
+- level
+- impact
+- market context
 
-**How long does coaching take?**
+### The tone preserves trust
 
-Most clients see momentum in 2-6 weeks.
+The candidate still sounds like someone who wants to join, not someone trying to dominate the conversation.
 
-**What should I expect?**
+## What candidates get wrong in similar situations
 
-Clear steps, honest feedback, and accountability.
+### They negotiate emotionally
 
-**Is coaching worth it?**
+That usually produces too much explanation and not enough clarity.
 
-If it shortens time to offer, usually yes.
+### They apologize for the ask
+
+A reasonable counter does not need apology language.
+
+### They only ask about base
+
+That narrows the possible win.
+
+### They make the recruiter do too much guessing
+
+If your ask is vague, internal advocacy gets harder.
+
+## A simple case-study framework you can reuse
+
+When you review your own offer, ask:
+
+1. What part of the package feels below level?
+2. Why is that true in business terms, not personal terms?
+3. Which levers are most movable?
+4. What exact counter would feel aligned?
+5. How can I keep the conversation close-oriented?
+
+That framework is more useful than generic confidence advice.
+
+## How technical candidates should think about leverage
+
+For engineers, DevOps, SRE, platform, and technical leadership candidates, strong leverage often comes from:
+
+- difficult-to-replace technical depth
+- reliability or scale ownership
+- platform leverage across multiple teams
+- ability to operate at a higher level than the resume title suggests
+- business-critical systems experience
+
+If you can explain that clearly, the package discussion usually gets more serious.
+
+## What to do this week
+
+- Review your current negotiation logic before the next offer arrives.
+- Decide what package shape would actually feel aligned.
+- Write down your strongest leverage points in one page.
+- Practice one counter conversation out loud.
+- Think in terms of total package, not just base salary.
 
 ## Final takeaway
 
-Keep the signal tight, the proof visible, and the plan consistent.
+Strong negotiation results usually do not come from pressure tactics.
+
+They come from clear leverage, clean framing, and a package conversation that is easier for the company to say yes to.
+
+If you want help tightening that before your next offer, start here: [/salary-negotiation/](/salary-negotiation/).

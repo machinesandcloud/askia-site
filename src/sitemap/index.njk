@@ -122,9 +122,9 @@ metaDescription: "Browse the key Askia pages across services, role tracks, indus
     <div class="sitemap-block sitemap-block-wide">
       <h2>Latest from the blog</h2>
       <ul class="sitemap-list sitemap-list-columns">
-        {% if collections.blog %}
+        {% if collections.publicBlog %}
           {% set blogCount = 0 %}
-          {% for entry in collections.blog | reverse %}
+          {% for entry in collections.publicBlog | reverse %}
             {% if blogCount < 24 %}
             <li><a href="{{ entry.url }}">{{ entry.data.title or entry.url }}</a></li>
               {% set blogCount = blogCount + 1 %}

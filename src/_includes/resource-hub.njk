@@ -107,7 +107,7 @@
     <p class="section-subtitle">Deep dives on specific topics</p>
     <div class="resource-posts-grid">
       {% for postUrl in hubData.relatedPosts %}
-        {% for post in collections.blog %}
+        {% for post in collections.publicBlog %}
           {% if post.url == postUrl %}
           <a class="resource-post-card" href="{{ post.url }}">
             <h3>{{ post.data.title }}</h3>

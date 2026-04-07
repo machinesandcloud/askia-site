@@ -74,6 +74,36 @@ https://www.askia.tech/* https://askia.tech/:splat 301!
 /career-transitioning/ /resources/ 301
 /rebuilding-professional-identity-unemployment-guide/ /resources/ 301
 /work-life-balance-boundaries-framework/ /resources/ 301
+/blog/a-step-by-step-guide-to-recruiter-screens-for-fast-offer-cycles-for-devops-sre/ /blog/technical-screen/ 301
+/blog/a-step-by-step-guide-to-recruiter-screens-for-senior-roles-for-devops-sre/ /blog/technical-screen/ 301
+
+# Blog inventory consolidation
+/blog/behavioral-interviews-* /blog/behavioral-signal/ 301
+/blog/hidden-market-* /blog/hidden-tech-job-market/ 301
+/blog/interview-prep-* /blog/technical-screen/ 301
+/blog/job-search-strategy-* /blog/90-day-tech-job-system/ 301
+/blog/promotion-readiness-* /land-your-next-role/ 301
+/blog/story-bank-* /blog/behavioral-signal/ 301
+/blog/system-design-* /blog/technical-screen/ 301
+/blog/career-pivot-* /land-your-next-role/ 301
+/blog/leadership-signal-* /blog/leadership-signal-resume/ 301
+/blog/linkedin-signal-* /blog/linkedin-optimization-engineers/ 301
+/blog/salary-negotiation-* /salary-negotiation/ 301
+/blog/offer-strategy-* /blog/offer-leverage/ 301
+/blog/resume-clarity-* /resume-writing/ 301
+/blog/resume-writer-* /resume-writing/ 301
+/blog/executive-presence-checklist-* /blog/leadership-signal-resume/ 301
+/blog/case-studies-checklist-* /blog/case-study-framework/ 301
+/blog/offer-negotiation-checklist-* /blog/negotiation-email/ 301
+/blog/houston-career-coaching-* /land-your-next-role/ 301
+/blog/houston-tech-career-coaching-* /land-your-next-role/ 301
+/blog/houston-best-career-coaches-* /land-your-next-role/ 301
+/blog/houston-interview-preparation-* /interview-prep/ 301
+/blog/houston-job-search-strategy-* /land-your-next-role/ 301
+/blog/houston-offer-strategy-* /salary-negotiation/ 301
+/blog/houston-resume-writer-* /resume-writing/ 301
+/blog/houston-linkedin-optimization-* /linkedin-optimization/ 301
+/blog/houston-salary-negotiation-* /salary-negotiation/ 301
 
 # Legacy WordPress structures
 */category/* /resources/ 301
@@ -203,3 +233,26 @@ https://enterprise.askia.tech/* https://askia.tech/ 301!
 /land-your-next-role /land-your-next-role/ 301
 /career-readiness-index /career-readiness-index/ 301
 /resources /resources/ 301
+
+# Blog consolidation
+/blog/career-coaching-in-*-guide/ /locations/ 301
+/blog/career-positioning-*/ /land-your-next-role/ 301
+/blog/career-positioning-checklist-*/ /land-your-next-role/ 301
+/blog/career-pivots-checklist-*/ /land-your-next-role/ 301
+/blog/cold-outreach-checklist-*/ /blog/cold-email/ 301
+/blog/first-30-days-checklist-*/ /blog/first-30-days/ 301
+/blog/job-search-strategy-checklist-*/ /blog/90-day-tech-job-system/ 301
+/blog/linkedin-positioning-checklist-*/ /blog/linkedin-optimization-engineers/ 301
+/blog/portfolio-impact-*/ /blog/portfolio-structure/ 301
+/blog/portfolio-strategy-checklist-*/ /blog/portfolio-structure/ 301
+/blog/promotion-readiness-checklist-*/ /blog/promotion-case/ 301
+/blog/recruiter-screen-*/ /blog/recruiter-screen/ 301
+/blog/recruiter-screens-checklist-*/ /blog/recruiter-screen/ 301
+/blog/referrals-checklist-*/ /blog/referral-ask/ 301
+/blog/role-leveling-*/ /blog/role-leveling/ 301
+/blog/role-leveling-checklist-*/ /blog/role-leveling/ 301
+/blog/salary-expectations-checklist-*/ /blog/salary-expectations/ 301
+/blog/story-bank-checklist-*/ /blog/story-bank/ 301
+/blog/system-design-checklist-*/ /blog/system-design-story/ 301
+/blog/tech-career-coaching-*/ /land-your-next-role/ 301
+/blog/value-narrative-*/ /blog/signal-vs-noise/ 301

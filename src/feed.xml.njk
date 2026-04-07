@@ -9,8 +9,8 @@ eleventyExcludeFromCollections: true
     <link>{{ site.url }}/blog/</link>
     <description>{{ site.brandLine }}</description>
     <language>en-us</language>
-    <lastBuildDate>{{ (collections.blog | last).date | rfc822 }}</lastBuildDate>
-    {% for post in collections.blog | reverse | slice(0, 50) %}
+    <lastBuildDate>{{ (collections.publicBlog | last).date | rfc822 }}</lastBuildDate>
+    {% for post in collections.publicBlog | reverse | slice(0, 50) %}
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ site.url }}{{ post.url }}</link>

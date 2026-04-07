@@ -2,157 +2,67 @@
 layout: blog-post.njk
 tags: ["blog"]
 title: "The Compensation Positioning Strategy: Defending Your $280K+ Worth"
-description: "How to justify premium comp with the impact‑translation model and negotiation scripts that work."
+description: "A practical guide to positioning yourself for premium compensation by translating your work into clearer market and business value."
 author: "Steve Ngoumnai"
 publishDate: "February 8, 2026"
 publishDateISO: "2026-02-08"
-updatedDateISO: "2026-02-08"
-readTime: "6 min read"
+updatedDateISO: "2026-04-07"
+readTime: "8 min read"
 featured: false
 featuredImage: "/assets/blog/comp-position.jpg"
-imageAlt: "A handshake between two professionals." 
+imageAlt: "A handshake between two professionals."
 categories:
   - "Compensation Mastery"
   - "Strategic Positioning"
 faq:
-  - q: "How do I justify a high salary in tech?"
-    a: "Translate your work into business outcomes—revenue, cost, or risk reduction—and map those to the scope of the role."
-  - q: "What matters more: years of experience or impact?"
-    a: "Impact. Years are context, but outcomes are the proof."
-  - q: "How do I negotiate if the recruiter says comp is fixed?"
-    a: "Trade across base, equity, sign‑on, and refreshers—most flexibility lives there."
+  - q: "How do you justify premium compensation?"
+    a: "Connect your work to business outcomes, scope, market rarity, and the level of problems you can solve."
+  - q: "What matters more than years of experience?"
+    a: "Scope, decisions, and measurable outcomes matter more than years on their own."
+  - q: "Why do some strong candidates still get underpaid?"
+    a: "Because they negotiate from effort instead of value and do not position their impact at the right market level."
 ---
-If you are a tech professional, you already know the work is hard. The challenge is making the signal clear.
+Premium compensation is rarely won by repeating how hard you work.
 
-I will walk you through a simple, repeatable approach that works at senior levels.
+It is won by making your value easier for the market to price correctly.
 
-## Short answer
+That means translating your work into:
 
-The short answer: tighten your negotiation plan around the exact role, lead with impact, and show proof that matches the level you want. Start by clarifying the target and the top signals you must show.
+- scope
+- impact
+- risk reduction
+- revenue or efficiency improvement
+- hard-to-replace judgment
 
-## Why this matters
+## What compensation positioning really means
 
-Hiring teams scan fast. The faster they understand your story, the faster you move forward.
+It is not only negotiation.
 
-A clear negotiation plan removes guesswork and helps the right people say yes.
+It starts much earlier:
 
-That speed compounds. It shortens the search, improves leverage, and makes the process less exhausting.
+- in the resume
+- in the role target
+- in the interview stories
+- in how you describe your impact
 
-## What strong signal looks like
+If your positioning looks average, the company will price you closer to average.
 
-Strong signal is simple, specific, and easy to verify. Look for these cues:
+## What stronger compensation positioning looks like
 
-- clear market data and ranges
-- value story tied to outcomes
-- confident, calm communication
-- well-timed asks
+Instead of:
 
-If any of these are missing, the story usually feels vague or junior.
+"I managed infrastructure and improved processes"
 
-## Common mistakes
+you want:
 
-- Negotiating without data. Bring comps and role-level ranges. This usually reads as junior even when the work is senior.
-- Apologizing for the ask. Use direct, respectful language. It slows down decision-making because the signal is unclear.
-- Moving too fast. Let offers and timelines work for you. Recruiters often skip past this when scanning quickly.
-- Focusing only on base. Look at equity, bonus, and scope. It hides impact behind busy details.
+"I reduced deployment risk across shared infrastructure, improved release confidence, and removed recurring operational drag for multiple engineering teams."
 
-## Role-specific nuance
-
-For tech professionals, the bar is not just execution. It is how you explain decisions to cross-functional partners.
-
-When you connect your offer negotiation to cross-team impact, the story lands faster and feels more senior.
-
-## Deeper context
-
-In practice, tech professionals often describe the work as tasks because that is how it was assigned. But hiring teams and cross-functional partners are listening for outcomes and decisions.
-
-Translate the work into impact and scope, and your offer negotiation becomes a clear signal rather than a summary. That is what turns interest into real conversations.
-
-A good test: can a recruiter summarize your story in one sentence after a 10-second scan? If not, simplify and refocus.
-
-## The coach's framework
-
-1. Prepare the case
-   - Collect comp data and impact stories.
-   - Use metrics where you can to make it concrete.
-2. Set the anchor
-   - Name a range that reflects your value.
-   - Cut anything that does not support the story.
-3. Ask clearly
-   - State the number and the reason.
-   - Keep the reader focused on outcomes, not tasks.
-4. Hold the line
-   - Use silence and clarify trade-offs.
-   - Validate with a fast read before you move on.
-5. Confirm in writing
-   - Document the final package.
-   - Tie this step back to the target level.
-
-## Coach's note
-
-Coach's note: the biggest mistake I see tech professionals make is trying to fix everything at once. Pick one signal tied to offer negotiation and tighten it first.
-
-Test that change for two weeks, look at the results, then decide the next move. This keeps your process calm, measurable, and repeatable.
-
-## Practical execution this week
-
-- Block 60 minutes to work on your negotiation plan without distractions.
-- Write a one-sentence summary of the outcome you want to be known for.
-- Test your message with a peer and ask what they heard.
-- Track response or performance metrics for two weeks and adjust one thing at a time.
-- Save your strongest proof to reuse across resume, LinkedIn, and interviews.
-
-## How to measure progress
-
-- Delta between initial and final offer.
-- Number of levers improved (base, equity, bonus).
-- Time from initial offer to signed offer.
-- Strength of narrative used in negotiation emails.
-
-## If you are stuck
-
-- Simplify the message to one sentence and rebuild from there.
-- Collect two real outcomes with metrics and anchor the story there.
-- Run one mock or feedback session and adjust immediately.
-
-## Proof checklist
-
-- A clear target role and level.
-- Three outcomes with metrics and scope.
-- One leadership or ownership example.
-- A CTA that matches the topic.
-- Consistent story across resume, LinkedIn, and interviews.
-
-## Example
-
-Example: A tech professional anchors with a researched range, ties it to outcomes, and asks for a clear adjustment. The conversation stays calm and productive.
-
-## How to talk about it
-
-When you talk about offer negotiation, keep the language concrete and outcome-based.
-
-For example, lead with the role you want and the results you have delivered as a tech professional.
-
-People searching for offer negotiation respond best to specific proof, not generic claims. The same is true for salary negotiation.
-
-## Next step
-
-If you want help with this, start here: [/salary-negotiation/](/salary-negotiation/).
-
-## FAQ
-
-**Is it okay to negotiate?**
-
-Yes, most companies expect it at senior levels.
-
-**How much is reasonable?**
-
-It depends on level, scope, and market data.
-
-**What if they say no?**
-
-Ask about other levers like title, scope, or bonus.
+That sounds more expensive because it is more valuable.
 
 ## Final takeaway
 
-When your message is clear and your proof is strong, the right roles move faster.
+Candidates rarely get paid at the level of their effort.
+
+They get paid closer to the level of value they can explain and defend.
+
+If you want help tightening that compensation positioning before the next negotiation, start here: [/salary-negotiation/](/salary-negotiation/).

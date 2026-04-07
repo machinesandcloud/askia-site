@@ -1,3 +1,69 @@
+const CONSOLIDATED_BLOG_SLUG_PATTERNS = [
+  /^behavioral-interviews-/i,
+  /^hidden-market-/i,
+  /^interview-prep-/i,
+  /^job-search-strategy-/i,
+  /^promotion-readiness-/i,
+  /^story-bank-/i,
+  /^system-design-/i,
+  /^career-pivot-/i,
+  /^leadership-signal-/i,
+  /^linkedin-signal-/i,
+  /^salary-negotiation-/i,
+  /^offer-strategy-/i,
+  /^resume-clarity-/i,
+  /^resume-writer-/i,
+  /^career-positioning-\d+/i,
+  /^career-positioning-checklist-/i,
+  /^career-pivots-checklist-/i,
+  /^cold-outreach-checklist-/i,
+  /^executive-presence-checklist-/i,
+  /^first-30-days-checklist-/i,
+  /^job-search-strategy-checklist-/i,
+  /^linkedin-positioning-checklist-/i,
+  /^portfolio-impact-\d+/i,
+  /^portfolio-strategy-checklist-/i,
+  /^promotion-readiness-checklist-/i,
+  /^recruiter-screen-\d+/i,
+  /^recruiter-screens-checklist-/i,
+  /^referrals-checklist-/i,
+  /^role-leveling-\d+/i,
+  /^role-leveling-checklist-/i,
+  /^salary-expectations-checklist-/i,
+  /^case-studies-checklist-/i,
+  /^offer-negotiation-checklist-/i,
+  /^story-bank-checklist-/i,
+  /^system-design-checklist-/i,
+  /^tech-career-coaching-\d+/i,
+  /^value-narrative-\d+/i,
+  /^career-coaching-in-.*-guide$/i,
+  /^houston-career-coaching-/i,
+  /^houston-tech-career-coaching-/i,
+  /^houston-best-career-coaches-/i,
+  /^houston-interview-preparation-/i,
+  /^houston-job-search-strategy-/i,
+  /^houston-offer-strategy-/i,
+  /^houston-resume-writer-/i,
+  /^houston-linkedin-optimization-/i,
+  /^houston-salary-negotiation-/i,
+];
+
+function getBlogSlug(entryOrValue) {
+  if (!entryOrValue) return "";
+  if (typeof entryOrValue === "string") {
+    const match = entryOrValue.match(/\/blog\/([^/]+)\/?$/);
+    return match ? match[1] : "";
+  }
+  if (entryOrValue.fileSlug) return entryOrValue.fileSlug;
+  if (entryOrValue.url) return getBlogSlug(entryOrValue.url);
+  return "";
+}
+
+function isConsolidatedBlogEntry(entryOrValue) {
+  const slug = getBlogSlug(entryOrValue);
+  return CONSOLIDATED_BLOG_SLUG_PATTERNS.some((pattern) => pattern.test(slug));
+}
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "admin": "admin" });
@@ -22,6 +88,16 @@ module.exports = function (eleventyConfig) {
     if (!value) return "";
     const date = value instanceof Date ? value : new Date(value);
     return date.toISOString().split("T")[0];
+  });
+
+  eleventyConfig.addFilter("isConsolidatedBlogEntry", (value) => {
+    return isConsolidatedBlogEntry(value);
+  });
+
+  eleventyConfig.addCollection("publicBlog", (collectionApi) => {
+    return collectionApi
+      .getFilteredByTag("blog")
+      .filter((item) => !isConsolidatedBlogEntry(item));
   });
 
   eleventyConfig.addTransform("stripHallucinatedSections", (content, outputPath) => {

@@ -6,6 +6,7 @@
     "dev": "eleventy --serve --config=.eleventy.js",
     "build": "eleventy --config=.eleventy.js",
     "serve": "eleventy --serve --config=.eleventy.js",
+    "audit:blog": "node scripts/blog-audit.js",
     "indexnow": "node scripts/indexnow-submit.js",
     "deploy": "npm run build && npm run indexnow"
   },

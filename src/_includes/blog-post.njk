@@ -67,7 +67,7 @@ layout: layout.njk
           {% set primaryCategory = categories[0] %}
         {% endif %}
         {% set relatedCount = 0 %}
-        {% for post in collections.blog | reverse %}
+        {% for post in collections.publicBlog | reverse %}
           {% if post.url != page.url and relatedCount < 6 %}
           {% set matchCategory = primaryCategory and (primaryCategory in post.data.categories) %}
           {% if matchCategory or not primaryCategory %}
