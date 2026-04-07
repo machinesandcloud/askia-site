@@ -35,24 +35,8 @@ class BlogSalaryPage {
 
   render(data) {
     const { entry } = data;
-    const rolePageMap = {
-      "DevOps Engineer": "/devops-career-coaching/",
-      "Site Reliability Engineer": "/devops-career-coaching/",
-      "Platform Engineer": "/devops-career-coaching/",
-      "Cloud Engineer": "/devops-career-coaching/"
-    };
-    const locationPageMap = {
-      "Remote (U.S.)": "/locations/",
-      "New York": "/new-york-city-career-coaching/",
-      "San Francisco": "/san-francisco-bay-area-career-coaching/",
-      "Austin": "/austin-career-coaching/",
-      "London": "/locations/",
-      "Berlin": "/locations/",
-      "Toronto": "/locations/",
-      "Remote (Europe)": "/locations/"
-    };
-    const roleLink = rolePageMap[entry.role] || "/land-your-next-role/";
-    const marketLink = locationPageMap[entry.location] || "/locations/";
+    const roleLink = entry.rolePageUrl || "/land-your-next-role/";
+    const marketLink = entry.marketPageUrl || "/locations/";
     const experienceHtml = entry.experienceBands
       .map(
         (band) => `

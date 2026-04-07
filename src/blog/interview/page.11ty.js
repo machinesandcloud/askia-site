@@ -35,15 +35,7 @@ class BlogInterviewPage {
 
   render(data) {
     const { entry } = data;
-    const rolePageMap = {
-      "DevOps Engineer": "/devops-career-coaching/",
-      "Site Reliability Engineer": "/devops-career-coaching/",
-      "Platform Engineer": "/devops-career-coaching/",
-      "Cloud Engineer": "/devops-career-coaching/",
-      "Engineering Manager": "/engineering-manager-coaching/",
-      Kubernetes: "/devops-career-coaching/"
-    };
-    const roleLink = rolePageMap[entry.role] || "/land-your-next-role/";
+    const roleLink = entry.rolePageUrl || "/land-your-next-role/";
     const basicsHtml = entry.basics
       .map(
         (item) => `
