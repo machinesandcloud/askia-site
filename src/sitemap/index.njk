@@ -23,6 +23,11 @@ metaDescription: "Browse the key Askia pages across services, role tracks, indus
     <div class="sitemap-meta">
       <a class="btn btn-ghost" href="/sitemap.xml">XML sitemap</a>
       <a class="btn btn-ghost" href="/sitemap.txt">Text sitemap</a>
+      <a class="btn btn-ghost" href="/sitemaps/core.xml">Core sitemap</a>
+      <a class="btn btn-ghost" href="/sitemaps/locations.xml">Locations sitemap</a>
+      <a class="btn btn-ghost" href="/sitemaps/blog.xml">Blog sitemap</a>
+      <a class="btn btn-ghost" href="/sitemaps/salary.xml">Salary sitemap</a>
+      <a class="btn btn-ghost" href="/sitemaps/interview.xml">Interview sitemap</a>
     </div>
   </div>
 </section>
@@ -144,16 +149,16 @@ metaDescription: "Browse the key Askia pages across services, role tracks, indus
         <li><a href="/blog/interview/">Interview guides hub</a></li>
         <li><a href="/locations/">Locations hub</a></li>
         {% set seoCount = 0 %}
-        {% for entry in collections.publicSalaryBlog | reverse %}
+        {% for entry in blogSalaryPages | reverse %}
           {% if seoCount < 6 %}
-          <li><a href="{{ entry.url }}">{{ entry.data.title or entry.url }}</a></li>
+          <li><a href="/blog/salary/{{ entry.slug }}/">{{ entry.title }}</a></li>
           {% set seoCount = seoCount + 1 %}
           {% endif %}
         {% endfor %}
         {% set interviewSeoCount = 0 %}
-        {% for entry in collections.publicInterviewBlog | reverse %}
+        {% for entry in blogInterviewPages | reverse %}
           {% if interviewSeoCount < 6 %}
-          <li><a href="{{ entry.url }}">{{ entry.data.title or entry.url }}</a></li>
+          <li><a href="/blog/interview/{{ entry.slug }}/">{{ entry.title }}</a></li>
           {% set interviewSeoCount = interviewSeoCount + 1 %}
           {% endif %}
         {% endfor %}

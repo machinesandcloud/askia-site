@@ -36,22 +36,22 @@ breadcrumbs:
 <section class="section blog-grid-section">
   <div class="container">
     <div class="blog-grid">
-      {% for post in collections.publicInterviewBlog | reverse %}
+      {% for post in blogInterviewPages | reverse %}
       <article class="blog-card">
-        <a class="blog-card-image" href="{{ post.url }}">
-          <img src="{{ post.data.featuredImage }}" alt="{{ post.data.imageAlt }}" loading="lazy" />
+        <a class="blog-card-image" href="/blog/interview/{{ post.slug }}/">
+          <img src="{{ post.featuredImage }}" alt="{{ post.imageAlt }}" loading="lazy" />
         </a>
         <div class="blog-card-body">
           <div class="blog-card-meta">
-            {% for category in post.data.categories %}
+            {% for category in post.categories %}
               <span class="category-pill">{{ category }}</span>
             {% endfor %}
           </div>
-          <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
-          <p>{{ post.data.description }}</p>
+          <h2><a href="/blog/interview/{{ post.slug }}/">{{ post.title }}</a></h2>
+          <p>{{ post.description }}</p>
           <div class="blog-card-foot">
-            <span>{{ post.data.readTime }}</span>
-            <span>{{ post.data.publishDate }}</span>
+            <span>{{ post.readTime }}</span>
+            <span>{{ post.publishDate }}</span>
           </div>
         </div>
       </article>
@@ -79,12 +79,12 @@ breadcrumbs:
     "@type": "ItemList",
     "name": "Interview guide pages",
     "itemListElement": [
-      {% for post in collections.publicInterviewBlog | reverse %}
+      {% for post in blogInterviewPages | reverse %}
       {
         "@type": "ListItem",
         "position": {{ loop.index }},
-        "name": "{{ post.data.title }}",
-        "url": "{{ site.url }}{{ post.url }}"
+        "name": "{{ post.title }}",
+        "url": "{{ site.url }}/blog/interview/{{ post.slug }}/"
       }{% if not loop.last %},{% endif %}
       {% endfor %}
     ]

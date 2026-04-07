@@ -12,6 +12,13 @@ class BlogSalaryPage {
       eleventyComputed: {
         title: (data) => data.entry.title,
         description: (data) => data.entry.description,
+        breadcrumbs: (data) => [
+          { name: "Home", url: "/" },
+          { name: "Resources", url: "/resources/" },
+          { name: "Career Intelligence", url: "/blog/" },
+          { name: "Salary Guides", url: "/blog/salary/" },
+          { name: data.entry.title, url: `/blog/salary/${data.entry.slug}/` }
+        ],
         publishDate: (data) => data.entry.publishDate,
         publishDateISO: (data) => data.entry.publishDateISO,
         updatedDateISO: (data) => data.entry.updatedDateISO,

@@ -8,10 +8,10 @@ eleventyExcludeFromCollections: true
   <url>
     <loc>{{ site.url }}/blog/salary/</loc>
   </url>
-  {% for entry in collections.publicSalaryBlog | reverse %}
+  {% for entry in blogSalaryPages | reverse %}
   <url>
-    <loc>{{ site.url }}{{ entry.url }}</loc>
-    {% set lastModified = entry.data.updatedDateISO or entry.data.publishDateISO or entry.date %}
+    <loc>{{ site.url }}/blog/salary/{{ entry.slug }}/</loc>
+    {% set lastModified = entry.updatedDateISO or entry.publishDateISO %}
     {% if lastModified %}<lastmod>{{ lastModified | isoDate }}</lastmod>{% endif %}
   </url>
   {% endfor %}

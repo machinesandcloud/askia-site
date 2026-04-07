@@ -3,8 +3,6 @@ layout: layout.njk
 title: Industries
 metaTitle: "Industries We Serve | Askia Career Coaching"
 metaDescription: "Career coaching across 15 industries for professionals targeting $100K–$350K roles."
-noindex: true
-sitemap: false
 breadcrumbs:
   - name: "Home"
     url: "/"
@@ -34,3 +32,30 @@ breadcrumbs:
 {% include "industries-band.njk" %}
 {% include "role-directory.njk" %}
 {% include "locations-band.njk" %}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Askia industries",
+    "description": "Career coaching across multiple industries for professionals targeting higher-scope roles.",
+    "url": "{{ site.url }}{{ page.url }}"
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Askia industries",
+    "itemListElement": [
+      {% for item in industries.items %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "name": "{{ item.label }}",
+        "url": "{{ site.url }}/{{ item.slug }}/"
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+</script>
