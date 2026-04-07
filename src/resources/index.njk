@@ -158,3 +158,46 @@ breadcrumbs:
     <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
   </div>
 </section>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Askia resources",
+    "description": "Career resources covering positioning, interviews, negotiation, role hubs, salary guides, interview guides, and market pages.",
+    "url": "{{ site.url }}{{ page.url }}"
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Askia resource hubs",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Career Intelligence Library",
+        "url": "{{ site.url }}/blog/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Salary Guides",
+        "url": "{{ site.url }}/blog/salary/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Interview Guides",
+        "url": "{{ site.url }}/blog/interview/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Locations",
+        "url": "{{ site.url }}/locations/"
+      }
+    ]
+  }
+</script>
