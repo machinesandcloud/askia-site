@@ -63,3 +63,30 @@ breadcrumbs:
 {% set featuredMarketsTitle = "Markets where interview signal matters most" %}
 {% set featuredMarketsSubtitle = "These city pages add local hiring context to the interview library and create stronger paths into coaching offers." %}
 {% include "featured-markets.njk" %}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Askia Interview Guides",
+    "description": "Structured interview guides for technical and leadership roles covering question patterns, stronger answers, and prep strategy.",
+    "url": "{{ site.url }}{{ page.url }}"
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Interview guide pages",
+    "itemListElement": [
+      {% for post in collections.publicInterviewBlog | reverse %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "name": "{{ post.data.title }}",
+        "url": "{{ site.url }}{{ post.url }}"
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+</script>

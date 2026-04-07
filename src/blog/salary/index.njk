@@ -63,3 +63,30 @@ breadcrumbs:
 {% set featuredMarketsTitle = "Markets with strong compensation intent" %}
 {% set featuredMarketsSubtitle = "These city pages support the compensation library with local-market context, role targeting, and stronger conversion paths." %}
 {% include "featured-markets.njk" %}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Askia Salary Guides",
+    "description": "Structured salary guides for technical roles covering compensation bands, leverage, and negotiation context.",
+    "url": "{{ site.url }}{{ page.url }}"
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Salary guide pages",
+    "itemListElement": [
+      {% for post in collections.publicSalaryBlog | reverse %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "name": "{{ post.data.title }}",
+        "url": "{{ site.url }}{{ post.url }}"
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+</script>

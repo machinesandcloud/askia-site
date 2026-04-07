@@ -157,6 +157,35 @@ breadcrumbs:
   </div>
 </section>
 
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Askia Career Intelligence Library",
+    "description": "Career intelligence articles covering positioning, interviews, compensation, and career strategy.",
+    "url": "{{ site.url }}{{ page.url }}"
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Career Intelligence Library articles",
+    "itemListElement": [
+      {% set listCount = 0 %}
+      {% for post in posts %}
+      {% if listCount < 10 %}
+      {
+        "@type": "ListItem",
+        "position": {{ listCount + 1 }},
+        "name": "{{ post.data.title }}",
+        "url": "{{ site.url }}{{ post.url }}"
+      }{% set listCount = listCount + 1 %}{% if listCount < 10 and not loop.last %},{% endif %}
+      {% endif %}
+      {% endfor %}
+    ]
+  }
+</script>
 
 <script>
   (() => {
@@ -167,19 +196,6 @@ breadcrumbs:
     const search = document.querySelector("[data-blog-search]");
 
     if (!filters.length || !cards.length) return;
-
-    const shuffle = (list) => {
-      for (let i = list.length - 1; i > 0; i -= 1) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [list[i], list[j]] = [list[j], list[i]];
-      }
-      return list;
-    };
-
-    if (grid) {
-      shuffle(cards);
-      cards.forEach((card) => grid.appendChild(card));
-    }
 
     let activeFilter = "all";
     let query = "";
