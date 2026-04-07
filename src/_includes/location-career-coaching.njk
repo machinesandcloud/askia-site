@@ -12,6 +12,8 @@ layout: layout.njk
 {% set bestFor = cityPage.bestFor or cityDefaults.bestFor %}
 {% set roleLinks = cityPage.roleLinks or cityDefaults.roleLinks %}
 {% set serviceLinks = cityPage.serviceLinks or cityDefaults.serviceLinks %}
+{% set keywordSupport = cityPage.keywordSupport %}
+{% set localClusterLinks = cityPage.localClusterLinks %}
 {% set localKeyword = "career coaching in " + cityName %}
 {% set coachKeyword = "career coach in " + cityName %}
 {% set coachesKeyword = "career coaches in " + cityName %}
@@ -24,6 +26,7 @@ layout: layout.njk
       <h1 class="hero-title section-title-glow">Career Coaching in {{ cityName }}</h1>
       <p class="hero-subtitle">High-signal career coaching in {{ cityName }} for professionals targeting $100K-$350K roles.</p>
       <p class="hero-support">If you are comparing a {{ coachKeyword }} or trying to find the right fit among {{ coachesKeyword }}, start with signal quality, role targeting, and execution depth. {{ marketLine }}</p>
+      {% if keywordSupport %}<p class="hero-support">{{ keywordSupport }}</p>{% endif %}
       <div class="hero-cta">
         <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
         <a class="btn btn-ghost" href="/land-your-next-role/">Explore role tracks</a>
@@ -39,6 +42,26 @@ layout: layout.njk
     </div>
   </div>
 </section>
+
+{% if localClusterLinks %}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Houston Cluster</p>
+      <h2 class="section-title section-title-glow">Houston career coaching pages by intent</h2>
+      <p class="section-subtitle">These pages cover the exact Houston service and niche searches most likely to convert.</p>
+    </div>
+    <div class="link-stack">
+      {% for item in localClusterLinks %}
+      <a class="location-card" href="{{ item.url }}">
+        <strong>{{ item.label }}</strong>
+        <span>Houston-specific landing page with a tighter local-intent angle</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
 
 <section class="section">
   <div class="container two-col-grid">

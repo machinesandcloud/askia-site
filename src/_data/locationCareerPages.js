@@ -386,11 +386,27 @@ const citySpecific = {
       "professionals trying to move from local-market compensation into stronger national bands",
       "senior candidates who need a clearer story than 'I have done a lot'"
     ],
+    keywordSupport:
+      "If you searched for career coach Houston, career coaching Houston TX, or career counselor Houston, this page is designed to act as the main Houston hub and route you to the right service-specific page quickly.",
     roleLinks: [
       { label: "DevOps & SRE coaching", url: "/devops-career-coaching/" },
       { label: "Operations coaching", url: "/operations-career-coaching/" },
       { label: "Healthcare administration coaching", url: "/healthcare-administration-career-coaching/" },
       { label: "Finance & FP&A coaching", url: "/finance-fpa-career-coaching/" }
+    ],
+    localClusterLinks: [
+      { label: "Career counselor Houston", url: "/career-counselor-houston/" },
+      { label: "Executive career coach Houston", url: "/executive-career-coach-houston/" },
+      { label: "Resume writer Houston", url: "/resume-writer-houston/" },
+      { label: "LinkedIn profile writer Houston", url: "/linkedin-profile-writer-houston/" },
+      { label: "Interview coaching Houston", url: "/interview-coaching-houston/" },
+      { label: "Salary negotiation coach Houston", url: "/salary-negotiation-coach-houston/" },
+      { label: "Job search coach Houston", url: "/job-search-coach-houston/" },
+      { label: "Career change coach Houston", url: "/career-change-coach-houston/" },
+      { label: "Outplacement Houston", url: "/outplacement-houston/" },
+      { label: "AI/ML career coaching Houston", url: "/ai-ml-career-coaching-houston/" },
+      { label: "Career coaching for engineers Houston", url: "/career-coaching-for-engineers-houston/" },
+      { label: "Legal & compliance coaching Houston", url: "/career-coaching-for-legal-compliance-houston/" }
     ]
   },
   "new-york-city-career-coaching": {

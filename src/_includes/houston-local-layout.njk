@@ -1,0 +1,103 @@
+---
+layout: layout.njk
+---
+<section class="section">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      {% if entry.eyebrow %}<p class="hero-eyebrow">{{ entry.eyebrow }}</p>{% endif %}
+      <h1 class="hero-title section-title-glow">{{ entry.h1 }}</h1>
+      <p class="hero-subtitle">{{ entry.subtitle }}</p>
+      <p class="hero-support">{{ entry.intro }}</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ entry.primaryLink }}">{{ entry.primaryLabel }}</a>
+        <a class="btn btn-ghost" href="{{ entry.secondaryLink }}">{{ entry.secondaryLabel }}</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <strong>What this page helps with</strong>
+      <ul>
+        {% for item in entry.bullets %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container two-col-grid">
+    {% for section in entry.sections %}
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">{{ section.title }}</h2>
+      <p>{{ section.body }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Best next pages from here</h2>
+      <div class="link-stack">
+        {% for item in entry.relatedLinks %}
+        <a class="location-card" href="{{ item.url }}">
+          <strong>{{ item.label }}</strong>
+          <span>Related Houston and national career support</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Why this Houston page exists</h2>
+      <p>This page is part of Askia's Houston local-intent cluster. It exists to answer a specific search intent clearly, then route you into the right coaching path without making you dig through generic service pages first.</p>
+      <p>If this is the wrong page for your exact need, the Houston hub and related pages above will get you to the right one quickly.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container faq-stage">
+    <div class="faq-header">
+      <h2 class="section-title section-title-glow">Houston FAQ</h2>
+      <p class="section-subtitle">Short answers for people comparing coaching options in Houston.</p>
+    </div>
+    <div class="faq-grid">
+      {% for item in entry.faq %}
+      <details class="faq-card" {% if loop.first %}open{% endif %}>
+        <summary>{{ item.q }}</summary>
+        <p>{{ item.a }}</p>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container cta-band">
+    <div>
+      <h2 class="section-title">Need help with this in Houston?</h2>
+      <p class="section-subtitle">Book a call and we’ll map the strongest next step for your search, interviews, and offer strategy.</p>
+    </div>
+    <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+  </div>
+</section>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for item in entry.faq %}
+      {
+        "@type": "Question",
+        "name": {{ item.q | dump | safe }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ item.a | dump | safe }}
+        }
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+</script>
