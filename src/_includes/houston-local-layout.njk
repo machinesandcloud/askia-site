@@ -41,6 +41,29 @@ layout: layout.njk
   </div>
 </section>
 
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">At a glance</h2>
+      <ul class="checklist">
+        <li>City focus: {{ entry.cityLabel }}</li>
+        <li>Page intent: {{ entry.schemaServiceType }}</li>
+        <li>Best fit: professionals who need sharper positioning, interviews, or negotiation signal</li>
+        <li>Best next move: start with the city hub, then go narrower into the matching service or guide</li>
+      </ul>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Proof snapshot</h2>
+      <ul class="checklist">
+        <li>147+ professionals coached across local and remote hiring markets</li>
+        <li>4.9/5 average client rating across positioning, interview, and offer support</li>
+        <li>89% of clients land offers within 60 days when they execute the plan consistently</li>
+        <li>$47K average salary increase negotiated in compensation-focused engagements</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="container two-col-grid">
     {% for section in entry.sections %}
@@ -51,6 +74,33 @@ layout: layout.njk
     {% endfor %}
   </div>
 </section>
+
+{% if entry.signalPoints or entry.commonMistakes %}
+<section class="section">
+  <div class="container two-col-grid">
+    {% if entry.signalPoints %}
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">What strong signal looks like</h2>
+      <ul class="checklist">
+        {% for item in entry.signalPoints %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+    {% if entry.commonMistakes %}
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Common mistakes</h2>
+      <ul class="checklist">
+        {% for item in entry.commonMistakes %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
 
 <section class="section">
   <div class="container two-col-grid">
@@ -63,6 +113,14 @@ layout: layout.njk
           <span>Related {{ entry.cityLabel }} and national career support</span>
         </a>
         {% endfor %}
+        <a class="location-card" href="/blog/interview/">
+          <strong>Interview guides</strong>
+          <span>Structured interview pages for stronger live-loop conversion.</span>
+        </a>
+        <a class="location-card" href="/blog/salary/">
+          <strong>Salary guides</strong>
+          <span>Compensation and negotiation context for higher-quality offer decisions.</span>
+        </a>
       </div>
     </div>
     <div class="content-panel">
@@ -100,6 +158,63 @@ layout: layout.njk
   </div>
 </section>
 
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": {{ entry.schemaName | dump | safe }},
+    "description": {{ entry.schemaDescription | dump | safe }},
+    "url": "{{ site.url }}{{ page.url }}",
+    "serviceType": {{ entry.schemaServiceType | dump | safe }},
+    "provider": {
+      "@type": "ProfessionalService",
+      "name": "{{ site.name }}",
+      "url": "{{ site.url }}"
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": {{ entry.cityLabel | dump | safe }}
+    }
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": {{ entry.title | dump | safe }},
+    "description": {{ entry.metaDescription | dump | safe }},
+    "url": "{{ site.url }}{{ page.url }}"
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": {{ (entry.title + " related pages") | dump | safe }},
+    "itemListElement": [
+      {% for item in entry.relatedLinks %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "name": {{ item.label | dump | safe }},
+        "url": "{{ site.url }}{{ item.url }}"
+      },
+      {% endfor %}
+      {
+        "@type": "ListItem",
+        "position": {{ entry.relatedLinks | length + 1 }},
+        "name": "Interview guides",
+        "url": "{{ site.url }}/blog/interview/"
+      },
+      {
+        "@type": "ListItem",
+        "position": {{ entry.relatedLinks | length + 2 }},
+        "name": "Salary guides",
+        "url": "{{ site.url }}/blog/salary/"
+      }
+    ]
+  }
+</script>
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",

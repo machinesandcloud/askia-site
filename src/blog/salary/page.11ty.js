@@ -35,9 +35,22 @@ class BlogSalaryPage {
 
   render(data) {
     const { entry } = data;
+    const allGuides = data.blogSalaryPages || [];
     const roleLink = entry.rolePageUrl || "/land-your-next-role/";
     const marketLink = entry.marketPageUrl || "/locations/";
     const benchmarkEvidence = entry.benchmarkEvidence;
+    const sameCityGuides = allGuides
+      .filter((item) => item.slug !== entry.slug && item.location === entry.location)
+      .slice(0, 4);
+    const sameCategoryGuides = allGuides
+      .filter(
+        (item) =>
+          item.slug !== entry.slug &&
+          item.categories &&
+          entry.categories &&
+          item.categories.some((category) => entry.categories.includes(category))
+      )
+      .slice(0, 4);
     const experienceHtml = entry.experienceBands
       .map(
         (band) => `
@@ -55,6 +68,12 @@ class BlogSalaryPage {
     const sourcesHtml = entry.sourceReferences
       .map((item) => `<li><a href="${item.url}" rel="nofollow">${item.label}</a></li>`)
       .join("");
+    const sameCityHtml = sameCityGuides
+      .map((item) => `<li><a href="/blog/salary/${item.slug}/">${item.role} salary in ${item.location}</a></li>`)
+      .join("");
+    const sameCategoryHtml = sameCategoryGuides
+      .map((item) => `<li><a href="/blog/salary/${item.slug}/">${item.title}</a></li>`)
+      .join("");
     const benchmarkEvidenceHtml = benchmarkEvidence
       ? `
 <h2>${benchmarkEvidence.title}</h2>
@@ -70,6 +89,14 @@ class BlogSalaryPage {
 <p>${entry.role} salaries in ${entry.location} usually move less on title and more on scope.</p>
 <p>That is what most compensation pages miss.</p>
 <p>Two roles with the same name can sit in very different bands depending on how much operational risk, platform leverage, or cross-team ownership they carry. This page is designed to make that difference clearer.</p>
+
+<h2>At a glance</h2>
+<ul>
+  <li><strong>Role:</strong> ${entry.role}</li>
+  <li><strong>Market:</strong> ${entry.location}</li>
+  <li><strong>Closest public benchmark:</strong> ${entry.benchmarkOccupation}</li>
+  <li><strong>Last updated:</strong> ${entry.updatedDateISO}</li>
+</ul>
 
 <h2>Compensation snapshot</h2>
 <ul>
@@ -131,6 +158,18 @@ ${benchmarkEvidenceHtml}
   <li><a href="/salary-negotiation/">Salary negotiation support</a></li>
   <li><a href="/interview-prep/">Interview prep for stronger offer loops</a></li>
 </ul>
+
+${sameCityGuides.length ? `
+<h2>More salary guides in ${entry.location}</h2>
+<ul>
+  ${sameCityHtml}
+</ul>` : ""}
+
+${sameCategoryGuides.length ? `
+<h2>Related compensation guides</h2>
+<ul>
+  ${sameCategoryHtml}
+</ul>` : ""}
 
 <h2>Final takeaway</h2>
 <p>${entry.role} compensation in ${entry.location} usually moves fastest when your story makes leverage visible.</p>

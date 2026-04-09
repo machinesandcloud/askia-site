@@ -1046,6 +1046,111 @@ const benchmarkEvidenceBySlug = {
       sourceUrl: "https://www.salary.com/research/salary/posting/senior-people-operations-manager-salary/phoenix-az",
       sourceDate: "March 01, 2026"
     }
+  },
+  "platform-engineer-dallas-fort-worth": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "The closest current public benchmark I found is Salary.com's March 1, 2026 Software Systems Engineer IV page for Dallas, TX, which reports an average salary of $142,411 and a 25th-75th percentile range of $133,975 to $152,016.",
+      points: [
+        "Closest public title used: Software Systems Engineer IV",
+        "Average salary: $142,411",
+        "25th-75th percentile range: $133,975 to $152,016"
+      ],
+      sourceLabel: "Salary.com: Software Systems Engineer IV Salary in Dallas, TX",
+      sourceUrl: "https://www.salary.com/research/salary/benchmark/software-systems-engineer-iv-salary/dallas-tx",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "analytics-engineer-los-angeles": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "The closest current public benchmark I found is Salary.com's December 1, 2025 Senior Data Analytics Engineer page for Los Angeles, CA, which reports an average salary of $150,683 and a 25th-75th percentile range of $135,668 to $158,800.",
+      points: [
+        "Closest public title used: Senior Data Analytics Engineer",
+        "Average salary: $150,683",
+        "25th-75th percentile range: $135,668 to $158,800"
+      ],
+      sourceLabel: "Salary.com: Senior Data Analytics Engineer Salary in Los Angeles, CA",
+      sourceUrl: "https://www.salary.com/research/salary/posting/senior-data-analytics-engineer-salary/los-angeles-ca",
+      sourceDate: "December 01, 2025"
+    }
+  },
+  "machine-learning-engineer-washington-dc": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's March 1, 2026 Washington, DC machine learning engineer page shows an average salary of $121,719, with a 25th-75th percentile range of $112,030 to $132,113.",
+      points: [
+        "Average salary: $121,719",
+        "25th-75th percentile range: $112,030 to $132,113",
+        "Average total cash compensation listed at $135,054"
+      ],
+      sourceLabel: "Salary.com: Machine Learning Engineer Salary in Washington, DC",
+      sourceUrl: "https://www.salary.com/research/salary/posting/machine-learning-engineer-salary/washington-dc",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "cybersecurity-engineer-san-diego": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's March 1, 2026 San Diego, CA cyber security engineer page shows an average salary of $148,107, with a 25th-75th percentile range of $139,526 to $159,098.",
+      points: [
+        "Closest public title used: Cyber Security Engineer",
+        "Average salary: $148,107",
+        "25th-75th percentile range: $139,526 to $159,098"
+      ],
+      sourceLabel: "Salary.com: Cyber Security Engineer Salary in San Diego, CA",
+      sourceUrl: "https://www.salary.com/research/salary/listing/cyber-security-engineer-salary/san-diego-ca",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "product-operations-manager-austin": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "The closest current public benchmark I found is Salary.com's February 1, 2026 Product Operations Manager page for Texas, which lists Austin at $131,040 and reports a statewide average of $129,094 with a 25th-75th percentile range of $120,244 to $141,301.",
+      points: [
+        "Closest public title used: Product Operations Manager",
+        "Austin city value listed on the page: $131,040",
+        "Texas statewide average on the page: $129,094"
+      ],
+      sourceLabel: "Salary.com: Product Operations Manager Salary in Texas",
+      sourceUrl: "https://www.salary.com/research/salary/listing/product-operations-manager-salary/tx",
+      sourceDate: "February 01, 2026"
+    }
+  },
+  "fpanda-analyst-los-angeles": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's March 1, 2026 Los Angeles, CA Financial Analyst, FP&A page shows an average salary of $77,224, with a 25th-75th percentile range of $70,506 to $84,175.",
+      points: [
+        "Closest public title used: Financial Analyst, FP&A",
+        "Average salary: $77,224",
+        "25th-75th percentile range: $70,506 to $84,175"
+      ],
+      sourceLabel: "Salary.com: Financial Analyst, FP&A Salary in Los Angeles, CA",
+      sourceUrl: "https://www.salary.com/research/salary/listing/financial-analyst-fpanda-salary/los-angeles-ca",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "strategy-consultant-denver": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "The closest current public benchmark I found is Salary.com's March 1, 2026 Strategic Planning Consultant page for Denver, CO, which reports an average salary of $95,576 and a 25th-75th percentile range of $87,959 to $104,334.",
+      points: [
+        "Closest public title used: Strategic Planning Consultant",
+        "Average salary: $95,576",
+        "25th-75th percentile range: $87,959 to $104,334"
+      ],
+      sourceLabel: "Salary.com: Strategic Planning Consultant Salary in Denver, CO",
+      sourceUrl: "https://www.salary.com/research/salary/recruiting/strategic-planning-consultant-salary/denver-co",
+      sourceDate: "March 01, 2026"
+    }
   }
 };
 

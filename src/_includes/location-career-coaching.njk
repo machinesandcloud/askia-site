@@ -13,6 +13,8 @@ layout: layout.njk
 {% set aiSummary = cityPage.aiSummary or cityDefaults.aiSummary %}
 {% set hiringSignals = cityPage.hiringSignals or cityDefaults.hiringSignals %}
 {% set chooseAskia = cityPage.chooseAskia or cityDefaults.chooseAskia %}
+{% set signalPoints = cityPage.signalPoints or cityDefaults.signalPoints %}
+{% set commonMistakes = cityPage.commonMistakes or cityDefaults.commonMistakes %}
 {% set roleLinks = cityPage.roleLinks or cityDefaults.roleLinks %}
 {% set serviceLinks = cityPage.serviceLinks or cityDefaults.serviceLinks %}
 {% set keywordSupport = cityPage.keywordSupport %}
@@ -63,6 +65,65 @@ layout: layout.njk
   </div>
 </section>
 
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">At a glance</h2>
+      <ul class="checklist">
+        <li>City focus: {{ cityName }}</li>
+        <li>Main query family: {{ localKeyword }}, {{ coachKeyword }}, {{ coachesKeyword }}</li>
+        <li>Best fit: professionals aiming for clearer level, stronger interviews, and better offers</li>
+        <li>Best next step: book a strategy call or move into a tighter local service page below</li>
+      </ul>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Fast next clicks</h2>
+      <div class="link-stack">
+        {% if localClusterLinks %}
+        {% for item in localClusterLinks %}
+        {% if loop.index <= 4 %}
+        <a class="location-card" href="{{ item.url }}">
+          <strong>{{ item.label }}</strong>
+          <span>{{ cityName }}-specific page for a narrower service intent.</span>
+        </a>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+        <a class="location-card" href="/blog/interview/">
+          <strong>Interview guides</strong>
+          <span>Role-based prep pages for stronger interview signal after the city page.</span>
+        </a>
+        <a class="location-card" href="/blog/salary/">
+          <strong>Salary guides</strong>
+          <span>Structured compensation context for negotiation and role targeting.</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Proof snapshot</h2>
+      <ul class="checklist">
+        <li>147+ professionals coached across local and remote hiring markets</li>
+        <li>4.9/5 average client rating across interview, positioning, and offer support</li>
+        <li>89% of clients land offers within 60 days when they execute the plan consistently</li>
+        <li>$47K average salary increase negotiated in compensation-focused engagements</li>
+      </ul>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">What usually improves first</h2>
+      <ul class="checklist">
+        <li>Cleaner role targeting so the next search is narrower and higher quality</li>
+        <li>Stronger interview stories that sound more credible for {{ cityName }} and remote markets</li>
+        <li>Better offer leverage because the level and value story are easier to trust</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 {% if localClusterLinks %}
 <section class="section">
   <div class="container">
@@ -95,6 +156,27 @@ layout: layout.njk
       <h2 class="section-title section-title-glow">Why professionals compare {{ coachesKeyword }}</h2>
       <ul class="checklist">
         {% for item in marketThemes %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">What strong signal looks like in {{ cityName }}</h2>
+      <ul class="checklist">
+        {% for item in signalPoints %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Common mistakes</h2>
+      <ul class="checklist">
+        {% for item in commonMistakes %}
         <li>{{ item }}</li>
         {% endfor %}
       </ul>
@@ -264,6 +346,34 @@ layout: layout.njk
     "description": "{{ metaDescription }}"
   }
 </script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Career coaching in {{ cityName }}",
+    "description": "{{ metaDescription }}",
+    "url": "{{ site.url }}{{ page.url }}"
+  }
+</script>
+{% if localClusterLinks %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "{{ cityName }} local service pages",
+    "itemListElement": [
+      {% for item in localClusterLinks %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "name": "{{ item.label }}",
+        "url": "{{ site.url }}{{ item.url }}"
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+</script>
+{% endif %}
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",

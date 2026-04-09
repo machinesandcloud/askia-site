@@ -725,6 +725,114 @@ function resolve(value, city) {
   return typeof value === "function" ? value(city) : value;
 }
 
+function buildSignalPoints(pageType, city) {
+  const serviceType = pageType.schemaServiceType.toLowerCase();
+
+  if (serviceType.includes("resume")) {
+    return [
+      `Impact and ownership should read clearly for ${city.shortLabel} and remote-market roles, not just responsibilities.`,
+      "The document should make seniority obvious without forcing recruiters to infer level from job titles alone.",
+      "The strongest version of this service improves callback quality, not just formatting."
+    ];
+  }
+
+  if (serviceType.includes("linkedin")) {
+    return [
+      `The profile should make sense to recruiters searching across ${city.market} and national remote openings.`,
+      "Headline, About, and experience should point to the same target role instead of three different stories.",
+      "A stronger profile should improve recruiter trust before the first message ever arrives."
+    ];
+  }
+
+  if (serviceType.includes("interview")) {
+    return [
+      "Answers should sound tighter, more selective, and more level-appropriate under pressure.",
+      "Stories should make the tradeoff, outcome, and business consequence visible quickly.",
+      `The goal is better conversion in ${city.shortLabel} and national hiring loops, not just more practice volume.`
+    ];
+  }
+
+  if (serviceType.includes("salary")) {
+    return [
+      "The compensation story should be clear before the final ask, not invented during the negotiation.",
+      `Candidates in ${city.shortLabel} often need to reconcile local pay anchors with national or remote comparisons.`,
+      "Good negotiation support improves framing, confidence, and package logic together."
+    ];
+  }
+
+  if (serviceType.includes("executive")) {
+    return [
+      "Leadership scope should sound commercially credible, not only impressive in isolation.",
+      "Boards, founders, and senior hiring leaders usually calibrate narrative quality before they calibrate achievements.",
+      `The best version of this service helps senior candidates present influence clearly in ${city.market}.`
+    ];
+  }
+
+  if (serviceType.includes("career counseling") || serviceType.includes("career coaching")) {
+    return [
+      "The first win is usually sharper role targeting, not broader exploration.",
+      `Candidates in ${city.shortLabel} often need one story that works for both local and national opportunities.`,
+      "The best coaching pages reduce noise and turn experience into cleaner market signal."
+    ];
+  }
+
+  return [
+    "The strongest version of this page should improve signal quality, not just provide general advice.",
+    `The content should help candidates navigate ${city.market} with clearer positioning and execution.`,
+    "Better conversion usually starts with cleaner framing before it starts with more activity."
+  ];
+}
+
+function buildCommonMistakes(pageType, city) {
+  const serviceType = pageType.schemaServiceType.toLowerCase();
+
+  if (serviceType.includes("resume")) {
+    return [
+      "Treating resume writing like formatting work instead of positioning work.",
+      "Keeping broad task language that hides ownership and level.",
+      `Using one resume version for every ${city.shortLabel} and remote opportunity.`
+    ];
+  }
+
+  if (serviceType.includes("linkedin")) {
+    return [
+      "Using a generic headline that says little about target role or seniority.",
+      "Letting the profile tell a different story from the resume.",
+      "Optimizing for keywords without making the value proposition easy to trust."
+    ];
+  }
+
+  if (serviceType.includes("interview")) {
+    return [
+      "Practicing more questions without improving answer structure.",
+      "Answering with chronology instead of signal, tradeoffs, and outcomes.",
+      `Preparing for one company loop while ignoring the broader ${city.shortLabel} market calibration.`
+    ];
+  }
+
+  if (serviceType.includes("salary")) {
+    return [
+      "Waiting until the offer call to decide what the negotiation story is.",
+      "Arguing for a number without tying it to level, scope, and market logic.",
+      "Comparing local and remote offers without adjusting for package structure."
+    ];
+  }
+
+  if (serviceType.includes("executive")) {
+    return [
+      "Using a leadership story that sounds operationally busy but strategically vague.",
+      "Over-indexing on title history instead of decision range and business effect.",
+      "Treating executive search like a mid-level job search with better branding."
+    ];
+  }
+
+  return [
+    "Choosing generic advice over cleaner role targeting and execution support.",
+    "Trying to fix conversion problems with more volume instead of better signal.",
+    `Ignoring how ${city.shortLabel} and national markets may read the same background differently.`
+  ];
+}
+
 module.exports = cities.flatMap((city) => {
   const cityBaseSlug = city.hubSlug.replace(/-career-coaching$/, "");
 
@@ -753,6 +861,8 @@ module.exports = cities.flatMap((city) => {
       relatedLinks: pageType.relatedLinks(city),
       quickAnswer: resolve(pageType.quickAnswer, city),
       bestFit: resolve(pageType.bestFit, city),
+      signalPoints: buildSignalPoints(pageType, city),
+      commonMistakes: buildCommonMistakes(pageType, city),
       faq: defaultFaq({ cityLabel: city.label })
     };
   });

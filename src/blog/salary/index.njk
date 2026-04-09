@@ -78,6 +78,30 @@ breadcrumbs:
   </div>
 </section>
 
+{% set cityGroups = blogSalaryPages | groupby("location") %}
+{% set categoryGroups = blogSalaryPages | groupby("categories[0]") %}
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Browse by market</h2>
+      <ul class="checklist">
+        {% for group in cityGroups %}
+        <li>{{ group[0] }}: {{ group[1] | length }} guides</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Browse by role family</h2>
+      <ul class="checklist">
+        {% for group in categoryGroups %}
+        <li>{{ group[0] }}: {{ group[1] | length }} guides</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
 <section class="section blog-grid-section">
   <div class="container">
     <div class="blog-grid">

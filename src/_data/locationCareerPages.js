@@ -86,6 +86,16 @@ const defaults = {
     "your experience is strong but your market signal is uneven",
     "you want one coaching system across resume, LinkedIn, interviews, and negotiation"
   ],
+  signalPoints: [
+    "your next-role target is narrow enough that recruiters can place you quickly",
+    "your materials make scope, level, and measurable outcomes easy to trust",
+    "your interview stories connect tradeoffs, judgment, and business impact clearly"
+  ],
+  commonMistakes: [
+    "treating broad experience as a strength without translating it into a cleaner target role",
+    "using one story for local opportunities, remote roles, and promotions even when the market reads them differently",
+    "trying to fix weak conversion with more activity instead of better positioning"
+  ],
   roleLinks: roleLinkSets.technical,
   serviceLinks: serviceLinkSets.default
 };
@@ -683,12 +693,35 @@ const citySpecific = {
 
 const generated = cities.reduce((acc, city) => {
   const profileFactory = profileBySlug[city.slug] || regionalGeneral;
+  const profile = profileFactory(city.label);
   acc[city.slug] = {
-    ...profileFactory(city.label),
+    ...profile,
     ...(citySpecific[city.slug] || {})
   };
   return acc;
 }, {});
+
+function buildHubSignalPoints(city, profile) {
+  const roleCopy = (profile.roleLinks || []).slice(0, 2).map((item) => item.label.toLowerCase());
+  return [
+    `Candidates in ${city.label} usually convert faster when their target role reads clearly across ${city.market}.`,
+    roleCopy.length
+      ? `The strongest stories make adjacent targets like ${roleCopy.join(" and ")} feel deliberate instead of scattered.`
+      : `The strongest stories make scope, level, and next-role direction feel deliberate instead of scattered.`,
+    "The best local-market signal usually combines sharper materials, cleaner interview framing, and a compensation story that matches the target level."
+  ];
+}
+
+function buildHubCommonMistakes(city, profile) {
+  const serviceCopy = (profile.serviceLinks || []).slice(0, 2).map((item) => item.label.toLowerCase());
+  return [
+    `Applying to ${city.label} and remote roles with the same vague positioning even when the market calibrates differently.`,
+    serviceCopy.length
+      ? `Treating ${serviceCopy.join(" and ")} as separate problems when the real issue is the consistency of the full market story.`
+      : "Treating resume, interview, and compensation problems as unrelated when the real issue is usually signal consistency.",
+    "Explaining experience chronologically instead of making the next role, scope, and business value obvious in the first read."
+  ];
+}
 
 const clusterCitySlugs = new Set([
   "houston-career-coaching",
@@ -737,9 +770,20 @@ for (const city of cities) {
   if (!clusterCitySlugs.has(city.slug)) continue;
   generated[city.slug] = {
     ...generated[city.slug],
+    signalPoints: generated[city.slug].signalPoints || buildHubSignalPoints(city, generated[city.slug]),
+    commonMistakes: generated[city.slug].commonMistakes || buildHubCommonMistakes(city, generated[city.slug]),
     keywordSupport:
       `If you searched for career coach ${city.label}, career coaching ${city.label}, or career counselor ${city.label}, this page is designed to act as the main ${city.label} hub and route you to the right service-specific page quickly.`,
     localClusterLinks: buildLocalClusterLinks(city)
+  };
+}
+
+for (const city of cities) {
+  if (generated[city.slug].signalPoints && generated[city.slug].commonMistakes) continue;
+  generated[city.slug] = {
+    ...generated[city.slug],
+    signalPoints: generated[city.slug].signalPoints || buildHubSignalPoints(city, generated[city.slug]),
+    commonMistakes: generated[city.slug].commonMistakes || buildHubCommonMistakes(city, generated[city.slug])
   };
 }
 

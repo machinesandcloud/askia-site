@@ -1,5 +1,6 @@
 {# CRO-Optimized Service Page Template #}
 {# Streamlined for maximum conversion following Executive Summary principles #}
+{% set serviceDepth = serviceCopyDepth[page.fileSlug] or serviceCopyDepth.default %}
 
 <div class="service-page" style="--theme-accent: {{ serviceData.visual.accent }}; --theme-accent-2: {{ serviceData.visual.accent2 }};">
 
@@ -128,6 +129,86 @@
   </div>
 </section>
 {% endif %}
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">At a glance</h2>
+      <ul class="checklist">
+        <li>Service: {{ serviceData.h1 }}</li>
+        <li>Best used when: you need clearer signal before the next interview or offer cycle</li>
+        <li>Primary outcome: stronger positioning, conversion, and confidence</li>
+        <li>Best entry point: {{ serviceData.ctaLabel or "Book a free strategy session" }}</li>
+      </ul>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Best next pages</h2>
+      <div class="link-stack">
+        {% if serviceData.related %}
+        <a class="location-card" href="{{ serviceData.related.primaryLink }}">
+          <strong>{{ serviceData.related.primaryLabel }}</strong>
+          <span>{{ serviceData.related.body }}</span>
+        </a>
+        <a class="location-card" href="{{ serviceData.related.secondaryLink }}">
+          <strong>{{ serviceData.related.secondaryLabel }}</strong>
+          <span>Go deeper on the adjacent service that most often improves results with this one.</span>
+        </a>
+        {% endif %}
+        <a class="location-card" href="/blog/interview/">
+          <strong>Interview guides</strong>
+          <span>Structured guides to turn stronger positioning into better live answers.</span>
+        </a>
+        <a class="location-card" href="/blog/salary/">
+          <strong>Salary guides</strong>
+          <span>Use these when you need compensation context before negotiation starts.</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Proof snapshot</h2>
+      <ul class="checklist">
+        <li>147+ professionals coached across tech, product, finance, operations, and leadership tracks</li>
+        <li>4.9/5 average rating from clients who used Askia to improve interviews and offers</li>
+        <li>89% of clients land offers within 60 days when they execute the plan consistently</li>
+        <li>$47K average salary increase negotiated across compensation-focused engagements</li>
+      </ul>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">What success usually looks like</h2>
+      <ul class="checklist">
+        <li>Sharper story and better recruiter response in the first two weeks</li>
+        <li>Cleaner interview answers that sound more senior and more selective</li>
+        <li>Stronger leverage in negotiation because the level and scope read more clearly</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">What strong signal looks like</h2>
+      <ul class="checklist">
+        {% for item in serviceDepth.signalPoints %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Common mistakes</h2>
+      <ul class="checklist">
+        {% for item in serviceDepth.commonMistakes %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
 
 {% if serviceData.decisionSignals %}
 <section class="section">
@@ -413,6 +494,62 @@
       }
     }{% if not loop.last %},{% endif %}
     {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": {{ (serviceData.h1 or title) | dump | safe }},
+  "description": {{ (serviceData.metaDescription or serviceData.subtitle or serviceData.supporting or description) | dump | safe }},
+  "url": "{{ site.url }}{{ page.url }}",
+  "provider": {
+    "@type": "ProfessionalService",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "serviceType": {{ (serviceData.eyebrow or "Career coaching service") | dump | safe }}
+}
+</script>
+
+{% if serviceData.related %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": {{ ((serviceData.h1 or title) + " related pages") | dump | safe }},
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": {{ serviceData.related.primaryLabel | dump | safe }},
+      "url": "{{ site.url }}{{ serviceData.related.primaryLink }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ serviceData.related.secondaryLabel | dump | safe }},
+      "url": "{{ site.url }}{{ serviceData.related.secondaryLink }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Interview guides",
+      "url": "{{ site.url }}/blog/interview/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Salary guides",
+      "url": "{{ site.url }}/blog/salary/"
+    }
   ]
 }
 </script>

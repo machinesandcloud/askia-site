@@ -33,6 +33,47 @@ breadcrumbs:
   </div>
 </section>
 
+{% set interviewCategoryGroups = blogInterviewPages | groupby("categories[0]") %}
+{% set interviewRoleGroups = blogInterviewPages | groupby("role") %}
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Quick answer</h2>
+      <p>This library is designed to help candidates prepare better answers, not memorize generic scripts. Use the guides to sharpen your examples, tradeoff explanations, and seniority signal before interviews start.</p>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">How to use these guides</h2>
+      <ul class="checklist">
+        <li>Start with the role or topic closest to your target loop.</li>
+        <li>Prepare three to five reusable stories before you memorize more questions.</li>
+        <li>Use the guide to improve structure, not to sound rehearsed.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Browse by role</h2>
+      <ul class="checklist">
+        {% for group in interviewRoleGroups %}
+        <li>{{ group[0] }}: {{ group[1] | length }} guide{% if group[1] | length != 1 %}s{% endif %}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Browse by role family</h2>
+      <ul class="checklist">
+        {% for group in interviewCategoryGroups %}
+        <li>{{ group[0] }}: {{ group[1] | length }} guide{% if group[1] | length != 1 %}s{% endif %}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
 <section class="section blog-grid-section">
   <div class="container">
     <div class="blog-grid">

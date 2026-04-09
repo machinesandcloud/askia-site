@@ -35,7 +35,25 @@ class BlogInterviewPage {
 
   render(data) {
     const { entry } = data;
+    const allGuides = data.blogInterviewPages || [];
     const roleLink = entry.rolePageUrl || "/land-your-next-role/";
+    const relatedByCategory = allGuides
+      .filter(
+        (item) =>
+          item.slug !== entry.slug &&
+          item.categories &&
+          entry.categories &&
+          item.categories.some((category) => entry.categories.includes(category))
+      )
+      .slice(0, 4);
+    const relatedByTopic = allGuides
+      .filter(
+        (item) =>
+          item.slug !== entry.slug &&
+          ((item.role && entry.role && item.role === entry.role) ||
+            (item.topic && entry.topic && item.topic.split(" ")[0] === entry.topic.split(" ")[0]))
+      )
+      .slice(0, 4);
     const basicsHtml = entry.basics
       .map(
         (item) => `
@@ -57,9 +75,23 @@ class BlogInterviewPage {
       .join("");
 
     const mistakesHtml = entry.mistakes.map((item) => `<li>${item}</li>`).join("");
+    const relatedCategoryHtml = relatedByCategory
+      .map((item) => `<li><a href="/blog/interview/${item.slug}/">${item.title}</a></li>`)
+      .join("");
+    const relatedTopicHtml = relatedByTopic
+      .map((item) => `<li><a href="/blog/interview/${item.slug}/">${item.title}</a></li>`)
+      .join("");
 
     return `
 <p>${entry.intro}</p>
+
+<h2>At a glance</h2>
+<ul>
+  <li><strong>Role focus:</strong> ${entry.role}</li>
+  <li><strong>Guide topic:</strong> ${entry.topic}</li>
+  <li><strong>Last updated:</strong> ${entry.updatedDateISO}</li>
+  <li><strong>Best use:</strong> sharpen real interview stories and decision logic before live loops</li>
+</ul>
 
 <h2>The basic questions that show up first</h2>
 <div class="focus-grid">
@@ -102,6 +134,18 @@ class BlogInterviewPage {
   <li><a href="/salary-negotiation/">Salary and offer strategy</a></li>
   <li><a href="/locations/">Local market pages</a></li>
 </ul>
+
+${relatedByTopic.length ? `
+<h2>Related interview guides</h2>
+<ul>
+  ${relatedTopicHtml}
+</ul>` : ""}
+
+${relatedByCategory.length ? `
+<h2>More guides in this role family</h2>
+<ul>
+  ${relatedCategoryHtml}
+</ul>` : ""}
 
 <h2>Final takeaway</h2>
 <p>Good answers to ${entry.topic.toLowerCase()} usually sound more structured, more selective, and more grounded in tradeoffs than candidates expect.</p>
