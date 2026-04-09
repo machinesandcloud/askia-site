@@ -837,6 +837,66 @@ const benchmarkEvidenceBySlug = {
       sourceDate: "March 01, 2026"
     }
   },
+  "data-engineer-atlanta": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's April 1, 2026 Atlanta, GA data engineer page shows an average salary of $120,490, with a 25th-75th percentile range of $111,407 to $131,761.",
+      points: [
+        "Average salary: $120,490",
+        "25th-75th percentile range: $111,407 to $131,761",
+        "90th percentile listed at $142,023"
+      ],
+      sourceLabel: "Salary.com: Data Engineer Salary in Atlanta, GA",
+      sourceUrl: "https://www.salary.com/research/salary/listing/data-engineer-salary/atlanta-ga",
+      sourceDate: "April 01, 2026"
+    }
+  },
+  "data-scientist-miami": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's December 1, 2025 Miami, FL data scientist page reports a median salary of $93,694, with an average range from $83,656 to $103,410.",
+      points: [
+        "Reported median salary: $93,694",
+        "25th-75th percentile range: $83,656 to $103,410",
+        "The page labels this figure as a median based on Global Salary IQ data"
+      ],
+      sourceLabel: "Salary.com: Data Scientist Salary in Miami, FL",
+      sourceUrl: "https://www.salary.com/research/salary/standard/data-scientist-salary/miami-fl",
+      sourceDate: "December 01, 2025"
+    }
+  },
+  "ai-engineer-denver": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "The closest current public benchmark I found is Salary.com's March 1, 2026 AI Engineer V page for Denver, CO, which reports an average salary of $179,633 and a 25th-75th percentile range of $164,187 to $189,666.",
+      points: [
+        "Closest public title used: AI Engineer V",
+        "Average salary: $179,633",
+        "25th-75th percentile range: $164,187 to $189,666"
+      ],
+      sourceLabel: "Salary.com: AI Engineer V Salary in Denver, CO",
+      sourceUrl: "https://www.salary.com/research/salary/benchmark/ai-engineer-v-salary/denver-co",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "qa-engineer-phoenix": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's December 1, 2025 Phoenix, AZ QA engineer page reports a median salary of $87,470, with an average range from $80,712 to $94,939.",
+      points: [
+        "Reported median salary: $87,470",
+        "25th-75th percentile range: $80,712 to $94,939",
+        "Expert-level QA engineer salary on the page is listed at $91,372"
+      ],
+      sourceLabel: "Salary.com: QA Engineer Salary in Phoenix, AZ",
+      sourceUrl: "https://www.salary.com/research/salary/standard/qa-engineer-salary/phoenix-az",
+      sourceDate: "December 01, 2025"
+    }
+  },
   "solutions-architect-new-york-city": {
     benchmarkEvidence: {
       title: "Current public benchmark snapshot",
@@ -909,6 +969,81 @@ const benchmarkEvidenceBySlug = {
       ],
       sourceLabel: "Salary.com: Finance Manager Salary in Miami, FL",
       sourceUrl: "https://www.salary.com/research/salary/benchmark/finanace-manager-salary/miami-fl",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "customer-success-manager-houston": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's March 1, 2026 Houston, TX customer success manager page shows an average salary of $113,844, with a 25th-75th percentile range of $99,826 to $129,806.",
+      points: [
+        "Average salary: $113,844",
+        "25th-75th percentile range: $99,826 to $129,806",
+        "90th percentile listed at $144,339"
+      ],
+      sourceLabel: "Salary.com: Customer Success Manager Salary in Houston, TX",
+      sourceUrl: "https://www.salary.com/research/salary/benchmark/customer-success-manager-salary/houston-tx",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "marketing-manager-atlanta": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "The closest current public benchmark I found is Salary.com's April 1, 2026 Marketing Manager B2B page for Atlanta, GA, which reports an average salary of $122,992 and a 25th-75th percentile range of $111,404 to $134,252.",
+      points: [
+        "Closest public title used: Marketing Manager B2B",
+        "Average salary: $122,992",
+        "25th-75th percentile range: $111,404 to $134,252"
+      ],
+      sourceLabel: "Salary.com: Marketing Manager B2B Salary in Atlanta, GA",
+      sourceUrl: "https://www.salary.com/research/salary/listing/marketing-manager-b2b-salary/atlanta-ga",
+      sourceDate: "April 01, 2026"
+    }
+  },
+  "operations-manager-washington-dc": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's March 1, 2026 Washington, DC operations manager page shows an average salary of $118,099, with a 25th-75th percentile range of $104,111 to $132,786.",
+      points: [
+        "Average salary: $118,099",
+        "25th-75th percentile range: $104,111 to $132,786",
+        "90th percentile listed at $146,158"
+      ],
+      sourceLabel: "Salary.com: Operations Manager Salary in Washington, DC",
+      sourceUrl: "https://www.salary.com/research/salary/benchmark/operations-manager-salary/washington-dc",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "supply-chain-manager-san-diego": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's March 1, 2026 San Diego, CA supply chain manager page shows an average salary of $140,966, with a 25th-75th percentile range of $126,390 to $154,624.",
+      points: [
+        "Average salary: $140,966",
+        "25th-75th percentile range: $126,390 to $154,624",
+        "90th percentile listed at $167,059"
+      ],
+      sourceLabel: "Salary.com: Supply Chain Manager Salary in San Diego, CA",
+      sourceUrl: "https://www.salary.com/research/salary/benchmark/supply-chain-manager-salary/san-diego-ca",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "people-operations-manager-phoenix": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "The closest current public benchmark I found is Salary.com's March 1, 2026 Senior People Operations Manager page for Phoenix, AZ, which reports an average salary of $139,188 and a 25th-75th percentile range of $124,579 to $150,211.",
+      points: [
+        "Closest public title used: Senior People Operations Manager",
+        "Average salary: $139,188",
+        "25th-75th percentile range: $124,579 to $150,211"
+      ],
+      sourceLabel: "Salary.com: Senior People Operations Manager Salary in Phoenix, AZ",
+      sourceUrl: "https://www.salary.com/research/salary/posting/senior-people-operations-manager-salary/phoenix-az",
       sourceDate: "March 01, 2026"
     }
   }
