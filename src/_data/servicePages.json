@@ -75,6 +75,21 @@
         { "title": "Interview-ready", "body": "Bullets written to set up great interview conversations." }
       ]
     },
+    "quickAnswer": "Resume writing works when it turns broad responsibilities into clear impact, level, and ownership signal quickly enough for recruiters and hiring managers to trust your fit in seconds.",
+    "bestFit": [
+      "Professionals with strong experience but weak callback rates",
+      "Candidates targeting higher-scope or better-paying roles",
+      "Searches where the resume is underselling results, ownership, or level"
+    ],
+    "decisionSignals": {
+      "title": "What a strong resume should improve first",
+      "subtitle": "The goal is not prettier formatting. It is faster trust.",
+      "items": [
+        { "tag": "Signal", "title": "Level clarity", "body": "Your seniority, scope, and ownership should be obvious without the reader having to infer them." },
+        { "tag": "Impact", "title": "Outcome framing", "body": "Each section should explain what changed because of your work, not just what you were responsible for." },
+        { "tag": "Conversion", "title": "Interview setup", "body": "A stronger resume should create better recruiter response and give you cleaner stories to use in interviews." }
+      ]
+    },
     "focus": {
       "eyebrow": "The approach",
       "title": "Show your impact in 8 seconds",
@@ -236,6 +251,21 @@
         { "title": "Results-focused", "body": "Experience shows impact, not just responsibilities." }
       ]
     },
+    "quickAnswer": "LinkedIn optimization works when it improves how recruiters find you, how quickly they understand your target role, and how credible your level feels before a real conversation ever starts.",
+    "bestFit": [
+      "Professionals who rely on recruiter search or inbound outreach",
+      "Candidates with vague headlines, empty summaries, or generic experience sections",
+      "Searches where LinkedIn and the resume are telling different stories"
+    ],
+    "decisionSignals": {
+      "title": "What LinkedIn should improve first",
+      "subtitle": "The best profile makes recruiters stop, click, and calibrate you correctly.",
+      "items": [
+        { "tag": "Discovery", "title": "Search visibility", "body": "The headline and role language should align to how recruiters actually search for candidates like you." },
+        { "tag": "Positioning", "title": "Clear market story", "body": "The About section should make your throughline and target role understandable in one pass." },
+        { "tag": "Trust", "title": "Proof of value", "body": "Your experience section should reinforce the story with scope, outcomes, and signal that feel credible." }
+      ]
+    },
     "focus": {
       "eyebrow": "The approach",
       "title": "Make recruiters stop scrolling",
@@ -394,6 +424,21 @@
         { "title": "Confidence you can feel", "body": "The calm that comes from knowing you're ready." }
       ]
     },
+    "quickAnswer": "Interview prep works when it turns scattered experience into structured stories, sharper tradeoff explanations, and calmer delivery under pressure.",
+    "bestFit": [
+      "Candidates getting interviews but not offers",
+      "Professionals who ramble, undersell scope, or lose the thread in answers",
+      "Searches that need stronger behavioral, system design, or executive-presence calibration"
+    ],
+    "decisionSignals": {
+      "title": "What interview prep should improve first",
+      "subtitle": "More practice alone is not enough. The structure has to change.",
+      "items": [
+        { "tag": "Stories", "title": "Answer structure", "body": "You should know which examples to use and how to land them without rambling or over-explaining." },
+        { "tag": "Calibration", "title": "Level signal", "body": "Your answers should sound like the scope and seniority of the role you want, not only the work you happened to do." },
+        { "tag": "Trust", "title": "Decision quality", "body": "Interviewers should hear judgment, prioritization, and tradeoffs rather than a list of disconnected actions." }
+      ]
+    },
     "focus": {
       "eyebrow": "The approach",
       "title": "Walk in ready. Walk out with offers.",
@@ -550,6 +595,21 @@
         { "title": "Data-driven", "body": "We benchmark against real market data." },
         { "title": "Strategy-focused", "body": "You know exactly what to say and when." },
         { "title": "Practice makes confident", "body": "Rehearsal reduces anxiety and improves delivery." }
+      ]
+    },
+    "quickAnswer": "Salary negotiation works best when you strengthen the compensation story before the final ask, benchmark the package properly, and practice how to handle pushback without sounding reactive.",
+    "bestFit": [
+      "Candidates with an active offer or late-stage process",
+      "Professionals comparing base, bonus, equity, or signing components",
+      "Searches where the offer feels low but the leverage story is still unclear"
+    ],
+    "decisionSignals": {
+      "title": "What negotiation support should improve first",
+      "subtitle": "The strongest result is a better anchor, not just a bolder sentence.",
+      "items": [
+        { "tag": "Benchmark", "title": "Package clarity", "body": "You need to understand the real market range and which parts of the offer have the most room to move." },
+        { "tag": "Narrative", "title": "Leverage story", "body": "Your ask should connect to role scope, evidence, and alternatives rather than sounding like a number pulled from the air." },
+        { "tag": "Delivery", "title": "Pushback handling", "body": "You should know how to respond when the company tests your confidence, timing, or flexibility." }
       ]
     },
     "focus": {

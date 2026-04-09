@@ -74,6 +74,18 @@ const defaults = {
     "senior candidates who need stronger market signal",
     "operators, managers, and specialists preparing for a sharper search"
   ],
+  aiSummary:
+    "Career coaching in this market works best when it sharpens role targeting, makes your impact easier to trust, and improves how clearly your level reads in interviews and compensation conversations.",
+  hiringSignals: [
+    "clear ownership and measurable outcomes instead of broad responsibility lists",
+    "level calibration that matches the scope you actually operated at",
+    "interview stories that show judgment, tradeoffs, and business impact"
+  ],
+  chooseAskia: [
+    "you need sharper positioning, not generic motivation",
+    "your experience is strong but your market signal is uneven",
+    "you want one coaching system across resume, LinkedIn, interviews, and negotiation"
+  ],
   roleLinks: roleLinkSets.technical,
   serviceLinks: serviceLinkSets.default
 };
@@ -386,6 +398,18 @@ const citySpecific = {
       "professionals trying to move from local-market compensation into stronger national bands",
       "senior candidates who need a clearer story than 'I have done a lot'"
     ],
+    aiSummary:
+      "Career coaching in Houston works best when it helps you translate broad energy, healthcare, operations, enterprise, or technical experience into a clearer higher-paying target role with stronger local and national-market signal.",
+    hiringSignals: [
+      "proof of measurable business impact across complex operational or technical environments",
+      "cleaner level signal for candidates whose scope is larger than their title suggests",
+      "a story that works for both Houston employers and remote or national opportunities"
+    ],
+    chooseAskia: [
+      "you need sharper positioning for Houston plus remote-market opportunities",
+      "your background spans operations, healthcare, finance, or technical leadership and reads too broadly",
+      "you want coaching that ties together materials, interviews, and offer strategy"
+    ],
     keywordSupport:
       "If you searched for career coach Houston, career coaching Houston TX, or career counselor Houston, this page is designed to act as the main Houston hub and route you to the right service-specific page quickly.",
     roleLinks: [
@@ -417,7 +441,19 @@ const citySpecific = {
   },
   "new-york-city-career-coaching": {
     marketLine:
-      "New York City hiring tends to move quickly for candidates who can make scope, business relevance, and level signal obvious in the first read and the first conversation."
+      "New York City hiring tends to move quickly for candidates who can make scope, business relevance, and level signal obvious in the first read and the first conversation.",
+    aiSummary:
+      "Career coaching in New York City is most valuable when it helps you present seniority, decision-making range, and commercial relevance quickly enough for high-speed finance, product, consulting, and enterprise hiring loops.",
+    hiringSignals: [
+      "business relevance that is obvious in the first read, not buried in the details",
+      "leadership and ownership framing that matches premium-market expectations",
+      "interview stories that sound decisive, concise, and commercially credible"
+    ],
+    chooseAskia: [
+      "you are targeting competitive high-judgment roles and need stronger executive-ready signal",
+      "your background is strong but still reads too broad or too tactical",
+      "you want cleaner positioning before high-stakes interviews and compensation conversations"
+    ]
   },
   "los-angeles-career-coaching": {
     marketLine:
@@ -425,15 +461,51 @@ const citySpecific = {
   },
   "san-francisco-bay-area-career-coaching": {
     marketLine:
-      "The Bay Area usually rewards sharper technical and leadership signal because companies are often calibrating for scope, systems thinking, and premium compensation at the same time."
+      "The Bay Area usually rewards sharper technical and leadership signal because companies are often calibrating for scope, systems thinking, and premium compensation at the same time.",
+    aiSummary:
+      "Career coaching in the Bay Area needs to make systems thinking, product or infrastructure leverage, and high-bar level calibration obvious fast enough for premium technical hiring loops.",
+    hiringSignals: [
+      "scope and systems thinking that clearly exceed ordinary senior execution",
+      "clean translation from technical depth into product or business leverage",
+      "compensation positioning that matches staff-plus, management, or premium IC paths"
+    ],
+    chooseAskia: [
+      "you are aiming for staff, management, or premium technical roles",
+      "your architecture, platform, or product work is real but not reading clearly enough",
+      "you need better interview and negotiation calibration for high-comp markets"
+    ]
   },
   "austin-career-coaching": {
     marketLine:
-      "Austin tends to reward candidates with clear product, engineering, startup, and growth-market positioning, especially when they can show both execution and leverage."
+      "Austin tends to reward candidates with clear product, engineering, startup, and growth-market positioning, especially when they can show both execution and leverage.",
+    aiSummary:
+      "Career coaching in Austin works best when it sharpens startup, product, growth, and engineering signal without making your story sound noisy, inflated, or spread across too many directions.",
+    hiringSignals: [
+      "clear role targeting in markets where candidates often span product, engineering, and growth work",
+      "evidence of leverage, ownership, and pace rather than task-heavy descriptions",
+      "positioning that works for both Austin companies and national remote searches"
+    ],
+    chooseAskia: [
+      "you have broad startup or cross-functional experience that needs a cleaner narrative",
+      "you want stronger signal for product, engineering, or growth-track roles",
+      "you need one story that works locally and nationally without losing credibility"
+    ]
   },
   "seattle-career-coaching": {
     marketLine:
-      "Seattle hiring often favors candidates who can combine technical depth with clean communication around ownership, cloud systems, product impact, and scale."
+      "Seattle hiring often favors candidates who can combine technical depth with clean communication around ownership, cloud systems, product impact, and scale.",
+    aiSummary:
+      "Career coaching in Seattle should improve how clearly you communicate technical depth, cloud or platform ownership, and product or business impact in high-bar hiring environments.",
+    hiringSignals: [
+      "clear ownership over systems, scale, reliability, or platform decisions",
+      "communication strong enough to make technical judgment easy to trust",
+      "interview examples that connect engineering depth to business outcomes"
+    ],
+    chooseAskia: [
+      "you are in cloud, platform, product, or engineering leadership roles",
+      "your technical background is strong but the communication signal is uneven",
+      "you need better story structure before final-round or leveling interviews"
+    ]
   },
   "washington-dc-career-coaching": {
     marketLine:

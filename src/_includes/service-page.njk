@@ -106,6 +106,50 @@
   </div>
 </section>
 
+{% if serviceData.quickAnswer or serviceData.bestFit %}
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    {% if serviceData.quickAnswer %}
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Quick answer</h2>
+      <p>{{ serviceData.quickAnswer }}</p>
+    </div>
+    {% endif %}
+    {% if serviceData.bestFit %}
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Best fit</h2>
+      <ul class="checklist">
+        {% for item in serviceData.bestFit %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
+{% if serviceData.decisionSignals %}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header" style="text-align: center;">
+      <p class="hero-eyebrow">What This Fixes</p>
+      <h2 class="section-title section-title-glow">{{ serviceData.decisionSignals.title or "What this service should improve first" }}</h2>
+      {% if serviceData.decisionSignals.subtitle %}<p class="section-subtitle">{{ serviceData.decisionSignals.subtitle }}</p>{% endif %}
+    </div>
+    <div class="focus-grid">
+      {% for item in serviceData.decisionSignals.items %}
+      <article class="focus-card">
+        <span class="focus-tag">{{ item.tag }}</span>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.body }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
 {# WHAT YOU GET - Simplified benefits #}
 {% if serviceData.focus %}
 <section class="section">

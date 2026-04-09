@@ -10,6 +10,9 @@ layout: layout.njk
 {% set comparisonLine = cityPage.comparisonLine or cityDefaults.comparisonLine %}
 {% set marketThemes = cityPage.marketThemes or cityDefaults.marketThemes %}
 {% set bestFor = cityPage.bestFor or cityDefaults.bestFor %}
+{% set aiSummary = cityPage.aiSummary or cityDefaults.aiSummary %}
+{% set hiringSignals = cityPage.hiringSignals or cityDefaults.hiringSignals %}
+{% set chooseAskia = cityPage.chooseAskia or cityDefaults.chooseAskia %}
 {% set roleLinks = cityPage.roleLinks or cityDefaults.roleLinks %}
 {% set serviceLinks = cityPage.serviceLinks or cityDefaults.serviceLinks %}
 {% set keywordSupport = cityPage.keywordSupport %}
@@ -36,6 +39,23 @@ layout: layout.njk
       <strong>What this page is built to help with</strong>
       <ul>
         {% for item in focusAreas %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Quick answer</h2>
+      <p>{{ aiSummary }}</p>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Why professionals choose Askia</h2>
+      <ul class="checklist">
+        {% for item in chooseAskia %}
         <li>{{ item }}</li>
         {% endfor %}
       </ul>
@@ -91,6 +111,23 @@ layout: layout.njk
     </div>
     <div class="faq-grid">
       {% for item in bestFor %}
+      <div class="faq-card">
+        <p>{{ item }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Hiring Signals</p>
+      <h2 class="section-title section-title-glow">What matters most in {{ cityName }}</h2>
+      <p class="section-subtitle">These are the signals that most often change how recruiters and hiring managers read your candidacy.</p>
+    </div>
+    <div class="faq-grid">
+      {% for item in hiringSignals %}
       <div class="faq-card">
         <p>{{ item }}</p>
       </div>
