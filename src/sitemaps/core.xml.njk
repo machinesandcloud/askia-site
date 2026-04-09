@@ -14,4 +14,9 @@ eleventyExcludeFromCollections: true
   </url>
     {% endif %}
   {% endfor %}
+  {% for entry in cityLocalPages %}
+  <url>
+    <loc>{{ site.url }}/{{ entry.slug }}/</loc>
+  </url>
+  {% endfor %}
 </urlset>

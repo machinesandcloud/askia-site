@@ -164,6 +164,19 @@ metaDescription: "Browse the key Askia pages across services, role tracks, indus
         {% endfor %}
       </ul>
     </div>
+
+    <div class="sitemap-block sitemap-block-wide">
+      <h2>Priority local clusters</h2>
+      <ul class="sitemap-list sitemap-list-columns">
+        {% set clusterCount = 0 %}
+        {% for entry in cityLocalPages %}
+          {% if clusterCount < 24 %}
+          <li><a href="/{{ entry.slug }}/">{{ entry.title }}</a></li>
+          {% set clusterCount = clusterCount + 1 %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </section>
 

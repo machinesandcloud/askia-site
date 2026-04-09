@@ -1,9 +1,9 @@
-class HoustonLocalPage {
+class CityLocalPage {
   data() {
     return {
       layout: "houston-local-layout.njk",
       pagination: {
-        data: "houstonLocalPages",
+        data: "cityLocalPages",
         size: 1,
         alias: "entry"
       },
@@ -18,7 +18,7 @@ class HoustonLocalPage {
         schemaServiceType: (data) => data.entry.schemaServiceType,
         breadcrumbs: (data) => [
           { name: "Home", url: "/" },
-          { name: "Houston", url: "/houston-career-coaching/" },
+          { name: data.entry.cityLabel, url: `/${data.entry.hubSlug}/` },
           { name: data.entry.title, url: `/${data.entry.slug}/` }
         ]
       }
@@ -30,4 +30,4 @@ class HoustonLocalPage {
   }
 }
 
-module.exports = HoustonLocalPage;
+module.exports = CityLocalPage;

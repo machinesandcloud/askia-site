@@ -464,6 +464,53 @@ const generated = cities.reduce((acc, city) => {
   return acc;
 }, {});
 
+const clusterCitySlugs = new Set([
+  "houston-career-coaching",
+  "new-york-city-career-coaching",
+  "dallas-fort-worth-career-coaching",
+  "austin-career-coaching",
+  "seattle-career-coaching",
+  "san-francisco-bay-area-career-coaching",
+  "washington-dc-career-coaching",
+  "boston-career-coaching",
+  "atlanta-career-coaching",
+  "raleigh-durham-career-coaching",
+  "denver-career-coaching",
+  "chicago-career-coaching",
+  "phoenix-career-coaching",
+  "san-diego-career-coaching",
+  "los-angeles-career-coaching",
+  "miami-career-coaching"
+]);
+
+function buildLocalClusterLinks(city) {
+  const base = city.slug.replace(/-career-coaching$/, "");
+  return [
+    { label: `Career counselor ${city.label}`, url: `/career-counselor-${base}/` },
+    { label: `Executive career coach ${city.label}`, url: `/executive-career-coach-${base}/` },
+    { label: `Resume writer ${city.label}`, url: `/resume-writer-${base}/` },
+    { label: `LinkedIn profile writer ${city.label}`, url: `/linkedin-profile-writer-${base}/` },
+    { label: `Interview coaching ${city.label}`, url: `/interview-coaching-${base}/` },
+    { label: `Salary negotiation coach ${city.label}`, url: `/salary-negotiation-coach-${base}/` },
+    { label: `Job search coach ${city.label}`, url: `/job-search-coach-${base}/` },
+    { label: `Career change coach ${city.label}`, url: `/career-change-coach-${base}/` },
+    { label: `Outplacement ${city.label}`, url: `/outplacement-${base}/` },
+    { label: `AI/ML career coaching ${city.label}`, url: `/ai-ml-career-coaching-${base}/` },
+    { label: `Career coaching for engineers ${city.label}`, url: `/career-coaching-for-engineers-${base}/` },
+    { label: `Legal & compliance coaching ${city.label}`, url: `/career-coaching-for-legal-compliance-${base}/` }
+  ];
+}
+
+for (const city of cities) {
+  if (!clusterCitySlugs.has(city.slug)) continue;
+  generated[city.slug] = {
+    ...generated[city.slug],
+    keywordSupport:
+      `If you searched for career coach ${city.label}, career coaching ${city.label}, or career counselor ${city.label}, this page is designed to act as the main ${city.label} hub and route you to the right service-specific page quickly.`,
+    localClusterLinks: buildLocalClusterLinks(city)
+  };
+}
+
 module.exports = {
   default: defaults,
   ...generated
