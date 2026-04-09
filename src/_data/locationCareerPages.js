@@ -509,27 +509,99 @@ const citySpecific = {
   },
   "washington-dc-career-coaching": {
     marketLine:
-      "Washington, DC tends to reward candidates who can make strategy, leadership, policy-adjacent, consulting, and public-sector technology signal easy to trust."
+      "Washington, DC tends to reward candidates who can make strategy, leadership, policy-adjacent, consulting, and public-sector technology signal easy to trust.",
+    aiSummary:
+      "Career coaching in Washington, DC works best when it helps you translate strategy, stakeholder management, consulting, cybersecurity, and policy-adjacent work into cleaner executive-ready market signal.",
+    hiringSignals: [
+      "communication that makes strategy, influence, and stakeholder management easy to trust",
+      "clean translation between public-sector, consulting, and private-sector contexts",
+      "interview examples that show accountability, judgment, and high-stakes decision-making"
+    ],
+    chooseAskia: [
+      "you work in consulting, cybersecurity, program leadership, or policy-adjacent environments",
+      "your background is strong but too dense, regulated, or mission-heavy on paper",
+      "you need better positioning for both DC and broader national opportunities"
+    ]
   },
   "boston-career-coaching": {
     marketLine:
-      "Boston hiring usually rewards candidates who can combine technical depth, healthcare or life-sciences context, and clean leadership signal in one story."
+      "Boston hiring usually rewards candidates who can combine technical depth, healthcare or life-sciences context, and clean leadership signal in one story.",
+    aiSummary:
+      "Career coaching in Boston is most useful when it helps you make technical, healthcare, biotech, data, or product expertise sound commercially relevant and senior enough for demanding hiring loops.",
+    hiringSignals: [
+      "clear translation from deep expertise into business or organizational impact",
+      "leadership signal that sounds credible in knowledge-heavy environments",
+      "stories that connect analytical depth with cross-functional influence"
+    ],
+    chooseAskia: [
+      "you are in healthcare, biotech, data, product, or technical leadership roles",
+      "your expertise is strong but difficult to summarize cleanly",
+      "you need better positioning for higher-scope roles in high-bar markets"
+    ]
   },
   "chicago-career-coaching": {
     marketLine:
-      "Chicago tends to reward clear leadership and business relevance across finance, consulting, operations, product, and enterprise technology roles."
+      "Chicago tends to reward clear leadership and business relevance across finance, consulting, operations, product, and enterprise technology roles.",
+    aiSummary:
+      "Career coaching in Chicago works best when it sharpens leadership, operational scale, and business relevance across finance, consulting, product, and enterprise environments.",
+    hiringSignals: [
+      "clear proof of ownership across complex business and operational systems",
+      "leadership framing that feels commercially grounded rather than inflated",
+      "interview answers that show judgment, prioritization, and execution range"
+    ],
+    chooseAskia: [
+      "you are targeting finance, consulting, operations, product, or enterprise technology roles",
+      "your experience is broad but still underselling scope or commercial relevance",
+      "you need stronger promotion-ready or management-track signal"
+    ]
   },
   "atlanta-career-coaching": {
     marketLine:
-      "Atlanta hiring usually responds well to candidates who can bridge execution, growth, and leadership signal across enterprise, fintech, operations, and go-to-market roles."
+      "Atlanta hiring usually responds well to candidates who can bridge execution, growth, and leadership signal across enterprise, fintech, operations, and go-to-market roles.",
+    aiSummary:
+      "Career coaching in Atlanta works best when it turns broad growth, enterprise, fintech, sales, or operations experience into a tighter leadership story with clearer next-role positioning.",
+    hiringSignals: [
+      "evidence of revenue, growth, operations, or delivery impact that feels easy to trust",
+      "clear translation from broad execution into management or strategic value",
+      "positioning that works for Atlanta employers and fast-moving national searches"
+    ],
+    chooseAskia: [
+      "you work across growth, fintech, operations, enterprise, or go-to-market roles",
+      "your background spans several functions and currently reads too broad",
+      "you want stronger interview and salary-confidence before the next move"
+    ]
   },
   "miami-career-coaching": {
     marketLine:
-      "Miami tends to reward candidates who can move between growth, operations, startup, finance, and cross-border or remote-market narratives clearly."
+      "Miami tends to reward candidates who can move between growth, operations, startup, finance, and cross-border or remote-market narratives clearly.",
+    aiSummary:
+      "Career coaching in Miami is most effective when it clarifies growth, startup, finance, operations, and cross-border experience into one story that feels focused and high-value.",
+    hiringSignals: [
+      "a narrative strong enough to connect local opportunities with national or remote-market ambition",
+      "clear business value for candidates whose work spans several industries or markets",
+      "interview and compensation stories that feel focused rather than opportunistic"
+    ],
+    chooseAskia: [
+      "you have startup, finance, operations, or cross-border experience that needs cleaner framing",
+      "you want a stronger story for both Miami and remote-market opportunities",
+      "you need better signal before interviews, compensation conversations, or a pivot"
+    ]
   },
   "dallas-fort-worth-career-coaching": {
     marketLine:
-      "Dallas-Fort Worth often rewards candidates who can show operational scale, leadership range, and the ability to move across enterprise environments cleanly."
+      "Dallas-Fort Worth often rewards candidates who can show operational scale, leadership range, and the ability to move across enterprise environments cleanly.",
+    aiSummary:
+      "Career coaching in Dallas-Fort Worth works best when it sharpens operational scale, enterprise credibility, and leadership range for candidates targeting larger-scope business or technical roles.",
+    hiringSignals: [
+      "clear evidence of scale, complexity, and ownership across enterprise environments",
+      "leadership framing that makes broader scope feel earned and credible",
+      "compensation positioning for candidates whose role complexity exceeds the current title"
+    ],
+    chooseAskia: [
+      "you work in enterprise operations, finance, technology modernization, or management tracks",
+      "your background is strong but still underselling scale or leadership breadth",
+      "you need better market signal before stepping into larger-scope roles"
+    ]
   }
 };
 
