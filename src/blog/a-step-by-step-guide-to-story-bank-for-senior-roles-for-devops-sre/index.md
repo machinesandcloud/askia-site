@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on story bank."
 categories:
   - "Leadership Signal"
   - "Leadership Signal"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 You can be great at the job and still miss interviews if the signal is fuzzy. Devops and sre professionals see this a lot.
 

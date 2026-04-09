@@ -1,6 +1,8 @@
 ---
 layout: layout.njk
 ---
+{% set relatedCaseStudies = caseStudies.byCityHub[entry.hubSlug] or [] %}
+{% set decisionGuides = citySupportPages.byHubSlug[entry.hubSlug] or [] %}
 <section class="section">
   <div class="container hero-grid">
     <div class="hero-copy">
@@ -34,6 +36,28 @@ layout: layout.njk
       <h2 class="section-title section-title-glow">Best fit</h2>
       <ul class="checklist">
         {% for item in entry.bestFit %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Why Askia is credible here</h2>
+      <p>{{ expertCredibility.founder.shortBio }}</p>
+      <ul class="checklist">
+        {% for item in expertCredibility.founder.highlights %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Proof behind the coaching</h2>
+      <ul class="checklist">
+        {% for item in expertCredibility.founder.metrics %}
         <li>{{ item }}</li>
         {% endfor %}
       </ul>
@@ -121,6 +145,10 @@ layout: layout.njk
           <strong>Salary guides</strong>
           <span>Compensation and negotiation context for higher-quality offer decisions.</span>
         </a>
+        <a class="location-card" href="/proof/">
+          <strong>Proof library</strong>
+          <span>Case studies showing how stronger positioning changes outcomes.</span>
+        </a>
       </div>
     </div>
     <div class="content-panel">
@@ -130,6 +158,49 @@ layout: layout.njk
     </div>
   </div>
 </section>
+
+{% if decisionGuides.length %}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Decision Guides</p>
+      <h2 class="section-title section-title-glow">{{ entry.cityLabel }} pricing and fit guides</h2>
+    </div>
+    <div class="link-stack">
+      {% for item in decisionGuides %}
+      {% if loop.index <= 4 %}
+      <a class="location-card" href="{{ item.url }}">
+        <strong>{{ item.label }}</strong>
+        <span>Support page for price, fit, and provider-selection intent in {{ entry.cityLabel }}.</span>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if relatedCaseStudies.length %}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Proof</p>
+      <h2 class="section-title section-title-glow">Related examples from {{ entry.cityLabel }}</h2>
+    </div>
+    <div class="resources-grid">
+      {% for item in relatedCaseStudies %}
+      {% if loop.index <= 2 %}
+      <a class="resource-card resource-card-link" href="/proof/{{ item.slug }}/">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.summary }}</p>
+        <span>{{ item.outcome }}</span>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
 
 <section class="section">
   <div class="container faq-stage">

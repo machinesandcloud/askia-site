@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on promotion readiness."
 categories:
   - "Compensation Mastery"
   - "Tech Career Navigation"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 If you are a engineering manager, you already know the work is hard. The challenge is making the signal clear.
 

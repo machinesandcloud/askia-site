@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on promotion readiness."
 categories:
   - "Strategic Positioning"
   - "Interview Intelligence"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 If you are a machine learning engineer, you already know the work is hard. The challenge is making the signal clear.
 

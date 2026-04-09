@@ -14,6 +14,10 @@ imageAlt: "Professional career coaching session in a modern office."
 categories:
   - "Strategic Positioning"
   - "Tech Career Navigation"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Here is the truth: hiring teams move fast. If your signal is unclear, even strong tech professionals get missed.
 

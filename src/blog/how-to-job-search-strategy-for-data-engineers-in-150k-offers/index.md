@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on job search strategy."
 categories:
   - "Hidden Market Access"
   - "Hidden Market Access"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most data engineers I coach are doing strong work. The gap is how that work is communicated.
 

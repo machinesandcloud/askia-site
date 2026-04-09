@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on first 30 days."
 categories:
   - "Compensation Mastery"
   - "Leadership Signal"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 You can be great at the job and still miss interviews if the signal is fuzzy. Data engineers see this a lot.
 

@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on career positioning."
 categories:
   - "Compensation Mastery"
   - "Hidden Market Access"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 If you are a solutions architect, you already know the work is hard. The challenge is making the signal clear.
 

@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on role leveling."
 categories:
   - "Interview Intelligence"
   - "Tech Career Navigation"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Here is the truth: hiring teams move fast. If your signal is unclear, even strong solutions architects get missed.
 

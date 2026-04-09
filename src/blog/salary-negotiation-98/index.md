@@ -14,6 +14,10 @@ imageAlt: "Professional career coaching session in a modern office."
 categories:
   - "Strategic Positioning"
   - "Tech Career Navigation"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 If you are a tech professional, you already know the work is hard. The challenge is making the signal clear.
 

@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on cold outreach."
 categories:
   - "Strategic Positioning"
   - "Hidden Market Access"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most data scientists I coach are doing strong work. The gap is how that work is communicated.
 

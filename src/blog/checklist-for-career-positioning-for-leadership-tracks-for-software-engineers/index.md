@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on career positioning."
 categories:
   - "Compensation Mastery"
   - "Interview Intelligence"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most software engineers I coach are doing strong work. The gap is how that work is communicated.
 

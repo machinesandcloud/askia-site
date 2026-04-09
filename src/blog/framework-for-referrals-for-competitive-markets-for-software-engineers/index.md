@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on referrals."
 categories:
   - "Tech Career Navigation"
   - "Hidden Market Access"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 If you are a software engineer, you already know the work is hard. The challenge is making the signal clear.
 

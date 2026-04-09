@@ -15,6 +15,10 @@ categories:
   - "Tech Career Navigation"
   - "Strategic Positioning"
   - "Hidden Market Access"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most tech professionals I coach are doing strong work. The gap is how that work is communicated.
 

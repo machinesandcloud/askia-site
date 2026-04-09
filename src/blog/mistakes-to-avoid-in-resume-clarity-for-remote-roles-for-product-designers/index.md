@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on resume clarity."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 If you are a product designer, you already know the work is hard. The challenge is making the signal clear.
 

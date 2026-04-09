@@ -1,6 +1,8 @@
 {# CRO-Optimized Service Page Template #}
 {# Streamlined for maximum conversion following Executive Summary principles #}
 {% set serviceDepth = serviceCopyDepth[page.fileSlug] or serviceCopyDepth.default %}
+{% set relatedCaseStudies = caseStudies.byService[page.fileSlug] or [] %}
+{% set relatedDecisionGuides = citySupportPages.byService[page.fileSlug] or [] %}
 
 <div class="service-page" style="--theme-accent: {{ serviceData.visual.accent }}; --theme-accent-2: {{ serviceData.visual.accent2 }};">
 
@@ -128,6 +130,72 @@
     {% endif %}
   </div>
 </section>
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Why Askia is credible here</h2>
+      <p>{{ expertCredibility.founder.shortBio }}</p>
+      <ul class="checklist">
+        {% for item in expertCredibility.founder.highlights %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Proof behind the coaching</h2>
+      <ul class="checklist">
+        {% for item in expertCredibility.founder.metrics %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+{% if relatedCaseStudies.length %}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header" style="text-align: center;">
+      <p class="hero-eyebrow">Proof</p>
+      <h2 class="section-title section-title-glow">Relevant case studies</h2>
+      <p class="section-subtitle">Examples of how stronger positioning changes interviews and offers.</p>
+    </div>
+    <div class="resources-grid">
+      {% for item in relatedCaseStudies %}
+      {% if loop.index <= 3 %}
+      <a class="resource-card resource-card-link" href="/proof/{{ item.slug }}/">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.summary }}</p>
+        <span>{{ item.outcome }}</span>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if relatedDecisionGuides.length %}
+<section class="section section-tight">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Decision Guides</p>
+      <h2 class="section-title section-title-glow">City pages for price and provider-choice intent</h2>
+    </div>
+    <div class="link-stack">
+      {% for item in relatedDecisionGuides %}
+      {% if loop.index <= 6 %}
+      <a class="location-card" href="{{ item.url }}">
+        <strong>{{ item.label }}</strong>
+        <span>{{ item.cityLabel }} decision guide for this service.</span>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
 {% endif %}
 
 <section class="section section-tight">

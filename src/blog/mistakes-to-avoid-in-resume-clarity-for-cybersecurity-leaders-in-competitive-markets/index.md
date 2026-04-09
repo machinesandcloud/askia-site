@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on resume clarity."
 categories:
   - "Compensation Mastery"
   - "Compensation Mastery"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Here is the truth: hiring teams move fast. If your signal is unclear, even strong cybersecurity leaders get missed.
 

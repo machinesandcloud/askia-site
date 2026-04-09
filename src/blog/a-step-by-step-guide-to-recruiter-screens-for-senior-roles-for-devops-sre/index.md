@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on recruiter screens."
 categories:
   - "Hidden Market Access"
   - "Interview Intelligence"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Here is the truth: hiring teams move fast. If your signal is unclear, even strong DevOps and SRE professionals get missed.
 

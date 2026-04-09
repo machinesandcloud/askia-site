@@ -14,6 +14,10 @@ imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Strategic Positioning"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most account executives I coach are doing strong work. The gap is how that work is communicated.
 

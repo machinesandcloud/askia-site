@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on job search strategy."
 categories:
   - "Compensation Mastery"
   - "Compensation Mastery"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Here is the truth: hiring teams move fast. If your signal is unclear, even strong software engineers get missed.
 

@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on portfolio strategy."
 categories:
   - "Hidden Market Access"
   - "Tech Career Navigation"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 If you are a cybersecurity leader, you already know the work is hard. The challenge is making the signal clear.
 

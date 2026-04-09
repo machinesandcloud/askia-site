@@ -230,7 +230,8 @@
         "url": "{{ site.url }}"
       }
     </script>
-    {% if schemaType == "Service" %}
+    {% set pageSpecificServiceSchemaLayouts = ["service-page.njk", "location-career-coaching.njk", "houston-local-layout.njk"] %}
+    {% if schemaType == "Service" and not disableLayoutServiceSchema and not serviceData and not cityPage and not entry and layout not in pageSpecificServiceSchemaLayouts %}
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",

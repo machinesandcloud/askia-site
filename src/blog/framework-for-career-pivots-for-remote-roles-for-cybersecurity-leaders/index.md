@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on career pivots."
 categories:
   - "Hidden Market Access"
   - "Leadership Signal"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 You can be great at the job and still miss interviews if the signal is fuzzy. Cybersecurity leaders see this a lot.
 

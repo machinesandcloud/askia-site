@@ -14,6 +14,10 @@ imageAlt: "Professional coaching and career strategy imagery."
 categories:
   - "Strategic Positioning"
 
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Here is the truth: hiring teams move fast. If your signal is unclear, even strong tech professionals get missed.
 

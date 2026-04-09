@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on referrals."
 categories:
   - "Compensation Mastery"
   - "Leadership Signal"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most QA and test automation engineers I coach are doing strong work. The gap is how that work is communicated.
 

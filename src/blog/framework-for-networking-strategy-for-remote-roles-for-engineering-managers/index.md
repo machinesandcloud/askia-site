@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on networking strategy."
 categories:
   - "Interview Intelligence"
   - "Compensation Mastery"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 If you are a engineering manager, you already know the work is hard. The challenge is making the signal clear.
 

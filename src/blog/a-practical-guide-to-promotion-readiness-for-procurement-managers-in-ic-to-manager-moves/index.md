@@ -14,6 +14,10 @@ imageAlt: "Askia career coaching insights."
 categories:
   - "Interview Intelligence"
   - "Compensation Mastery"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most procurement managers I coach are doing strong work. The gap is how that work is communicated.
 

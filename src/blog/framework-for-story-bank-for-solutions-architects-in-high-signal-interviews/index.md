@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on story bank."
 categories:
   - "Strategic Positioning"
   - "Hidden Market Access"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Here is the truth: hiring teams move fast. If your signal is unclear, even strong solutions architects get missed.
 

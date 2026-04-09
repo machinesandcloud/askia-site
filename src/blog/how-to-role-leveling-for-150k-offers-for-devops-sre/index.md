@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on role leveling."
 categories:
   - "Strategic Positioning"
   - "Interview Intelligence"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most DevOps and SRE professionals I coach are doing strong work. The gap is how that work is communicated.
 

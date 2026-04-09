@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on interview prep."
 categories:
   - "Leadership Signal"
   - "Tech Career Navigation"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most product managers I coach are doing strong work. The gap is how that work is communicated.
 

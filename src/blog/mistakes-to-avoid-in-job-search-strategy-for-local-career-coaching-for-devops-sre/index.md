@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on job search strategy."
 categories:
   - "Tech Career Navigation"
   - "Interview Intelligence"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 If you are a DevOps or SRE professional, you already know the work is hard. The challenge is making the signal clear.
 

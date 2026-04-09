@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on story bank."
 categories:
   - "Interview Intelligence"
   - "Strategic Positioning"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most cybersecurity leaders I coach are doing strong work. The gap is how that work is communicated.
 

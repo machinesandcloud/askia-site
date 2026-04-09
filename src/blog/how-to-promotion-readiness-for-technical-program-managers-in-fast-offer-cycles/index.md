@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on promotion readiness."
 categories:
   - "Hidden Market Access"
   - "Compensation Mastery"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 If you are a technical program manager, you already know the work is hard. The challenge is making the signal clear.
 

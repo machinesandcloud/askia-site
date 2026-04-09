@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on cold outreach."
 categories:
   - "Strategic Positioning"
   - "Leadership Signal"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 If you are a solutions architect, you already know the work is hard. The challenge is making the signal clear.
 

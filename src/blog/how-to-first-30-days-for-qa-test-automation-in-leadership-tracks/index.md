@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on first 30 days."
 categories:
   - "Leadership Signal"
   - "Tech Career Navigation"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 You can be great at the job and still miss interviews if the signal is fuzzy. Qa and test automation engineers see this a lot.
 

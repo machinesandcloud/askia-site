@@ -6,7 +6,7 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for entry in collections.all %}
-    {% if entry.url and entry.data.sitemap != false and entry.data.noindex != true and entry.url != "/sitemap.xml" and entry.url != "/sitemap.txt" and entry.url != "/robots.txt" and not entry.url.startsWith("/blog/") and not (entry.data.breadcrumbs and entry.data.breadcrumbs[1] and entry.data.breadcrumbs[1].name == "Locations") and entry.url != "/locations/" %}
+    {% if entry.url and entry.data.sitemap != false and entry.data.noindex != true and entry.url != "/sitemap.xml" and entry.url != "/sitemap.txt" and entry.url != "/robots.txt" and not entry.url.startsWith("/blog/") and not entry.url.startsWith("/proof/") and not entry.url.startsWith("/career-coaching-cost-") and not entry.url.startsWith("/how-to-choose-a-career-coach-") and not entry.url.startsWith("/resume-writing-cost-") and not entry.url.startsWith("/how-to-choose-a-resume-writer-") and not entry.url.startsWith("/interview-prep-cost-") and not entry.url.startsWith("/how-to-choose-interview-prep-") and not (entry.data.breadcrumbs and entry.data.breadcrumbs[1] and entry.data.breadcrumbs[1].name == "Locations") and entry.url != "/locations/" %}
   <url>
     <loc>{{ site.url }}{{ entry.url }}</loc>
     {% set lastModified = entry.data.updatedDateISO or entry.data.publishDateISO or entry.date %}
@@ -15,6 +15,19 @@ eleventyExcludeFromCollections: true
     {% endif %}
   {% endfor %}
   {% for entry in cityLocalPages %}
+  <url>
+    <loc>{{ site.url }}/{{ entry.slug }}/</loc>
+  </url>
+  {% endfor %}
+  <url>
+    <loc>{{ site.url }}/proof/</loc>
+  </url>
+  {% for entry in caseStudies.items %}
+  <url>
+    <loc>{{ site.url }}/proof/{{ entry.slug }}/</loc>
+  </url>
+  {% endfor %}
+  {% for entry in citySupportPages.items %}
   <url>
     <loc>{{ site.url }}/{{ entry.slug }}/</loc>
   </url>

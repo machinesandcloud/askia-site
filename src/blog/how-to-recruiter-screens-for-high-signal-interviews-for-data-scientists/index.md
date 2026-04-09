@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on recruiter screens."
 categories:
   - "Interview Intelligence"
   - "Tech Career Navigation"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most data scientists I coach are doing strong work. The gap is how that work is communicated.
 

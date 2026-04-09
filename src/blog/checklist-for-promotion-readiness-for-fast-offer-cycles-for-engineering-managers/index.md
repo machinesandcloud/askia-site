@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on promotion readiness."
 categories:
   - "Leadership Signal"
   - "Strategic Positioning"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most engineering managers I coach are doing strong work. The gap is how that work is communicated.
 

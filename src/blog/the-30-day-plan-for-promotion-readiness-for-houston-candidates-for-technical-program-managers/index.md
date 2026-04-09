@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on promotion readiness."
 categories:
   - "Leadership Signal"
   - "Strategic Positioning"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Here is the truth: hiring teams move fast. If your signal is unclear, even strong technical program managers get missed.
 

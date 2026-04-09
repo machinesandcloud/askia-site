@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on LinkedIn positioning."
 categories:
   - "Leadership Signal"
   - "Interview Intelligence"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 If you are a QA or test automation engineer, you already know the work is hard. The challenge is making the signal clear.
 

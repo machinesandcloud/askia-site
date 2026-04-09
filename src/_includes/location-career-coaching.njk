@@ -19,6 +19,8 @@ layout: layout.njk
 {% set serviceLinks = cityPage.serviceLinks or cityDefaults.serviceLinks %}
 {% set keywordSupport = cityPage.keywordSupport %}
 {% set localClusterLinks = cityPage.localClusterLinks %}
+{% set relatedCaseStudies = caseStudies.byCityHub[citySlug] or [] %}
+{% set decisionGuides = citySupportPages.byHubSlug[citySlug] or [] %}
 {% set localKeyword = "career coaching in " + cityName %}
 {% set coachKeyword = "career coach in " + cityName %}
 {% set coachesKeyword = "career coaches in " + cityName %}
@@ -58,6 +60,28 @@ layout: layout.njk
       <h2 class="section-title section-title-glow">Why professionals choose Askia</h2>
       <ul class="checklist">
         {% for item in chooseAskia %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Why Askia is credible here</h2>
+      <p>{{ expertCredibility.founder.shortBio }}</p>
+      <ul class="checklist">
+        {% for item in expertCredibility.founder.highlights %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Proof behind the coaching</h2>
+      <ul class="checklist">
+        {% for item in expertCredibility.founder.metrics %}
         <li>{{ item }}</li>
         {% endfor %}
       </ul>
@@ -138,6 +162,47 @@ layout: layout.njk
         <strong>{{ item.label }}</strong>
         <span>{{ cityName }}-specific landing page with a tighter local-intent angle</span>
       </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if decisionGuides.length %}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Decision Guides</p>
+      <h2 class="section-title section-title-glow">{{ cityName }} guides for cost and provider choice</h2>
+    </div>
+    <div class="link-stack">
+      {% for item in decisionGuides %}
+      <a class="location-card" href="{{ item.url }}">
+        <strong>{{ item.label }}</strong>
+        <span>{{ cityName }} page for pricing, fit, and provider-comparison intent.</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if relatedCaseStudies.length %}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Proof</p>
+      <h2 class="section-title section-title-glow">Relevant examples from {{ cityName }}</h2>
+    </div>
+    <div class="resources-grid">
+      {% for item in relatedCaseStudies %}
+      {% if loop.index <= 3 %}
+      <a class="resource-card resource-card-link" href="/proof/{{ item.slug }}/">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.summary }}</p>
+        <span>{{ item.outcome }}</span>
+      </a>
+      {% endif %}
       {% endfor %}
     </div>
   </div>

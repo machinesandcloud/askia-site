@@ -1,0 +1,153 @@
+---
+layout: layout.njk
+---
+{% set relatedCaseStudies = caseStudies.byCityHub[entry.hubSlug] or [] %}
+{% set supportLinks = citySupportPages.byHubSlug[entry.hubSlug] or [] %}
+<section class="section">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="hero-eyebrow">City Decision Guide</p>
+      <h1 class="hero-title section-title-glow">{{ entry.h1 }}</h1>
+      <p class="hero-subtitle">{{ entry.quickAnswer }}</p>
+      <p class="hero-support">{{ entry.intro }}</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ entry.secondaryLink }}">Book a strategy call</a>
+        <a class="btn btn-ghost" href="{{ entry.primaryLink }}">{{ entry.primaryLabel }}</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <strong>What this page covers</strong>
+      <ul>
+        {% for item in entry.bullets %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    {% for section in entry.sections %}
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">{{ section.title }}</h2>
+      <p>{{ section.body }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Price and decision signals</h2>
+      <ul class="checklist">
+        {% for item in entry.pricingPoints %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Why Askia is credible here</h2>
+      <p>{{ expertCredibility.founder.shortBio }}</p>
+      <ul class="checklist">
+        {% for item in expertCredibility.founder.highlights %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+{% if relatedCaseStudies.length %}
+<section class="section">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Related proof</p>
+      <h2 class="section-title section-title-glow">Relevant examples from {{ entry.cityLabel }}</h2>
+    </div>
+    <div class="resources-grid">
+      {% for item in relatedCaseStudies %}
+      {% if loop.index <= 3 %}
+      <a class="resource-card resource-card-link" href="/proof/{{ item.slug }}/">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.summary }}</p>
+        <span>{{ item.outcome }}</span>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="section">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Best next pages</h2>
+      <div class="link-stack">
+        <a class="location-card" href="{{ entry.primaryLink }}">
+          <strong>{{ entry.primaryLabel }}</strong>
+          <span>Return to the main {{ entry.cityLabel }} market page.</span>
+        </a>
+        <a class="location-card" href="{{ entry.secondaryLink }}">
+          <strong>{{ entry.secondaryLabel }}</strong>
+          <span>Go deeper into the service that matches this decision guide.</span>
+        </a>
+        <a class="location-card" href="/proof/">
+          <strong>Proof library</strong>
+          <span>Browse anonymized cases that show how stronger positioning changes outcomes.</span>
+        </a>
+      </div>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Related {{ entry.cityLabel }} guides</h2>
+      <div class="link-stack">
+        {% for item in supportLinks %}
+        {% if item.url != page.url and loop.index <= 4 %}
+        <a class="location-card" href="{{ item.url }}">
+          <strong>{{ item.label }}</strong>
+          <span>Related decision guide for the same city.</span>
+        </a>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container faq-stage">
+    <div class="faq-header">
+      <h2 class="section-title section-title-glow">{{ entry.cityLabel }} FAQ</h2>
+      <p class="section-subtitle">Short answers for a high-intent local decision.</p>
+    </div>
+    <div class="faq-grid">
+      {% for item in entry.faq %}
+      <details class="faq-card" {% if loop.first %}open{% endif %}>
+        <summary>{{ item.q }}</summary>
+        <p>{{ item.a }}</p>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in entry.faq %}
+    {
+      "@type": "Question",
+      "name": {{ item.q | dump | safe }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.a | dump | safe }}
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>

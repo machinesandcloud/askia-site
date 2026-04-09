@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on behavioral interviews."
 categories:
   - "Tech Career Navigation"
   - "Strategic Positioning"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 If you are a DevOps or SRE professional, you already know the work is hard. The challenge is making the signal clear.
 

@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on salary expectations."
 categories:
   - "Tech Career Navigation"
   - "Interview Intelligence"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Here is the truth: hiring teams move fast. If your signal is unclear, even strong machine learning engineers get missed.
 

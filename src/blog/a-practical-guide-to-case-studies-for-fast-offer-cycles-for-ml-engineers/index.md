@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on case studies."
 categories:
   - "Strategic Positioning"
   - "Leadership Signal"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 You can be great at the job and still miss interviews if the signal is fuzzy. Machine learning engineers see this a lot.
 

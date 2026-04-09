@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on portfolio strategy."
 categories:
   - "Compensation Mastery"
   - "Leadership Signal"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 You can be great at the job and still miss interviews if the signal is fuzzy. Data scientists see this a lot.
 

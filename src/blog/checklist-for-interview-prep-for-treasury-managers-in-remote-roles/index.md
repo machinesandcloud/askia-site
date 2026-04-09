@@ -14,6 +14,10 @@ imageAlt: "Askia career coaching insights."
 categories:
   - "Leadership Signal"
   - "Interview Intelligence"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most treasury managers I coach are doing strong work. The gap is how that work is communicated.
 

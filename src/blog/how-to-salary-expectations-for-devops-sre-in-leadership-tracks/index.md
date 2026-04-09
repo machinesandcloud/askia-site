@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on salary expectations."
 categories:
   - "Compensation Mastery"
   - "Tech Career Navigation"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most DevOps and SRE professionals I coach are doing strong work. The gap is how that work is communicated.
 

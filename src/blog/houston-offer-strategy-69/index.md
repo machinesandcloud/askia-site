@@ -15,6 +15,10 @@ categories:
   - "Tech Career Navigation"
   - "Strategic Positioning"
   - "Hidden Market Access"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 You can be great at the job and still miss interviews if the signal is fuzzy. Tech professionals see this a lot.
 

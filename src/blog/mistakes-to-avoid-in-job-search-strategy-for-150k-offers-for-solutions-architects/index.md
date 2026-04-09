@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on job search strategy."
 categories:
   - "Tech Career Navigation"
   - "Leadership Signal"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most solutions architects I coach are doing strong work. The gap is how that work is communicated.
 

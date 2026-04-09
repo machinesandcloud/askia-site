@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on job search strategy."
 categories:
   - "Strategic Positioning"
   - "Interview Intelligence"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most software engineers I coach are doing strong work. The gap is how that work is communicated.
 

@@ -100,6 +100,9 @@ https://www.askia.tech/* https://askia.tech/:splat 301!
 /blog/cold-outreach-* /blog/hidden-tech-job-market/ 301
 /blog/linkedin-positioning-* /linkedin-optimization/ 301
 /blog/referrals-* /blog/hidden-tech-job-market/ 301
+/blog/how-to-* /resources/ 301
+/blog/mistakes-to-avoid-in-* /resources/ 301
+/blog/the-30-day-plan-for-* /resources/ 301
 /blog/a-practical-guide-to-* /resources/ 301
 /blog/a-step-by-step-guide-to-* /resources/ 301
 /blog/checklist-for-* /resources/ 301

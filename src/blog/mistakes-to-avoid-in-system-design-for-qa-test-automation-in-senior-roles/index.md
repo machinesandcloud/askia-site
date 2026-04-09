@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on system design."
 categories:
   - "Hidden Market Access"
   - "Compensation Mastery"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Here is the truth: hiring teams move fast. If your signal is unclear, even strong QA and test automation engineers get missed.
 

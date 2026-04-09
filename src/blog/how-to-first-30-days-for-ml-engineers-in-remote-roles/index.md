@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on first 30 days."
 categories:
   - "Strategic Positioning"
   - "Compensation Mastery"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most machine learning engineers I coach are doing strong work. The gap is how that work is communicated.
 

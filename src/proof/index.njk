@@ -1,0 +1,67 @@
+---
+layout: layout.njk
+title: Proof
+metaTitle: "Career Coaching Proof and Case Studies | Askia"
+metaDescription: "An anonymized proof library showing how Askia helps professionals improve positioning, interviews, and compensation outcomes."
+breadcrumbs:
+  - name: "Home"
+    url: "/"
+  - name: "Resources"
+    url: "/resources/"
+  - name: "Proof"
+    url: "/proof/"
+---
+<section class="section">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="hero-eyebrow">Proof Library</p>
+      <h1 class="hero-title section-title-glow">Proof that goes beyond generic promises</h1>
+      <p class="hero-subtitle">Real examples of how Askia sharpens positioning, interviews, and offer outcomes.</p>
+      <p class="hero-support">This library exists to show how search strategy, materials, interviews, and compensation work together in actual career moves.</p>
+    </div>
+    <div class="hero-card">
+      <strong>What you’ll see</strong>
+      <ul>
+        <li>Anonymized career case studies</li>
+        <li>What changed in the positioning</li>
+        <li>The result and the lesson behind it</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Why this matters</h2>
+      <p>Career coaching pages are easy to promise on. Proof pages are where the useful detail starts: what was broken, what changed, and what outcome followed.</p>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Why Askia is credible here</h2>
+      <p>{{ expertCredibility.founder.shortBio }}</p>
+      <ul class="checklist">
+        {% for item in expertCredibility.founder.metrics %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="pillar-header">
+      <p class="hero-eyebrow">Cases</p>
+      <h2 class="section-title section-title-glow">Proof by role, market, and service</h2>
+    </div>
+    <div class="resources-grid">
+      {% for item in caseStudies.items %}
+      <a class="resource-card resource-card-link" href="/proof/{{ item.slug }}/">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.summary }}</p>
+        <span>{{ item.outcome }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

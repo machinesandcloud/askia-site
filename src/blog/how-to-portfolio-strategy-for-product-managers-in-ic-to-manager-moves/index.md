@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on portfolio strategy."
 categories:
   - "Interview Intelligence"
   - "Interview Intelligence"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 If you are a product manager, you already know the work is hard. The challenge is making the signal clear.
 

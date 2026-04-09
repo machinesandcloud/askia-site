@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on executive presence."
 categories:
   - "Hidden Market Access"
   - "Interview Intelligence"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most cybersecurity leaders I coach are doing strong work. The gap is how that work is communicated.
 

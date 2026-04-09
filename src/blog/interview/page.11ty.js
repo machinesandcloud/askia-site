@@ -37,6 +37,7 @@ class BlogInterviewPage {
     const { entry } = data;
     const allGuides = data.blogInterviewPages || [];
     const roleLink = entry.rolePageUrl || "/land-your-next-role/";
+    const expert = data.expertCredibility.founder;
     const relatedByCategory = allGuides
       .filter(
         (item) =>
@@ -127,12 +128,19 @@ class BlogInterviewPage {
 </ol>
 <p>If you can do that, you stop sounding like you studied the topic and start sounding like you have actually operated in it.</p>
 
+<h2>Why Askia is credible on interview signal</h2>
+<p>${expert.shortBio}</p>
+<ul>
+  ${expert.highlights.map((item) => `<li>${item}</li>`).join("")}
+</ul>
+
 <h2>Related career assets</h2>
 <ul>
   <li><a href="${roleLink}">${entry.role} career coaching</a></li>
   <li><a href="/interview-prep/">Structured interview support</a></li>
   <li><a href="/salary-negotiation/">Salary and offer strategy</a></li>
   <li><a href="/locations/">Local market pages</a></li>
+  <li><a href="/proof/">Proof library with interview and offer outcomes</a></li>
 </ul>
 
 ${relatedByTopic.length ? `

@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on career pivots."
 categories:
   - "Strategic Positioning"
   - "Leadership Signal"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 You can be great at the job and still miss interviews if the signal is fuzzy. Technical program managers see this a lot.
 

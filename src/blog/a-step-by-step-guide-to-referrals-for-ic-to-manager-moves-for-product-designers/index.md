@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on referrals."
 categories:
   - "Hidden Market Access"
   - "Tech Career Navigation"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most product designers I coach are doing strong work. The gap is how that work is communicated.
 

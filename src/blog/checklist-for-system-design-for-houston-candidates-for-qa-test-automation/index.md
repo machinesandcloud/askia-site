@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on system design."
 categories:
   - "Strategic Positioning"
   - "Interview Intelligence"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Here is the truth: hiring teams move fast. If your signal is unclear, even strong QA and test automation engineers get missed.
 

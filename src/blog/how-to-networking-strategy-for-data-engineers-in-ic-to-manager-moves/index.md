@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on networking strategy."
 categories:
   - "Compensation Mastery"
   - "Tech Career Navigation"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 You can be great at the job and still miss interviews if the signal is fuzzy. Data engineers see this a lot.
 

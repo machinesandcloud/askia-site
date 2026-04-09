@@ -14,6 +14,10 @@ imageAlt: "Askia career coaching insights."
 categories:
   - "Hidden Market Access"
   - "Strategic Positioning"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most business development managers I coach are doing strong work. The gap is how that work is communicated.
 

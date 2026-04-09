@@ -15,6 +15,10 @@ imageAlt: "Professional coaching session focused on career positioning."
 categories:
   - "Leadership Signal"
   - "Strategic Positioning"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 If you are a technical program manager, you already know the work is hard. The challenge is making the signal clear.
 

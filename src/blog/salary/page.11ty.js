@@ -39,6 +39,7 @@ class BlogSalaryPage {
     const roleLink = entry.rolePageUrl || "/land-your-next-role/";
     const marketLink = entry.marketPageUrl || "/locations/";
     const benchmarkEvidence = entry.benchmarkEvidence;
+    const expert = data.expertCredibility.founder;
     const sameCityGuides = allGuides
       .filter((item) => item.slug !== entry.slug && item.location === entry.location)
       .slice(0, 4);
@@ -151,12 +152,19 @@ ${benchmarkEvidenceHtml}
 </ul>
 <p>Use these sources as cross-checks, not as a single definitive number. Real offers still move on scope, company stage, level calibration, and total package design.</p>
 
+<h2>Why Askia is credible on compensation positioning</h2>
+<p>${expert.shortBio}</p>
+<ul>
+  ${expert.highlights.map((item) => `<li>${item}</li>`).join("")}
+</ul>
+
 <h2>Related career assets</h2>
 <ul>
   <li><a href="${roleLink}">${entry.role} career coaching</a></li>
   <li><a href="${marketLink}">Career coaching in ${entry.location}</a></li>
   <li><a href="/salary-negotiation/">Salary negotiation support</a></li>
   <li><a href="/interview-prep/">Interview prep for stronger offer loops</a></li>
+  <li><a href="/proof/">Proof library with salary and offer outcomes</a></li>
 </ul>
 
 ${sameCityGuides.length ? `

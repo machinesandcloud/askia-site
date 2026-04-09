@@ -14,6 +14,10 @@ imageAlt: "Professional coaching session focused on referrals."
 categories:
   - "Strategic Positioning"
   - "Strategic Positioning"
+eleventyExcludeFromCollections: true
+sitemap: false
+noindex: true
+permalink: false
 ---
 Most engineering managers I coach are doing strong work. The gap is how that work is communicated.
 
