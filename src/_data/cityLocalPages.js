@@ -53,6 +53,12 @@ const pageTypes = [
       { label: `${city.shortLabel} career coaching hub`, url: `/${city.hubSlug}/` },
       { label: "Interview prep", url: "/interview-prep/" },
       { label: "Resume writing", url: "/resume-writing/" }
+    ],
+    quickAnswer: (city) => `If you need a ${city.label} career counselor, the highest-value version of that search usually means clearer role targeting, stronger materials, and better interview execution rather than generic motivation.`,
+    bestFit: (city) => [
+      `Mid-career and senior professionals in ${city.shortLabel}`,
+      "Candidates with strong experience but weak market signal",
+      "People balancing local and national role targets"
     ]
   },
   {
@@ -90,6 +96,12 @@ const pageTypes = [
       { label: "Executive coaching", url: "/executive-coaching/" },
       { label: "Salary negotiation", url: "/salary-negotiation/" },
       { label: `${city.shortLabel} career coaching`, url: `/${city.hubSlug}/` }
+    ],
+    quickAnswer: (city) => `If you are searching for an executive career coach in ${city.label}, the right page should help you tighten leadership narrative, clarify scope, and position for director, VP, or broader executive roles.`,
+    bestFit: () => [
+      "Directors and VPs preparing for higher-scope searches",
+      "Senior operators needing stronger executive signal",
+      "Leaders navigating confidential transitions or negotiations"
     ]
   },
   {
@@ -127,6 +139,12 @@ const pageTypes = [
       { label: "Resume writing", url: "/resume-writing/" },
       { label: "LinkedIn optimization", url: "/linkedin-optimization/" },
       { label: `${city.shortLabel} career coaching`, url: `/${city.hubSlug}/` }
+    ],
+    quickAnswer: (city) => `If you are looking for a resume writer in ${city.label}, the strongest result should improve impact framing, level clarity, and interview conversion rather than just formatting.`,
+    bestFit: () => [
+      "Candidates getting too few callbacks",
+      "Professionals targeting higher-scope roles",
+      "Searches where the resume is underselling ownership or results"
     ]
   },
   {
@@ -164,6 +182,12 @@ const pageTypes = [
       { label: "LinkedIn optimization", url: "/linkedin-optimization/" },
       { label: "Resume writing", url: "/resume-writing/" },
       { label: `${city.shortLabel} career coaching`, url: `/${city.hubSlug}/` }
+    ],
+    quickAnswer: (city) => `A LinkedIn profile writer in ${city.label} should improve recruiter visibility, profile credibility, and alignment between your profile, resume, and target role.`,
+    bestFit: () => [
+      "Candidates relying on recruiter search and inbound",
+      "Professionals with vague or generic LinkedIn profiles",
+      "Searches that need better local plus remote-market positioning"
     ]
   },
   {
@@ -201,6 +225,12 @@ const pageTypes = [
       { label: "Interview prep", url: "/interview-prep/" },
       { label: "Mock interviews", url: "/mock-interviews/" },
       { label: `${city.shortLabel} career coaching`, url: `/${city.hubSlug}/` }
+    ],
+    quickAnswer: (city) => `Interview coaching in ${city.label} should help you sound clearer, tighter, and more level-appropriate in high-stakes interview loops.`,
+    bestFit: () => [
+      "Candidates getting interviews but not offers",
+      "Professionals who ramble or undersell scope in answers",
+      "Technical and behavioral loops needing better calibration"
     ]
   },
   {
@@ -238,6 +268,12 @@ const pageTypes = [
       { label: "Salary negotiation", url: "/salary-negotiation/" },
       { label: "Salary guides", url: "/blog/salary/" },
       { label: `${city.shortLabel} career coaching`, url: `/${city.hubSlug}/` }
+    ],
+    quickAnswer: (city) => `A salary negotiation coach in ${city.label} should help you clarify leverage, strengthen package framing, and negotiate from a better anchor before and after the formal offer.`,
+    bestFit: () => [
+      "Candidates approaching offer stage",
+      "Professionals comparing local and national compensation bands",
+      "Searches where package framing matters as much as base salary"
     ]
   },
   {
@@ -275,6 +311,12 @@ const pageTypes = [
       { label: "Job search game plan", url: "/job-search-game-plan/" },
       { label: `${city.shortLabel} career coaching`, url: `/${city.hubSlug}/` },
       { label: "LinkedIn optimization", url: "/linkedin-optimization/" }
+    ],
+    quickAnswer: (city) => `A job search coach in ${city.label} should help you tighten targeting, improve search systems, and reduce low-fit applications rather than simply push more volume.`,
+    bestFit: () => [
+      "Candidates with noisy or stalled searches",
+      "Professionals balancing local and remote opportunities",
+      "Searches needing better networking and role-target strategy"
     ]
   },
   {
@@ -312,6 +354,12 @@ const pageTypes = [
       { label: `${city.shortLabel} career coaching`, url: `/${city.hubSlug}/` },
       { label: "Resume writing", url: "/resume-writing/" },
       { label: "Interview prep", url: "/interview-prep/" }
+    ],
+    quickAnswer: (city) => `A career change coach in ${city.label} should help you build a credible transition story, choose a defendable target role, and reduce hiring risk in the way the pivot is presented.`,
+    bestFit: () => [
+      "Mid-career pivots",
+      "Industry translators and adjacent-role moves",
+      "Candidates unsure which next role is realistic"
     ]
   },
   {
@@ -349,6 +397,12 @@ const pageTypes = [
       { label: "Land your next role", url: "/land-your-next-role/" },
       { label: "Job search game plan", url: "/job-search-game-plan/" },
       { label: `${city.shortLabel} career coaching`, url: `/${city.hubSlug}/` }
+    ],
+    quickAnswer: (city) => `Outplacement support in ${city.label} should stabilize the story quickly, sharpen materials, and get the search moving without panic-driven applications.`,
+    bestFit: () => [
+      "Layoff and reorg transitions",
+      "Candidates needing fast narrative and material fixes",
+      "Searches that need structure under time pressure"
     ]
   },
   {
@@ -386,6 +440,12 @@ const pageTypes = [
       { label: "AI & ML coaching", url: "/ai-ml-career-coaching/" },
       { label: `${city.shortLabel} career coaching`, url: `/${city.hubSlug}/` },
       { label: "Interview guides", url: "/blog/interview/" }
+    ],
+    quickAnswer: (city) => `AI and ML career coaching in ${city.label} should help candidates translate technical depth into clearer applied-impact, interview, and compensation signal.`,
+    bestFit: () => [
+      "AI engineers and ML engineers",
+      "Applied scientists and adjacent technical candidates",
+      "Searches needing less hype and more business relevance"
     ]
   },
   {
@@ -423,6 +483,12 @@ const pageTypes = [
       { label: "Software engineer coaching", url: "/software-engineer-career-coaching/" },
       { label: "DevOps & SRE coaching", url: "/devops-career-coaching/" },
       { label: `${city.shortLabel} career coaching`, url: `/${city.hubSlug}/` }
+    ],
+    quickAnswer: (city) => `Career coaching for engineers in ${city.label} should make scope, systems thinking, and business impact easier for hiring managers to read quickly.`,
+    bestFit: () => [
+      "Software, platform, cloud, and data engineers",
+      "Senior, staff, and management-track candidates",
+      "Searches where level and scope are being underestimated"
     ]
   },
   {
@@ -460,7 +526,187 @@ const pageTypes = [
       { label: "Legal & compliance coaching", url: "/legal-compliance-career-coaching/" },
       { label: `${city.shortLabel} career coaching`, url: `/${city.hubSlug}/` },
       { label: "Salary negotiation", url: "/salary-negotiation/" }
+    ],
+    quickAnswer: (city) => `Legal and compliance career coaching in ${city.label} should improve governance, risk, and stakeholder-positioning signal so the candidate reads as stronger and more strategic.`,
+    bestFit: () => [
+      "Legal, compliance, governance, and risk professionals",
+      "Mid-career and senior candidates aiming higher",
+      "Searches needing stronger leadership and business framing"
     ]
+  },
+  {
+    slugPrefix: "career-coaches",
+    title: (city) => `Career Coaches in ${city.label}: How to Choose the Right Fit`,
+    metaTitle: (city) => `Career Coaches ${city.label} | Askia`,
+    metaDescription: (city) => `Compare career coaches in ${city.shortLabel} and learn what actually matters when choosing a coaching service for stronger roles and better offers.`,
+    schemaName: (city) => `Career coaches in ${city.label}`,
+    schemaDescription: (city) => `Career coaching comparison page for professionals evaluating career coaches in ${city.shortLabel}.`,
+    schemaServiceType: "Career coaching services",
+    eyebrow: "Commercial Intent",
+    h1: (city) => `Career coaches in ${city.label}: what actually matters when choosing one`,
+    subtitle: "Not all local coaching pages solve the same problem. This one is built to help you choose based on fit, signal quality, and the kind of outcome you need.",
+    intro: (city) => `People searching for career coaches in ${city.label} are usually comparing style, services, and credibility. The highest-value difference is whether the coach can help you target the right role, tighten your market signal, and improve actual conversion in the search.`,
+    sections: (city) => [
+      { title: `What to compare among career coaches in ${city.shortLabel}`, body: "The useful comparison is not personality alone. It is role targeting, materials, interview support, compensation strategy, and whether the advice is specific enough to change your search outcomes." },
+      { title: "How Askia fits into that choice", body: "Askia is strongest for experienced professionals who need a sharper, more strategic search story rather than broad accountability or mindset-first support." }
+    ],
+    bullets: () => ["Clearer fit signals", "Service-specific routing", "Faster path to the right coaching page"],
+    primaryLink: (city) => `/${city.hubSlug}/`,
+    primaryLabel: (city) => `See ${city.shortLabel} career coaching`,
+    secondaryLink: "/land-your-next-role/",
+    secondaryLabel: "Book a strategy call",
+    relatedLinks: (city) => [
+      { label: `${city.shortLabel} career coaching hub`, url: `/${city.hubSlug}/` },
+      { label: "Resume writing", url: "/resume-writing/" },
+      { label: "Interview prep", url: "/interview-prep/" }
+    ],
+    quickAnswer: (city) => `The best career coaches in ${city.label} are usually the ones who can help you choose the right target role, improve how your value reads, and raise conversion in interviews and offers.`,
+    bestFit: () => ["People comparing multiple coaching options", "Searches with commercial comparison intent", "Candidates who want role- and service-specific clarity"]
+  },
+  {
+    slugPrefix: "career-coaching-services",
+    title: (city) => `Career Coaching Services in ${city.label}`,
+    metaTitle: (city) => `Career Coaching Services ${city.label} | Askia`,
+    metaDescription: (city) => `Career coaching services in ${city.shortLabel} covering role targeting, resume, LinkedIn, interview prep, and salary negotiation support.`,
+    schemaName: (city) => `Career coaching services in ${city.label}`,
+    schemaDescription: (city) => `Career coaching services page for ${city.shortLabel} professionals across search, interview, and offer stages.`,
+    schemaServiceType: "Career coaching services",
+    eyebrow: "Service Intent",
+    h1: (city) => `Career coaching services in ${city.label} for professionals targeting stronger roles`,
+    subtitle: "A local service-intent page that makes the core coaching offer easier to understand and compare.",
+    intro: (city) => `Career coaching services in ${city.label} usually need to answer one question fast: what exactly do you get, and which part of the search does it fix first? This page is built to route that intent clearly.`,
+    sections: () => [
+      { title: "What sits inside career coaching services", body: "The strongest offer usually combines role targeting, resume and LinkedIn positioning, interview prep, and salary negotiation rather than treating each part of the search as unrelated." },
+      { title: "Why service clarity matters", body: "Many candidates know they need help but do not know whether the problem is targeting, materials, interviews, or offers. A strong local services page should make that path easy to understand." }
+    ],
+    bullets: () => ["Role-targeting support", "Materials and interview services", "Negotiation and transition strategy"],
+    primaryLink: "/services/",
+    primaryLabel: "See all services",
+    secondaryLink: (city) => `/${city.hubSlug}/`,
+    secondaryLabel: (city) => `See ${city.shortLabel} hub`,
+    relatedLinks: (city) => [
+      { label: "Services", url: "/services/" },
+      { label: `${city.shortLabel} career coaching hub`, url: `/${city.hubSlug}/` },
+      { label: "Land your next role", url: "/land-your-next-role/" }
+    ],
+    quickAnswer: (city) => `Career coaching services in ${city.label} should cover the full job-search funnel: role targeting, materials, interview performance, and compensation strategy.`,
+    bestFit: () => ["People searching for services rather than a single deliverable", "Candidates unsure what kind of support they need", "Searches with direct local buying intent"]
+  },
+  {
+    slugPrefix: "resume-writing-services",
+    title: (city) => `Resume Writing Services in ${city.label}`,
+    metaTitle: (city) => `Resume Writing Services ${city.label} | Askia`,
+    metaDescription: (city) => `Resume writing services in ${city.shortLabel} for professionals who need stronger callbacks, clearer impact, and better-level positioning.`,
+    schemaName: (city) => `Resume writing services in ${city.label}`,
+    schemaDescription: (city) => `Resume writing services page for ${city.shortLabel} professionals targeting stronger interviews.`,
+    schemaServiceType: "Resume writing services",
+    eyebrow: "Service Intent",
+    h1: (city) => `Resume writing services in ${city.label} for stronger callback rates`,
+    subtitle: "When the issue is not effort but how your value reads on paper.",
+    intro: (city) => `Resume writing services in ${city.label} should focus on impact, scope, and level clarity. The point is not just to improve the document. It is to improve the way the market calibrates you.`,
+    sections: () => [
+      { title: "What strong resume services should improve", body: "A better resume should make your results easier to trust, your ownership easier to see, and your target role easier to defend." },
+      { title: "Why exact service pages matter", body: "Many candidates search for the deliverable first. A dedicated page helps capture that intent without forcing the user through a broader career-coaching explanation first." }
+    ],
+    bullets: () => ["Impact-driven resume rewrite", "Stronger seniority and ownership signal", "Built to support interviews, not just applications"],
+    primaryLink: "/resume-writing/",
+    primaryLabel: "See resume writing",
+    secondaryLink: "/linkedin-optimization/",
+    secondaryLabel: "Pair with LinkedIn",
+    relatedLinks: (city) => [
+      { label: "Resume writing", url: "/resume-writing/" },
+      { label: `${city.shortLabel} career coaching`, url: `/${city.hubSlug}/` },
+      { label: "LinkedIn optimization", url: "/linkedin-optimization/" }
+    ],
+    quickAnswer: (city) => `Resume writing services in ${city.label} should make your impact and level obvious quickly enough to improve callback quality and recruiter trust.`,
+    bestFit: () => ["Candidates with low callback rates", "Professionals whose experience reads too generically", "Searches where the resume is the first obvious bottleneck"]
+  },
+  {
+    slugPrefix: "interview-prep-services",
+    title: (city) => `Interview Prep Services in ${city.label}`,
+    metaTitle: (city) => `Interview Prep Services ${city.label} | Askia`,
+    metaDescription: (city) => `Interview prep services in ${city.shortLabel} for professionals who want stronger story structure, clearer answers, and better offer conversion.`,
+    schemaName: (city) => `Interview prep services in ${city.label}`,
+    schemaDescription: (city) => `Interview prep services page for ${city.shortLabel} professionals targeting stronger interview conversion.`,
+    schemaServiceType: "Interview prep services",
+    eyebrow: "Service Intent",
+    h1: (city) => `Interview prep services in ${city.label} for stronger conversion`,
+    subtitle: "Useful prep should improve how you sound, not just how much you rehearse.",
+    intro: (city) => `Interview prep services in ${city.label} should help candidates tighten stories, answer with better structure, and sound more level-appropriate under pressure.`,
+    sections: () => [
+      { title: "What interview prep should actually fix", body: "The strongest prep improves clarity, tradeoff framing, and the relevance of your examples. It should not just create more repetition." },
+      { title: "Why service-intent pages matter here", body: "A lot of candidates search for interview prep as a deliverable. A dedicated local page makes that intent easier to capture and route." }
+    ],
+    bullets: () => ["Behavioral and technical answer structure", "Mock interview and calibration support", "Better final-round conversion"],
+    primaryLink: "/interview-prep/",
+    primaryLabel: "See interview prep",
+    secondaryLink: "/mock-interviews/",
+    secondaryLabel: "See mock interviews",
+    relatedLinks: (city) => [
+      { label: "Interview prep", url: "/interview-prep/" },
+      { label: "Mock interviews", url: "/mock-interviews/" },
+      { label: `${city.shortLabel} career coaching`, url: `/${city.hubSlug}/` }
+    ],
+    quickAnswer: (city) => `Interview prep services in ${city.label} should improve story quality, level calibration, and how clearly your judgment comes through in interviews.`,
+    bestFit: () => ["Candidates getting interviews but not offers", "Professionals who need better story structure", "Loops where technical and behavioral signal both matter"]
+  },
+  {
+    slugPrefix: "linkedin-optimization-services",
+    title: (city) => `LinkedIn Optimization Services in ${city.label}`,
+    metaTitle: (city) => `LinkedIn Optimization Services ${city.label} | Askia`,
+    metaDescription: (city) => `LinkedIn optimization services in ${city.shortLabel} for professionals who want stronger recruiter search visibility and more credible positioning.`,
+    schemaName: (city) => `LinkedIn optimization services in ${city.label}`,
+    schemaDescription: (city) => `LinkedIn optimization services page for ${city.shortLabel} professionals targeting stronger recruiter visibility.`,
+    schemaServiceType: "LinkedIn optimization services",
+    eyebrow: "Service Intent",
+    h1: (city) => `LinkedIn optimization services in ${city.label} for better recruiter visibility`,
+    subtitle: "A focused local page for candidates who know the profile is underperforming.",
+    intro: (city) => `LinkedIn optimization services in ${city.label} should make recruiter search visibility, role positioning, and profile credibility meaningfully stronger rather than simply rewriting a few lines.`,
+    sections: () => [
+      { title: "What LinkedIn optimization should do", body: "It should improve first-read clarity, align the profile to the right target role, and make the profile work with the resume rather than against it." },
+      { title: "Why this deserves its own page", body: "LinkedIn often functions like a live screening surface. Local service-intent pages help capture people searching for that deliverable directly." }
+    ],
+    bullets: () => ["Profile positioning", "Recruiter-search alignment", "Better profile and resume consistency"],
+    primaryLink: "/linkedin-optimization/",
+    primaryLabel: "See LinkedIn optimization",
+    secondaryLink: "/resume-writing/",
+    secondaryLabel: "Add resume support",
+    relatedLinks: (city) => [
+      { label: "LinkedIn optimization", url: "/linkedin-optimization/" },
+      { label: "Resume writing", url: "/resume-writing/" },
+      { label: `${city.shortLabel} career coaching`, url: `/${city.hubSlug}/` }
+    ],
+    quickAnswer: (city) => `LinkedIn optimization services in ${city.label} should improve how recruiters find you and how quickly they trust your level and role fit.`,
+    bestFit: () => ["Candidates relying on recruiter inbound", "Searches with weak profile visibility", "Professionals needing profile and resume alignment"]
+  },
+  {
+    slugPrefix: "salary-negotiation-services",
+    title: (city) => `Salary Negotiation Services in ${city.label}`,
+    metaTitle: (city) => `Salary Negotiation Services ${city.label} | Askia`,
+    metaDescription: (city) => `Salary negotiation services in ${city.shortLabel} for professionals who want stronger package framing, better scripts, and better offer outcomes.`,
+    schemaName: (city) => `Salary negotiation services in ${city.label}`,
+    schemaDescription: (city) => `Salary negotiation services page for ${city.shortLabel} professionals targeting stronger compensation outcomes.`,
+    schemaServiceType: "Salary negotiation services",
+    eyebrow: "Service Intent",
+    h1: (city) => `Salary negotiation services in ${city.label} for stronger package outcomes`,
+    subtitle: "For candidates who want more than a one-line counteroffer script.",
+    intro: (city) => `Salary negotiation services in ${city.label} should improve your compensation story, your package framing, and your confidence in the actual negotiation conversation.`,
+    sections: () => [
+      { title: "What good negotiation support covers", body: "The strongest service covers timing, package components, level framing, market anchors, and how to make the ask sound credible rather than reactive." },
+      { title: "Why a dedicated page matters", body: "Many candidates search for negotiation help only when they feel the offer pressure. A direct local page captures that urgency more cleanly." }
+    ],
+    bullets: () => ["Package strategy", "Scripts and practice", "Clearer leverage and stronger asks"],
+    primaryLink: "/salary-negotiation/",
+    primaryLabel: "See salary negotiation",
+    secondaryLink: "/blog/salary/",
+    secondaryLabel: "Browse salary guides",
+    relatedLinks: (city) => [
+      { label: "Salary negotiation", url: "/salary-negotiation/" },
+      { label: "Salary guides", url: "/blog/salary/" },
+      { label: `${city.shortLabel} career coaching`, url: `/${city.hubSlug}/` }
+    ],
+    quickAnswer: (city) => `Salary negotiation services in ${city.label} should strengthen the package narrative before and during the final conversation so the ask sounds earned and well-framed.`,
+    bestFit: () => ["Candidates at offer stage", "Professionals comparing package components", "Searches where local and national pay anchors conflict"]
   }
 ];
 
@@ -505,6 +751,8 @@ module.exports = cities.flatMap((city) => {
       secondaryLink: resolve(pageType.secondaryLink, city),
       secondaryLabel: resolve(pageType.secondaryLabel, city),
       relatedLinks: pageType.relatedLinks(city),
+      quickAnswer: resolve(pageType.quickAnswer, city),
+      bestFit: resolve(pageType.bestFit, city),
       faq: defaultFaq({ cityLabel: city.label })
     };
   });

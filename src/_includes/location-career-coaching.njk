@@ -47,15 +47,15 @@ layout: layout.njk
 <section class="section">
   <div class="container">
     <div class="pillar-header">
-      <p class="hero-eyebrow">Houston Cluster</p>
-      <h2 class="section-title section-title-glow">Houston career coaching pages by intent</h2>
-      <p class="section-subtitle">These pages cover the exact Houston service and niche searches most likely to convert.</p>
+      <p class="hero-eyebrow">Local Intent Cluster</p>
+      <h2 class="section-title section-title-glow">{{ cityName }} career coaching pages by intent</h2>
+      <p class="section-subtitle">These pages cover the exact {{ cityName }} service and niche searches most likely to convert.</p>
     </div>
     <div class="link-stack">
       {% for item in localClusterLinks %}
       <a class="location-card" href="{{ item.url }}">
         <strong>{{ item.label }}</strong>
-        <span>Houston-specific landing page with a tighter local-intent angle</span>
+        <span>{{ cityName }}-specific landing page with a tighter local-intent angle</span>
       </a>
       {% endfor %}
     </div>

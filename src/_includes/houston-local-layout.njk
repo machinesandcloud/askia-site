@@ -24,6 +24,23 @@ layout: layout.njk
   </div>
 </section>
 
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Quick answer</h2>
+      <p>{{ entry.quickAnswer }}</p>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Best fit</h2>
+      <ul class="checklist">
+        {% for item in entry.bestFit %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="container two-col-grid">
     {% for section in entry.sections %}
@@ -43,15 +60,15 @@ layout: layout.njk
         {% for item in entry.relatedLinks %}
         <a class="location-card" href="{{ item.url }}">
           <strong>{{ item.label }}</strong>
-          <span>Related Houston and national career support</span>
+          <span>Related {{ entry.cityLabel }} and national career support</span>
         </a>
         {% endfor %}
       </div>
     </div>
     <div class="content-panel">
-      <h2 class="section-title section-title-glow">Why this Houston page exists</h2>
-      <p>This page is part of Askia's Houston local-intent cluster. It exists to answer a specific search intent clearly, then route you into the right coaching path without making you dig through generic service pages first.</p>
-      <p>If this is the wrong page for your exact need, the Houston hub and related pages above will get you to the right one quickly.</p>
+      <h2 class="section-title section-title-glow">Why this {{ entry.cityLabel }} page exists</h2>
+      <p>This page is part of Askia's {{ entry.cityLabel }} local-intent cluster. It exists to answer a specific search intent clearly, then route you into the right coaching path without making you dig through generic service pages first.</p>
+      <p>If this is the wrong page for your exact need, the {{ entry.cityLabel }} hub and related pages above will get you to the right one quickly.</p>
     </div>
   </div>
 </section>
@@ -59,8 +76,8 @@ layout: layout.njk
 <section class="section">
   <div class="container faq-stage">
     <div class="faq-header">
-      <h2 class="section-title section-title-glow">Houston FAQ</h2>
-      <p class="section-subtitle">Short answers for people comparing coaching options in Houston.</p>
+      <h2 class="section-title section-title-glow">{{ entry.cityLabel }} FAQ</h2>
+      <p class="section-subtitle">Short answers for people comparing coaching options in {{ entry.cityLabel }}.</p>
     </div>
     <div class="faq-grid">
       {% for item in entry.faq %}
@@ -76,7 +93,7 @@ layout: layout.njk
 <section class="section">
   <div class="container cta-band">
     <div>
-      <h2 class="section-title">Need help with this in Houston?</h2>
+      <h2 class="section-title">Need help with this in {{ entry.cityLabel }}?</h2>
       <p class="section-subtitle">Book a call and we’ll map the strongest next step for your search, interviews, and offer strategy.</p>
     </div>
     <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
