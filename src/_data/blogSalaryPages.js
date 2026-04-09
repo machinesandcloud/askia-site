@@ -762,6 +762,51 @@ const benchmarkEvidenceBySlug = {
       sourceDate: "March 01, 2026"
     }
   },
+  "backend-engineer-san-francisco-bay-area": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's January 1, 2026 San Francisco, CA backend software engineer page shows an average salary of $160,185, with a 25th-75th percentile range of $147,706 to $174,102.",
+      points: [
+        "Closest public title used: Backend Software Engineer",
+        "Average salary: $160,185",
+        "25th-75th percentile range: $147,706 to $174,102"
+      ],
+      sourceLabel: "Salary.com: Backend Software Engineer Salary in San Francisco, CA",
+      sourceUrl: "https://www.salary.com/research/salary/listing/backend-software-engineer-salary/san-francisco-ca",
+      sourceDate: "January 01, 2026"
+    }
+  },
+  "full-stack-engineer-austin": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's March 1, 2026 Austin, TX full stack software engineer page shows an average salary of $128,238, with a 25th-75th percentile range of $118,190 to $139,281.",
+      points: [
+        "Closest public title used: Full Stack Software Engineer",
+        "Average salary: $128,238",
+        "25th-75th percentile range: $118,190 to $139,281"
+      ],
+      sourceLabel: "Salary.com: Full Stack Software Engineer Salary in Austin, TX",
+      sourceUrl: "https://www.salary.com/research/salary/listing/full-stack-software-engineer-salary/austin-tx",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "site-reliability-engineer-boston": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "The closest current public benchmark I found is Salary.com's March 1, 2026 Reliability Engineer V page for Boston, MA, which reports an average salary of $180,331 and a 25th-75th percentile range of $172,367 to $189,162.",
+      points: [
+        "Closest public title used: Reliability Engineer V",
+        "Average salary: $180,331",
+        "25th-75th percentile range: $172,367 to $189,162"
+      ],
+      sourceLabel: "Salary.com: Reliability Engineer V Salary in Boston, MA",
+      sourceUrl: "https://www.salary.com/research/salary/benchmark/reliability-engineer-v-salary/boston-ma",
+      sourceDate: "March 01, 2026"
+    }
+  },
   "product-manager-san-francisco-bay-area": {
     benchmarkEvidence: {
       title: "Current public benchmark snapshot",
@@ -789,6 +834,81 @@ const benchmarkEvidenceBySlug = {
       ],
       sourceLabel: "Salary.com: Software Systems Engineering Manager Salary in Boston, MA",
       sourceUrl: "https://www.salary.com/research/salary/benchmark/software-systems-engineering-manager-salary/boston-ma",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "solutions-architect-new-york-city": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's December 1, 2025 New York solution architect page reports a statewide average salary of $137,068, and its city breakout lists New York, NY at $149,419.",
+      points: [
+        "Closest public title used: Solution Architect",
+        "New York state average on the page: $137,068",
+        "New York, NY city value listed on the page: $149,419"
+      ],
+      sourceLabel: "Salary.com: Solution Architect Salary in New York",
+      sourceUrl: "https://www.salary.com/research/salary/listing/solution-architect-salary/ny",
+      sourceDate: "December 01, 2025"
+    }
+  },
+  "technical-product-manager-seattle": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's March 1, 2026 Seattle, WA technical product manager page shows an average salary of $142,929, with a 25th-75th percentile range of $133,194 to $156,343.",
+      points: [
+        "Average salary: $142,929",
+        "25th-75th percentile range: $133,194 to $156,343",
+        "90th percentile listed at $168,555"
+      ],
+      sourceLabel: "Salary.com: Technical Product Manager Salary in Seattle, WA",
+      sourceUrl: "https://www.salary.com/research/salary/posting/technical-product-manager-salary/seattle-wa",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "product-designer-chicago": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's March 1, 2026 Chicago, IL product designer page shows an average salary of $116,089, with a 25th-75th percentile range of $106,997 to $129,161.",
+      points: [
+        "Average salary: $116,089",
+        "25th-75th percentile range: $106,997 to $129,161",
+        "90th percentile listed at $141,061"
+      ],
+      sourceLabel: "Salary.com: Product Designer Salary in Chicago, IL",
+      sourceUrl: "https://www.salary.com/research/salary/listing/product-designer-salary/chicago-il",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "sales-engineer-dallas-fort-worth": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's March 1, 2026 Dallas, TX sales engineer page reports an average salary of $99,228, with a 25th-75th percentile range of $88,805 to $111,575.",
+      points: [
+        "Average salary: $99,228",
+        "25th-75th percentile range: $88,805 to $111,575",
+        "The page frames this figure as the median in its narrative copy"
+      ],
+      sourceLabel: "Salary.com: Sales Engineer Salary in Dallas, TX",
+      sourceUrl: "https://www.salary.com/research/salary/standard/sales-engineer-salary/dallas-tx",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "finance-manager-miami": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's March 1, 2026 Miami, FL finance manager page shows an average salary of $125,260, with a 25th-75th percentile range of $114,028 to $133,489.",
+      points: [
+        "Average salary: $125,260",
+        "25th-75th percentile range: $114,028 to $133,489",
+        "90th percentile listed at $140,980"
+      ],
+      sourceLabel: "Salary.com: Finance Manager Salary in Miami, FL",
+      sourceUrl: "https://www.salary.com/research/salary/benchmark/finanace-manager-salary/miami-fl",
       sourceDate: "March 01, 2026"
     }
   }
