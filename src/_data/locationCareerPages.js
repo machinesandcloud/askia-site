@@ -457,7 +457,19 @@ const citySpecific = {
   },
   "los-angeles-career-coaching": {
     marketLine:
-      "Los Angeles hiring often responds to candidates who can connect creative, operational, product, and business outcomes clearly rather than sounding broad and unstructured."
+      "Los Angeles hiring often responds to candidates who can connect creative, operational, product, and business outcomes clearly rather than sounding broad and unstructured.",
+    aiSummary:
+      "Career coaching in Los Angeles works best when it turns broad creative, consumer, product, media-tech, and operations experience into a cleaner leadership story with stronger market focus.",
+    hiringSignals: [
+      "clear business outcomes behind creative, consumer, or cross-functional work",
+      "positioning that reduces noise for candidates with broad or hybrid backgrounds",
+      "interview stories that connect execution range to product, growth, or leadership value"
+    ],
+    chooseAskia: [
+      "you work across creative, product, operations, media-tech, or growth environments",
+      "your background is interesting but still reads too broad or unstructured",
+      "you want better positioning before higher-scope interviews or compensation conversations"
+    ]
   },
   "san-francisco-bay-area-career-coaching": {
     marketLine:
@@ -601,6 +613,70 @@ const citySpecific = {
       "you work in enterprise operations, finance, technology modernization, or management tracks",
       "your background is strong but still underselling scale or leadership breadth",
       "you need better market signal before stepping into larger-scope roles"
+    ]
+  },
+  "raleigh-durham-career-coaching": {
+    marketLine:
+      "Raleigh–Durham hiring tends to reward candidates who can make technical depth, ownership, and business impact obvious early in the process.",
+    aiSummary:
+      "Career coaching in Raleigh-Durham is most valuable when it sharpens engineering, data, biotech, and technical-leadership signal without letting the story get too narrow or too academic.",
+    hiringSignals: [
+      "clear ownership and measurable outcomes across engineering, data, or biotech work",
+      "technical depth translated into practical business or organizational value",
+      "positioning that supports both local employers and broader national opportunities"
+    ],
+    chooseAskia: [
+      "you are in engineering, data, biotech, or technical leadership roles",
+      "your work is strong but the market story is still too technical or too diffuse",
+      "you need stronger interview and compensation signal for the next move"
+    ]
+  },
+  "denver-career-coaching": {
+    marketLine:
+      "Denver hiring often rewards candidates who can combine technical depth with clean communication around ownership, cloud systems, product impact, and scale.",
+    aiSummary:
+      "Career coaching in Denver works best when it sharpens cloud, product, operations, and technical-leadership signal for candidates balancing local and distributed-market opportunities.",
+    hiringSignals: [
+      "clear communication around scale, ownership, and business impact",
+      "positioning that works for both Denver employers and remote-first teams",
+      "interview stories that make technical judgment and leadership range easy to trust"
+    ],
+    chooseAskia: [
+      "you work in cloud, product, operations, or technical leadership roles",
+      "your market signal is weaker than the scope of your actual work",
+      "you need one story that works locally and across distributed hiring loops"
+    ]
+  },
+  "phoenix-career-coaching": {
+    marketLine:
+      "Phoenix tends to reward candidates who can move between growth, operations, startup, finance, and cross-border or remote-market narratives clearly.",
+    aiSummary:
+      "Career coaching in Phoenix is most useful when it sharpens operational scale, modernization work, and leadership credibility for candidates targeting stronger business or technical roles.",
+    hiringSignals: [
+      "evidence of ownership across operations, enterprise change, or modernization efforts",
+      "a clearer leadership story for candidates whose work spans execution and management",
+      "positioning that makes broader scope and stronger compensation easier to defend"
+    ],
+    chooseAskia: [
+      "you work in operations, enterprise growth, modernization, or management-track roles",
+      "your experience is solid but underselling scale or leadership breadth",
+      "you want stronger interviews and offers without sounding inflated"
+    ]
+  },
+  "san-diego-career-coaching": {
+    marketLine:
+      "San Diego hiring usually rewards candidates who can combine technical depth, healthcare or life-sciences context, and clean leadership signal in one story.",
+    aiSummary:
+      "Career coaching in San Diego works best when it helps you connect product, healthcare-adjacent, technical, and leadership experience into a stronger next-role narrative.",
+    hiringSignals: [
+      "clear translation from technical or domain depth into product or business value",
+      "leadership signal that feels credible in technical and healthcare-adjacent markets",
+      "stories that connect execution quality with cross-functional impact"
+    ],
+    chooseAskia: [
+      "you work in product, healthcare-adjacent, technical, or leadership roles",
+      "your expertise is strong but still reading too narrowly or too tactically",
+      "you need better positioning for higher-scope roles and cleaner interviews"
     ]
   }
 };
