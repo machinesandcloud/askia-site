@@ -701,6 +701,99 @@ const sourceReferences = [
   }
 ];
 
+const benchmarkEvidenceBySlug = {
+  "software-engineer-new-york-city": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's March 1, 2026 New York, NY software engineer page shows a base-salary midpoint of $161,157, with a published range from $89,328 to $232,974.",
+      points: [
+        "Source page: Software Engineer salary in New York, NY",
+        "Published range: $89,328 to $232,974",
+        "Reported base-salary midpoint: $161,157"
+      ],
+      sourceLabel: "Salary.com: Software Engineer Salary in New York, NY",
+      sourceUrl: "https://www.salary.com/research/salary/general/software-engineer-salary/new-york-ny",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "frontend-engineer-seattle": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's March 1, 2026 Seattle, WA frontend developer page shows an average salary of $121,150, with a 25th-75th percentile range of $112,447 to $132,120.",
+      points: [
+        "Closest public title used: Frontend Developer",
+        "Average salary: $121,150",
+        "25th-75th percentile range: $112,447 to $132,120"
+      ],
+      sourceLabel: "Salary.com: Frontend Developer Salary in Seattle, WA",
+      sourceUrl: "https://www.salary.com/research/salary/offering/frontend-developer-salary/seattle-wa",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "devops-engineer-chicago": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's February 1, 2026 Chicago, IL DevOps Engineer page reports a median around $106,650, with the 25th-75th percentile range at $93,386 to $121,868.",
+      points: [
+        "Reported median salary: $106,650",
+        "25th-75th percentile range: $93,386 to $121,868",
+        "Experience and specialization are listed as major drivers"
+      ],
+      sourceLabel: "Salary.com: DevOps Engineer Salary in Chicago, IL",
+      sourceUrl: "https://www.salary.com/research/salary/standard/devops-engineer-salary/chicago-il",
+      sourceDate: "February 01, 2026"
+    }
+  },
+  "cloud-engineer-houston": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's March 1, 2026 Houston, TX Cloud Engineer page reports an average salary of $107,058, with a 25th-75th percentile range of $96,422 to $117,121.",
+      points: [
+        "Average salary: $107,058",
+        "25th-75th percentile range: $96,422 to $117,121",
+        "Top earners on the page are listed at $126,283"
+      ],
+      sourceLabel: "Salary.com: Cloud Engineer Salary in Houston, TX",
+      sourceUrl: "https://www.salary.com/research/salary/listing/cloud-engineer-salary/houston-tx",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "product-manager-san-francisco-bay-area": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "Salary.com's March 1, 2026 San Francisco, CA product manager page lists an average salary of $193,224 and shows title-specific benchmarks from Product Manager I through Product Manager VI.",
+      points: [
+        "Average product manager salary: $193,224",
+        "Product Manager III listed at $167,609",
+        "Product Management Manager listed at $198,167"
+      ],
+      sourceLabel: "Salary.com: Product Manager Salaries in San Francisco, CA",
+      sourceUrl: "https://www1.salary.com/CA/San-Francisco/Product-Manager-Salary.html",
+      sourceDate: "March 01, 2026"
+    }
+  },
+  "engineering-manager-boston": {
+    benchmarkEvidence: {
+      title: "Current public benchmark snapshot",
+      summary:
+        "The closest current public benchmark I found is Salary.com's March 1, 2026 Software Systems Engineering Manager page for Boston, MA, which reports an average salary of $168,256 and a 25th-75th percentile range of $156,826 to $183,738.",
+      points: [
+        "Closest public title used: Software Systems Engineering Manager",
+        "Average salary: $168,256",
+        "25th-75th percentile range: $156,826 to $183,738"
+      ],
+      sourceLabel: "Salary.com: Software Systems Engineering Manager Salary in Boston, MA",
+      sourceUrl: "https://www.salary.com/research/salary/benchmark/software-systems-engineering-manager-salary/boston-ma",
+      sourceDate: "March 01, 2026"
+    }
+  }
+};
+
 module.exports = roleDefinitions.map((roleDefinition, index) => {
   const city = usCities[index % usCities.length];
   const cityMedian = roleDefinition.baseMedian * city.premium;
@@ -746,6 +839,7 @@ module.exports = roleDefinitions.map((roleDefinition, index) => {
       ]
     },
     sourceReferences,
+    ...(benchmarkEvidenceBySlug[slug] || {}),
     faq: [
       {
         q: `What is a strong ${roleDefinition.role.toLowerCase()} salary in ${city.name}?`,

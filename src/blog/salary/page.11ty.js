@@ -37,6 +37,7 @@ class BlogSalaryPage {
     const { entry } = data;
     const roleLink = entry.rolePageUrl || "/land-your-next-role/";
     const marketLink = entry.marketPageUrl || "/locations/";
+    const benchmarkEvidence = entry.benchmarkEvidence;
     const experienceHtml = entry.experienceBands
       .map(
         (band) => `
@@ -54,6 +55,15 @@ class BlogSalaryPage {
     const sourcesHtml = entry.sourceReferences
       .map((item) => `<li><a href="${item.url}" rel="nofollow">${item.label}</a></li>`)
       .join("");
+    const benchmarkEvidenceHtml = benchmarkEvidence
+      ? `
+<h2>${benchmarkEvidence.title}</h2>
+<p>${benchmarkEvidence.summary}</p>
+<ul>
+  ${benchmarkEvidence.points.map((item) => `<li>${item}</li>`).join("")}
+</ul>
+<p>Source checked: <a href="${benchmarkEvidence.sourceUrl}" rel="nofollow">${benchmarkEvidence.sourceLabel}</a> (${benchmarkEvidence.sourceDate})</p>`
+      : "";
 
     return `
 <p>${entry.quickAnswer}</p>
@@ -76,6 +86,8 @@ class BlogSalaryPage {
 
 <h2>Closest public benchmark family</h2>
 <p>The closest public benchmark family for this page is <strong>${entry.benchmarkOccupation}</strong>. That matters because employer titles often vary more than public labor datasets do.</p>
+
+${benchmarkEvidenceHtml}
 
 <h2>What pushes pay higher for ${entry.role} roles</h2>
 <ul>
