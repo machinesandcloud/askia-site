@@ -1,21 +1,12 @@
-const cities = [
-  { hubSlug: "houston-career-coaching", label: "Houston", shortLabel: "Houston", market: "energy, healthcare, operations, finance, and growing technical leadership roles" },
-  { hubSlug: "new-york-city-career-coaching", label: "New York City", shortLabel: "New York City", market: "finance, product, enterprise technology, and leadership-track roles" },
-  { hubSlug: "dallas-fort-worth-career-coaching", label: "Dallas-Fort Worth", shortLabel: "Dallas-Fort Worth", market: "enterprise operations, finance, technology modernization, and leadership roles" },
-  { hubSlug: "austin-career-coaching", label: "Austin", shortLabel: "Austin", market: "software, product, startup, and cloud-oriented roles" },
-  { hubSlug: "seattle-career-coaching", label: "Seattle", shortLabel: "Seattle", market: "cloud, platform, product, and large-scale systems roles" },
-  { hubSlug: "san-francisco-bay-area-career-coaching", label: "San Francisco Bay Area", shortLabel: "the Bay Area", market: "venture-backed tech, product leadership, platform, and AI roles" },
-  { hubSlug: "washington-dc-career-coaching", label: "Washington, DC", shortLabel: "Washington, DC", market: "public-sector-adjacent, cybersecurity, consulting, and leadership roles" },
-  { hubSlug: "boston-career-coaching", label: "Boston", shortLabel: "Boston", market: "healthcare, life sciences, data, product, and technical leadership roles" },
-  { hubSlug: "atlanta-career-coaching", label: "Atlanta", shortLabel: "Atlanta", market: "growth, fintech, enterprise, and go-to-market leadership roles" },
-  { hubSlug: "raleigh-durham-career-coaching", label: "Raleigh–Durham", shortLabel: "Raleigh–Durham", market: "engineering, data, biotech, and modern technical roles" },
-  { hubSlug: "denver-career-coaching", label: "Denver", shortLabel: "Denver", market: "cloud, product, operations, and distributed-team leadership roles" },
-  { hubSlug: "chicago-career-coaching", label: "Chicago", shortLabel: "Chicago", market: "finance, consulting, operations, enterprise technology, and management roles" },
-  { hubSlug: "phoenix-career-coaching", label: "Phoenix", shortLabel: "Phoenix", market: "operations, enterprise growth, and modernization-driven roles" },
-  { hubSlug: "san-diego-career-coaching", label: "San Diego", shortLabel: "San Diego", market: "product, healthcare-adjacent, technical, and leadership roles" },
-  { hubSlug: "los-angeles-career-coaching", label: "Los Angeles", shortLabel: "Los Angeles", market: "consumer product, media-tech, growth, and cross-functional leadership roles" },
-  { hubSlug: "miami-career-coaching", label: "Miami", shortLabel: "Miami", market: "startup, finance, growth, operations, and cross-border professional roles" }
-];
+const cities = require("./cities.json").items.map((city) => ({
+  hubSlug: city.slug,
+  label: city.label,
+  shortLabel:
+    city.label === "San Francisco Bay Area"
+      ? "the Bay Area"
+      : city.label,
+  market: (city.note || "leadership-track professional roles").toLowerCase()
+}));
 
 const pageTypes = [
   {

@@ -1,21 +1,11 @@
-const cities = [
-  { hubSlug: "houston-career-coaching", label: "Houston", shortLabel: "Houston" },
-  { hubSlug: "new-york-city-career-coaching", label: "New York City", shortLabel: "New York City" },
-  { hubSlug: "dallas-fort-worth-career-coaching", label: "Dallas-Fort Worth", shortLabel: "Dallas-Fort Worth" },
-  { hubSlug: "austin-career-coaching", label: "Austin", shortLabel: "Austin" },
-  { hubSlug: "seattle-career-coaching", label: "Seattle", shortLabel: "Seattle" },
-  { hubSlug: "san-francisco-bay-area-career-coaching", label: "San Francisco Bay Area", shortLabel: "the Bay Area" },
-  { hubSlug: "washington-dc-career-coaching", label: "Washington, DC", shortLabel: "Washington, DC" },
-  { hubSlug: "boston-career-coaching", label: "Boston", shortLabel: "Boston" },
-  { hubSlug: "atlanta-career-coaching", label: "Atlanta", shortLabel: "Atlanta" },
-  { hubSlug: "raleigh-durham-career-coaching", label: "Raleigh-Durham", shortLabel: "Raleigh-Durham" },
-  { hubSlug: "denver-career-coaching", label: "Denver", shortLabel: "Denver" },
-  { hubSlug: "chicago-career-coaching", label: "Chicago", shortLabel: "Chicago" },
-  { hubSlug: "phoenix-career-coaching", label: "Phoenix", shortLabel: "Phoenix" },
-  { hubSlug: "san-diego-career-coaching", label: "San Diego", shortLabel: "San Diego" },
-  { hubSlug: "los-angeles-career-coaching", label: "Los Angeles", shortLabel: "Los Angeles" },
-  { hubSlug: "miami-career-coaching", label: "Miami", shortLabel: "Miami" }
-];
+const cities = require("./cities.json").items.map((city) => ({
+  hubSlug: city.slug,
+  label: city.label,
+  shortLabel:
+    city.label === "San Francisco Bay Area"
+      ? "the Bay Area"
+      : city.label
+}));
 
 const pageTypes = [
   {
