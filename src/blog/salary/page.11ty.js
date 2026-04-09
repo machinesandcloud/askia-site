@@ -50,8 +50,13 @@ class BlogSalaryPage {
 
     const driversHtml = entry.salaryDrivers.map((item) => `<li>${item}</li>`).join("");
     const marketHtml = entry.marketSignals.map((item) => `<li>${item}</li>`).join("");
+    const methodologyHtml = entry.methodology.notes.map((item) => `<li>${item}</li>`).join("");
+    const sourcesHtml = entry.sourceReferences
+      .map((item) => `<li><a href="${item.url}" rel="nofollow">${item.label}</a></li>`)
+      .join("");
 
     return `
+<p>${entry.quickAnswer}</p>
 <p>${entry.role} salaries in ${entry.location} usually move less on title and more on scope.</p>
 <p>That is what most compensation pages miss.</p>
 <p>Two roles with the same name can sit in very different bands depending on how much operational risk, platform leverage, or cross-team ownership they carry. This page is designed to make that difference clearer.</p>
@@ -68,6 +73,9 @@ class BlogSalaryPage {
 <div class="focus-grid">
   ${experienceHtml}
 </div>
+
+<h2>Closest public benchmark family</h2>
+<p>The closest public benchmark family for this page is <strong>${entry.benchmarkOccupation}</strong>. That matters because employer titles often vary more than public labor datasets do.</p>
 
 <h2>What pushes pay higher for ${entry.role} roles</h2>
 <ul>
@@ -91,6 +99,18 @@ class BlogSalaryPage {
 </ol>
 <p>The strongest negotiation case is usually not "I want more."</p>
 <p>It is "the scope, impact, and level of this role point to a stronger package than the current one."</p>
+
+<h2>How Askia built this salary guide</h2>
+<p>${entry.methodology.summary}</p>
+<ul>
+  ${methodologyHtml}
+</ul>
+
+<h2>Sources used for benchmarking</h2>
+<ul>
+  ${sourcesHtml}
+</ul>
+<p>Use these sources as cross-checks, not as a single definitive number. Real offers still move on scope, company stage, level calibration, and total package design.</p>
 
 <h2>Related career assets</h2>
 <ul>

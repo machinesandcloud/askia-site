@@ -1,5 +1,5 @@
-const publishDate = "April 8, 2026";
-const publishDateISO = "2026-04-08";
+const publishDate = "April 9, 2026";
+const publishDateISO = "2026-04-09";
 
 const titleHooks = [
   "Range, Scope, and What Moves Offers Higher",
@@ -150,6 +150,7 @@ const usCities = [
 const roleDefinitions = [
   {
     role: "Software Engineer",
+    benchmarkOccupation: "Software developers",
     rolePageUrl: "/software-engineer-career-coaching/",
     baseMedian: 160,
     featuredImage: "/assets/blog/offer-range.jpg",
@@ -165,6 +166,7 @@ const roleDefinitions = [
   },
   {
     role: "Backend Engineer",
+    benchmarkOccupation: "Software developers",
     rolePageUrl: "/software-engineer-career-coaching/",
     baseMedian: 168,
     featuredImage: "/assets/blog/technical-screen.jpg",
@@ -180,6 +182,7 @@ const roleDefinitions = [
   },
   {
     role: "Frontend Engineer",
+    benchmarkOccupation: "Software developers",
     rolePageUrl: "/software-engineer-career-coaching/",
     baseMedian: 150,
     featuredImage: "/assets/blog/linkedin-headline-formula.jpg",
@@ -195,6 +198,7 @@ const roleDefinitions = [
   },
   {
     role: "Full Stack Engineer",
+    benchmarkOccupation: "Software developers",
     rolePageUrl: "/software-engineer-career-coaching/",
     baseMedian: 158,
     featuredImage: "/assets/blog/offer-comparison.jpg",
@@ -210,6 +214,7 @@ const roleDefinitions = [
   },
   {
     role: "DevOps Engineer",
+    benchmarkOccupation: "Software developers / platform-oriented infrastructure roles",
     rolePageUrl: "/devops-career-coaching/",
     baseMedian: 170,
     featuredImage: "/assets/blog/offer-leverage.jpg",
@@ -225,6 +230,7 @@ const roleDefinitions = [
   },
   {
     role: "Site Reliability Engineer",
+    benchmarkOccupation: "Software developers / site reliability and platform operations roles",
     rolePageUrl: "/devops-career-coaching/",
     baseMedian: 188,
     featuredImage: "/assets/blog/interview-calibration.jpg",
@@ -240,6 +246,7 @@ const roleDefinitions = [
   },
   {
     role: "Platform Engineer",
+    benchmarkOccupation: "Software developers / platform engineering roles",
     rolePageUrl: "/devops-career-coaching/",
     baseMedian: 192,
     featuredImage: "/assets/blog/manager-vs-staff.jpg",
@@ -255,6 +262,7 @@ const roleDefinitions = [
   },
   {
     role: "Cloud Engineer",
+    benchmarkOccupation: "Network and computer systems administrators / cloud engineering roles",
     rolePageUrl: "/devops-career-coaching/",
     baseMedian: 176,
     featuredImage: "/assets/blog/offer-comparison.jpg",
@@ -270,6 +278,7 @@ const roleDefinitions = [
   },
   {
     role: "Data Engineer",
+    benchmarkOccupation: "Data scientists / database architects / data engineering roles",
     rolePageUrl: "/data-career-coaching/",
     baseMedian: 166,
     featuredImage: "/assets/blog/resume-impact-bullets.jpg",
@@ -285,6 +294,7 @@ const roleDefinitions = [
   },
   {
     role: "Data Scientist",
+    benchmarkOccupation: "Data scientists",
     rolePageUrl: "/data-career-coaching/",
     baseMedian: 170,
     featuredImage: "/assets/blog/behavioral-signal.jpg",
@@ -300,6 +310,7 @@ const roleDefinitions = [
   },
   {
     role: "Analytics Engineer",
+    benchmarkOccupation: "Data scientists / business intelligence and analytics engineering roles",
     rolePageUrl: "/data-career-coaching/",
     baseMedian: 158,
     featuredImage: "/assets/blog/case-study-framework.jpg",
@@ -315,6 +326,7 @@ const roleDefinitions = [
   },
   {
     role: "Machine Learning Engineer",
+    benchmarkOccupation: "Computer and information research scientists / machine learning engineering roles",
     rolePageUrl: "/ai-ml-career-coaching/",
     baseMedian: 198,
     featuredImage: "/assets/blog/system-design-story.jpg",
@@ -330,6 +342,7 @@ const roleDefinitions = [
   },
   {
     role: "AI Engineer",
+    benchmarkOccupation: "Computer and information research scientists / applied AI engineering roles",
     rolePageUrl: "/ai-ml-career-coaching/",
     baseMedian: 205,
     featuredImage: "/assets/blog/why-top-tech-rejects.jpg",
@@ -345,6 +358,7 @@ const roleDefinitions = [
   },
   {
     role: "Cybersecurity Engineer",
+    benchmarkOccupation: "Information security analysts",
     rolePageUrl: "/cybersecurity-career-coaching/",
     baseMedian: 168,
     featuredImage: "/assets/blog/risk-mitigation-story.jpg",
@@ -360,6 +374,7 @@ const roleDefinitions = [
   },
   {
     role: "QA Engineer",
+    benchmarkOccupation: "Software quality assurance analysts and testers",
     rolePageUrl: "/qa-career-coaching/",
     baseMedian: 136,
     featuredImage: "/assets/blog/technical-screen.jpg",
@@ -375,6 +390,7 @@ const roleDefinitions = [
   },
   {
     role: "Solutions Architect",
+    benchmarkOccupation: "Computer systems analysts / solutions architecture roles",
     rolePageUrl: "/solutions-architect-career-coaching/",
     baseMedian: 188,
     featuredImage: "/assets/blog/executive-brief.jpg",
@@ -390,6 +406,7 @@ const roleDefinitions = [
   },
   {
     role: "Product Manager",
+    benchmarkOccupation: "Project management specialists / product management roles",
     rolePageUrl: "/product-manager-career-coaching/",
     baseMedian: 180,
     featuredImage: "/assets/blog/role-targeting.jpg",
@@ -405,6 +422,7 @@ const roleDefinitions = [
   },
   {
     role: "Technical Product Manager",
+    benchmarkOccupation: "Project management specialists / technical product management roles",
     rolePageUrl: "/product-manager-career-coaching/",
     baseMedian: 194,
     featuredImage: "/assets/blog/case-study-structure.jpg",
@@ -420,6 +438,7 @@ const roleDefinitions = [
   },
   {
     role: "Product Operations Manager",
+    benchmarkOccupation: "Project management specialists / product operations roles",
     rolePageUrl: "/product-ops-career-coaching/",
     baseMedian: 150,
     featuredImage: "/assets/blog/job-search-metrics.jpg",
@@ -435,6 +454,7 @@ const roleDefinitions = [
   },
   {
     role: "Product Designer",
+    benchmarkOccupation: "Web and digital interface designers / product design roles",
     rolePageUrl: "/product-design-career-coaching/",
     baseMedian: 160,
     featuredImage: "/assets/blog/portfolio-structure.jpg",
@@ -450,6 +470,7 @@ const roleDefinitions = [
   },
   {
     role: "Engineering Manager",
+    benchmarkOccupation: "Computer and information systems managers",
     rolePageUrl: "/engineering-manager-coaching/",
     baseMedian: 222,
     featuredImage: "/assets/blog/manager-vs-staff.jpg",
@@ -465,6 +486,7 @@ const roleDefinitions = [
   },
   {
     role: "Sales Engineer",
+    benchmarkOccupation: "Sales engineers",
     rolePageUrl: "/sales-engineer-career-coaching/",
     baseMedian: 176,
     featuredImage: "/assets/blog/offer-leverage.jpg",
@@ -480,6 +502,7 @@ const roleDefinitions = [
   },
   {
     role: "Customer Success Manager",
+    benchmarkOccupation: "Customer success / account management roles",
     rolePageUrl: "/customer-success-career-coaching/",
     baseMedian: 135,
     featuredImage: "/assets/blog/follow-up-strategy.jpg",
@@ -495,6 +518,7 @@ const roleDefinitions = [
   },
   {
     role: "Marketing Manager",
+    benchmarkOccupation: "Marketing managers",
     rolePageUrl: "/marketing-career-coaching/",
     baseMedian: 145,
     featuredImage: "/assets/blog/linkedin-optimization-engineers.jpg",
@@ -510,6 +534,7 @@ const roleDefinitions = [
   },
   {
     role: "Finance Manager",
+    benchmarkOccupation: "Financial managers",
     rolePageUrl: "/finance-fpa-career-coaching/",
     baseMedian: 156,
     featuredImage: "/assets/blog/executive-presence.jpg",
@@ -525,6 +550,7 @@ const roleDefinitions = [
   },
   {
     role: "FP&A Analyst",
+    benchmarkOccupation: "Financial analysts",
     rolePageUrl: "/finance-fpa-career-coaching/",
     baseMedian: 132,
     featuredImage: "/assets/blog/executive-brief.jpg",
@@ -540,6 +566,7 @@ const roleDefinitions = [
   },
   {
     role: "Operations Manager",
+    benchmarkOccupation: "General and operations managers",
     rolePageUrl: "/operations-career-coaching/",
     baseMedian: 142,
     featuredImage: "/assets/blog/90-day-tech-job-system.jpg",
@@ -555,6 +582,7 @@ const roleDefinitions = [
   },
   {
     role: "Strategy Consultant",
+    benchmarkOccupation: "Management analysts",
     rolePageUrl: "/strategy-consulting-career-coaching/",
     baseMedian: 172,
     featuredImage: "/assets/blog/case-study-framework.jpg",
@@ -570,6 +598,7 @@ const roleDefinitions = [
   },
   {
     role: "Supply Chain Manager",
+    benchmarkOccupation: "Logisticians / supply chain management roles",
     rolePageUrl: "/supply-chain-career-coaching/",
     baseMedian: 148,
     featuredImage: "/assets/blog/risk-mitigation-story.jpg",
@@ -585,6 +614,7 @@ const roleDefinitions = [
   },
   {
     role: "People Operations Manager",
+    benchmarkOccupation: "Human resources managers",
     rolePageUrl: "/people-ops-career-coaching/",
     baseMedian: 145,
     featuredImage: "/assets/blog/leadership-signal-resume.jpg",
@@ -648,6 +678,29 @@ function buildMarketSignals(role, city, leverageTheme) {
   ];
 }
 
+const sourceReferences = [
+  {
+    label: "BLS overview of wage data by area and occupation",
+    url: "https://www.bls.gov/bls/blswage.htm"
+  },
+  {
+    label: "BLS current metropolitan area occupational wage tables",
+    url: "https://www.bls.gov/oes/current/oessrcma.htm"
+  },
+  {
+    label: "BLS OEWS data query system",
+    url: "https://data.bls.gov/oes/"
+  },
+  {
+    label: "Levels.fyi compensation benchmarks",
+    url: "https://www.levels.fyi/"
+  },
+  {
+    label: "Salary.com salary research",
+    url: "https://www.salary.com/"
+  }
+];
+
 module.exports = roleDefinitions.map((roleDefinition, index) => {
   const city = usCities[index % usCities.length];
   const cityMedian = roleDefinition.baseMedian * city.premium;
@@ -670,6 +723,8 @@ module.exports = roleDefinitions.map((roleDefinition, index) => {
     imageAlt: "Professional coaching and career strategy imagery.",
     featured: false,
     categories: roleDefinition.categories,
+    benchmarkOccupation: roleDefinition.benchmarkOccupation,
+    quickAnswer: `${roleDefinition.role} salaries in ${city.name} usually move fastest when the role owns more leverage than the title alone suggests.`,
     salaryBand: buildSalaryBand(cityMedian),
     experienceBands: buildExperienceBands(
       roleDefinition.role,
@@ -681,6 +736,16 @@ module.exports = roleDefinitions.map((roleDefinition, index) => {
     salaryDrivers: roleDefinition.drivers,
     marketSignals: buildMarketSignals(roleDefinition.role, city, roleDefinition.leverageTheme),
     costContext: city.packageContext,
+    methodology: {
+      summary:
+        `This guide is a directional planning range, not a guaranteed market quote. Askia models the range from role baseline, city premium, scope expectations, and public wage benchmarks, then uses ${roleDefinition.benchmarkOccupation.toLowerCase()} as the closest public benchmark family when official datasets do not map perfectly to employer-specific titles.`,
+      notes: [
+        "Lower band usually reflects narrower execution scope, earlier tenure, or less business-critical ownership.",
+        "Midpoint usually reflects fully credible market-fit candidates who meet expectations for the title and location.",
+        "Upper band usually requires stronger scope, clearer business leverage, and a package that may include bonus, equity, or signing components."
+      ]
+    },
+    sourceReferences,
     faq: [
       {
         q: `What is a strong ${roleDefinition.role.toLowerCase()} salary in ${city.name}?`,
@@ -693,6 +758,10 @@ module.exports = roleDefinitions.map((roleDefinition, index) => {
       {
         q: `How should ${roleDefinition.role.toLowerCase()} candidates negotiate in ${city.name}?`,
         a: `Start with level and scope before debating salary alone. The strongest negotiation case is usually that ${roleDefinition.negotiationTheme}, which supports a stronger package than a title-only benchmark suggests.`
+      },
+      {
+        q: `Where do these ${roleDefinition.role.toLowerCase()} salary estimates for ${city.name} come from?`,
+        a: `These pages use Askia planning ranges triangulated against public wage datasets, current metropolitan wage tables, and live compensation research sources. The benchmark family for this page is ${roleDefinition.benchmarkOccupation.toLowerCase()}.`
       }
     ]
   };
