@@ -1,0 +1,23 @@
+---
+pagination:
+  data: roleSubPages
+  size: 1
+  alias: rsp
+eleventyComputed:
+  title: "{{ rsp.title }}"
+  metaTitle: "{{ rsp.metaTitle }}"
+  metaDescription: "{{ rsp.metaDescription }}"
+  permalink: "/resources/{{ rsp.role }}/{{ rsp.topic }}/"
+  breadcrumbs:
+    - name: "Home"
+      url: "/"
+    - name: "Resources"
+      url: "/resources/"
+    - name: "{{ rsp.roleName }}"
+      url: "/resources/{{ rsp.role }}/"
+    - name: "{{ rsp.topicName }}"
+      url: "/resources/{{ rsp.role }}/{{ rsp.topic }}/"
+layout: layout.njk
+---
+{% set pageData = rsp %}
+{% include "role-resource-page.njk" %}

@@ -1,238 +1,216 @@
 ---
 layout: layout.njk
-title: Resources
-metaTitle: "Career Resources for Serious Role Moves | Askia"
-metaDescription: "Curated resources to help you sharpen your positioning, interviews, and offer strategy."
+title: Career Resources
+metaTitle: "Career Resources for Tech, Product & Finance Professionals | Askia"
+metaDescription: "100+ role-specific guides covering resume writing, LinkedIn, interview prep, salary negotiation, and more — built for senior roles in SWE, DevOps, Data, Product, EM, and Finance."
 breadcrumbs:
   - name: "Home"
     url: "/"
   - name: "Resources"
     url: "/resources/"
 ---
-<section class="resources-hero">
-  <div class="container resources-hero-grid">
-    <div class="resources-hero-copy">
-      <p class="hero-eyebrow">Resources</p>
-      <h1 class="resources-hero-title">Career Resources for Serious Role Moves</h1>
-      <p class="resources-hero-subtitle">Guides, checklists, and frameworks built for senior‑level signal.</p>
-      <p class="resources-hero-supporting">Use these to upgrade your positioning, interview execution, and offer strategy.</p>
-      <div class="hero-cta">
-        <a class="btn btn-primary" href="/land-your-next-role/">Get Personalized Coaching</a>
-        <a class="btn btn-ghost" href="https://askia.tech/career-readiness-index/">Take the Career Readiness Assessment</a>
-      </div>
+
+<div class="rh2-page">
+
+{# ─── HERO ────────────────────────────────────────────── #}
+<section class="rh2-hero">
+  <div class="container rh2-hero-inner">
+    <p class="rh2-kicker">Career Intelligence</p>
+    <h1 class="rh2-hero-title">The playbook for<br>landing the role.</h1>
+    <p class="rh2-hero-sub">100+ guides written for senior professionals in tech, product, and finance. Each guide is specific to your role, not generic career advice.</p>
+    <div class="rh2-hero-cta">
+      <a class="btn btn-primary" href="{{ site.cta.link }}">{{ site.cta.label }}</a>
+      <a class="btn btn-ghost" href="/career-readiness-index/">Take the career assessment</a>
     </div>
-    <div class="resources-hero-panel">
-      <div class="resources-card">
-        <strong>What's inside</strong>
-        <p>High‑signal templates and systems that map to real hiring decisions.</p>
-        <div class="resources-chips">
-          <span>Resume impact templates</span>
-          <span>Interview story frameworks</span>
-          <span>Negotiation scripts</span>
+    <div class="rh2-hero-stats">
+      <div class="rh2-hs"><span>100+</span><p>role-specific guides</p></div>
+      <div class="rh2-hs"><span>6</span><p>career tracks</p></div>
+      <div class="rh2-hs"><span>$47K+</span><p>avg comp increase</p></div>
+      <div class="rh2-hs"><span>89%</span><p>of clients land offers in 60 days</p></div>
+    </div>
+  </div>
+</section>
+
+{# ─── ROLE TRACKS ─────────────────────────────────────── #}
+<section class="rh2-tracks">
+  <div class="container">
+    <div class="rh2-tracks-header">
+      <h2 class="rh2-section-title">Pick your track</h2>
+      <p class="rh2-section-sub">Every guide is written for a specific role. Generic advice doesn't land senior roles. Pick your track and go deep.</p>
+    </div>
+    <div class="rh2-tracks-grid">
+
+      <a class="rh2-track-card rh2-track-swe" href="/resources/software-engineer/">
+        <div class="rh2-track-top">
+          <span class="rh2-track-emoji">⚙️</span>
+          <span class="rh2-track-tag">SWE</span>
         </div>
-      </div>
-      <div class="resources-card accent">
-        <strong>Clear frameworks you can use today</strong>
-        <p>Direct answers, decision rules, and step‑by‑step checklists—no fluff.</p>
-      </div>
+        <h3 class="rh2-track-name">Software Engineering</h3>
+        <p class="rh2-track-desc">System design narratives, scope ladders, and impact metrics for Senior, Staff, and Principal roles.</p>
+        <div class="rh2-track-topics">
+          <span>Resume</span><span>System Design</span><span>Salary</span><span>Interview Prep</span>
+        </div>
+        <div class="rh2-track-footer">
+          <span class="rh2-track-count">16 guides</span>
+          <span class="rh2-track-cta">Explore track →</span>
+        </div>
+      </a>
+
+      <a class="rh2-track-card rh2-track-devops" href="/resources/devops-sre/">
+        <div class="rh2-track-top">
+          <span class="rh2-track-emoji">🛡️</span>
+          <span class="rh2-track-tag">Platform</span>
+        </div>
+        <h3 class="rh2-track-name">DevOps &amp; SRE</h3>
+        <p class="rh2-track-desc">Incident stories, reliability scorecards, and infrastructure scope maps for platform and reliability roles.</p>
+        <div class="rh2-track-topics">
+          <span>Incident Response</span><span>Resume</span><span>LinkedIn</span><span>Salary</span>
+        </div>
+        <div class="rh2-track-footer">
+          <span class="rh2-track-count">16 guides</span>
+          <span class="rh2-track-cta">Explore track →</span>
+        </div>
+      </a>
+
+      <a class="rh2-track-card rh2-track-data" href="/resources/data/">
+        <div class="rh2-track-top">
+          <span class="rh2-track-emoji">📊</span>
+          <span class="rh2-track-tag">DE / DS / Analytics</span>
+        </div>
+        <h3 class="rh2-track-name">Data</h3>
+        <p class="rh2-track-desc">Decision impact frameworks and pipeline ownership maps for Data Engineers, Scientists, and Analytics roles.</p>
+        <div class="rh2-track-topics">
+          <span>Data Storytelling</span><span>Resume</span><span>Interview Prep</span><span>Salary</span>
+        </div>
+        <div class="rh2-track-footer">
+          <span class="rh2-track-count">16 guides</span>
+          <span class="rh2-track-cta">Explore track →</span>
+        </div>
+      </a>
+
+      <a class="rh2-track-card rh2-track-pm" href="/resources/product-manager/">
+        <div class="rh2-track-top">
+          <span class="rh2-track-emoji">🧭</span>
+          <span class="rh2-track-tag">Product</span>
+        </div>
+        <h3 class="rh2-track-name">Product Manager</h3>
+        <p class="rh2-track-desc">Case study templates, metrics maps, and exec summary guides for PM roles at all levels.</p>
+        <div class="rh2-track-topics">
+          <span>Product Sense</span><span>Resume</span><span>Interview Prep</span><span>Salary</span>
+        </div>
+        <div class="rh2-track-footer">
+          <span class="rh2-track-count">16 guides</span>
+          <span class="rh2-track-cta">Explore track →</span>
+        </div>
+      </a>
+
+      <a class="rh2-track-card rh2-track-em" href="/resources/engineering-manager/">
+        <div class="rh2-track-top">
+          <span class="rh2-track-emoji">👥</span>
+          <span class="rh2-track-tag">Leadership</span>
+        </div>
+        <h3 class="rh2-track-name">Engineering Manager</h3>
+        <p class="rh2-track-desc">Scope mapping, org impact narratives, and leadership signal for EM, Director, and VP roles.</p>
+        <div class="rh2-track-topics">
+          <span>People Management</span><span>Resume</span><span>Interview Prep</span><span>Salary</span>
+        </div>
+        <div class="rh2-track-footer">
+          <span class="rh2-track-count">16 guides</span>
+          <span class="rh2-track-cta">Explore track →</span>
+        </div>
+      </a>
+
+      <a class="rh2-track-card rh2-track-finance" href="/resources/finance-fpa/">
+        <div class="rh2-track-top">
+          <span class="rh2-track-emoji">📈</span>
+          <span class="rh2-track-tag">Finance</span>
+        </div>
+        <h3 class="rh2-track-name">Finance &amp; FP&amp;A</h3>
+        <p class="rh2-track-desc">Executive-ready finance narratives and proof points for FP&amp;A, Controller, and finance leadership roles.</p>
+        <div class="rh2-track-topics">
+          <span>Financial Modeling</span><span>Resume</span><span>Interview Prep</span><span>Salary</span>
+        </div>
+        <div class="rh2-track-footer">
+          <span class="rh2-track-count">16 guides</span>
+          <span class="rh2-track-cta">Explore track →</span>
+        </div>
+      </a>
+
     </div>
   </div>
 </section>
 
-<section class="section">
+{# ─── TOPIC GUIDES (original /resources/[topic]/ pages) ── #}
+<section class="rh2-topics-section">
   <div class="container">
-    <div class="pillar-header">
-      <p class="hero-eyebrow">Topic Guides</p>
-      <h2 class="section-title section-title-glow">Master each stage of the job search</h2>
-      <p class="section-subtitle">Comprehensive guides for every step from resume to negotiation.</p>
+    <div class="rh2-topics-header">
+      <h2 class="rh2-section-title">General guides</h2>
+      <p class="rh2-section-sub">Topic-level deep dives that apply across all roles.</p>
     </div>
-    <div class="resources-grid">
-      <a class="resource-card resource-card-link" href="/resources/ats/">
-        <h3>ATS Optimization</h3>
-        <p>How to format your resume so it actually gets read by humans.</p>
-        <span>Formatting</span>
+    <div class="rh2-topics-list">
+      <a class="rh2-topic-item" href="/resources/ats/">
+        <span class="rh2-topic-num">01</span>
+        <div class="rh2-topic-content">
+          <h3>ATS Optimization</h3>
+          <p>How to format your resume so it actually gets read by humans.</p>
+        </div>
+        <span class="rh2-topic-arrow">→</span>
       </a>
-      <a class="resource-card resource-card-link" href="/resources/resume/">
-        <h3>Resume Writing</h3>
-        <p>Impact-first bullets that get senior-level callbacks.</p>
-        <span>Positioning</span>
+      <a class="rh2-topic-item" href="/resources/resume/">
+        <span class="rh2-topic-num">02</span>
+        <div class="rh2-topic-content">
+          <h3>Resume Writing</h3>
+          <p>Impact-first bullets that get senior-level callbacks.</p>
+        </div>
+        <span class="rh2-topic-arrow">→</span>
       </a>
-      <a class="resource-card resource-card-link" href="/resources/linkedin/">
-        <h3>LinkedIn Optimization</h3>
-        <p>How to make recruiters reach out to you.</p>
-        <span>Visibility</span>
+      <a class="rh2-topic-item" href="/resources/linkedin/">
+        <span class="rh2-topic-num">03</span>
+        <div class="rh2-topic-content">
+          <h3>LinkedIn Optimization</h3>
+          <p>How to make recruiters reach out to you instead of the other way around.</p>
+        </div>
+        <span class="rh2-topic-arrow">→</span>
       </a>
-      <a class="resource-card resource-card-link" href="/resources/interview-prep/">
-        <h3>Interview Preparation</h3>
-        <p>Walk into interviews knowing exactly what to say.</p>
-        <span>Execution</span>
+      <a class="rh2-topic-item" href="/resources/interview-prep/">
+        <span class="rh2-topic-num">04</span>
+        <div class="rh2-topic-content">
+          <h3>Interview Preparation</h3>
+          <p>Walk into interviews knowing exactly what to say.</p>
+        </div>
+        <span class="rh2-topic-arrow">→</span>
       </a>
-      <a class="resource-card resource-card-link" href="/resources/salary-negotiation/">
-        <h3>Salary Negotiation</h3>
-        <p>Negotiate offers without risking the deal.</p>
-        <span>Conversion</span>
+      <a class="rh2-topic-item" href="/resources/salary-negotiation/">
+        <span class="rh2-topic-num">05</span>
+        <div class="rh2-topic-content">
+          <h3>Salary Negotiation</h3>
+          <p>Negotiate offers without risking the deal. 85% of offers have room to move.</p>
+        </div>
+        <span class="rh2-topic-arrow">→</span>
       </a>
-      <a class="resource-card resource-card-link" href="/resources/cover-letters/">
-        <h3>Cover Letters</h3>
-        <p>When you need one and how to write it.</p>
-        <span>Application</span>
-      </a>
-    </div>
-  </div>
-</section>
-
-<section class="section resources-lanes">
-  <div class="container">
-    <div class="pillar-header">
-      <p class="hero-eyebrow">Role Hubs</p>
-      <h2 class="section-title section-title-glow">Resources tailored to your function</h2>
-      <p class="section-subtitle">Everything organized by how you're evaluated in that role.</p>
-    </div>
-    <div class="resources-grid">
-      <a class="resource-card resource-card-link" href="/resources/software-engineer/">
-        <h3>Software Engineering</h3>
-        <p>System design narratives, scope ladders, and impact metrics.</p>
-        <span>SWE</span>
-      </a>
-      <a class="resource-card resource-card-link" href="/resources/devops-sre/">
-        <h3>DevOps & SRE</h3>
-        <p>Incident stories, reliability scorecards, and infrastructure scope maps.</p>
-        <span>Platform</span>
-      </a>
-      <a class="resource-card resource-card-link" href="/resources/data/">
-        <h3>Data</h3>
-        <p>Decision impact frameworks and pipeline ownership maps.</p>
-        <span>DE/DS/Analytics</span>
-      </a>
-      <a class="resource-card resource-card-link" href="/resources/product-manager/">
-        <h3>Product Manager</h3>
-        <p>Case study templates, metrics maps, and exec summary guides.</p>
-        <span>Product</span>
-      </a>
-      <a class="resource-card resource-card-link" href="/resources/engineering-manager/">
-        <h3>Engineering Manager</h3>
-        <p>Scope mapping, org impact narratives, and leadership signal.</p>
-        <span>Leadership</span>
-      </a>
-      <a class="resource-card resource-card-link" href="/resources/finance-fpa/">
-        <h3>Finance & FP&A</h3>
-        <p>Executive-ready finance narratives and proof points.</p>
-        <span>Finance</span>
+      <a class="rh2-topic-item" href="/resources/cover-letters/">
+        <span class="rh2-topic-num">06</span>
+        <div class="rh2-topic-content">
+          <h3>Cover Letters</h3>
+          <p>When you need one and how to write it in under 150 words.</p>
+        </div>
+        <span class="rh2-topic-arrow">→</span>
       </a>
     </div>
   </div>
 </section>
 
-<section class="section resources-blog">
-  <div class="container resources-blog-grid">
-    <div>
-      <p class="hero-eyebrow">Career Intelligence Library</p>
-      <h2 class="section-title section-title-glow">Structured libraries for salary, interview, and market intent</h2>
-      <p class="section-subtitle">Use the blog as a search-friendly intelligence hub: compensation pages, interview prep pages, and city-market pages built to answer specific career questions fast.</p>
-      <div class="hero-cta">
-        <a class="btn btn-primary" href="/blog/">Explore the Library</a>
-        <a class="btn btn-ghost" href="/blog/salary/">Browse Salary Guides</a>
-        <a class="btn btn-ghost" href="/blog/interview/">Browse Interview Guides</a>
-        <a class="btn btn-ghost" href="/locations/">Browse Markets</a>
-        <a class="btn btn-ghost" href="/proof/">Browse Proof</a>
-      </div>
-    </div>
-    <div class="resources-blog-panel">
-      <div class="resources-card">
-        <strong>What you'll get</strong>
-        <p>Signal frameworks, negotiation scripts, city-specific career pages, and structured interview or salary guides.</p>
-      </div>
-      <div class="resources-card accent">
-        <strong>Built for search intent</strong>
-        <p>Direct answer blocks, role-specific libraries, and market pages that connect local intent to coaching offers.</p>
-      </div>
-    </div>
+{# ─── BOTTOM CTA ──────────────────────────────────────── #}
+<section class="rh2-cta">
+  <div class="container rh2-cta-inner">
+    <h2>Want a tailored plan, not a guide?</h2>
+    <p>Book a strategy call. We'll map the fastest path to your target role based on where you actually are right now.</p>
+    <a class="btn btn-primary" href="{{ site.cta.link }}">{{ site.cta.label }}</a>
   </div>
 </section>
 
-<section class="section section-tight">
-  <div class="container two-col-grid">
-    <div class="content-panel">
-      <h2 class="section-title section-title-glow">Best starting points</h2>
-      <ul class="checklist">
-        <li>Use the salary library if compensation or level calibration is the immediate problem.</li>
-        <li>Use the interview library if the search is converting to screens but not to offers.</li>
-        <li>Use the city pages if local market intent or local service queries are part of the search.</li>
-      </ul>
-    </div>
-    <div class="content-panel">
-      <h2 class="section-title section-title-glow">Highest-intent resource clusters</h2>
-      <div class="link-stack">
-        <a class="location-card" href="/blog/salary/">
-          <strong>Salary guides</strong>
-          <span>Role + market salary pages built for compensation, leveling, and negotiation intent.</span>
-        </a>
-        <a class="location-card" href="/blog/interview/">
-          <strong>Interview guides</strong>
-          <span>Role-based and topic-based prep pages built for live interview conversion.</span>
-        </a>
-        <a class="location-card" href="/locations/">
-          <strong>City and market pages</strong>
-          <span>Local-intent pages tied to coaching, resume, interview, and offer-service searches.</span>
-        </a>
-        <a class="location-card" href="/proof/">
-          <strong>Proof library</strong>
-          <span>Case studies that show what changes when positioning, interviews, and negotiation improve.</span>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container cta-band">
-    <div>
-      <h2 class="section-title">Want a tailored plan?</h2>
-      <p class="section-subtitle">Book a call and we'll map the fastest path to your target role.</p>
-    </div>
-    <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
-  </div>
-</section>
+</div>
 
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Askia resources",
-    "description": "Career resources covering positioning, interviews, negotiation, role hubs, salary guides, interview guides, and market pages.",
-    "url": "{{ site.url }}{{ page.url }}"
-  }
-</script>
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Askia resource hubs",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Career Intelligence Library",
-        "url": "{{ site.url }}/blog/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Salary Guides",
-        "url": "{{ site.url }}/blog/salary/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Interview Guides",
-        "url": "{{ site.url }}/blog/interview/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Locations",
-        "url": "{{ site.url }}/locations/"
-      }
-    ]
-  }
+{"@context":"https://schema.org","@type":"CollectionPage","name":"Askia Career Resources","description":"100+ role-specific career guides for Software Engineering, DevOps/SRE, Data, Product Management, Engineering Management, and Finance.","url":"{{ site.url }}/resources/"}
 </script>

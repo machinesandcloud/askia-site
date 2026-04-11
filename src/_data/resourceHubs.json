@@ -1,6 +1,7 @@
 {
   "roles": {
     "softwareEngineer": {
+      "theme": "swe",
       "eyebrow": "Role Hub",
       "title": "Software Engineer Career Resources",
       "subtitle": "System design narratives, scope ladders, and impact metrics for Senior, Staff, and Principal roles.",
@@ -52,6 +53,7 @@
       }
     },
     "devopsSre": {
+      "theme": "devops",
       "eyebrow": "Role Hub",
       "title": "DevOps & SRE Career Resources",
       "subtitle": "Incident stories, reliability scorecards, and infrastructure scope maps for platform and reliability roles.",
@@ -102,6 +104,7 @@
       }
     },
     "data": {
+      "theme": "data",
       "eyebrow": "Role Hub",
       "title": "Data Career Resources",
       "subtitle": "Decision impact frameworks and pipeline ownership maps for Data Engineers, Data Scientists, and Analytics roles.",
@@ -152,6 +155,7 @@
       }
     },
     "productManager": {
+      "theme": "pm",
       "eyebrow": "Role Hub",
       "title": "Product Manager Career Resources",
       "subtitle": "Case study templates, metrics maps, and exec summary guides for PM roles at all levels.",
@@ -202,6 +206,7 @@
       }
     },
     "engineeringManager": {
+      "theme": "em",
       "eyebrow": "Role Hub",
       "title": "Engineering Manager Career Resources",
       "subtitle": "Scope mapping, org impact narratives, and leadership signal for EM, Director, and VP roles.",
@@ -252,6 +257,7 @@
       }
     },
     "financeFpa": {
+      "theme": "finance",
       "eyebrow": "Role Hub",
       "title": "Finance & FP&A Career Resources",
       "subtitle": "Executive-ready finance narratives and proof points for FP&A, Controller, and Finance leadership roles.",
@@ -304,6 +310,7 @@
   },
   "topics": {
     "ats": {
+      "theme": "ats",
       "eyebrow": "Topic Hub",
       "title": "ATS Optimization Guide",
       "subtitle": "How to format your resume so it actually gets read by humans.",
@@ -355,6 +362,7 @@
       }
     },
     "resume": {
+      "theme": "resume",
       "eyebrow": "Topic Hub",
       "title": "Resume Writing Guide",
       "subtitle": "How to write impact-first bullets that get senior-level callbacks.",
@@ -406,6 +414,7 @@
       }
     },
     "linkedin": {
+      "theme": "linkedin",
       "eyebrow": "Topic Hub",
       "title": "LinkedIn Optimization Guide",
       "subtitle": "How to make recruiters reach out to you.",
@@ -457,6 +466,7 @@
       }
     },
     "interviewPrep": {
+      "theme": "interview",
       "eyebrow": "Topic Hub",
       "title": "Interview Preparation Guide",
       "subtitle": "How to walk into interviews knowing exactly what to say.",
@@ -508,6 +518,7 @@
       }
     },
     "salaryNegotiation": {
+      "theme": "salary",
       "eyebrow": "Topic Hub",
       "title": "Salary Negotiation Guide",
       "subtitle": "How to negotiate offers without risking the deal.",
@@ -559,6 +570,7 @@
       }
     },
     "coverLetters": {
+      "theme": "coverletter",
       "eyebrow": "Topic Hub",
       "title": "Cover Letter Guide",
       "subtitle": "When you need one and how to write it.",

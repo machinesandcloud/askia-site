@@ -1,0 +1,239 @@
+<div class="rr-page" style="--rc: {{ pageData.roleColor }};">
+
+{# ─── LAYOUT WRAPPER ─────────────────────────────────── #}
+<div class="rr-layout">
+
+  {# ─── SIDEBAR ────────────────────────────────────────── #}
+  <aside class="rr-sidebar">
+    <a class="rr-sidebar-back" href="/resources/{{ pageData.role }}/">
+      ← {{ pageData.roleName }}
+    </a>
+    <div class="rr-sidebar-role-badge">
+      <span class="rr-sidebar-emoji">{{ pageData.roleEmoji }}</span>
+      <span>{{ pageData.roleTag }}</span>
+    </div>
+    <p class="rr-sidebar-label">Guides in this track</p>
+    <nav class="rr-sidebar-nav">
+      {% for item in roleSubPages %}
+        {% if item.role == pageData.role %}
+        <a
+          class="rr-nav-link{% if item.topic == pageData.topic %} rr-nav-active{% endif %}"
+          href="/resources/{{ item.role }}/{{ item.topic }}/"
+        >
+          {{ item.topicName }}
+        </a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+    <div class="rr-sidebar-cta">
+      <p>Want personalized coaching?</p>
+      <a class="btn btn-primary" href="{{ site.cta.link }}" style="width:100%;text-align:center;display:block;">{{ site.cta.label }}</a>
+    </div>
+  </aside>
+
+  {# ─── MAIN CONTENT ───────────────────────────────────── #}
+  <main class="rr-main">
+
+    {# HERO #}
+    <section class="rr-hero">
+      <div class="rr-hero-top">
+        <a class="rr-role-pill" href="/resources/{{ pageData.role }}/">
+          {{ pageData.roleEmoji }} {{ pageData.roleName }}
+        </a>
+        <span class="rr-topic-tag">{{ pageData.topicName }}</span>
+      </div>
+      <h1 class="rr-headline">{{ pageData.headline }}</h1>
+      <p class="rr-intro">{{ pageData.intro }}</p>
+      <div class="rr-bottom-line">
+        <span class="rr-bl-label">Bottom line</span>
+        <p class="rr-bl-text">{{ pageData.shortAnswer }}</p>
+      </div>
+      <a class="btn btn-primary rr-hero-btn" href="{{ site.cta.link }}">Get personalized coaching →</a>
+    </section>
+
+    {# STATS #}
+    {% if pageData.stats %}
+    <section class="rr-stats">
+      {% for s in pageData.stats %}
+      <div class="rr-stat">
+        <div class="rr-stat-num">{{ s.stat }}</div>
+        <p class="rr-stat-body">{{ s.body }}</p>
+        {% if s.source %}<cite class="rr-stat-src">{{ s.source }}</cite>{% endif %}
+      </div>
+      {% endfor %}
+    </section>
+    {% endif %}
+
+    {# FIT CHECK #}
+    {% if pageData.doFirst %}
+    <section class="rr-section rr-fit-check">
+      <h2 class="rr-section-title">Is this guide for you?</h2>
+      <div class="rr-fit-grid">
+        <div class="rr-fit-yes">
+          <h3 class="rr-fit-head">
+            <span class="rr-fit-badge rr-badge-yes">Use this</span>
+            Good fit if you…
+          </h3>
+          <ul class="rr-fit-list">
+            {% for r in pageData.doFirst %}
+            <li><span class="rr-check">✓</span>{{ r }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="rr-fit-no">
+          <h3 class="rr-fit-head">
+            <span class="rr-fit-badge rr-badge-no">Skip</span>
+            Not the right fit if…
+          </h3>
+          <ul class="rr-fit-list">
+            {% for r in pageData.skip %}
+            <li><span class="rr-cross">✗</span>{{ r }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+    {# PLAYBOOK STEPS #}
+    {% if pageData.steps %}
+    <section class="rr-section rr-playbook">
+      <h2 class="rr-section-title">The playbook</h2>
+      <p class="rr-section-sub">Five things to do, in order.</p>
+      <div class="rr-steps">
+        {% for step in pageData.steps %}
+        <div class="rr-step">
+          <div class="rr-step-num-bg" aria-hidden="true">{{ step.num }}</div>
+          <div class="rr-step-inner">
+            <div class="rr-step-num-fg">{{ step.num }}</div>
+            <div class="rr-step-body">
+              <h3 class="rr-step-title">{{ step.title }}</h3>
+              <p class="rr-step-desc">{{ step.body }}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {# TRANSFORMATION #}
+    {% if pageData.example %}
+    <section class="rr-section rr-transform">
+      <h2 class="rr-section-title">See the transformation</h2>
+      <div class="rr-transform-grid">
+        <div class="rr-before">
+          <div class="rr-card-label rr-label-before">
+            <span class="rr-dot"></span> Before — weak signal
+          </div>
+          <p class="rr-card-text">"{{ pageData.example.before }}"</p>
+        </div>
+        <div class="rr-arrow-col" aria-hidden="true">
+          <div class="rr-arrow">→</div>
+        </div>
+        <div class="rr-after">
+          <div class="rr-card-label rr-label-after">
+            <span class="rr-dot"></span> After — high signal
+          </div>
+          <p class="rr-card-text">"{{ pageData.example.after }}"</p>
+        </div>
+      </div>
+      {% if pageData.example.note %}
+      <div class="rr-note">
+        <span class="rr-note-icon">💡</span>
+        <span>{{ pageData.example.note }}</span>
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}
+
+    {# FAQ #}
+    {% if pageData.faq %}
+    <section class="rr-section rr-faq">
+      <h2 class="rr-section-title">Questions people ask</h2>
+      <div class="rr-faq-list">
+        {% for item in pageData.faq %}
+        <details class="rr-faq-item">
+          <summary class="rr-faq-q">
+            {{ item.q }}
+            <span class="rr-faq-ico" aria-hidden="true"></span>
+          </summary>
+          <p class="rr-faq-a">{{ item.a }}</p>
+        </details>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {# CTA BAND #}
+    <section class="rr-cta">
+      <div class="rr-cta-inner">
+        <div>
+          <h2 class="rr-cta-title">Ready to put this into practice?</h2>
+          <p class="rr-cta-body">Get personalized coaching for your {{ pageData.roleName }} job search — resume, interviews, and offer strategy tailored to you.</p>
+        </div>
+        <div class="rr-cta-btns">
+          <a class="btn btn-primary" href="{{ site.cta.link }}">{{ site.cta.label }}</a>
+          <a class="rr-cta-link" href="/resources/{{ pageData.role }}/">More {{ pageData.roleName }} guides →</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+</div>
+
+{# FAQ Schema #}
+{% if pageData.faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in pageData.faq %}
+    {
+      "@type": "Question",
+      "name": "{{ item.q | replace('"', '&quot;') }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ item.a | replace('"', '&quot;') }}"
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+
+<script>
+(function(){
+  // Scroll reveal
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){ e.target.classList.add('rr-revealed'); io.unobserve(e.target); }
+      });
+    },{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.rr-step,.rr-stat,.rr-before,.rr-after,.rr-faq-item').forEach(function(el){ io.observe(el); });
+  } else {
+    document.querySelectorAll('.rr-step,.rr-stat,.rr-before,.rr-after,.rr-faq-item').forEach(function(el){ el.classList.add('rr-revealed'); });
+  }
+  // Stat counters
+  document.querySelectorAll('.rr-stat-num').forEach(function(el){
+    var raw=el.textContent.trim(), m=raw.match(/([\d,\.]+)/);
+    if(!m) return;
+    var num=parseFloat(m[1].replace(/,/g,'')), before=raw.slice(0,raw.indexOf(m[1])), after=raw.slice(raw.indexOf(m[1])+m[1].length);
+    var isInt=Number.isInteger(num), started=false;
+    var obs=new IntersectionObserver(function(entries){
+      if(entries[0].isIntersecting && !started){
+        started=true; var t0=null;
+        (function step(ts){ if(!t0) t0=ts; var p=Math.min((ts-t0)/1200,1), e=1-Math.pow(1-p,3);
+          el.textContent=before+(isInt?Math.round(e*num).toLocaleString():( e*num).toFixed(1))+after;
+          if(p<1) requestAnimationFrame(step); })( performance.now());
+        obs.disconnect();
+      }
+    },{threshold:0.7});
+    obs.observe(el);
+  });
+})();
+</script>

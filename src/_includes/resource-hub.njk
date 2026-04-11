@@ -1,136 +1,119 @@
 {% set hubData = hub %}
-<section class="resource-hub-hero">
-  <div class="container">
-    <p class="hero-eyebrow">{{ hubData.eyebrow }}</p>
-    <h1 class="resource-hub-title">{{ hubData.title }}</h1>
-    <p class="resource-hub-subtitle">{{ hubData.subtitle }}</p>
-    {% if hubData.shortAnswer %}
-    <div class="resource-hub-answer">
-      <strong>Short answer:</strong> {{ hubData.shortAnswer }}
-    </div>
-    {% endif %}
-    <div class="hero-cta">
-      <a class="btn btn-primary" href="{{ site.cta.link }}">{{ site.cta.label }}</a>
-      <a class="btn btn-ghost" href="/resources/">Back to Resources</a>
-    </div>
-  </div>
-</section>
 
-{% if hubData.decisionRules %}
-<section class="section">
-  <div class="container">
-    <h2 class="section-title">When to use this</h2>
-    <div class="resource-hub-rules">
-      <div class="rule-card rule-do">
-        <h3>Do this first if:</h3>
-        <ul>
-          {% for rule in hubData.decisionRules.doFirst %}
-          <li>{{ rule }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-      <div class="rule-card rule-skip">
-        <h3>Skip this if:</h3>
-        <ul>
-          {% for rule in hubData.decisionRules.skip %}
-          <li>{{ rule }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
+{# Map hubData.theme to roleSubPages role slug #}
+{% set roleSlug = "" %}
+{% if hubData.theme == "swe" %}{% set roleSlug = "software-engineer" %}
+{% elif hubData.theme == "devops" %}{% set roleSlug = "devops-sre" %}
+{% elif hubData.theme == "data" %}{% set roleSlug = "data" %}
+{% elif hubData.theme == "pm" %}{% set roleSlug = "product-manager" %}
+{% elif hubData.theme == "em" %}{% set roleSlug = "engineering-manager" %}
+{% elif hubData.theme == "finance" %}{% set roleSlug = "finance-fpa" %}
 {% endif %}
 
-{% if hubData.checklist %}
-<section class="section section-soft">
-  <div class="container">
-    <h2 class="section-title">{{ hubData.checklist.title }}</h2>
-    <p class="section-subtitle">{{ hubData.checklist.subtitle }}</p>
-    <div class="resource-checklist">
-      {% for item in hubData.checklist.items %}
-      <div class="checklist-item">
-        <span class="checklist-icon">{{ loop.index }}</span>
-        <div>
-          <strong>{{ item.title }}</strong>
-          <p>{{ item.body }}</p>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-{% endif %}
+{# Get role color from first matching page #}
+{% set roleColor = "#72d6ff" %}
+{% set roleEmoji = "📁" %}
+{% for item in roleSubPages %}
+  {% if item.role == roleSlug and roleColor == "#72d6ff" %}
+    {% set roleColor = item.roleColor %}
+    {% set roleEmoji = item.roleEmoji %}
+  {% endif %}
+{% endfor %}
 
-{% if hubData.example %}
-<section class="section">
-  <div class="container">
-    <h2 class="section-title">Example</h2>
-    <div class="resource-example">
-      <div class="example-before">
-        <span class="example-label">Before</span>
-        <p>{{ hubData.example.before }}</p>
+<div class="rhub-page" style="--rc: {{ roleColor }};">
+
+{# ── HERO ── #}
+<section class="rhub-hero">
+  <div class="container rhub-hero-inner">
+    <div class="rhub-hero-left">
+      <div class="rhub-emoji">{{ roleEmoji }}</div>
+      <p class="rhub-eyebrow">{{ hubData.eyebrow }}</p>
+      <h1 class="rhub-title">{{ hubData.title }}</h1>
+      <p class="rhub-subtitle">{{ hubData.subtitle }}</p>
+      {% if hubData.shortAnswer %}
+      <div class="rhub-answer">
+        <span class="rhub-answer-label">Bottom line</span>
+        <p>{{ hubData.shortAnswer }}</p>
       </div>
-      <div class="example-after">
-        <span class="example-label">After</span>
-        <p>{{ hubData.example.after }}</p>
+      {% endif %}
+      <div class="rhub-hero-cta">
+        <a class="btn btn-primary" href="{{ site.cta.link }}">{{ site.cta.label }}</a>
+        <a class="btn btn-ghost" href="/resources/">← All resources</a>
       </div>
     </div>
-    {% if hubData.example.note %}
-    <p class="example-note">{{ hubData.example.note }}</p>
-    {% endif %}
-  </div>
-</section>
-{% endif %}
-
-{% if hubData.evidence %}
-<section class="section section-soft">
-  <div class="container">
-    <h2 class="section-title">Evidence</h2>
-    <div class="resource-evidence">
+    {% if hubData.evidence %}
+    <div class="rhub-hero-stats">
       {% for item in hubData.evidence %}
-      <div class="evidence-card">
-        <span class="evidence-stat">{{ item.stat }}</span>
-        <p>{{ item.body }}</p>
+      <div class="rhub-stat">
+        <div class="rhub-stat-num">{{ item.stat }}</div>
+        <p class="rhub-stat-body">{{ item.body }}</p>
         {% if item.source %}<cite>{{ item.source }}</cite>{% endif %}
       </div>
       {% endfor %}
     </div>
+    {% endif %}
   </div>
 </section>
-{% endif %}
 
-{% if hubData.relatedPosts %}
-<section class="section">
+{# ── GUIDES GRID ── #}
+{% if roleSlug %}
+<section class="rhub-guides">
   <div class="container">
-    <h2 class="section-title">Related guides</h2>
-    <p class="section-subtitle">Deep dives on specific topics</p>
-    <div class="resource-posts-grid">
-      {% for postUrl in hubData.relatedPosts %}
-        {% for post in collections.publicBlog %}
-          {% if post.url == postUrl %}
-          <a class="resource-post-card" href="{{ post.url }}">
-            <h3>{{ post.data.title }}</h3>
-            <p>{{ post.data.description }}</p>
-            <span>{{ post.data.readTime }}</span>
-          </a>
-          {% endif %}
-        {% endfor %}
+    <h2 class="rhub-guides-title">All guides in this track</h2>
+    <p class="rhub-guides-sub">{{ roleSubPages | length }} guides specific to {{ hubData.title | replace("Career Resources","") | trim }} roles.</p>
+    <div class="rhub-grid">
+      {% for item in roleSubPages %}
+        {% if item.role == roleSlug %}
+        <a class="rhub-card" href="/resources/{{ item.role }}/{{ item.topic }}/">
+          <span class="rhub-card-topic">{{ item.topicName }}</span>
+          <h3 class="rhub-card-title">{{ item.headline }}</h3>
+          <p class="rhub-card-intro">{{ item.shortAnswer }}</p>
+          <span class="rhub-card-arrow">Read guide →</span>
+        </a>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
 </section>
 {% endif %}
 
+{# ── WHEN TO USE ── #}
+{% if hubData.decisionRules %}
+<section class="rhub-section rhub-section-alt">
+  <div class="container">
+    <h2 class="rhub-section-title">Is this track right for you?</h2>
+    <div class="rhub-rules">
+      <div class="rhub-rule-yes">
+        <h3><span class="rhub-badge-yes">Use this track</span> If you…</h3>
+        <ul>
+          {% for r in hubData.decisionRules.doFirst %}
+          <li><span>✓</span>{{ r }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="rhub-rule-no">
+        <h3><span class="rhub-badge-no">Consider another track</span> If you…</h3>
+        <ul>
+          {% for r in hubData.decisionRules.skip %}
+          <li><span>✗</span>{{ r }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{# ── FAQ ── #}
 {% if hubData.faq %}
-<section class="section">
-  <div class="container faq-stage">
-    <h2 class="section-title">Frequently asked questions</h2>
-    <div class="faq-grid">
+<section class="rhub-section">
+  <div class="container rhub-faq-wrap">
+    <h2 class="rhub-section-title">Common questions</h2>
+    <div class="rhub-faq-list">
       {% for item in hubData.faq %}
-      <details class="faq-card">
-        <summary>{{ item.question }}</summary>
-        <p>{{ item.answer }}</p>
+      <details class="rhub-faq-item">
+        <summary class="rhub-faq-q">{{ item.question }}<span class="rhub-faq-ico"></span></summary>
+        <p class="rhub-faq-a">{{ item.answer }}</p>
       </details>
       {% endfor %}
     </div>
@@ -138,33 +121,19 @@
 </section>
 {% endif %}
 
-<section class="section">
-  <div class="container cta-band">
-    <div>
-      <h2 class="section-title">{{ hubData.cta.title or "Ready to take action?" }}</h2>
-      <p class="section-subtitle">{{ hubData.cta.body or "Book a strategy call and get personalized guidance." }}</p>
-    </div>
+{# ── CTA ── #}
+<section class="rhub-cta">
+  <div class="container rhub-cta-inner">
+    <h2>{{ hubData.cta.title or "Ready to land your next role?" }}</h2>
+    <p>{{ hubData.cta.body or "Book a strategy call and get personalized guidance." }}</p>
     <a class="btn btn-primary" href="{{ site.cta.link }}">{{ site.cta.label }}</a>
   </div>
 </section>
 
+</div>
+
 {% if hubData.faq %}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {% for item in hubData.faq %}
-    {
-      "@type": "Question",
-      "name": "{{ item.question | escape }}",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "{{ item.answer | escape }}"
-      }
-    }{% if not loop.last %},{% endif %}
-    {% endfor %}
-  ]
-}
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for item in hubData.faq %}{"@type":"Question","name":"{{ item.question | replace('"','&quot;') }}","acceptedAnswer":{"@type":"Answer","text":"{{ item.answer | replace('"','&quot;') }}"}}{% if not loop.last %},{% endif %}{% endfor %}]}
 </script>
 {% endif %}
