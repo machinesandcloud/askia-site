@@ -23,119 +23,57 @@ breadcrumbs:
       <a class="btn btn-ghost" href="/career-readiness-index/">Take the career assessment</a>
     </div>
     <div class="rh2-hero-stats">
-      <div class="rh2-hs"><span>100+</span><p>role-specific guides</p></div>
-      <div class="rh2-hs"><span>6</span><p>career tracks</p></div>
+      <div class="rh2-hs"><span>{{ roleSubPages | length }}</span><p>role-specific guides</p></div>
+      <div class="rh2-hs"><span>{{ roleTracks | length }}</span><p>grouped career tracks</p></div>
+      <div class="rh2-hs"><span>29</span><p>target roles covered</p></div>
       <div class="rh2-hs"><span>$47K+</span><p>avg comp increase</p></div>
       <div class="rh2-hs"><span>89%</span><p>of clients land offers in 60 days</p></div>
     </div>
   </div>
 </section>
 
-{# ─── ROLE TRACKS ─────────────────────────────────────── #}
+{# ─── ROLE TRACK GROUPS ───────────────────────────────── #}
 <section class="rh2-tracks">
   <div class="container">
     <div class="rh2-tracks-header">
       <h2 class="rh2-section-title">Pick your track</h2>
-      <p class="rh2-section-sub">Every guide is written for a specific role. Generic advice doesn't land senior roles. Pick your track and go deep.</p>
+      <p class="rh2-section-sub">Browse by category first, then go straight into the role track that matches the work you actually want. Every track links to five role-specific guides.</p>
     </div>
-    <div class="rh2-tracks-grid">
-
-      <a class="rh2-track-card rh2-track-swe" href="/resources/software-engineer/">
-        <div class="rh2-track-top">
-          <span class="rh2-track-emoji">⚙️</span>
-          <span class="rh2-track-tag">SWE</span>
+    <div class="rh2-group-list">
+      {% for group in roleTracks %}
+      <section class="rh2-group">
+        <div class="rh2-group-head">
+          <div>
+            <p class="rh2-group-kicker">{{ group.name }}</p>
+            <h3 class="rh2-group-title">{{ group.name }}</h3>
+          </div>
+          <p class="rh2-group-copy">{{ group.description }}</p>
         </div>
-        <h3 class="rh2-track-name">Software Engineering</h3>
-        <p class="rh2-track-desc">System design narratives, scope ladders, and impact metrics for Senior, Staff, and Principal roles.</p>
-        <div class="rh2-track-topics">
-          <span>Resume</span><span>System Design</span><span>Salary</span><span>Interview Prep</span>
+        <div class="rh2-group-grid">
+          {% for role in group.roles %}
+          <a class="rh2-track-card" href="/resources/{{ role.role }}/" style="--tc: {{ role.color }};">
+            <div class="rh2-track-top">
+              <span class="rh2-track-emoji">{{ role.emoji }}</span>
+              <span class="rh2-track-tag">{{ role.tag }}</span>
+            </div>
+            <h3 class="rh2-track-name">{{ role.name }}</h3>
+            <p class="rh2-track-desc">{{ role.desc }}</p>
+            <div class="rh2-track-topics">
+              {% for guide in roleSubPages %}
+                {% if guide.role == role.role %}
+                <span>{{ guide.topicName }}</span>
+                {% endif %}
+              {% endfor %}
+            </div>
+            <div class="rh2-track-footer">
+              <span class="rh2-track-count">5 guides</span>
+              <span class="rh2-track-cta">Explore track →</span>
+            </div>
+          </a>
+          {% endfor %}
         </div>
-        <div class="rh2-track-footer">
-          <span class="rh2-track-count">16 guides</span>
-          <span class="rh2-track-cta">Explore track →</span>
-        </div>
-      </a>
-
-      <a class="rh2-track-card rh2-track-devops" href="/resources/devops-sre/">
-        <div class="rh2-track-top">
-          <span class="rh2-track-emoji">🛡️</span>
-          <span class="rh2-track-tag">Platform</span>
-        </div>
-        <h3 class="rh2-track-name">DevOps &amp; SRE</h3>
-        <p class="rh2-track-desc">Incident stories, reliability scorecards, and infrastructure scope maps for platform and reliability roles.</p>
-        <div class="rh2-track-topics">
-          <span>Incident Response</span><span>Resume</span><span>LinkedIn</span><span>Salary</span>
-        </div>
-        <div class="rh2-track-footer">
-          <span class="rh2-track-count">16 guides</span>
-          <span class="rh2-track-cta">Explore track →</span>
-        </div>
-      </a>
-
-      <a class="rh2-track-card rh2-track-data" href="/resources/data/">
-        <div class="rh2-track-top">
-          <span class="rh2-track-emoji">📊</span>
-          <span class="rh2-track-tag">DE / DS / Analytics</span>
-        </div>
-        <h3 class="rh2-track-name">Data</h3>
-        <p class="rh2-track-desc">Decision impact frameworks and pipeline ownership maps for Data Engineers, Scientists, and Analytics roles.</p>
-        <div class="rh2-track-topics">
-          <span>Data Storytelling</span><span>Resume</span><span>Interview Prep</span><span>Salary</span>
-        </div>
-        <div class="rh2-track-footer">
-          <span class="rh2-track-count">16 guides</span>
-          <span class="rh2-track-cta">Explore track →</span>
-        </div>
-      </a>
-
-      <a class="rh2-track-card rh2-track-pm" href="/resources/product-manager/">
-        <div class="rh2-track-top">
-          <span class="rh2-track-emoji">🧭</span>
-          <span class="rh2-track-tag">Product</span>
-        </div>
-        <h3 class="rh2-track-name">Product Manager</h3>
-        <p class="rh2-track-desc">Case study templates, metrics maps, and exec summary guides for PM roles at all levels.</p>
-        <div class="rh2-track-topics">
-          <span>Product Sense</span><span>Resume</span><span>Interview Prep</span><span>Salary</span>
-        </div>
-        <div class="rh2-track-footer">
-          <span class="rh2-track-count">16 guides</span>
-          <span class="rh2-track-cta">Explore track →</span>
-        </div>
-      </a>
-
-      <a class="rh2-track-card rh2-track-em" href="/resources/engineering-manager/">
-        <div class="rh2-track-top">
-          <span class="rh2-track-emoji">👥</span>
-          <span class="rh2-track-tag">Leadership</span>
-        </div>
-        <h3 class="rh2-track-name">Engineering Manager</h3>
-        <p class="rh2-track-desc">Scope mapping, org impact narratives, and leadership signal for EM, Director, and VP roles.</p>
-        <div class="rh2-track-topics">
-          <span>People Management</span><span>Resume</span><span>Interview Prep</span><span>Salary</span>
-        </div>
-        <div class="rh2-track-footer">
-          <span class="rh2-track-count">16 guides</span>
-          <span class="rh2-track-cta">Explore track →</span>
-        </div>
-      </a>
-
-      <a class="rh2-track-card rh2-track-finance" href="/resources/finance-fpa/">
-        <div class="rh2-track-top">
-          <span class="rh2-track-emoji">📈</span>
-          <span class="rh2-track-tag">Finance</span>
-        </div>
-        <h3 class="rh2-track-name">Finance &amp; FP&amp;A</h3>
-        <p class="rh2-track-desc">Executive-ready finance narratives and proof points for FP&amp;A, Controller, and finance leadership roles.</p>
-        <div class="rh2-track-topics">
-          <span>Financial Modeling</span><span>Resume</span><span>Interview Prep</span><span>Salary</span>
-        </div>
-        <div class="rh2-track-footer">
-          <span class="rh2-track-count">16 guides</span>
-          <span class="rh2-track-cta">Explore track →</span>
-        </div>
-      </a>
-
+      </section>
+      {% endfor %}
     </div>
   </div>
 </section>

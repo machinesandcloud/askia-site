@@ -1,0 +1,20 @@
+---
+pagination:
+  data: roleOverviewPages
+  size: 1
+  alias: hub
+eleventyComputed:
+  title: "{{ hub.title }}"
+  metaTitle: "{{ hub.title }} | Askia"
+  metaDescription: "{{ hub.subtitle }}"
+  permalink: "/resources/{{ hub.roleSlug }}/"
+  breadcrumbs:
+    - name: "Home"
+      url: "/"
+    - name: "Resources"
+      url: "/resources/"
+    - name: "{{ hub.title | replace(' Career Resources', '') }}"
+      url: "/resources/{{ hub.roleSlug }}/"
+layout: layout.njk
+---
+{% include "resource-hub.njk" %}

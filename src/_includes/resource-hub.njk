@@ -1,8 +1,8 @@
 {% set hubData = hub %}
 
 {# Map hubData.theme to roleSubPages role slug #}
-{% set roleSlug = "" %}
-{% if hubData.theme == "swe" %}{% set roleSlug = "software-engineer" %}
+{% set roleSlug = hubData.roleSlug or "" %}
+{% if not roleSlug and hubData.theme == "swe" %}{% set roleSlug = "software-engineer" %}
 {% elif hubData.theme == "devops" %}{% set roleSlug = "devops-sre" %}
 {% elif hubData.theme == "data" %}{% set roleSlug = "data" %}
 {% elif hubData.theme == "pm" %}{% set roleSlug = "product-manager" %}
@@ -60,7 +60,7 @@
 <section class="rhub-guides">
   <div class="container">
     <h2 class="rhub-guides-title">All guides in this track</h2>
-    <p class="rhub-guides-sub">{{ roleSubPages | length }} guides specific to {{ hubData.title | replace("Career Resources","") | trim }} roles.</p>
+    <p class="rhub-guides-sub">{{ hubData.guideCount or 5 }} guides specific to {{ hubData.title | replace("Career Resources","") | trim }} roles.</p>
     <div class="rhub-grid">
       {% for item in roleSubPages %}
         {% if item.role == roleSlug %}
