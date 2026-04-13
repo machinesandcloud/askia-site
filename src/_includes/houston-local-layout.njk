@@ -3,7 +3,8 @@ layout: layout.njk
 ---
 {% set relatedCaseStudies = caseStudies.byCityHub[entry.hubSlug] or [] %}
 {% set decisionGuides = citySupportPages.byHubSlug[entry.hubSlug] or [] %}
-<section class="section">
+<div class="resource-theme-page">
+<section class="section resource-theme-hero">
   <div class="container hero-grid">
     <div class="hero-copy">
       {% if entry.eyebrow %}<p class="hero-eyebrow">{{ entry.eyebrow }}</p>{% endif %}
@@ -230,7 +231,7 @@ layout: layout.njk
 </section>
 
 <script type="application/ld+json">
-  {
+{
     "@context": "https://schema.org",
     "@type": "Service",
     "name": {{ entry.schemaName | dump | safe }},
@@ -246,8 +247,10 @@ layout: layout.njk
       "@type": "Place",
       "name": {{ entry.cityLabel | dump | safe }}
     }
-  }
+}
 </script>
+
+</div>
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",

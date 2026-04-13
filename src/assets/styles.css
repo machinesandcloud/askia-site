@@ -12138,6 +12138,75 @@ body.pricing-focus {
   position: relative;
 }
 
+.resource-theme-page .hero-grid,
+.resource-theme-page .hero-role-grid,
+.resource-theme-page .hero-service-grid,
+.resource-theme-page .about-hero-grid,
+.resource-theme-page .services-hero-grid,
+.resource-theme-page .hero-next-grid {
+  position: relative;
+  z-index: 1;
+}
+
+.resource-theme-page .hero-grid > :first-child,
+.resource-theme-page .hero-role-content,
+.resource-theme-page .hero-service-content,
+.resource-theme-page .about-hero-copy,
+.resource-theme-page .services-hero-copy,
+.resource-theme-page .hero-next-copy {
+  position: relative;
+  z-index: 1;
+}
+
+.resource-theme-page .hero-grid > :last-child,
+.resource-theme-page .hero-role-visual,
+.resource-theme-page .hero-service-visual,
+.resource-theme-page .about-hero-panel,
+.resource-theme-page .services-hero-panel,
+.resource-theme-page .hero-visual-simple,
+.resource-theme-page .hero-visual,
+.resource-theme-page .hero-visual-v2 {
+  position: relative;
+  z-index: 1;
+}
+
+.resource-theme-page .hero-grid > :last-child,
+.resource-theme-page .hero-visual-v2,
+.resource-theme-page .hero-visual,
+.resource-theme-page .hero-visual-simple {
+  padding: 20px;
+  border-radius: 28px;
+  border: 1px solid var(--border);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,0)),
+    rgba(10, 16, 24, 0.54);
+  box-shadow: 0 26px 64px rgba(4, 8, 14, 0.3);
+}
+
+.resource-theme-page .hero-card,
+.resource-theme-page .hero-stats-card,
+.resource-theme-page .about-hero-system,
+.resource-theme-page .services-hero-card,
+.resource-theme-page .hero-coach-preview {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,0)),
+    rgba(10, 16, 24, 0.78);
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 44px rgba(4, 8, 14, 0.24);
+}
+
+.resource-theme-page .hero-card {
+  border-radius: 22px;
+  padding: 24px;
+}
+
+.resource-theme-page .two-col-grid,
+.resource-theme-page .founder-grid,
+.resource-theme-page .services-preview,
+.resource-theme-page .coach-section {
+  gap: 28px;
+}
+
 .resource-theme-page .section-soft,
 .resource-theme-page .section-mid-cta,
 .resource-theme-page .section-cta-final,
@@ -12164,6 +12233,21 @@ body.pricing-focus {
     radial-gradient(circle at top left, rgba(114, 214, 255, 0.1), transparent 42%),
     linear-gradient(145deg, rgba(11, 18, 28, 0.94), rgba(8, 12, 18, 0.82));
   box-shadow: 0 24px 54px rgba(4, 8, 14, 0.28);
+}
+
+.resource-theme-page .logo-carousel,
+.resource-theme-page .assessment-form,
+.resource-theme-page .role-atlas-card,
+.resource-theme-page .role-showcase-panel,
+.resource-theme-page .services-track-marquee,
+.resource-theme-page .team-carousel,
+.resource-theme-page .timeline-rail {
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,0)),
+    rgba(9, 15, 23, 0.76);
+  box-shadow: 0 20px 44px rgba(4, 8, 14, 0.22);
 }
 
 /* Hero */

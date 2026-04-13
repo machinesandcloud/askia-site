@@ -26,7 +26,8 @@ layout: layout.njk
 {% set coachesKeyword = "career coaches in " + cityName %}
 {% set bestKeyword = "best career coach in " + cityName %}
 
-<section class="section">
+<div class="resource-theme-page">
+<section class="section resource-theme-hero">
   <div class="container hero-grid">
     <div class="hero-copy">
       <p class="hero-eyebrow">Local + Remote Coaching</p>
@@ -392,7 +393,7 @@ layout: layout.njk
 {% include "role-directory.njk" %}
 
 <script type="application/ld+json">
-  {
+{
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "{{ site.name }}",
@@ -409,8 +410,10 @@ layout: layout.njk
     "areaServed": [{"@type":"Place","name":"{{ cityName }}"}],
     "serviceType": "Career coaching",
     "description": "{{ metaDescription }}"
-  }
+}
 </script>
+
+</div>
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",

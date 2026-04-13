@@ -4,10 +4,10 @@
 {% set relatedCaseStudies = caseStudies.byService[page.fileSlug] or [] %}
 {% set relatedDecisionGuides = citySupportPages.byService[page.fileSlug] or [] %}
 
-<div class="service-page" style="--theme-accent: {{ serviceData.visual.accent }}; --theme-accent-2: {{ serviceData.visual.accent2 }};">
+<div class="service-page resource-theme-page" style="--theme-accent: {{ serviceData.visual.accent }}; --theme-accent-2: {{ serviceData.visual.accent2 }};">
 
 {# HERO SECTION - Benefit-focused with trust signals #}
-<section class="hero hero-service">
+<section class="hero hero-service resource-theme-hero">
   <div class="container hero-service-grid">
     <div class="hero-service-content">
       {% if serviceData.eyebrow %}<p class="hero-eyebrow">{{ serviceData.eyebrow }}</p>{% endif %}
