@@ -3,7 +3,8 @@ layout: layout.njk
 ---
 {% set relatedCaseStudies = caseStudies.byCityHub[entry.hubSlug] or [] %}
 {% set supportLinks = citySupportPages.byHubSlug[entry.hubSlug] or [] %}
-<section class="section">
+<div class="resource-theme-page">
+<section class="section resource-theme-hero">
   <div class="container hero-grid">
     <div class="hero-copy">
       <p class="hero-eyebrow">City Decision Guide</p>
@@ -151,3 +152,5 @@ layout: layout.njk
   ]
 }
 </script>
+
+</div>

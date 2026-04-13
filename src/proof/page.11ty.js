@@ -25,7 +25,8 @@ class ProofPage {
   render(data) {
     const { entry, expertCredibility } = data;
     return `
-<section class="section">
+<div class="resource-theme-page">
+<section class="section resource-theme-hero">
   <div class="container hero-grid">
     <div class="hero-copy">
       <p class="hero-eyebrow">Proof Library</p>
@@ -102,6 +103,8 @@ class ProofPage {
     <a class="btn btn-primary" href="/land-your-next-role/">Book a Call</a>
   </div>
 </section>
+
+</div>
 `;
   }
 }
