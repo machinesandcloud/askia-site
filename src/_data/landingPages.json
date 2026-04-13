@@ -417,6 +417,7 @@
         }
       ]
     },
+    "hideDiscoverySections": true,
     "stackedSections": true
   },
   "roleTechData": {

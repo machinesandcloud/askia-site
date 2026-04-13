@@ -614,7 +614,7 @@
 </section>
 {% endif %}
 
-{% if page.roleLinks %}
+{% if page.roleLinks and not page.hideDiscoverySections %}
 <section class="section">
   <div class="container">
     <div class="role-atlas">
@@ -651,6 +651,7 @@
 </section>
 {% endif %}
 
+{% if not page.hideDiscoverySections %}
 <section class="section">
   <div class="container two-col-grid">
     <div class="content-panel">
@@ -694,6 +695,7 @@
 {% set featuredMarketsTitle = "Popular markets for high-intent career searches" %}
 {% set featuredMarketsSubtitle = "Start with the city closest to your search, then branch into the role, interview, and compensation pages that fit your target." %}
 {% include "featured-markets.njk" %}
+{% endif %}
 
 {% if page.roleShowcase %}
 <section class="section role-showcase" data-role-showcase>
