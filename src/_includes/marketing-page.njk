@@ -1,5 +1,6 @@
+<div class="resource-theme-page">
 {% if page.visual and page.visual.style == 'next-role' %}
-<section class="hero hero-themed hero-next-role hero-cro" style="--hero-next-accent: {{ page.visual.accent }}; --hero-next-accent-2: {{ page.visual.accent2 }};">
+<section class="hero hero-themed hero-next-role hero-cro resource-theme-hero" style="--hero-next-accent: {{ page.visual.accent }}; --hero-next-accent-2: {{ page.visual.accent2 }};">
   <div class="container hero-next-grid">
     <div class="hero-next-copy">
       {% if page.eyebrow and (page.eyebrow | lower) != (page.h1 | lower) and (page.eyebrow | length) < 36 %}
@@ -94,7 +95,7 @@
   </div>
 </section>
 {% else %}
-<section class="hero hero-themed{% if page.visual and page.visual.style %} hero-{{ page.visual.style }}{% endif %}">
+<section class="hero hero-themed{% if page.visual and page.visual.style %} hero-{{ page.visual.style }}{% endif %} resource-theme-hero">
   <div class="container hero-grid">
     <div>
       {% if page.eyebrow and (page.eyebrow | lower) != (page.h1 | lower) and (page.eyebrow | length) < 36 %}
@@ -195,6 +196,8 @@
   </div>
 </section>
 {% endif %}
+
+</div>
 
 <section class="section section-soft">
   <div class="container">

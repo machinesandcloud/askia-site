@@ -12111,6 +12111,61 @@ body.pricing-focus {
 
 .rh2-page { background: var(--bg-deep); }
 
+.resource-theme-page {
+  background: var(--bg-deep);
+}
+
+.resource-theme-hero {
+  position: relative;
+  overflow: hidden;
+  padding-top: 108px;
+  padding-bottom: 82px;
+  background:
+    radial-gradient(circle at 16% 12%, rgba(114, 214, 255, 0.16), transparent 34%),
+    radial-gradient(circle at 84% 14%, rgba(122, 141, 255, 0.12), transparent 30%),
+    linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0));
+}
+
+.resource-theme-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,0));
+  pointer-events: none;
+}
+
+.resource-theme-page .section:not(.resource-theme-hero) {
+  position: relative;
+}
+
+.resource-theme-page .section-soft,
+.resource-theme-page .section-mid-cta,
+.resource-theme-page .section-cta-final,
+.resource-theme-page .section-testimonials,
+.resource-theme-page .section-testimonials-cro {
+  border-top: 1px solid rgba(170, 205, 255, 0.06);
+  border-bottom: 1px solid rgba(170, 205, 255, 0.06);
+}
+
+.resource-theme-page .pillar-header,
+.resource-theme-page .services-core-head,
+.resource-theme-page .services-tracks-head,
+.resource-theme-page .services-outcomes-head,
+.resource-theme-page .outcome-header,
+.resource-theme-page .testimonials-header,
+.resource-theme-page .testimonials-header-cro,
+.resource-theme-page .faq-header {
+  margin-bottom: 28px;
+}
+
+.resource-theme-page .cta-band {
+  border: 1px solid var(--border-strong);
+  background:
+    radial-gradient(circle at top left, rgba(114, 214, 255, 0.1), transparent 42%),
+    linear-gradient(145deg, rgba(11, 18, 28, 0.94), rgba(8, 12, 18, 0.82));
+  box-shadow: 0 24px 54px rgba(4, 8, 14, 0.28);
+}
+
 /* Hero */
 .rh2-hero {
   padding: 130px 0 100px;
