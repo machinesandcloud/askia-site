@@ -10429,19 +10429,23 @@ body.pricing-focus {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
 }
 
 /* Category Stats Card */
 .category-stats-card {
-  background: linear-gradient(135deg, rgba(18, 26, 38, 0.9), rgba(10, 16, 24, 0.8));
-  border: 1px solid rgba(114, 214, 255, 0.15);
-  border-radius: 20px;
-  padding: 28px;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   gap: 20px;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .category-stats-card::before {
@@ -11057,16 +11061,7 @@ body.pricing-focus {
 
 .hero-role-grid::before,
 .hero-service-grid::before {
-  content: "";
-  position: absolute;
-  inset: -18px;
-  border-radius: 32px;
-  border: 1px solid rgba(170, 205, 255, 0.08);
-  background:
-    linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,0)),
-    rgba(7, 13, 20, 0.16);
-  box-shadow: 0 30px 70px rgba(4, 8, 14, 0.24);
-  pointer-events: none;
+  content: none;
 }
 
 .hero-service-content {
@@ -12174,13 +12169,11 @@ body.pricing-focus {
 .resource-theme-page .hero-visual-v2,
 .resource-theme-page .hero-visual,
 .resource-theme-page .hero-visual-simple {
-  padding: 20px;
-  border-radius: 28px;
-  border: 1px solid var(--border);
-  background:
-    linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,0)),
-    rgba(10, 16, 24, 0.54);
-  box-shadow: 0 26px 64px rgba(4, 8, 14, 0.3);
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
 }
 
 .resource-theme-page .hero-card,

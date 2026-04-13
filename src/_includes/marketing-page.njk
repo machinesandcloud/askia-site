@@ -614,43 +614,6 @@
 </section>
 {% endif %}
 
-{% if page.roleLinks and not page.hideDiscoverySections %}
-<section class="section">
-  <div class="container">
-    <div class="role-atlas">
-      <div class="role-atlas-head">
-        <p class="hero-eyebrow">{{ page.roleLinks.eyebrow }}</p>
-        <h2 class="section-title section-title-glow">{{ page.roleLinks.title }}</h2>
-        {% if page.roleLinks.subtitle %}<p class="section-subtitle">{{ page.roleLinks.subtitle }}</p>{% endif %}
-      </div>
-      <div class="role-atlas-grid">
-        <div class="role-atlas-feature">
-          <div class="role-atlas-card">
-            <span class="role-atlas-kicker">Role Tracks</span>
-            <h3>Pick the track that mirrors your function</h3>
-            <p>Each track is tuned to how hiring decisions are actually made in that role family.</p>
-            <div class="role-atlas-orbit" aria-hidden="true">
-              <span></span><span></span><span></span><span></span>
-            </div>
-          </div>
-        </div>
-        <div class="role-atlas-list{% if page.roleLinks.sticky %} is-sticky{% endif %}">
-          {% for item in page.roleLinks.items %}
-            <a class="role-atlas-item" href="{{ item.url }}" style="--stack-index: {{ loop.index0 }};">
-              <div>
-                <strong>{{ item.title }}</strong>
-                <span>{{ item.body }}</span>
-              </div>
-              {% if item.tag %}<span class="role-atlas-tag">{{ item.tag }}</span>{% endif %}
-            </a>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{% endif %}
-
 {% if not page.hideDiscoverySections %}
 <section class="section">
   <div class="container two-col-grid">
@@ -691,10 +654,6 @@
     </div>
   </div>
 </section>
-
-{% set featuredMarketsTitle = "Popular markets for high-intent career searches" %}
-{% set featuredMarketsSubtitle = "Start with the city closest to your search, then branch into the role, interview, and compensation pages that fit your target." %}
-{% include "featured-markets.njk" %}
 {% endif %}
 
 {% if page.roleShowcase %}

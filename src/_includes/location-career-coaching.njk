@@ -37,7 +37,6 @@ layout: layout.njk
       {% if keywordSupport %}<p class="hero-support">{{ keywordSupport }}</p>{% endif %}
       <div class="hero-cta">
         <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
-        <a class="btn btn-ghost" href="/land-your-next-role/">Explore role tracks</a>
       </div>
     </div>
     <div class="hero-card">
@@ -285,18 +284,7 @@ layout: layout.njk
 </section>
 
 <section class="section">
-  <div class="container two-col-grid">
-    <div class="content-panel">
-      <h2 class="section-title section-title-glow">Popular role tracks in {{ cityName }}</h2>
-      <div class="link-stack">
-        {% for item in roleLinks %}
-        <a class="location-card" href="{{ item.url }}">
-          <strong>{{ item.label }}</strong>
-          <span>Role-specific coaching and positioning support</span>
-        </a>
-        {% endfor %}
-      </div>
-    </div>
+  <div class="container">
     <div class="content-panel">
       <h2 class="section-title section-title-glow">Most requested coaching support</h2>
       <div class="link-stack">
