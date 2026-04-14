@@ -204,6 +204,29 @@
       ]
     },
     {
+      "label": "Blog",
+      "url": "/blog/",
+      "groups": [
+        {
+          "label": "Career Intelligence",
+          "items": [
+            {
+              "label": "All Articles",
+              "url": "/blog/"
+            },
+            {
+              "label": "Interview Guides",
+              "url": "/blog/interview/"
+            },
+            {
+              "label": "Salary Guides",
+              "url": "/blog/salary/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "label": "Company",
       "url": "/about/",
       "groups": [
