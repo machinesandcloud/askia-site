@@ -10,284 +10,263 @@ breadcrumbs:
   - name: "Services"
     url: "/services/"
 ---
-<div class="resource-theme-page">
-<section class="services-hero-new resource-theme-hero">
-  <div class="container services-hero-grid">
-    <div class="services-hero-copy">
-      <p class="hero-eyebrow">Services</p>
-      <h1 class="services-hero-title">{{ services.hero.title }}</h1>
-      <p class="services-hero-subtitle">{{ services.hero.subtitle }}</p>
-      <p class="services-hero-supporting">Pick a focused upgrade or build a full system. We’ll help you choose the fastest path.</p>
-      <div class="hero-cta">
-        <a class="btn btn-primary btn-cta-experiment" href="{{ services.hero.ctaLink }}">{{ services.hero.ctaLabel }}</a>
-        <a class="btn btn-ghost" href="/resources/">View resources</a>
-      </div>
-      <p class="hero-microcopy">15 minutes. No sales pitch. Leave with a clear action plan.</p>
-      <div class="services-hero-trust">
-        <span class="services-hero-rating">★★★★★ 4.9/5 from 147+ professionals</span>
-        <div class="services-hero-logos">
-          {% for company in home.logos.companies | slice(0, 5) %}
-            <img src="{{ company.logo }}" alt="{{ company.name }}" />
-          {% endfor %}
-        </div>
-      </div>
-      <div class="services-hero-metrics">
-        <div><strong>7–14 days</strong><span>Typical delivery</span></div>
-        <div><strong>2–6 weeks</strong><span>Coaching timelines</span></div>
-        <div><strong>Signal-first</strong><span>Positioning system</span></div>
-      </div>
+
+<div class="rh2-page">
+
+{# ─── HERO ────────────────────────────────────────────── #}
+<section class="rh2-hero">
+  <div class="container rh2-hero-inner">
+    <p class="rh2-kicker">Career Services</p>
+    <h1 class="rh2-hero-title">{{ services.hero.title }}</h1>
+    <p class="rh2-hero-sub">{{ services.hero.subtitle }}</p>
+    <div class="rh2-hero-cta">
+      <a class="btn btn-primary" href="{{ services.hero.ctaLink }}">{{ services.hero.ctaLabel }}</a>
+      <a class="btn btn-ghost" href="/resources/">View free resources</a>
     </div>
-    <div class="services-hero-panel">
-      <div class="services-hero-card">
-        <strong>What clients choose first</strong>
-        <p>Most start with a brand refresh, then add coaching as interviews begin.</p>
-        <div class="services-hero-chips">
-          <span>Resume upgrade</span>
-          <span>LinkedIn signal</span>
-          <span>Interview practice</span>
-        </div>
-      </div>
-      <div class="services-hero-card accent">
-        <strong>Outcomes you can feel</strong>
-        <p>Clear positioning, interview momentum, and offer leverage.</p>
-      </div>
+    <div class="rh2-hero-stats">
+      <div class="rh2-hs"><span>10</span><p>focused services</p></div>
+      <div class="rh2-hs"><span>3</span><p>career stages covered</p></div>
+      <div class="rh2-hs"><span>$47K+</span><p>avg comp increase</p></div>
+      <div class="rh2-hs"><span>89%</span><p>of clients land offers in 60 days</p></div>
+      <div class="rh2-hs"><span>4.9★</span><p>from 147+ professionals</p></div>
     </div>
   </div>
 </section>
 
-<section class="section services-pillars">
+{# ─── SERVICE GROUPS ──────────────────────────────────── #}
+<section class="rh2-tracks">
   <div class="container">
-    <div class="pillar-header">
-      <p class="hero-eyebrow">Service pillars</p>
-      <h2 class="section-title section-title-glow">Build signal at every stage</h2>
-      <p class="section-subtitle">Each service is designed to move you toward interviews and offers.</p>
+    <div class="rh2-tracks-header">
+      <h2 class="rh2-section-title">Pick your stage</h2>
+      <p class="rh2-section-sub">Each service is built for a specific moment in your search. Start where you are, add what you need.</p>
     </div>
-    <div class="services-pillar-grid">
-      <div class="services-pillar">
-        <strong>Signal</strong>
-        <p>Positioning, resume, LinkedIn, and story architecture.</p>
-      </div>
-      <div class="services-pillar">
-        <strong>Momentum</strong>
-        <p>Role targeting, outreach guidance, and interview preparation.</p>
-      </div>
-      <div class="services-pillar">
-        <strong>Conversion</strong>
-        <p>Offer strategy, negotiation, and decision support.</p>
-      </div>
-    </div>
-  </div>
-</section>
+    <div class="rh2-group-list">
 
-<section class="section services-grid">
-  <div class="container">
-    <div class="service-carousel">
-      <div class="service-carousel-top">
-        <div class="pillar-header">
-          <p class="hero-eyebrow">Core services</p>
-          <h2 class="section-title section-title-glow">Choose the path that fits your stage</h2>
-          <p class="section-subtitle">Start lean or go all‑in with a full brand rebuild.</p>
-        </div>
-        <div class="carousel-controls">
-          <button class="carousel-btn" type="button" data-carousel-prev>Prev</button>
-          <button class="carousel-btn" type="button" data-carousel-next>Next</button>
-        </div>
-      </div>
-      <div class="carousel-viewport" data-service-carousel>
-        <div class="carousel-track" data-service-track>
-          {% for tier in services.tiers %}
-            <article class="carousel-card services-card{% if tier.tag == 'Most Popular' %} is-featured{% endif %}">
-              <span class="services-tag">{{ tier.tag }}</span>
-              <span class="card-graphic" aria-hidden="true"></span>
-              <h3>{{ tier.title }}</h3>
-              <p class="services-price">{{ tier.price }}</p>
-              <p>{{ tier.body }}</p>
-              <ul>
-                {% for bullet in tier.bullets %}
-                  {% if bullet.label %}
-                    <li>
-                      <span>{{ bullet.label }}</span>
-                      {% if bullet.detailTitle or bullet.detailBody %}
-                        <button
-                          type="button"
-                          class="pricing-detail"
-                          data-pricing-detail
-                          data-pricing-title="{{ bullet.detailTitle | default(bullet.label) }}"
-                          data-pricing-body="{{ bullet.detailBody | default('') }}"
-                          data-pricing-points="{% if bullet.detailPoints %}{{ bullet.detailPoints | join('||') }}{% endif %}"
-                          aria-label="Learn more about {{ bullet.label }}"
-                        >
-                          +
-                        </button>
-                      {% endif %}
-                    </li>
-                  {% else %}
-                    <li>{{ bullet }}</li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
-              <div class="services-meta">
-                <span>{{ tier.ideal }}</span>
-                <span>{{ tier.turnaround }}</span>
-              </div>
-              <a class="btn btn-primary btn-buy" href="{{ tier.buyLink }}">Buy now</a>
-            </article>
-          {% endfor %}
-        </div>
-      </div>
-      <div class="carousel-dots" data-carousel-dots></div>
-    </div>
-  </div>
-</section>
-
-<section class="section services-core">
-  <div class="container">
-    <div class="services-core-head">
-      <div>
-        <p class="hero-eyebrow">Core Services</p>
-        <h2 class="section-title section-title-glow">Choose a focused upgrade</h2>
-        <p class="section-subtitle">Clear, high‑impact services that stack together when you want more support.</p>
-        <div class="services-core-proof">
-          <span>★★★★★ 4.9/5 from 147+ professionals</span>
-          <span>No credit card. No commitment.</span>
-        </div>
-      </div>
-      <a class="btn btn-primary btn-cta-experiment" href="{{ services.cta.ctaLink }}">Get a recommendation</a>
-    </div>
-    <div class="services-core-grid">
-      {% for item in services.alaCarte.items %}
-        <a class="services-core-card" href="{{ item.pageLink or item.buyLink }}">
-          <div class="services-core-card-top">
-            <h3>{{ item.title }}</h3>
-            {% if item.price %}<span class="services-core-price">{{ item.price }}</span>{% endif %}
+      {# ── Signal ── #}
+      <section class="rh2-group">
+        <div class="rh2-group-head">
+          <div>
+            <p class="rh2-group-kicker">Signal</p>
+            <h3 class="rh2-group-title">Signal</h3>
           </div>
-          <p>{{ item.body }}</p>
-        </a>
-      {% endfor %}
-    </div>
-    <div class="services-core-orbit" aria-hidden="true">
-      <span></span><span></span><span></span>
+          <p class="rh2-group-copy">Positioning, resume, LinkedIn, and story architecture. Get the right materials in place before you start applying.</p>
+        </div>
+        <div class="rh2-group-grid">
+          <a class="rh2-track-card" href="/career-clarity/" style="--tc: #a78bfa;">
+            <div class="rh2-track-top">
+              <span class="rh2-track-emoji">🧭</span>
+              <span class="rh2-track-tag">Clarity</span>
+            </div>
+            <h3 class="rh2-track-name">Career Clarity</h3>
+            <p class="rh2-track-desc">One focused session to get clear on your next move, target roles, and execution plan.</p>
+            <div class="rh2-track-topics">
+              <span>Role targeting</span>
+              <span>Level calibration</span>
+              <span>Search strategy</span>
+            </div>
+            <div class="rh2-track-footer">
+              <span class="rh2-track-count">$300</span>
+              <span class="rh2-track-cta">View service →</span>
+            </div>
+          </a>
+          <a class="rh2-track-card" href="/resume-writing/" style="--tc: #72d6ff;">
+            <div class="rh2-track-top">
+              <span class="rh2-track-emoji">📄</span>
+              <span class="rh2-track-tag">Materials</span>
+            </div>
+            <h3 class="rh2-track-name">Resume Writing</h3>
+            <p class="rh2-track-desc">A complete rebuild that shows your actual impact, level, and ownership — not just tasks.</p>
+            <div class="rh2-track-topics">
+              <span>Impact bullets</span>
+              <span>Level clarity</span>
+              <span>ATS-compatible</span>
+            </div>
+            <div class="rh2-track-footer">
+              <span class="rh2-track-count">$300</span>
+              <span class="rh2-track-cta">View service →</span>
+            </div>
+          </a>
+          <a class="rh2-track-card" href="/linkedin-optimization/" style="--tc: #57cfc4;">
+            <div class="rh2-track-top">
+              <span class="rh2-track-emoji">🔗</span>
+              <span class="rh2-track-tag">Visibility</span>
+            </div>
+            <h3 class="rh2-track-name">LinkedIn Optimization</h3>
+            <p class="rh2-track-desc">Headline, about, and experience rewritten so recruiters reach out to you instead of the other way around.</p>
+            <div class="rh2-track-topics">
+              <span>Headline rewrite</span>
+              <span>About section</span>
+              <span>Recruiter signal</span>
+            </div>
+            <div class="rh2-track-footer">
+              <span class="rh2-track-count">$150</span>
+              <span class="rh2-track-cta">View service →</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      {# ── Momentum ── #}
+      <section class="rh2-group">
+        <div class="rh2-group-head">
+          <div>
+            <p class="rh2-group-kicker">Momentum</p>
+            <h3 class="rh2-group-title">Momentum</h3>
+          </div>
+          <p class="rh2-group-copy">Role targeting, outreach systems, and interview preparation. Turn applications into conversations.</p>
+        </div>
+        <div class="rh2-group-grid">
+          <a class="rh2-track-card" href="/job-search-game-plan/" style="--tc: #fb923c;">
+            <div class="rh2-track-top">
+              <span class="rh2-track-emoji">🗺️</span>
+              <span class="rh2-track-tag">Strategy</span>
+            </div>
+            <h3 class="rh2-track-name">Job Search Game Plan</h3>
+            <p class="rh2-track-desc">A clear system for finding the right roles, getting responses, and building consistent pipeline.</p>
+            <div class="rh2-track-topics">
+              <span>Role targeting</span>
+              <span>Outreach system</span>
+              <span>Weekly cadence</span>
+            </div>
+            <div class="rh2-track-footer">
+              <span class="rh2-track-count">$299</span>
+              <span class="rh2-track-cta">View service →</span>
+            </div>
+          </a>
+          <a class="rh2-track-card" href="/done-for-you-applications/" style="--tc: #34d399;">
+            <div class="rh2-track-top">
+              <span class="rh2-track-emoji">🚀</span>
+              <span class="rh2-track-tag">Done for you</span>
+            </div>
+            <h3 class="rh2-track-name">Done-For-You Applications</h3>
+            <p class="rh2-track-desc">We handle the applications so you can focus on preparation. Targeted roles, tracked weekly.</p>
+            <div class="rh2-track-topics">
+              <span>Targeted apps</span>
+              <span>Weekly tracking</span>
+              <span>Reporting</span>
+            </div>
+            <div class="rh2-track-footer">
+              <span class="rh2-track-count">$499</span>
+              <span class="rh2-track-cta">View service →</span>
+            </div>
+          </a>
+          <a class="rh2-track-card" href="/interview-prep/" style="--tc: #f472b6;">
+            <div class="rh2-track-top">
+              <span class="rh2-track-emoji">🎯</span>
+              <span class="rh2-track-tag">Interviews</span>
+            </div>
+            <h3 class="rh2-track-name">Interview Prep</h3>
+            <p class="rh2-track-desc">Mock interview with detailed feedback, story refinement, and a clear framework for every question type.</p>
+            <div class="rh2-track-topics">
+              <span>Mock interview</span>
+              <span>Story framework</span>
+              <span>Live feedback</span>
+            </div>
+            <div class="rh2-track-footer">
+              <span class="rh2-track-count">$300</span>
+              <span class="rh2-track-cta">View service →</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      {# ── Conversion ── #}
+      <section class="rh2-group">
+        <div class="rh2-group-head">
+          <div>
+            <p class="rh2-group-kicker">Conversion</p>
+            <h3 class="rh2-group-title">Conversion</h3>
+          </div>
+          <p class="rh2-group-copy">Offer strategy, negotiation coaching, and ongoing support. Close the right offer at the right number.</p>
+        </div>
+        <div class="rh2-group-grid">
+          <a class="rh2-track-card" href="/salary-negotiation/" style="--tc: #facc15;">
+            <div class="rh2-track-top">
+              <span class="rh2-track-emoji">💰</span>
+              <span class="rh2-track-tag">Negotiation</span>
+            </div>
+            <h3 class="rh2-track-name">Salary Negotiation</h3>
+            <p class="rh2-track-desc">Leverage, timing, and comp strategy so you leave nothing on the table. Our clients average $47K more.</p>
+            <div class="rh2-track-topics">
+              <span>Comp analysis</span>
+              <span>Counter strategy</span>
+              <span>Total comp</span>
+            </div>
+            <div class="rh2-track-footer">
+              <span class="rh2-track-count">$300</span>
+              <span class="rh2-track-cta">View service →</span>
+            </div>
+          </a>
+          <a class="rh2-track-card" href="/offer-strategy/" style="--tc: #60a5fa;">
+            <div class="rh2-track-top">
+              <span class="rh2-track-emoji">📋</span>
+              <span class="rh2-track-tag">Offer</span>
+            </div>
+            <h3 class="rh2-track-name">Offer Strategy</h3>
+            <p class="rh2-track-desc">Timeline management, competing offers, and comp decision support to close the right role.</p>
+            <div class="rh2-track-topics">
+              <span>Timeline mgmt</span>
+              <span>Decision support</span>
+              <span>Comp framing</span>
+            </div>
+            <div class="rh2-track-footer">
+              <span class="rh2-track-count">$300</span>
+              <span class="rh2-track-cta">View service →</span>
+            </div>
+          </a>
+          <a class="rh2-track-card" href="/ongoing-support/" style="--tc: #4ade80;">
+            <div class="rh2-track-top">
+              <span class="rh2-track-emoji">🔄</span>
+              <span class="rh2-track-tag">Ongoing</span>
+            </div>
+            <h3 class="rh2-track-name">Ongoing Support</h3>
+            <p class="rh2-track-desc">Weekly check-ins to keep you moving, adjust your approach, and prep for whatever's next.</p>
+            <div class="rh2-track-topics">
+              <span>Weekly check-ins</span>
+              <span>Course corrections</span>
+              <span>Interview prep</span>
+            </div>
+            <div class="rh2-track-footer">
+              <span class="rh2-track-count">$199/wk</span>
+              <span class="rh2-track-cta">View service →</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
     </div>
   </div>
 </section>
 
-<section class="section services-outcomes">
+{# ─── PACKAGES ────────────────────────────────────────── #}
+<section class="rh2-topics-section">
   <div class="container">
-    <div class="services-outcomes-head">
-      <p class="hero-eyebrow">What You Get</p>
-      <h2 class="section-title section-title-glow">Signal, momentum, leverage</h2>
-      <p class="section-subtitle">A clear system that moves you from scattered effort to the right offer.</p>
+    <div class="rh2-topics-header">
+      <h2 class="rh2-section-title">Or go all-in with a package</h2>
+      <p class="rh2-section-sub">Bundles that cover everything from materials to offer — at a lower cost than buying services individually.</p>
     </div>
-    <div class="services-outcomes-grid">
-      <div class="services-outcome-card">
-        <span>01</span>
-        <h3>Signal</h3>
-        <p>Role‑aligned narrative, resume, and LinkedIn that read at the right level.</p>
-      </div>
-      <div class="services-outcome-card">
-        <span>02</span>
-        <h3>Momentum</h3>
-        <p>Search strategy and interview prep that accelerate results.</p>
-      </div>
-      <div class="services-outcome-card">
-        <span>03</span>
-        <h3>Leverage</h3>
-        <p>Offer strategy and negotiation guidance aligned to comp bands.</p>
-      </div>
-      <div class="services-outcome-card highlight">
-        <span>04</span>
-        <h3>Clarity</h3>
-        <p>A scoped plan that matches your role, timeline, and target level.</p>
-      </div>
-    </div>
-    <div class="services-outcomes-rail" aria-hidden="true">
-      <span>Position</span>
-      <span>Execute</span>
-      <span>Close</span>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container faq-stage">
-    <div class="faq-header">
-      <h2 class="section-title section-title-glow">{{ services.faq.title }}</h2>
-      <p class="section-subtitle">Short, clear answers to the questions we hear most before someone books.</p>
-    </div>
-    <div class="faq-grid">
-      {% for item in services.faq.items %}
-        <details class="faq-card">
-          <summary>{{ item.question }}</summary>
-          <p>{{ item.answer }}</p>
-        </details>
+    <div class="rh2-topics-list">
+      {% for tier in services.tiers %}
+      <a class="rh2-topic-item" href="{{ services.hero.ctaLink }}">
+        <span class="rh2-topic-num">0{{ loop.index }}</span>
+        <div class="rh2-topic-content">
+          <h3>{{ tier.title }} — {{ tier.price }}</h3>
+          <p>{{ tier.body }}</p>
+        </div>
+        <span class="rh2-topic-arrow">→</span>
+      </a>
       {% endfor %}
     </div>
   </div>
 </section>
 
-<section class="section">
-    <div class="container cta-band">
-    <div>
-      <h2 class="section-title">{{ services.cta.title }}</h2>
-      <p class="section-subtitle">{{ services.cta.body }}</p>
-      <div class="cta-proof">
-        <span>★★★★★ 4.9/5 from 147+ professionals</span>
-        <span>“Clear plan, better interviews, higher offer.”</span>
-      </div>
-    </div>
-    <a class="btn btn-primary btn-cta-experiment" href="{{ services.cta.ctaLink }}">{{ services.cta.ctaLabel }}</a>
+{# ─── BOTTOM CTA ──────────────────────────────────────── #}
+<section class="rh2-cta">
+  <div class="container rh2-cta-inner">
+    <h2>{{ services.cta.title }}</h2>
+    <p>{{ services.cta.body }}</p>
+    <a class="btn btn-primary" href="{{ services.cta.ctaLink }}">{{ services.cta.ctaLabel }}</a>
   </div>
 </section>
-
-<div class="pricing-overlay" data-pricing-overlay hidden>
-  <div class="pricing-modal" role="dialog" aria-modal="true" aria-labelledby="pricing-modal-title">
-    <button class="pricing-close" type="button" data-pricing-close aria-label="Close details">✕</button>
-    <h3 id="pricing-modal-title" data-pricing-title></h3>
-    <p data-pricing-body></p>
-    <ul data-pricing-points></ul>
-  </div>
-</div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const overlay = document.querySelector("[data-pricing-overlay]");
-    if (!overlay) return;
-
-    const titleEl = overlay.querySelector("[data-pricing-title]");
-    const bodyEl = overlay.querySelector("[data-pricing-body]");
-    const pointsEl = overlay.querySelector("[data-pricing-points]");
-    const closeBtn = overlay.querySelector("[data-pricing-close]");
-    const detailButtons = document.querySelectorAll("[data-pricing-detail]");
-
-    const openModal = (button) => {
-      titleEl.textContent = button.dataset.pricingTitle || "Details";
-      bodyEl.textContent = button.dataset.pricingBody || "";
-      const points = (button.dataset.pricingPoints || "").split("||").filter(Boolean);
-      pointsEl.innerHTML = points.map((point) => `<li>${point}</li>`).join("");
-      overlay.hidden = false;
-      document.body.classList.add("pricing-focus");
-    };
-
-    const closeModal = () => {
-      overlay.hidden = true;
-      document.body.classList.remove("pricing-focus");
-      titleEl.textContent = "";
-      bodyEl.textContent = "";
-      pointsEl.innerHTML = "";
-    };
-
-    detailButtons.forEach((button) => {
-      button.addEventListener("click", () => openModal(button));
-    });
-
-    closeBtn.addEventListener("click", closeModal);
-    overlay.addEventListener("click", (event) => {
-      if (event.target === overlay) closeModal();
-    });
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && !overlay.hidden) closeModal();
-    });
-  });
-</script>
 
 </div>
