@@ -1,370 +1,192 @@
-{# CRO-Optimized Role Page Template #}
-{# Streamlined for maximum conversion following Executive Summary principles #}
+{# Role coaching page — redesigned to match resource-hub.njk visual system #}
 
-<div class="role-page resource-theme-page" style="--role-accent: {{ roleData.visual.accent }}; --role-accent-2: {{ roleData.visual.accent2 }};">
+{# ── slug → emoji map (matches roleTracks.js) ── #}
+{% set _emojiMap = {
+  "software-engineer-career-coaching":       "⚙️",
+  "devops-career-coaching":                  "🛡️",
+  "data-career-coaching":                    "📊",
+  "product-manager-career-coaching":         "🧭",
+  "engineering-manager-coaching":            "👥",
+  "cybersecurity-career-coaching":           "🔐",
+  "product-design-career-coaching":          "🎨",
+  "solutions-architect-career-coaching":     "🏗️",
+  "technical-program-manager-coaching":      "📋",
+  "ai-ml-career-coaching":                   "🤖",
+  "finance-fpa-career-coaching":             "📈",
+  "accounting-controller-coaching":          "🧾",
+  "operations-career-coaching":              "⚙️",
+  "supply-chain-career-coaching":            "🚢",
+  "strategy-consulting-career-coaching":     "♟️",
+  "sales-career-coaching":                   "💼",
+  "sales-engineer-career-coaching":          "🔧",
+  "customer-success-career-coaching":        "🤝",
+  "marketing-career-coaching":               "📣",
+  "people-career-coaching":                  "💛",
+  "people-ops-career-coaching":              "💛",
+  "qa-career-coaching":                      "🧪",
+  "project-program-management-coaching":     "📅",
+  "legal-compliance-career-coaching":        "⚖️",
+  "healthcare-administration-career-coaching":"🏥"
+} %}
+{% set _roleEmoji = _emojiMap[page.fileSlug] or "🎯" %}
+{% set _accent    = roleData.visual.accent   or "#72d6ff" %}
 
-{# HERO SECTION - Benefit-focused with trust signals #}
-<section class="hero hero-role resource-theme-hero">
-  <div class="container hero-role-grid">
-    <div class="hero-role-content">
-      {% if roleData.eyebrow %}<p class="hero-eyebrow">{{ roleData.eyebrow }}</p>{% endif %}
+<div class="rhub-page" style="--rc: {{ _accent }};">
 
-      <h1 class="hero-headline-cro">{{ roleData.h1 }}</h1>
-
-      {% if roleData.subtitle %}<p class="hero-subheadline-cro">{{ roleData.subtitle }}</p>{% endif %}
-
-      {% if roleData.highlights and roleData.highlights.length %}
-      <ul class="hero-benefits-cro">
-        {% for item in roleData.highlights %}
-          <li>{{ item }}</li>
-        {% endfor %}
-      </ul>
+{# ─── HERO ───────────────────────────────────────────────── #}
+<section class="rhub-hero">
+  <div class="container rhub-hero-inner">
+    <div class="rhub-hero-left">
+      <div class="rhub-emoji">{{ _roleEmoji }}</div>
+      <p class="rhub-eyebrow">{{ roleData.eyebrow }}</p>
+      <h1 class="rhub-title">{{ roleData.h1 }}</h1>
+      <p class="rhub-subtitle">{{ roleData.subtitle }}</p>
+      {% if roleData.supporting %}
+      <div class="rhub-answer">
+        <span class="rhub-answer-label">Bottom line</span>
+        <p>{{ roleData.supporting }}</p>
+      </div>
       {% endif %}
-
-      <div class="hero-cta-cro">
-        <a class="btn btn-primary btn-lg btn-glow" href="{{ roleData.ctaLink or site.cta.link }}">{{ roleData.ctaLabel or "Get My Free Strategy Session" }}</a>
-        <span class="hero-microcopy-cro">{{ roleData.ctaProof or "15 minutes. No sales pitch. Leave with a clear action plan." }}</span>
+      <div class="rhub-hero-cta">
+        <a class="btn btn-primary" href="{{ roleData.ctaLink or site.cta.link }}">{{ roleData.ctaLabel or site.cta.label }}</a>
+        <a class="btn btn-ghost" href="/resources/">View free resources</a>
       </div>
-
-      <div class="hero-trust-cro">
-        <span class="hero-trust-rating-cro">★ 4.9/5 from 147+ professionals</span>
-      </div>
-
-      <p class="hero-urgency-cro" data-urgency>{{ roleData.ctaUrgency or "Only 4 spots left this week" }}</p>
     </div>
-
-    <div class="hero-role-visual">
-      <div class="hero-stats-card hero-stats-animated">
-        <div class="hero-stat-row stat-1">
-          <div class="hero-stat-visual" aria-hidden="true">
-            <div class="stat-calendar">
-              <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-              <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-              <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-            </div>
-          </div>
-          <div class="hero-stat-copy">
-            <strong>21 days</strong>
-            <span>Average time to first interview</span>
-          </div>
-        </div>
-        <div class="hero-stat-row stat-2">
-          <div class="hero-stat-visual" aria-hidden="true">
-            <div class="stat-salary">
-              <span></span><span></span><span></span>
-            </div>
-          </div>
-          <div class="hero-stat-copy">
-            <strong>$47K</strong>
-            <span>Average salary increase negotiated</span>
-          </div>
-        </div>
-        <div class="hero-stat-row stat-3">
-          <div class="hero-stat-visual" aria-hidden="true">
-            <div class="stat-offer">
-              <span></span>
-            </div>
-          </div>
-          <div class="hero-stat-copy">
-            <strong>89%</strong>
-            <span>Land offers within 60 days</span>
-          </div>
-        </div>
+    <div class="rhub-hero-stats">
+      <div class="rhub-stat">
+        <div class="rhub-stat-num">21 days</div>
+        <p class="rhub-stat-body">Avg. time to first interview</p>
       </div>
-      <div class="hero-coach-preview">
-        <img src="/assets/steve-headshot.jpg" alt="Steve J. Ngoumnai" class="hero-coach-photo" />
-        <div class="hero-coach-info">
-          <strong>Steve J. Ngoumnai</strong>
-          <span>Founder, Head Career Coach</span>
-        </div>
+      <div class="rhub-stat">
+        <div class="rhub-stat-num">$47K</div>
+        <p class="rhub-stat-body">Avg. salary increase negotiated</p>
+      </div>
+      <div class="rhub-stat">
+        <div class="rhub-stat-num">89%</div>
+        <p class="rhub-stat-body">Land offers within 60 days</p>
       </div>
     </div>
   </div>
 </section>
 
-{# SOCIAL PROOF BAR #}
-<section class="section section-tight">
+{# ─── WHAT YOU GET ────────────────────────────────────────── #}
+{% if roleData.focus and roleData.focus.items %}
+<section class="rhub-guides">
   <div class="container">
-    <div class="category-proof-bar">
-      <div class="proof-item">
-        <strong>147+</strong>
-        <span>professionals coached</span>
-      </div>
-      <div class="proof-item">
-        <strong>4.9★</strong>
-        <span>average rating</span>
-      </div>
-      <div class="proof-item">
-        <strong>89%</strong>
-        <span>land offers in 60 days</span>
-      </div>
-      <div class="proof-item">
-        <strong>$47K</strong>
-        <span>avg. salary increase</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-{# WHAT YOU GET - Simplified benefits #}
-<section class="section">
-  <div class="container">
-    <div class="pillar-header" style="text-align: center;">
-      <p class="hero-eyebrow">{{ roleData.focus.eyebrow or "What You Get" }}</p>
-      <h2 class="section-title section-title-glow">{{ roleData.focus.title }}</h2>
-      {% if roleData.focus.subtitle %}<p class="section-subtitle">{{ roleData.focus.subtitle }}</p>{% endif %}
-    </div>
-    <div class="focus-grid">
-      {% if roleData.focus and roleData.focus.items %}
-        {% for item in roleData.focus.items %}
-          <article class="focus-card">
-            <span class="focus-tag">{{ item.tag }}</span>
-            <h3>{{ item.title }}</h3>
-            <p>{{ item.body }}</p>
-          </article>
-        {% endfor %}
-      {% endif %}
-    </div>
-  </div>
-</section>
-
-{# YOUR REALITY - Personalized pain points #}
-{% if roleData.reality %}
-<section class="section section-reality">
-  <div class="container">
-    <div class="pillar-header" style="text-align: center;">
-      <p class="hero-eyebrow">{{ roleData.reality.eyebrow or "Sound familiar?" }}</p>
-      <h2 class="section-title section-title-glow">{{ roleData.reality.title }}</h2>
-      {% if roleData.reality.subtitle %}<p class="section-subtitle">{{ roleData.reality.subtitle }}</p>{% endif %}
-    </div>
-    <div class="reality-grid">
-      {% for item in roleData.reality.items %}
-        <div class="reality-card">
-          <div class="reality-icon" aria-hidden="true">{{ item.icon or "→" }}</div>
-          <h3>{{ item.title }}</h3>
-          <p>{{ item.body }}</p>
-        </div>
-      {% endfor %}
-    </div>
-    {% if roleData.reality.callout %}
-    <div class="reality-callout">
-      <p>{{ roleData.reality.callout }}</p>
-    </div>
+    <p class="rhub-eyebrow" style="margin-bottom: 6px;">{{ roleData.focus.eyebrow or "What you get" }}</p>
+    <h2 class="rhub-guides-title">{{ roleData.focus.title }}</h2>
+    {% if roleData.focus.subtitle %}
+    <p class="rhub-guides-sub">{{ roleData.focus.subtitle }}</p>
     {% endif %}
-  </div>
-</section>
-{% endif %}
-
-{# TESTIMONIALS - Social proof near CTA #}
-<section class="section section-testimonials">
-  <div class="container">
-    <div class="testimonials-header" style="text-align: center;">
-      <p class="hero-eyebrow">Success Stories</p>
-      <h2 class="section-title section-title-glow">People who made the leap</h2>
-      <div class="testimonials-summary">
-        <span class="testimonials-rating">★★★★★ 4.9/5</span>
-        <span>from 147+ professionals</span>
+    <div class="rhub-grid">
+      {% for item in roleData.focus.items %}
+      <div class="rhub-card" style="cursor: default;">
+        <span class="rhub-card-topic">{{ item.tag }}</span>
+        <h3 class="rhub-card-title">{{ item.title }}</h3>
+        <p class="rhub-card-intro">{{ item.body }}</p>
       </div>
-    </div>
-    <div class="testimonials-carousel" data-testimonials-carousel>
-      <div class="testimonials-track" data-testimonials-track>
-        {% if testimonials and testimonials.items %}
-          {% for item in testimonials.items %}
-          <article class="testimonial-card-home" data-testimonial-card>
-            <div class="testimonial-card-header">
-              <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" loading="lazy" />
-              <div>
-                <strong>{{ item.name }}</strong>
-                <span>{{ item.role }}{% if item.company %} · {{ item.company }}{% endif %}</span>
-              </div>
-            </div>
-            <div class="testimonial-card-rating">★★★★★</div>
-            <p class="testimonial-card-quote">"{{ item.quote | truncate(180) }}"</p>
-          </article>
-          {% endfor %}
-          {% for item in testimonials.items %}
-          <article class="testimonial-card-home" data-testimonial-card>
-            <div class="testimonial-card-header">
-              <img class="testimonial-avatar" src="{{ item.photo }}" alt="{{ item.name }}" loading="lazy" />
-              <div>
-                <strong>{{ item.name }}</strong>
-                <span>{{ item.role }}{% if item.company %} · {{ item.company }}{% endif %}</span>
-              </div>
-            </div>
-            <div class="testimonial-card-rating">★★★★★</div>
-            <p class="testimonial-card-quote">"{{ item.quote | truncate(180) }}"</p>
-          </article>
-          {% endfor %}
-        {% endif %}
-      </div>
-      <div class="testimonials-focus-glow" aria-hidden="true"></div>
-    </div>
-  </div>
-</section>
-
-{# MID-PAGE CTA - Capture convinced visitors #}
-<section class="section section-mid-cta">
-  <div class="container">
-    <div class="mid-cta-band">
-      <div class="mid-cta-content">
-        <h3>Ready to accelerate your career?</h3>
-        <p>Book a free strategy call and leave with a clear action plan.</p>
-      </div>
-      <a class="btn btn-primary btn-lg btn-glow" href="{{ roleData.ctaLink or site.cta.link }}">{{ roleData.ctaLabel or "Book My Free Strategy Call" }}</a>
-    </div>
-  </div>
-</section>
-
-{# HOW IT WORKS - Simple 3-step process #}
-<section class="section">
-  <div class="container">
-    <div class="pillar-header" style="text-align: center;">
-      <p class="hero-eyebrow">How It Works</p>
-      <h2 class="section-title section-title-glow">{{ roleData.steps.title or "From stuck to hired in 3 steps" }}</h2>
-    </div>
-    <div class="category-process">
-      {% if roleData.steps and roleData.steps.items %}
-        {% for step in roleData.steps.items %}
-          <div class="process-step">
-            <div class="process-number">{{ loop.index }}</div>
-            <h3>{{ step.title }}</h3>
-            <p>{{ step.body }}</p>
-          </div>
-          {% if not loop.last %}<div class="process-connector" aria-hidden="true"></div>{% endif %}
-        {% endfor %}
-      {% endif %}
-    </div>
-  </div>
-</section>
-
-{# DELIVERABLES - What you'll get #}
-{% if roleData.deliverables %}
-<section class="section section-soft">
-  <div class="container">
-    <div class="pillar-header" style="text-align: center;">
-      <p class="hero-eyebrow">Deliverables</p>
-      <h2 class="section-title section-title-glow">{{ roleData.deliverables.title }}</h2>
-      {% if roleData.deliverables.subtitle %}<p class="section-subtitle">{{ roleData.deliverables.subtitle }}</p>{% endif %}
-    </div>
-    <div class="role-category-grid-enhanced">
-      {% for item in roleData.deliverables.items %}
-        <div class="role-card-enhanced" style="display: block; cursor: default;">
-          <div class="role-card-content">
-            <strong>{{ item.title }}</strong>
-            <p style="margin-top: 8px; color: var(--muted); font-size: 0.9rem;">{{ item.body }}</p>
-          </div>
-        </div>
       {% endfor %}
     </div>
   </div>
 </section>
 {% endif %}
 
-{# COACH SECTION - Build trust #}
-<section class="section">
+{# ─── HOW IT WORKS ────────────────────────────────────────── #}
+{% if roleData.steps and roleData.steps.items %}
+<section class="rhub-section rhub-section-alt">
   <div class="container">
-    <div class="category-coach-preview">
-      <img src="/assets/steve-headshot.jpg" alt="Steve, Askia Career Coach" class="category-coach-photo" />
-      <div class="category-coach-content">
-        <p class="hero-eyebrow">Your Coach</p>
-        <h3 class="section-title">{{ roleData.coach.title or "Steve gets your world" }}</h3>
-        <p>{{ roleData.coach.bio or "10+ years leading teams across tech companies. Hundreds of professionals coached into roles at Google, Amazon, Meta, and high-growth startups. I've sat on the other side of the table — I know exactly what makes someone stand out." }}</p>
-        <div class="category-coach-stats">
-          {% if roleData.coach.stats %}
-            {% for stat in roleData.coach.stats %}
-            <span><strong>{{ stat.value }}</strong> {{ stat.label }}</span>
-            {% endfor %}
-          {% else %}
-            <span><strong>10+</strong> years experience</span>
-            <span><strong>147+</strong> professionals coached</span>
-            <span><strong>$47K</strong> avg. raise negotiated</span>
-          {% endif %}
+    <h2 class="rhub-section-title">{{ roleData.steps.title or "How it works" }}</h2>
+    <div class="rr-steps">
+      {% for step in roleData.steps.items %}
+      <div class="rr-step">
+        <div class="rr-step-num-bg" aria-hidden="true">{{ loop.index }}</div>
+        <div class="rr-step-inner">
+          <div class="rr-step-num-fg">{{ loop.index }}</div>
+          <div class="rr-step-body">
+            <h3 class="rr-step-title">{{ step.title }}</h3>
+            <p class="rr-step-desc">{{ step.body }}</p>
+          </div>
         </div>
       </div>
+      {% endfor %}
     </div>
   </div>
 </section>
+{% endif %}
 
-{# WHO THIS IS FOR / NOT FOR #}
-<section class="section">
-  <div class="container services-preview">
-    <div class="card card-soft">
-      <strong>{{ roleData.for.title }}</strong>
-      <p>{{ roleData.for.body }}</p>
-      {% if roleData.for.items and roleData.for.items.length %}
-      <ul class="highlight-list">
-        {% for item in roleData.for.items %}
-          <li>{{ item }}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-    </div>
-    <div class="card">
-      <strong>{{ roleData.notFor.title }}</strong>
-      <p>{{ roleData.notFor.body }}</p>
-      {% if roleData.notFor.items and roleData.notFor.items.length %}
-      <ul class="highlight-list">
-        {% for item in roleData.notFor.items %}
-          <li>{{ item }}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
-    </div>
-  </div>
-</section>
-
-{# FAQ - Handle objections #}
-<section class="section">
-  <div class="container faq-stage">
-    <div class="faq-header">
-      <h2 class="section-title section-title-glow">{{ roleData.faq.title }}</h2>
-      {% if roleData.faq.subtitle %}<p class="section-subtitle">{{ roleData.faq.subtitle }}</p>{% endif %}
-    </div>
-    <div class="faq-grid">
-      {% if roleData.faq and roleData.faq.items %}
-        {% for item in roleData.faq.items %}
-          <details class="faq-card">
-            <summary>{{ item.question }}</summary>
-            <p>{{ item.answer }}</p>
-          </details>
-        {% endfor %}
-      {% endif %}
-    </div>
-  </div>
-</section>
-
-{% include "featured-markets.njk" %}
-
-{# FINAL CTA - With testimonial and urgency #}
-<section class="section section-cta-final">
+{# ─── IS THIS RIGHT FOR YOU? ─────────────────────────────── #}
+{% if roleData.for or roleData.notFor %}
+<section class="rhub-section">
   <div class="container">
-    {% if roleData.related and roleData.related.miniTestimonial %}
-    <div class="cta-testimonial-mini">
-      <p>"{{ roleData.related.miniTestimonial.quote }}"</p>
-      <span>★★★★★ — {{ roleData.related.miniTestimonial.name }}, {{ roleData.related.miniTestimonial.role }}</span>
-    </div>
-    {% else %}
-    <div class="cta-testimonial-mini">
-      <p>"Within 3 weeks I had 4 interviews lined up. Steve completely changed how I talk about my work."</p>
-      <span>★★★★★ — Marcus T., Senior Engineer → Staff at FAANG</span>
-    </div>
-    {% endif %}
-    <div class="cta-band">
-      <div>
-        <h2 class="section-title">{{ roleData.cta.title }}</h2>
-        <p class="section-subtitle">{{ roleData.cta.body }}</p>
-        <p class="cta-proof">Join 147+ professionals who've accelerated their careers</p>
+    <h2 class="rhub-section-title">Is this right for you?</h2>
+    <div class="rhub-rules">
+      {% if roleData.for %}
+      <div class="rhub-rule-yes">
+        <h3><span class="rhub-badge-yes">Good fit</span> {{ roleData.for.title or "This is for you if…" }}</h3>
+        <ul>
+          {% for item in roleData.for.items %}
+          <li><span>✓</span>{{ item }}</li>
+          {% endfor %}
+        </ul>
       </div>
-      <div class="cta-action">
-        <a class="btn btn-primary btn-lg btn-glow" href="{{ roleData.cta.link or site.cta.link }}">{{ roleData.cta.label or "Claim My Free Strategy Session" }}</a>
-        <span class="cta-urgency" data-urgency>Only 4 spots left this week</span>
-        <span class="cta-guarantee">✓ Leave with a clear action plan or get a second session free</span>
+      {% endif %}
+      {% if roleData.notFor %}
+      <div class="rhub-rule-no">
+        <h3><span class="rhub-badge-no">Skip this</span> {{ roleData.notFor.title or "Not the right fit if…" }}</h3>
+        <ul>
+          {% for item in roleData.notFor.items %}
+          <li><span>✗</span>{{ item }}</li>
+          {% endfor %}
+        </ul>
       </div>
+      {% endif %}
     </div>
+  </div>
+</section>
+{% endif %}
+
+{# ─── FAQ ─────────────────────────────────────────────────── #}
+{% if roleData.faq and roleData.faq.items %}
+<section class="rhub-section rhub-section-alt">
+  <div class="container rhub-faq-wrap">
+    <h2 class="rhub-section-title">{{ roleData.faq.title or "Common questions" }}</h2>
+    <div class="rhub-faq-list">
+      {% for item in roleData.faq.items %}
+      <details class="rhub-faq-item">
+        <summary class="rhub-faq-q">{{ item.question }}<span class="rhub-faq-ico"></span></summary>
+        <p class="rhub-faq-a">{{ item.answer }}</p>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{# ─── CTA ─────────────────────────────────────────────────── #}
+<section class="rhub-cta">
+  <div class="container rhub-cta-inner">
+    <h2>{{ roleData.cta.title if roleData.cta else "Ready to land your next role?" }}</h2>
+    <p>{{ roleData.cta.body if roleData.cta else "Book a free strategy call and leave with a clear action plan." }}</p>
+    <a class="btn btn-primary" href="{{ roleData.cta.link if roleData.cta else (roleData.ctaLink or site.cta.link) }}">{{ roleData.cta.label if roleData.cta else (roleData.ctaLabel or site.cta.label) }}</a>
   </div>
 </section>
 
 </div>
+
+<script>
+(function(){
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){ e.target.classList.add('rr-revealed'); io.unobserve(e.target); }
+      });
+    },{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.rr-step').forEach(function(el){ io.observe(el); });
+  } else {
+    document.querySelectorAll('.rr-step').forEach(function(el){ el.classList.add('rr-revealed'); });
+  }
+})();
+</script>
 
 {% if roleData.faq and roleData.faq.items %}
 <script type="application/ld+json">
@@ -375,10 +197,10 @@
     {% for item in roleData.faq.items %}
     {
       "@type": "Question",
-      "name": "{{ item.question | escape }}",
+      "name": "{{ item.question | replace('"', '&quot;') }}",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ item.answer | escape }}"
+        "text": "{{ item.answer | replace('"', '&quot;') }}"
       }
     }{% if not loop.last %},{% endif %}
     {% endfor %}
