@@ -41,7 +41,7 @@ layout: layout.njk
           <p>Mock interviews, story coaching, behavioral and technical prep with a coach who has been on the hiring side.</p>
           <a class="btn btn-ghost" href="/interview-prep/">Interview Prep →</a>
         </div>
-        {% elif "Salary & Compensation" in categories or "Salary" in categories %}
+        {% elif "Compensation Mastery" in categories or "Salary & Compensation" in categories or "Salary" in categories %}
         <div class="sidebar-card sidebar-card-service">
           <strong>Stop leaving money on the table</strong>
           <p>Askia clients average a $47K increase in negotiated compensation. Get the coaching that makes that happen.</p>
@@ -53,11 +53,29 @@ layout: layout.njk
           <p>Resume revision + LinkedIn optimization — done-with-you, informed by hiring-side experience.</p>
           <a class="btn btn-ghost" href="/resume-writing/">Resume Writing →</a>
         </div>
-        {% elif "Software Careers" in categories or "Tech Careers" in categories %}
+        {% elif "Tech Career Navigation" in categories or "Software Careers" in categories or "Tech Careers" in categories %}
         <div class="sidebar-card sidebar-card-service">
           <strong>Coaching built for tech professionals</strong>
           <p>From mid-level IC to Staff, EM, and beyond — Askia’s founder led engineering teams for a decade.</p>
           <a class="btn btn-ghost" href="/software-engineer-career-coaching/">Tech Career Coaching →</a>
+        </div>
+        {% elif "Leadership Signal" in categories %}
+        <div class="sidebar-card sidebar-card-service">
+          <strong>Lead with authority, not just tenure</strong>
+          <p>Executive and leadership positioning — from engineering manager to Director, VP, and beyond.</p>
+          <a class="btn btn-ghost" href="/executive-coaching/">Executive Coaching →</a>
+        </div>
+        {% elif "Hidden Market Access" in categories %}
+        <div class="sidebar-card sidebar-card-service">
+          <strong>Find roles before they’re posted</strong>
+          <p>Build a targeted outreach system that reaches hiring managers directly — not job boards.</p>
+          <a class="btn btn-ghost" href="/job-search-coaching/">Job Search Coaching →</a>
+        </div>
+        {% elif "Strategic Positioning" in categories %}
+        <div class="sidebar-card sidebar-card-service">
+          <strong>Position yourself for the roles you actually want</strong>
+          <p>Signal clarity — making sure the market reads you as the right candidate at the right level.</p>
+          <a class="btn btn-ghost" href="/career-coaching/">Career Coaching →</a>
         </div>
         {% else %}
         <div class="sidebar-card sidebar-card-service">

@@ -344,6 +344,44 @@
       }
     </script>
     {% endif %}
+    {% if faq and layout != "blog-post.njk" %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {% for item in faq %}
+          {
+            "@type": "Question",
+            "name": {{ item.q | dump | safe }},
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": {{ item.a | dump | safe }}
+            }
+          }{% if not loop.last %},{% endif %}
+          {% endfor %}
+        ]
+      }
+    </script>
+    {% endif %}
+    {% if howto and layout != "blog-post.njk" %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": {{ howto.name | dump | safe }},
+        "step": [
+          {% for step in howto.steps %}
+          {
+            "@type": "HowToStep",
+            "name": {{ step.name | dump | safe }},
+            "text": {{ step.text | dump | safe }}
+          }{% if not loop.last %},{% endif %}
+          {% endfor %}
+        ]
+      }
+    </script>
+    {% endif %}
 
     <script>
       document.addEventListener("DOMContentLoaded", () => {
