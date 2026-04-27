@@ -35,17 +35,64 @@ layout: layout.njk
         {{ content | safe }}
       </div>
       <aside class="blog-post-sidebar">
+        {% if "Interview Intelligence" in categories or "Interview" in categories %}
+        <div class="sidebar-card sidebar-card-service">
+          <strong>Turn prep into offers</strong>
+          <p>Mock interviews, story coaching, behavioral and technical prep with a coach who has been on the hiring side.</p>
+          <a class="btn btn-ghost" href="/interview-prep/">Interview Prep →</a>
+        </div>
+        {% elif "Salary & Compensation" in categories or "Salary" in categories %}
+        <div class="sidebar-card sidebar-card-service">
+          <strong>Stop leaving money on the table</strong>
+          <p>Askia clients average a $47K increase in negotiated compensation. Get the coaching that makes that happen.</p>
+          <a class="btn btn-ghost" href="/salary-negotiation/">Salary Negotiation →</a>
+        </div>
+        {% elif "LinkedIn & Resume" in categories or "Resume" in categories %}
+        <div class="sidebar-card sidebar-card-service">
+          <strong>Get your resume and LinkedIn working together</strong>
+          <p>Resume revision + LinkedIn optimization — done-with-you, informed by hiring-side experience.</p>
+          <a class="btn btn-ghost" href="/resume-writing/">Resume Writing →</a>
+        </div>
+        {% elif "Software Careers" in categories or "Tech Careers" in categories %}
+        <div class="sidebar-card sidebar-card-service">
+          <strong>Coaching built for tech professionals</strong>
+          <p>From mid-level IC to Staff, EM, and beyond — Askia’s founder led engineering teams for a decade.</p>
+          <a class="btn btn-ghost" href="/software-engineer-career-coaching/">Tech Career Coaching →</a>
+        </div>
+        {% else %}
+        <div class="sidebar-card sidebar-card-service">
+          <strong>Free 30-min strategy call</strong>
+          <p>Map the fastest path from your current role to your target level — no pitch, just a plan.</p>
+          <a class="btn btn-ghost" href="{{ site.cta.link }}">Book It Free →</a>
+        </div>
+        {% endif %}
         <div class="sidebar-card">
-          <strong>Get the Career Readiness Index</strong>
-          <p>Frameworks, scripts, and templates to build a high‑signal pipeline.</p>
-          <a class="btn btn-ghost" href="https://askia.tech/career-readiness-index/">Download the System</a>
+          <strong>Free resume review toolkit</strong>
+          <p>The 6-point checklist coaches use to audit resumes in the first 30 seconds.</p>
+          <button class="btn btn-ghost" type="button" data-open-lead-modal>Get It Free</button>
         </div>
         <div class="sidebar-card">
-          <strong>Book a strategy call</strong>
-          <p>We’ll map the fastest path from your current role to your target level.</p>
-          <a class="btn btn-primary" href="{{ site.cta.link }}">Book Your Strategy Call</a>
+          <strong>Score your job readiness</strong>
+          <p>48-point self-assessment — find the gaps before recruiters do.</p>
+          <a class="btn btn-primary" href="/career-readiness-index/">Take the Index</a>
         </div>
       </aside>
+    </div>
+  </section>
+
+  <section class="section-mid-cta">
+    <div class="container">
+      <div class="mid-cta-band">
+        <div class="mid-cta-content">
+          <p class="hero-eyebrow">Free Toolkit</p>
+          <h3>Get the Resume Review Toolkit — Free</h3>
+          <p>The exact checklist our coaches use to diagnose what’s holding a resume back from interviews.</p>
+        </div>
+        <div class="mid-cta-actions">
+          <button class="btn btn-primary" type="button" data-open-lead-modal>Send It to Me</button>
+          <a class="btn btn-ghost" href="{{ site.cta.link }}">Book a Strategy Call</a>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -101,6 +148,45 @@ layout: layout.njk
 
 </div>
 
+<div class="reading-cta" id="reading-cta" aria-live="polite" hidden>
+  <div class="reading-cta-copy">
+    <strong>Ready to apply this to your own search?</strong>
+    <span>89% of Askia clients land offers within 60 days.</span>
+  </div>
+  <div class="reading-cta-actions">
+    <button class="btn btn-ghost btn-sm" type="button" data-open-lead-modal>Get Free Toolkit</button>
+    <a class="btn btn-primary btn-sm" href="{{ site.cta.link }}">Book a Call</a>
+    <button class="reading-cta-dismiss" type="button" id="reading-cta-dismiss" aria-label="Dismiss">✕</button>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var cta = document.getElementById('reading-cta');
+    var dismiss = document.getElementById('reading-cta-dismiss');
+    if (!cta) return;
+    var dismissed = sessionStorage.getItem('askia_reading_cta_dismissed');
+    if (dismissed) return;
+    cta.hidden = false;
+    var shown = false;
+    var threshold = 0.65;
+    function checkScroll() {
+      if (shown) return;
+      var scrolled = window.scrollY + window.innerHeight;
+      var total = document.documentElement.scrollHeight;
+      if (scrolled / total >= threshold) {
+        shown = true;
+        cta.classList.add('is-visible');
+        window.removeEventListener('scroll', checkScroll);
+      }
+    }
+    window.addEventListener('scroll', checkScroll, { passive: true });
+    dismiss.addEventListener('click', function() {
+      cta.classList.remove('is-visible');
+      sessionStorage.setItem('askia_reading_cta_dismissed', '1');
+    });
+  })();
+</script>
 
 <script type="application/ld+json">
   {
@@ -108,14 +194,28 @@ layout: layout.njk
     "@type": "Article",
     "headline": "{{ title }}",
     "description": "{{ description }}",
-    "image": "{{ site.url }}{{ featuredImage }}",
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ featuredImage }}",
+      "alt": "{{ imageAlt }}"
+    },
     "author": {
       "@type": "Person",
-      "name": "{{ author or 'Askia Team' }}"
+      "name": "{{ author or 'Steve Ngoumnai' }}",
+      "url": "https://askia.tech/about/",
+      "jobTitle": "Career Coach & Founder",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Askia",
+        "url": "https://askia.tech"
+      },
+      "knowsAbout": ["career coaching", "resume writing", "interview preparation", "salary negotiation", "LinkedIn optimization", "job search strategy", "tech careers", "engineering management"],
+      "sameAs": ["https://www.linkedin.com/in/stevengoumnai"]
     },
     "publisher": {
       "@type": "Organization",
       "name": "{{ site.name }}",
+      "url": "https://askia.tech",
       "logo": {
         "@type": "ImageObject",
         "url": "{{ site.url }}/assets/askia-logo-512.png"
@@ -123,9 +223,40 @@ layout: layout.njk
     },
     "datePublished": "{{ publishDateISO }}",
     "dateModified": "{{ updatedDateISO or publishDateISO }}",
-    "mainEntityOfPage": "{{ site.url }}{{ page.url }}"
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}{{ page.url }}"
+    },
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": ["h1", ".blog-post-subtitle", "h2", ".content-panel p"]
+    },
+    "isPartOf": {
+      "@type": "Blog",
+      "name": "Askia Career Intelligence",
+      "url": "https://askia.tech/blog/"
+    }
   }
 </script>
+
+{% if breadcrumbs %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {% for crumb in breadcrumbs %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "name": "{{ crumb.name }}",
+        "item": "{{ site.url }}{{ crumb.url }}"
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+</script>
+{% endif %}
 
 {% if faq %}
 <script type="application/ld+json">

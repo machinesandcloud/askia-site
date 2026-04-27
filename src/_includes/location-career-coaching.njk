@@ -387,6 +387,7 @@ layout: layout.njk
     "name": "{{ site.name }}",
     "url": "{{ site.url }}{{ page.url }}",
     "telephone": "{{ site.contact.phone }}",
+    "email": "{{ site.contact.email }}",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "{{ site.contact.streetAddress }}",
@@ -395,9 +396,38 @@ layout: layout.njk
       "postalCode": "{{ site.contact.postalCode }}",
       "addressCountry": "{{ site.contact.addressCountry }}"
     },
-    "areaServed": [{"@type":"Place","name":"{{ cityName }}"}],
+    "areaServed": [
+      {"@type": "Place", "name": "{{ cityName }}"},
+      {"@type": "Country", "name": "United States"}
+    ],
     "serviceType": "Career coaching",
-    "description": "{{ metaDescription }}"
+    "description": "{{ metaDescription }}",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "147",
+      "bestRating": "5"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Career Coaching Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Resume Writing & Revision"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "LinkedIn Profile Optimization"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Interview Preparation"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Salary Negotiation Coaching"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Career Clarity Consulting"}}
+      ]
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Steve Ngoumnai",
+      "jobTitle": "Founder & Career Coach",
+      "url": "https://askia.tech/about/"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/askia-career-coaching"
+    ]
 }
 </script>
 

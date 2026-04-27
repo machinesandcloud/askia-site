@@ -2,8 +2,8 @@
 layout: layout.njk
 title: Testimonials
 description: "Askia client success stories."
-metaTitle: "Askia Testimonials | Outcomes That Speak"
-metaDescription: "Real outcomes from professionals across tech, business, and leadership roles."
+metaTitle: "Askia Reviews & Testimonials — 147+ Professionals, 4.9/5 Rating | Askia"
+metaDescription: "Real reviews from professionals who used Askia to land $100K–$350K roles. 89% land offers within 60 days. $47K average salary increase. Read their stories."
 breadcrumbs:
   - name: "Home"
     url: "/"
@@ -173,3 +173,43 @@ breadcrumbs:
 </section>
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Askia",
+  "url": "{{ site.url }}",
+  "image": "{{ site.url }}/assets/askia-logo-512.png",
+  "telephone": "{{ site.contact.phone }}",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "{{ testimonials.items | length }}",
+    "reviewCount": "{{ testimonials.items | length }}"
+  },
+  "review": [
+    {% set reviewCount = 0 %}
+    {% for item in testimonials.items %}
+    {% if reviewCount < 10 %}
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "{{ item.rating }}",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": {{ item.name | dump | safe }}
+      },
+      "reviewBody": {{ item.quote | truncate(280) | dump | safe }}
+    }{% if reviewCount < 9 %},{% endif %}
+    {% set reviewCount = reviewCount + 1 %}
+    {% endif %}
+    {% endfor %}
+  ]
+}
+</script>

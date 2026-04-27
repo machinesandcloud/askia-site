@@ -212,3 +212,55 @@
 }
 </script>
 {% endif %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": {{ (roleData.h1 or title) | dump | safe }},
+  "description": {{ (roleData.metaDescription or roleData.subtitle or description) | dump | safe }},
+  "url": "{{ site.url }}{{ page.url }}",
+  "serviceType": "Career coaching",
+  "provider": {
+    "@type": "ProfessionalService",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "bestRating": "5",
+      "worstRating": "1",
+      "ratingCount": "147",
+      "reviewCount": "147"
+    }
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "url": "{{ site.cta.link }}"
+  }
+}
+</script>
+{% if roleData.steps and roleData.steps.items %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": {{ (roleData.steps.title or ("How " + (roleData.h1 or title) + " works")) | dump | safe }},
+  "description": {{ (roleData.subtitle or description) | dump | safe }},
+  "step": [
+    {% for step in roleData.steps.items %}
+    {
+      "@type": "HowToStep",
+      "position": {{ loop.index }},
+      "name": {{ step.title | dump | safe }},
+      "text": {{ step.body | dump | safe }}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

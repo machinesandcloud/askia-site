@@ -43,6 +43,7 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     <link rel="alternate" type="application/rss+xml" title="Askia Blog RSS" href="{{ site.url }}/feed.xml" />
     <link rel="alternate" hreflang="en-us" href="{{ site.url }}{{ page.url }}" />
+    <link rel="ai-context" type="text/plain" href="{{ site.url }}/llms.txt" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -157,14 +158,29 @@
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "{{ site.name }}",
+        "alternateName": "Askia Career Coaching",
         "url": "{{ site.url }}",
-        "logo": "{{ site.url }}/assets/askia-logo-512.png",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}/assets/askia-logo-512.png",
+          "width": 512,
+          "height": 512
+        },
         "image": "{{ site.url }}/assets/askia-logo-512.png",
+        "description": "Career coaching for ambitious professionals targeting $100K–$350K roles in tech, business, finance, and healthcare. Services include resume revision, LinkedIn optimization, interview preparation, and salary negotiation.",
+        "foundingDate": "2022",
+        "founder": {
+          "@type": "Person",
+          "name": "Steve J. Ngoumnai",
+          "jobTitle": "Founder and Head Career Coach",
+          "url": "{{ site.url }}/about/"
+        },
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "{{ site.contact.phone }}",
-          "contactType": "sales",
-          "email": "{{ site.contact.email }}"
+          "contactType": "customer service",
+          "email": "{{ site.contact.email }}",
+          "availableLanguage": "English"
         },
         "address": {
           "@type": "PostalAddress",
@@ -182,6 +198,11 @@
             "opens": "09:00",
             "closes": "17:00"
           }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/company/askia-career-coaching",
+          "https://www.instagram.com/askia.tech",
+          "https://www.facebook.com/askia.tech"
         ]
       }
     </script>
@@ -227,7 +248,63 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "{{ site.name }}",
-        "url": "{{ site.url }}"
+        "url": "{{ site.url }}",
+        "description": "Career coaching for professionals targeting $100K–$350K roles. Resume revision, LinkedIn optimization, interview prep, and salary negotiation.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "{{ site.url }}/blog/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Steve J. Ngoumnai",
+        "jobTitle": "Founder and Head Career Coach",
+        "description": "Former engineering leader who has reviewed thousands of resumes, interviewed hundreds of candidates, and coached professionals across technical, operational, finance, and leadership tracks. Founded Askia to help ambitious professionals land $100K–$350K roles.",
+        "url": "{{ site.url }}/about/",
+        "image": "{{ site.url }}/assets/team/steve-2026.jpg",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Askia",
+          "url": "{{ site.url }}"
+        },
+        "knowsAbout": [
+          "Career coaching",
+          "Resume writing",
+          "Interview preparation",
+          "Salary negotiation",
+          "LinkedIn optimization",
+          "Tech career transitions",
+          "Executive coaching",
+          "Job search strategy"
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/stevengoumnai"
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "{{ resolvedTitle }}",
+        "description": "{{ resolvedDescription }}",
+        "url": "{{ site.url }}{{ page.url }}",
+        "speakable": {
+          "@type": "SpeakableSpecification",
+          "cssSelector": ["h1", ".hero-subtitle", ".rhub-subtitle", ".hero-support", ".rhub-answer p", ".section-subtitle"]
+        },
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "{{ site.name }}",
+          "url": "{{ site.url }}"
+        }
       }
     </script>
     {% set pageSpecificServiceSchemaLayouts = ["service-page.njk", "location-career-coaching.njk", "houston-local-layout.njk"] %}
@@ -525,6 +602,8 @@
             document.body.classList.add("modal-open");
           };
 
+          window.askiaOpenLeadModal = openModal;
+
           const closeModal = () => {
             leadModal.hidden = true;
             document.body.classList.remove("modal-open");
@@ -534,6 +613,10 @@
           if (!localStorage.getItem(storageKey)) {
             setTimeout(openModal, 3000);
           }
+
+          document.querySelectorAll("[data-open-lead-modal]").forEach(function(btn) {
+            btn.addEventListener("click", openModal);
+          });
 
           closeButtons.forEach((btn) => btn.addEventListener("click", closeModal));
 

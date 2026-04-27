@@ -226,12 +226,55 @@
   "provider": {
     "@type": "ProfessionalService",
     "name": "{{ site.name }}",
-    "url": "{{ site.url }}"
+    "url": "{{ site.url }}",
+    "telephone": "{{ site.contact.phone }}",
+    "email": "{{ site.contact.email }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ site.contact.streetAddress }}",
+      "addressLocality": "{{ site.contact.addressLocality }}",
+      "addressRegion": "{{ site.contact.addressRegion }}",
+      "postalCode": "{{ site.contact.postalCode }}",
+      "addressCountry": "{{ site.contact.addressCountry }}"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "bestRating": "5",
+      "worstRating": "1",
+      "ratingCount": "147",
+      "reviewCount": "147"
+    }
   },
   "areaServed": {
     "@type": "Country",
     "name": "United States"
   },
-  "serviceType": {{ (serviceData.eyebrow or "Career coaching service") | dump | safe }}
+  "serviceType": {{ (serviceData.eyebrow or "Career coaching service") | dump | safe }},
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "url": "{{ site.cta.link }}"
+  }
 }
 </script>
+{% if serviceData.steps and serviceData.steps.items %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": {{ (serviceData.steps.title or ("How " + (serviceData.h1 or title) + " works")) | dump | safe }},
+  "description": {{ (serviceData.subtitle or description) | dump | safe }},
+  "step": [
+    {% for step in serviceData.steps.items %}
+    {
+      "@type": "HowToStep",
+      "position": {{ loop.index }},
+      "name": {{ step.title | dump | safe }},
+      "text": {{ step.body | dump | safe }}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

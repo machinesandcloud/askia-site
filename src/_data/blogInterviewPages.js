@@ -906,6 +906,172 @@ const roleDefinitions = [
       "Treating monitoring as an afterthought instead of a design input",
     ],
   },
+  {
+    role: "General",
+    rolePageUrl: "/career-coaching/",
+    topic: "Behavioral Interview Questions",
+    title: "Behavioral Interview Questions: How to Answer Any Question Using the STAR Method",
+    description:
+      "A complete guide to behavioral interview questions — the STAR method, the most common behavioral prompts, and the answer patterns that consistently land stronger impressions at every level.",
+    featuredImage: "/assets/blog/leadership-signal-resume.jpg",
+    categories: ["Interview Intelligence", "Career Strategy"],
+    intro:
+      "Behavioral interview questions are designed to reveal how you actually work, not how you think you should work. Strong answers are specific, structured, and tied to measurable outcomes — not general descriptions of how you approach problems.",
+    basics: [
+      ["Tell me about a time you had to work with a difficult colleague.", "Strong answers focus on the approach you took to understand their perspective and find a path forward, not on how wrong the other person was. Show emotional intelligence and outcome."],
+      ["Describe a situation where you had to meet a tight deadline.", "Interviewers want to see prioritization, communication, and quality management under pressure — not just that you stayed late. What did you cut, what did you protect, and what was the result?"],
+      ["Give me an example of a time you failed.", "The best answers own the failure cleanly, explain what you learned, and show how that learning changed your behavior. Avoid minimizing the failure or blaming external factors."],
+    ],
+    advanced: [
+      ["Tell me about a time you influenced a decision without having authority.", "Senior candidates show cross-functional influence — how they built a case, aligned stakeholders, and moved a decision forward without relying on positional authority."],
+      ["Describe a time you had to change your approach mid-project.", "Strong answers demonstrate adaptability and judgment: what signal triggered the change, how you assessed the situation, and what the outcome was."],
+      ["Tell me about a time you had to deliver difficult feedback.", "Interviewers look for clarity, directness, and emotional calibration — not just that you said something hard, but that you said it in a way that produced a useful outcome."],
+    ],
+    mistakes: [
+      "Using vague, general descriptions instead of specific situations",
+      "Overloading the setup and underdelivering on the outcome",
+      "Blaming external factors for failures instead of taking ownership",
+      "Using team accomplishments without making your individual contribution clear",
+    ],
+  },
+  {
+    role: "General",
+    rolePageUrl: "/career-coaching/",
+    topic: "Tell Me About Yourself Interview Answer",
+    title: "Tell Me About Yourself: The Best Answer Framework for Every Level",
+    description:
+      "How to answer 'tell me about yourself' in a job interview — the most important question in any hiring loop and the one most candidates answer wrong. A structured framework with examples.",
+    featuredImage: "/assets/blog/linkedin-headline-formula.jpg",
+    categories: ["Interview Intelligence", "Career Strategy"],
+    intro:
+      "'Tell me about yourself' is not an invitation to share your life story or read your resume aloud. It is an invitation to control the narrative of the entire interview from the first 90 seconds.",
+    basics: [
+      ["What structure should I use for my answer?", "Use the Present-Past-Future framework: who you are now and what you do (Present), how you got here and what prepared you for this role (Past), and why this specific role is the logical next step (Future). Keep it to 60–90 seconds."],
+      ["How much personal information should I include?", "None that is not professionally relevant. Interviewers do not need to know where you grew up, your family situation, or your hobbies — unless those things are directly relevant to the role. Every sentence should advance the professional narrative."],
+      ["How do I make my answer memorable?", "Anchor it around one specific professional identity — not a list of everything you have ever done. 'I am a software engineer who specializes in making data pipelines fast enough to make decisions in real time' is more memorable than 'I have experience in Python, Spark, Kafka, and various cloud platforms.'"],
+    ],
+    advanced: [
+      ["How do I tailor this answer for different companies?", "The core structure stays the same but the emphasis shifts. For a startup, emphasize breadth and initiative. For a large enterprise, emphasize depth and cross-team influence. For a new function, emphasize transferable skills and deliberate transition rationale."],
+      ["How should the answer change for senior vs. mid-level roles?", "For senior roles, shift the emphasis from what you built to how you shaped the environment — team, process, architecture, or organization — that enabled the work to be built. The level signals leadership leverage, not just technical depth."],
+      ["What if I am changing careers?", "Lead with where you are going, not where you are coming from. 'I am transitioning into product management from software engineering' is the first line. Everything after that builds the case for why the transition is logical and why you are ready."],
+    ],
+    mistakes: [
+      "Starting with 'Well, I was born in...' or other irrelevant personal background",
+      "Reading the resume chronologically instead of telling a story",
+      "Being so brief that the answer provides no useful signal",
+      "Being so long that the interviewer loses the thread before you finish",
+    ],
+  },
+  {
+    role: "General",
+    rolePageUrl: "/career-coaching/",
+    topic: "STAR Method Interview Questions",
+    title: "STAR Method Interview: How to Use It at Every Level Without Sounding Scripted",
+    description:
+      "A practical guide to the STAR method for behavioral interviews — how to use it effectively, how to avoid its common failure modes, and what strong STAR answers actually sound like.",
+    featuredImage: "/assets/blog/interview-calibration.jpg",
+    categories: ["Interview Intelligence", "Career Strategy"],
+    intro:
+      "The STAR method works. It also, when used mechanically, produces answers that sound rehearsed, generic, and devoid of the judgment signal that separates strong candidates from forgettable ones.",
+    basics: [
+      ["What is the STAR method?", "STAR stands for Situation, Task, Action, Result. Situation and Task set up the context. Action is what you specifically did. Result is the measurable outcome. The structure ensures you give complete, focused answers rather than vague narratives."],
+      ["How long should a STAR answer be?", "Two to three minutes for most behavioral questions. The most common failure mode is spending too long on Situation and Task — which the interviewer already understands — and not enough time on Action and Result, which is what they are actually evaluating."],
+      ["How do I find good examples to use?", "Start with the key themes in the job description: collaboration, ownership, communication, delivery, leadership. Then identify 5–7 real situations from your career that demonstrate those themes. You will use variations of those examples across most behavioral interviews."],
+    ],
+    advanced: [
+      ["How do senior candidates adapt the STAR method?", "Senior candidates add a layer of judgment to each component. In the Situation, they explain why this problem was worth solving. In the Action, they explain not just what they did but what they chose not to do. In the Result, they connect the outcome to the business or team impact, not just the technical output."],
+      ["What is the most important part of a STAR answer?", "The Result — and specifically the measurability of it. 'We improved performance' is forgettable. 'We reduced p99 latency from 800ms to 120ms, which allowed us to sunset the caching layer that required 3 engineers to maintain' is memorable. Interviewers remember quantified outcomes."],
+      ["How do I handle behavioral questions where the result was negative?", "Use the STAR+L format: add a Learning component that explains what you took away from the experience and how it changed your behavior. A well-handled failure question often leaves a better impression than a smoothly delivered success story."],
+    ],
+    mistakes: [
+      "Spending 80% of the answer on Situation and Task, 20% on Action and Result",
+      "Using plural 'we' throughout without making your individual contribution clear",
+      "Giving results with no numbers or business context",
+      "Selecting examples that are too old, too small, or too far from the role being applied for",
+    ],
+  },
+  {
+    role: "General",
+    rolePageUrl: "/career-coaching/",
+    topic: "Strengths and Weaknesses Interview Questions",
+    title: "What Are Your Strengths and Weaknesses? How to Answer Without the Clichés",
+    description:
+      "How to answer 'what are your greatest strengths and weaknesses?' in a job interview — a framework that avoids the clichés, signals self-awareness, and builds interviewer confidence rather than undermining it.",
+    featuredImage: "/assets/blog/technical-screen.jpg",
+    categories: ["Interview Intelligence", "Career Strategy"],
+    intro:
+      "The strengths and weaknesses question has become a game of clichés. Everyone says they are 'too detail-oriented' or 'a perfectionist.' Everyone says their strength is 'teamwork.' Strong candidates answer differently — with specificity, honesty, and evidence.",
+    basics: [
+      ["How should I answer 'what is your greatest strength?'", "Name a specific strength that is directly relevant to the role, give a concrete example of it producing a measurable outcome, and connect it to why it would be valuable in this specific position. Not: 'I am a great communicator.' Better: 'I am particularly good at translating technical complexity into executive-level decisions — I will give you an example from last quarter.'"],
+      ["How should I answer 'what is your greatest weakness?'", "Name a real weakness that is not a dealbreaker for the role, show that you are aware of it and actively managing it, and give evidence that the management is working. Not: 'I work too hard.' Better: 'I have historically struggled to delegate technical decisions, which created bottlenecks. Over the last 18 months I have built a practice of writing decision criteria before delegating and only checking in on outputs, not process.'"],
+      ["Can I give a weakness that is completely unrelated to the job?", "Yes — if it is genuine. A weakness in an area completely outside the job scope is honest and non-threatening. A software engineer saying 'I struggle with public speaking in large groups' is fine. What does not work is a weakness so trivial or manufactured that the interviewer knows you are gaming the question."],
+    ],
+    advanced: [
+      ["How do I answer the weakness question for a leadership role?", "For senior roles, the weakness question is often really asking about leadership blind spots. A strong answer names a real leadership weakness — 'I underinvest in organizational visibility and documentation at the expense of direct delivery' — and shows how you have built structures to compensate for it."],
+      ["How many strengths and weaknesses should I give?", "One of each, done well, is stronger than three of each done shallowly. The question tests self-awareness and specificity, not volume."],
+    ],
+    mistakes: [
+      "Using manufactured weaknesses that are really strengths ('I care too much')",
+      "Naming a weakness that is a dealbreaker for the role without realizing it",
+      "Giving a strength with no concrete example or evidence",
+      "Apologizing for the weakness instead of showing active management of it",
+    ],
+  },
+  {
+    role: "General",
+    rolePageUrl: "/career-coaching/",
+    topic: "Why Do You Want to Work Here Interview Answer",
+    title: "Why Do You Want to Work Here? How to Answer Without Sounding Generic",
+    description:
+      "How to answer 'why do you want to work here?' in a job interview — the question that reveals whether you did your research or are just fishing for any job.",
+    featuredImage: "/assets/blog/system-design-story.jpg",
+    categories: ["Interview Intelligence", "Career Strategy"],
+    intro:
+      "'Why do you want to work here?' is a question about research quality, genuine interest, and fit — not enthusiasm. Strong answers connect three specific things: something true about the company, something true about your career goals, and why that combination is logical.",
+    basics: [
+      ["What interviewers are really asking with this question.", "They are asking: Did you do your homework? Is this a genuine interest or a desperate application? And does your reason for wanting this role make sense given your background?"],
+      ["How to structure the answer.", "Three parts: (1) Something specific about the company — a product decision, a recent announcement, a technical approach, a cultural signal — that you find genuinely interesting. (2) What you are trying to accomplish in the next phase of your career. (3) Why those two things connect logically."],
+      ["What not to say.", "Do not say: 'You have a great culture,' 'This seems like a great opportunity to grow,' or 'I have always admired this company.' These are generic non-answers. Every candidate says them. They signal zero research and zero genuine interest."],
+    ],
+    advanced: [
+      ["How do I answer this if I genuinely do not know much about the company yet?", "Do the minimum research required to give a specific answer: read the company's engineering blog, look at their recent product announcements, look at the LinkedIn profiles of the team you would join. One specific, genuine observation is worth more than five enthusiastic generalities."],
+      ["How does this answer change for a startup vs. a large company?", "For a startup, connect to the specific problem they are solving, their product hypothesis, or the phase they are in (series B, pre-profitability, enterprise expansion). For a large company, connect to a specific team's work, a specific product line, or a recent strategic initiative — not the company's overall brand."],
+    ],
+    mistakes: [
+      "Giving a generic answer that applies to any company",
+      "Focusing only on what the role offers you rather than what you offer them",
+      "Mentioning compensation or benefits as a reason you want the role",
+      "Over-flattering the company without any specific evidence of research",
+    ],
+  },
+  {
+    role: "General",
+    rolePageUrl: "/career-coaching/",
+    topic: "System Design Interview Questions",
+    title: "System Design Interview Questions: How to Answer with Architecture Judgment",
+    description:
+      "A complete system design interview guide covering how to structure your answer, what interviewers are actually evaluating, and the patterns that separate senior from mid-level candidates.",
+    featuredImage: "/assets/blog/system-design-story.jpg",
+    categories: ["Interview Intelligence", "Software Careers"],
+    intro:
+      "System design interviews are not architecture exams. They are judgment exams. Interviewers are evaluating whether you can decompose ambiguous requirements, make principled tradeoffs, and reason clearly about failure modes — not whether you can recite the correct design for a URL shortener.",
+    basics: [
+      ["How should I structure a system design answer?", "Use a consistent framework: (1) Clarify requirements and constraints — scale, latency, availability, and consistency requirements. (2) Sketch the high-level design. (3) Deep-dive on the components where the interesting tradeoffs live. (4) Address failure modes and observability. Never jump straight into the design before the requirements are clear."],
+      ["How important is it to get the 'right' answer?", "Less important than you think. Interviewers are evaluating the quality of your reasoning, not your familiarity with a specific canonical design. A candidate who reasons through tradeoffs clearly and identifies real failure modes will usually score better than a candidate who jumps to a textbook design without engaging with the constraints."],
+      ["How do I talk about scale in system design?", "Ground scale in concrete numbers before the design begins: daily active users, requests per second, data volume, and growth rate. This is not busywork — it changes which solutions are appropriate. A design that works at 1,000 RPS fails at 100,000 RPS, and good candidates make that distinction visible."],
+    ],
+    advanced: [
+      ["How does the expectation change at senior vs. staff level?", "At senior level, interviewers expect you to make and defend tradeoffs. At staff level, they expect you to identify and reason about the second and third-order effects of those tradeoffs — organizational complexity, team cognitive load, operational cost, and evolutionary pressure on the design over time."],
+      ["How do I handle a design area I do not know well?", "Be explicit: 'I am less familiar with the specifics of distributed consensus protocols, but here is how I would think about the problem.' Interviewers generally value intellectual honesty over confident bluffing. The interviewer knows their domain — pretending to know what you do not usually backfires."],
+      ["What is the most important thing to demonstrate in a system design interview?", "Judgment under ambiguity. The ability to start with unclear requirements, ask the right clarifying questions, make reasonable assumptions, and proceed with a structured approach is more valuable than knowing the right answer."],
+    ],
+    mistakes: [
+      "Jumping to the design before clarifying requirements",
+      "Designing for the maximum possible scale without checking constraints",
+      "Ignoring failure modes and what happens when components break",
+      "Treating the design as final once it is on the whiteboard instead of iterating",
+    ],
+  },
 ];
 
 module.exports = roleDefinitions.map((entry) => ({
