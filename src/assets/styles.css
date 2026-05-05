@@ -12649,3 +12649,19 @@ body.pricing-focus {
   .reading-cta-actions { justify-content: center; }
   .reading-cta.is-visible { bottom: 56px; }
 }
+
+/* ── City links collapsible ── */
+.city-links-drop { border: 1px solid var(--border); border-radius: 12px; background: var(--bg-surface); overflow: hidden; }
+.city-links-drop summary { padding: 14px 20px; cursor: pointer; font-size: .88rem; font-weight: 600; color: rgba(250,250,250,.7); display: flex; justify-content: space-between; align-items: center; gap: 12px; list-style: none; user-select: none; }
+.city-links-drop summary::-webkit-details-marker { display: none; }
+.city-links-drop[open] summary { color: rgba(250,250,250,.9); border-bottom: 1px solid var(--border); }
+.city-links-drop-ico { width: 16px; height: 16px; flex-shrink: 0; border-radius: 50%; background: var(--bg-raised); border: 1px solid var(--border); position: relative; display: inline-block; }
+.city-links-drop-ico::before, .city-links-drop-ico::after { content: ''; position: absolute; top: 50%; left: 50%; background: rgba(250,250,250,.5); border-radius: 1px; transition: transform .2s; }
+.city-links-drop-ico::before { width: 7px; height: 1.5px; transform: translate(-50%,-50%); }
+.city-links-drop-ico::after  { width: 1.5px; height: 7px; transform: translate(-50%,-50%); }
+.city-links-drop[open] .city-links-drop-ico::after { transform: translate(-50%,-50%) rotate(90deg); }
+.city-links-drop > .two-col-grid { padding: 16px 20px 20px; }
+.city-links-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 6px; }
+.city-links-list li { font-size: .83rem; }
+.city-links-list li a { color: rgba(250,250,250,.6); text-decoration: none; }
+.city-links-list li a:hover { color: var(--accent, #72d6ff); text-decoration: underline; }

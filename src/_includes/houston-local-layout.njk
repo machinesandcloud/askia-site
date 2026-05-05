@@ -221,27 +221,52 @@ layout: layout.njk
 </section>
 
 {% set cityBase = entry.hubSlug | replace("-career-coaching", "") %}
+{% set cityProfile = locationCareerPages[entry.hubSlug] %}
+{% if cityProfile and cityProfile.marketLine %}
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">{{ entry.cityLabel }} market context</h2>
+      <p>{{ cityProfile.marketLine }}</p>
+      {% if cityProfile.hiringSignals %}
+      <ul class="checklist" style="margin-top: 12px;">
+        {% for signal in cityProfile.hiringSignals %}
+        <li>{{ signal }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Choose Askia in {{ entry.cityLabel }} if…</h2>
+      <ul class="checklist">
+        {% for item in cityProfile.chooseAskia %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+{% endif %}
+
 <section class="section section-tight">
   <div class="container">
-    <h2 class="section-title section-title-glow">More career coaching services in {{ entry.cityLabel }}</h2>
-    <div class="two-col-grid">
-      <div class="content-panel">
-        <ul class="checklist">
+    <details class="city-links-drop">
+      <summary>More career coaching services in {{ entry.cityLabel }} <span class="city-links-drop-ico"></span></summary>
+      <div class="two-col-grid" style="margin-top: 16px;">
+        <ul class="city-links-list">
           <li><a href="/resume-writer-{{ cityBase }}/">Resume writing in {{ entry.cityLabel }}</a></li>
           <li><a href="/interview-coaching-{{ cityBase }}/">Interview coaching in {{ entry.cityLabel }}</a></li>
           <li><a href="/salary-negotiation-coach-{{ cityBase }}/">Salary negotiation in {{ entry.cityLabel }}</a></li>
           <li><a href="/linkedin-profile-writer-{{ cityBase }}/">LinkedIn optimization in {{ entry.cityLabel }}</a></li>
         </ul>
-      </div>
-      <div class="content-panel">
-        <ul class="checklist">
+        <ul class="city-links-list">
           <li><a href="/executive-career-coach-{{ cityBase }}/">Executive coaching in {{ entry.cityLabel }}</a></li>
           <li><a href="/career-counselor-{{ cityBase }}/">Career counseling in {{ entry.cityLabel }}</a></li>
           <li><a href="/job-search-coach-{{ cityBase }}/">Job search coaching in {{ entry.cityLabel }}</a></li>
           <li><a href="/{{ entry.hubSlug }}/">Career coaching hub for {{ entry.cityLabel }}</a></li>
         </ul>
       </div>
-    </div>
+    </details>
   </div>
 </section>
 

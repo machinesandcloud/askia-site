@@ -193,21 +193,21 @@
 {% if serviceData.cityLinks and serviceData.cityLinks.items %}
 <section class="section section-tight">
   <div class="container">
-    <h2 class="section-title section-title-glow">{{ serviceData.cityLinks.title or "Service available in every major US city" }}</h2>
-    {% if serviceData.cityLinks.subtitle %}
-    <p class="section-subtitle" style="margin-bottom: 28px;">{{ serviceData.cityLinks.subtitle }}</p>
-    {% endif %}
-    <div class="two-col-grid">
-      {% for group in serviceData.cityLinks.items | batch(15) %}
-      <div class="content-panel">
-        <ul class="checklist">
+    <details class="city-links-drop">
+      <summary>{{ serviceData.cityLinks.title or "Available in every major US city" }} <span class="city-links-drop-ico"></span></summary>
+      {% if serviceData.cityLinks.subtitle %}
+      <p style="color: var(--muted); font-size:.85rem; margin: 12px 0 16px;">{{ serviceData.cityLinks.subtitle }}</p>
+      {% endif %}
+      <div class="two-col-grid" style="margin-top: 16px;">
+        {% for group in serviceData.cityLinks.items | batch(15) %}
+        <ul class="city-links-list">
           {% for city in group %}
           <li><a href="{{ city.url }}">{{ city.label }}</a></li>
           {% endfor %}
         </ul>
+        {% endfor %}
       </div>
-      {% endfor %}
-    </div>
+    </details>
   </div>
 </section>
 {% endif %}

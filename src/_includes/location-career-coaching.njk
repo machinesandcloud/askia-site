@@ -286,26 +286,23 @@ layout: layout.njk
 
 <section class="section section-tight">
   <div class="container">
-    <h2 class="section-title section-title-glow">Career coaching services in {{ cityName }}</h2>
-    <p class="section-subtitle" style="margin-bottom: 28px;">Every service available to professionals in {{ cityName }} — resume, LinkedIn, interview, salary negotiation, and executive coaching.</p>
-    <div class="two-col-grid">
-      <div class="content-panel">
-        <ul class="checklist">
-          <li><a href="/resume-writer-{{ cityBase }}/">Resume writing in {{ cityName }}</a> — Impact-driven resume revision for $100K–$350K roles</li>
-          <li><a href="/interview-coaching-{{ cityBase }}/">Interview coaching in {{ cityName }}</a> — Mock interviews, story coaching, and behavioral prep</li>
-          <li><a href="/salary-negotiation-coach-{{ cityBase }}/">Salary negotiation in {{ cityName }}</a> — Offer evaluation and negotiation strategy</li>
-          <li><a href="/linkedin-profile-writer-{{ cityBase }}/">LinkedIn optimization in {{ cityName }}</a> — Profile strategy to drive recruiter inbound</li>
+    <details class="city-links-drop">
+      <summary>All career coaching services in {{ cityName }} <span class="city-links-drop-ico"></span></summary>
+      <div class="two-col-grid" style="margin-top: 16px;">
+        <ul class="city-links-list">
+          <li><a href="/resume-writer-{{ cityBase }}/">Resume writing in {{ cityName }}</a></li>
+          <li><a href="/interview-coaching-{{ cityBase }}/">Interview coaching in {{ cityName }}</a></li>
+          <li><a href="/salary-negotiation-coach-{{ cityBase }}/">Salary negotiation in {{ cityName }}</a></li>
+          <li><a href="/linkedin-profile-writer-{{ cityBase }}/">LinkedIn optimization in {{ cityName }}</a></li>
+        </ul>
+        <ul class="city-links-list">
+          <li><a href="/executive-career-coach-{{ cityBase }}/">Executive coaching in {{ cityName }}</a></li>
+          <li><a href="/career-counselor-{{ cityBase }}/">Career counselor in {{ cityName }}</a></li>
+          <li><a href="/job-search-coach-{{ cityBase }}/">Job search coaching in {{ cityName }}</a></li>
+          <li><a href="/career-coaches-{{ cityBase }}/">Career coaches in {{ cityName }}</a></li>
         </ul>
       </div>
-      <div class="content-panel">
-        <ul class="checklist">
-          <li><a href="/executive-career-coach-{{ cityBase }}/">Executive coaching in {{ cityName }}</a> — VP, SVP, and C-suite career coaching</li>
-          <li><a href="/career-counselor-{{ cityBase }}/">Career counselor in {{ cityName }}</a> — Role clarity and search strategy</li>
-          <li><a href="/job-search-coach-{{ cityBase }}/">Job search coaching in {{ cityName }}</a> — Targeted strategy that converts</li>
-          <li><a href="/career-coaches-{{ cityBase }}/">Career coaches in {{ cityName }}</a> — How to find and evaluate the right coach</li>
-        </ul>
-      </div>
-    </div>
+    </details>
   </div>
 </section>
 
