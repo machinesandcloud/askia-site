@@ -238,8 +238,16 @@
               "url": "/about/"
             },
             {
+              "label": "Steve J. Ngoumnai",
+              "url": "/about/steve-ngoumnai/"
+            },
+            {
               "label": "Testimonials",
               "url": "/testimonials/"
+            },
+            {
+              "label": "Press & Media",
+              "url": "/press/"
             }
           ]
         }
