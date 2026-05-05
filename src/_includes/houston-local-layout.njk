@@ -220,6 +220,31 @@ layout: layout.njk
   </div>
 </section>
 
+{% set cityBase = entry.hubSlug | replace("-career-coaching", "") %}
+<section class="section section-tight">
+  <div class="container">
+    <h2 class="section-title section-title-glow">More career coaching services in {{ entry.cityLabel }}</h2>
+    <div class="two-col-grid">
+      <div class="content-panel">
+        <ul class="checklist">
+          <li><a href="/resume-writer-{{ cityBase }}/">Resume writing in {{ entry.cityLabel }}</a></li>
+          <li><a href="/interview-coaching-{{ cityBase }}/">Interview coaching in {{ entry.cityLabel }}</a></li>
+          <li><a href="/salary-negotiation-coach-{{ cityBase }}/">Salary negotiation in {{ entry.cityLabel }}</a></li>
+          <li><a href="/linkedin-profile-writer-{{ cityBase }}/">LinkedIn optimization in {{ entry.cityLabel }}</a></li>
+        </ul>
+      </div>
+      <div class="content-panel">
+        <ul class="checklist">
+          <li><a href="/executive-career-coach-{{ cityBase }}/">Executive coaching in {{ entry.cityLabel }}</a></li>
+          <li><a href="/career-counselor-{{ cityBase }}/">Career counseling in {{ entry.cityLabel }}</a></li>
+          <li><a href="/job-search-coach-{{ cityBase }}/">Job search coaching in {{ entry.cityLabel }}</a></li>
+          <li><a href="/{{ entry.hubSlug }}/">Career coaching hub for {{ entry.cityLabel }}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="container cta-band">
     <div>
