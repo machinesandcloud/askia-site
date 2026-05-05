@@ -189,6 +189,29 @@
 </section>
 {% endif %}
 
+{# ─── CITY LINKS ──────────────────────────────────────────── #}
+{% if serviceData.cityLinks and serviceData.cityLinks.items %}
+<section class="section section-tight">
+  <div class="container">
+    <h2 class="section-title section-title-glow">{{ serviceData.cityLinks.title or "Service available in every major US city" }}</h2>
+    {% if serviceData.cityLinks.subtitle %}
+    <p class="section-subtitle" style="margin-bottom: 28px;">{{ serviceData.cityLinks.subtitle }}</p>
+    {% endif %}
+    <div class="two-col-grid">
+      {% for group in serviceData.cityLinks.items | batch(15) %}
+      <div class="content-panel">
+        <ul class="checklist">
+          {% for city in group %}
+          <li><a href="{{ city.url }}">{{ city.label }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
 {# ─── CTA ─────────────────────────────────────────────────── #}
 <section class="rhub-cta">
   <div class="container rhub-cta-inner">

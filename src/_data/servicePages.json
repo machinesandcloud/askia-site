@@ -385,6 +385,42 @@
           "desc": "Resume strategy for Directors, VPs, and C-suite \u2014 leadership narrative and ROI framing."
         }
       ]
+    },
+    "cityLinks": {
+      "title": "Resume writing services by city",
+      "subtitle": "Askia serves professionals remotely with market-specific coaching tailored to each city's hiring landscape.",
+      "items": [
+        {"url": "/resume-writer-houston/", "label": "Resume writer in Houston"},
+        {"url": "/resume-writer-new-york-city/", "label": "Resume writer in New York City"},
+        {"url": "/resume-writer-los-angeles/", "label": "Resume writer in Los Angeles"},
+        {"url": "/resume-writer-chicago/", "label": "Resume writer in Chicago"},
+        {"url": "/resume-writer-dallas-fort-worth/", "label": "Resume writer in Dallas-Fort Worth"},
+        {"url": "/resume-writer-san-francisco-bay-area/", "label": "Resume writer in San Francisco Bay Area"},
+        {"url": "/resume-writer-austin/", "label": "Resume writer in Austin"},
+        {"url": "/resume-writer-seattle/", "label": "Resume writer in Seattle"},
+        {"url": "/resume-writer-boston/", "label": "Resume writer in Boston"},
+        {"url": "/resume-writer-washington-dc/", "label": "Resume writer in Washington DC"},
+        {"url": "/resume-writer-atlanta/", "label": "Resume writer in Atlanta"},
+        {"url": "/resume-writer-miami/", "label": "Resume writer in Miami"},
+        {"url": "/resume-writer-denver/", "label": "Resume writer in Denver"},
+        {"url": "/resume-writer-philadelphia/", "label": "Resume writer in Philadelphia"},
+        {"url": "/resume-writer-phoenix/", "label": "Resume writer in Phoenix"},
+        {"url": "/resume-writer-san-diego/", "label": "Resume writer in San Diego"},
+        {"url": "/resume-writer-minneapolis-st-paul/", "label": "Resume writer in Minneapolis"},
+        {"url": "/resume-writer-nashville/", "label": "Resume writer in Nashville"},
+        {"url": "/resume-writer-portland/", "label": "Resume writer in Portland"},
+        {"url": "/resume-writer-raleigh-durham/", "label": "Resume writer in Raleigh-Durham"},
+        {"url": "/resume-writer-charlotte/", "label": "Resume writer in Charlotte"},
+        {"url": "/resume-writer-san-jose/", "label": "Resume writer in San Jose"},
+        {"url": "/resume-writer-columbus/", "label": "Resume writer in Columbus"},
+        {"url": "/resume-writer-indianapolis/", "label": "Resume writer in Indianapolis"},
+        {"url": "/resume-writer-detroit/", "label": "Resume writer in Detroit"},
+        {"url": "/resume-writer-las-vegas/", "label": "Resume writer in Las Vegas"},
+        {"url": "/resume-writer-baltimore/", "label": "Resume writer in Baltimore"},
+        {"url": "/resume-writer-salt-lake-city/", "label": "Resume writer in Salt Lake City"},
+        {"url": "/resume-writer-pittsburgh/", "label": "Resume writer in Pittsburgh"},
+        {"url": "/resume-writer-orlando/", "label": "Resume writer in Orlando"}
+      ]
     }
   },
   "linkedinOptimization": {
@@ -765,6 +801,42 @@
           "title": "LinkedIn Job Search Strategy",
           "desc": "Active and passive LinkedIn strategies for generating interviews \u2014 not just inbound."
         }
+      ]
+    },
+    "cityLinks": {
+      "title": "LinkedIn optimization by city",
+      "subtitle": "Askia serves professionals remotely with recruiter-inbound strategy tailored to each city's hiring market.",
+      "items": [
+        {"url": "/linkedin-profile-writer-houston/", "label": "LinkedIn optimization in Houston"},
+        {"url": "/linkedin-profile-writer-new-york-city/", "label": "LinkedIn optimization in New York City"},
+        {"url": "/linkedin-profile-writer-los-angeles/", "label": "LinkedIn optimization in Los Angeles"},
+        {"url": "/linkedin-profile-writer-chicago/", "label": "LinkedIn optimization in Chicago"},
+        {"url": "/linkedin-profile-writer-dallas-fort-worth/", "label": "LinkedIn optimization in Dallas-Fort Worth"},
+        {"url": "/linkedin-profile-writer-san-francisco-bay-area/", "label": "LinkedIn optimization in San Francisco Bay Area"},
+        {"url": "/linkedin-profile-writer-austin/", "label": "LinkedIn optimization in Austin"},
+        {"url": "/linkedin-profile-writer-seattle/", "label": "LinkedIn optimization in Seattle"},
+        {"url": "/linkedin-profile-writer-boston/", "label": "LinkedIn optimization in Boston"},
+        {"url": "/linkedin-profile-writer-washington-dc/", "label": "LinkedIn optimization in Washington DC"},
+        {"url": "/linkedin-profile-writer-atlanta/", "label": "LinkedIn optimization in Atlanta"},
+        {"url": "/linkedin-profile-writer-miami/", "label": "LinkedIn optimization in Miami"},
+        {"url": "/linkedin-profile-writer-denver/", "label": "LinkedIn optimization in Denver"},
+        {"url": "/linkedin-profile-writer-philadelphia/", "label": "LinkedIn optimization in Philadelphia"},
+        {"url": "/linkedin-profile-writer-phoenix/", "label": "LinkedIn optimization in Phoenix"},
+        {"url": "/linkedin-profile-writer-san-diego/", "label": "LinkedIn optimization in San Diego"},
+        {"url": "/linkedin-profile-writer-minneapolis-st-paul/", "label": "LinkedIn optimization in Minneapolis"},
+        {"url": "/linkedin-profile-writer-nashville/", "label": "LinkedIn optimization in Nashville"},
+        {"url": "/linkedin-profile-writer-portland/", "label": "LinkedIn optimization in Portland"},
+        {"url": "/linkedin-profile-writer-raleigh-durham/", "label": "LinkedIn optimization in Raleigh-Durham"},
+        {"url": "/linkedin-profile-writer-charlotte/", "label": "LinkedIn optimization in Charlotte"},
+        {"url": "/linkedin-profile-writer-san-jose/", "label": "LinkedIn optimization in San Jose"},
+        {"url": "/linkedin-profile-writer-columbus/", "label": "LinkedIn optimization in Columbus"},
+        {"url": "/linkedin-profile-writer-indianapolis/", "label": "LinkedIn optimization in Indianapolis"},
+        {"url": "/linkedin-profile-writer-detroit/", "label": "LinkedIn optimization in Detroit"},
+        {"url": "/linkedin-profile-writer-las-vegas/", "label": "LinkedIn optimization in Las Vegas"},
+        {"url": "/linkedin-profile-writer-baltimore/", "label": "LinkedIn optimization in Baltimore"},
+        {"url": "/linkedin-profile-writer-salt-lake-city/", "label": "LinkedIn optimization in Salt Lake City"},
+        {"url": "/linkedin-profile-writer-pittsburgh/", "label": "LinkedIn optimization in Pittsburgh"},
+        {"url": "/linkedin-profile-writer-orlando/", "label": "LinkedIn optimization in Orlando"}
       ]
     }
   },
@@ -1177,6 +1249,42 @@
           "desc": "Templates and timing for post-interview notes that reinforce your candidacy."
         }
       ]
+    },
+    "cityLinks": {
+      "title": "Interview coaching by city",
+      "subtitle": "Askia delivers remote interview prep tailored to the hiring loops, company culture, and role expectations in each market.",
+      "items": [
+        {"url": "/interview-coaching-houston/", "label": "Interview coaching in Houston"},
+        {"url": "/interview-coaching-new-york-city/", "label": "Interview coaching in New York City"},
+        {"url": "/interview-coaching-los-angeles/", "label": "Interview coaching in Los Angeles"},
+        {"url": "/interview-coaching-chicago/", "label": "Interview coaching in Chicago"},
+        {"url": "/interview-coaching-dallas-fort-worth/", "label": "Interview coaching in Dallas-Fort Worth"},
+        {"url": "/interview-coaching-san-francisco-bay-area/", "label": "Interview coaching in San Francisco Bay Area"},
+        {"url": "/interview-coaching-austin/", "label": "Interview coaching in Austin"},
+        {"url": "/interview-coaching-seattle/", "label": "Interview coaching in Seattle"},
+        {"url": "/interview-coaching-boston/", "label": "Interview coaching in Boston"},
+        {"url": "/interview-coaching-washington-dc/", "label": "Interview coaching in Washington DC"},
+        {"url": "/interview-coaching-atlanta/", "label": "Interview coaching in Atlanta"},
+        {"url": "/interview-coaching-miami/", "label": "Interview coaching in Miami"},
+        {"url": "/interview-coaching-denver/", "label": "Interview coaching in Denver"},
+        {"url": "/interview-coaching-philadelphia/", "label": "Interview coaching in Philadelphia"},
+        {"url": "/interview-coaching-phoenix/", "label": "Interview coaching in Phoenix"},
+        {"url": "/interview-coaching-san-diego/", "label": "Interview coaching in San Diego"},
+        {"url": "/interview-coaching-minneapolis-st-paul/", "label": "Interview coaching in Minneapolis"},
+        {"url": "/interview-coaching-nashville/", "label": "Interview coaching in Nashville"},
+        {"url": "/interview-coaching-portland/", "label": "Interview coaching in Portland"},
+        {"url": "/interview-coaching-raleigh-durham/", "label": "Interview coaching in Raleigh-Durham"},
+        {"url": "/interview-coaching-charlotte/", "label": "Interview coaching in Charlotte"},
+        {"url": "/interview-coaching-san-jose/", "label": "Interview coaching in San Jose"},
+        {"url": "/interview-coaching-columbus/", "label": "Interview coaching in Columbus"},
+        {"url": "/interview-coaching-indianapolis/", "label": "Interview coaching in Indianapolis"},
+        {"url": "/interview-coaching-detroit/", "label": "Interview coaching in Detroit"},
+        {"url": "/interview-coaching-las-vegas/", "label": "Interview coaching in Las Vegas"},
+        {"url": "/interview-coaching-baltimore/", "label": "Interview coaching in Baltimore"},
+        {"url": "/interview-coaching-salt-lake-city/", "label": "Interview coaching in Salt Lake City"},
+        {"url": "/interview-coaching-pittsburgh/", "label": "Interview coaching in Pittsburgh"},
+        {"url": "/interview-coaching-orlando/", "label": "Interview coaching in Orlando"}
+      ]
     }
   },
   "salaryNegotiation": {
@@ -1557,6 +1665,42 @@
           "title": "How to Ask for a Raise",
           "desc": "Business case framework and 5 scripts for the internal compensation conversation."
         }
+      ]
+    },
+    "cityLinks": {
+      "title": "Salary negotiation coaching by city",
+      "subtitle": "Offer evaluation and negotiation strategy tailored to compensation norms in each city's hiring market.",
+      "items": [
+        {"url": "/salary-negotiation-coach-houston/", "label": "Salary negotiation in Houston"},
+        {"url": "/salary-negotiation-coach-new-york-city/", "label": "Salary negotiation in New York City"},
+        {"url": "/salary-negotiation-coach-los-angeles/", "label": "Salary negotiation in Los Angeles"},
+        {"url": "/salary-negotiation-coach-chicago/", "label": "Salary negotiation in Chicago"},
+        {"url": "/salary-negotiation-coach-dallas-fort-worth/", "label": "Salary negotiation in Dallas-Fort Worth"},
+        {"url": "/salary-negotiation-coach-san-francisco-bay-area/", "label": "Salary negotiation in San Francisco Bay Area"},
+        {"url": "/salary-negotiation-coach-austin/", "label": "Salary negotiation in Austin"},
+        {"url": "/salary-negotiation-coach-seattle/", "label": "Salary negotiation in Seattle"},
+        {"url": "/salary-negotiation-coach-boston/", "label": "Salary negotiation in Boston"},
+        {"url": "/salary-negotiation-coach-washington-dc/", "label": "Salary negotiation in Washington DC"},
+        {"url": "/salary-negotiation-coach-atlanta/", "label": "Salary negotiation in Atlanta"},
+        {"url": "/salary-negotiation-coach-miami/", "label": "Salary negotiation in Miami"},
+        {"url": "/salary-negotiation-coach-denver/", "label": "Salary negotiation in Denver"},
+        {"url": "/salary-negotiation-coach-philadelphia/", "label": "Salary negotiation in Philadelphia"},
+        {"url": "/salary-negotiation-coach-phoenix/", "label": "Salary negotiation in Phoenix"},
+        {"url": "/salary-negotiation-coach-san-diego/", "label": "Salary negotiation in San Diego"},
+        {"url": "/salary-negotiation-coach-minneapolis-st-paul/", "label": "Salary negotiation in Minneapolis"},
+        {"url": "/salary-negotiation-coach-nashville/", "label": "Salary negotiation in Nashville"},
+        {"url": "/salary-negotiation-coach-portland/", "label": "Salary negotiation in Portland"},
+        {"url": "/salary-negotiation-coach-raleigh-durham/", "label": "Salary negotiation in Raleigh-Durham"},
+        {"url": "/salary-negotiation-coach-charlotte/", "label": "Salary negotiation in Charlotte"},
+        {"url": "/salary-negotiation-coach-san-jose/", "label": "Salary negotiation in San Jose"},
+        {"url": "/salary-negotiation-coach-columbus/", "label": "Salary negotiation in Columbus"},
+        {"url": "/salary-negotiation-coach-indianapolis/", "label": "Salary negotiation in Indianapolis"},
+        {"url": "/salary-negotiation-coach-detroit/", "label": "Salary negotiation in Detroit"},
+        {"url": "/salary-negotiation-coach-las-vegas/", "label": "Salary negotiation in Las Vegas"},
+        {"url": "/salary-negotiation-coach-baltimore/", "label": "Salary negotiation in Baltimore"},
+        {"url": "/salary-negotiation-coach-salt-lake-city/", "label": "Salary negotiation in Salt Lake City"},
+        {"url": "/salary-negotiation-coach-pittsburgh/", "label": "Salary negotiation in Pittsburgh"},
+        {"url": "/salary-negotiation-coach-orlando/", "label": "Salary negotiation in Orlando"}
       ]
     }
   },
