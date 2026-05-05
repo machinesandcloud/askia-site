@@ -3,7 +3,7 @@
     "eyebrow": "Your resume isn't getting callbacks. Let's fix that.",
     "h1": "A Resume That Actually Shows What You've Done",
     "subtitle": "Stop listing responsibilities. Start showing results.",
-    "supporting": "Your current resume probably reads like a job description. 'Responsible for...' 'Managed...' 'Worked on...' That's what everyone writes. And that's why everyone gets ignored. We rebuild your resume to show the actual impact you've had — the problems you solved, the results you delivered, the scale you operated at.",
+    "supporting": "Your current resume probably reads like a job description. 'Responsible for...' 'Managed...' 'Worked on...' That's what everyone writes. And that's why everyone gets ignored. We rebuild your resume to show the actual impact you've had \u2014 the problems you solved, the results you delivered, the scale you operated at.",
     "highlights": [
       "Results-focused language that shows impact",
       "Clear demonstration of your actual level",
@@ -11,7 +11,7 @@
     ],
     "ctaLabel": "Get Your Resume Reviewed Free",
     "ctaLink": "https://bookings.askia.tech/#/clarity",
-    "ctaProof": "$300 — clients typically see 3x more callbacks within 2 weeks",
+    "ctaProof": "$300 \u2014 clients typically see 3x more callbacks within 2 weeks",
     "ctaUrgency": "We only take 10 resume clients per month to ensure quality",
     "secondaryCtaLabel": "Take the Career Assessment",
     "secondaryCtaLink": "https://askia.tech/career-readiness-index/",
@@ -24,30 +24,75 @@
     "heroGraphic": "resume",
     "heroGraphicLabel": "Resume overhaul",
     "heroModules": [
-      { "title": "Find your wins", "body": "We dig through your experience to find the real impact.", "meta": "Discovery" },
-      { "title": "Rebuild from scratch", "body": "Every bullet gets rewritten for results and scope.", "meta": "Execution" },
-      { "title": "Polish and refine", "body": "One revision round to make sure it's perfect.", "meta": "Delivery" }
+      {
+        "title": "Find your wins",
+        "body": "We dig through your experience to find the real impact.",
+        "meta": "Discovery"
+      },
+      {
+        "title": "Rebuild from scratch",
+        "body": "Every bullet gets rewritten for results and scope.",
+        "meta": "Execution"
+      },
+      {
+        "title": "Polish and refine",
+        "body": "One revision round to make sure it's perfect.",
+        "meta": "Delivery"
+      }
     ],
     "heroStats": [
-      { "value": "7-10 days", "label": "Typical turnaround" },
-      { "value": "1 revision", "label": "Included refinement" },
-      { "value": "ATS + human", "label": "Works for both" }
+      {
+        "value": "7-10 days",
+        "label": "Typical turnaround"
+      },
+      {
+        "value": "1 revision",
+        "label": "Included refinement"
+      },
+      {
+        "value": "ATS + human",
+        "label": "Works for both"
+      }
     ],
     "heroTrustLabel": "Our clients have landed at",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
-      { "src": "/assets/logos/testimonials/microsoft.svg", "alt": "Microsoft logo" },
-      { "src": "/assets/logos/testimonials/figma.svg", "alt": "Figma logo" },
-      { "src": "/assets/logos/testimonials/shopify.svg", "alt": "Shopify logo" }
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/microsoft.svg",
+        "alt": "Microsoft logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/figma.svg",
+        "alt": "Figma logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/shopify.svg",
+        "alt": "Shopify logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "Before & after",
       "title": "What changes after a resume rebuild",
       "subtitle": "Your experience doesn't change. How you present it does.",
       "items": [
-        { "tag": "Clarity", "title": "Your level is obvious", "body": "Recruiters see your seniority in the first 8 seconds." },
-        { "tag": "Impact", "title": "Results, not tasks", "body": "Every bullet shows what you accomplished, not what you were responsible for." },
-        { "tag": "Format", "title": "Clean and scannable", "body": "Passes ATS filters and is easy for humans to read quickly." }
+        {
+          "tag": "Clarity",
+          "title": "Your level is obvious",
+          "body": "Recruiters see your seniority in the first 8 seconds."
+        },
+        {
+          "tag": "Impact",
+          "title": "Results, not tasks",
+          "body": "Every bullet shows what you accomplished, not what you were responsible for."
+        },
+        {
+          "tag": "Format",
+          "title": "Clean and scannable",
+          "body": "Passes ATS filters and is easy for humans to read quickly."
+        }
       ]
     },
     "mistakes": {
@@ -55,24 +100,58 @@
       "title": "Why your current resume isn't working",
       "subtitle": "These issues are fixable. We fix them.",
       "items": [
-        { "title": "Task lists", "body": "Bullets describe what you did, not what happened because of it." },
-        { "title": "Level ambiguity", "body": "No clear indication of seniority, scope, or ownership." },
-        { "title": "Design overload", "body": "Fancy layouts that break ATS and distract from content." }
+        {
+          "title": "Task lists",
+          "body": "Bullets describe what you did, not what happened because of it."
+        },
+        {
+          "title": "Level ambiguity",
+          "body": "No clear indication of seniority, scope, or ownership."
+        },
+        {
+          "title": "Design overload",
+          "body": "Fancy layouts that break ATS and distract from content."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "roleLinks", "steps", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "proof",
+      "focus",
+      "mistakes",
+      "deliverables",
+      "roleLinks",
+      "steps",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "What you get",
       "body": "A resume that makes your value obvious.",
-      "bullets": ["Complete content overhaul", "Results-focused language", "One revision round"]
+      "bullets": [
+        "Complete content overhaul",
+        "Results-focused language",
+        "One revision round"
+      ]
     },
     "proof": {
       "title": "Why this works",
       "subtitle": "We've helped hundreds of professionals get callbacks.",
       "items": [
-        { "title": "Recruiter-tested", "body": "We know what makes recruiters stop scrolling." },
-        { "title": "ATS-compatible", "body": "Clean format that passes automated filters." },
-        { "title": "Interview-ready", "body": "Bullets written to set up great interview conversations." }
+        {
+          "title": "Recruiter-tested",
+          "body": "We know what makes recruiters stop scrolling."
+        },
+        {
+          "title": "ATS-compatible",
+          "body": "Clean format that passes automated filters."
+        },
+        {
+          "title": "Interview-ready",
+          "body": "Bullets written to set up great interview conversations."
+        }
       ]
     },
     "quickAnswer": "Resume writing works when it turns broad responsibilities into clear impact, level, and ownership signal quickly enough for recruiters and hiring managers to trust your fit in seconds.",
@@ -85,9 +164,21 @@
       "title": "What a strong resume should improve first",
       "subtitle": "The goal is not prettier formatting. It is faster trust.",
       "items": [
-        { "tag": "Signal", "title": "Level clarity", "body": "Your seniority, scope, and ownership should be obvious without the reader having to infer them." },
-        { "tag": "Impact", "title": "Outcome framing", "body": "Each section should explain what changed because of your work, not just what you were responsible for." },
-        { "tag": "Conversion", "title": "Interview setup", "body": "A stronger resume should create better recruiter response and give you cleaner stories to use in interviews." }
+        {
+          "tag": "Signal",
+          "title": "Level clarity",
+          "body": "Your seniority, scope, and ownership should be obvious without the reader having to infer them."
+        },
+        {
+          "tag": "Impact",
+          "title": "Outcome framing",
+          "body": "Each section should explain what changed because of your work, not just what you were responsible for."
+        },
+        {
+          "tag": "Conversion",
+          "title": "Interview setup",
+          "body": "A stronger resume should create better recruiter response and give you cleaner stories to use in interviews."
+        }
       ]
     },
     "focus": {
@@ -95,18 +186,39 @@
       "title": "Show your impact in 8 seconds",
       "subtitle": "That's how long recruiters look. We make every second count.",
       "items": [
-        { "tag": "Level", "title": "Demonstrate seniority", "body": "Clear indicators of scope, ownership, and complexity." },
-        { "tag": "Results", "title": "Outcomes over activities", "body": "What changed because of your work." },
-        { "tag": "Clarity", "title": "Easy to scan", "body": "Structure that guides the eye to what matters." }
+        {
+          "tag": "Level",
+          "title": "Demonstrate seniority",
+          "body": "Clear indicators of scope, ownership, and complexity."
+        },
+        {
+          "tag": "Results",
+          "title": "Outcomes over activities",
+          "body": "What changed because of your work."
+        },
+        {
+          "tag": "Clarity",
+          "title": "Easy to scan",
+          "body": "Structure that guides the eye to what matters."
+        }
       ]
     },
     "steps": {
       "title": "How it works",
       "subtitle": "Simple, fast, effective.",
       "items": [
-        { "title": "We talk", "body": "Quick call to understand your experience and target roles." },
-        { "title": "We write", "body": "Complete rebuild of your resume from scratch." },
-        { "title": "We refine", "body": "One revision round to finalize." }
+        {
+          "title": "We talk",
+          "body": "Quick call to understand your experience and target roles."
+        },
+        {
+          "title": "We write",
+          "body": "Complete rebuild of your resume from scratch."
+        },
+        {
+          "title": "We refine",
+          "body": "One revision round to finalize."
+        }
       ]
     },
     "for": {
@@ -131,9 +243,36 @@
       "title": "What you receive",
       "subtitle": "Clear deliverables, no ambiguity.",
       "items": [
-        { "title": "Discovery call", "tag": "Strategy", "body": "We understand your experience and target.", "bullets": ["Role targeting", "Impact discovery", "Level calibration"] },
-        { "title": "Complete rewrite", "tag": "Execution", "body": "Your resume rebuilt from scratch.", "bullets": ["Results-focused bullets", "Clear structure", "ATS-compatible format"] },
-        { "title": "Revision round", "tag": "Polish", "body": "One round to finalize.", "bullets": ["Feedback review", "Final edits", "Ready to use"] }
+        {
+          "title": "Discovery call",
+          "tag": "Strategy",
+          "body": "We understand your experience and target.",
+          "bullets": [
+            "Role targeting",
+            "Impact discovery",
+            "Level calibration"
+          ]
+        },
+        {
+          "title": "Complete rewrite",
+          "tag": "Execution",
+          "body": "Your resume rebuilt from scratch.",
+          "bullets": [
+            "Results-focused bullets",
+            "Clear structure",
+            "ATS-compatible format"
+          ]
+        },
+        {
+          "title": "Revision round",
+          "tag": "Polish",
+          "body": "One round to finalize.",
+          "bullets": [
+            "Feedback review",
+            "Final edits",
+            "Ready to use"
+          ]
+        }
       ]
     },
     "roleLinks": {
@@ -141,9 +280,24 @@
       "title": "Resume support for your field",
       "subtitle": "Different roles need different approaches.",
       "items": [
-        { "title": "Software Engineers", "tag": "Tech", "body": "System scope and technical impact.", "url": "/software-engineer-career-coaching/" },
-        { "title": "Product Managers", "tag": "Tech", "body": "Strategy and product outcomes.", "url": "/product-manager-career-coaching/" },
-        { "title": "Data Professionals", "tag": "Tech", "body": "Business impact from data work.", "url": "/data-career-coaching/" }
+        {
+          "title": "Software Engineers",
+          "tag": "Tech",
+          "body": "System scope and technical impact.",
+          "url": "/software-engineer-career-coaching/"
+        },
+        {
+          "title": "Product Managers",
+          "tag": "Tech",
+          "body": "Strategy and product outcomes.",
+          "url": "/product-manager-career-coaching/"
+        },
+        {
+          "title": "Data Professionals",
+          "tag": "Tech",
+          "body": "Business impact from data work.",
+          "url": "/data-career-coaching/"
+        }
       ]
     },
     "related": {
@@ -158,11 +312,26 @@
       "title": "Questions about resume writing",
       "subtitle": "Straight answers.",
       "items": [
-        { "question": "How is this different from a resume template?", "answer": "We don't give you a template. We rebuild your content from scratch, focused on your specific experience and target roles." },
-        { "question": "How long does it take?", "answer": "Most resumes are delivered within 7-10 days." },
-        { "question": "What if I don't like it?", "answer": "We include one revision round. We work together until you're happy." },
-        { "question": "Will it pass ATS?", "answer": "Yes. We use clean formatting that passes automated filters without sacrificing readability." },
-        { "question": "Do you write LinkedIn too?", "answer": "LinkedIn is a separate service. Many clients do both." }
+        {
+          "question": "How is this different from a resume template?",
+          "answer": "We don't give you a template. We rebuild your content from scratch, focused on your specific experience and target roles."
+        },
+        {
+          "question": "How long does it take?",
+          "answer": "Most resumes are delivered within 7-10 days."
+        },
+        {
+          "question": "What if I don't like it?",
+          "answer": "We include one revision round. We work together until you're happy."
+        },
+        {
+          "question": "Will it pass ATS?",
+          "answer": "Yes. We use clean formatting that passes automated filters without sacrificing readability."
+        },
+        {
+          "question": "Do you write LinkedIn too?",
+          "answer": "LinkedIn is a separate service. Many clients do both."
+        }
       ]
     },
     "cta": {
@@ -171,10 +340,52 @@
       "label": "Get Your Free Resume Review",
       "link": "https://bookings.askia.tech/#/clarity",
       "urgency": "Limited spots available this month",
-      "guarantee": "If you don't see more callbacks within 30 days, we'll revise it again — free."
+      "guarantee": "If you don't see more callbacks within 30 days, we'll revise it again \u2014 free."
     },
     "metaTitle": "Resume Writing Service | Results-Focused Resume Overhaul | Askia",
-    "metaDescription": "Resume writing that shows your actual impact. Results-focused, ATS-compatible, built for senior professionals."
+    "metaDescription": "Resume writing that shows your actual impact. Results-focused, ATS-compatible, built for senior professionals.",
+    "relatedGuides": {
+      "title": "Resume writing guides",
+      "subtitle": "Everything you need to write a resume that converts at the $100K\u2013$350K level.",
+      "items": [
+        {
+          "tag": "Format",
+          "url": "/resume-formats/",
+          "title": "Resume Formats",
+          "desc": "Chronological vs. functional vs. hybrid \u2014 which format converts for your situation."
+        },
+        {
+          "tag": "Tailoring",
+          "url": "/how-to-tailor-resume/",
+          "title": "How to Tailor a Resume",
+          "desc": "Keyword alignment and ATS optimization without rebuilding for every application."
+        },
+        {
+          "tag": "Keywords",
+          "url": "/resume-keywords/",
+          "title": "Resume Keywords",
+          "desc": "How to identify and use the right keywords so ATS systems surface your resume."
+        },
+        {
+          "tag": "Career Change",
+          "url": "/resume-for-career-change/",
+          "title": "Resume for Career Change",
+          "desc": "How to position transferable skills when pivoting industries or functions."
+        },
+        {
+          "tag": "Gaps",
+          "url": "/resume-with-employment-gaps/",
+          "title": "Resume With Employment Gaps",
+          "desc": "How to handle gaps honestly and frame them so they don't kill your candidacy."
+        },
+        {
+          "tag": "Executive",
+          "url": "/executive-resume-guide/",
+          "title": "Executive Resume Guide",
+          "desc": "Resume strategy for Directors, VPs, and C-suite \u2014 leadership narrative and ROI framing."
+        }
+      ]
+    }
   },
   "linkedinOptimization": {
     "eyebrow": "Recruiters aren't reaching out. Let's change that.",
@@ -200,30 +411,75 @@
     "heroGraphic": "linkedin",
     "heroGraphicLabel": "Profile transformation",
     "heroModules": [
-      { "title": "Headline rewrite", "body": "The first thing recruiters see. Make it count.", "meta": "Above the fold" },
-      { "title": "About section", "body": "Your story in your voice. Compelling and clear.", "meta": "Your pitch" },
-      { "title": "Experience optimization", "body": "Key roles rewritten for impact.", "meta": "Proof points" }
+      {
+        "title": "Headline rewrite",
+        "body": "The first thing recruiters see. Make it count.",
+        "meta": "Above the fold"
+      },
+      {
+        "title": "About section",
+        "body": "Your story in your voice. Compelling and clear.",
+        "meta": "Your pitch"
+      },
+      {
+        "title": "Experience optimization",
+        "body": "Key roles rewritten for impact.",
+        "meta": "Proof points"
+      }
     ],
     "heroStats": [
-      { "value": "7-10 days", "label": "Typical turnaround" },
-      { "value": "3 sections", "label": "Headline, About, Experience" },
-      { "value": "Inbound focus", "label": "Built for recruiter search" }
+      {
+        "value": "7-10 days",
+        "label": "Typical turnaround"
+      },
+      {
+        "value": "3 sections",
+        "label": "Headline, About, Experience"
+      },
+      {
+        "value": "Inbound focus",
+        "label": "Built for recruiter search"
+      }
     ],
     "heroTrustLabel": "Our clients have landed at",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/linkedin.svg", "alt": "LinkedIn logo" },
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
-      { "src": "/assets/logos/testimonials/spotify.svg", "alt": "Spotify logo" },
-      { "src": "/assets/logos/testimonials/adobe.svg", "alt": "Adobe logo" }
+      {
+        "src": "/assets/logos/testimonials/linkedin.svg",
+        "alt": "LinkedIn logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/spotify.svg",
+        "alt": "Spotify logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/adobe.svg",
+        "alt": "Adobe logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "The transformation",
       "title": "What changes after a LinkedIn overhaul",
       "subtitle": "Same experience. Different response rate.",
       "items": [
-        { "tag": "Visibility", "title": "You show up in searches", "body": "Keywords aligned to how recruiters actually search." },
-        { "tag": "Story", "title": "Your value is clear", "body": "Anyone can understand what you do and why you're good at it." },
-        { "tag": "Inbound", "title": "Recruiters reach out", "body": "Instead of applying into the void, opportunities come to you." }
+        {
+          "tag": "Visibility",
+          "title": "You show up in searches",
+          "body": "Keywords aligned to how recruiters actually search."
+        },
+        {
+          "tag": "Story",
+          "title": "Your value is clear",
+          "body": "Anyone can understand what you do and why you're good at it."
+        },
+        {
+          "tag": "Inbound",
+          "title": "Recruiters reach out",
+          "body": "Instead of applying into the void, opportunities come to you."
+        }
       ]
     },
     "mistakes": {
@@ -231,24 +487,58 @@
       "title": "Why recruiters scroll past your profile",
       "subtitle": "These issues kill your visibility. We fix them.",
       "items": [
-        { "title": "Generic headline", "body": "'Software Engineer at Company X' says nothing about your value." },
-        { "title": "Missing About section", "body": "Or worse, one that sounds like a corporate bio." },
-        { "title": "Resume paste", "body": "LinkedIn isn't just an online resume. It's a different format." }
+        {
+          "title": "Generic headline",
+          "body": "'Software Engineer at Company X' says nothing about your value."
+        },
+        {
+          "title": "Missing About section",
+          "body": "Or worse, one that sounds like a corporate bio."
+        },
+        {
+          "title": "Resume paste",
+          "body": "LinkedIn isn't just an online resume. It's a different format."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "roleLinks", "steps", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "proof",
+      "focus",
+      "mistakes",
+      "deliverables",
+      "roleLinks",
+      "steps",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "What you get",
       "body": "A profile that attracts the right opportunities.",
-      "bullets": ["Headline that stops the scroll", "About section that tells your story", "Experience sections optimized"]
+      "bullets": [
+        "Headline that stops the scroll",
+        "About section that tells your story",
+        "Experience sections optimized"
+      ]
     },
     "proof": {
       "title": "Why this works",
       "subtitle": "We understand how recruiters actually use LinkedIn.",
       "items": [
-        { "title": "Search-optimized", "body": "Keywords aligned to how recruiters search for your role." },
-        { "title": "Story-driven", "body": "Your About section makes people want to learn more." },
-        { "title": "Results-focused", "body": "Experience shows impact, not just responsibilities." }
+        {
+          "title": "Search-optimized",
+          "body": "Keywords aligned to how recruiters search for your role."
+        },
+        {
+          "title": "Story-driven",
+          "body": "Your About section makes people want to learn more."
+        },
+        {
+          "title": "Results-focused",
+          "body": "Experience shows impact, not just responsibilities."
+        }
       ]
     },
     "quickAnswer": "LinkedIn optimization works when it improves how recruiters find you, how quickly they understand your target role, and how credible your level feels before a real conversation ever starts.",
@@ -261,9 +551,21 @@
       "title": "What LinkedIn should improve first",
       "subtitle": "The best profile makes recruiters stop, click, and calibrate you correctly.",
       "items": [
-        { "tag": "Discovery", "title": "Search visibility", "body": "The headline and role language should align to how recruiters actually search for candidates like you." },
-        { "tag": "Positioning", "title": "Clear market story", "body": "The About section should make your throughline and target role understandable in one pass." },
-        { "tag": "Trust", "title": "Proof of value", "body": "Your experience section should reinforce the story with scope, outcomes, and signal that feel credible." }
+        {
+          "tag": "Discovery",
+          "title": "Search visibility",
+          "body": "The headline and role language should align to how recruiters actually search for candidates like you."
+        },
+        {
+          "tag": "Positioning",
+          "title": "Clear market story",
+          "body": "The About section should make your throughline and target role understandable in one pass."
+        },
+        {
+          "tag": "Trust",
+          "title": "Proof of value",
+          "body": "Your experience section should reinforce the story with scope, outcomes, and signal that feel credible."
+        }
       ]
     },
     "focus": {
@@ -271,18 +573,39 @@
       "title": "Make recruiters stop scrolling",
       "subtitle": "You have seconds to make an impression. We make them count.",
       "items": [
-        { "tag": "Hook", "title": "Compelling headline", "body": "The first thing they see. The reason they click." },
-        { "tag": "Story", "title": "Engaging About", "body": "Your pitch in your voice. Clear and memorable." },
-        { "tag": "Proof", "title": "Impact-focused experience", "body": "Evidence that backs up your story." }
+        {
+          "tag": "Hook",
+          "title": "Compelling headline",
+          "body": "The first thing they see. The reason they click."
+        },
+        {
+          "tag": "Story",
+          "title": "Engaging About",
+          "body": "Your pitch in your voice. Clear and memorable."
+        },
+        {
+          "tag": "Proof",
+          "title": "Impact-focused experience",
+          "body": "Evidence that backs up your story."
+        }
       ]
     },
     "steps": {
       "title": "How it works",
       "subtitle": "Quick and painless.",
       "items": [
-        { "title": "We review", "body": "We look at your current profile and target roles." },
-        { "title": "We write", "body": "Headline, About, and key Experience sections rewritten." },
-        { "title": "You update", "body": "Simple copy-paste into your profile." }
+        {
+          "title": "We review",
+          "body": "We look at your current profile and target roles."
+        },
+        {
+          "title": "We write",
+          "body": "Headline, About, and key Experience sections rewritten."
+        },
+        {
+          "title": "You update",
+          "body": "Simple copy-paste into your profile."
+        }
       ]
     },
     "for": {
@@ -307,9 +630,36 @@
       "title": "What you receive",
       "subtitle": "Ready to copy-paste into your profile.",
       "items": [
-        { "title": "Headline rewrite", "tag": "Hook", "body": "A headline that makes recruiters click.", "bullets": ["Role clarity", "Value proposition", "Search keywords"] },
-        { "title": "About section", "tag": "Story", "body": "Your professional story, compelling and clear.", "bullets": ["Your voice", "Your value", "Your goals"] },
-        { "title": "Experience optimization", "tag": "Proof", "body": "Key roles rewritten for impact.", "bullets": ["Results focus", "Scope clarity", "Keyword alignment"] }
+        {
+          "title": "Headline rewrite",
+          "tag": "Hook",
+          "body": "A headline that makes recruiters click.",
+          "bullets": [
+            "Role clarity",
+            "Value proposition",
+            "Search keywords"
+          ]
+        },
+        {
+          "title": "About section",
+          "tag": "Story",
+          "body": "Your professional story, compelling and clear.",
+          "bullets": [
+            "Your voice",
+            "Your value",
+            "Your goals"
+          ]
+        },
+        {
+          "title": "Experience optimization",
+          "tag": "Proof",
+          "body": "Key roles rewritten for impact.",
+          "bullets": [
+            "Results focus",
+            "Scope clarity",
+            "Keyword alignment"
+          ]
+        }
       ]
     },
     "roleLinks": {
@@ -317,9 +667,24 @@
       "title": "LinkedIn support for your field",
       "subtitle": "Different roles need different approaches.",
       "items": [
-        { "title": "Software Engineers", "tag": "Tech", "body": "Technical depth and scope.", "url": "/software-engineer-career-coaching/" },
-        { "title": "Product Managers", "tag": "Tech", "body": "Strategy and cross-functional influence.", "url": "/product-manager-career-coaching/" },
-        { "title": "Data Professionals", "tag": "Tech", "body": "Business impact from data work.", "url": "/data-career-coaching/" }
+        {
+          "title": "Software Engineers",
+          "tag": "Tech",
+          "body": "Technical depth and scope.",
+          "url": "/software-engineer-career-coaching/"
+        },
+        {
+          "title": "Product Managers",
+          "tag": "Tech",
+          "body": "Strategy and cross-functional influence.",
+          "url": "/product-manager-career-coaching/"
+        },
+        {
+          "title": "Data Professionals",
+          "tag": "Tech",
+          "body": "Business impact from data work.",
+          "url": "/data-career-coaching/"
+        }
       ]
     },
     "related": {
@@ -334,10 +699,22 @@
       "title": "Questions about LinkedIn optimization",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "Do you update my profile for me?", "answer": "No. We write the content and you copy-paste it in. It takes 5 minutes." },
-        { "question": "How is this different from a resume?", "answer": "LinkedIn is more conversational and story-driven. Different format, different approach." },
-        { "question": "Will this help with recruiter search?", "answer": "Yes. We include keywords that recruiters actually use to find candidates like you." },
-        { "question": "What about the rest of my profile?", "answer": "We focus on the three most important sections: headline, About, and key Experience entries." }
+        {
+          "question": "Do you update my profile for me?",
+          "answer": "No. We write the content and you copy-paste it in. It takes 5 minutes."
+        },
+        {
+          "question": "How is this different from a resume?",
+          "answer": "LinkedIn is more conversational and story-driven. Different format, different approach."
+        },
+        {
+          "question": "Will this help with recruiter search?",
+          "answer": "Yes. We include keywords that recruiters actually use to find candidates like you."
+        },
+        {
+          "question": "What about the rest of my profile?",
+          "answer": "We focus on the three most important sections: headline, About, and key Experience entries."
+        }
       ]
     },
     "cta": {
@@ -347,7 +724,49 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "LinkedIn Profile Optimization | Get Recruiters to Come to You | Askia",
-    "metaDescription": "LinkedIn optimization that gets recruiters reaching out. Headline, About, and Experience rewritten for inbound success."
+    "metaDescription": "LinkedIn optimization that gets recruiters reaching out. Headline, About, and Experience rewritten for inbound success.",
+    "relatedGuides": {
+      "title": "LinkedIn optimization guides",
+      "subtitle": "The full toolkit for building a LinkedIn profile that generates recruiter inbound.",
+      "items": [
+        {
+          "tag": "About Section",
+          "url": "/linkedin-about-section/",
+          "title": "LinkedIn About Section",
+          "desc": "Formula for a converting About section with full examples for every level."
+        },
+        {
+          "tag": "Keywords",
+          "url": "/linkedin-keywords/",
+          "title": "LinkedIn Keywords",
+          "desc": "Which keywords drive recruiter inbound and how LinkedIn search ranking works."
+        },
+        {
+          "tag": "Summary Examples",
+          "url": "/linkedin-summary-examples/",
+          "title": "LinkedIn Summary Examples",
+          "desc": "Real About section templates for engineers, PMs, finance leaders, and executives."
+        },
+        {
+          "tag": "Profile Guide",
+          "url": "/linkedin-profile-optimization-guide/",
+          "title": "LinkedIn Profile Optimization Guide",
+          "desc": "8-step guide and All-Star status checklist for the complete profile rebuild."
+        },
+        {
+          "tag": "Recommendations",
+          "url": "/linkedin-recommendations/",
+          "title": "LinkedIn Recommendations",
+          "desc": "Who to ask, how to ask, and what strong vs. weak recommendations look like."
+        },
+        {
+          "tag": "Job Search",
+          "url": "/linkedin-job-search-strategy/",
+          "title": "LinkedIn Job Search Strategy",
+          "desc": "Active and passive LinkedIn strategies for generating interviews \u2014 not just inbound."
+        }
+      ]
+    }
   },
   "interviewPrep": {
     "eyebrow": "You're getting interviews. Now let's win them.",
@@ -373,30 +792,75 @@
     "heroGraphic": "interview",
     "heroGraphicLabel": "Interview readiness",
     "heroModules": [
-      { "title": "Story bank", "body": "Ready-to-use stories for common questions.", "meta": "Preparation" },
-      { "title": "Mock interview", "body": "Practice with real feedback.", "meta": "Execution" },
-      { "title": "Refinement", "body": "Polish until it's natural.", "meta": "Confidence" }
+      {
+        "title": "Story bank",
+        "body": "Ready-to-use stories for common questions.",
+        "meta": "Preparation"
+      },
+      {
+        "title": "Mock interview",
+        "body": "Practice with real feedback.",
+        "meta": "Execution"
+      },
+      {
+        "title": "Refinement",
+        "body": "Polish until it's natural.",
+        "meta": "Confidence"
+      }
     ],
     "heroStats": [
-      { "value": "1-2 weeks", "label": "Typical engagement" },
-      { "value": "5-8 stories", "label": "Your story bank" },
-      { "value": "Mock included", "label": "Practice session" }
+      {
+        "value": "1-2 weeks",
+        "label": "Typical engagement"
+      },
+      {
+        "value": "5-8 stories",
+        "label": "Your story bank"
+      },
+      {
+        "value": "Mock included",
+        "label": "Practice session"
+      }
     ],
     "heroTrustLabel": "Our clients have landed at",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
-      { "src": "/assets/logos/testimonials/meta.svg", "alt": "Meta logo" },
-      { "src": "/assets/logos/testimonials/stripe.svg", "alt": "Stripe logo" },
-      { "src": "/assets/logos/testimonials/airbnb.svg", "alt": "Airbnb logo" }
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/meta.svg",
+        "alt": "Meta logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/stripe.svg",
+        "alt": "Stripe logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/airbnb.svg",
+        "alt": "Airbnb logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "The transformation",
       "title": "What changes after interview prep",
       "subtitle": "Same you. Different confidence.",
       "items": [
-        { "tag": "Prepared", "title": "Ready for anything", "body": "You have stories for the most common questions." },
-        { "tag": "Practiced", "title": "No more rambling", "body": "Your answers are structured and concise." },
-        { "tag": "Confident", "title": "You know you're ready", "body": "That calm comes from actual preparation." }
+        {
+          "tag": "Prepared",
+          "title": "Ready for anything",
+          "body": "You have stories for the most common questions."
+        },
+        {
+          "tag": "Practiced",
+          "title": "No more rambling",
+          "body": "Your answers are structured and concise."
+        },
+        {
+          "tag": "Confident",
+          "title": "You know you're ready",
+          "body": "That calm comes from actual preparation."
+        }
       ]
     },
     "mistakes": {
@@ -404,24 +868,58 @@
       "title": "Why you keep losing interviews",
       "subtitle": "These are fixable. We fix them.",
       "items": [
-        { "title": "Winging it", "body": "Hoping the right story comes to mind in the moment." },
-        { "title": "Rambling", "body": "Taking 5 minutes to answer a 2-minute question." },
-        { "title": "No structure", "body": "Answers that wander instead of land." }
+        {
+          "title": "Winging it",
+          "body": "Hoping the right story comes to mind in the moment."
+        },
+        {
+          "title": "Rambling",
+          "body": "Taking 5 minutes to answer a 2-minute question."
+        },
+        {
+          "title": "No structure",
+          "body": "Answers that wander instead of land."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "roleLinks", "steps", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "proof",
+      "focus",
+      "mistakes",
+      "deliverables",
+      "roleLinks",
+      "steps",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "What you get",
       "body": "Preparation that shows in the room.",
-      "bullets": ["Personal story bank", "Mock interview session", "Structured answer frameworks"]
+      "bullets": [
+        "Personal story bank",
+        "Mock interview session",
+        "Structured answer frameworks"
+      ]
     },
     "proof": {
       "title": "Why this works",
       "subtitle": "Preparation beats hope.",
       "items": [
-        { "title": "Stories ready to go", "body": "You're not thinking on your feet. You're delivering practiced material." },
-        { "title": "Feedback that matters", "body": "We tell you what's working and what isn't." },
-        { "title": "Confidence you can feel", "body": "The calm that comes from knowing you're ready." }
+        {
+          "title": "Stories ready to go",
+          "body": "You're not thinking on your feet. You're delivering practiced material."
+        },
+        {
+          "title": "Feedback that matters",
+          "body": "We tell you what's working and what isn't."
+        },
+        {
+          "title": "Confidence you can feel",
+          "body": "The calm that comes from knowing you're ready."
+        }
       ]
     },
     "quickAnswer": "Interview prep works when it turns scattered experience into structured stories, sharper tradeoff explanations, and calmer delivery under pressure.",
@@ -434,9 +932,21 @@
       "title": "What interview prep should improve first",
       "subtitle": "More practice alone is not enough. The structure has to change.",
       "items": [
-        { "tag": "Stories", "title": "Answer structure", "body": "You should know which examples to use and how to land them without rambling or over-explaining." },
-        { "tag": "Calibration", "title": "Level signal", "body": "Your answers should sound like the scope and seniority of the role you want, not only the work you happened to do." },
-        { "tag": "Trust", "title": "Decision quality", "body": "Interviewers should hear judgment, prioritization, and tradeoffs rather than a list of disconnected actions." }
+        {
+          "tag": "Stories",
+          "title": "Answer structure",
+          "body": "You should know which examples to use and how to land them without rambling or over-explaining."
+        },
+        {
+          "tag": "Calibration",
+          "title": "Level signal",
+          "body": "Your answers should sound like the scope and seniority of the role you want, not only the work you happened to do."
+        },
+        {
+          "tag": "Trust",
+          "title": "Decision quality",
+          "body": "Interviewers should hear judgment, prioritization, and tradeoffs rather than a list of disconnected actions."
+        }
       ]
     },
     "focus": {
@@ -444,18 +954,39 @@
       "title": "Walk in ready. Walk out with offers.",
       "subtitle": "Preparation is the difference between hoping and closing.",
       "items": [
-        { "tag": "Build", "title": "Story bank", "body": "5-8 stories that cover the most common questions." },
-        { "tag": "Practice", "title": "Mock interview", "body": "Live practice with real-time feedback." },
-        { "tag": "Refine", "title": "Polish", "body": "Iterate until delivery is natural." }
+        {
+          "tag": "Build",
+          "title": "Story bank",
+          "body": "5-8 stories that cover the most common questions."
+        },
+        {
+          "tag": "Practice",
+          "title": "Mock interview",
+          "body": "Live practice with real-time feedback."
+        },
+        {
+          "tag": "Refine",
+          "title": "Polish",
+          "body": "Iterate until delivery is natural."
+        }
       ]
     },
     "steps": {
       "title": "How it works",
       "subtitle": "Focused and effective.",
       "items": [
-        { "title": "Discovery", "body": "We understand your background and target roles." },
-        { "title": "Story building", "body": "We extract and structure your best examples." },
-        { "title": "Practice", "body": "Mock interview with feedback and refinement." }
+        {
+          "title": "Discovery",
+          "body": "We understand your background and target roles."
+        },
+        {
+          "title": "Story building",
+          "body": "We extract and structure your best examples."
+        },
+        {
+          "title": "Practice",
+          "body": "Mock interview with feedback and refinement."
+        }
       ]
     },
     "for": {
@@ -480,9 +1011,36 @@
       "title": "What you receive",
       "subtitle": "Ready to interview.",
       "items": [
-        { "title": "Story bank", "tag": "Preparation", "body": "Your personal library of ready-to-use stories.", "bullets": ["5-8 polished stories", "Covers common questions", "Structured for impact"] },
-        { "title": "Mock interview", "tag": "Practice", "body": "Live practice with real feedback.", "bullets": ["Realistic simulation", "Real-time feedback", "Specific improvements"] },
-        { "title": "Frameworks", "tag": "Structure", "body": "How to structure any answer.", "bullets": ["STAR variations", "Technical storytelling", "Concise delivery"] }
+        {
+          "title": "Story bank",
+          "tag": "Preparation",
+          "body": "Your personal library of ready-to-use stories.",
+          "bullets": [
+            "5-8 polished stories",
+            "Covers common questions",
+            "Structured for impact"
+          ]
+        },
+        {
+          "title": "Mock interview",
+          "tag": "Practice",
+          "body": "Live practice with real feedback.",
+          "bullets": [
+            "Realistic simulation",
+            "Real-time feedback",
+            "Specific improvements"
+          ]
+        },
+        {
+          "title": "Frameworks",
+          "tag": "Structure",
+          "body": "How to structure any answer.",
+          "bullets": [
+            "STAR variations",
+            "Technical storytelling",
+            "Concise delivery"
+          ]
+        }
       ]
     },
     "roleLinks": {
@@ -490,9 +1048,24 @@
       "title": "Interview prep for your field",
       "subtitle": "Different roles have different interview styles.",
       "items": [
-        { "title": "Software Engineers", "tag": "Tech", "body": "Behavioral + system design.", "url": "/software-engineer-career-coaching/" },
-        { "title": "Product Managers", "tag": "Tech", "body": "Case interviews + strategy.", "url": "/product-manager-career-coaching/" },
-        { "title": "Data Professionals", "tag": "Tech", "body": "Case studies + technical.", "url": "/data-career-coaching/" }
+        {
+          "title": "Software Engineers",
+          "tag": "Tech",
+          "body": "Behavioral + system design.",
+          "url": "/software-engineer-career-coaching/"
+        },
+        {
+          "title": "Product Managers",
+          "tag": "Tech",
+          "body": "Case interviews + strategy.",
+          "url": "/product-manager-career-coaching/"
+        },
+        {
+          "title": "Data Professionals",
+          "tag": "Tech",
+          "body": "Case studies + technical.",
+          "url": "/data-career-coaching/"
+        }
       ]
     },
     "related": {
@@ -507,10 +1080,22 @@
       "title": "Questions about interview prep",
       "subtitle": "Quick answers.",
       "items": [
-        { "question": "Do you help with technical interviews?", "answer": "We help with system design framing and behavioral questions. For LeetCode, there are better resources." },
-        { "question": "How many mock interviews?", "answer": "The standalone includes one. Additional sessions available." },
-        { "question": "What if I have an interview soon?", "answer": "We can move fast when needed. Let's talk about timing." },
-        { "question": "Is this for any role?", "answer": "Yes. The frameworks work across roles. We tailor the stories to your field." }
+        {
+          "question": "Do you help with technical interviews?",
+          "answer": "We help with system design framing and behavioral questions. For LeetCode, there are better resources."
+        },
+        {
+          "question": "How many mock interviews?",
+          "answer": "The standalone includes one. Additional sessions available."
+        },
+        {
+          "question": "What if I have an interview soon?",
+          "answer": "We can move fast when needed. Let's talk about timing."
+        },
+        {
+          "question": "Is this for any role?",
+          "answer": "Yes. The frameworks work across roles. We tailor the stories to your field."
+        }
       ]
     },
     "cta": {
@@ -520,13 +1105,85 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "Interview Prep | Stop Winging It, Start Winning | Askia",
-    "metaDescription": "Interview preparation that actually works. Story bank, mock interviews, and frameworks for confident delivery."
+    "metaDescription": "Interview preparation that actually works. Story bank, mock interviews, and frameworks for confident delivery.",
+    "relatedGuides": {
+      "title": "Interview preparation guides",
+      "subtitle": "Deep-dive guides for every interview format, question type, and company.",
+      "items": [
+        {
+          "tag": "Behavioral",
+          "url": "/tell-me-about-yourself/",
+          "title": "Tell Me About Yourself",
+          "desc": "Present-Past-Future framework with examples for every level."
+        },
+        {
+          "tag": "Behavioral",
+          "url": "/strengths-and-weaknesses-interview/",
+          "title": "Strengths and Weaknesses",
+          "desc": "How to answer without clich\u00e9s \u2014 what interviewers actually score."
+        },
+        {
+          "tag": "Research",
+          "url": "/why-do-you-want-to-work-here/",
+          "title": "Why Do You Want to Work Here?",
+          "desc": "5-source research framework and the three-part answer formula."
+        },
+        {
+          "tag": "Technical",
+          "url": "/technical-interview-prep/",
+          "title": "Technical Interview Prep",
+          "desc": "Coding interviews, system design, and behavioral prep plan by level."
+        },
+        {
+          "tag": "Format",
+          "url": "/panel-interview-tips/",
+          "title": "Panel Interview Tips",
+          "desc": "Eye contact sweep, managing multiple interviewers, and panelist research."
+        },
+        {
+          "tag": "Follow-Up",
+          "url": "/how-to-follow-up-after-interview/",
+          "title": "How to Follow Up After Interview",
+          "desc": "4-stage sequence and email templates for every follow-up scenario."
+        },
+        {
+          "tag": "Format",
+          "url": "/phone-screen-tips/",
+          "title": "Phone Screen Tips",
+          "desc": "How to convert phone screens to onsite invites \u2014 what recruiters assess."
+        },
+        {
+          "tag": "Format",
+          "url": "/video-interview-tips/",
+          "title": "Video Interview Tips",
+          "desc": "Camera setup, lighting, and virtual presence that signals professionalism."
+        },
+        {
+          "tag": "Format",
+          "url": "/second-interview-tips/",
+          "title": "Second Interview Tips",
+          "desc": "How round 2 differs \u2014 conviction close script and decision-level STAR answers."
+        },
+        {
+          "tag": "Recovery",
+          "url": "/rejection-after-interview/",
+          "title": "Rejection After Interview",
+          "desc": "Three types of rejection and how to use feedback to improve positioning."
+        },
+        {
+          "tag": "Thank You",
+          "url": "/thank-you-email-after-interview/",
+          "title": "Thank You Email After Interview",
+          "desc": "Templates and timing for post-interview notes that reinforce your candidacy."
+        }
+      ]
+    }
   },
   "salaryNegotiation": {
     "eyebrow": "They made an offer. Don't leave money on the table.",
     "h1": "Salary Negotiation That Gets You Paid What You're Worth",
     "subtitle": "Most people take the first number. You won't.",
-    "supporting": "You got the offer. Congratulations. Now comes the part most people mess up. They feel grateful, uncomfortable, or unsure — and they accept whatever's offered. That's tens of thousands of dollars left on the table. We help you understand your leverage, prepare your ask, and negotiate with confidence.",
+    "supporting": "You got the offer. Congratulations. Now comes the part most people mess up. They feel grateful, uncomfortable, or unsure \u2014 and they accept whatever's offered. That's tens of thousands of dollars left on the table. We help you understand your leverage, prepare your ask, and negotiate with confidence.",
     "highlights": [
       "Understand your actual market value",
       "Prepare your negotiation strategy",
@@ -546,30 +1203,75 @@
     "heroGraphic": "negotiation",
     "heroGraphicLabel": "Negotiation strategy",
     "heroModules": [
-      { "title": "Benchmark", "body": "Understand what you're actually worth.", "meta": "Research" },
-      { "title": "Strategy", "body": "Know what to ask for and how.", "meta": "Planning" },
-      { "title": "Practice", "body": "Rehearse the actual conversation.", "meta": "Execution" }
+      {
+        "title": "Benchmark",
+        "body": "Understand what you're actually worth.",
+        "meta": "Research"
+      },
+      {
+        "title": "Strategy",
+        "body": "Know what to ask for and how.",
+        "meta": "Planning"
+      },
+      {
+        "title": "Practice",
+        "body": "Rehearse the actual conversation.",
+        "meta": "Execution"
+      }
     ],
     "heroStats": [
-      { "value": "$40K+", "label": "Average increase negotiated" },
-      { "value": "Total comp", "label": "Base + equity + bonus" },
-      { "value": "Confidence", "label": "Walk in prepared" }
+      {
+        "value": "$40K+",
+        "label": "Average increase negotiated"
+      },
+      {
+        "value": "Total comp",
+        "label": "Base + equity + bonus"
+      },
+      {
+        "value": "Confidence",
+        "label": "Walk in prepared"
+      }
     ],
     "heroTrustLabel": "Our clients have landed at",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
-      { "src": "/assets/logos/testimonials/stripe.svg", "alt": "Stripe logo" },
-      { "src": "/assets/logos/testimonials/uber.svg", "alt": "Uber logo" },
-      { "src": "/assets/logos/testimonials/airbnb.svg", "alt": "Airbnb logo" }
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/stripe.svg",
+        "alt": "Stripe logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/uber.svg",
+        "alt": "Uber logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/airbnb.svg",
+        "alt": "Airbnb logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "The difference",
       "title": "What changes with negotiation support",
       "subtitle": "Same offer. Better outcome.",
       "items": [
-        { "tag": "Knowledge", "title": "You know your worth", "body": "Data-backed understanding of your market value." },
-        { "tag": "Strategy", "title": "You have a plan", "body": "Not just a number, but a conversation strategy." },
-        { "tag": "Confidence", "title": "You can ask", "body": "You've practiced. You know what to say." }
+        {
+          "tag": "Knowledge",
+          "title": "You know your worth",
+          "body": "Data-backed understanding of your market value."
+        },
+        {
+          "tag": "Strategy",
+          "title": "You have a plan",
+          "body": "Not just a number, but a conversation strategy."
+        },
+        {
+          "tag": "Confidence",
+          "title": "You can ask",
+          "body": "You've practiced. You know what to say."
+        }
       ]
     },
     "mistakes": {
@@ -577,24 +1279,58 @@
       "title": "Why most people leave money on the table",
       "subtitle": "These are avoidable. We help you avoid them.",
       "items": [
-        { "title": "Accepting too fast", "body": "Feeling grateful and saying yes immediately." },
-        { "title": "Not asking at all", "body": "Assuming the offer is final or you'll seem greedy." },
-        { "title": "Going in blind", "body": "Not knowing your market value or what to ask for." }
+        {
+          "title": "Accepting too fast",
+          "body": "Feeling grateful and saying yes immediately."
+        },
+        {
+          "title": "Not asking at all",
+          "body": "Assuming the offer is final or you'll seem greedy."
+        },
+        {
+          "title": "Going in blind",
+          "body": "Not knowing your market value or what to ask for."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "roleLinks", "steps", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "proof",
+      "focus",
+      "mistakes",
+      "deliverables",
+      "roleLinks",
+      "steps",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "What you get",
       "body": "Confidence to ask for what you deserve.",
-      "bullets": ["Market value benchmarking", "Negotiation strategy", "Conversation practice"]
+      "bullets": [
+        "Market value benchmarking",
+        "Negotiation strategy",
+        "Conversation practice"
+      ]
     },
     "proof": {
       "title": "Why this works",
       "subtitle": "Preparation beats hope.",
       "items": [
-        { "title": "Data-driven", "body": "We benchmark against real market data." },
-        { "title": "Strategy-focused", "body": "You know exactly what to say and when." },
-        { "title": "Practice makes confident", "body": "Rehearsal reduces anxiety and improves delivery." }
+        {
+          "title": "Data-driven",
+          "body": "We benchmark against real market data."
+        },
+        {
+          "title": "Strategy-focused",
+          "body": "You know exactly what to say and when."
+        },
+        {
+          "title": "Practice makes confident",
+          "body": "Rehearsal reduces anxiety and improves delivery."
+        }
       ]
     },
     "quickAnswer": "Salary negotiation works best when you strengthen the compensation story before the final ask, benchmark the package properly, and practice how to handle pushback without sounding reactive.",
@@ -607,9 +1343,21 @@
       "title": "What negotiation support should improve first",
       "subtitle": "The strongest result is a better anchor, not just a bolder sentence.",
       "items": [
-        { "tag": "Benchmark", "title": "Package clarity", "body": "You need to understand the real market range and which parts of the offer have the most room to move." },
-        { "tag": "Narrative", "title": "Leverage story", "body": "Your ask should connect to role scope, evidence, and alternatives rather than sounding like a number pulled from the air." },
-        { "tag": "Delivery", "title": "Pushback handling", "body": "You should know how to respond when the company tests your confidence, timing, or flexibility." }
+        {
+          "tag": "Benchmark",
+          "title": "Package clarity",
+          "body": "You need to understand the real market range and which parts of the offer have the most room to move."
+        },
+        {
+          "tag": "Narrative",
+          "title": "Leverage story",
+          "body": "Your ask should connect to role scope, evidence, and alternatives rather than sounding like a number pulled from the air."
+        },
+        {
+          "tag": "Delivery",
+          "title": "Pushback handling",
+          "body": "You should know how to respond when the company tests your confidence, timing, or flexibility."
+        }
       ]
     },
     "focus": {
@@ -617,18 +1365,39 @@
       "title": "Negotiate from strength",
       "subtitle": "Confidence comes from preparation.",
       "items": [
-        { "tag": "Research", "title": "Know your number", "body": "What are people like you actually getting paid?" },
-        { "tag": "Strategy", "title": "Know your approach", "body": "What to ask for, how to ask, and how to respond." },
-        { "tag": "Practice", "title": "Know your delivery", "body": "Rehearse until it feels natural." }
+        {
+          "tag": "Research",
+          "title": "Know your number",
+          "body": "What are people like you actually getting paid?"
+        },
+        {
+          "tag": "Strategy",
+          "title": "Know your approach",
+          "body": "What to ask for, how to ask, and how to respond."
+        },
+        {
+          "tag": "Practice",
+          "title": "Know your delivery",
+          "body": "Rehearse until it feels natural."
+        }
       ]
     },
     "steps": {
       "title": "How it works",
       "subtitle": "Focused on your specific situation.",
       "items": [
-        { "title": "Review the offer", "body": "We analyze what you've received and identify opportunities." },
-        { "title": "Build the strategy", "body": "What to ask for, how to justify it, and how to handle pushback." },
-        { "title": "Practice the conversation", "body": "Rehearse until you're ready." }
+        {
+          "title": "Review the offer",
+          "body": "We analyze what you've received and identify opportunities."
+        },
+        {
+          "title": "Build the strategy",
+          "body": "What to ask for, how to justify it, and how to handle pushback."
+        },
+        {
+          "title": "Practice the conversation",
+          "body": "Rehearse until you're ready."
+        }
       ]
     },
     "for": {
@@ -653,9 +1422,36 @@
       "title": "What you receive",
       "subtitle": "Ready to negotiate.",
       "items": [
-        { "title": "Market analysis", "tag": "Research", "body": "Understand your actual market value.", "bullets": ["Comp benchmarking", "Role comparison", "Leverage assessment"] },
-        { "title": "Negotiation plan", "tag": "Strategy", "body": "Your complete negotiation approach.", "bullets": ["What to ask", "How to justify", "Handling pushback"] },
-        { "title": "Practice session", "tag": "Execution", "body": "Rehearse the actual conversation.", "bullets": ["Realistic practice", "Feedback", "Confidence building"] }
+        {
+          "title": "Market analysis",
+          "tag": "Research",
+          "body": "Understand your actual market value.",
+          "bullets": [
+            "Comp benchmarking",
+            "Role comparison",
+            "Leverage assessment"
+          ]
+        },
+        {
+          "title": "Negotiation plan",
+          "tag": "Strategy",
+          "body": "Your complete negotiation approach.",
+          "bullets": [
+            "What to ask",
+            "How to justify",
+            "Handling pushback"
+          ]
+        },
+        {
+          "title": "Practice session",
+          "tag": "Execution",
+          "body": "Rehearse the actual conversation.",
+          "bullets": [
+            "Realistic practice",
+            "Feedback",
+            "Confidence building"
+          ]
+        }
       ]
     },
     "roleLinks": {
@@ -663,9 +1459,24 @@
       "title": "Negotiation by field",
       "subtitle": "Different roles have different comp structures.",
       "items": [
-        { "title": "Software Engineers", "tag": "Tech", "body": "Base, equity, bonus, and levels.", "url": "/software-engineer-career-coaching/" },
-        { "title": "Product Managers", "tag": "Tech", "body": "PM comp and level negotiation.", "url": "/product-manager-career-coaching/" },
-        { "title": "Finance Professionals", "tag": "Finance", "body": "Finance comp structures.", "url": "/finance-fpa-career-coaching/" }
+        {
+          "title": "Software Engineers",
+          "tag": "Tech",
+          "body": "Base, equity, bonus, and levels.",
+          "url": "/software-engineer-career-coaching/"
+        },
+        {
+          "title": "Product Managers",
+          "tag": "Tech",
+          "body": "PM comp and level negotiation.",
+          "url": "/product-manager-career-coaching/"
+        },
+        {
+          "title": "Finance Professionals",
+          "tag": "Finance",
+          "body": "Finance comp structures.",
+          "url": "/finance-fpa-career-coaching/"
+        }
       ]
     },
     "related": {
@@ -680,10 +1491,22 @@
       "title": "Questions about negotiation",
       "subtitle": "Common concerns.",
       "items": [
-        { "question": "Can I really negotiate?", "answer": "In most cases, yes. Companies expect it. We help you do it professionally." },
-        { "question": "What if they rescind the offer?", "answer": "Extremely rare when done professionally. We help you approach it right." },
-        { "question": "What about equity and bonus?", "answer": "We look at total comp — base, equity, bonus, signing, and benefits." },
-        { "question": "How much can I actually negotiate?", "answer": "Depends on your leverage and the situation. We help you figure out what's realistic." }
+        {
+          "question": "Can I really negotiate?",
+          "answer": "In most cases, yes. Companies expect it. We help you do it professionally."
+        },
+        {
+          "question": "What if they rescind the offer?",
+          "answer": "Extremely rare when done professionally. We help you approach it right."
+        },
+        {
+          "question": "What about equity and bonus?",
+          "answer": "We look at total comp \u2014 base, equity, bonus, signing, and benefits."
+        },
+        {
+          "question": "How much can I actually negotiate?",
+          "answer": "Depends on your leverage and the situation. We help you figure out what's realistic."
+        }
       ]
     },
     "cta": {
@@ -693,7 +1516,49 @@
       "link": "https://bookings.askia.tech/#/clarity"
     },
     "metaTitle": "Salary Negotiation | Get What You're Worth | Askia",
-    "metaDescription": "Salary negotiation support that gets results. Market benchmarking, strategy, and practice for confident negotiation."
+    "metaDescription": "Salary negotiation support that gets results. Market benchmarking, strategy, and practice for confident negotiation.",
+    "relatedGuides": {
+      "title": "Salary negotiation guides",
+      "subtitle": "The complete toolkit for negotiating any offer, raise, or compensation conversation.",
+      "items": [
+        {
+          "tag": "Scripts",
+          "url": "/salary-negotiation-scripts/",
+          "title": "Salary Negotiation Scripts",
+          "desc": "7 word-for-word scripts for every negotiation scenario \u2014 phone, email, counter, and close."
+        },
+        {
+          "tag": "Templates",
+          "url": "/salary-negotiation-email-templates/",
+          "title": "Salary Negotiation Email Templates",
+          "desc": "6 copy-ready email templates for counter offers, asking for time, and accepting."
+        },
+        {
+          "tag": "Research",
+          "url": "/how-to-research-salary/",
+          "title": "How to Research Salary",
+          "desc": "Best tools by role type \u2014 Levels.fyi, Glassdoor, LinkedIn Salary, and job postings."
+        },
+        {
+          "tag": "Compensation",
+          "url": "/compensation-package-breakdown/",
+          "title": "Compensation Package Breakdown",
+          "desc": "Total comp formula \u2014 every negotiable component beyond base salary explained."
+        },
+        {
+          "tag": "Counter Offer",
+          "url": "/counter-offer-letter-examples/",
+          "title": "Counter Offer Letter Examples",
+          "desc": "4 real counter offer examples with the language and framing that works."
+        },
+        {
+          "tag": "Raise",
+          "url": "/how-to-ask-for-a-raise/",
+          "title": "How to Ask for a Raise",
+          "desc": "Business case framework and 5 scripts for the internal compensation conversation."
+        }
+      ]
+    }
   },
   "careerClarity": {
     "eyebrow": "You know you need to make a move. You don't know where.",
@@ -719,30 +1584,75 @@
     "heroGraphic": "clarity",
     "heroGraphicLabel": "Career clarity",
     "heroModules": [
-      { "title": "Where you've been", "body": "We dig into your experience and find patterns.", "meta": "Discovery" },
-      { "title": "Where you could go", "body": "Map roles where your experience translates.", "meta": "Options" },
-      { "title": "Where you should aim", "body": "Decide on a focused direction.", "meta": "Decision" }
+      {
+        "title": "Where you've been",
+        "body": "We dig into your experience and find patterns.",
+        "meta": "Discovery"
+      },
+      {
+        "title": "Where you could go",
+        "body": "Map roles where your experience translates.",
+        "meta": "Options"
+      },
+      {
+        "title": "Where you should aim",
+        "body": "Decide on a focused direction.",
+        "meta": "Decision"
+      }
     ],
     "heroStats": [
-      { "value": "60-90 min", "label": "Focused session" },
-      { "value": "Clarity", "label": "Clear direction" },
-      { "value": "Plan", "label": "Actionable next steps" }
+      {
+        "value": "60-90 min",
+        "label": "Focused session"
+      },
+      {
+        "value": "Clarity",
+        "label": "Clear direction"
+      },
+      {
+        "value": "Plan",
+        "label": "Actionable next steps"
+      }
     ],
     "heroTrustLabel": "Our clients have landed at",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
-      { "src": "/assets/logos/testimonials/microsoft.svg", "alt": "Microsoft logo" },
-      { "src": "/assets/logos/testimonials/spotify.svg", "alt": "Spotify logo" },
-      { "src": "/assets/logos/testimonials/shopify.svg", "alt": "Shopify logo" }
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/microsoft.svg",
+        "alt": "Microsoft logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/spotify.svg",
+        "alt": "Spotify logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/shopify.svg",
+        "alt": "Shopify logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "The outcome",
       "title": "What you leave with",
       "subtitle": "Clarity instead of confusion.",
       "items": [
-        { "tag": "Focus", "title": "A clear target", "body": "You know what roles you're going after." },
-        { "tag": "Confidence", "title": "A realistic plan", "body": "You understand what's achievable and how to get there." },
-        { "tag": "Direction", "title": "Next steps", "body": "You know exactly what to do next." }
+        {
+          "tag": "Focus",
+          "title": "A clear target",
+          "body": "You know what roles you're going after."
+        },
+        {
+          "tag": "Confidence",
+          "title": "A realistic plan",
+          "body": "You understand what's achievable and how to get there."
+        },
+        {
+          "tag": "Direction",
+          "title": "Next steps",
+          "body": "You know exactly what to do next."
+        }
       ]
     },
     "mistakes": {
@@ -750,24 +1660,57 @@
       "title": "Why being unclear is killing your search",
       "subtitle": "Clarity is step one.",
       "items": [
-        { "title": "Applying everywhere", "body": "Spraying resumes without a clear target." },
-        { "title": "Role confusion", "body": "Not sure if you want PM, engineering, or something else." },
-        { "title": "Level uncertainty", "body": "Not knowing if you should aim higher or stay lateral." }
+        {
+          "title": "Applying everywhere",
+          "body": "Spraying resumes without a clear target."
+        },
+        {
+          "title": "Role confusion",
+          "body": "Not sure if you want PM, engineering, or something else."
+        },
+        {
+          "title": "Level uncertainty",
+          "body": "Not knowing if you should aim higher or stay lateral."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "steps", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "proof",
+      "focus",
+      "mistakes",
+      "deliverables",
+      "steps",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "What you get",
       "body": "A focused direction for your career.",
-      "bullets": ["Role targeting", "Compensation benchmarking", "Clear next steps"]
+      "bullets": [
+        "Role targeting",
+        "Compensation benchmarking",
+        "Clear next steps"
+      ]
     },
     "proof": {
       "title": "Why this works",
       "subtitle": "Clarity comes from structure.",
       "items": [
-        { "title": "Structured exploration", "body": "We have a process for figuring this out." },
-        { "title": "Outside perspective", "body": "Sometimes you need someone else to see the patterns." },
-        { "title": "Actionable output", "body": "You leave with a plan, not just ideas." }
+        {
+          "title": "Structured exploration",
+          "body": "We have a process for figuring this out."
+        },
+        {
+          "title": "Outside perspective",
+          "body": "Sometimes you need someone else to see the patterns."
+        },
+        {
+          "title": "Actionable output",
+          "body": "You leave with a plan, not just ideas."
+        }
       ]
     },
     "focus": {
@@ -775,18 +1718,39 @@
       "title": "Get clear, then move",
       "subtitle": "Direction before motion.",
       "items": [
-        { "tag": "Past", "title": "What have you done?", "body": "We find the patterns in your experience." },
-        { "tag": "Present", "title": "What do you want?", "body": "We clarify your priorities and constraints." },
-        { "tag": "Future", "title": "What makes sense?", "body": "We identify roles that actually fit." }
+        {
+          "tag": "Past",
+          "title": "What have you done?",
+          "body": "We find the patterns in your experience."
+        },
+        {
+          "tag": "Present",
+          "title": "What do you want?",
+          "body": "We clarify your priorities and constraints."
+        },
+        {
+          "tag": "Future",
+          "title": "What makes sense?",
+          "body": "We identify roles that actually fit."
+        }
       ]
     },
     "steps": {
       "title": "How it works",
       "subtitle": "One focused session.",
       "items": [
-        { "title": "Before we meet", "body": "You fill out a brief intake about your background and goals." },
-        { "title": "The session", "body": "60-90 minutes of focused exploration and decision-making." },
-        { "title": "After", "body": "You have a clear direction and know what to do next." }
+        {
+          "title": "Before we meet",
+          "body": "You fill out a brief intake about your background and goals."
+        },
+        {
+          "title": "The session",
+          "body": "60-90 minutes of focused exploration and decision-making."
+        },
+        {
+          "title": "After",
+          "body": "You have a clear direction and know what to do next."
+        }
       ]
     },
     "for": {
@@ -811,9 +1775,36 @@
       "title": "What you receive",
       "subtitle": "Clarity and a plan.",
       "items": [
-        { "title": "Role targeting", "tag": "Focus", "body": "Clear identification of your best-fit roles.", "bullets": ["Role families", "Level calibration", "Industry options"] },
-        { "title": "Compensation range", "tag": "Context", "body": "Realistic understanding of what you can target.", "bullets": ["Market data", "Level expectations", "Negotiation context"] },
-        { "title": "Action plan", "tag": "Next steps", "body": "What to do next.", "bullets": ["Priority order", "Timeline", "Resources needed"] }
+        {
+          "title": "Role targeting",
+          "tag": "Focus",
+          "body": "Clear identification of your best-fit roles.",
+          "bullets": [
+            "Role families",
+            "Level calibration",
+            "Industry options"
+          ]
+        },
+        {
+          "title": "Compensation range",
+          "tag": "Context",
+          "body": "Realistic understanding of what you can target.",
+          "bullets": [
+            "Market data",
+            "Level expectations",
+            "Negotiation context"
+          ]
+        },
+        {
+          "title": "Action plan",
+          "tag": "Next steps",
+          "body": "What to do next.",
+          "bullets": [
+            "Priority order",
+            "Timeline",
+            "Resources needed"
+          ]
+        }
       ]
     },
     "related": {
@@ -828,10 +1819,22 @@
       "title": "Questions about career clarity",
       "subtitle": "Common questions.",
       "items": [
-        { "question": "How is this different from coaching?", "answer": "This is a single session focused on direction. Coaching is ongoing support for execution." },
-        { "question": "What if I'm considering multiple paths?", "answer": "That's exactly what this is for. We help you evaluate options and decide." },
-        { "question": "Do I need this if I already know what I want?", "answer": "Probably not. Skip to resume and interview prep." },
-        { "question": "Can this lead to coaching?", "answer": "Yes. Many clients start here and continue with us." }
+        {
+          "question": "How is this different from coaching?",
+          "answer": "This is a single session focused on direction. Coaching is ongoing support for execution."
+        },
+        {
+          "question": "What if I'm considering multiple paths?",
+          "answer": "That's exactly what this is for. We help you evaluate options and decide."
+        },
+        {
+          "question": "Do I need this if I already know what I want?",
+          "answer": "Probably not. Skip to resume and interview prep."
+        },
+        {
+          "question": "Can this lead to coaching?",
+          "answer": "Yes. Many clients start here and continue with us."
+        }
       ]
     },
     "cta": {
@@ -847,7 +1850,7 @@
     "eyebrow": "You have options. Let's choose wisely.",
     "h1": "Offer Strategy & Decision Support",
     "subtitle": "Compare offers, evaluate trade-offs, and make the right choice.",
-    "supporting": "Multiple offers? Congratulations — that's a good problem to have. But it's still a problem. Which one is actually better? How do you compare comp when the structures are different? What about growth, culture, and fit? We help you evaluate offers holistically and make a decision you'll feel good about.",
+    "supporting": "Multiple offers? Congratulations \u2014 that's a good problem to have. But it's still a problem. Which one is actually better? How do you compare comp when the structures are different? What about growth, culture, and fit? We help you evaluate offers holistically and make a decision you'll feel good about.",
     "highlights": [
       "Compare offers on total compensation",
       "Evaluate growth and opportunity",
@@ -867,30 +1870,75 @@
     "heroGraphic": "offer",
     "heroGraphicLabel": "Offer comparison",
     "heroModules": [
-      { "title": "Comp analysis", "body": "Compare total compensation accurately.", "meta": "Numbers" },
-      { "title": "Fit evaluation", "body": "Assess growth, culture, and opportunity.", "meta": "Qualitative" },
-      { "title": "Decision framework", "body": "Make a choice you'll feel good about.", "meta": "Decision" }
+      {
+        "title": "Comp analysis",
+        "body": "Compare total compensation accurately.",
+        "meta": "Numbers"
+      },
+      {
+        "title": "Fit evaluation",
+        "body": "Assess growth, culture, and opportunity.",
+        "meta": "Qualitative"
+      },
+      {
+        "title": "Decision framework",
+        "body": "Make a choice you'll feel good about.",
+        "meta": "Decision"
+      }
     ],
     "heroStats": [
-      { "value": "Total comp", "label": "Not just base salary" },
-      { "value": "Growth", "label": "Trajectory matters" },
-      { "value": "Fit", "label": "Culture and opportunity" }
+      {
+        "value": "Total comp",
+        "label": "Not just base salary"
+      },
+      {
+        "value": "Growth",
+        "label": "Trajectory matters"
+      },
+      {
+        "value": "Fit",
+        "label": "Culture and opportunity"
+      }
     ],
     "heroTrustLabel": "Our clients have landed at",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
-      { "src": "/assets/logos/testimonials/stripe.svg", "alt": "Stripe logo" },
-      { "src": "/assets/logos/testimonials/uber.svg", "alt": "Uber logo" },
-      { "src": "/assets/logos/testimonials/airbnb.svg", "alt": "Airbnb logo" }
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/stripe.svg",
+        "alt": "Stripe logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/uber.svg",
+        "alt": "Uber logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/airbnb.svg",
+        "alt": "Airbnb logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "The outcome",
       "title": "What you leave with",
       "subtitle": "Confidence in your choice.",
       "items": [
-        { "tag": "Clarity", "title": "Accurate comparison", "body": "You understand what each offer is actually worth." },
-        { "tag": "Context", "title": "Trade-offs understood", "body": "You know what you're gaining and giving up with each option." },
-        { "tag": "Decision", "title": "Choice you feel good about", "body": "You make a decision with eyes open." }
+        {
+          "tag": "Clarity",
+          "title": "Accurate comparison",
+          "body": "You understand what each offer is actually worth."
+        },
+        {
+          "tag": "Context",
+          "title": "Trade-offs understood",
+          "body": "You know what you're gaining and giving up with each option."
+        },
+        {
+          "tag": "Decision",
+          "title": "Choice you feel good about",
+          "body": "You make a decision with eyes open."
+        }
       ]
     },
     "mistakes": {
@@ -898,24 +1946,57 @@
       "title": "How people mess up the choice",
       "subtitle": "We help you avoid these.",
       "items": [
-        { "title": "Comparing base only", "body": "Ignoring equity, bonus, and benefits." },
-        { "title": "Ignoring growth", "body": "Taking higher comp at a place that will stall your career." },
-        { "title": "Overthinking", "body": "Getting paralyzed by too many factors." }
+        {
+          "title": "Comparing base only",
+          "body": "Ignoring equity, bonus, and benefits."
+        },
+        {
+          "title": "Ignoring growth",
+          "body": "Taking higher comp at a place that will stall your career."
+        },
+        {
+          "title": "Overthinking",
+          "body": "Getting paralyzed by too many factors."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "steps", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "proof",
+      "focus",
+      "mistakes",
+      "deliverables",
+      "steps",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "What you get",
       "body": "A clear framework for choosing.",
-      "bullets": ["Total comp comparison", "Trade-off analysis", "Decision confidence"]
+      "bullets": [
+        "Total comp comparison",
+        "Trade-off analysis",
+        "Decision confidence"
+      ]
     },
     "proof": {
       "title": "Why this works",
       "subtitle": "Structure helps decision-making.",
       "items": [
-        { "title": "Accurate math", "body": "We compare comp the right way — total, not just base." },
-        { "title": "Holistic view", "body": "Money matters, but so does growth and fit." },
-        { "title": "Outside perspective", "body": "Sometimes you need someone not emotionally invested to see clearly." }
+        {
+          "title": "Accurate math",
+          "body": "We compare comp the right way \u2014 total, not just base."
+        },
+        {
+          "title": "Holistic view",
+          "body": "Money matters, but so does growth and fit."
+        },
+        {
+          "title": "Outside perspective",
+          "body": "Sometimes you need someone not emotionally invested to see clearly."
+        }
       ]
     },
     "focus": {
@@ -923,18 +2004,39 @@
       "title": "Choose wisely",
       "subtitle": "A framework for good decisions.",
       "items": [
-        { "tag": "Math", "title": "What's it worth?", "body": "Total comp, correctly calculated." },
-        { "tag": "Growth", "title": "Where does it lead?", "body": "Career trajectory and opportunity." },
-        { "tag": "Fit", "title": "Will you thrive?", "body": "Culture, team, and work itself." }
+        {
+          "tag": "Math",
+          "title": "What's it worth?",
+          "body": "Total comp, correctly calculated."
+        },
+        {
+          "tag": "Growth",
+          "title": "Where does it lead?",
+          "body": "Career trajectory and opportunity."
+        },
+        {
+          "tag": "Fit",
+          "title": "Will you thrive?",
+          "body": "Culture, team, and work itself."
+        }
       ]
     },
     "steps": {
       "title": "How it works",
       "subtitle": "Focused on your specific offers.",
       "items": [
-        { "title": "Share the offers", "body": "We review what you've received." },
-        { "title": "Analyze together", "body": "We compare comp and evaluate trade-offs." },
-        { "title": "Decide", "body": "You make a choice you feel confident about." }
+        {
+          "title": "Share the offers",
+          "body": "We review what you've received."
+        },
+        {
+          "title": "Analyze together",
+          "body": "We compare comp and evaluate trade-offs."
+        },
+        {
+          "title": "Decide",
+          "body": "You make a choice you feel confident about."
+        }
       ]
     },
     "for": {
@@ -959,9 +2061,36 @@
       "title": "What you receive",
       "subtitle": "Clarity for your decision.",
       "items": [
-        { "title": "Comp comparison", "tag": "Numbers", "body": "Total comp across all offers.", "bullets": ["Base + equity + bonus", "Benefits value", "Realistic projections"] },
-        { "title": "Trade-off analysis", "tag": "Context", "body": "What you gain and lose with each option.", "bullets": ["Growth trajectory", "Role quality", "Culture fit"] },
-        { "title": "Decision support", "tag": "Decision", "body": "Help making the final call.", "bullets": ["Priorities clarity", "Risk assessment", "Confidence building"] }
+        {
+          "title": "Comp comparison",
+          "tag": "Numbers",
+          "body": "Total comp across all offers.",
+          "bullets": [
+            "Base + equity + bonus",
+            "Benefits value",
+            "Realistic projections"
+          ]
+        },
+        {
+          "title": "Trade-off analysis",
+          "tag": "Context",
+          "body": "What you gain and lose with each option.",
+          "bullets": [
+            "Growth trajectory",
+            "Role quality",
+            "Culture fit"
+          ]
+        },
+        {
+          "title": "Decision support",
+          "tag": "Decision",
+          "body": "Help making the final call.",
+          "bullets": [
+            "Priorities clarity",
+            "Risk assessment",
+            "Confidence building"
+          ]
+        }
       ]
     },
     "related": {
@@ -976,10 +2105,22 @@
       "title": "Questions about offer strategy",
       "subtitle": "Common questions.",
       "items": [
-        { "question": "How do you compare equity?", "answer": "We look at strike price, vesting, company stage, and realistic liquidation scenarios." },
-        { "question": "What if the offers are very different?", "answer": "That's exactly when this helps most. We build a framework for comparison." },
-        { "question": "Can you help me negotiate first?", "answer": "Yes. Many clients negotiate with our help, then use this to decide." },
-        { "question": "What about factors like location?", "answer": "We factor in cost of living, remote policies, and location preferences." }
+        {
+          "question": "How do you compare equity?",
+          "answer": "We look at strike price, vesting, company stage, and realistic liquidation scenarios."
+        },
+        {
+          "question": "What if the offers are very different?",
+          "answer": "That's exactly when this helps most. We build a framework for comparison."
+        },
+        {
+          "question": "Can you help me negotiate first?",
+          "answer": "Yes. Many clients negotiate with our help, then use this to decide."
+        },
+        {
+          "question": "What about factors like location?",
+          "answer": "We factor in cost of living, remote policies, and location preferences."
+        }
       ]
     },
     "cta": {
@@ -1015,30 +2156,75 @@
     "heroGraphic": "ats",
     "heroGraphicLabel": "Application engine",
     "heroModules": [
-      { "title": "Target list", "body": "We align on roles, levels, and companies.", "meta": "Focus" },
-      { "title": "Application execution", "body": "We handle the submission flow and tracking.", "meta": "Execution" },
-      { "title": "Weekly reporting", "body": "See what is moving and where to adjust.", "meta": "Momentum" }
+      {
+        "title": "Target list",
+        "body": "We align on roles, levels, and companies.",
+        "meta": "Focus"
+      },
+      {
+        "title": "Application execution",
+        "body": "We handle the submission flow and tracking.",
+        "meta": "Execution"
+      },
+      {
+        "title": "Weekly reporting",
+        "body": "See what is moving and where to adjust.",
+        "meta": "Momentum"
+      }
     ],
     "heroStats": [
-      { "value": "Weekly", "label": "Consistent submissions" },
-      { "value": "Tracked", "label": "Clear visibility" },
-      { "value": "Targeted", "label": "No spray-and-pray" }
+      {
+        "value": "Weekly",
+        "label": "Consistent submissions"
+      },
+      {
+        "value": "Tracked",
+        "label": "Clear visibility"
+      },
+      {
+        "value": "Targeted",
+        "label": "No spray-and-pray"
+      }
     ],
     "heroTrustLabel": "Our clients have landed at",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
-      { "src": "/assets/logos/testimonials/amazon.svg", "alt": "Amazon logo" },
-      { "src": "/assets/logos/testimonials/stripe.svg", "alt": "Stripe logo" },
-      { "src": "/assets/logos/testimonials/airbnb.svg", "alt": "Airbnb logo" }
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/amazon.svg",
+        "alt": "Amazon logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/stripe.svg",
+        "alt": "Stripe logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/airbnb.svg",
+        "alt": "Airbnb logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "The outcome",
       "title": "What changes when we run your applications",
       "subtitle": "More focus, more consistency, less noise.",
       "items": [
-        { "tag": "Focus", "title": "Targeted pipeline", "body": "No more random roles or scattered effort." },
-        { "tag": "Consistency", "title": "Weekly volume", "body": "A steady cadence that creates momentum." },
-        { "tag": "Visibility", "title": "Clear tracking", "body": "Know what is submitted and what is next." }
+        {
+          "tag": "Focus",
+          "title": "Targeted pipeline",
+          "body": "No more random roles or scattered effort."
+        },
+        {
+          "tag": "Consistency",
+          "title": "Weekly volume",
+          "body": "A steady cadence that creates momentum."
+        },
+        {
+          "tag": "Visibility",
+          "title": "Clear tracking",
+          "body": "Know what is submitted and what is next."
+        }
       ]
     },
     "mistakes": {
@@ -1046,24 +2232,57 @@
       "title": "Why most application efforts stall",
       "subtitle": "We fix the gaps that kill momentum.",
       "items": [
-        { "title": "Spray-and-pray", "body": "Random applications without a role target." },
-        { "title": "Inconsistent volume", "body": "Two busy weeks, then nothing for a month." },
-        { "title": "No tracking", "body": "No system to see what is working." }
+        {
+          "title": "Spray-and-pray",
+          "body": "Random applications without a role target."
+        },
+        {
+          "title": "Inconsistent volume",
+          "body": "Two busy weeks, then nothing for a month."
+        },
+        {
+          "title": "No tracking",
+          "body": "No system to see what is working."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "steps", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "proof",
+      "focus",
+      "mistakes",
+      "deliverables",
+      "steps",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "What you get",
       "body": "A consistent, targeted application system.",
-      "bullets": ["Targeted submissions", "Weekly reporting", "Momentum without the admin"]
+      "bullets": [
+        "Targeted submissions",
+        "Weekly reporting",
+        "Momentum without the admin"
+      ]
     },
     "proof": {
       "title": "Why this works",
       "subtitle": "Consistency and targeting beat volume alone.",
       "items": [
-        { "title": "Targeted roles", "body": "We align the role and level before we apply." },
-        { "title": "Process-driven", "body": "A repeatable system with weekly cadence." },
-        { "title": "Visibility", "body": "You always know what is moving." }
+        {
+          "title": "Targeted roles",
+          "body": "We align the role and level before we apply."
+        },
+        {
+          "title": "Process-driven",
+          "body": "A repeatable system with weekly cadence."
+        },
+        {
+          "title": "Visibility",
+          "body": "You always know what is moving."
+        }
       ]
     },
     "focus": {
@@ -1071,18 +2290,39 @@
       "title": "Targeted execution",
       "subtitle": "Built around roles that actually fit.",
       "items": [
-        { "tag": "Target", "title": "Role alignment", "body": "We focus on roles where your experience fits." },
-        { "tag": "Execute", "title": "Submission system", "body": "We handle the applications and tracking." },
-        { "tag": "Adjust", "title": "Weekly review", "body": "We refine based on response signals." }
+        {
+          "tag": "Target",
+          "title": "Role alignment",
+          "body": "We focus on roles where your experience fits."
+        },
+        {
+          "tag": "Execute",
+          "title": "Submission system",
+          "body": "We handle the applications and tracking."
+        },
+        {
+          "tag": "Adjust",
+          "title": "Weekly review",
+          "body": "We refine based on response signals."
+        }
       ]
     },
     "steps": {
       "title": "How it works",
       "subtitle": "Set up once, then we run it.",
       "items": [
-        { "title": "Kickoff", "body": "Confirm role targets, level, and constraints." },
-        { "title": "Execution", "body": "We submit applications and track activity." },
-        { "title": "Weekly review", "body": "We share a report and adjust the plan." }
+        {
+          "title": "Kickoff",
+          "body": "Confirm role targets, level, and constraints."
+        },
+        {
+          "title": "Execution",
+          "body": "We submit applications and track activity."
+        },
+        {
+          "title": "Weekly review",
+          "body": "We share a report and adjust the plan."
+        }
       ]
     },
     "for": {
@@ -1107,9 +2347,36 @@
       "title": "What you receive",
       "subtitle": "A system you can track and trust.",
       "items": [
-        { "title": "Target list", "tag": "Focus", "body": "Role targets and search constraints.", "bullets": ["Role families", "Level targets", "Company criteria"] },
-        { "title": "Submission engine", "tag": "Execution", "body": "Weekly applications handled for you.", "bullets": ["Consistent cadence", "Quality control", "Tracking"] },
-        { "title": "Weekly report", "tag": "Visibility", "body": "Clear summary of activity and next steps.", "bullets": ["Submitted roles", "Responses", "Adjustments"] }
+        {
+          "title": "Target list",
+          "tag": "Focus",
+          "body": "Role targets and search constraints.",
+          "bullets": [
+            "Role families",
+            "Level targets",
+            "Company criteria"
+          ]
+        },
+        {
+          "title": "Submission engine",
+          "tag": "Execution",
+          "body": "Weekly applications handled for you.",
+          "bullets": [
+            "Consistent cadence",
+            "Quality control",
+            "Tracking"
+          ]
+        },
+        {
+          "title": "Weekly report",
+          "tag": "Visibility",
+          "body": "Clear summary of activity and next steps.",
+          "bullets": [
+            "Submitted roles",
+            "Responses",
+            "Adjustments"
+          ]
+        }
       ]
     },
     "related": {
@@ -1124,10 +2391,22 @@
       "title": "Questions about done-for-you applications",
       "subtitle": "Common questions.",
       "items": [
-        { "question": "How many applications do you submit?", "answer": "We focus on consistent weekly volume, calibrated to your target roles and quality standards." },
-        { "question": "Do you apply everywhere?", "answer": "No. We only apply to roles aligned to your targets and level." },
-        { "question": "Do I need strong materials first?", "answer": "Yes. If your resume or LinkedIn needs work, we should fix those first." },
-        { "question": "Can I review the roles?", "answer": "Yes. We align on targets and you can weigh in on the list." }
+        {
+          "question": "How many applications do you submit?",
+          "answer": "We focus on consistent weekly volume, calibrated to your target roles and quality standards."
+        },
+        {
+          "question": "Do you apply everywhere?",
+          "answer": "No. We only apply to roles aligned to your targets and level."
+        },
+        {
+          "question": "Do I need strong materials first?",
+          "answer": "Yes. If your resume or LinkedIn needs work, we should fix those first."
+        },
+        {
+          "question": "Can I review the roles?",
+          "answer": "Yes. We align on targets and you can weigh in on the list."
+        }
       ]
     },
     "cta": {
@@ -1163,30 +2442,75 @@
     "heroGraphic": "executive",
     "heroGraphicLabel": "Search plan",
     "heroModules": [
-      { "title": "Role targeting", "body": "We define the exact roles and levels.", "meta": "Focus" },
-      { "title": "Outreach system", "body": "A weekly cadence that builds momentum.", "meta": "Execution" },
-      { "title": "Feedback loop", "body": "Adjust based on responses and signals.", "meta": "Optimization" }
+      {
+        "title": "Role targeting",
+        "body": "We define the exact roles and levels.",
+        "meta": "Focus"
+      },
+      {
+        "title": "Outreach system",
+        "body": "A weekly cadence that builds momentum.",
+        "meta": "Execution"
+      },
+      {
+        "title": "Feedback loop",
+        "body": "Adjust based on responses and signals.",
+        "meta": "Optimization"
+      }
     ],
     "heroStats": [
-      { "value": "1-2 weeks", "label": "Plan built fast" },
-      { "value": "Weekly", "label": "Clear cadence" },
-      { "value": "Measured", "label": "Track what works" }
+      {
+        "value": "1-2 weeks",
+        "label": "Plan built fast"
+      },
+      {
+        "value": "Weekly",
+        "label": "Clear cadence"
+      },
+      {
+        "value": "Measured",
+        "label": "Track what works"
+      }
     ],
     "heroTrustLabel": "Our clients have landed at",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
-      { "src": "/assets/logos/testimonials/microsoft.svg", "alt": "Microsoft logo" },
-      { "src": "/assets/logos/testimonials/spotify.svg", "alt": "Spotify logo" },
-      { "src": "/assets/logos/testimonials/shopify.svg", "alt": "Shopify logo" }
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/microsoft.svg",
+        "alt": "Microsoft logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/spotify.svg",
+        "alt": "Spotify logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/shopify.svg",
+        "alt": "Shopify logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "The outcome",
       "title": "What you leave with",
       "subtitle": "A plan you can execute every week.",
       "items": [
-        { "tag": "Focus", "title": "Target roles", "body": "You know exactly what you are going after." },
-        { "tag": "System", "title": "Weekly cadence", "body": "Clear outreach and application rhythm." },
-        { "tag": "Metrics", "title": "Signal tracking", "body": "See what is working and adjust fast." }
+        {
+          "tag": "Focus",
+          "title": "Target roles",
+          "body": "You know exactly what you are going after."
+        },
+        {
+          "tag": "System",
+          "title": "Weekly cadence",
+          "body": "Clear outreach and application rhythm."
+        },
+        {
+          "tag": "Metrics",
+          "title": "Signal tracking",
+          "body": "See what is working and adjust fast."
+        }
       ]
     },
     "mistakes": {
@@ -1194,24 +2518,57 @@
       "title": "Why most searches stall",
       "subtitle": "These gaps kill momentum.",
       "items": [
-        { "title": "No target", "body": "Applying without a clear role or level." },
-        { "title": "No cadence", "body": "Inconsistent outreach and follow-through." },
-        { "title": "No feedback loop", "body": "No data to tell you what to fix." }
+        {
+          "title": "No target",
+          "body": "Applying without a clear role or level."
+        },
+        {
+          "title": "No cadence",
+          "body": "Inconsistent outreach and follow-through."
+        },
+        {
+          "title": "No feedback loop",
+          "body": "No data to tell you what to fix."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "steps", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "proof",
+      "focus",
+      "mistakes",
+      "deliverables",
+      "steps",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "What you get",
       "body": "A repeatable search system.",
-      "bullets": ["Role targeting", "Weekly cadence", "Metrics and adjustments"]
+      "bullets": [
+        "Role targeting",
+        "Weekly cadence",
+        "Metrics and adjustments"
+      ]
     },
     "proof": {
       "title": "Why this works",
       "subtitle": "Structure creates momentum.",
       "items": [
-        { "title": "Clear targets", "body": "You focus on roles that actually fit." },
-        { "title": "Weekly execution", "body": "Cadence beats bursts of effort." },
-        { "title": "Fast adjustments", "body": "We fix what is not working early." }
+        {
+          "title": "Clear targets",
+          "body": "You focus on roles that actually fit."
+        },
+        {
+          "title": "Weekly execution",
+          "body": "Cadence beats bursts of effort."
+        },
+        {
+          "title": "Fast adjustments",
+          "body": "We fix what is not working early."
+        }
       ]
     },
     "focus": {
@@ -1219,18 +2576,39 @@
       "title": "Build momentum with structure",
       "subtitle": "A plan you can run every week.",
       "items": [
-        { "tag": "Target", "title": "Role and level", "body": "Define what you are actually going after." },
-        { "tag": "Execute", "title": "Weekly cadence", "body": "Outreach, applications, and follow-ups." },
-        { "tag": "Adjust", "title": "Signal review", "body": "Use responses to refine your plan." }
+        {
+          "tag": "Target",
+          "title": "Role and level",
+          "body": "Define what you are actually going after."
+        },
+        {
+          "tag": "Execute",
+          "title": "Weekly cadence",
+          "body": "Outreach, applications, and follow-ups."
+        },
+        {
+          "tag": "Adjust",
+          "title": "Signal review",
+          "body": "Use responses to refine your plan."
+        }
       ]
     },
     "steps": {
       "title": "How it works",
       "subtitle": "A focused plan built around you.",
       "items": [
-        { "title": "Clarify targets", "body": "Define role, level, and constraints." },
-        { "title": "Build the plan", "body": "Create a weekly cadence and tracking." },
-        { "title": "Launch", "body": "Start executing with a clear system." }
+        {
+          "title": "Clarify targets",
+          "body": "Define role, level, and constraints."
+        },
+        {
+          "title": "Build the plan",
+          "body": "Create a weekly cadence and tracking."
+        },
+        {
+          "title": "Launch",
+          "body": "Start executing with a clear system."
+        }
       ]
     },
     "for": {
@@ -1255,9 +2633,36 @@
       "title": "What you receive",
       "subtitle": "A playbook for execution.",
       "items": [
-        { "title": "Target profile", "tag": "Focus", "body": "Defined role targets and criteria.", "bullets": ["Role families", "Level calibration", "Company filters"] },
-        { "title": "Weekly plan", "tag": "Execution", "body": "A cadence you can run every week.", "bullets": ["Outreach plan", "Application rhythm", "Follow-up timing"] },
-        { "title": "Tracking system", "tag": "Metrics", "body": "Simple metrics to see progress.", "bullets": ["Pipeline tracking", "Response rates", "Adjustment triggers"] }
+        {
+          "title": "Target profile",
+          "tag": "Focus",
+          "body": "Defined role targets and criteria.",
+          "bullets": [
+            "Role families",
+            "Level calibration",
+            "Company filters"
+          ]
+        },
+        {
+          "title": "Weekly plan",
+          "tag": "Execution",
+          "body": "A cadence you can run every week.",
+          "bullets": [
+            "Outreach plan",
+            "Application rhythm",
+            "Follow-up timing"
+          ]
+        },
+        {
+          "title": "Tracking system",
+          "tag": "Metrics",
+          "body": "Simple metrics to see progress.",
+          "bullets": [
+            "Pipeline tracking",
+            "Response rates",
+            "Adjustment triggers"
+          ]
+        }
       ]
     },
     "related": {
@@ -1272,10 +2677,22 @@
       "title": "Questions about the game plan",
       "subtitle": "Common questions.",
       "items": [
-        { "question": "How fast can we build the plan?", "answer": "We typically build it within one to two weeks." },
-        { "question": "Is this just for tech roles?", "answer": "No. The system works across tech, finance, healthcare, and operations." },
-        { "question": "Will this replace coaching?", "answer": "It gives you structure; coaching adds ongoing support and feedback." },
-        { "question": "Can you help execute the plan?", "answer": "Yes. We can add done-for-you applications or ongoing support." }
+        {
+          "question": "How fast can we build the plan?",
+          "answer": "We typically build it within one to two weeks."
+        },
+        {
+          "question": "Is this just for tech roles?",
+          "answer": "No. The system works across tech, finance, healthcare, and operations."
+        },
+        {
+          "question": "Will this replace coaching?",
+          "answer": "It gives you structure; coaching adds ongoing support and feedback."
+        },
+        {
+          "question": "Can you help execute the plan?",
+          "answer": "Yes. We can add done-for-you applications or ongoing support."
+        }
       ]
     },
     "cta": {
@@ -1311,30 +2728,75 @@
     "heroGraphic": "offer",
     "heroGraphicLabel": "Weekly support",
     "heroModules": [
-      { "title": "Weekly check-in", "body": "Review pipeline, priorities, and blockers.", "meta": "Cadence" },
-      { "title": "Adjustments", "body": "Tighten messaging and tactics fast.", "meta": "Optimization" },
-      { "title": "Prep support", "body": "Interview prep as opportunities appear.", "meta": "Confidence" }
+      {
+        "title": "Weekly check-in",
+        "body": "Review pipeline, priorities, and blockers.",
+        "meta": "Cadence"
+      },
+      {
+        "title": "Adjustments",
+        "body": "Tighten messaging and tactics fast.",
+        "meta": "Optimization"
+      },
+      {
+        "title": "Prep support",
+        "body": "Interview prep as opportunities appear.",
+        "meta": "Confidence"
+      }
     ],
     "heroStats": [
-      { "value": "Weekly", "label": "Support cadence" },
-      { "value": "Real-time", "label": "Fast adjustments" },
-      { "value": "Momentum", "label": "Keep moving" }
+      {
+        "value": "Weekly",
+        "label": "Support cadence"
+      },
+      {
+        "value": "Real-time",
+        "label": "Fast adjustments"
+      },
+      {
+        "value": "Momentum",
+        "label": "Keep moving"
+      }
     ],
     "heroTrustLabel": "Our clients have landed at",
     "heroTrustLogos": [
-      { "src": "/assets/logos/testimonials/google.svg", "alt": "Google logo" },
-      { "src": "/assets/logos/testimonials/stripe.svg", "alt": "Stripe logo" },
-      { "src": "/assets/logos/testimonials/uber.svg", "alt": "Uber logo" },
-      { "src": "/assets/logos/testimonials/airbnb.svg", "alt": "Airbnb logo" }
+      {
+        "src": "/assets/logos/testimonials/google.svg",
+        "alt": "Google logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/stripe.svg",
+        "alt": "Stripe logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/uber.svg",
+        "alt": "Uber logo"
+      },
+      {
+        "src": "/assets/logos/testimonials/airbnb.svg",
+        "alt": "Airbnb logo"
+      }
     ],
     "snapshot": {
       "eyebrow": "The outcome",
       "title": "What ongoing support changes",
       "subtitle": "Less uncertainty, more momentum.",
       "items": [
-        { "tag": "Clarity", "title": "Weekly focus", "body": "You always know what to do next." },
-        { "tag": "Speed", "title": "Fast adjustments", "body": "We fix issues before they stall you." },
-        { "tag": "Confidence", "title": "Interview ready", "body": "Prep stays aligned to real opportunities." }
+        {
+          "tag": "Clarity",
+          "title": "Weekly focus",
+          "body": "You always know what to do next."
+        },
+        {
+          "tag": "Speed",
+          "title": "Fast adjustments",
+          "body": "We fix issues before they stall you."
+        },
+        {
+          "tag": "Confidence",
+          "title": "Interview ready",
+          "body": "Prep stays aligned to real opportunities."
+        }
       ]
     },
     "mistakes": {
@@ -1342,24 +2804,57 @@
       "title": "Why searches lose momentum",
       "subtitle": "We keep you out of the stall.",
       "items": [
-        { "title": "No feedback loop", "body": "You do not know what to fix when responses slow." },
-        { "title": "Scattered effort", "body": "Too many tactics with no clear priority." },
-        { "title": "Interview drift", "body": "Prep does not match the role you are targeting." }
+        {
+          "title": "No feedback loop",
+          "body": "You do not know what to fix when responses slow."
+        },
+        {
+          "title": "Scattered effort",
+          "body": "Too many tactics with no clear priority."
+        },
+        {
+          "title": "Interview drift",
+          "body": "Prep does not match the role you are targeting."
+        }
       ]
     },
-    "sectionOrder": ["snapshot", "proof", "focus", "mistakes", "deliverables", "steps", "for", "related", "faq", "cta"],
+    "sectionOrder": [
+      "snapshot",
+      "proof",
+      "focus",
+      "mistakes",
+      "deliverables",
+      "steps",
+      "for",
+      "related",
+      "faq",
+      "cta"
+    ],
     "heroCard": {
       "title": "What you get",
       "body": "A weekly partner to keep momentum.",
-      "bullets": ["Weekly check-ins", "Tactical adjustments", "Interview support"]
+      "bullets": [
+        "Weekly check-ins",
+        "Tactical adjustments",
+        "Interview support"
+      ]
     },
     "proof": {
       "title": "Why this works",
       "subtitle": "Consistency and feedback win.",
       "items": [
-        { "title": "Weekly cadence", "body": "Momentum builds with steady effort." },
-        { "title": "Fast fixes", "body": "We adjust before small issues become stalls." },
-        { "title": "Aligned prep", "body": "Prep stays tied to real roles and interviews." }
+        {
+          "title": "Weekly cadence",
+          "body": "Momentum builds with steady effort."
+        },
+        {
+          "title": "Fast fixes",
+          "body": "We adjust before small issues become stalls."
+        },
+        {
+          "title": "Aligned prep",
+          "body": "Prep stays tied to real roles and interviews."
+        }
       ]
     },
     "focus": {
@@ -1367,18 +2862,39 @@
       "title": "Stay in motion",
       "subtitle": "A weekly loop that keeps you sharp.",
       "items": [
-        { "tag": "Review", "title": "Weekly pipeline", "body": "We review responses and next steps." },
-        { "tag": "Adjust", "title": "Messaging and tactics", "body": "We tighten the approach based on signals." },
-        { "tag": "Prepare", "title": "Interview readiness", "body": "We prep around the roles in motion." }
+        {
+          "tag": "Review",
+          "title": "Weekly pipeline",
+          "body": "We review responses and next steps."
+        },
+        {
+          "tag": "Adjust",
+          "title": "Messaging and tactics",
+          "body": "We tighten the approach based on signals."
+        },
+        {
+          "tag": "Prepare",
+          "title": "Interview readiness",
+          "body": "We prep around the roles in motion."
+        }
       ]
     },
     "steps": {
       "title": "How it works",
       "subtitle": "Weekly support built around your search.",
       "items": [
-        { "title": "Kickoff", "body": "Align on goals, targets, and current pipeline." },
-        { "title": "Weekly sessions", "body": "Review progress and adjust priorities." },
-        { "title": "On-demand prep", "body": "Interview support when you need it." }
+        {
+          "title": "Kickoff",
+          "body": "Align on goals, targets, and current pipeline."
+        },
+        {
+          "title": "Weekly sessions",
+          "body": "Review progress and adjust priorities."
+        },
+        {
+          "title": "On-demand prep",
+          "body": "Interview support when you need it."
+        }
       ]
     },
     "for": {
@@ -1403,9 +2919,36 @@
       "title": "What you receive",
       "subtitle": "Support that keeps you moving.",
       "items": [
-        { "title": "Weekly check-ins", "tag": "Cadence", "body": "Structured reviews of progress.", "bullets": ["Pipeline review", "Next-step planning", "Priority focus"] },
-        { "title": "Tactical adjustments", "tag": "Optimization", "body": "Refine strategy based on signals.", "bullets": ["Messaging tweaks", "Target updates", "Outreach adjustments"] },
-        { "title": "Interview support", "tag": "Prep", "body": "Prep that matches the roles in motion.", "bullets": ["Story refinement", "Mock questions", "Feedback"] }
+        {
+          "title": "Weekly check-ins",
+          "tag": "Cadence",
+          "body": "Structured reviews of progress.",
+          "bullets": [
+            "Pipeline review",
+            "Next-step planning",
+            "Priority focus"
+          ]
+        },
+        {
+          "title": "Tactical adjustments",
+          "tag": "Optimization",
+          "body": "Refine strategy based on signals.",
+          "bullets": [
+            "Messaging tweaks",
+            "Target updates",
+            "Outreach adjustments"
+          ]
+        },
+        {
+          "title": "Interview support",
+          "tag": "Prep",
+          "body": "Prep that matches the roles in motion.",
+          "bullets": [
+            "Story refinement",
+            "Mock questions",
+            "Feedback"
+          ]
+        }
       ]
     },
     "related": {
@@ -1420,10 +2963,22 @@
       "title": "Questions about ongoing support",
       "subtitle": "Common questions.",
       "items": [
-        { "question": "How often do we meet?", "answer": "Typically weekly, with flexibility as interviews progress." },
-        { "question": "Can you help with interview prep?", "answer": "Yes. We integrate interview prep as opportunities appear." },
-        { "question": "Is this a monthly plan?", "answer": "We will align on cadence and duration during the call." },
-        { "question": "Do I need a game plan first?", "answer": "If you do not have a clear plan, we recommend starting there." }
+        {
+          "question": "How often do we meet?",
+          "answer": "Typically weekly, with flexibility as interviews progress."
+        },
+        {
+          "question": "Can you help with interview prep?",
+          "answer": "Yes. We integrate interview prep as opportunities appear."
+        },
+        {
+          "question": "Is this a monthly plan?",
+          "answer": "We will align on cadence and duration during the call."
+        },
+        {
+          "question": "Do I need a game plan first?",
+          "answer": "If you do not have a clear plan, we recommend starting there."
+        }
       ]
     },
     "cta": {

@@ -168,6 +168,27 @@
 </section>
 {% endif %}
 
+{# ─── RELATED GUIDES ──────────────────────────────────────── #}
+{% if serviceData.relatedGuides and serviceData.relatedGuides.items %}
+<section class="rhub-section rhub-section-alt">
+  <div class="container">
+    <h2 class="rhub-section-title">{{ serviceData.relatedGuides.title or "Related guides" }}</h2>
+    {% if serviceData.relatedGuides.subtitle %}
+    <p style="color: var(--muted); margin: 0 0 32px; font-size: .93rem;">{{ serviceData.relatedGuides.subtitle }}</p>
+    {% endif %}
+    <div class="rhub-grid">
+      {% for guide in serviceData.relatedGuides.items %}
+      <a class="rhub-card" href="{{ guide.url }}" style="text-decoration: none;">
+        <span class="rhub-card-topic">{{ guide.tag }}</span>
+        <h3 class="rhub-card-title" style="font-size: 1rem;">{{ guide.title }}</h3>
+        <p class="rhub-card-intro" style="font-size: .85rem;">{{ guide.desc }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
 {# ─── CTA ─────────────────────────────────────────────────── #}
 <section class="rhub-cta">
   <div class="container rhub-cta-inner">
