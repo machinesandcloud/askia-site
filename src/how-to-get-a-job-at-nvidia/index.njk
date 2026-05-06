@@ -1,0 +1,160 @@
+---
+layout: layout.njk
+metaTitle: "How to Get a Job at NVIDIA — Hiring Process, Interview Prep, Compensation | Askia"
+metaDescription: "How to get a job at NVIDIA — the application process, interview structure, technical bar, CUDA and AI expectations, and how to negotiate NVIDIA's RSU-heavy compensation."
+title: "How to Get a Job at NVIDIA"
+breadcrumbs:
+  - name: "Home"
+    url: "/"
+  - name: "Job Search Coaching"
+    url: "/job-search-coaching/"
+  - name: "How to Get a Job at NVIDIA"
+    url: "/how-to-get-a-job-at-nvidia/"
+faq:
+  - q: "How hard is it to get a job at NVIDIA?"
+    a: "NVIDIA is extremely selective, particularly for software and hardware engineering roles. The technical bar is high because the work is genuinely hard — GPU architecture, CUDA programming, distributed training infrastructure, and automotive systems require deep domain expertise. The company has grown rapidly but hires deliberately. Candidates who prepare for NVIDIA's specific technical depth consistently outperform those who rely on general FAANG prep."
+  - q: "What does NVIDIA look for in candidates?"
+    a: "NVIDIA prizes deep technical ownership, speed of execution, and customer focus. The culture is founder-led and flat — Jensen Huang is known for being directly involved in product decisions. They look for candidates who can own end-to-end work without heavy process, who have genuine expertise in the relevant domain (not just familiarity), and who can move fast without sacrificing quality. Intellectual humility matters — NVIDIA has an 'always learning' culture in a domain that changes extremely quickly."
+  - q: "What is NVIDIA's interview process?"
+    a: "For software roles: (1) Recruiter screen — 20–30 min, background and role fit. (2) Technical phone screen — typically a coding or domain-specific problem. (3) Virtual or onsite loop — 4–6 rounds covering coding, system design or GPU architecture, domain expertise, and behavioral. Hardware and research roles follow similar structures but substitute coding with design problems and paper-based discussions. The process typically takes 4–8 weeks."
+  - q: "How should I prepare for NVIDIA interviews?"
+    a: "For SWE: master algorithms and data structures, but also prepare for system design with GPU and parallel computing context — NVIDIA expects engineers to understand how their systems interact with hardware. For AI/ML roles: study transformer architectures, CUDA optimization, distributed training (DDP, FSDP), and NVIDIA-specific tools (TensorRT, cuDNN, NeMo, Triton). For all roles: prepare 5–7 STAR behavioral stories demonstrating ownership, technical depth, and speed of delivery."
+  - q: "How much does NVIDIA pay in 2026?"
+    a: "NVIDIA compensation became extremely competitive after its stock appreciation made RSU grants one of the most valuable in tech. Total compensation for senior SWEs (IC5–IC6) ranges from $300K–$600K+ including RSUs. For ML/AI researchers and principal engineers, $400K–$800K+. The RSU component is significant and has grown substantially — negotiating the initial grant and refresh cadence is critical."
+---
+<div class="resource-theme-page">
+
+<section class="section resource-theme-hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="hero-eyebrow">Company-Specific Hiring</p>
+      <h1 class="hero-title section-title-glow">How to Get a Job at NVIDIA — The Complete Hiring Guide</h1>
+      <p class="hero-subtitle">NVIDIA's hiring bar is high because the technical work is genuinely hard. GPU architecture, CUDA programming, AI infrastructure, and automotive systems require real depth — not surface familiarity. Preparation has to match the bar.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="{{ site.cta.link }}">Get Interview Coached</a>
+        <a class="btn btn-ghost" href="/technical-interview-prep/">Technical Interview Prep →</a>
+      </div>
+      <div class="hero-trust-cro">
+        <span class="hero-trust-rating-cro">★ 4.9/5 · 89% of coached clients land offers · Former engineering hiring manager</span>
+      </div>
+    </div>
+    <div class="hero-card">
+      <strong>What NVIDIA evaluates</strong>
+      <ul>
+        <li><strong>Deep technical ownership</strong> — domain expertise, not surface knowledge</li>
+        <li><strong>Speed and execution</strong> — NVIDIA moves fast; they want people who do too</li>
+        <li><strong>Customer obsession</strong> — understanding how the work serves the end user</li>
+        <li><strong>Intellectual humility</strong> — always learning in a rapidly changing domain</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">NVIDIA's interview process — stage by stage</h2>
+      <ul class="checklist">
+        <li><strong>Application and resume screen.</strong> NVIDIA's ATS looks for domain relevance — GPU computing, AI/ML, CUDA, parallel systems, or hardware. Generic software engineering resumes often do not clear the screen for roles that require specific GPU/AI depth. Tailor your resume to show the specific technical domains relevant to the role.</li>
+        <li><strong>Recruiter screen.</strong> 20–30 minutes covering background, role fit, and compensation expectations. The recruiter assesses whether your experience genuinely matches the technical depth the team needs — not just whether you have the right title.</li>
+        <li><strong>Technical phone screen.</strong> A coding or domain-specific problem depending on the role. For SWE: algorithm-focused with an emphasis on correctness and edge cases. For AI/ML: may include model architecture questions, optimization tradeoffs, or coding a training loop component.</li>
+        <li><strong>Virtual/onsite loop (4–6 rounds).</strong> Covers: coding (algorithms and data structures), system design (often with a parallel computing or GPU context for relevant roles), domain expertise deep dive, and behavioral. Research roles add paper discussion or architecture design components.</li>
+        <li><strong>Hiring decision.</strong> NVIDIA's process is less committee-driven than Google — the hiring manager has significant influence. The final decision typically comes within 1–2 weeks of the final round. Debrief calls are less common — follow up with the recruiter proactively.</li>
+      </ul>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">Preparation strategy by role</h2>
+      <h3>Software Engineering</h3>
+      <ul class="checklist">
+        <li>Master algorithms and data structures at the level of Blind 75 / Neetcode 150</li>
+        <li>For GPU-adjacent SWE roles: understand CUDA programming model, thread/block/warp hierarchy, memory bandwidth optimization, and parallel algorithm design</li>
+        <li>System design: practice distributed system design with awareness of GPU cluster scheduling, model serving infrastructure, and latency optimization</li>
+      </ul>
+      <h3 style="margin-top:20px;">AI / ML Engineering</h3>
+      <ul class="checklist">
+        <li>Deep understanding of transformer architectures, attention mechanisms, and training dynamics</li>
+        <li>NVIDIA-specific tools: TensorRT (inference optimization), NeMo (LLM training), Triton Inference Server, cuDNN, NCCL (multi-GPU communication)</li>
+        <li>Distributed training: DDP, FSDP, model parallelism vs. data parallelism — know when to use each and the tradeoffs</li>
+        <li>Know NVIDIA's product landscape: H100/B100/GB200 GPU specs, NVLink, NVSwitch, DGX systems — interviewers expect working knowledge</li>
+      </ul>
+      <h3 style="margin-top:20px;">All roles: behavioral</h3>
+      <ul class="checklist">
+        <li>NVIDIA values ownership — stories about driving work end-to-end without heavy management involvement are highly effective</li>
+        <li>Speed matters: prepare examples of delivering high-quality work under tight timelines</li>
+        <li>Customer obsession: frame technical decisions in terms of what they enabled for the customer or the product</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container two-col-grid">
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">NVIDIA compensation in 2026</h2>
+      <p>NVIDIA became one of the highest-paying employers in tech after its stock appreciation made RSU grants enormously valuable. Total compensation is heavily weighted toward equity — the RSU component at senior levels often exceeds base salary.</p>
+      <ul class="checklist">
+        <li><strong>SWE IC4–IC5:</strong> $180K–$320K TC including RSUs</li>
+        <li><strong>SWE IC5–IC6 (senior/principal):</strong> $300K–$600K+ TC</li>
+        <li><strong>ML/AI Engineer / Researcher:</strong> $350K–$800K+ TC at senior levels</li>
+        <li><strong>Engineering Manager:</strong> $280K–$500K+ TC</li>
+        <li>RSU grants vest over 3–4 years; negotiate initial grant size AND annual refresh cadence</li>
+        <li>NVIDIA's equity appreciation has made even older grants extremely valuable — ask about the refresh program explicitly</li>
+      </ul>
+    </div>
+    <div class="content-panel">
+      <h2 class="section-title section-title-glow">What most candidates get wrong at NVIDIA</h2>
+      <ul class="checklist">
+        <li><strong>Treating it like a standard FAANG loop.</strong> NVIDIA expects domain depth, not just algorithmic fluency. A candidate with perfect LeetCode scores but no GPU/AI context will underperform against someone with genuine domain expertise.</li>
+        <li><strong>Not researching the specific team.</strong> NVIDIA spans data center, automotive (DRIVE), gaming, robotics, and healthcare — each has different technical expectations. Know the specific product and team you are interviewing for.</li>
+        <li><strong>Underselling ownership.</strong> NVIDIA is flat and fast — they reward people who take complete ownership. Generic team contributions do not resonate the way solo ownership stories do.</li>
+        <li><strong>Missing the compensation negotiation.</strong> First offers frequently have negotiation room, particularly on RSU grant size. Always counter — the upside on NVIDIA equity has been significant.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="container card">
+    <h2 class="section-title">Get coached for NVIDIA — preparation that matches the bar</h2>
+    <p class="section-subtitle">Askia's interview coaching covers the technical depth and behavioral framing NVIDIA actually evaluates. 89% of coached clients land offers.</p>
+    <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:8px;">
+      <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Free Strategy Call</a>
+      <a class="btn btn-ghost" href="/technical-interview-prep/">Technical Interview Prep →</a>
+      <a class="btn btn-ghost" href="/software-engineer-salary/">SWE Salary Benchmarks →</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container faq-stage">
+    <div class="faq-header">
+      <h2 class="section-title section-title-glow">NVIDIA hiring — common questions</h2>
+    </div>
+    <div class="faq-grid">
+      {% for item in faq %}
+      <details class="faq-card" {% if loop.first %}open{% endif %}>
+        <summary>{{ item.q }}</summary>
+        <p>{{ item.a }}</p>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in faq %}
+    {
+      "@type": "Question",
+      "name": {{ item.q | dump | safe }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ item.a | dump | safe }} }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
