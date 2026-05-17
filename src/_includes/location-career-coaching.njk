@@ -149,6 +149,20 @@ layout: layout.njk
   </div>
 </section>
 
+{% if citySlug === "houston-career-coaching" %}
+<section class="section section-tight">
+  <div class="container card" style="border-color: var(--accent, #72d6ff)22;">
+    <h2 class="section-title">Houston is Askia's home city — not a market page</h2>
+    <p class="section-subtitle">Askia is headquartered at 5718 Westheimer Rd, Houston TX 77057. The company was founded in Houston by Steve J. Ngoumnai, a former engineering leader who built and hired teams in the Houston market. If you are searching for a <strong>career coach near me in Houston</strong>, a <strong>career coach in Houston TX</strong>, or the <strong>best career coach in Houston</strong>, this is not a national coaching company with a city landing page — this is the Houston office. Askia is based here.</p>
+    <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:8px;">
+      <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Free Houston Strategy Call</a>
+      <a class="btn btn-ghost" href="/about/steve-ngoumnai/">Meet the Coach →</a>
+    </div>
+    <p style="margin-top:16px; font-size:.82rem; color:rgba(250,250,250,.45);">📍 5718 Westheimer Rd Suite 1000 · Houston TX 77057 · (346) 229-1245</p>
+  </div>
+</section>
+{% endif %}
+
 {% if localClusterLinks %}
 <section class="section">
   <div class="container">
@@ -415,7 +429,7 @@ layout: layout.njk
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
+    "@type": ["LocalBusiness", "ProfessionalService"],
     "name": "{{ site.name }}",
     "url": "{{ site.url }}{{ page.url }}",
     "telephone": "{{ site.contact.phone }}",
@@ -428,8 +442,15 @@ layout: layout.njk
       "postalCode": "{{ site.contact.postalCode }}",
       "addressCountry": "{{ site.contact.addressCountry }}"
     },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 29.7366,
+      "longitude": -95.4711
+    },
+    "hasMap": "https://maps.google.com/?q=5718+Westheimer+Rd+Suite+1000+Houston+TX+77057",
     "areaServed": [
-      {"@type": "Place", "name": "{{ cityName }}"},
+      {"@type": "City", "name": "{{ cityName }}"},
+      {"@type": "City", "name": "Houston"},
       {"@type": "Country", "name": "United States"}
     ],
     "serviceType": "Career coaching",

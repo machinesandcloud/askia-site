@@ -209,7 +209,7 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "ProfessionalService",
+        "@type": ["LocalBusiness", "ProfessionalService"],
         "name": "{{ site.name }}",
         "url": "{{ site.url }}",
         "image": "{{ site.url }}/assets/askia-logo-512.png",
@@ -223,7 +223,16 @@
           "postalCode": "{{ site.contact.postalCode }}",
           "addressCountry": "{{ site.contact.addressCountry }}"
         },
-        "areaServed": "United States",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 29.7366,
+          "longitude": -95.4711
+        },
+        "hasMap": "https://maps.google.com/?q=5718+Westheimer+Rd+Suite+1000+Houston+TX+77057",
+        "areaServed": [
+          {"@type": "City", "name": "Houston"},
+          {"@type": "Country", "name": "United States"}
+        ],
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
