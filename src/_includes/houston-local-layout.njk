@@ -279,7 +279,7 @@ layout: layout.njk
     </div>
     <div class="zari-band-actions">
       <a class="btn btn-primary" href="{{ site.zariCoach.signup }}" target="_blank" rel="noopener">Try Zari Free →</a>
-      <a class="btn btn-ghost" href="{{ site.cta.link }}">Book Human Coaching</a>
+      <a class="btn btn-ghost" href="{{ site.humanCta.link }}">{{ site.humanCta.label }}</a>
     </div>
   </div>
 </section>
@@ -290,7 +290,10 @@ layout: layout.njk
       <h2 class="section-title">Need help with this in {{ entry.cityLabel }}?</h2>
       <p class="section-subtitle">Book a call and we’ll map the strongest next step for your search, interviews, and offer strategy.</p>
     </div>
-    <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;">
+      <a class="btn btn-primary" href="{{ site.cta.link }}" target="_blank" rel="noopener">⚡ {{ site.cta.label }}</a>
+      <a class="btn btn-ghost" href="{{ site.humanCta.link }}">{{ site.humanCta.label }}</a>
+    </div>
   </div>
 </section>
 

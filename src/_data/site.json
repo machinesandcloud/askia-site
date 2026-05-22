@@ -21,7 +21,11 @@
     }
   ],
   "cta": {
-    "label": "Book My Free Strategy Call",
+    "label": "Try Zari Free →",
+    "link": "https://zaricoach.com/signup/"
+  },
+  "humanCta": {
+    "label": "Book a Strategy Call",
     "link": "https://bookings.askia.tech/#/clarity"
   },
   "nav": [

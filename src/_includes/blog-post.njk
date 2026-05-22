@@ -81,7 +81,7 @@ layout: layout.njk
         <div class="sidebar-card sidebar-card-service">
           <strong>Free 30-min strategy call</strong>
           <p>Map the fastest path from your current role to your target level — no pitch, just a plan.</p>
-          <a class="btn btn-ghost" href="{{ site.cta.link }}">Book It Free →</a>
+          <a class="btn btn-primary" href="{{ site.cta.link }}" target="_blank" rel="noopener">⚡ Try Zari Free →</a>
         </div>
         {% endif %}
         <div class="sidebar-card sidebar-card-zari">
@@ -113,7 +113,7 @@ layout: layout.njk
         </div>
         <div class="mid-cta-actions">
           <a class="btn btn-primary" href="{{ site.zariCoach.signup }}" target="_blank" rel="noopener">⚡ Try Zari Free</a>
-          <a class="btn btn-ghost" href="{{ site.cta.link }}">Book Human Coaching</a>
+          <a class="btn btn-ghost" href="{{ site.humanCta.link }}">{{ site.humanCta.label }}</a>
         </div>
       </div>
     </div>
@@ -122,10 +122,13 @@ layout: layout.njk
   <section class="section blog-post-cta">
     <div class="container cta-band">
       <div>
-        <h2 class="section-title">Want this system applied to your exact target?</h2>
-        <p class="section-subtitle">We’ll turn your experience into market signal and a clear offer plan.</p>
+        <h2 class="section-title">Try Zari — the AI coach built for this.</h2>
+        <p class="section-subtitle">Resume writing, interview coaching, LinkedIn optimization, salary negotiation — free to start.</p>
       </div>
-      <a class="btn btn-primary" href="{{ site.cta.link }}">Book Your Strategy Call</a>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;">
+        <a class="btn btn-primary" href="{{ site.cta.link }}" target="_blank" rel="noopener">⚡ Try Zari Free</a>
+        <a class="btn btn-ghost" href="{{ site.humanCta.link }}">{{ site.humanCta.label }}</a>
+      </div>
     </div>
   </section>
 

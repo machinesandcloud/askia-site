@@ -37,7 +37,8 @@ layout: layout.njk
       <p class="hero-support">If you are comparing a {{ coachKeyword }} or trying to find the right fit among {{ coachesKeyword }}, start with signal quality, role targeting, and execution depth. {{ marketLine }}</p>
       {% if keywordSupport %}<p class="hero-support">{{ keywordSupport }}</p>{% endif %}
       <div class="hero-cta">
-        <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+        <a class="btn btn-primary" href="{{ site.cta.link }}" target="_blank" rel="noopener">⚡ {{ site.cta.label }}</a>
+        <a class="btn btn-ghost" href="{{ site.humanCta.link }}">{{ site.humanCta.label }}</a>
       </div>
     </div>
     <div class="hero-card">
@@ -136,7 +137,7 @@ layout: layout.njk
     </div>
     <div class="zari-band-actions">
       <a class="btn btn-primary" href="{{ site.zariCoach.signup }}" target="_blank" rel="noopener">Try Zari Free →</a>
-      <a class="btn btn-ghost" href="{{ site.cta.link }}">Book a Strategy Call</a>
+      <a class="btn btn-ghost" href="{{ site.humanCta.link }}">{{ site.humanCta.label }}</a>
     </div>
   </div>
 </section>
@@ -404,10 +405,13 @@ layout: layout.njk
 <section class="section">
   <div class="container cta-band">
     <div>
-      <h2 class="section-title">Ready to improve your market signal in {{ cityName }}?</h2>
-      <p class="section-subtitle">Book a call and we’ll map the fastest path to the next role you should actually be targeting.</p>
+      <h2 class="section-title">Start free on Zari — or book a human coaching session.</h2>
+      <p class="section-subtitle">Zari is free to start. Human coaching is here when you want live sessions, resume review, and offer strategy.</p>
     </div>
-    <a class="btn btn-primary" href="{{ site.cta.link }}">Book a Call</a>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;">
+      <a class="btn btn-primary" href="{{ site.cta.link }}" target="_blank" rel="noopener">⚡ {{ site.cta.label }}</a>
+      <a class="btn btn-ghost" href="{{ site.humanCta.link }}">{{ site.humanCta.label }}</a>
+    </div>
   </div>
 </section>
 
