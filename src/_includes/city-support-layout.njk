@@ -12,7 +12,7 @@ layout: layout.njk
       <p class="hero-subtitle">{{ entry.quickAnswer }}</p>
       <p class="hero-support">{{ entry.intro }}</p>
       <div class="hero-cta">
-        <a class="btn btn-primary" href="{{ entry.secondaryLink }}">Book a strategy call</a>
+        <a class="btn btn-primary" href="{{ site.cta.link }}" target="_blank" rel="noopener">⚡ {{ site.cta.label }}</a>
         <a class="btn btn-ghost" href="{{ entry.primaryLink }}">{{ entry.primaryLabel }}</a>
       </div>
     </div>
@@ -126,7 +126,6 @@ layout: layout.njk
     </div>
     <div class="zari-band-actions">
       <a class="btn btn-primary" href="{{ site.zariCoach.signup }}" target="_blank" rel="noopener">Try Zari Free →</a>
-      <a class="btn btn-ghost" href="{{ site.humanCta.link }}">{{ site.humanCta.label }}</a>
     </div>
   </div>
 </section>

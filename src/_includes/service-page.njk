@@ -231,7 +231,6 @@
     </div>
     <div class="zari-band-actions">
       <a class="btn btn-primary" href="{{ _zariCta.url }}" target="_blank" rel="noopener">Try Free →</a>
-      <a class="btn btn-ghost" href="{{ site.humanCta.link }}">{{ site.humanCta.label }}</a>
     </div>
   </div>
 </section>
@@ -241,7 +240,7 @@
 <section class="rhub-cta">
   <div class="container rhub-cta-inner">
     <h2>{{ serviceData.cta.title if serviceData.cta else "Ready to get started?" }}</h2>
-    <p>{{ serviceData.cta.body if serviceData.cta else "Book a free strategy call and leave with a clear action plan." }}</p>
+    <p>{{ serviceData.cta.body if serviceData.cta else "Start free on Zari — AI-powered resume writing, interview coaching, and salary negotiation." }}</p>
     <a class="btn btn-primary" href="{{ serviceData.cta.link if serviceData.cta else (serviceData.ctaLink or site.cta.link) }}">{{ serviceData.cta.label if serviceData.cta else (serviceData.ctaLabel or site.cta.label) }}</a>
   </div>
 </section>
