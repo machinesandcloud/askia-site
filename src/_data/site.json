@@ -266,5 +266,16 @@
   },
   "footer": {
     "note": "\u00a9 2026 Askia. All rights reserved."
+  },
+  "zariCoach": {
+    "url": "https://zaricoach.com",
+    "signup": "https://zaricoach.com/signup/",
+    "tools": {
+      "resume": "https://zaricoach.com/ai-resume-writer/",
+      "linkedin": "https://zaricoach.com/ai-linkedin-optimizer/",
+      "interview": "https://zaricoach.com/ai-interview-coach/",
+      "salary": "https://zaricoach.com/salary-negotiation-coach/",
+      "atsChecker": "https://zaricoach.com/free-resume-checker/"
+    }
   }
 }
