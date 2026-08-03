@@ -248,7 +248,7 @@ for (const city of cities) {
           : `/${pageType.serviceKey}/`,
       secondaryLabel:
         pageType.serviceKey === "career-coaching"
-          ? "Book a strategy call"
+          ? "Apply now"
           : `See ${pageType.serviceKey.replace(/-/g, " ")}`,
     });
   }

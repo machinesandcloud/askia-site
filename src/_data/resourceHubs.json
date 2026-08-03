@@ -49,7 +49,7 @@
       ],
       "cta": {
         "title": "Ready to land your next SWE role?",
-        "body": "Book a strategy call and get personalized feedback on your positioning."
+        "body": "Apply now and get personalized feedback on your positioning."
       }
     },
     "devopsSre": {
@@ -100,7 +100,7 @@
       ],
       "cta": {
         "title": "Ready to land your next DevOps/SRE role?",
-        "body": "Book a strategy call and get personalized feedback on your positioning."
+        "body": "Apply now and get personalized feedback on your positioning."
       }
     },
     "data": {
@@ -151,7 +151,7 @@
       ],
       "cta": {
         "title": "Ready to land your next data role?",
-        "body": "Book a strategy call and get personalized feedback on your positioning."
+        "body": "Apply now and get personalized feedback on your positioning."
       }
     },
     "productManager": {
@@ -202,7 +202,7 @@
       ],
       "cta": {
         "title": "Ready to land your next PM role?",
-        "body": "Book a strategy call and get personalized feedback on your positioning."
+        "body": "Apply now and get personalized feedback on your positioning."
       }
     },
     "engineeringManager": {
@@ -253,7 +253,7 @@
       ],
       "cta": {
         "title": "Ready to land your next leadership role?",
-        "body": "Book a strategy call and get personalized feedback on your positioning."
+        "body": "Apply now and get personalized feedback on your positioning."
       }
     },
     "financeFpa": {
@@ -304,7 +304,7 @@
       ],
       "cta": {
         "title": "Ready to land your next finance role?",
-        "body": "Book a strategy call and get personalized feedback on your positioning."
+        "body": "Apply now and get personalized feedback on your positioning."
       }
     }
   },
@@ -358,7 +358,7 @@
       ],
       "cta": {
         "title": "Want your resume reviewed?",
-        "body": "Book a strategy call and get expert feedback on your ATS optimization."
+        "body": "Apply now and get expert feedback on your ATS optimization."
       }
     },
     "resume": {
@@ -410,7 +410,7 @@
       ],
       "cta": {
         "title": "Want help with your resume?",
-        "body": "Book a strategy call and get expert feedback on your positioning."
+        "body": "Apply now and get expert feedback on your positioning."
       }
     },
     "linkedin": {
@@ -462,7 +462,7 @@
       ],
       "cta": {
         "title": "Want help with your LinkedIn?",
-        "body": "Book a strategy call and get expert feedback on your profile."
+        "body": "Apply now and get expert feedback on your profile."
       }
     },
     "interviewPrep": {
@@ -514,7 +514,7 @@
       ],
       "cta": {
         "title": "Want interview coaching?",
-        "body": "Book a strategy call and get personalized mock interviews and feedback."
+        "body": "Apply now and get personalized mock interviews and feedback."
       }
     },
     "salaryNegotiation": {
@@ -566,7 +566,7 @@
       ],
       "cta": {
         "title": "Have an offer to negotiate?",
-        "body": "Book a strategy call and get personalized negotiation coaching."
+        "body": "Apply now and get personalized negotiation coaching."
       }
     },
     "coverLetters": {
@@ -618,7 +618,7 @@
       ],
       "cta": {
         "title": "Need help with your cover letter?",
-        "body": "Book a strategy call and get expert feedback on your application materials."
+        "body": "Apply now and get expert feedback on your application materials."
       }
     }
   }

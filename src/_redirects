@@ -317,23 +317,23 @@ https://www.askia.tech/* https://askia.tech/:splat 301!
 /.well-known/traffic-advice / 410
 
 # Contact and booking intent (send to strategy call)
-/get-in-touch https://bookings.askia.tech/#/clarity 301
-/get-in-touch/ https://bookings.askia.tech/#/clarity 301
-/get-in-touch/tel:* https://bookings.askia.tech/#/clarity 301
-/contact https://bookings.askia.tech/#/clarity 301
-/contact/ https://bookings.askia.tech/#/clarity 301
-/contact/tel:* https://bookings.askia.tech/#/clarity 301
-/contact-us https://bookings.askia.tech/#/clarity 301
-/contact-us/ https://bookings.askia.tech/#/clarity 301
-/contact-us/tel:* https://bookings.askia.tech/#/clarity 301
-/contactus https://bookings.askia.tech/#/clarity 301
-/contactus/ https://bookings.askia.tech/#/clarity 301
-/contactus/tel:* https://bookings.askia.tech/#/clarity 301
-/contact_us https://bookings.askia.tech/#/clarity 301
-/contact_us/ https://bookings.askia.tech/#/clarity 301
-/contact_us/tel:* https://bookings.askia.tech/#/clarity 301
-/career-coaching-partnership-portal/ https://bookings.askia.tech/#/clarity 301
-/career-coaching-partnership-portal/tel:* https://bookings.askia.tech/#/clarity 301
+/get-in-touch https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/get-in-touch/ https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/get-in-touch/tel:* https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/contact https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/contact/ https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/contact/tel:* https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/contact-us https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/contact-us/ https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/contact-us/tel:* https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/contactus https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/contactus/ https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/contactus/tel:* https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/contact_us https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/contact_us/ https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/contact_us/tel:* https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/career-coaching-partnership-portal/ https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
+/career-coaching-partnership-portal/tel:* https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ 301
 
 # New resource + guide slugs from 404 logs
 /navigating-your-career-path-ebook/ /resources/ 301

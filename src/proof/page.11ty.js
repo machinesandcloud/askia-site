@@ -34,7 +34,7 @@ class ProofPage {
       <p class="hero-subtitle">${entry.outcome}</p>
       <p class="hero-support">${entry.summary}</p>
       <div class="hero-cta">
-        <a class="btn btn-primary" href="/land-your-next-role/">Book a Strategy Call</a>
+        <a class="btn btn-primary" href="https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ">Apply for the Career Accelerator</a>
         <a class="btn btn-ghost" href="/proof/">Browse more proof</a>
       </div>
     </div>
@@ -98,9 +98,9 @@ class ProofPage {
   <div class="container cta-band">
     <div>
       <h2 class="section-title">Need this kind of outcome?</h2>
-      <p class="section-subtitle">Book a call and we’ll map the strongest path for your role target, positioning, and interview strategy.</p>
+      <p class="section-subtitle">Apply now and we’ll map the strongest path for your role target, positioning, and interview strategy.</p>
     </div>
-    <a class="btn btn-primary" href="/land-your-next-role/">Book a Call</a>
+    <a class="btn btn-primary" href="https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ">Apply for the Career Accelerator</a>
   </div>
 </section>
 

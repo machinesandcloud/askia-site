@@ -21,12 +21,12 @@
     }
   ],
   "cta": {
-    "label": "Try Zari Free →",
-    "link": "https://zaricoach.com/signup/"
+    "label": "Apply for the Career Accelerator",
+    "link": "https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ"
   },
   "humanCta": {
-    "label": "Book a Strategy Call",
-    "link": "https://bookings.askia.tech/#/clarity"
+    "label": "Apply for the Career Accelerator",
+    "link": "https://forms.zohopublic.com/askiacareercoaching/form/CareerAcceleratorProgramOnboardingForm/formperma/TODrEba10Ofs4kD0ZWvy8TIa5MCniyKEovBvF0U15qQ"
   },
   "nav": [
     {
@@ -270,16 +270,5 @@
   },
   "footer": {
     "note": "\u00a9 2026 Askia. All rights reserved."
-  },
-  "zariCoach": {
-    "url": "https://zaricoach.com",
-    "signup": "https://zaricoach.com/signup/",
-    "tools": {
-      "resume": "https://zaricoach.com/ai-resume-writer/",
-      "linkedin": "https://zaricoach.com/ai-linkedin-optimizer/",
-      "interview": "https://zaricoach.com/ai-interview-coach/",
-      "salary": "https://zaricoach.com/salary-negotiation-coach/",
-      "atsChecker": "https://zaricoach.com/free-resume-checker/"
-    }
   }
 }

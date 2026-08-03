@@ -212,35 +212,11 @@
 </section>
 {% endif %}
 
-{# ─── ZARI AI TOOL CTA ──────────────────────────────────────── #}
-{% set _zariMap = {
-  "resume":      { "url": site.zariCoach.tools.resume,     "label": "AI Resume Writer",      "desc": "Get an ATS-optimized resume in minutes — free to start, no credit card." },
-  "linkedin":    { "url": site.zariCoach.tools.linkedin,   "label": "AI LinkedIn Optimizer", "desc": "Rebuild your headline, About section, and keyword profile with AI." },
-  "interview":   { "url": site.zariCoach.tools.interview,  "label": "AI Interview Coach",    "desc": "Practice behavioral and technical interviews with an AI coach, 24/7." },
-  "negotiation": { "url": site.zariCoach.tools.salary,     "label": "AI Salary Coach",       "desc": "Get a custom negotiation script and market data — free to start." },
-  "ats":         { "url": site.zariCoach.tools.atsChecker, "label": "Free ATS Checker",      "desc": "Instant ATS audit — see exactly where your resume fails before a recruiter does." }
-} %}
-{% set _zariCta = _zariMap[serviceData.theme] %}
-{% if _zariCta %}
-<section class="section section-tight">
-  <div class="container zari-band">
-    <div class="zari-band-copy">
-      <p class="hero-eyebrow" style="margin-bottom:4px;">⚡ Powered by Zari — Askia's AI Coach</p>
-      <h3 class="zari-band-title">{{ _zariCta.label }} — Free to Start</h3>
-      <p class="zari-band-desc">{{ _zariCta.desc }} Want a human coach to review the output? That's what Askia is for.</p>
-    </div>
-    <div class="zari-band-actions">
-      <a class="btn btn-primary" href="{{ _zariCta.url }}" target="_blank" rel="noopener">Try Free →</a>
-    </div>
-  </div>
-</section>
-{% endif %}
-
 {# ─── CTA ─────────────────────────────────────────────────── #}
 <section class="rhub-cta">
   <div class="container rhub-cta-inner">
     <h2>{{ serviceData.cta.title if serviceData.cta else "Ready to get started?" }}</h2>
-    <p>{{ serviceData.cta.body if serviceData.cta else "Start free on Zari — AI-powered resume writing, interview coaching, and salary negotiation." }}</p>
+    <p>{{ serviceData.cta.body if serviceData.cta else "Apply to work with a coach on resume writing, interview prep, and salary negotiation." }}</p>
     <a class="btn btn-primary" href="{{ serviceData.cta.link if serviceData.cta else (serviceData.ctaLink or site.cta.link) }}">{{ serviceData.cta.label if serviceData.cta else (serviceData.ctaLabel or site.cta.label) }}</a>
   </div>
 </section>

@@ -39,7 +39,7 @@ const pageTypes = [
     primaryLink: (city) => `/${city.hubSlug}/`,
     primaryLabel: (city) => `See ${city.shortLabel} career coaching`,
     secondaryLink: "/land-your-next-role/",
-    secondaryLabel: "Book a strategy call",
+    secondaryLabel: "Apply now",
     relatedLinks: (city) => [
       { label: `${city.shortLabel} career coaching hub`, url: `/${city.hubSlug}/` },
       { label: "Interview prep", url: "/interview-prep/" },
@@ -545,7 +545,7 @@ const pageTypes = [
     primaryLink: (city) => `/${city.hubSlug}/`,
     primaryLabel: (city) => `See ${city.shortLabel} career coaching`,
     secondaryLink: "/land-your-next-role/",
-    secondaryLabel: "Book a strategy call",
+    secondaryLabel: "Apply now",
     relatedLinks: (city) => [
       { label: `${city.shortLabel} career coaching hub`, url: `/${city.hubSlug}/` },
       { label: "Resume writing", url: "/resume-writing/" },

@@ -62,4 +62,4 @@ A clear positioning narrative removes guesswork and helps the right people say y
 
 ## If you want a plan
 
-Book a call and we will map the fastest path to your next role in Detroit.
+Apply now and we will map the fastest path to your next role in Detroit.

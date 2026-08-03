@@ -21,7 +21,7 @@ module.exports = roleTracks.flatMap((group) =>
         faq: leadGuide ? leadGuide.faq.map((f) => ({ question: f.q || f.question, answer: f.a || f.answer })) : [],
         cta: {
           title: `Ready to land your next ${role.name} role?`,
-          body: `Book a strategy call and get personalized feedback on your ${role.name} positioning.`
+          body: `Apply now and get personalized feedback on your ${role.name} positioning.`
         },
         guideCount: guides.length
       };
